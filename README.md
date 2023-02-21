@@ -1,6 +1,6 @@
 
 # Old Gus' Cypher System Reference Document (OG-CSRD)
-This document is an hypertext version of the February 10, 2023 edition of the Cypher System Reference Document (CSRD). It is intended to help Game Masters (GMs), players, and others interested in the Cypher System to learn more about it, create characters, worlds, and share stories together.
+This document is an hypertext version of the February 10, 2023 edition of the [Cypher System Reference Document (CSRD)](http://csol.montecookgames.com/). It is intended to help Game Masters (GMs), players, and others interested in the Cypher System to learn more about it, create characters, worlds, and share stories together.
 
 This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the Cypher System Open License, found at http://csol.montecookgames.com
 
@@ -13,9 +13,10 @@ In compiling Old Gus' Cypher System Reference Document (OG-CSRD) from the source
 ### Ease of Use
 
 The document should be one single, self-enclosed page. The document should organize CSRD material as efficiently and consistently as possible, with "quick reference" navigation providing navigation to the most frequently used parts of the document. The document should be equally readable on a mobile phone, desktop, or screen-reader.
-Alignment with the Cypher System Rulebook
 
-The document should generally align the CSRD content to the Cypher System Rulebook. Players and GMs should have little trouble "getting on the same page" even if they are reading from the two different sources.
+### Alignment with the Cypher System Rulebook
+
+The document should generally align the CSRD content to the [Cypher System Rulebook](https://www.montecookgames.com/store/product/cypher-system-rulebook-2/). Players and GMs should have little trouble "getting on the same page" even if they are reading from the two different sources.
 
 ### Genre and Editorial Spirit
 
@@ -23,7 +24,7 @@ Care should be taken when incorporating content, streamlining a a single-stream 
 
 ### Embrace Community and Designer Wisdom
 
-Editor's notes should draw upon the experiences of people who have spent years running and teaching the Cypher System (like the fine folks of the Cypher Unlimited Discord Server). Valuable blog posts from Monte Cook Games' "Game Better" series of blog posts should be linked where applicable.
+Editor's notes should draw upon the experiences of people who have spent years running and teaching the Cypher System (like the fine folks of the [Cypher Unlimited Discord Server](https://discord.com/invite/WQYRWhn)). Valuable blog posts from [Monte Cook Games' "Game Better"](https://www.montecookgames.com/category/all-news/game-better/) series of blog posts should be linked where applicable.
 
 ## Future Plans
 
