@@ -11,6 +11,10 @@
 		@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,i,bi|Teko:300,400,500,600,700,i,bi|Orbitron:400,500,600,700,800,900,i,bi);	
 		/* scroll offset for fixed navbar */
 		html { scroll-padding-top: 5rem; }
+		/* navbar link click color override */
+		nav ul.navbar-nav li.nav-item ul li a.dropdown-item:active {
+  			background-color: #238d94 !important;
+  		}
 		/* override font */
 		body { 
 			font-family: 'Open Sans', sans-serif;
@@ -343,7 +347,7 @@
 			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1080 1080' style='enable-background:new 0 0 1080 1080%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%238dd2de%3B%7D.st2%7Bfont-family:'MyriadPro-Regular'%3B%7D.st3%7Bfont-size:12px%3B%7D%3C/style%3E%3Crect x='-0.7' y='-1.5' class='st0' width='1080.7' height='1080.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='technology-fantastic-fill'%3E%3Cpath class='st1' d='M241.6 63.2c-0.5 43.7-16.3 81-47.4 111.9c-30.8 30.9-67.9 46.7-111.2 47.4c0.4 0 0.9 0 1.3 0.1c42.8 1 79.4 16.7 109.9 47.1c30.6 30.6 46.4 67.2 47.4 110v0.6c0.9-43 16.6-79.9 47.2-110.6c31.1-31 68.5-46.7 112.2-47.2c-43.7-0.5-81.1-16.3-112.2-47.4C257.8 144.2 242.1 106.9 241.6 63.2 M486.8 352.9c21.4-32.2 48.1-40.4 80-24.6c30.8 15.2 46.4 48.4 46.9 99.6c35-27.6 43.6-74.3 26-139.9c-17.7-65.7-61-85.2-129.9-58.6c-80.6 31.2-138 82-172 152.5c-50.5 104.7-32 171.2 55.4 199.6c-47.9 39.8-86.8 17.8-116.8-66c-25.7 36.9-28.4 78.3-8 124.2c29 65.3 75 80.7 137.9 46.2c90.1-49.6 141.7-118.6 154.7-206.9C570.9 412.9 546.1 370.9 486.8 352.9 M770.8 766c83-100.1 139.5-268.7 169.5-505.8c65.5 52.2 65.8 196.8 0.9 433.8c89.2-35.5 133.8-158.1 133.6-367.9c0-209.8-93.1-310.1-279.1-300.7c-170.1 9-290.2 72-360.2 189.1C568.1 141 649.3 129.4 679 179.8c54.3 91.9 43.8 203.8-31.5 335.7c-75.4 131.9-149.3 210.5-221.8 236c-107.4 53.4-173.3 26.4-197.6-81c-35.2 6.7-50.6 54.5-46.1 143.5c-58.3-73.8-55.9-230.2 7.2-469.2C32.6 482.9-24.2 646.9 18.8 836.8c42.9 189.9 165.2 256.4 367 199.4C527.9 994.5 656.3 904.4 770.8 766z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Ctext transform='matrix(1 0 0 1 517.9302 542.522)' class='st2 st3'%3E394b68%3C/text%3E%3C/svg%3E");
 		}
 		/* color theming by part */
-		#part0 h2, ul.og-csrd-toc li.og-csrd-toc-part0 span a, #part0 .og-csrd-tabbed-item, .bg-og-csrd-navbar {
+		#part0 h2, ul.og-csrd-toc li.og-csrd-toc-part0 span a, #part0 .og-csrd-tabbed-item {
 			background-color: #625;
 		}
 		#part1 h2, ul.og-csrd-toc li.og-csrd-toc-part1 span a, #part1 .og-csrd-tabbed-item {
@@ -413,7 +417,7 @@
 	</style>
 </head>
 <body class="bg-dark">
-<nav id="navbar-og-csrd" class="container-xxl navbar navbar-expand-md navbar-dark bg-og-csrd-navbar sticky-top">
+<nav id="navbar-og-csrd" class="container-xxl navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 	<div class="container-xxl">
 		<a class="navbar-brand" href="#top">OG-CSRD</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -424,15 +428,15 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbar-og-csrd-characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">Characters</a>
 					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbar-og-csrd-characters">
-						<li><a class="dropdown-item" href="#contents-characters">Creating Your Character</a></li>
-						<li><a class="dropdown-item" href="#choose-descriptor">Descriptor</a></li>
-						<li><a class="dropdown-item" href="#choose-type">Type</a></li>
-						<li><a class="dropdown-item" href="#choose-focus">Focus</a></li>
-						<li><a class="dropdown-item" href="#choose-flavor">Flavor</a></li>
-						<li><a class="dropdown-item" href="#choose-skills">Skills</a></li>
-						<li><a class="dropdown-item" href="#choose-abilities">Abilities</a></li>
-						<li><a class="dropdown-item" href="#choose-character-arc">Character Arcs</a></li>
-						<li><a class="dropdown-item" href="#character-advancement">Character Advancement</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#contents-characters">Creating Your Character</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-descriptor">Descriptor</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-type">Type</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-focus">Focus</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-flavor">Flavor</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-skills">Skills</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-abilities">Abilities</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-character-arc">Character Arcs</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#character-advancement">Character Advancement</a></li>
 					</ul>
 				</li>
 				<li class="nav-item dropdown">
@@ -19261,7 +19265,7 @@
 		<p><strong>Editor's Notes</strong> &mdash; Perhaps more than any other genre, creating a superhero story requires mixing genres together:</p>
 		<ul class="list-unstyled og-csrd-indent">
 			<li><p><strong>Origins:</strong> Superhero stories frequently involve a "clash-of-worlds", especially when they involve a heroe's origin.</p></li>
-			<li><p><strong>Timeline:</strong> The backdrop is frequently <a href="#chapter-14-modern">modern</a> with near-future elements of <a href="#chapter-16-science-fiction">science fiction</a> as a backbackdrop, but alien invasions and extradimensional visitors are frequent. Alternatively, the setting might be a timeline where <a href="#chapter-21-fantasy">historical</a> events played out differently&mdash;despite being "in the past", certain technologies are quite advanced.</p></li>
+			<li><p><strong>Timeline:</strong> The backdrop is frequently <a href="#chapter-14-modern">modern</a> with near-future elements of <a href="#chapter-16-science-fiction">science fiction</a> as a backdrop, but alien invasions and extradimensional visitors are frequent. Alternatively, the setting might be a timeline where <a href="#chapter-21-fantasy">historical</a> events played out differently&mdash;despite being "in the past", certain technologies are quite advanced.</p></li>
 			<li><p><strong>Mystical Forces:</strong> A PC might have magic powers, bringing elements of <a href="#chapter-13-fantasy">fantasy</a> into play.</p></li>
 			<li><p><strong>Love Interests:</strong> Heroes frequently have&mdash;or are forced to bear witness to&mdash;<a href="#chapter-17-romance">romance</a>.</p></li>
 			<li><p><strong>The Inevitable:</strong> High-tier superheroes might need to defend the world against an ancient <a href="#chapter-16-horror">horror</a> from beyond.</p></li>
@@ -20036,7 +20040,7 @@
 		<dt>GM Intrusion</dt>
 		<dd>This optional entry in the stats suggests a way to use <a href="#gm-intrusion">GM intrusion</a> in an encounter with the creature. It's just one possible idea of many, and the GM is encouraged to come up with their own uses of the game mechanic.</dd>
 	</dl>
-	<div class="og-csrd-ednote" id="create-a-new-creature">
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3" id="create-a-new-creature">
 		<p><strong>Editor's Notes</strong> &mdash; Need to create a new creature? Read this excellent <a href="https://www.montecookgames.com/make-a-creature-in-10-minutes-or-less-2/">Make a Cypher System Creature in Ten Minutes or Less</a> blog post by Cypher System designer <strong>Charles Ryan</strong>.</p>
 	</div>
 	<hr>
