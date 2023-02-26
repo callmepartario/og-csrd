@@ -399,7 +399,9 @@
 				column-count: 5	;
 			}
 		}
-		ul.og-csrd-quick-reference li {
+		ul.og-csrd-quick-reference li, ul.og-csrd-quick-reference-compact li {
+			display: block;
+			break-inside: avoid-column;
 			padding-bottom: 0.25rem;
 		}
 		/* legends with iconography explanations */
@@ -582,7 +584,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Cypher System Reference Document
 	</h1>
-	<p class="small text-center">version 1.04l (2023-02-25)</p>
+	<p class="small text-center">version 1.04m (2023-02-25)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark" href="https://callmepartario.github.io/og-csrd">callmepartario.github.io/og-csrd</a>
 			<li class="list-inline-item"><a class="btn btn-dark" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Player PDF: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSPG</abbr></a></li>
@@ -8483,9 +8485,11 @@
 		<li id="ability-enchanted-weapon">
 			<p><strong>Enchanted Weapon (1 Intellect point):</strong> You attune yourself to a physical weapon, such as a sword, hammer, or bow. You know exactly where it is if it is within a short distance of you, and you know its general direction and distance if farther away. All of your other focus abilities require you to be holding or wielding this weapon. You can be attuned to only one weapon at a time; attuning yourself to a second weapon loses the attunement to the first one. Action to initiate, ten minutes to complete. Enabler.</p>
 		</li>
-		<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-			<p>If you attune yourself to a different weapon, come up with a story reason for why you are able to do that and why you chose this new weapon.</p>
-		</div>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>If you attune yourself to a different weapon, come up with a story reason for why you are able to do that and why you chose this new weapon.</p>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
 		<li id="ability-encouragement">
 			<p><strong>Encouragement (1 Intellect point):</strong> While you maintain this ability through ongoing inspiring oration, your allies within short range ease one of the following task types (your choice): defense tasks, attack tasks, or tasks related to any skill that you are trained or specialized in. Action.</p>
 		</li>
