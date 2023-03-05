@@ -584,7 +584,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Cypher System Reference Document
 	</h1>
-	<p class="small text-center">version 1.05i (2023-03-05)</p>
+	<p class="small text-center">version 1.05k (2023-03-05)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark" href="https://callmepartario.github.io/og-csrd">callmepartario.github.io/og-csrd</a>
 			<li class="list-inline-item"><a class="btn btn-dark" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Player PDF: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSPG</abbr></a></li>
@@ -1005,7 +1005,7 @@
 	</div>
 	<h5 id="effort-and-damage">Effort and Damage<a class="og-csrd-header-anchor" href="#effort-and-damage" title="Permalink" aria-hidden="true"></a></h5>
 	<p>Instead of applying Effort to ease your attack, you can apply Effort to increase the amount of damage you inflict with an attack. For each level of Effort you apply in this way, you inflict 3 additional points of damage. This works for any kind of attack that inflicts damage, whether a sword, a crossbow, a mind blast, or something else.</p>
-	<p>When using Effort to increase the damage of an area attack, such as the explosion created by an <a href="#type-adept">Adept</a>'s <a href="#ability-concussion">Concussion</a> ability, you inflict 2 additional points of damage instead of 3 points. However, the additional points are dealt to all targets in the area. Further, even if one or more of the targets resist the attack, they still take 1 point of damage.</p>
+	<p>When using Effort to increase the damage of an <a href="#special-situation-area-attacks">area attack</a>, such as the explosion created by an <a href="#type-adept">Adept</a>'s <a href="#ability-concussion">Concussion</a> ability, you inflict 2 additional points of damage instead of 3 points. However, the additional points are dealt to all targets in the area. Further, even if one or more of the targets resist the attack, they still take 1 point of damage.</p>
 	<h5 id="multiple-uses-of-effort-and-edge">Multiple Uses of Effort and Edge<a class="og-csrd-header-anchor" href="#multiple-uses-of-effort-and-edge" title="Permalink" aria-hidden="true"></a></h5>
 	<p>If your Effort is 2 or higher, you can apply Effort to multiple aspects of a single action. For example, if you make an attack, you can apply Effort to your attack roll and apply Effort to increase the damage.</p>
 	<p class="og-csrd-indent">The total amount of Effort you apply can't be higher than your Effort score. For example, if your Effort is 2, you can apply up to two levels of Effort. You could apply one level to an attack roll and one level to its damage, two levels to the attack and no levels to the damage, or no levels to the attack and two levels to the damage.</p>
@@ -9976,7 +9976,7 @@
 			<p><strong>Power Strike (3+ Might points):</strong> If you successfully attack a target, you knock it prone in addition to inflicting damage. The target must be your size or smaller. You can knock down a target larger than you if you apply a level of Effort to do so (rather than to ease the attack). Enabler.</p>
 		</li>
 		<li id="ability-power-crash">
-			<p><strong>Power Crash (3 Intellect points):</strong> You strike your enchanted weapon against the ground (or a similar large surface), creating an explosion of energy that affects an area up to immediate range from that point. (If your enchanted weapon is a ranged weapon, you can instead target a point within close range to be the center of the explosion.) The blast inflicts 2 points of damage to all creatures or objects within the area (except for you). Because this is an area attack, adding Effort to increase your damage works differently than it does for single-target attacks. If you apply a level of Effort to increase the damage, add 2 points of damage for each target, and even if you fail your attack roll, all targets in the area still take 1 point of damage. Action.</p>
+			<p><strong>Power Crash (3 Intellect points):</strong> You strike your enchanted weapon against the ground (or a similar large surface), creating an explosion of energy that affects an area up to immediate range from that point. (If your enchanted weapon is a ranged weapon, you can instead target a point within close range to be the center of the explosion.) The blast inflicts 2 points of damage to all creatures or objects within the area (except for you). Because this is an <a href="#special-situation-area-attacks">area attack</a>, adding Effort to increase your damage works differently than it does for single-target attacks. If you apply a level of Effort to increase the damage, add 2 points of damage for each target, and even if you fail your attack roll, all targets in the area still take 1 point of damage. Action.</p>
 		</li>
 		<li id="ability-powered-armor">
 			<p><strong>Powered Armor:</strong> You have a suit of powered armor. It is effectively medium armor (+2 to Armor); however, you suffer no Speed penalties for wearing it. Also, your suit grants other benefits: it provides breathable air for up to eight hours and a comfortable environment even in bitter heat, cold, vacuum, or underwater to a depth of 4 miles (6 km); and it allows you to see in the dark up to a short distance. Getting into the suit requires an action (and, of course, access to your suit). Enabler.</p>
@@ -11723,9 +11723,11 @@
 	<hr>
 	<h4 id="rules-actions">Actions <a class="og-csrd-header-anchor" href="#rules-actions" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="alert bg-dark ps-4">
-		<h5 class="og-csrd-header-small" id="choose-actions">Common Actions <a class="og-csrd-header-anchor" href="#choose-actions" title="Permalink" aria-hidden="true"></a></h5>
+		<h5 class="og-csrd-header-small" id="choose-actions">Quick Reference: Actions <a class="og-csrd-header-anchor" href="#choose-actions" title="Permalink" aria-hidden="true"></a></h5>
 		<ul class="list-unstyled og-csrd-quick-reference">
 			<li><a href="#rules-action-attack">Attack</a></li>
+			<li><a href="#special-situation-area-attacks">Attack, Area</a></li>
+			<li><a href="#special-situation-attacking-objects">Attack, Objects</a></li>
 			<li><a href="#action-activate-a-special-ability">Activate a Special Ability</a></li>
 			<li><a href="#movement-climbing">Climbing</a></li>
 			<li><a href="#action-defend">Defend</a></li>
@@ -13075,7 +13077,7 @@
 	<ul class="list-unstyled og-csrd-indent">
 		<li><p><strong>Sturdy:</strong> +2 to your Might Pool.</p></li>
 		<li><p><strong>Skill:</strong> You are trained in intimidation</p></li>
-		<li><p><strong>Dragonbreath (3 Might points):</strong> You breathe out a blast of energy in an immediate area. Choose one type of energy (arcane, cold, fire, thorn, and so on); the blast inflicts 2 points of damage of this kind of energy (ignores Armor) to all creatures or objects within the area. Because this is an area attack, adding Effort to increase your damage works differently than it does for single-target attacks. If you apply a level of Effort to increase the damage, add 2 points of damage for each target, and even if you fail your attack roll, all targets in the area still take 1 point of damage. Action.</p></li>
+		<li><p><strong>Dragonbreath (3 Might points):</strong> You breathe out a blast of energy in an immediate area. Choose one type of energy (arcane, cold, fire, thorn, and so on); the blast inflicts 2 points of damage of this kind of energy (ignores Armor) to all creatures or objects within the area. Because this is an <a href="#special-situation-area-attacks">area attack</a>, adding Effort to increase your damage works differently than it does for single-target attacks. If you apply a level of Effort to increase the damage, add 2 points of damage for each target, and even if you fail your attack roll, all targets in the area still take 1 point of damage. Action.</p></li>
 		<li><p><strong>Draconic Resistance:</strong> You gain +2 Armor against the type of energy you create with your dragonbreath.</p></li>
 		<li><p><strong>Scaly:</strong> +1 to Armor.</p></li>
 		<li><p><strong>Inability:</strong> You have difficulty relating to non-dragons. Tasks to persuade non-dragons are hindered.</p></li>
@@ -20769,7 +20771,7 @@
 		<li><p><strong>Movement:</strong> Short; long when flying</p></li>
 		<li><p><strong>Modifications:</strong> History and magical knowledge as level 10</p></li>
 		<li>
-			<p><strong>Combat:</strong> A demon lord attacks with a bolt of evil energy or fire up to a long distance away, inflicting 12 points of damage on one target or 9 points of damage on all targets within short range of the primary target. Targets caught in the area attack who succeed on a Speed defense roll still suffer 5 points of damage. A demon lord can make melee attacks on all targets within immediate range as an action.</p>
+			<p><strong>Combat:</strong> A demon lord attacks with a bolt of evil energy or fire up to a long distance away, inflicting 12 points of damage on one target or 9 points of damage on all targets within short range of the primary target. Targets caught in the <a href="#special-situation-area-attacks">area attack</a> who succeed on a Speed defense roll still suffer 5 points of damage. A demon lord can make melee attacks on all targets within immediate range as an action.</p>
 			<p>They can also call on a variety of other magical abilities that mimic the effect of any cypher of level 5 or lower&mdash;usually destructive, painful, and transformative effects.</p>
 			<p>A demon lord automatically regains 3 points of health per round. They typically have the following abilities:</p>
 			<ul class="indent-none ml-3">
@@ -20863,7 +20865,7 @@
 		<li><p><strong>Modifications:</strong> Stealth as level 6</p></li>
 		<li>
 			<p><strong>Combat:</strong> Air elementals slice foes up to a short distance away with blades of fierce wind, or use blasts of air to throw small objects. Once every other round, an air elemental can turn into a tornado-like vortex that inflicts 4 points of damage to all creatures within immediate range. In this form, the elemental gains +1 to Armor and an additional +2 to Armor against physical projectile weapons such as arrows and javelins. The elemental reverts to its normal form at the start of its next turn.</p>
-			<p>An air elemental can disperse itself over a short area as an action. In this form it is invisible, unable to attack, and can't be attacked except with area attacks. The elemental can remain in this form indefinitely, but must use an action to return to its normal form.</p>
+			<p>An air elemental can disperse itself over a short area as an action. In this form it is invisible, unable to attack, and can't be attacked except with <a href="#special-situation-area-attacks">area attacks</a>. The elemental can remain in this form indefinitely, but must use an action to return to its normal form.</p>
 			<p>Air elementals are elusive opponents and hard to destroy. If an air elemental is reduced to 0 health, there is a 50 percent chance that it rejuvenates a few rounds later with 6 health. The elemental then continues to fight or flees to cause trouble elsewhere.</p>
 		</li>
 		<li><p><strong>Interaction:</strong> Air elementals see and hear many things, but they are flighty and what they remember usually isn't important or relevant. They can be summoned with magic but don't like being controlled, and there is a 10 percent chance that they free themselves and strike out on their own.</p></li>
@@ -25047,7 +25049,6 @@
 		<ul class="list-unstyled og-csrd-quick-reference">
 			<li><a href="#crafting-magic-items">Crafting Magic Items</a></li>
 			<li><a href="#descriptors-as-species">Descriptors as Species</a></li>
-			<li><a href="#extended-vehicular-combat">Extended Vehicular Combat</a></li>
 			<li><a href="#optional-rule-handling-pcs-as-children">Handling PCs as Children</a></li>
 			<li><a href="#horror-mode">Horror Mode</a></li>
 			<li><a href="#optional-rule-infatuation">Infatuation</a></li>
@@ -25061,6 +25062,8 @@
 			<li><a href="#optional-rule-spellcasting">Spellcasting</a></li>
 			<li><a href="#horror-shock">Shock</a></li>
 			<li><a href="#variant-rule-two-descriptors">Two Descriptors</a></li>
+			<li><a href="#action-vehicular-combat">Vehicular Combat</a></li>
+			<li><a href="#extended-vehicular-combat">Vehicular Combat, Extended</a></li>
 			<li><a href="#void-rules">Void Rules</a></li>
 		</ul>
 	</div>
