@@ -302,7 +302,7 @@
 			background-position: 0 0.15em;
 			padding-left: 1.5em;
 		}
-		ul.og-csrd-abilities-array li, li, ul.og-csrd-technologies li, .og-csrd-legend ul li {
+		ul.og-csrd-abilities-array li, ul.og-csrd-technologies li, .og-csrd-legend ul li {
 			margin-bottom: 0.25rem; 
 		}
 		ul.og-csrd-abilities-catalog li {
@@ -584,7 +584,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Cypher System Reference Document
 	</h1>
-	<p class="small text-center">version 1.05f (2023-03-03)</p>
+	<p class="small text-center">version 1.05g (2023-03-05)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark" href="https://callmepartario.github.io/og-csrd">callmepartario.github.io/og-csrd</a>
 			<li class="list-inline-item"><a class="btn btn-dark" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Player PDF: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSPG</abbr></a></li>
@@ -1058,7 +1058,7 @@
 	<p>Character types and foci grant PCs special abilities at each new tier. Using these abilities usually costs points from your stat Pools; the cost is listed in parentheses after the ability name. Your Edge in the appropriate stat can reduce the cost of the ability, but remember that you can apply Edge only once per action. For example, let's say an <a href="#type-adept">Adept</a> with an Intellect Edge of 2 wants to use their <a href="#ability-onslaught">Onslaught</a> ability to create a bolt of force, which costs 1 Intellect point. They also want to increase the damage from the attack by using a level of Effort, which costs 3 Intellect points. The total cost for their action is 2 points from their Intellect Pool (1 point for the bolt of force, plus 3 points for using Effort, minus 2 points from their Edge).</p>
 	<p class="og-csrd-indent">Sometimes the point cost for an ability has a + sign after the number. For example, the cost might be given as "2+ Intellect points." That means you can spend more points or more levels of Effort to improve the ability further, as explained in the ability description.</p>
 	<p class="og-csrd-indent">Many special abilities grant a character the option to perform an action that they couldn't normally do, such as projecting rays of cold or attacking multiple foes at once. Using one of these abilities is an action unto itself, and the end of the ability's description says "Action" to remind you. It also might provide more information about when or how you perform the action.</p>
-	<p class="og-csrd-indent">Some special abilities allow you to perform a familiar action&mdash;one that you can already do&mdash;in a different way. For example, an ability might let you wear heavy armor, reduce the difficulty of Speed defense rolls, or add 2 points of fire damage to your weapon damage. These abilities are called enablers. Using one of these abilities is not considered an action. Enablers either function constantly (such as being able to wear heavy armor, which isn't an action) or happen as part of another action (such as adding fire damage to your weapon damage, which happens as part of your attack action). If a special ability is an enabler, the end of the ability's description says "Enabler" to remind you.</p>
+	<p class="og-csrd-indent">Some special abilities allow you to perform a familiar action&mdash;one that you can already do&mdash;in a different way. For example, an ability might let you wear heavy armor, reduce the difficulty of Speed defense rolls, or add 2 points of fire damage to your weapon damage. These abilities are called enablers. Using one of these abilities is not considered an action. Enablers either function constantly (such as being able to wear heavy armor, which isn't an action) or happen as part of another action (such as adding fire damage to your weapon damage, which happens as part of your <a href="#rules-action-attack">attack action</a>). If a special ability is an enabler, the end of the ability's description says "Enabler" to remind you.</p>
 	<p class="og-csrd-indent">Some abilities specify a duration, but you can always end one of your own abilities anytime you wish.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>Because the Cypher System covers so many genres, not all of the descriptors, types, and foci might be available for players. The GM will decide what's available in their particular game and whether anything is modified, and they'll let the players know.</p>
@@ -5441,6 +5441,10 @@
 			<li>or <a href="#focus-customizing-foci">Customizing Foci</a></li>
 		</ul>
 	</div>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Editor's Notes</strong> &mdash; &ddagger; denotes foci that are uncategorized by the CSRD. Their inclusion and categorization is an editorial addition.<p>
+		</div>
+	<hr>
 	<h5 id="focus-category-ally-use">Ally Use<a class="og-csrd-header-anchor" href="#focus-category-ally-use" title="Permalink" aria-hidden="true"></a></h5>
 	<div class="alert bg-dark ps-4">
 		<p>The following are examples and not meant to provide a complete list of all possible foci in this category.</p>
@@ -5746,6 +5750,9 @@
 			<li><a href="#focus-flies-faster-than-a-bullet">Flies Faster Than a Bullet</a></li>
 			<li><a href="#focus-masters-spells">Masters Spells</a></li>
 			<li><a href="#focus-speaks-for-the-land">Speaks for the Land</a></li>
+			<li><a href="#focus-takes-animal-shape">Takes Animal Shape</a>&ddagger;</li>
+			<li><a href="#focus-uses-wild-magic">Uses Wild Magic</a>&ddagger;</li>
+			<li><a href="#focus-walks-the-wild-woods">Walks the Wild Woods</a>&ddagger;</li>
 		</ul>
 	</div>
 	<p>Most foci have a basic theme, a "character story" that logically leads to a series of related abilities. However, certain foci themes are so wide that they don't fit into any other category except an irregular one of their own.</p>
@@ -5849,6 +5856,7 @@
 			<li><a href="#focus-rages">Rages</a></li>
 			<li><a href="#focus-slays-monsters">Slays Monsters</a></li>
 			<li><a href="#focus-throws-with-deadly-accuracy">Throws With Deadly Accuracy</a></li>
+			<li><a href="#focus-wields-an-enchanted-weapon">Wields an Enchanted Weapon</a>&ddagger;</li>
 			<li><a href="#focus-wields-two-weapons-at-once">Wields Two Weapons at Once</a></li>
 		</ul>
 	</div>
@@ -9150,7 +9158,7 @@
 			<p><strong>Ice Creation (4+ Intellect points):</strong> You create a solid object of ice that is your size or smaller. The object is crude and can have no moving parts, so you can make a sword, a shield, a short ladder, and so on. Your ice objects are as strong as iron, but if you're not in constant contact with them, they function for only 1d6 + 6 rounds before breaking or melting. For example, you can make and wield an ice sword, but if you give it to another PC, the sword won't last as long for that character. In addition to the normal options for using Effort, you can choose to use Effort to create objects larger than you. For each level of Effort used in this way, you can create an object up to twice again as large as you. Action.</p>
 		</li>
 		<li id="ability-ice-storm">
-			<p><strong>Ice Storm:</strong> You attempt an additional Intellect task as part of your Cold Burst attack, and if successful, you blind foes for up to one minute with a layer of freezing ice. All tasks of blinded creatures are hindered by two steps. Enabler.</p>
+			<p><strong>Ice Storm:</strong> You attempt an additional Intellect task as part of your <a href="#ability-cold-burst">Cold Burst</a> attack, and if successful, you blind foes for up to one minute with a layer of freezing ice. All tasks of blinded creatures are hindered by two steps. Enabler.</p>
 		</li>
 		<li id="ability-ignition">
 			<p><strong>Ignition (4 Intellect points):</strong> You designate a creature or flammable object you can see within short range to catch fire. This is an Intellect attack. The target takes 6 points of ambient damage per round until the flames are extinguished, which a creature can do by dousing itself in water, rolling on the ground, or smothering the flames. Usually, putting out the flames takes an action. Action to initiate.</p>
