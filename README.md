@@ -32,3 +32,5 @@ Editor's notes should draw upon the experiences of people who have spent years r
 ## Future Plans
 
 This is a living document and corrections will need to be made in the future. Hopefully some additions, too, and if ever Monte Cook Games sees fit to expand the CSRD further, incorporating that content into the page.
+
+**Contact the Editor:** partario.flynn@gmail.com
