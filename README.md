@@ -32,8 +32,3 @@ Editor's notes should draw upon the experiences of people who have spent years r
 ## Future Plans
 
 This is a living document and corrections will need to be made in the future. Hopefully some additions, too, and if ever Monte Cook Games sees fit to expand the CSRD further, incorporating that content into the page.
-
-- **Error Correction:** Catch errors in the text and navigation coding.
-- **Provide a Downloadable Edition:** Provide a downloadable edition of the document.
-- **Print Styling:** Develop a print stylesheet for the document.
-- **Incorporate Feedback:** Learn how the document is recieved and improve things according to user feedback.
