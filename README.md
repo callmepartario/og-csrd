@@ -32,6 +32,6 @@ Editor's notes should draw upon the experiences of people who have spent years r
 Readers are encouraged to support the creators. Consider buying products listed in the [Additional Descriptors](https://callmepartario.github.io/og-csrd/#additional-descriptors) or [Additional Foci](https://callmepartario.github.io/og-csrd/#additional-foci) sections to ensure the longevity of our collective imaginations.
 ## Future Plans
 
-This is a living document and corrections will need to be made in the future. Hopefully some additions, too, and if ever Monte Cook Games sees fit to expand the CSRD further, incorporating that content into the page.
+This is a living document, and corrections will need to be made in the future. If ever Monte Cook Games expands the CSRD further, that new content should be incorporated that content into this document accordingly.
 
 **Contact the Editor:** partario.flynn@gmail.com
