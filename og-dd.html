@@ -1,0 +1,1745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Old Gus' Daft Drafts</title>
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://callmepartario.github.io/og-csrd">
+	<meta property="og:title" content="OG-DD | Old Gus' Daft Drafts">
+	<meta property="og:description" content="A set of original mechanics for the Cypher System from Monte Cook Games.">
+	<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/8e/6NpLOqOsJ7.jpg">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<style>
+		/* Body: Open Sans */
+		/* Headers: Lexend Zetta substitutes for Refridgerator Deluxe. */
+		/* Chapter Identifiers: Lexend Zetta substitutes for Bank Gothic */
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,i,bi|Teko:300,400,500,600,700,i,bi|BenchNine:400,i,bi|Lexend+Zetta:400,500,600,700,800,900,i,bi|Walter+Turncoat:400,i,bi);	
+		/* scroll offset for fixed navbar */
+		html { scroll-padding-top: 5rem; }
+		.og-csrd-navbar { 
+			background-color: #1c1f21 !important;
+		}
+		/* navbar link click color override */
+		nav ul.navbar-nav li.nav-item ul li a.dropdown-item:active {
+  			background-color: #238d94 !important;
+  		}
+		/* override font */
+		body { 
+			font-family: 'Open Sans', sans-serif;
+			background-color: #e3d0a9;
+		}
+		/* override link and body coloration */
+		a { color: #daaf46; }
+		a:hover { color: #eed086; }
+		/* main content window */
+		.bg-og-csrd-content {
+			background-color: #17191a;
+		}
+		/* main content window */
+		a.og-csrd-header-anchor {
+			color: #2d3034;
+			width: 1.25rem;
+			height: 1.25rem;
+			text-decoration: none;
+			float: left;
+			display: inline;
+			margin-left: -1.1rem;
+			margin-bottom: 0;
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 400 400' style='enable-background:new 0 0 400 400%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%232d3034%3B%7D%3C/style%3E%3Crect x='-0.4' y='-0.9' class='st0' width='399.7' height='399.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer1_0_FILL'%3E%3Cpath class='st1' d='M234.4 166.4l-25.8 25.7l14.2 14.2c3.9 3.9 5.8 8.6 5.8 14.1v0c0 5.5-1.9 10.2-5.8 14.1l-73.3 73.3c-3.9 3.9-8.6 5.8-14.1 5.8v0.1c-5.5 0-10.1-2-14-5.9l-28.4-28.5c-3.9-3.9-5.9-8.5-5.9-13.9v-0.1c0-5.5 2-10.1 5.9-14l27.8-27.8c3.3-3.5 5-7.7 5-12.6c0-5-1.8-9.3-5.3-12.8c-3.5-3.5-7.8-5.2-12.8-5.2c-4.9 0-9.1 1.6-12.6 5l-27.8 27.8c-11 11-16.5 24.2-16.5 39.7c0 15.5 5.5 28.8 16.5 39.8l28.5 28.5c11 11 24.2 16.5 39.7 16.5c15.6 0 28.8-5.5 39.8-16.5l73.3-73.4c11-10.9 16.4-24.2 16.4-39.7s-5.5-28.8-16.4-39.8L234.4 166.4 M332.6 174.4c11-11 16.5-24.2 16.5-39.8c0-15.5-5.5-28.8-16.5-39.8l-28.4-28.4c-11-11-24.2-16.5-39.8-16.5c-15.5 0-28.7 5.5-39.7 16.5l-73.4 73.3c-11 11-16.5 24.2-16.5 39.8c0 15.5 5.5 28.8 16.5 39.8l14.2 14.2l25.6-25.7l-14.1-14.2c-3.9-3.9-5.9-8.6-5.8-14v-0.1c-0.1-5.5 1.9-10.1 5.8-14l73.3-73.3c3.9-3.9 8.6-5.8 14.1-5.8l0-0.1c5.5 0 10.2 1.9 14.1 5.8l28.4 28.4c3.9 3.9 5.8 8.6 5.8 14l0 0.1c0 5.4-2 10.1-5.8 14l-27.9 27.8c-3.3 3.5-5 7.7-5.1 12.6c0.1 5 1.9 9.3 5.5 12.9c3.6 3.5 7.8 5.3 12.8 5.3c4.9 0 9.1-1.7 12.6-5.1L332.6 174.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+			background-size: contain;
+			background-position: center bottom;
+			background-repeat: no-repeat;
+		}
+		/* anchor link positioning by header level */
+		h4 a.og-csrd-header-anchor {
+			margin-top: 0.75rem;
+		}
+		h5 a.og-csrd-header-anchor {
+			margin-top: 0.6rem;
+		}
+		h6 a.og-csrd-header-anchor {
+			margin-top: 0.6rem;
+		}
+		/* anchor link positioning for alternate header styles */
+		h4.og-csrd-header-small a.og-csrd-header-anchor, h5.og-csrd-header-small a.og-csrd-header-anchor, h6.og-csrd-header-small a.og-csrd-header-anchor {
+			margin-top: 0.6rem;
+		}
+		h5.og-csrd-tabbed-item a.og-csrd-header-anchor {
+			margin-left: -1.75rem;
+		}
+		h5.og-csrd-technologies a.og-csrd-header-anchor {
+			margin-top: 1.25rem;
+		}
+		h5.og-csrd-header-h5-icon a.og-csrd-header-anchor {
+			margin-top: 1.25rem;
+		}
+		h5.og-csrd-header-small-icon a.og-csrd-header-anchor {
+			margin-top: 0.75rem;
+		}
+		h6.og-csrd-header-h6-icon a.og-csrd-header-anchor {
+			
+		}
+		h6.og-csrd-tabbed-item a.og-csrd-header-anchor {
+			margin-left: -1.75rem;
+		}
+		/* anchor link iconography */
+		h4:hover a.og-csrd-header-anchor, h5:hover a.og-csrd-header-anchor, h6:hover a.og-csrd-header-anchor {
+			color: #238d94;
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 400 400' style='enable-background:new 0 0 400 400%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%23238d94%3B%7D%3C/style%3E%3Crect x='-0.4' y='-0.9' class='st0' width='399.7' height='399.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer1_0_FILL'%3E%3Cpath class='st1' d='M234.4 166.4l-25.8 25.7l14.2 14.2c3.9 3.9 5.8 8.6 5.8 14.1v0c0 5.5-1.9 10.2-5.8 14.1l-73.3 73.3c-3.9 3.9-8.6 5.8-14.1 5.8v0.1c-5.5 0-10.1-2-14-5.9l-28.4-28.5c-3.9-3.9-5.9-8.5-5.9-13.9v-0.1c0-5.5 2-10.1 5.9-14l27.8-27.8c3.3-3.5 5-7.7 5-12.6c0-5-1.8-9.3-5.3-12.8c-3.5-3.5-7.8-5.2-12.8-5.2c-4.9 0-9.1 1.6-12.6 5l-27.8 27.8c-11 11-16.5 24.2-16.5 39.7c0 15.5 5.5 28.8 16.5 39.8l28.5 28.5c11 11 24.2 16.5 39.7 16.5c15.6 0 28.8-5.5 39.8-16.5l73.3-73.4c11-10.9 16.4-24.2 16.4-39.7s-5.5-28.8-16.4-39.8L234.4 166.4 M332.6 174.4c11-11 16.5-24.2 16.5-39.8c0-15.5-5.5-28.8-16.5-39.8l-28.4-28.4c-11-11-24.2-16.5-39.8-16.5c-15.5 0-28.7 5.5-39.7 16.5l-73.4 73.3c-11 11-16.5 24.2-16.5 39.8c0 15.5 5.5 28.8 16.5 39.8l14.2 14.2l25.6-25.7l-14.1-14.2c-3.9-3.9-5.9-8.6-5.8-14v-0.1c-0.1-5.5 1.9-10.1 5.8-14l73.3-73.3c3.9-3.9 8.6-5.8 14.1-5.8l0-0.1c5.5 0 10.2 1.9 14.1 5.8l28.4 28.4c3.9 3.9 5.8 8.6 5.8 14l0 0.1c0 5.4-2 10.1-5.8 14l-27.9 27.8c-3.3 3.5-5 7.7-5.1 12.6c0.1 5 1.9 9.3 5.5 12.9c3.6 3.5 7.8 5.3 12.8 5.3c4.9 0 9.1-1.7 12.6-5.1L332.6 174.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		}
+		h4:hover a.og-csrd-header-anchor:hover, h5:hover a.og-csrd-header-anchor:hover, h6:hover a.og-csrd-header-anchor:hover {
+			color: #7be7ee;
+			text-decoration: none;
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 400 400' style='enable-background:new 0 0 400 400%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%237be7ee%3B%7D%3C/style%3E%3Crect x='-0.4' y='-0.9' class='st0' width='399.7' height='399.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer1_0_FILL'%3E%3Cpath class='st1' d='M234.4 166.4l-25.8 25.7l14.2 14.2c3.9 3.9 5.8 8.6 5.8 14.1v0c0 5.5-1.9 10.2-5.8 14.1l-73.3 73.3c-3.9 3.9-8.6 5.8-14.1 5.8v0.1c-5.5 0-10.1-2-14-5.9l-28.4-28.5c-3.9-3.9-5.9-8.5-5.9-13.9v-0.1c0-5.5 2-10.1 5.9-14l27.8-27.8c3.3-3.5 5-7.7 5-12.6c0-5-1.8-9.3-5.3-12.8c-3.5-3.5-7.8-5.2-12.8-5.2c-4.9 0-9.1 1.6-12.6 5l-27.8 27.8c-11 11-16.5 24.2-16.5 39.7c0 15.5 5.5 28.8 16.5 39.8l28.5 28.5c11 11 24.2 16.5 39.7 16.5c15.6 0 28.8-5.5 39.8-16.5l73.3-73.4c11-10.9 16.4-24.2 16.4-39.7s-5.5-28.8-16.4-39.8L234.4 166.4 M332.6 174.4c11-11 16.5-24.2 16.5-39.8c0-15.5-5.5-28.8-16.5-39.8l-28.4-28.4c-11-11-24.2-16.5-39.8-16.5c-15.5 0-28.7 5.5-39.7 16.5l-73.4 73.3c-11 11-16.5 24.2-16.5 39.8c0 15.5 5.5 28.8 16.5 39.8l14.2 14.2l25.6-25.7l-14.1-14.2c-3.9-3.9-5.9-8.6-5.8-14v-0.1c-0.1-5.5 1.9-10.1 5.8-14l73.3-73.3c3.9-3.9 8.6-5.8 14.1-5.8l0-0.1c5.5 0 10.2 1.9 14.1 5.8l28.4 28.4c3.9 3.9 5.8 8.6 5.8 14l0 0.1c0 5.4-2 10.1-5.8 14l-27.9 27.8c-3.3 3.5-5 7.7-5.1 12.6c0.1 5 1.9 9.3 5.5 12.9c3.6 3.5 7.8 5.3 12.8 5.3c4.9 0 9.1-1.7 12.6-5.1L332.6 174.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		}
+		
+		#introduction, #part0, #part1, #part2, #part3, #part4, #part5 { 
+			padding-right: 1rem;
+			margin-right: -0.75rem;
+		}
+		#part0, #part1, #part2, #part3, #part4, #part5 { 
+			border-right: 1rem solid;
+		}
+		/* header overrides */
+		h1, h2, h3, h4, h5, h6 {
+			font-family: BenchNine, sans-serif;
+			text-transform: uppercase;
+		}
+		/* page title */
+		h1 { 
+			font-size: 3rem;
+			font-weight: 600;
+			text-align: center;
+		}
+		/* header 2 divides the document parts */
+		h2 {
+			font-size: 3rem; text-align: center; font-weight: 600;
+			font-weight: 600;
+			text-align: center;
+			padding: 0.5rem 0.25rem 0.1rem 0.25rem;
+			margin: 0.5rem -1rem 0.5rem 0;
+			border-radius: 1rem 0 0 1rem;
+		}
+		/* header 3 divides the document chapters */
+		h3 { 
+			font-size: 3rem; 
+			font-weight: 600;
+			text-align: center; 
+		}
+		/* large section within a chapter */
+		h4 { 
+			font-size: 2.5rem; 
+			font-weight: 400;
+		}
+		/* medium section within a chapter */
+		h5 { 
+			font-size: 2.25rem;
+			font-weight: 400;
+		}
+		/* small header within a chapter */
+		h6 { 
+			font-size: 2rem;
+			font-weight: 400;
+		}
+		/* alternate header styles */
+		/* chapter numbers */
+		.og-csrd-chapter { 
+			font-family: Lexend Zetta;
+			font-size: 40%; 
+			display: block;
+			text-transform: none;
+			font-weight: 400;
+			font-variant: small-caps;
+			letter-spacing: 0.1rem;
+		}
+		/* extra-small header for alerts, quick-refernces, or visual clarity */
+		/* due to header structure, this might be used for header 4, 5, or 6 */
+		.og-csrd-header-small {
+			font-size: 2rem;
+			text-transform: uppercase;
+		}
+		.og-csrd-border-line {
+			border-bottom: 0.25rem solid;
+		}
+		/* tabbed item for creatures, detailed equipment, vehicles, and traps */
+		.og-csrd-tabbed-item {
+			text-shadow: #000 1px 0 0.5rem;
+			padding: 0.25rem 0.5rem 0rem 0.5rem;
+			border-radius: 0.25em;
+		}
+		/* headers with cypher and technology iconography */
+		.og-csrd-icon::before {
+			content: "";
+			display: inline-block;
+			height: 1em;
+			width: 1em;
+			background-size: 1em 1em;
+			background-repeat: no-repeat;
+			margin-right: 0.25rem;
+			position: relative;
+			top: 0.15em;
+		}
+		h5.og-csrd-technologies::after {
+			content: "";
+			display: inline-block;
+			height: 1em;
+			width: 1em;
+			background-size: 1em 1em;
+			background-repeat: no-repeat;
+			margin-left: 0.5rem;
+			position: relative;
+			top: 0.15em;
+		}
+		/* table of contents */
+		ul.og-csrd-toc {
+			font-family: BenchNine;
+			font-size: 2.2rem;
+			font-weight: 300;
+			list-style-type: none;
+		}
+		ul.og-csrd-toc a {
+			text-decoration: none; 
+		}
+		ul.og-csrd-toc a:hover {
+			text-decoration: underline; 
+		}
+		@media (min-width: 576px) {
+			ul.og-csrd-toc {
+				column-count: 1;
+			}
+		}
+		@media (min-width: 768px) {
+			ul.og-csrd-toc {
+				column-count: 2;
+			}
+		}
+		@media (min-width: 1200px) {
+			ul.og-csrd-toc {
+				column-count: 3	;
+			}
+		}
+		ul.og-csrd-toc li.og-csrd-toc-part {
+			break-inside: avoid-column;
+			margin-top: 0px;
+			padding-top: 0.01rem;
+			margin-bottom: 0.01rem;
+			padding-bottom: 0.01rem;
+		}
+		ul.og-csrd-toc li.og-csrd-toc-part:first-child {
+			break-inside: avoid-column;
+			margin-top: 0px;
+			padding-top: 0.01rem;
+			margin-bottom: 0.01rem;
+			padding-bottom: 0.01rem;
+		}
+		ul.og-csrd-toc li span a { 
+			display: block;
+			color: #fff;
+			background-color: #444;
+			border-radius: 1rem 1rem 1rem 1rem;
+			padding: 0.25rem 1rem 0rem 1rem;
+			margin: 1rem 0rem 0.5rem 0;
+			text-transform: uppercase;
+		}
+		ul.og-csrd-toc li ul { 
+			list-style-type: none;
+			padding-left: 1rem;
+		}
+		ul.og-csrd-toc li ul li { 
+			font-size: 1.8rem;
+		}
+		/* main content indent tools */
+		.og-csrd-indent { 
+			text-indent: 1rem;
+		}
+		.og-csrd-indent-hang { 
+			text-indent: -1rem;
+			margin-left: 1rem;
+		}
+		.og-csrd-indent-none { 
+			text-indent: 0rem;
+		}
+		/* override definition list appearances  */
+		/* used in glossary, key terms, creatures  */
+		dl { 
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+		}
+		dt::before {
+			content: "\A";
+			white-space: pre-wrap;
+			display: block;
+			height: 0;
+			clear: both;
+			margin-top: 0.25rem;
+		}
+		dt::after {
+			content: ":";
+		}
+		dt { 
+			font-weight: bold; 
+		}
+		dt, dd {
+			display: inline;
+			padding-bottom: 0.25rem;
+		}
+		dd p { 
+			display: inline;
+		}
+		/* list abilities for foci display or abilities catalog */
+		ul.og-csrd-abilities-catalog, ul.og-csrd-abilities-array, ul.og-csrd-technologies, .og-csrd-legend ul.og-csrd-legend-list {
+			list-style-type: none;
+			margin-left: 0;
+			padding-left: 0;
+		}
+		ul.og-csrd-abilities-catalog li, ul.og-csrd-abilities-array li, ul.og-csrd-technologies li, .og-csrd-legend ul.og-csrd-legend-list li {
+			background-size: 1.25em 1.25em;
+			background-repeat: no-repeat;
+			background-position: 0 0.15em;
+			padding-left: 1.5em;
+		}
+		ul.og-csrd-abilities-array li, ul.og-csrd-technologies li, .og-csrd-legend ul li {
+			margin-bottom: 0.25rem; 
+		}
+		ul.og-csrd-abilities-catalog li {
+			margin-bottom: 1rem; 
+		}
+		ul.og-csrd-abilities-catalog li ul {
+			margin-left: 2rem;
+			padding-left: 0;
+			list-style-type: disc;
+			margin-bottom: 0.25rem;
+		}
+		ul.og-csrd-abilities-catalog li ul li {
+			margin-left: 0;
+			margin-bottom: 0.25rem;
+			padding-left: 0;
+			background: none;
+		}
+		/* reference a book and page number */
+		span.og-csrd-ref {
+			font-family: Teko;
+			font-weight: 400;
+			font-size: 0.9rem;
+			color: #aaa;
+			background-color: #1f2733;
+			display: inline-block;
+			border-radius: 0.25rem;
+			padding: 0.1rem 0.25rem 0.1rem 0.25rem;
+			text-indent: 0;
+		}
+		/* list abilities in compact columns */
+			ul.og-csrd-abilities-compact {
+			column-count: 2;
+		}
+		@media (min-width: 768px) {
+			ul.og-csrd-abilities-compact {
+				column-count: 3;
+			}
+		}
+		@media (min-width: 1200px) {
+			ul.og-csrd-abilities-compact {
+				column-count: 4	;
+			}
+		}
+		/* nested lists with disc bullets, used in creatures */
+		ul.og-csrd-list-disc {
+			text-indent: 0rem;
+			margin-left: 0rem;
+			padding-left: 1rem;
+			list-style-type: disc;
+			margin-bottom: 0.75rem;
+		}
+		ul.og-csrd-list-disc li {
+			margin-bottom: 0.25em;
+		}
+		/* alerts, sidebars, editor's notes, legends and other styling inheritances */
+		/* override bootstrap for a standard alert border size */
+		.alert { 
+			border: 0.25rem solid;
+		}
+		/* editor's notes, sidebars, and legends */
+		.og-csrd-sidebar, .og-csrd-legend {
+			border-left: 0.25rem solid;
+		}
+		.og-csrd-ednote {
+			border-top: 0.25rem solid;
+			border-bottom: 0.25rem solid;
+		}
+		.og-csrd-ednote {
+			font-family: Walter Turncoat;
+			font-size: 1.1rem;
+			border-color: #b35c2f;
+			color: #cb966c;
+			background-color: #1f2733;
+		}
+		.og-csrd-sidebar { 
+			font-style: italic;
+		}
+		/* lists quick reference column controls */
+		ul.og-csrd-quick-reference {
+			column-count: 2;
+		}
+		@media (min-width: 576px) {
+			ul.og-csrd-quick-reference {
+				column-count: 2;
+			}
+		}
+		@media (min-width: 768px) {
+			ul.og-csrd-quick-reference {
+				column-count: 3;
+			}
+		}
+		@media (min-width: 1200px) {
+			ul.og-csrd-quick-reference {
+				column-count: 4	;
+			}
+		}
+		ul.og-csrd-quick-reference-compact {
+			column-count: 2;
+		}
+		@media (min-width: 576px) {
+			ul.og-csrd-quick-reference-compact {
+				column-count: 3;
+			}
+		}
+		@media (min-width: 768px) {
+			ul.og-csrd-quick-reference-compact {
+				column-count: 4;
+			}
+		}
+		@media (min-width: 1200px) {
+			ul.og-csrd-quick-reference-compact {
+				column-count: 5;
+			}
+		}
+		ul.og-csrd-quick-reference li, ul.og-csrd-quick-reference-compact li {
+			display: block;
+			break-inside: avoid-column;
+			padding-bottom: 0.25rem;
+		}
+		/* legends with iconography explanations */
+		.og-csrd-legend ul.og-csrd-legend-list {
+			font-family: Lexend Zetta;
+			font-size: 1.6rem;
+			text-transform: uppercase;
+		}
+		/* SVG iconography for Abilities */
+		ul.og-csrd-abilities-array li, .og-csrd-abilities-catalog li {
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1080 1080' style='enable-background:new 0 0 1080 1080%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:%23FFFFFF%3B%7D.st1%7Bfill:none%3B%7D.st2%7Bfill:%23C92732%3B%7D%3C/style%3E%3Ccircle class='st0' cx='540' cy='540' r='374.5'/%3E%3Crect x='0' class='st1' width='1080' height='1080'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer0_0_FILL'%3E%3Cpath class='st2' d='M935.9 540c0-109.3-38.7-202.7-116-280C742.6 182.7 649.3 144.1 540 144.1S337.4 182.7 260.1 260c-77.3 77.3-116 170.6-116 280c0 109.3 38.7 202.6 116 279.9s170.6 116 279.9 116s202.6-38.7 279.9-116S935.9 649.3 935.9 540 M629.6 261.8c76.8 0 142.4 27.1 196.7 81.4c54.3 54.3 81.5 119.9 81.5 196.8c0 76.8-27.2 142.4-81.5 196.7C772 791 706.4 818.2 629.6 818.2c-76.9 0-142.4-27.2-196.8-81.5c-54.3-54.3-81.4-119.9-81.4-196.7c0-76.9 27.1-142.4 81.4-196.8C487.1 288.9 552.7 261.8 629.6 261.8z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		}
+		/* SVG iconography for Cyphers */
+		.og-csrd-cypher-subtle::before, .og-csrd-legend ul.og-csrd-legend-list li.og-csrd-cypher-subtle { 
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='og-csrd-cypher-subtle' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 72 72' style='enable-background:new 0 0 72 72%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bclip-path:url(%23SVGID_1_)%3Bfill:%23D57828%3B%7D.st1%7Bfill:%23FFFFFF%3B%7D.st2%7Bfill:%23D57828%3B%7D.st3%7Bfill:none%3B%7D%3C/style%3E%3Cg%3E%3Cg%3E%3Cdefs%3E%3Crect id='SVGID_3_' x='3.8' y='3.6' width='64.8' height='64.8'/%3E%3C/defs%3E%3CclipPath id='SVGID_1_'%3E%3Cuse xlink:href='%23SVGID_3_' style='overflow:visible%3B'/%3E%3C/clipPath%3E%3Cpath class='st0' d='M68.6 36c0 17.9-14.5 32.4-32.4 32.4C18.3 68.4 3.8 53.9 3.8 36c0-17.9 14.5-32.4 32.4-32.4C54.1 3.6 68.6 18.1 68.6 36'/%3E%3C/g%3E%3Cpath class='st1' d='M9 22.8C9 22.8 9 22.8 9 22.8c0.1 0 0.2 0.1 0.4 0.1c0.2 0.1 0.6 0.2 1.1 0.4c0.5 0.2 1.1 0.4 1.8 0.8c0.7 0.3 1.5 0.8 2.5 1.3c0.9 0.5 2 1.1 3.2 1.8c1.2 0.7 2.5 1.5 4 2.3c0.8 0.4 1.6 0.8 2.4 1.3c0.9 0.4 1.8 0.8 2.8 1.3c1 0.4 2.1 0.8 3.2 1.1c1.2 0.3 2.4 0.5 3.8 0.6c1.3 0.1 2.7 0 3.9-0.2c1.2-0.2 2.4-0.6 3.5-1c0.3-0.1 0.5-0.2 0.8-0.3c0.3-0.1 0.5-0.2 0.7-0.3c0.5-0.2 0.9-0.5 1.4-0.7c0.9-0.5 1.7-1 2.4-1.4c1.5-0.9 2.7-1.8 3.8-2.5c1.1-0.7 2.1-1.2 3-1.7c0.9-0.4 1.7-0.7 2.4-0.9c0.2 0 0.3-0.1 0.5-0.1c0.1 0 0.2 0 0.2-0.1c0.1 0 0.1 0 0.2 0c0.3-0.1 0.6-0.1 0.8-0.2c0.2 0 0.4-0.1 0.6-0.1c0.2 0 0.3 0 0.5 0c0.2 0 0.4 0 0.4 0c0.6 0 1.1-0.2 1.5-0.5c0.4-0.3 0.7-0.8 0.8-1.3c0.1-0.5-0.1-1-0.5-1.4c-0.4-0.4-1-0.7-1.7-0.7c0 0-0.2 0-0.5 0c-0.2 0-0.4 0-0.6 0c-0.2 0-0.5 0-0.9 0c-0.1 0-0.2 0-0.3 0c-0.1 0-0.2 0-0.3 0c-0.2 0-0.4 0-0.6 0c-0.2 0-0.4 0-0.6 0.1c-0.2 0-0.5 0.1-0.7 0.1c-1 0.2-2.1 0.4-3.3 0.9c-1.2 0.4-2.5 1-3.8 1.7c-0.7 0.3-1.3 0.7-2 1.1c-0.7 0.4-1.4 0.8-2.1 1.2c-1.4 0.8-2.9 1.6-4.4 2.1c-1.5 0.5-3.2 0.8-4.9 0.7c-0.9 0-1.8-0.2-2.6-0.4c-0.2-0.1-0.4-0.1-0.6-0.2c-0.2-0.1-0.4-0.1-0.6-0.2c-0.2-0.1-0.4-0.1-0.6-0.2c-0.2-0.1-0.4-0.1-0.6-0.2c-1.7-0.6-3.2-1.3-4.7-2c-1.5-0.7-2.8-1.4-4.1-2c-1.3-0.6-2.5-1.2-3.6-1.6c-1.1-0.5-2.1-0.8-2.9-1.1c-0.9-0.3-1.6-0.5-2.2-0.6c-0.3-0.1-0.6-0.1-0.8-0.2c-0.2 0-0.4-0.1-0.6-0.1c-0.2 0-0.3 0-0.4-0.1c-0.1 0-0.1 0-0.1 0c-0.3-0.1-0.7-0.1-1 0C8.5 18.9 8.2 19 8 19.2c-0.5 0.3-0.8 0.8-0.8 1.3c0 0.5 0.1 1 0.5 1.4c0.2 0.2 0.4 0.4 0.6 0.5C8.4 22.6 8.7 22.7 9 22.8'/%3E%3Cpath class='st2' d='M10.4 21.2c0 0 0.1 0 0.3 0.1c0.2 0.1 0.4 0.2 0.8 0.4c0.3 0.2 0.8 0.4 1.3 0.6c0.5 0.3 1.1 0.6 1.8 0.9c1.4 0.7 3.1 1.6 5.1 2.6s4.5 2.2 7.4 3.4c0.4 0.2 0.7 0.3 1.1 0.4c0.2 0.1 0.4 0.1 0.5 0.2c0.2 0.1 0.3 0.1 0.5 0.2c0.7 0.3 1.5 0.5 2.2 0.6c0.7 0.1 1.4 0.2 2.1 0.2c0.7 0 1.3 0 1.9-0.1c0.6-0.1 1.2-0.1 1.8-0.2c0.6-0.1 1.1-0.2 1.6-0.4c1-0.3 1.8-0.6 2.6-0.9c0.7-0.3 1.4-0.6 1.9-0.9c0.5-0.3 1-0.5 1.3-0.7c0.3-0.2 0.6-0.4 0.8-0.5c0.2-0.1 0.2-0.2 0.2-0.2c0.8-0.5 1.2-1.1 0.9-1.5c-0.2-0.4-1-0.3-1.8 0.1c0 0-0.1 0-0.3 0.1c-0.2 0.1-0.4 0.2-0.8 0.4c-0.3 0.2-0.8 0.4-1.3 0.6c-0.5 0.2-1.1 0.5-1.8 0.7c-0.7 0.2-1.5 0.5-2.4 0.7c-0.2 0.1-0.4 0.1-0.7 0.1c-0.2 0-0.5 0.1-0.7 0.1c-0.5 0.1-1 0.1-1.5 0.2c-1.1 0-2.2 0-3.4-0.3c-0.6-0.1-1.2-0.3-1.8-0.5l-0.1 0l-0.1 0c-0.1 0-0.2-0.1-0.2-0.1c-0.2-0.1-0.3-0.1-0.5-0.2c-0.3-0.1-0.7-0.3-1-0.4c-2.7-1.2-5.1-2.3-7.2-3.2c-2.1-1-3.8-1.8-5.3-2.4c-1.4-0.6-2.5-1.1-3.3-1.4c-0.4-0.1-0.7-0.2-0.9-0.3c-0.2-0.1-0.3-0.1-0.3-0.1c-0.2-0.1-0.4-0.1-0.6-0.2c-0.2 0-0.4 0-0.5 0c-0.3 0-0.6 0.2-0.6 0.4c-0.1 0.2 0 0.5 0.2 0.7c0.1 0.1 0.2 0.2 0.4 0.3C10.1 21 10.2 21.1 10.4 21.2'/%3E%3Cpath class='st1' d='M5.5 35.6c0 0 0 0 0.1 0c0.1 0 0.2 0.1 0.3 0.1c0.1 0 0.3 0.1 0.5 0.2c0.2 0.1 0.4 0.2 0.7 0.3c1.1 0.4 2.7 1.1 4.9 2.1c1.1 0.5 2.3 1.1 3.7 1.8c1.4 0.7 2.9 1.4 4.7 2.2c0.9 0.4 1.8 0.8 2.8 1.2c1 0.4 2 0.8 3.2 1.1c1.1 0.3 2.3 0.7 3.7 0.9c1.3 0.2 2.8 0.3 4.2 0.2c1.5-0.1 2.8-0.3 4.1-0.6c1.3-0.3 2.4-0.7 3.5-1.1c1.1-0.4 2.1-0.8 3-1.3c0.9-0.4 1.8-0.8 2.7-1.2c1.7-0.8 3.2-1.5 4.5-2.2c1.4-0.6 2.6-1.1 3.6-1.5c1.1-0.4 2-0.7 2.8-0.9c0.2 0 0.4-0.1 0.6-0.1c0.2 0 0.4-0.1 0.5-0.1c0.3-0.1 0.6-0.1 0.9-0.2c0.5-0.1 1-0.1 1.2-0.2c0.3 0 0.4 0 0.4 0c0.1 0 0.2 0 0.2 0c0.1 0 0.1 0 0.2 0c0.1 0 0.3-0.1 0.4-0.1c0.1 0 0.3-0.1 0.4-0.2c0.1-0.1 0.2-0.1 0.4-0.2c0.4-0.3 0.8-0.8 0.9-1.3c0.1-0.5-0.1-1-0.6-1.5c-0.1-0.1-0.2-0.2-0.4-0.3c-0.1-0.1-0.3-0.2-0.5-0.2c-0.2-0.1-0.3-0.1-0.5-0.1c-0.1 0-0.2 0-0.3 0c-0.1 0-0.2 0-0.3 0c0 0-0.2 0-0.5 0c-0.4 0-0.9 0-1.6 0c-0.3 0-0.7 0-1.2 0.1c-0.2 0-0.4 0-0.7 0.1c-0.1 0-0.2 0-0.4 0c-0.1 0-0.1 0-0.2 0c-0.1 0-0.1 0-0.2 0c-1 0.2-2.2 0.4-3.5 0.7c-1.3 0.4-2.7 0.8-4.2 1.4c-1.5 0.6-3.1 1.2-4.8 2c-1.7 0.7-3.5 1.5-5.3 2.1c-1.9 0.6-3.9 1.2-5.9 1.3c-0.1 0-0.3 0-0.4 0c-0.1 0-0.2 0-0.4 0c-0.1 0-0.2 0-0.4 0c-0.1 0-0.2 0-0.4 0c-0.5 0-1-0.1-1.4-0.1c-1-0.1-1.9-0.4-2.9-0.6c-0.9-0.3-1.9-0.6-2.7-0.9c-0.9-0.3-1.7-0.6-2.6-1c-1.7-0.7-3.2-1.3-4.7-1.9c-1.4-0.6-2.8-1.1-4-1.6c-2.4-0.9-4.3-1.5-5.7-1.7C8 32.1 7.7 32 7.5 32c-0.3 0-0.5-0.1-0.6-0.1c-0.2 0-0.3 0-0.4-0.1c-0.1 0-0.1 0-0.1 0c-0.2 0-0.4-0.1-0.6-0.1c-0.2 0-0.4 0-0.5 0c-0.3 0.1-0.6 0.1-0.9 0.3c-0.5 0.3-0.9 0.8-0.9 1.3c0 0.5 0.2 1 0.5 1.5c0.2 0.2 0.4 0.4 0.7 0.5c0.1 0.1 0.3 0.1 0.4 0.2C5.2 35.6 5.3 35.6 5.5 35.6'/%3E%3Cpath class='st2' d='M5.3 33.7c0 0 0.4 0.2 1.2 0.5c0.8 0.3 2.1 0.8 3.7 1.4c3.3 1.3 8.3 3.2 15.1 5.9c0.2 0.1 0.4 0.2 0.6 0.2c0.2 0.1 0.4 0.2 0.6 0.2c0.2 0.1 0.5 0.2 0.7 0.2c0.2 0.1 0.4 0.1 0.7 0.2c0.9 0.2 1.8 0.4 2.6 0.4c1.7 0.1 3.2 0 4.6-0.1c1.4-0.2 2.7-0.4 3.8-0.7c1.1-0.3 2.1-0.6 3-0.9c0.9-0.3 1.6-0.6 2.2-0.9c0.6-0.3 1.1-0.5 1.6-0.7c0.4-0.2 0.7-0.4 0.9-0.5c0.2-0.1 0.3-0.2 0.3-0.2c0.2-0.1 0.4-0.3 0.6-0.4c0.2-0.2 0.3-0.3 0.4-0.5c0.2-0.3 0.3-0.6 0.2-0.8c-0.1-0.2-0.4-0.3-0.7-0.2c-0.2 0-0.4 0.1-0.6 0.1c-0.2 0.1-0.4 0.2-0.6 0.3c0 0-0.1 0-0.3 0.1c-0.2 0.1-0.5 0.2-0.9 0.4c-0.8 0.3-2.1 0.8-3.8 1.4c-1.7 0.5-3.8 1-6.4 1.3c-0.6 0.1-1.3 0.1-2 0.1c-0.7 0-1.4 0-2.1-0.1c-0.7-0.1-1.5-0.2-2.2-0.4c-0.4-0.1-0.7-0.2-1.1-0.3c-0.2-0.1-0.4-0.1-0.6-0.2c-0.2-0.1-0.4-0.2-0.6-0.2c-6.6-2.6-11.7-4.4-15.1-5.5c-1.7-0.6-3.1-1-4-1.2c-0.5-0.1-0.8-0.2-1-0.3c-0.2-0.1-0.3-0.1-0.3-0.1C5.3 32 4.9 32 4.5 32c-0.4 0.1-0.6 0.2-0.7 0.4c-0.1 0.2 0.1 0.5 0.4 0.7C4.5 33.4 4.9 33.6 5.3 33.7'/%3E%3Cpath class='st1' d='M6.9 47.7C6.9 47.7 6.9 47.7 6.9 47.7c0.2 0 0.3 0.1 0.4 0.1c0.1 0 0.3 0.1 0.5 0.2C8 48 8.2 48.1 8.5 48.2c0.5 0.2 1.2 0.4 1.9 0.7c0.8 0.3 1.7 0.7 2.7 1.1c1 0.5 2.2 1 3.6 1.6c1.3 0.6 2.8 1.3 4.4 2c0.8 0.4 1.7 0.7 2.6 1.1c0.9 0.4 1.9 0.7 2.9 1.1c1 0.4 2.1 0.7 3.3 1c1.2 0.3 2.4 0.5 3.8 0.6c1.4 0.1 2.8 0.1 4.1-0.1c1.3-0.2 2.5-0.5 3.6-0.9c1.1-0.4 2.1-0.9 3-1.3c0.9-0.5 1.8-0.9 2.6-1.4c0.8-0.5 1.5-0.9 2.2-1.3c0.7-0.4 1.3-0.8 1.9-1.2c1.2-0.7 2.3-1.3 3.3-1.7c1-0.4 1.8-0.7 2.6-1c0.2-0.1 0.4-0.1 0.5-0.1c0.1 0 0.2 0 0.3-0.1c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0.2 0 0.3-0.1 0.4-0.1c0.1 0 0.3-0.1 0.4-0.1c0.3 0 0.5-0.1 0.7-0.1c0.1 0 0.2 0 0.3 0c0.1 0 0.2 0 0.2 0c0.3 0 0.4 0 0.4 0c0.1 0 0.3 0 0.4 0c0.1 0 0.3-0.1 0.4-0.1c0.1 0 0.3-0.1 0.4-0.2c0.1-0.1 0.2-0.1 0.3-0.2c0.4-0.3 0.8-0.8 0.8-1.3c0.1-0.5-0.1-1-0.6-1.4c-0.1-0.1-0.2-0.2-0.4-0.3c-0.1-0.1-0.3-0.1-0.4-0.2C61.4 44 61.2 44 61.1 44c-0.2 0-0.4-0.1-0.5-0.1c0 0-0.2 0-0.5 0c-0.1 0-0.2 0-0.3 0c-0.1 0-0.1 0-0.2 0c-0.1 0-0.1 0-0.2 0c-0.3 0-0.6 0-0.9 0c-0.3 0-0.7 0.1-1.1 0.1c-0.2 0-0.4 0.1-0.7 0.1c-0.2 0-0.5 0.1-0.7 0.1c-0.2 0-0.5 0.1-0.8 0.2c-0.3 0.1-0.5 0.1-0.8 0.2c-0.3 0.1-0.6 0.2-0.9 0.3c-0.1 0-0.3 0.1-0.4 0.1c-0.1 0.1-0.3 0.1-0.5 0.2c-1.2 0.4-2.6 1-3.9 1.7c-1.4 0.7-2.8 1.5-4.3 2.3c-0.8 0.4-1.5 0.8-2.3 1.1c-0.8 0.4-1.6 0.7-2.4 1c-1.7 0.5-3.4 0.8-5.3 0.7c-1-0.1-1.9-0.3-2.9-0.5c-1-0.2-1.9-0.5-2.8-0.8c-1.8-0.6-3.6-1.2-5.2-1.8c-1.6-0.6-3.1-1.2-4.5-1.7c-1.4-0.5-2.7-1-3.8-1.4c-2.3-0.8-4.2-1.2-5.4-1.5C9.3 44 9 44 8.8 43.9c-0.2 0-0.4-0.1-0.6-0.1c-0.2 0-0.3 0-0.4-0.1c-0.1 0-0.1 0-0.1 0c-0.7-0.1-1.4 0-1.9 0.3c-0.5 0.3-0.8 0.8-0.9 1.3c0 0.5 0.2 1 0.5 1.4C5.8 47.2 6.3 47.5 6.9 47.7'/%3E%3Cpath class='st2' d='M8.2 45.8c0 0 0.1 0 0.3 0.1C8.7 46 9 46.1 9.4 46.2c0.8 0.3 1.9 0.7 3.4 1.3c1.5 0.6 3.4 1.4 5.7 2.3c2.3 0.9 4.9 2 8 3.2c0.8 0.3 1.5 0.6 2.2 0.9c0.8 0.3 1.6 0.5 2.3 0.7c0.8 0.2 1.5 0.2 2.2 0.3c0.4 0 0.7 0 1.1 0c0.3 0 0.7 0 1-0.1c0.3 0 0.6-0.1 1-0.1c0.3-0.1 0.6-0.1 0.9-0.2c0.6-0.1 1.1-0.3 1.7-0.4c1-0.3 1.9-0.6 2.7-1c0.8-0.3 1.4-0.7 2-1c0.6-0.3 1-0.6 1.4-0.8c0.7-0.4 1.1-0.7 1.1-0.7c0.8-0.5 1.3-1.2 1-1.6c-0.2-0.4-1-0.3-1.8 0.1c0 0-0.1 0-0.3 0.1c-0.2 0.1-0.5 0.2-0.8 0.4c-0.7 0.4-1.9 0.9-3.4 1.4c-0.7 0.3-1.6 0.5-2.5 0.7c-1 0.2-2 0.4-3.1 0.4c-1.1 0.1-2.4 0-3.6-0.3c-0.3-0.1-0.6-0.2-1-0.3c-0.1 0-0.2 0-0.2-0.1c-0.1 0-0.2-0.1-0.2-0.1c-0.1 0-0.2-0.1-0.2-0.1l-0.1 0l-0.1 0c-0.7-0.3-1.4-0.6-2.2-0.8c-3-1.2-5.6-2.2-7.9-3c-2.3-0.9-4.2-1.5-5.8-2.1c-1.6-0.5-2.8-0.9-3.6-1.1c-0.4-0.1-0.7-0.2-0.9-0.3c-0.2-0.1-0.3-0.1-0.3-0.1c-0.4-0.1-0.9-0.2-1.2-0.1c-0.3 0.1-0.6 0.2-0.6 0.4C6.8 44.7 7 45 7.2 45.2C7.4 45.4 7.8 45.7 8.2 45.8'/%3E%3Cpath class='st3' d='M36.2 3.6C18.3 3.6 3.8 18.1 3.8 36c0 17.9 14.5 32.4 32.4 32.4c17.9 0 32.4-14.5 32.4-32.4C68.6 18.1 54.1 3.6 36.2 3.6z'/%3E%3C/g%3E%3Crect class='st3' width='72' height='72'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+		}
+		.og-csrd-cypher-manifest::before, .og-csrd-legend ul.og-csrd-legend-list li.og-csrd-cypher-manifest { 
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='og-csrd-cypher-manifest' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 72 72' style='enable-background:new 0 0 72 72%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bclip-path:url(%23SVGID_2_)%3Bfill:%23435feb%3B%7D.st2%7Bclip-path:url(%23SVGID_2_)%3Bfill:none%3Bstroke:%23FFFFFF%3Bstroke-width:2%3Bstroke-miterlimit:10%3B%7D.st3%7Bclip-path:url(%23SVGID_2_)%3Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Crect class='st0' width='72' height='72'/%3E%3Cg%3E%3Cdefs%3E%3Crect id='SVGID_1_' x='3.6' y='3.6' width='64.8' height='64.8'/%3E%3C/defs%3E%3CclipPath id='SVGID_2_'%3E%3Cuse xlink:href='%23SVGID_1_' style='overflow:visible%3B'/%3E%3C/clipPath%3E%3Cpath class='st1' d='M68.4 36c0 17.9-14.5 32.4-32.4 32.4C18.1 68.4 3.6 53.9 3.6 36C3.6 18.1 18.1 3.6 36 3.6C53.9 3.6 68.4 18.1 68.4 36'/%3E%3Ccircle class='st2' cx='36' cy='36' r='22.4'/%3E%3Cpath class='st2' d='M55.5 25c-14-5.2-37 4.4-41.2 16.3'/%3E%3Cpath class='st2' d='M37.7 24.7c3.4 5.6 7.4 18.9 4.8 32.7'/%3E%3Cpath class='st3' d='M37 19.5c0 1.2-1 2.2-2.2 2.2c-1.2 0-2.2-1-2.2-2.2c0-1.2 1-2.2 2.2-2.2C36 17.3 37 18.3 37 19.5'/%3E%3Cpath class='st3' d='M28.9 22.4c0 1.2-1 2.2-2.2 2.2c-1.2 0-2.2-1-2.2-2.2c0-1.2 1-2.2 2.2-2.2C27.9 20.2 28.9 21.1 28.9 22.4'/%3E%3Cpath class='st3' d='M22.3 27.6c0 1-0.8 1.8-1.8 1.8c-1 0-1.8-0.8-1.8-1.8c0-1 0.8-1.8 1.8-1.8C21.5 25.8 22.3 26.6 22.3 27.6'/%3E%3Cpath class='st3' d='M44.3 19.3c0 1-0.8 1.8-1.8 1.8c-1 0-1.8-0.8-1.8-1.8c0-1 0.8-1.8 1.8-1.8C43.5 17.5 44.3 18.3 44.3 19.3'/%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+		}
+		.og-csrd-cypher-fantastic::before, .og-csrd-legend ul.og-csrd-legend-list li.og-csrd-cypher-fantastic { 
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='og-csrd-cypher-fantastic' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 72 72' style='enable-background:new 0 0 72 72%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bclip-path:url(%23SVGID_2_)%3Bfill:%23c92732%3B%7D.st1%7Bclip-path:url(%23SVGID_2_)%3Bfill:%23FFFFFF%3B%7D.st2%7Bfill:none%3B%7D%3C/style%3E%3Cg%3E%3Cdefs%3E%3Crect id='SVGID_1_' x='3.6' y='3.6' width='64.8' height='64.8'/%3E%3C/defs%3E%3CclipPath id='SVGID_2_'%3E%3Cuse xlink:href='%23SVGID_1_' style='overflow:visible%3B'/%3E%3C/clipPath%3E%3Cpath class='st0' d='M68.4 36c0 17.9-14.5 32.4-32.4 32.4C18.1 68.4 3.6 53.9 3.6 36C3.6 18.1 18.1 3.6 36 3.6C53.9 3.6 68.4 18.1 68.4 36'/%3E%3Cpath class='st1' d='M39.8 40.6c0.7-0.2 1.5-0.3 2.2-0.6c2.1-0.7 3.5-2.2 4.4-4.1c0.8-1.7 1.1-3.5 1.1-5.4c0-2.1-0.3-4.1-0.3-6.1c-0.1-1.6 0-3.2 0.4-4.8c0.7-2.8 3.6-5.1 6.2-5.1c0.1 0 0.2 0 0.2-0.1c-0.1-0.1-0.3-0.1-0.4-0.1c-3.1-0.5-6.1-0.1-8.9 1.4c-2 1.1-3.5 2.7-4.2 4.9c-0.3 1-0.3 2-0.3 3.1c0.1 1.5 0.4 2.9 0.4 4.4c0 1.8-0.6 3.4-2 4.5c-0.1 0-0.1 0.1-0.2 0.2c2.1-2.8 2.2-5.8 0.5-8.7c-0.7-1.2-1.8-2.1-3.2-2.5c0 0.2 0.2 0.2 0.2 0.3c1.4 0.9 1.8 2.2 1.6 3.8c-0.2 1.9-1.2 3.5-2.6 4.7c-0.8 0.7-1.8 0.9-2.8 1.2c-1.2 0.3-2.4 0.4-3.6 0.7c-1.2 0.3-2.3 1-3 2c-1 1.3-1.4 2.8-0.9 4.5c0.1 0.3 0.1 0.6 0.2 0.8c0 0 0 0 0 0.1c-0.3-0.5-0.5-0.9-0.6-1.4c-0.4-1.4 0-2.7 0.7-4c0.8-1.4 2-2.2 3.4-2.7c1-0.4 2-0.7 2.8-1.3c1.1-0.7 1.9-1.6 2.1-2.9c0.1-0.4 0.1-0.6 0-0.8c-0.1 0-0.1 0.1-0.1 0.2c-0.2 1.1-1 1.8-1.9 2.3c-1.1 0.6-2.4 0.9-3.6 1.2c-1.3 0.3-2.5 0.6-3.8 1c-2.4 0.9-4.1 2.5-5.2 4.8c-0.9 2-1.2 4.1-1.1 6.3c0.2 2.9 1.5 5.4 3.2 7.7c1.1 1.5 2.5 2.8 4 3.9c1.8 1.3 3.7 2 5.8 2.4c1.8 0.3 3.6 0.4 5.4 0.2c1.1-0.1 2.1-0.6 3.2-1c1.7-0.8 3.2-1.8 4.5-3.2c1.8-1.9 2.8-4.1 2.7-6.7c0-0.4-0.1-0.9-0.2-1.3c-0.1 0-0.1 0-0.1 0.1c-0.3 1.5-1.3 2.3-2.6 2.7c-1 0.3-2 0.4-3.1 0.3c-1.1-0.1-2.2-0.1-3.2 0.2c-1.4 0.4-2.2 1.2-2.5 2.6c0 0 0 0.1-0.1 0.1c-0.1-0.9 0.2-1.7 0.8-2.3c0.8-0.8 1.8-1.1 2.9-1.5c1.5-0.5 3-0.8 4.4-1.5c3.5-1.7 5.4-4.5 5.7-8.4c0.1-0.7 0-1.5-0.1-2.2c0-0.1 0-0.3-0.1-0.4C47.2 38.6 44 40.2 39.8 40.6'/%3E%3Cpath class='st1' d='M38.3 54.5c-4.3 5.8-12.5 7-18.3 2.6c-5.8-4.3-7-12.5-2.6-18.3c4.3-5.8 12.5-7 18.3-2.6S42.6 48.7 38.3 54.5'/%3E%3Cpath class='st1' d='M53.7 23c3.9-2.6 3.2-3.3 3.6-4.2c0.5-0.9 1.1 5.8-1.6 7.6c-2.7 1.8-3.5 1.1-3.5 4.2c-0.1 3.1-2.1-2-1.5-3.7C51.1 25.2 53.7 23 53.7 23'/%3E%3C/g%3E%3Crect class='st2' width='72' height='72'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+		}
+		/* SVG iconography for Tech Levels */
+		ul.og-csrd-technologies-contemporary li, .og-csrd-legend ul.og-csrd-legend-list li.og-csrd-technologies-contemporary, h5.og-csrd-technologies-contemporary::after {
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1080 1080' style='enable-background:new 0 0 1080 1080%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3Bstroke:%23394B68%3Bstroke-miterlimit:10%3B%7D.st1%7Bfill:%23578fff%3B%7D%3C/style%3E%3Crect x='0' class='st0' width='1080' height='1080'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='contemporary-icon'%3E%3Cpath class='st1' d='M808.1 101c0.3-0.3 0.5-0.6 0.8-0.9l-0.1 0.1c1.7-2.1 3.5-4.1 5.4-6.2c-0.4-0.3-0.7-0.6-1.1-0.8C732.4 42.4 641.2 17 539.5 17c-144.2 0-267.2 50.9-369.2 152.8C68.4 271.8 17.5 394.8 17.5 539c0 144.2 50.9 267.2 152.8 369.1c102 101.9 225 152.9 369.2 152.9c144.2 0 267.2-51 369.1-152.9c101.9-101.9 152.9-224.9 152.9-369.1c0-101.7-25.4-192.9-76.2-273.7c-0.3-0.4-0.6-0.9-0.9-1.2c-2 1.9-4 3.7-6 5.4l-0.1 0.1c-0.3 0.3-0.6 0.5-0.9 0.7c-2.4 2-5 3.9-7.5 5.7c48.6 77.6 72.9 165.3 72.9 263c0 139-49.2 257.6-147.5 355.9c-98.2 98.3-216.8 147.5-355.9 147.5c-139 0-257.7-49.2-356-147.5C85.3 796.6 36.2 678 36.2 539c0-139 49.1-257.7 147.4-356c98.3-98.2 217-147.4 356-147.4c97.7 0 185.4 24.2 263 72.8C804.3 106 806.1 103.5 808.1 101 M679.9 228.2c-0.4-0.2-0.7-0.3-1.1-0.5c0 0-0.1 0-0.2-0.1c-27-12.2-55.7-20.5-85.9-24.9h-0.1c-0.1 0-0.2 0-0.3-0.1h-0.2c-17.1-2.5-34.7-3.7-52.8-3.7c-93.9 0-174 33.2-240.5 99.5l-0.1 0.1C232.6 365 199.5 445.1 199.5 539c0 93.9 33.2 174 99.5 240.4c55.3 55.3 120.1 87.6 194.5 96.8l0.2 0.1c0.1 0 0.2 0 0.3 0c0.1 0 0.1 0 0.2 0.1c0.1 0 0.2 0 0.3 0c14.7 1.8 29.7 2.7 45.1 2.7c93.9 0 174-33.2 240.4-99.6l0 0c66.4-66.4 99.6-146.5 99.6-240.4c0-39.1-5.8-75.8-17.3-110.2c-0.1-0.4-0.2-0.8-0.4-1.1c-16.2-47.7-43.5-90.7-81.9-129.2C749.5 268.1 716.1 244.6 679.9 228.2 M676.3 247.1c32.7 15.5 62.8 37 90.4 64.6c35.8 35.7 61.3 75.7 76.7 119.8C800.8 598.9 742.6 712.7 669 773.1c-6.5-36.7 0.7-79.2 21.8-127.5c0.2-0.4 0.3-0.8 0.4-1.2c9.9-35.5 2.7-57.5-21.6-66c-19.2-8-51.6-5.1-97 8.6c-25.8-33.2-36.4-63.8-31.5-91.8c5.9-29.3 28.8-55.8 68.7-79.7c2-1.2 3.3-2.8 4-5c0.8-2.2 0.7-4.3-0.2-6.4C590.4 343.8 611.3 291.5 676.3 247.1 M428.5 279.7c-1.7 1.2-2.9 2.7-3.6 4.7c-30.4 85.9-78.1 137.1-143.3 153.4c-1.8 0.4-3.3 1.3-4.6 2.6c-20.5 21.8-30.6 41.9-30.3 60.4c-0.4 19.3 10.1 36.8 31.5 52.3c1.6 1.2 3.5 1.8 5.4 1.8c2 0 3.8-0.6 5.4-1.7c30.9-20.2 68.5 5.8 112.8 78.1c1.3 2 3 3.4 5.3 4c28.3 8.5 45.9 20.2 52.8 35.3c5.5 14.6 1.4 32.6-12.3 54c-25.4 10.6-34 29.4-25.7 56.4c5.6 19.2 21.4 43.2 47.3 72.1c-59.2-12.5-111.5-41.5-157-87.1c-62.7-62.7-94.1-138.4-94.1-227.2c0-88.7 31.4-164.5 94.1-227.3l0 0c62.8-62.7 138.5-94.1 227.3-94.1c13.2 0 26.2 0.7 38.9 2.1c-19.4 42.8-67.5 62.3-144.3 58.4C432.1 278 430.2 278.5 428.5 279.7 M823.3 112L823.3 112c-15.3 18.4-23 39.8-22.9 64.4c0 28.1 9.9 52 29.7 71.8l0 0c19.9 19.9 43.9 29.8 71.9 29.8c24.6 0 46.1-7.6 64.3-22.9c2.6-2.2 5.1-4.5 7.5-7h0.1c19.9-19.8 29.8-43.7 29.8-71.8c0-28.1-10-52-29.8-71.9h0.1C954 84.7 930.1 74.9 902 74.9c-28.1 0-52 9.9-71.9 29.7l0 0C827.6 107 825.4 109.5 823.3 112z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		}
+		ul.og-csrd-technologies-advanced li, .og-csrd-legend ul.og-csrd-legend-list li.og-csrd-technologies-advanced, h5.og-csrd-technologies-advanced::after {
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='tech-advanced' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1080 1080' style='enable-background:new 0 0 1080 1080%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:%23ff9805%3B%7D.st1%7Bfill:none%3B%7D%3C/style%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='technology-advanced-icon'%3E%3Cpath class='st0' d='M1010.4 727.8c-0.2-0.2-0.3-0.4-0.5-0.6c0.7-0.5 1.2-1.2 1.5-2.1c22.3-56.9 33.4-118.5 33.4-184.6c0-139.4-49.4-258.5-148.3-357.4C798.2 84.6 679.3 35.4 539.8 35.4c-135.8 0-252.3 46.7-349.6 140c-0.7 0.6-1.1 1.4-1.4 2.2C95.3 150.9 37.3 153.2 15 184.6C-9.3 222.9 7.7 282.4 66.2 363c-0.8 0.6-1.4 1.4-1.8 2.3C44.7 419.6 34.9 478 34.8 540.4c0 139.4 49.2 258.3 147.5 356.7c98.9 98.9 218 148.3 357.4 148.3c132.8 0 246.9-44.8 342.5-134.4c0.8-0.7 1.3-1.5 1.5-2.5c96.6 23 157.9 16 183.9-21.1c5.5-8.7 8-19 7.7-30.8C1074.6 824.9 1052.9 781.9 1010.4 727.8 M875 585.2c8.7-41.9 8.5-85.5-0.5-130.9c-17.7-88.8-64.3-158.4-139.6-208.7c-75.3-50.3-157.4-66.6-246.2-48.9c-37.8 7.5-72.2 20.3-103.1 38.4c-6.1 3.6-12.1 7.4-18 11.4c-47.7-22.5-93.9-41.3-138.4-56.2c-0.3-0.1-0.6-0.2-0.9-0.3c-0.2-0.1-0.4-0.1-0.6-0.2c-0.4-0.1-0.8-0.3-1.2-0.4c-0.7-0.2-1.4-0.5-2.1-0.7c-8.5-2.8-16.8-5.4-24.9-7.9c-0.1 0-0.3-0.1-0.4-0.1c95-90.1 208.5-135.2 340.6-135.2c136.7 0 253.2 48.2 349.7 144.6c96.9 96.9 145.4 213.7 145.3 350.4c0 63.9-10.6 123.3-31.7 178.3c-7.1-8.8-14.7-17.8-22.9-27.2C949.3 656.1 914.2 620.7 875 585.2 M654.8 754.2c18.3 9.3 36.4 18 54.2 26c8.9 4.1 17.8 8 26.7 11.8c23.5 9.9 46.5 18.6 69 26.2c56.9 19.3 101 28 132.2 26.1c23.2-1.4 39.3-8.5 48.3-21.5c7.3-11.5 6.5-27.5-2.5-47.9c-11.8-27.2-38-62.4-78.4-105.5c-13.1-13.8-26.9-27.8-41.5-41.8c1.3-3.5 2.5-6.9 3.6-10.4c16 15.1 31 30.2 45.1 45.3c37.6 40 63.2 73.8 76.9 101.4c13.9 27.9 15.6 49.4 5 64.5c-11.3 17.6-33 26.4-64.9 26.2c-32-0.1-74.4-9.1-127.1-27c-24.8-8.4-50.1-18.1-76-29.2c-8.8-3.8-17.6-7.7-26.5-11.7c-17.5-8.1-35.3-16.7-53.3-26c-58.1-29.7-118.9-65.8-182.5-108.2C370 590.3 291.6 528.2 227.9 466.3v0c-20.2-19.7-39-39.4-56.2-59c-36.1-41.1-60.4-76.3-72.9-105.5c-13-30.2-13.4-54-1.2-71.5c10.4-16.3 32.4-22.9 66-19.8c30.2 2.8 69.7 13.4 118.6 31.9c19.3 7.3 39 15.4 59.2 24.3c-2.4 2.1-4.8 4.2-7.2 6.4c-0.4 0.3-0.8 0.6-1.1 0.9c-18.5-8.1-36.7-15.6-54.5-22.3c-52.6-19.8-93.7-30.4-123.1-31.9c-24.7-1.2-41.3 4.2-49.6 16c-8.8 13.7-9 32-0.7 54.8c10.7 29.2 35.4 65.9 74.2 110.1c15.7 17.9 32.6 35.8 50.8 53.8l0.1 0c64.1 63.1 143.6 126.3 238.7 189.8C533.7 687.5 595.7 724.2 654.8 754.2 M762 757.7c-5.4-2-10.8-4.1-16.3-6.3c-18.8-7.5-38-15.9-57.7-25.2C626.6 697 560.7 659 490.3 612c-99.6-66.5-179.1-131.5-238.6-195c-2.9-3.1-5.7-6.2-8.4-9.2h-0.1c-55.2-60.8-74.4-103-57.8-126.6c13.2-21.1 56.4-17.5 129.6 10.6c-2.4 2.6-4.8 5.3-7.1 8.1c-9.8 11.3-19.1 23.4-27.8 36.4c-13.3 19.9-24.2 40.2-32.7 61.1c3.7 4.1 7.6 8.3 11.7 12.8c59.1 63 138 127.5 236.9 193.6c71.3 47.6 137.9 85.9 199.7 115c19.8-19.9 38.2-42.6 55.2-68.1c49.8-74.6 73-151.2 69.7-229.7c-3.3-73.1-28.8-128-76.4-164.7c62.2 45.5 99.8 108.4 112.6 188.9c13.5 85.3-4.6 165.3-54.4 239.9c-14.6 22-30.8 41.6-48.4 58.8c3.9 1.6 7.8 3.1 11.7 4.6h0c5.6 2.1 11 4 16.3 5.9c16-15.9 30.6-33.8 43.9-53.7c8.7-13 16.3-26.2 23-39.6c1.6-3.2 3.1-6.4 4.5-9.7c54.1 56.7 74 95.2 59.5 115.5c-15.4 24.4-61.7 22.8-139-4.8C769.9 760.5 766 759.1 762 757.7 M91.9 396.5c37.5 46.5 81.8 92.7 132.9 138.4c60.5 54.2 130.4 107.8 209.9 160.8c54.1 36.1 106.7 68.1 157.9 95.8c15.6 8.5 31.1 16.6 46.5 24.2c8.1 4.1 16.2 8 24.3 11.9c61.9 29.7 121.6 53 179.1 69.8c1.5 0.4 2.9 0.8 4.3 1.2c9.1 2.6 17.8 5 26.3 7.1c-93.1 86.4-204.2 129.6-333.2 129.6c-136.7 0-253.5-48.4-350.4-145.4C93 793.6 44.8 677.1 44.8 540.4c0-60 9.3-116.2 27.9-168.6C78.8 379.8 85.2 388 91.9 396.5 M227.6 561.2c1 7.1 2.1 14.1 3.6 21.2c17.7 88.8 64.2 158.4 139.5 208.7c75.4 50.3 157.5 66.6 246.3 48.9c7.1-1.4 14.1-3 21-4.8c-7.7-3.8-15.5-7.7-23.3-11.7c-4.3 1.2-8.6 2.3-13 3.3c-79.3 19.1-151.8 8.6-217.6-31.2c52.1 29.8 112.6 32.2 181.5 7.1c2.1-0.8 4.1-1.5 6.1-2.2c-47.7-26.4-96.6-56.4-146.8-89.9C350.9 661.3 285.2 611.5 227.6 561.2z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Crect class='st1' width='1080' height='1080'/%3E%3C/svg%3E");
+		}
+		ul.og-csrd-technologies-fantastic li, .og-csrd-legend ul.og-csrd-legend-list li.og-csrd-technologies-fantastic, h5.og-csrd-technologies-fantastic::after {
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1080 1080' style='enable-background:new 0 0 1080 1080%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%238dd2de%3B%7D.st2%7Bfont-family:'MyriadPro-Regular'%3B%7D.st3%7Bfont-size:12px%3B%7D%3C/style%3E%3Crect x='-0.7' y='-1.5' class='st0' width='1080.7' height='1080.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='technology-fantastic-fill'%3E%3Cpath class='st1' d='M241.6 63.2c-0.5 43.7-16.3 81-47.4 111.9c-30.8 30.9-67.9 46.7-111.2 47.4c0.4 0 0.9 0 1.3 0.1c42.8 1 79.4 16.7 109.9 47.1c30.6 30.6 46.4 67.2 47.4 110v0.6c0.9-43 16.6-79.9 47.2-110.6c31.1-31 68.5-46.7 112.2-47.2c-43.7-0.5-81.1-16.3-112.2-47.4C257.8 144.2 242.1 106.9 241.6 63.2 M486.8 352.9c21.4-32.2 48.1-40.4 80-24.6c30.8 15.2 46.4 48.4 46.9 99.6c35-27.6 43.6-74.3 26-139.9c-17.7-65.7-61-85.2-129.9-58.6c-80.6 31.2-138 82-172 152.5c-50.5 104.7-32 171.2 55.4 199.6c-47.9 39.8-86.8 17.8-116.8-66c-25.7 36.9-28.4 78.3-8 124.2c29 65.3 75 80.7 137.9 46.2c90.1-49.6 141.7-118.6 154.7-206.9C570.9 412.9 546.1 370.9 486.8 352.9 M770.8 766c83-100.1 139.5-268.7 169.5-505.8c65.5 52.2 65.8 196.8 0.9 433.8c89.2-35.5 133.8-158.1 133.6-367.9c0-209.8-93.1-310.1-279.1-300.7c-170.1 9-290.2 72-360.2 189.1C568.1 141 649.3 129.4 679 179.8c54.3 91.9 43.8 203.8-31.5 335.7c-75.4 131.9-149.3 210.5-221.8 236c-107.4 53.4-173.3 26.4-197.6-81c-35.2 6.7-50.6 54.5-46.1 143.5c-58.3-73.8-55.9-230.2 7.2-469.2C32.6 482.9-24.2 646.9 18.8 836.8c42.9 189.9 165.2 256.4 367 199.4C527.9 994.5 656.3 904.4 770.8 766z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Ctext transform='matrix(1 0 0 1 517.9302 542.522)' class='st2 st3'%3E394b68%3C/text%3E%3C/svg%3E");
+		}
+		/* shop iconography for additional descriptors and foci */
+		.og-csrd-legend ul.og-csrd-legend-list li.og-csrd-shop, .og-csrd-shop::before { 
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='og-csrd-shop-icon' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 72 72' style='enable-background:new 0 0 72 72%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bclip-path:url(%23SVGID_2_)%3Bfill:%23009444%3B%7D.st1%7Bclip-path:url(%23SVGID_2_)%3B%7D.st2%7Bfill:%23FFFFFF%3B%7D.st3%7Bfill:none%3B%7D%3C/style%3E%3Cg%3E%3Cdefs%3E%3Crect id='SVGID_1_' x='3.6' y='3.6' width='64.8' height='64.8'/%3E%3C/defs%3E%3CclipPath id='SVGID_2_'%3E%3Cuse xlink:href='%23SVGID_1_' style='overflow:visible%3B'/%3E%3C/clipPath%3E%3Cpath class='st0' d='M68.4 36c0 17.9-14.5 32.4-32.4 32.4C18.1 68.4 3.6 53.9 3.6 36C3.6 18.1 18.1 3.6 36 3.6C53.9 3.6 68.4 18.1 68.4 36'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) ' class='st1'%3E%3Cg%3E%3Cg id='Layer0_0_FILL'%3E%3Cpath class='st2' d='M51.1 52.5c-0.9-0.9-1.9-1.3-3.1-1.3c-1.2 0-2.2 0.4-3.1 1.3c-0.9 0.9-1.3 1.9-1.3 3.1c0 1.2 0.4 2.2 1.3 3.1c0.9 0.9 1.9 1.3 3.1 1.3c1.2 0 2.2-0.4 3.1-1.3c0.9-0.9 1.3-1.9 1.3-3.1C52.4 54.4 52 53.3 51.1 52.5 M28.2 51.2c-1.2 0-2.2 0.4-3.1 1.3c-0.9 0.9-1.3 1.9-1.3 3.1c0 1.2 0.4 2.2 1.3 3.1c0.9 0.9 1.9 1.3 3.1 1.3c1.2 0 2.3-0.4 3.1-1.3c0.9-0.9 1.3-1.9 1.3-3.1c0-1.2-0.4-2.3-1.3-3.1C30.4 51.6 29.4 51.2 28.2 51.2 M22 19.4c-0.1-0.5-0.3-0.9-0.7-1.2c-0.4-0.3-0.8-0.5-1.3-0.5h-6.1c-0.6 0-1 0.2-1.4 0.6c-0.4 0.4-0.6 0.9-0.6 1.4c0 0.6 0.2 1 0.6 1.4c0.4 0.4 0.9 0.6 1.4 0.6h4.4l0.9 4.8c0 0.1 0 0.2 0.1 0.3l2.4 12.6c0 0.1 0 0.2 0 0.3l1.6 8.4c0.1 0.5 0.3 0.9 0.7 1.2c0.4 0.3 0.8 0.5 1.3 0.5h26.4c0.6 0 1-0.2 1.4-0.6c0.4-0.4 0.6-0.9 0.6-1.4s-0.2-1-0.6-1.4c-0.4-0.4-0.9-0.6-1.4-0.6H27.1l-0.9-4.5h26.5c0.4 0 0.8-0.1 1.2-0.4c0.4-0.2 0.6-0.6 0.7-1L59.1 27c0.1-0.4 0.2-0.8 0-1.3c-0.1-0.4-0.4-0.8-0.7-1c-0.4-0.3-0.8-0.4-1.2-0.4H22.9L22 19.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Crect class='st3' width='72' height='72'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+		}
+		/* color theming by part */
+		#part0 h2, ul.og-csrd-toc li.og-csrd-toc-part0 span a, #part0 .og-csrd-tabbed-item {
+			background-color: #103f65;
+		}
+		#part1 h2, ul.og-csrd-toc li.og-csrd-toc-part1 span a, #part1 .og-csrd-tabbed-item {
+			background-color: #1b6c6e;
+		}
+		#part2 h2, ul.og-csrd-toc li.og-csrd-toc-part2 span a, #part2 .og-csrd-tabbed-item {
+			background-color: #3d6f3e;
+		}
+		#part3 h2, ul.og-csrd-toc li.og-csrd-toc-part3 span a, #part3 .og-csrd-tabbed-item {
+			background-color: #834242;
+		}
+		#part0 h4, #part0, #part0 .alert, #part0 .og-csrd-sidebar, #part0 .og-csrd-legend {
+			border-color: #103f65;
+		}
+		#part1 h4, #part1, #part1 .alert, #part1 .og-csrd-sidebar, #part1 .og-csrd-legend {
+			border-color: #1b6c6e;
+		}
+		#part2 h4, #part2, #part2 .alert, #part2 .og-csrd-sidebar, #part2 .og-csrd-legend {
+			border-color: #3d6f3e;
+		}
+		#part3 h4, #part3, #part3 .alert, #part3 .og-csrd-sidebar, #part3 .og-csrd-legend {
+			border-color: #834242;
+		}
+		#part0 h3, #part0 h4, #part0 h5, #part0 h6, #part0 .og-csrd-sidebar, ul.og-csrd-toc li.og-csrd-toc-part0 ul li a, #part0 .og-csrd-legend, #part0 .og-csrd-border-line {
+			color: #b7d3ea;
+			border-color: #b7d3ea;
+		}
+		#part1 h3, #part1 h4, #part1 h5, #part1 h6, #part1 .og-csrd-sidebar, ul.og-csrd-toc li.og-csrd-toc-part1 ul li a, #part1 .og-csrd-legend, #part1 .og-csrd-border-line {
+			color: #b5eced;
+			border-color: #b5eced;
+		}
+		#part2 h3, #part2 h4, #part2 h5, #part2 h6, #part2 .og-csrd-sidebar, ul.og-csrd-toc li.og-csrd-toc-part2 ul li a, #part2 .og-csrd-legend, #part2 .og-csrd-border-line {
+			color: #b9e7ba;
+			border-color: #b9e7ba;
+		}
+		#part3 h3, #part3 h4, #part3 h5, #part3 h6, #part3 .og-csrd-sidebar, ul.og-csrd-toc li.og-csrd-toc-part3 ul li a, #part3 .og-csrd-legend, #part3 .og-csrd-border-line {
+			color: #e8baba;
+			border-color: #e8baba;
+		}
+		/* difficulty dial for how to play in chpater 11 */
+			.og-csrd-roll-diagram { 
+			max-width: 35rem;
+		}
+	</style>
+</head>
+<body class="bg-dark">
+<nav id="og-csrd-navbar" class="container-xxl navbar navbar-expand-md navbar-dark bg-dark sticky-top og-csrd-navbar">
+	<div class="container-xxl">
+		<a class="navbar-brand" href="#top">Old Gus' Daft Drafts</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">Characters</a>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-characters">
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-descriptors">Descriptors</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-flavors">Flavors</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-foci">Foci</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#chapter-7-abilities">Abilities</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-xxl rounded-3 mt-1 mb-1 print-across text-white bg-og-csrd-content">
+<main class="ps-3">
+<div id="part0">
+	<h1 class="pt-2" id="top">
+		<span class="og-csrd-chapter">Old Gus'</span>
+		Daft Drafts
+	</h1>
+	<p class="small text-center">draft version 0.10 (2023-04-08)</p>
+	<ul class="list-inline text-center">
+		<li class="list-inline-item"><a class="btn btn-dark" href="index.html"><abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
+	</ul>
+	<h2 id="table-of-contents">
+		Table of Contents
+	</h2>
+	<ul class="og-csrd-toc list-unstyled">
+		<li class="og-csrd-toc-part og-csrd-toc-part0">
+			<span><a href="#introduction">Introduction</a></span>
+			<ul>
+				<li><a href="#chapter-1-cypher-system-open-license">Chapter 1: <span class="text-uppercase"><abbr title="Cypher System Open License">CSOL</abbr></span></a></li>
+				<li><a href="#chapter-2-foreword">Chapter 2: <span class="text-uppercase">Foreword</span></a></li>
+				<li><a href="#chapter-3-on-fey">Chapter 3: <span class="text-uppercase">On Fey</span></a></li>
+			</ul>
+		</li>
+		<li class="og-csrd-toc-part og-csrd-toc-part1">
+			<span><a href="#part1-character-options">Part 1: Character Options</a></span>
+			<ul>
+				<li><a href="#chapter-4-descriptors">Chapter 4: <span class="text-uppercase">Descriptors</span></a></li>
+				<li><a href="#chapter-5-flavors">Chapter 5: <span class="text-uppercase">Flavors</span></a></li>
+				<li><a href="#chapter-6-foci">Chapter 6: <span class="text-uppercase">Foci</span></a></li>
+				<li><a href="#chapter-7-abilities">Chapter 7: <span class="text-uppercase">Abilities</span></a></li>
+			</ul>
+		</li>
+		<!--
+		<li class="og-csrd-toc-part og-csrd-toc-part2">
+			<span><a href="#part2-cyphers">Part 2: Cyphers</a></span>
+			<ul>
+				<li><a href="#chapter-8-cyphers">Chapter 8: <span class="text-uppercase">Cyphers</span></a></li>
+				<li><a href="#chapter-9-artifacts">Chapter 9: <span class="text-uppercase">Artifacts</span></a></li>
+			</ul>
+		</li>
+		<li class="og-csrd-toc-part og-csrd-toc-part3">
+			<span><a href="#part3-running-the-game">Part 3: Running the Game</a></span>
+			<ul>
+				<li><a href="#chapter-10-optional-rules">Chapter 10: <span class="text-uppercase">Optional Rules</span></a></li>
+				<li><a href="#chapter-11-ritual-magic">Chapter 11: <span class="text-uppercase">Ritual Magic</span></a></li>
+				<li><a href="#chapter-12-creatures">Chapter 12: <span class="text-uppercase">Creatures</span></a></li>
+			</ul>
+		</li>
+		-->
+	</ul>
+	<hr>
+	<h2 id="introduction">Introduction</h2>
+	<h3 id="chapter-1-cypher-system-open-license">
+		<span class="og-csrd-chapter">Chapter 1</span>
+		Cypher System Open License
+	</h3>
+	<div class="row">
+		<div class="col-md-8">
+			<p class="lead">The <a href="https://cypher-system.com/">Cypher System</a> is a setting-agnostic tabletop roleplaying game designed by <a href="https://www.montecookgames.com/">Monte Cook Games</a>.</p>
+			<p>This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the Cypher System Open License, found at <a href="http://csol.montecookgames.com">http://csol.montecookgames.com</a>.</p>
+			<p>CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A. and other countries. All Monte Cook Games characters and character names, and the distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.</p>
+		</div>
+		<div class="col-md-4">
+			<a class="d-block text-center" href="https://www.montecookgames.com/">
+				<svg version="1.1" id="cypher-system-logo-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1080 1080" style="max-width: 250px; enable-background:new 0 0 1080 1080;" xml:space="preserve"><style type="text/css">.st0{fill:#FFFFFF;}.st1{fill:#ffffff;}.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:4;}</style><g transform="matrix( 1, 0, 0, 1, 0,0) "><g><g id="cypher-system-logo-1"><path class="st0" d="M449.4,389.8c6.9-16.3,14.4-31.6,22.4-46c-39,1-91.2-11.3-156.7-37l-1.9-0.7c-29.2,26.1-53.7,54-73.6,83.6H449.4 M871.9,216.1L871.9,216.1c-3.3-3.5-6.6-6.9-10-10.2C773,117,665.6,72.5,539.8,72.5C414,72.5,306.6,117,217.7,205.9c-54.4,54.4-92.2,115.7-113.2,183.9h15.7c17.9-55.4,47.2-106.1,88-152c0.1,0.1,0.1,0.1,0.2,0.1h0c13.6,10.6,29,20.8,46.3,30.8c20.4,11.7,41.8,22.1,64.3,31.1c0.3,0.1,0.6,0.2,0.9,0.4c64.6,25.1,116,37,154,35.6l2.6-0.1c0-0.1,0.1-0.1,0.1-0.2c43-72.5,101-116.9,174.2-133.3c132.7,11.9,219,74.4,259,187.6h65.5c-15.5-49.9-39.8-96.1-73-138.6C892.8,239.2,882.7,227.5,871.9,216.1 M861,226.4L861,226.4c4.1,4.4,8.2,8.8,12,13.2c-9.5-6.5-18.8-12.6-28-18.5c-47.1-30-109.5-44.9-187.3-44.9c-124.5,0-233.6,38.4-327.5,115.2c-1.5,1.2-3,2.4-4.4,3.6c-0.5-0.2-1.1-0.4-1.7-0.6c-23.1-9.1-45.1-19.7-65.9-31.8c-16.9-9.7-32-19.7-45.3-30.1c5-5.4,10.1-10.8,15.4-16.1c86-86,189.9-129,311.5-128.9c121.6,0,225.4,43,311.5,128.9C854.6,219.7,857.8,223.1,861,226.4 M598.9,963.8c2.6,0,5.1,0,7.7,0c-21.6,3-43.9,4.6-66.8,4.5c-97.7,0-183.9-27.7-258.6-83.2c14.1,0.5,28.1-1.2,41.9-5c0.2,0,0.5-0.1,0.7-0.1c30.8-10,60.3-33,88.5-68.8H253.5c10.6,12.8,22.4,25.2,35.2,37.2c9.7,9.1,19.7,17.6,30,25.7c-13.9,3.5-28,4.8-42.2,3.8c-1.8-0.1-3.6-0.3-5.4-0.5c-14.7-11.6-29-24.3-42.8-38.1c-9.2-9.2-17.9-18.5-26.1-28.1h-19.5c10.7,13.3,22.4,26.2,34.9,38.7c88.9,88.9,196.3,133.4,322.1,133.4c42.8,0,83.5-5.2,122-15.5h0.1c74.7-20,141.4-59.3,200-118c12.6-12.5,24.2-25.4,35-38.7H422.5c-28.4,37.2-58.1,61.8-89,73.8C407.6,937.5,496.1,963.8,598.9,963.8z"/></g></g></g><g transform="matrix( 1, 0, 0, 1, 0,0) "><g><g id="cypher-system-logo-2"><path class="st0" d="M1033.5,692v-11.4H44.4V692H1033.5 M9.6,799.2c-1.7,0-3.1,0.6-4.2,1.8c-1.2,1.2-1.8,2.6-1.8,4.2c0,1.7,0.6,3.1,1.8,4.2c1.2,1.2,2.6,1.8,4.2,1.8h1061.9c1.7,0,3.1-0.6,4.2-1.8c1.2-1.2,1.8-2.6,1.8-4.2c0-1.7-0.6-3.1-1.8-4.2c-1.2-1.2-2.6-1.8-4.2-1.8H9.6 M1077.5,395.8c0-1.7-0.6-3.1-1.8-4.2c-1.2-1.2-2.6-1.8-4.2-1.8H9.6c-1.7,0-3.1,0.6-4.3,1.8c-1.2,1.2-1.8,2.6-1.8,4.2c0,1.7,0.6,3.1,1.8,4.2c1.2,1.2,2.6,1.8,4.3,1.8h1061.9c1.7,0,3.1-0.6,4.2-1.8C1076.9,398.8,1077.5,397.4,1077.5,395.8 M536.6,138.4c6.9,0,12.7-1.3,17.6-4.1c4.9-2.7,7.4-6.1,7.4-10s-2.4-7.3-7.2-10.2c-4.8-2.8-10.6-4.3-17.5-4.3c-6.8-0.1-12.7,1.2-17.6,4c-4.9,2.8-7.4,6.1-7.4,10c0,3.9,2.4,7.3,7.2,10.1C523.9,136.8,529.8,138.3,536.6,138.4 M393.8,151.2c1.4,3.7,4.9,5.9,10.5,6.8c5.5,0.8,11.5,0,17.9-2.5c6.4-2.5,11.4-5.9,14.9-10.2c3.5-4.4,4.6-8.4,3.1-12.1c-1.4-3.7-4.9-5.9-10.4-6.8c-5.6-0.9-11.6,0-18,2.4c-6.4,2.5-11.3,5.9-14.8,10.3C393.4,143.5,392.4,147.5,393.8,151.2 M328.6,190.6c2.6-4.9,2.9-9.1,0.9-12.4c-2.1-3.3-5.9-4.9-11.5-4.7c-5.6,0.2-11.3,2.2-17.1,5.8c-5.8,3.6-10,7.9-12.7,12.8c-2.6,4.9-2.9,9.1-0.9,12.4c2.1,3.3,5.9,4.9,11.5,4.7c5.6-0.2,11.3-2.1,17.1-5.8C321.8,199.8,326,195.5,328.6,190.6 M510.8,961.6c-4.8,2.4-7.2,5.3-7.2,8.7s2.4,6.3,7.2,8.8c4.9,2.4,10.7,3.6,17.6,3.7c6.8,0,12.7-1.2,17.6-3.6c4.9-2.4,7.3-5.3,7.3-8.8c0-3.4-2.4-6.3-7.3-8.7c-4.9-2.4-10.7-3.7-17.6-3.7C521.5,958,515.6,959.2,510.8,961.6 M429.1,940.3c-6.6-1.8-12.6-2.1-17.9-1c-5.3,1-8.4,3.2-9.3,6.5c-0.9,3.3,0.7,6.7,4.8,10.4c4.1,3.6,9.4,6.2,16,8c6.6,1.8,12.6,2.1,17.9,1.1c5.3-1.1,8.4-3.3,9.3-6.5c0.9-3.3-0.7-6.7-4.8-10.3C441,944.8,435.7,942.1,429.1,940.3 M345.1,923.8c2-3.4,1.6-7.5-1.2-12.3c-2.8-4.9-7.1-9.1-13-12.5c-5.9-3.5-11.6-5.3-17.2-5.3c-5.6-0.1-9.4,1.5-11.4,4.9c-2,3.4-1.6,7.5,1.2,12.5c2.8,4.8,7.1,9,13,12.5c5.9,3.5,11.6,5.2,17.2,5.3C339.4,928.8,343.2,927.1,345.1,923.8 M161.9,328.8c-3.6-1.5-7.7-0.5-12.1,3c-4.4,3.5-7.9,8.4-10.5,14.8c-2.6,6.3-3.5,12.3-2.8,17.8c0.8,5.6,3,9.1,6.7,10.6c3.7,1.5,7.7,0.5,12-3c4.4-3.4,7.9-8.3,10.5-14.6c2.6-6.4,3.5-12.3,2.7-17.9C167.8,333.8,165.6,330.3,161.9,328.8z"/></g></g></g><g><path class="st1" d="M88.5,539H70.7c-9.8,0-17.8-8-17.8-17.8v-89c0-9.8,8-17.8,17.8-17.8h17.8c9.8,0,17.8,8,17.8,17.8V450h-8.9v-18.5c0-5-3.9-8.9-8.9-8.9H70.7c-4.8,0-8.9,3.9-8.9,8.9v90.4c0,5,4.1,8.9,8.9,8.9h17.8c5,0,8.9-3.9,8.9-8.9v-18.5h8.9v17.8C106.3,531,98.2,539,88.5,539z"/><path class="st1" d="M163.7,539h-17.8c-9.8,0-17.8-8-17.8-17.8v-89c0-9.8,8-17.8,17.8-17.8h17.8c9.8,0,17.8,8,17.8,17.8v89C181.5,531,173.5,539,163.7,539z M163.7,422.6h-17.8c-4.8,0-8.9,3.9-8.9,8.9v90.4c0,5,4.1,8.9,8.9,8.9h17.8c5,0,8.9-3.9,8.9-8.9v-90.4C172.6,426.5,168.7,422.6,163.7,422.6z"/><path class="st1" d="M268.8,539V428.1l-0.5,2.7l-24.9,90.4h-5.7l-24.9-90.4l-0.5-2.7V539h-8.9V414.4h13.5l23.7,86.7l23.7-86.7h13.5V539H268.8z"/><path class="st1" d="M335,488.8h-26.7V539h-8.9V414.4H335c9.8,0,17.8,8,17.8,17.8V471C352.8,480.8,345,488.8,335,488.8z M335,422.6h-26.7v58H335c5,0,8.9-3.9,8.9-8.9v-40.2C343.9,426.5,340,422.6,335,422.6z"/><path class="st1" d="M411.9,516.4h-38.4l-4.6,22.6h-9.3l26.7-124.6h12.8L425.8,539h-9.3L411.9,516.4z M410.1,508.2l-17.3-83.7l-0.2-1.6l-0.2,1.6l-17.3,83.7H410.1z"/><path class="st1" d="M457.6,422.6V539h-8.9V422.6h-22.2v-8.2h53.4v8.2H457.6z"/><path class="st1" d="M497.1,539V414.4h8.9V539H497.1z"/><path class="st1" d="M563.5,539h-35.6V414.4h35.6c9.8,0,17.8,8,17.8,17.8v27.2c0,7.1-3.4,11.9-8.9,13.5v0.4c5.5,1.6,8.9,6.4,8.9,13.5v34.4C581.3,531,573.3,539,563.5,539z M572.4,460.1v-28.7c0-5-3.9-8.9-8.9-8.9h-26.7V469h26.7C568.5,469,572.4,465.1,572.4,460.1z M572.4,521.9v-35.8c0-5-3.9-8.9-8.9-8.9h-26.7v53.6h26.7C568.5,530.8,572.4,526.9,572.4,521.9z"/><path class="st1" d="M603,539V414.4h8.9v116.4h35.6v8.2H603z"/><path class="st1" d="M664.8,539V414.4h44.5v8.2h-35.6V469h26.7v8.2h-26.7v53.6h35.6v8.2H664.8z"/><path class="st1" d="M840.8,539h-12.6l-18.7-108.6l-0.4-2.7l-0.4,2.7L790.1,539h-12.6l-21.4-124.6h9.3l18.2,112.3l0.2,2.1l0.2-2.1l19.4-112.3H815l19.4,112.3l0.2,2.1l0.2-2.1l18.2-112.3h9.3L840.8,539z"/><path class="st1" d="M877.9,539V414.4h8.9V539H877.9z"/><path class="st1" d="M935.2,422.6V539h-8.9V422.6H904v-8.2h53.4v8.2H935.2z"/><path class="st1" d="M1019.2,539v-61.8h-35.6V539h-8.9V414.4h8.9V469h35.6v-54.6h8.9V539H1019.2z"/></g><g><path class="st2" d="M171.2,638.8c0,9.9-1.8,16.6-5.4,20.2c-3.6,3.6-10.7,5.3-21.2,5.3H80.4c-10.4,0-17.4-1.8-21.2-5.3c-3.8-3.6-5.7-10.3-5.7-20.2v-57c0-9.9,1.9-16.6,5.7-20.2c3.8-3.6,10.8-5.3,21.2-5.3h64.2c13,0,21.1,3.1,24.2,9.4c1.6,3.4,2.4,12.1,2.4,26.4l-19.1,3.4V571H72.6v78.3h79.5v-27l19.1,3.8V638.8z"/></g><g><path class="st0" d="M148.9,763.1c0,6.8-1.2,11.4-3.6,13.9c-2.4,2.4-7,3.7-13.7,3.7H88.3c-7.3,0-12.1-1.5-14.4-4.5c-2-2.5-3-7.5-3-15.1l11.5-2.7v12h55.3V748H91c-8.3,0-13.4-2.1-15.6-6.3c-1.2-2.3-1.7-8.2-1.7-17.7c0-6.8,1.2-11.4,3.6-13.9c2.4-2.4,7-3.7,13.7-3.7h39.6c6.8,0,11.4,1.2,13.8,3.7c2.4,2.5,3.6,7.2,3.6,14.1l-10.7,3v-10.8H84.8v20.7h46.8c6.7,0,11.3,1.2,13.7,3.7c2.4,2.5,3.6,7.1,3.6,13.8V763.1z"/></g><g><path class="st0" d="M470.8,763.1c0,6.8-1.2,11.4-3.6,13.9c-2.4,2.4-7,3.7-13.7,3.7h-43.3c-7.3,0-12.1-1.5-14.4-4.5c-2-2.5-3-7.5-3-15.1l11.5-2.7v12h55.3V748h-46.7c-8.3,0-13.4-2.1-15.6-6.3c-1.2-2.3-1.7-8.2-1.7-17.7c0-6.8,1.2-11.4,3.6-13.9c2.4-2.4,7-3.7,13.7-3.7h39.6c6.8,0,11.4,1.2,13.8,3.7c2.4,2.5,3.6,7.2,3.6,14.1l-10.7,3v-10.8h-52.6v20.7h46.8c6.7,0,11.3,1.2,13.7,3.7c2.4,2.5,3.6,7.1,3.6,13.8V763.1z"/></g><g><path class="st0" d="M642.4,716.5h-34.1v64.2h-12.4v-64.2h-34v-10.1h80.5V716.5z"/></g><g><path class="st0" d="M818.3,780.7h-72.1v-74.3h71.6v9.9h-59.2v20.7h36.1v9.8h-36.1v23.6h59.8V780.7z"/></g><g><path class="st0" d="M1001.8,780.7h-11.4v-50.1l0.6-10.9c-1.6,3.5-3.1,6.1-4.5,8.1L958.2,769H955l-29.5-40.2c-2.3-3.2-4-6.2-5-9.2c0.4,2.9,0.6,6,0.6,9.2v51.8h-10.5v-74.3h10.1l36.1,48.4l33.7-48.4h11.4V780.7z"/></g><g><path class="st0" d="M1015.6,705.5v1.4h-3.9V717h-1.6v-10.1h-3.9v-1.4H1015.6z"/><path class="st0" d="M1017,705.5h2.2l3.3,9.7l3.3-9.7h2.2V717h-1.5v-6.8c0-0.2,0-0.6,0-1.2s0-1.1,0-1.7l-3.3,9.7h-1.5l-3.3-9.7v0.4c0,0.3,0,0.7,0,1.3s0,1,0,1.3v6.8h-1.5V705.5z"/></g><g><path class="st0" d="M226.2,779.8l37.3-41.6v-32.7h12.4v32.4l37.7,41.9h-15.4l-29.1-33.1l-27.8,33.1H226.2z"/></g><g><path class="st2" d="M337.9,556.3l-57.5,60.5v47.5h-19.1v-47.1l-58.2-60.9H227l44.8,48.2l42.8-48.2H337.9z"/></g><g><path class="st2" d="M491.2,601.3c0,7.5-2,12.9-5.9,16.1c-3.9,3.2-10,4.8-18.3,4.8h-73.3v42.1h-19.1V556.3H467c8.3,0,14.4,1.6,18.3,4.8c3.9,3.2,5.9,8.6,5.9,16.1V601.3z M471.9,596.7v-15.1c0-4.3-0.9-7.3-2.8-8.9c-1.9-1.6-5.1-2.4-9.7-2.4h-65.7V608h65.7c4.6,0,7.8-0.8,9.7-2.4C470.9,604,471.9,601,471.9,596.7z"/></g><g><path class="st2" d="M665.8,664.4h-19.1v-49h-90.3v49h-19.1V556.3h19.1v44.2h90.3v-44.2h19.1V664.4z"/></g><g><path class="st2" d="M841.2,664.4H730V556.3h110.3v14.4H749v30.2h55.7v14.2H749v34.3h92.1V664.4z"/></g><g><path class="st2" d="M1022.6,664.4h-28.4l-46.6-42.1h-33.7v42.1h-19.1V556.3h92.3c8.3,0,14.4,1.6,18.3,4.8c3.9,3.2,5.9,8.6,5.9,16.1v24.1c0,10.8-4.4,17.3-13.3,19.7c-2.8,0.8-12.1,1.3-27.7,1.3L1022.6,664.4z M992,597.1v-15.7c0-4.2-0.9-7.1-2.8-8.7c-1.9-1.6-5.1-2.4-9.7-2.4h-65.7v37.9h65.7c4.6,0,7.8-0.8,9.7-2.3C991,604.4,992,601.5,992,597.1z"/></g></svg>
+			</a>
+		</div>
+	</div>
+	<hr>
+	<h3 id="chapter-2-foreword">
+		<span class="og-csrd-chapter">Chapter 2</span>
+		Foreword
+	</h3>
+	
+	<p>This is a living document, and all mechanics listed in are in the early drafting stages. These draft set of rules and character options will frequently link to <a href="index.html">Old Gus' Cypher System Reference Document (OG-CSRD)</a>.</p>
+	<p class="og-csrd-indent">This collected material provides additional material useful to fantasy, feyrie tales, or urban fantasy settings.</p>
+	<hr>
+	<h4 class="og-csrd-header-small" id="reading-this-document">Reading this Document<a class="og-csrd-header-anchor" href="#reading-this-document" title="Permalink" aria-hidden="true"></a></h4>
+	<p>Page references to official printed material appear throughout. Source material that informs the CSRD is referenced as follows:</p>
+	<ul>
+		<li><a href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a> (2019), page 10: <span class="og-csrd-ref">(10)</span></li>
+		<li><a href="https://www.montecookgames.com/store/product/godforsaken/">Godforsaken</a> (2020), page 20: <span class="og-csrd-ref">(GF, 20)</span></li>
+		<li><a href="https://www.montecookgames.com/store/product/the-stars-are-fire/">The Stars are Fire</a> (2019), page 30: <span class="og-csrd-ref">(SF, 30)</span></li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Sidebars:</strong> Sidebars contain optional rules, additional context, and important information, for example, the specifics of a creature mentioned in the primary text.</p>
+	</div>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>GM Notes:</strong> Information for GMs about running the game, considerations and questions you might want to address before game time.</p>
+	</div>
+	<p><strong>Contact the Author:</strong>
+	<ul class="list-inline">
+		<li class="list-inline-item"><a href="mailto:parartio.flynn@gmail.com">partario.flynn@gmail.com</a></li>
+		<li class="list-inline-item"><a rel="me" href="https://dice.camp/@oldgus">@oldgus@dice.camp</a></li>
+	</ul>
+	<hr>
+	<h3 id="chapter-3-on-fey">
+		<span class="og-csrd-chapter">Chapter 3</span>
+		On Fey
+	</h3>
+	<p>Before you read further, consider the nature of your setting, how you want magic&mdash;especially interplanar magic&mdash;to function, and how much bleed there is between fey realms and the mortal realm&mdash;this material is intended to be used as readily in a modern fantasy as it is a traditional high-fantasy.setting. Either way, consider the two following aspects when develping your setting:</p>
+	<p class="og-csrd-indent"><strong>Once in a Lifetime:</strong> The border bewteen realms is not frequently crossed, and that crossing drives the story. You (and the players) might need to keep an eye on the calendar, the location of the nearest usable portal, and avoiding any unwanted attention in worlds other than your own. An intimate tale about the clash of two worlds is about to unfold.</p>
+	<p class="og-csrd-indent"><strong>Extraplanar Kalleidoscope:</strong> You desire to open the door from a mundane world into an extraplanar existence, and are unafraid to tell high-weird stories that use <a href="index.html#choose-optional-rules">Optional Rules</a> or strange effects, such as time dilation. Fey in these setting exist as a matter of course, and some might have regular contact or have set up enclaves upon the other worlds.</p>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>As this document is developed, additional optional rules will be added.</p>
+	</div>
+	<hr>
+</div>
+<div id="part1">
+	<h2 id="part1-character-options">
+		<span class="og-csrd-chapter">Part 1</span>
+		Character Options
+	</h2>
+	<h3 id="chapter-4-descriptors">
+		<span class="og-csrd-chapter">Chapter 4</span>
+		Descriptors
+	</h3>
+	<div class="alert bg-dark ps-4">
+		<h4 class="og-csrd-header-small" id="choose-descriptors">Quick Reference: Descriptors<a class="og-csrd-header-anchor" href="#choose-descriptors" title="Permalink" aria-hidden="true"></a></h4>
+		<ul class="list-unstyled og-csrd-quick-reference">
+			<li><a href="#descriptor-boggle">Boggle</a></li>
+			<li><a href="#descriptor-gwaloth">Gwaloth</a></li>
+			<li><a href="#descriptor-ikwiikwii">Ikwiikwii</a></li>
+			<li><a href="#descriptor-pixie">Pixie</a></li>
+			<li><a href="#descriptor-siren">Siren</a></li>
+		</ul>
+	</div>
+	<hr>
+	<h4  class="og-csrd-border-line" id="descriptor-boggle">Boggle<a class="og-csrd-header-anchor" href="#descriptor-boggle" title="Permalink" aria-hidden="true"></a></h4>
+	<p>Most boggles resemble monstrous, gnarled, gnomes with at least one prominent wart on their face, but they can display a staggering variety: some boggles are hirsute, some are completely bald. Some boggles have monsterous features&mdash;wild pigmentation, horns, teeth, or claws&mdash;which make them look quite fearsome&mdash;at least to a child. Naturally jealous creatures, boggles that lack these ornamentations adopt a monstrous persona through the use of trickery, and even those that do have them are not above a little enhancement to their appearance.</p>
+	<p class="og-csrd-indent">Petty mischief delights and even nourishes boggles, who frighten and bedevil folk&mdash;such pranks are always annoying, but usually harmless. The most unseelie of boggles frighten mortal children, hiding under their beds or in their closets, feeding on their victims' fear. As with all boggle msichief, their behavior is usually expression of deep self-loathing. A defeated boggle might offer its services in recompense if cornered, although precious few are strong-willed enough to truly get the best out of a boggle's mischievous compulsions in the long-term.</p>
+	<p class="og-csrd-indent">You gain the following characteristics:</p>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Mischievous:</strong> +2 to your Speed Pool, or +2 to your Intellect Pool.</p></li>
+		<li><p><strong>Skill:</strong> You are trained in deception, disguise, and hiding.</p></li>
+		<li><p><strong>Contortionist:</strong> You gain the <a href="index.html#ability-contortionist">Contortionist</a> <span class="og-csrd-ref">(121)</span> ability. Enabler.</p></li>
+		<li><p><strong>Prankster:</strong> When you surprise a creature with an action that does not inflict damage, you gain an asset on the task. Enabler.</p></li>
+		<li><p><strong>Schadenfreude:</strong> Once after each ten-hour <a href="index.html#recovery-rolls">recovery roll</a>, when you make someone laugh inappropriately, frighten someone, or cause someone to feel humiliation, you can make a free recovery roll, and do not need to eat or drink that day.</p></li>
+		<li><p><strong>Inability:</strong> Your small size makes some physical tasks difficult. Might-based tasks are hindered.</p></li>
+		<li><p><strong>Inability:</strong> Your distinctive scent eases tasks to locate you by smell within a short distance. Roll on the boggle scents table, or create your own scent. The scent is so pungent that you have an inability on all positive social interactions with those are not acclimated to your scent.</p></li>
+	</ul>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Boggle Scents</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d10</th><th scope="row">Boggle Scents</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td>Pencil shavings</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td>Dog breath</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3</th><td>Fennel</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4</th><td>Fetid swampwater</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5</th><td>Microwaved fish</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">6</th><td>Overripe banana</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">7</th><td>Rotten egg</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">8</th><td>Raw onion</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">9</th><td>Mothballs</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10</th><td>Sour milk</td></tr>
+		</tbody>
+	</table>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Inability:</strong> Your Intellect defense tasks are hindered.</p></li>
+		<li><p><strong>Additional Equipment:</strong> You have a personal disguise kit, which you can use to adopt the appearance of a nondescript individual your size, or a monster of your own design.</p></li>
+		<li><p><strong>Initial Link to the Starting Adventure:</strong> From the following list of options, choose how you became involved in the first adventure.</p></li>
+	</ul>
+	<ol>
+		<li>Pick one other PC. They saved you from a group of people with no sense of humor and have been stuck with you since.</li>
+		<li>Pick one other PC. Your life has grown stale. What you need is someone new to torment.</li>
+		<li>Pick one other PC. No matter what you do, they seem to see you as reedemable. It's horrifying.</li>
+		<li>You've caused too much trouble where you were, and so are on your own. Again. Misery loves company, so here you are.</li>
+	</ol>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>A boggle's monstrous appearance (or mundane disguise) might occasionally provide an asset to their mischief.</p>
+	</div>
+	<h4  class="og-csrd-border-line" id="descriptor-gwaloth">Gwaloth<a class="og-csrd-header-anchor" href="#descriptor-gwaloth" title="Permalink" aria-hidden="true"></a></h4>
+	<p>Most gwaloth have the appearance of wiry dwarves made of wood, although adults can stand up to 12 feet (4 m) tall. They travel unshod, with a thick coating of raw earth around their root-like feet. Most live in areas dense with other plant life&mdash;sun-dappled forests, whispering pines, buzzing jungles, and teeming swamps. A precious few live in mountainous scrublands, and fewer still in deserts&mdash;hermits in places with limited sunslight, water, and fertile soil.</p>
+	<p class="og-csrd-indent">Most gwaloth are unbridled optimists who advocate for peaceful coexistence with others, a virtue they inherit from native gardens. Only those who take a vow a strict pacifism are considered for the rites of adulthood. Gwaloth leaders literally <em>put their roots down</em>&mdash;never leaving their planting positions as a sign of their dedication to the garden.</p>
+	<p class="og-csrd-indent">You gain the following characteristics:</p>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Grounded:</strong> +4 to your Might Pool.</p></li>
+		<li><p><strong>Skill:</strong> You are trained in healing and herbalism.</p></li>
+		<li><p><strong>Long-Lived:</strong> Your natural lifespan (unless tragically cut short) is thousands of years.</p></li>
+		<li><p><strong>Photosynthetic:</strong> You gain nutrients from sunlight and fertile soil. You don't need to eat or breathe if you have daily exposure to sufficient sunlight. Enabler.</p></li>
+		<li><p><strong>Summerbloom:</strong> You gain the <a href="#ability-summerbloom">Summerbloom</a> ability, and you can pay its point cost with your Might Pool instead. Enabler.</p></li>
+		<li><p><strong>Timberskin:</strong> Your skin produces a pattern of exterior enchanted wood-like bark that grants you +1 to Armor if you do not wear physical armor&mdash;this armor also shields your mind against mental attacks that would inflict damage to your Intellect Pool (even if you are wearing physical armor). Your timberskin provides no protection from fire, however, and your stiff limbs are ill suited for agility&mdash;you have an inability in running, jumping, swimming, and Speed defense tasks. Enabler.</p></li>
+		<li><p class="og-csrd-indent"><p><strong>Put Down Roots:</strong> When you make a defense roll and you are standing on fertile ground, you can plunge your roots into it. Until the end of your next turn, you cannot move, but gain an asset on all defense rolls you make. At that time, you can make a free <a href="index.html#recovery-rolls">recovery roll</a>. Enabler.</p></li>
+		<li><p><strong>Give Fruit:</strong> When you make a <a href="index.html#recovery-rolls">recovery roll</a>, you can divide points into a fruiting instead of your stat Pools. The fruiting sprouts from your body in the manner of your choosing. A creature&mdash;other than you&mdash;that uses an action to eat a fruiting can divide its points among their stat Pools however they wish. Any fruiting you produce spoils at the end of your next ten-hour recovery roll. Enabler.</li>
+		<li>
+		<li><p><strong>Initial Link to the Starting Adventure:</strong> From the following list of options, choose how you became involved in the first adventure.</p></li>
+	</ul>
+	<ol>
+		<li>Pick one other PC. You see so much potential in this person. You will do anything to help foster their growth.</li>
+		<li>Pick one other PC. This person has spent too much of thier life in the shade, and needs to step into the light.</li>
+		<li>It sounded like a good cause.</li>
+		<li>Your garden is destroyed, so you have become scattered seed.</li>
+	</ol>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Gwaloth love to trade favors and gifts. If a gwaloth produces fruit from their own body and offers it to you, you know you have made a friend for life.</p>
+	</div>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Most any clothing gwaloth appear to wear&mdash;and indeed their very faces&mdash;are grown at their own direction, and mostly as courtesy to others. Gwaloth who are accustomed to their own kind might display a single enormous flower for a head, with dewey beads of fruit arranged in a delicate pattern.</p>
+		<p class="og-csrd-indent">With a year of dedicated effort, a gwaloth can completely alter their appearance to suit their environment or lifestyle. A gwaloth who develops an appearance suitable to a natural environment can gains an asset to all stealth tasks within it. These superficial changes are just that to another of their kind, however&mdash;two gwaloth within a short distance who know one another will recognize eachother immediately.</p>
+	</div>
+	<h4  class="og-csrd-border-line" id="descriptor-ikwiikwii">Ikwiikwii<a class="og-csrd-header-anchor" href="#descriptor-ikwiikwii" title="Permalink" aria-hidden="true"></a></h4>
+	<p>Ikwiikwii resemble bipedal owls with no wings and short, talon-fingered hands. They are short, stocky and display powerful musculature for their diminutive frame. Most live in mountains and boreal forests, and are capable hunters. Rarely farmers, ikwiikwii consider it a point of pride to hunt for their own dinner, even encouraging their small children to fend for themselves.</p>
+	<p class="og-csrd-indent">Mated ikwiikwii do so for life. Family groups rarely exceed four individuals at a time. If a family grows too large, the eldest child is encouraged to leave the nest. Leaving the nest marks adulthood in their lives, and parents make a great display, showering gifts and well-wishes upon their departing child, or throw a party attended by friends and extended family.</p>
+	<p class="og-csrd-indent">You gain the following characteristics:</p>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Descriptor:</strong> +2 to your Might Pool and +2 to your Intellect Pool.</p></li>
+		<li><p><strong>Skill:</strong> You're trained in perception and tracking.</p></li>
+		<li><p><strong>Night Vision:</strong> You can see in extremely dim light as though it were dim light. You can see in dim light as if it were bright light. However, you are temporarily overwhelmed by unexpected bright lights. When blinded in this way, all your tasks are hindered. Enabler.</p></li>
+		<li><p><strong>Vicious Build:</strong> Unarmed strikes you make with your claws or beak inflict 1 additional point of damage. When your hands are unoccupied, your can run on all fours&mdash; with all four limbs, your claws provide an asset to climbing and running tasks. Enabler.</p></li>
+		<li><p><strong>Initial Link to the Starting Adventure:</strong> From the following list of options, choose how you became involved in the first adventure.</p></li>
+	</ul>
+	<ol>
+		<li>Pick one other PC. You were out hunting and accidentally attacked them. You're friends now, but they still have a scar.</li>
+		<li>Pick one other PC. You were injured and they nursed you back to health.</li>
+		<li>Pick one other PC. They take themselves as your rival. Ridiculous. You have no rival.</li>
+		<li>It's time for you to leave the nest and make your own way. You've always been curious about others.</li>
+	</ol>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>"Unexpected" is a key word when ruling on an interactions with an ikwiikwii's Night Vision. Untimely reflections of sunlight might be a good source of occasional GM intrusion for an ikwiikwii PC. As a baseline, looking directly at the sun at midday is a difficulty 6 Might defense roll. Item, effect or creature level might make sense to use, but consider a light's brightness in relation to the ambient light in the environment. Waving a mundane torch in an ikwiikwii's face at noon might be unexpected, but probably doesn't overwhelm the ambient light to require a defense roll.</p>
+	</div>
+	<h4  class="og-csrd-border-line" id="descriptor-pixie">Pixie<a class="og-csrd-header-anchor" href="#descriptor-pixie" title="Permalink" aria-hidden="true"></a></h4>
+	<p>Pixies vary in appearance, and it can change dramatically as they age. While most folk picture a miniature elf with the wings of an insect, pixies can share features with most any kind of animal, plant, monster, dragon, or other creature one could imagine. At auspicious moments, murmurations of pixies gather in these areas in a function known as an <em>eisteddfod</em> where they dance, play games, chase, tell tales, wrestle and copulate with one another in dazzling displays of light and flight.</p>
+	<p class="og-csrd-indent">Prestige is everything to a pixie: their short seasons and long years are an endless game of acquisitions and losses played among their troop. They are taught to defend pride and territory with ferocity, know when a tactical retreat will serve them best, and to exact just vengeance upon those who have done them wrong. Throughout this education, a strong sense of fair play is stressed, but cunning and creativity are considered virtues.</p>
+	<p class="og-csrd-indent">Just as mortals caution their children against wee folk, so wee folk caution their children about mortals&mdash;"they seem amusing playthings, but are dangerous." Yet still, adventurous young pixies visiting the mortal world to attempt something that will make a worthy tale at the next <em>eisteddfod</em>, and a few of them find kindred spirits in dreamers, idealists, musicians, poets, and hopeless romantics, and an intense, long-lasting&mdash;even dangerous&mdash;bond between the two might form. A mortal bonded to a pixie companion might be spurred to new heights of heroism and mischief&mldr;or they die, as all things must do one day. Then again&mdash;as the pixie elders say&mdash;<em>a life lived in fear is a life half-lived</em>.</p>
+	<p class="og-csrd-indent">You gain the following characteristics:</p>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Nimble:</strong> +2 to your Speed Pool, and +2 to your Intellect Pool.</p></li>
+		<li><p><strong>Skill:</strong> You're trained in Intellect defense rolls to resist mental effects.</p></li>
+		<li><p><strong>Tiny Size:</strong> You are small enough to fit places many cannot, and hide behind common objects. Your tiny size is an asset on hiding and escaping tasks. Enabler.</p></li>
+		<li><p><strong>Pixie Wings (2 Intellect points):</strong> You can fly up to a short distance each round for up to 1 hour. While flying, you emit a flickering, dim light and emit a soft noise, which hinders all stealth tasks and eliminates your asset to stealth tasks from Tiny Size. Enabler.</p></li>
+	</ul>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Pixie Flight</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d10</th><th scope="col">Color</th><th scope="col">Sound</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td>Red</td><td>Gentle breeze</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td>Orange</td><td>Insect buzzing</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3</th><td>Yellow</td><td>Child's laughter</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4</th><td>Spring</td><td>Birdsong</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5</th><td>Green</td><td>Rustling leaves</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">6</th><td>Aquamarine</td><td>Babbling brook</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">7</th><td>Blue</td><td>Soft singing or humming</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">8</th><td>Indigo</td><td>Tinkling chimes</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">9</th><td>Violet</td><td>Musical notes</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10</th><td>White</td><td>Gentle Rain</td></tr>
+		</tbody>
+	</table>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Pixie Dust:</strong> You can alight on a willing creature larger than you by moving into their space. While alighted, you or your ally gain an asset to a defense roll. Each round, you decide which of you gets the asset, and to which type of defense rolls it benefits: Might, Speed, or Intellect. Enabler.</p>
+		</li>
+		<li><p><strong>Inability:</strong> While you have endless willpower, you're not very smart. Task involving knowledge or figuring out puzzles are hindered.</p></li>
+		<li><p><strong>Inability:</strong> Your tiny legs prevent you from keeping up with others. Running, jumping and climbing tasks are hindered by two steps.</p></li> 
+		<li><p><strong>Initial Link to the Starting Adventure:</strong> From the following list of options, choose how you became involved in the first adventure.</p></li>
+	</ul>
+	<ol>
+		<li>Pick one other PC. You find them inspiring and just want to help.</li>
+		<li>Pick one other PC. They'd be lost without you. Not the other way around. Definitely not.</li>
+		<li>Pick one other PC. You're worried they'll somehow replace you, so you came along to prove yourself.</li>
+		<li>You have to run away from something&mdash;and fast.</li>
+	</ol>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Despite their tiny size&mdash;standing 4&ndash;10 inches (10&ndash;25 cm) tall, with a wingspan of 6&ndash;15 inches (15&ndash;38 cm), and weight of 2&ndash;6 pounds (0.9&ndash;2.7 kg)&ndash;pixies are nonetheless as strong as a human.</p>
+	</div>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Most pixies acqure several names over their lifetime. Here are some common name types&dash;although elders, those of station, and outcasts all acquire new names.</p>
+		<p class="og-csrd-indent"><strong>True Names:</strong> Infant pixies are given their true names by their sires, usually something aspirational, and it is kept secret from all but their most trusted friends and relatives&mdash;<em>Ainsel, Asteria, Cirno, Cyrena, Erana, Fiona, Franjeen, Iolanthe, Higbee, Kaya, Memim, Mofurun, Nuala, Peri, Pirikia, Phoebe, Tabit, Vix, Wanda, Zooey</em>.</p>
+		<p class="og-csrd-indent"><strong>Use Names:</strong> A second use-name follows, given to the pixie by their peers, usually an affectation based on their appearance or demeanor. This name is used by all but their most trusted friends&mdash;<em>Acorn, Aspen, Basil, Beedle, Belbel, Bulb, Cappy, Crysta, Flutter, Ginger, Knot, Lilac, Mipple, Pearl, Pech, Prickle, Poppy, Rere, Rool, Ru, Shar, Sunny, Razzle, Root, Spore, Tattle, Thistle, Tup, Trow, Twig, Winkie</em>.</p>
+		<p class="og-csrd-indent"><strong>Deed Names:</strong> When a pixie performs a deed worthy of their troop's remembrance, an elder bestows upon them a use-name reflective of the event, and the pixie wears it as a mantle of adulthood, usurping or supplementing their childhood name as if it were a title or surname&mdash;<em>Dambreaker, Flytrapper, Froghopper, Longvine, Mossfoot, Mudlump, Pollenpuff, Rosebloom, Sapwick, Shinebright, Starchaser, Tangleroot, Waterdancer</em>.</p>
+	</div>
+	<h4  class="og-csrd-border-line" id="descriptor-siren">Siren<a class="og-csrd-header-anchor" href="#descriptor-siren" title="Permalink" aria-hidden="true"></a></h4>
+	<p>Most sirens resemble aquatic elves from the torso up, with a lower body that resembles a sea creature&mdash;usually iridescent scales and the tail of a fish.</p>
+	<p class="og-csrd-indent">Among mortals, sirens are blamed for floods, storms, shipwrecks, drownings, and the occasional tragic romantic tryst. Sirens tend to be driven and passionate, and for some, those passions lead them onto land and into dramatic events.</p>
+	<p class="og-csrd-indent">You gain the following characteristics:</p>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Charming:</strong> +4 to your Intellect Pool.</p></li>
+		<li><p><strong>Skill:</strong> You're trained in singing, swimming, and and crafting items from natural materials.</p></li>
+		<li><p><strong>Enchanting Voice:</strong> Your voice inspires awe, and serves as an asset in all interaction tasks. Enabler.</p></li>
+		<li><p><strong>Natural Affinity: </strong> You gain one of the following abilities: <a href="index.html#ability-aquatic-combatant">Aquatic Combatant</a> <span class="og-csrd-ref">(110)</span>, <a href="index.html#ability-calm-stranger">Calm Stranger</a> <span class="og-csrd-ref">(118)</span>, or <a href="index.html#ability-critter-companion">Critter Companion</a> <span class="og-csrd-ref">(123)</span>.</p></li>
+		<li>
+			<p><strong>Child of the Sea:</strong> You are an aquatic creature. You gain the following benefits:
+			<ul class="og-csrd-list-disc">
+				<li>You can breathe both air and water, and when immersed in water.</li>
+				<li>Your body is an asset to all swimming tasks.</li>
+				<li>If you do nothing but swiming on your turn, you gain an asset to Speed defense tasks.</li>
+				<li>While underwater, you can see in extremely dim light as though it were bright light, and total darkness as if it were extremely dim light.</li>
+			</ul>
+			<p class="og-csrd-indent">Enabler.</p>
+		</li>
+		<li><p><strong>Visitor's Legs:</strong> When your body is dry (a process that takes an average of 10 minutes), you can use your action to split your tail into two legs and assume the form of a human or elf. However, you are unpracticed with your legs, and all your movement tasks that require their use are hindered. If you are doused with water, your body immediately reverts to your aquatic form. In this form, you can only crawl no more than an immediate distance on land. Enabler.</p></li>
+		<li><p><strong>Inability:</strong> Land dwellers are strange to you. While among their kind, any task that involves seeing through deceptions or determining someone's secret motive is hindered.</p></li>
+		<li><p><strong>Initial Link to the Starting Adventure:</strong> From the following list of options, choose how you became involved in the first adventure.</p></li>
+	</ul>
+	<ol>
+		<li>Pick one other PC. You saw them from afar and became fascinated.</li>
+		<li>Pick one other PC. You've known them a while, and have not told them who you are. It's gone on long enough that now you're afraid to.</li>
+		<li>You're running away from home.</li>
+		<li>You've always longed for adventure.</li>
+	</ol>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>An untimely dousing can be a good source of GM intrusion for siren&mdash;a rainstorm, lawn sprinkler, crashing wave or jealous rival should be a source of joy in the story. The GM might allow an appropriate defense roll to minimize or delay a transformation due to exposure to water, allowing for partial transformations&mdash;exposed aquatic features to become visible&mdash;but without the loss of mobility penalty.</p>
+		<p class="og-csrd-indent">A siren PC might discover a way to inoculate themselves from some or all unwanted transformations by completing one or more <a href="index.html#choose-character-arc">character arcs</a>.</p>
+	</div>
+	<hr>
+	<h3 id="chapter-5-flavors">
+		<span class="og-csrd-chapter">Chapter 5</span>
+		Flavors
+	</h3>
+	<div class="alert bg-dark ps-4">
+		<h4 class="og-csrd-header-small" id="choose-flavors">Quick Reference: Flavors<a class="og-csrd-header-anchor" href="#choose-flavors" title="Permalink" aria-hidden="true"></a></h4>
+		<ul class="list-unstyled og-csrd-quick-reference">
+			<li><a href="#flavor-crafty">Crafty</a></li>
+			<li><a href="#flavor-fey">Fey</a></li>
+			<li><a href="#flavor-improbability">Improbability</a></li>
+			<li><a href="#flavor-ritualist">Ritualist</a></li>
+		</ul>
+	</div>
+	<hr>
+	<h4 class="og-csrd-border-line" id="flavor-crafty">Crafty Flavor<a class="og-csrd-header-anchor" href="#flavor-crafty" title="Permalink" aria-hidden="true"></a></h4>
+	<p>You're a maker. You make things.</p>
+	<div class="row">
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="first-tier-crafty-abilities">First-Tier Crafty Abilities<a class="og-csrd-header-anchor" href="#first-tier-crafty-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-crafter">Crafter</a> <span class="og-csrd-ref">(122)</span></li>
+				<li><a href="index.html#ability-junkmonger">Junkmonger</a> <span class="og-csrd-ref">(156)</span></li>
+				<li><a href="index.html#ability-trapster">Trapster</a> <span class="og-csrd-ref">(193)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="second-tier-crafty-abilities">Second-Tier Crafty Abilities<a class="og-csrd-header-anchor" href="#second-tier-crafty-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#artifact-tinkerer">Artifact Tinkerer</a> <span class="og-csrd-ref">(110)</span></li>
+				<li><a href="index.html#ability-enhanced-intellect">Enhanced Intellect Edge</a> <span class="og-csrd-ref">(135)</span></li>
+				<li><a href="index.html#ability-robot-assistant">Robot Assistant</a> <span class="og-csrd-ref">(178)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="third-tier-crafty-abilities">Third-Tier Crafty Abilities<a class="og-csrd-header-anchor" href="#third-tier-crafty-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-better-living-through-chemistry">Better Living Through Chemistry</a> <span class="og-csrd-ref">(113)</span></li>
+				<li><a href="index.html#ability-disable-mechanisms">Disable Mechanisms</a> <span class="og-csrd-ref">(128)</span></li>
+				<li><a href="index.html#ability-master-crafter">Master Crafter</a> <span class="og-csrd-ref">(160)</span></li>
+				<li><a href="index.html#ability-play-to-the-crowd">Play to the Crowd</a> <span class="og-csrd-ref">(170)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="fourth-tier-crafty-abilities">Fourth-Tier Crafty Abilities<a class="og-csrd-header-anchor" href="#fourth-tier-crafty-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-cyphersmith">Cyphersmith</a> <span class="og-csrd-ref">(124)</span></li>
+				<li><a href="index.html#guide-bolt">Guide Bolt</a> <span class="og-csrd-ref">(147)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="fifth-tier-crafty-abilities">Fifth-Tier Crafty Abilities<a class="og-csrd-header-anchor" href="#fifth-tier-crafty-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-jury-rig">Jury-Rig</a> <span class="og-csrd-ref">(156)</span></li>
+				<li><a href="index.html#ability-modify-artifact-power">Modify Artifact Power</a> <span class="og-csrd-ref">(163)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="sixth-tier-crafty-abilities">Sixth-Tier Crafty Abilities<a class="og-csrd-header-anchor" href="#sixth-tier-crafty-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-greater-enhanced-intellect">Greater Enhanced Intellect</a> <span class="og-csrd-ref">(146)</span></li>
+				<li><a href="index.html#ability-subtle-tricks">Subtle Tricks</a> <span class="og-csrd-ref">(187)</span></li>
+			</ul>
+		</div>
+	</div>
+	<h4 class="og-csrd-border-line" id="flavor-fey">Fey Flavor<a class="og-csrd-header-anchor" href="#flavor-fey" title="Permalink" aria-hidden="true"></a></h4>
+	<p>You&mdash;or an ancestor of yours&mdash;crossed into the fey realm and it's indellible mark is upon you. Either way, there's always been a touch of the otherworldly about you.</p>
+	<div class="row">
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="first-tier-fey-abilities">First-Tier Fey Abilities<a class="og-csrd-header-anchor" href="#first-tier-fey-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-calm-stranger">Calm Stranger</a> <span class="og-csrd-ref">(118)</span></li>
+				<li><a href="#ability-summerbloom">Summerbloom</a></li>
+				<li><a href="index.html#ability-fast-talk">Fast Talk</a> <span class="og-csrd-ref">(138)</span></li>
+				<li><a href="index.html#ability-fleet-of-foot">Fleet of Foot</a> <span class="og-csrd-ref">(141)</span></li>
+				<li><a href="index.html#ability-legerdemain">Legerdemain</a> <span class="og-csrd-ref">(157)</span></li>
+				<li><a href="#ability-winterchill">Winterchill</a></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="second-tier-fey-abilities">Second-Tier Fey Abilities<a class="og-csrd-header-anchor" href="#second-tier-fey-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-face-morph">Face Morph</a> <span class="og-csrd-ref">(138)</span></li>
+				<li><a href="index.html#ability-impersonate">Impersonate</a> <span class="og-csrd-ref">(151)</span></li>
+				<li><a href="#ability-lucky-charm">Lucky Charm</a></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="third-tier-fey-abilities">Third-Tier Fey Abilities<a class="og-csrd-header-anchor" href="#third-tier-fey-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-captivate-with-starshine">Captivate with Starshine</a> <span class="og-csrd-ref">(115)</span></li>
+				<li><a href="index.html#ability-command">Command</a> <span class="og-csrd-ref">(120)</span></li>
+				<li><a href="index.html#ability-enhanced-potential">Enhanced Potential</a> <span class="og-csrd-ref">(135)</span></li>
+				<li><a href="index.html#ability-flamboyant-boast">Flamboyant Boast</a> <span class="og-csrd-ref">(140)</span></li>
+				<li><a href="index.html#ability-perfect-stranger">Perfect Stranger</a> <span class="og-csrd-ref">(169)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="fourth-tier-fey-abilities">Fourth-Tier Fey Abilities<a class="og-csrd-header-anchor" href="#fourth-tier-fey-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-daydream">Daydream</a> <span class="og-csrd-ref">(124)</span></li>
+				<li><a href="index.html#ability-one-with-the-wild">One With the Wild</a> <span class="og-csrd-ref">(167)</span></li>
+				<li><a href="index.html#ability-never-fumble">Never Fumble</a> <span class="og-csrd-ref">(165)</span></li>
+				<li><a href="index.html#ability-power-strike">Power Strike</a> <span class="og-csrd-ref">(171)</span></li>
+				<li><a href="index.html#ability-seize-the-moment">Seize the Moment</a> <span class="og-csrd-ref">(181)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="fifth-tier-fey-abilities">Fifth-Tier Fey Abilities<a class="og-csrd-header-anchor" href="#fifth-tier-fey-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-advanced-command">Advanced Command</a> <span class="og-csrd-ref">(108)</span></li>
+				<li><a href="index.html#ability-magnificent-moment">Magnificent Moment</a> <span class="og-csrd-ref">(159)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="sixth-tier-fey-abilities">Sixth-Tier Fey Abilities<a class="og-csrd-header-anchor" href="#sixth-tier-fey-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-incredible-recovery">Incredible Recovery</a> <span class="og-csrd-ref">(153)</span></li>
+				<li><a href="index.html#ability-traverse-the-worlds">Traverse the Worlds</a> <span class="og-csrd-ref">(194)</span></li>
+				<li><a href="index.html#ability-trust-to-luck">Trust to Luck</a> <span class="og-csrd-ref">(194)</span></li>
+			</ul>
+		</div>
+	</div>
+	<h4 class="og-csrd-border-line" id="flavor-improbability">Improbability Flavor<a class="og-csrd-header-anchor" href="#flavor-improbability" title="Permalink" aria-hidden="true"></a></h4>
+	<p>You seem to be a maget for the strange and unusual. You turn up at odd times, in unexpected places, bearing unexpected company, do unexpected things, and you disappear just as unexpectedly.</p>
+	<div class="row">
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="first-tier-improbability-abilities">First-Tier Improbability Abilities<a class="og-csrd-header-anchor" href="#first-tier-improbability-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-critter-companion">Critter Companion</a> <span class="og-csrd-ref">(123)</span></li>
+				<li><a href="index.html#ability-far-step">Far Step</a> <span class="og-csrd-ref">(138)</span></li>
+				<li><a href="index.html#ability-phased-pocket">Phased Pocket</a> <span class="og-csrd-ref">(170)</span></li>
+				<li><a href="index.html#ability-vanish">Vanish</a> <span class="og-csrd-ref">(196)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="second-tier-improbability-abilities">Second-Tier Improbability Abilities<a class="og-csrd-header-anchor" href="#second-tier-improbability-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-magical-repertoire">Magical Repertoire</a> <span class="og-csrd-ref">(GF, 32)</span></li>
+				<li><a href="index.html#ability-quick-work">Quick Work</a> <span class="og-csrd-ref">(174)</span></li>
+				<li><a href="index.html#ability-weather-the-vicissitudes">Weather the Vicissitudes</a> <span class="og-csrd-ref">(197)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="third-tier-improbability-abilities">Third-Tier Improbability Abilities<a class="og-csrd-header-anchor" href="#third-tier-improbability-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-buddy-system">Buddy System</a> <span class="og-csrd-ref">(116)</span></li>
+				<li><a href="index.html#ability-evanesce">Evanesce</a> <span class="og-csrd-ref">(136)</span></li>
+				<li><a href="#ability-slapstick">Slapstick</a></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="fourth-tier-improbability-abilities">Fourth-Tier Improbability Abilities<a class="og-csrd-header-anchor" href="#fourth-tier-improbability-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#expanded-magical-repertoire">Expanded Repertoire</a> <span class="og-csrd-ref">(GF, 32)</span></li>
+				<li><a href="#ability-gain-unusual-companion">Gain Unusual Companion</a> <span class="og-csrd-ref">(144)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="fifth-tier-improbability-abilities">Fifth-Tier Improbability Abilities<a class="og-csrd-header-anchor" href="#fifth-tier-improbability-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-bypass-barrier">Destroyer</a> <span class="og-csrd-ref">(127)</span></li>
+				<li><a href="index.html#ability-jaunt">Jaunt</a> <span class="og-csrd-ref">(155)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="sixth-tier-improbability-abilities">Sixth-Tier Improbability Abilities<a class="og-csrd-header-anchor" href="#sixth-tier-improbability-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-traverse-the-worlds">Call Otherworldly Spirit</a> <span class="og-csrd-ref">(117)</span></li>
+				<li><a href="index.html#ability-change-the-paradigm">Change the Paradigm</a> <span class="og-csrd-ref">(119)</span></li>
+				<li><a href="index.html#ability-not-dead-yet">Not Dead Yet</a> <span class="og-csrd-ref">(166)</span></li>
+			</ul>
+		</div>
+	</div>
+	<h4 class="og-csrd-border-line" id="flavor-ritualist">Ritualist Flavor<a class="og-csrd-header-anchor" href="#flavor-ritualist" title="Permalink" aria-hidden="true"></a></h4>
+	<p>You have developed an affinity for the deep magic of the world. Your magic is slow, reliable, and deeply spiritual. It ties you to the world and its denizens, and you can lead them to discover their own ties to it. Ritualists expand their vocabulary of powers by contracting with great spirits of the world.</p>
+	<div class="row">
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="first-tier-ritualist-abilities">First-Tier Ritualist Abilities<a class="og-csrd-header-anchor" href="#first-tier-ritualist-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-alleviate">Alleviate</a> <span class="og-csrd-ref">(109)</span></li>
+				<li><a href="#ability-craft-arcana">Craft Arcana</a></li>
+				<li><a href="index.html#ability-critter-companion">Create Water</a> <span class="og-csrd-ref">(123)</span></li>
+				<li><a href="#ability-conjure-familiar">Conjure Familiar</a></li>
+				<li><a href="index.html#ability-hedge-magic">Hedge Magic</a> <span class="og-csrd-ref">(149)</span></li>
+				<li><a href="index.html#ability-illuminating-touch">Illuminating Touch</a> <span class="og-csrd-ref">(150)</span></li>
+				<li><a href="index.html#ability-magic-training">Magic Training</a> <span class="og-csrd-ref">(159)</span></li>
+				<li><a href="index.html#ability-spook">Spook</a></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="second-tier-ritualist-abilities">Second-Tier Ritualist Abilities<a class="og-csrd-header-anchor" href="#second-tier-ritualist-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-blessing-of-the-gods">Blessing of the Gods</a> <span class="og-csrd-ref">(114)</span></li>
+				<li><a href="index.html#ability-command-spirit">Command Spirit</a> <span class="og-csrd-ref">(121)</span></li>
+				<li><a href="#ability-amaneusis">Amaneusis</a></li>
+				<li><a href="index.html#ability-link-senses">Link Senses</a> <span class="og-csrd-ref">(158)</span></li>
+				<li><a href="index.html#ability-monster-lore">Monster Lore</a> <span class="og-csrd-ref">(165)</span></li>
+				<li><a href="#ability-read-blood">Read Blood</a></li>
+				<li><a href="index.html#ability-question-the-spirits">Question the Spirits</a> <span class="og-csrd-ref">(173)</span></li>
+			</ul>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p class>The GM might allow a ritualist who has contracted with different spirits to choose the <a href="index.html#ability-blessing-of-the-gods">Blessing of the Gods</a> <span class="og-csrd-ref">(114)</span> ability more than once, making two new selections from its list of possible effects.</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="third-tier-ritualist-abilities">Third-Tier Ritualist Abilities<a class="og-csrd-header-anchor" href="#third-tier-ritualist-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="#ability-evil-eye">Evil Eye</a></li>
+				<li><a href="index.html#ability-expanded-repertoire">Expanded Repertoire</a> <span class="og-csrd-ref">(GF, 31)</span></li>
+				<li><a href="#ability-one-with-the-wild">One With the Wild</a> <span class="og-csrd-ref">(167)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="fourth-tier-ritualist-abilities">Fourth-Tier Ritualist Abilities<a class="og-csrd-header-anchor" href="#fourth-tier-ritualist-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-extra-use">Extra Use</a> <span class="og-csrd-ref">(132)</span></li>
+				<li><a href="index.html#ability-storm-seed">Storm Seed</a> <span class="og-csrd-ref">(187)</span></li>
+				<li><a href="index.html#ability-projection">Projection</a> <span class="og-csrd-ref">(172)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="fifth-tier-ritualist-abilities">Fifth-Tier Ritualist Abilities<a class="og-csrd-header-anchor" href="#fifth-tier-ritualist-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="#ability-animate-flying-servantor">Animate Flying Servantor</a></li>
+				<li><a href="index.html#ability-psychic-passenger">Psychic Passenger</a> <span class="og-csrd-ref">(172)</span></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h5 class="og-csrd-header-small" id="sixth-tier-ritualist-abilities">Sixth-Tier Ritualist Abilities<a class="og-csrd-header-anchor" href="#sixth-tier-ritualist-abilities" title="Permalink" aria-hidden="true"></a></h5>
+			<ul class="og-csrd-abilities-array">
+				<li><a href="index.html#ability-adroit-cypher-use">Adroit Cypher Use</a> <span class="og-csrd-ref">(137)</span></li>
+				<li><a href="index.html#ability-beast-call">Beast Call</a> <span class="og-csrd-ref">(112)</span></li>
+				<li><a href="index.html#ability-restore-life">Restore Life</a> <span class="og-csrd-ref">(177)</span></li>
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<h3 id="chapter-6-foci">
+		<span class="og-csrd-chapter">Chapter 6</span>
+		Foci
+	</h3>
+	<div class="alert bg-dark ps-4">
+		<h4 class="og-csrd-header-small" id="choose-foci">Quick Reference: Foci<a class="og-csrd-header-anchor" href="#choose-foci" title="Permalink" aria-hidden="true"></a></h4>
+		<ul class="list-unstyled og-csrd-quick-reference">
+			<li><a href="#focus-accellerates-entropy">Accellerates Entropy</a></li>
+			<li><a href="#focus-bears-a-curse-of-stone">Bears a Curse of Stone</a></li>
+			<li><a href="#focus-blows-in-the-wind">Blows in the Wind</a></li>
+			<li><a href="#focus-can-devour-anything">Can Devour Anything</a></li>
+			<li><a href="#focus-chases-tales">Chases Tales</a></li>
+			<li><a href="#focus-has-unfinished-business">Has Unfinished Business</a></li>
+			<li><a href="#focus-hoards-dross">Hoards Dross</a></li>
+		</ul>
+	</div>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Type Swap Options:</strong> A few foci allow a player to swap an ability that would otherwise be gained from their type for the indicated ability instead. A player doesn't have to make the swap; they merely have the option.</p>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<h4  class="og-csrd-border-line" id="focus-accellerates-entropy">Accellerates Entropy<a class="og-csrd-header-anchor" href="#focus-accellerates-entropy" title="Permalink" aria-hidden="true"></a></h4>
+			<p>You have dedicated yourself to the underlying principle that nothing lasts forever, everything is in a state of unbecoming, and everything dies&mdash;cold and alone, swallowed by inky blackness. Servants of entropy hasten the decline of those unfit to see the future, casting them into everlasting shadow.</p>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Connection:</strong> Choose one of the following.</p></li>
+			</ul>
+			<ol>
+				<li>Pick one other PC. Attract disaster around them, and you wish to witness them bring themselves to ruin.</li>
+				<li>Pick one other PC. Their light will be extinguished one day, and it will be beautiful to watch.</li>
+				<li>Pick one other PC. You believe they are a born destroyer, and should embrace their destiny.</li>
+				<li>Someone must witness the end.</li>
+			</ol>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Entropic Abilities:</strong> Your abilities cause targets to be rimed with frost, rust, or otherwise wither and age.</p></li>
+				<li><p><strong>Minor Effect Suggestions:</strong> A nearby object or piece of equipment crumbles to dust.</p></li>
+				<li><p><strong>Major Effect Suggestions:</strong> You age the target (or a portion of it) 1d6 years.</p></li>
+			</ul>
+			<ul class="og-csrd-abilities-array">
+				<li>Tier 1: <a href="#ability-entropic-touch">Entropic Touch</a></li>
+				<li>Tier 2: <a href="#ability-eyes-adjusted">Eyes Adjusted</a> <span class="og-csrd-ref">(138)</span></li>
+				<li>Tier 3: <a href="#ability-entropic-withering">Entropic Withering</a> <span class="og-csrd-ref">(127)</span> or <a href="index.html#ability-unraveling-consumption">Unraveling Consumption</a> <span class="og-csrd-ref">(195)</span></li>
+				<li>Tier 4: <a href="index.html#ability-field-of-gravity">Field of Gravity</a> <span class="og-csrd-ref">(195)</span></li>
+				<li>Tier 5: <a href="index.html#ability-dust-to-dust">Dust to Dust</a> <span class="og-csrd-ref">(133)</span></li>
+				<li>Tier 6: <a href="#ability-inmaking">Unmaking</a> or <a href="#ability-embraced-by-darkness">Embraced by Darkness</a> <span class="og-csrd-ref">(133)</span></li>
+			</ul>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>GM Intrusions:</strong> You are subsumed into darkness yourself, losing all feeling and experience.</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<h4  class="og-csrd-border-line" id="focus-bears-a-curse-of-stone">Bears a Curse of Stone<a class="og-csrd-header-anchor" href="#focus-bears-a-curse-of-stone" title="Permalink" aria-hidden="true"></a></h4>
+			<p>You are a cursed creature, which causes you to become a statue at times. Gargoyles are conscripted into service by magic. Some curses compel the target to protect a place, area, or individual. An object, while others&mdash;especially oathbreakers&mdash;were trapped in their petrified state until cryptic or improbable circumstances came to pass. Many gargoyles go for years, decades, or even centuries as little more than architectural curiosities before some happenstance releases them from their slumber.</p>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Connection:</strong> Choose one of the following.</p></li>
+			</ul>
+			<ol>
+				<li>Pick one other PC. They accidentally caused your awakening, for which you are grateful. You now look to them to understand how the world has changed.</li>
+				<li>Pick one other PC. You don't believe you can trust them, but you need what few allies you have, for now.</li>
+				<li>Pick one other PC. They remind you of someone you knew before your slumber.</li>
+				<li>Freedom, at last. You may be cursed, but it's time to find out what your new body can do.</li>
+			</ol>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Minor Effect Suggestions:</strong> Your weight works out to your advantage, allowing you to move an immediate distance.</p></li>
+				<li><p><strong>Major Effect Suggestions:</strong> You gain additional Armor equal to your tier until your next turn.</p></li>
+			</ul>
+			<ul class="og-csrd-abilities-array">
+				<li>Type Swap Option: <a href="index.html#ability-controlled-fall">Controlled Fall</a> <span class="og-csrd-ref">(122)</span></li>
+				<li>Tier 1: <a href="#ability-curse-of-stone">Curse of Stone</a></li>
+				<li>Tier 1: <a href="#ability-gargoyle-physique">Gargoyle Physique</a></li>
+				<li>Tier 2: <a href="#ability-on-leather-wings">On Leather Wings</a></li>
+				<li>Tier 3: <a href="#ability-flash-petrification">Flash Petrification</a> or <a href="index.html#ability-power-strike">Power Strike</a> <span class="og-csrd-ref">(171)</span></li>
+				<li>Tier 4: <a href="index.html#ability-skill-with-defense">Skill with Defense</a> <span class="og-csrd-ref">(183)</span></li>
+				<li>Tier 4: <a href="index.html#ability-flight-not-fight">Flight Not Fight</a> <span class="og-csrd-ref">(141)</span></li>
+				<li>Tier 5: <a href="index.html#ability-greater-enhanced-might">Greater Enhanced Might</a>  <span class="og-csrd-ref">(146)</span></li>
+				<li>Tier 6: <a href="index.html#ability-greater-skill-with-defense">Greater Skill with Defense</a> <span class="og-csrd-ref">(147)</span> or <a href="#ability-nothing-but-defensd">Nothing But Defend</a> <span class="og-csrd-ref">(166)</span></li>
+			</ul>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>GM Intrusions:</strong> Your curse unexpectedly asserts itself, partially or completely petrifying a part of your body for a short time.</p>
+			</div>
+			<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>The Player and GM should work out a few details of the PC's prior life. Has the PC been a gargoyle always?  Were they transformed at some point before their slumber, or in the same moment? What course of events led up to that?</p>
+				<p class="og-csrd-indent">A PC who Bears a Curse of Stone might discover a way eliminate some or all of the curse's effects by completing one or more <a href="index.html#choose-character-arc">character arcs</a>.</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<h4  class="og-csrd-border-line" id="focus-blows-in-the-wind">Blows in the Wind<a class="og-csrd-header-anchor" href="#focus-blows-in-the-wind" title="Permalink" aria-hidden="true"></a></h4>
+			<p>Your movements are fluid, but unpredictable. You probably feel a deep connection with wind and water, and see life as a long river or complex dance&mdash;full of possible directions and swirling eddies. You're probably happiest when wind, rock, tree, and stream are a part of your daily life. Some might think of you as flighty or mercurial, but you prefer to think of yourself as attuned. You feel things fully, and your feelings amplify aspects of your environment.</p>
+			<p class="og-csrd-indent">You probably wear light, flowing clothing that doesn't restrict your movement, and are always swaying, dancing, or otherwise engaged in movement, even when idle.</p>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Connection:</strong> Choose one of the following.</p></li>
+			</ul>
+			<ol>
+				<li>Pick one other PC. You're convinced they'd make a great dancing partner.</li>
+				<li>Pick one other PC. Their energy is all tangled, and you intend to get it flowing again.</li>
+				<li>You needed a change. This would certainly be a change.</li>
+				<li>You were headed that way anyhow.</li>
+			</ol>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Minor Effect Suggestions:</strong> You move in such a manner that provides an asset to a nearby ally's next task.</p></li>
+				<li><p><strong>Major Effect Suggestions:</strong> Your movements shock and awe nearby viewers, causing them to do nothing on their turn but cotinue to watch you.</p></li>
+			</ul>
+			<ul class="og-csrd-abilities-array">
+				<li>Type Swap Option: <a href="index.html#ability-impetus">Impetus</a> <span class="og-csrd-ref">(151)</span></li>
+				<li>Tier 1: <a href="#ability-joy-of-movement">Joy of Movement</a></li>
+				<li>Tier 1: <a href="index.html#ability-wind-armor">Wind Armor</a> <span class="og-csrd-ref">(199)</span></li>
+				<li>Tier 2: <a href="index.html#ability-safe-fall">Safe Fall</a> <span class="og-csrd-ref">(179)</span></li>
+				<li>Tier 3: <a href="index.html#ability-moving-like-water">Moving Like Water</a> <span class="og-csrd-ref">(164)</span> or <a href="index.html#ability-windrider">Windrider</a> <span class="og-csrd-ref">(199)</span></li>
+				<li>Tier 4: <a href="#ability-free-to-move">Free to Move</a> <span class="og-csrd-ref">(143)</span></li>
+				<li>Tier 5: <a href="index.html#ability-wind-chariot">Wind Chariot</a> <span class="og-csrd-ref">(199)</span></li>
+				<li>Tier 6: <a href="index.html#ability-blurring-speed">Blurring Speed</a> <span class="og-csrd-ref">(115)</span> or <a href="#ability-spring-away">Spring Away</a> <span class="og-csrd-ref">(186)</span></li>
+			</ul>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>GM Intrusions:</strong> You encounter an unexpected immovable object or otherwise have your movement obstructed.</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<h4  class="og-csrd-border-line" id="focus-can-devour-anything">Can Devour Anything<a class="og-csrd-header-anchor" href="#focus-can-devour-anything" title="Permalink" aria-hidden="true"></a></h4>
+			<p>You have a grim visage: beady eyes, and a rictus grin from ear to ear, with flat, ugly teeth, perfect for chomping just about anything. Most of your so-called "friends" probably enjoy watching you fit unusual things into your mouth and watching them disappear.</p>
+			<p class="og-csrd-indent">Those who don't know you frequently take you for a bully. Those who know you well probably avoid making sudden movements near you. No one wants to lose a hand.</p>
+			<p class="og-csrd-indent"><strong>Connection:</strong> Choose one of the following.</p>
+			<ol>
+				<li>Pick one other PC. You ate something valuable of theirs, and now have a debt to repay.</li>
+				<li>Pick one other PC. You think they smell delicious.</li>
+				<li>You're always looking to expand your palate, and a little adventure sounded like a good way to do it.</li>
+				<li>You were recently kicked out of your current living space for chewing on things you shouldn't, and this beats homelessness.</li>
+			</ol>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Additional Equipment:</strong> You have a hat with a brim large enough to obscure your unusual face, and a pair of sturdy boots.</p></li>
+				<li><p><strong>Minor Effect Suggestions:</strong> In addition to damaging your target, you damage one of their possessions as well.</p></li>
+				<li><p><strong>Major Effect Suggestions:</strong> You make a free, eased bite attack against the same target.</p></li>
+			</ul>
+			<ul class="og-csrd-abilities-array">
+				<li>Tier 1: <a href="#ability-bad-attitude">Bad Attitude</a></li>
+				<li>Tier 1: <a href="#ability-true-omnivore">True Omnivore</a></li>
+				<li>Tier 2: <a href="#ability-eat-anything">Eat Anything</a>, <a href="#ability-redundant-organs">Redundant Organs</a></li>
+				<li>Tier 3: <a href="#ability-eidetic-epicurean">Eidetic Epicurean</a> or <a href="/#ability-greater-enhanced-might">Capable Warrior</a> <span class="og-csrd-ref">(118)</span></li>
+				<li>Tier 4: <a href="/#ability-breaker">Breaker</a>  <span class="og-csrd-ref">(116)</span></li>
+				<li>Tier 4: <a href="#ability-maw">Maw</a></li>
+				<li>Tier 5: <a href="/#ability-greater-enhanced-might">Greater Enhanced Might</a> <span class="og-csrd-ref">(146)</span></li>
+				<li>Tier 6: <a href="/#ability-lethal-damage">Lethal Damage</a> <span class="og-csrd-ref">(158)</span> or <a href="/#ability-regenerate">Regenerate</a> <span class="og-csrd-ref">(175)</span></li>
+			</ul>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>GM Intrusions:</strong> You bite your own tongue, or injure your soft tissues while eating. Dentistry might be required.</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<h4  class="og-csrd-border-line" id="focus-chases-tales">Chases Tales<a class="og-csrd-header-anchor" href="#focus-chases-tales" title="Permalink" aria-hidden="true"></a></h4>
+			<p>You serve an ascendant planar being focused on the discovery, collection, and cataloging of information from across the realms. In return for gifts they bestow upon you, you act as their agent, seeking ancient knowledge and artifacts, and the truth behind recorded histories.</p>
+			<p class="og-csrd-indent">The information you gather is as good as currency among the planes, and there are many sophisticated creatures looking to employ such agents in their grand plans.</p>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Connection:</strong> Choose one of the following.</p></li>
+			</ul>
+			<ol>
+				<li>Pick one other PC. You suspect they have a role to play in important events to come.</li>
+				<li>Pick one other PC. You are certain they are the descendent of someone important.</li>
+				<li>An incredible tale is about to unfold, and you intend to chronicle it for the ages.</li>
+				<li>You can't fund your expeditions on empty pockets.</li>
+			</ol>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Additional Equipment:</strong> You have an item&mdash;weapon, armor or tool&mdash;that you have formed a <a href="#ability-psychometric-bond">Psychometric Bond</a>.</p></li>
+				<li><p><strong>Minor Effect Suggestions:</strong> You gain a glimpse of danger in the future, providing you an asset on your next defense roll.</p></li>
+				<li><p><strong>Major Effect Suggestions:</strong> Your object bestows upon you a useful vision of the past.</p></li>
+			</ul>
+			<ul class="og-csrd-abilities-array">
+				<li>Tier 1: <a href="#ability-psychometric-bond">Psychometric Bond</a></li>
+				<li>Tier 1: <a href="index.html#ability-decipher">Decipher</a> <span class="og-csrd-ref">(126)</span></li>
+				<li>Tier 2: <a href="index.html#ability-see-history">See History</a> <span class="og-csrd-ref">(180)</span></li>
+				<li>Tier 3: <a href="#ability-improved-psychometric-bond">Improved Psychometric Bond</a></li>
+				<li>Tier 3: <a href="#index.htmlability-draw-conclusion">Draw Conclusion</a> <span class="og-csrd-ref">(131)</span> or <a href="#index.htmlability-find-the-hidden">Find the Hidden</a> <span class="og-csrd-ref">(140)</span></li>
+				<li>Tier 4: <a href="index.html#elusive">Elusive</a> <span class="og-csrd-ref">(133)</span></li>
+				<li>Tier 4: <a href="index.html#investigator">Investigator</a> <span class="og-csrd-ref">(118)</span></li>
+				<li>Tier 5: <a href="index.html#ability-read-the-signs">Read the Signs</a> <span class="og-csrd-ref">(174)</span></li>
+				<li>Tier 6: <a href="#ability-perfect-psychometric-bond">Perfect Psychometric Bond</a> or <a href="index.html#ability-usurp-cypher">Usurp Cypher</a> <span class="og-csrd-ref">(195)</span></li>
+				</ul>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>GM Intrusions:</strong> The past and future jumble together in your mind, causing you to slip into a momentary stupor.</p>
+			</div>
+			<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>A character who Chases Tales will likely form a bond with several different objects over the course of their adventures. When their story is concluded, the PC might return these objects to their planar patron, or ensure they are returned to an appropriate location or person. It is also possible that the most significant memory attached to a given object might have yet to be created by the PC's own actions.</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<h4  class="og-csrd-border-line" id="focus-has-unfinished-business">Has Unfinished Business<a class="og-csrd-header-anchor" href="#focus-has-unfinished-business" title="Permalink" aria-hidden="true"></a></h4>
+			<p>Long after their remains have turned to dust, the spirit of an individual can linger still. There are as many reasons for a ghost to haunt the world as there are folk in it. Most ghosts awaken disoriented and must discover what it is that holds their attachment to the world of the living, as if discovering a final piece of themselves that they must confront before entering the next phase of their existence.</p>
+			<p class="og-csrd-indent">Ghosts retain their general appearance as it was in life, although those who knew them often have difficulty recognizing them (much to the ghost's frustration). They also retain all of their memories&mdash;and these, perhaps all too well. As the years go by with their business unconcluded, ghosts have difficulty forming new memories, or relating to a world that drifts further from their own time. These ghosts become haunts and specters, appearing only when the world of the living presents a mirror for them to find something familiar in.</p>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Connection:</strong> Choose one of the following.</p></li>
+			</ul>
+			<ol>
+				<li>Pick one other PC. They alaways seem to sense you, even when it seems no one else can.</li>
+				<li>Pick one other PC. You can't quite put your finger on it, but you're convinced they know something vital about your unfinished business.</li>
+				<li>Pick one other PC. Something comforting about them helps keep you anchored to the living world.</li>
+				<li>You're just glad anyone can see and hear you. You were so lonely.</li>
+			</ol>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Minor Effect Suggestions:</strong> You experience a brief flicker of life. You gain an asset to your next task.</p></li>
+				<li><p><strong>Major Effect Suggestions:</strong> You frighten a creature, sending it fleeing in terror.</p></li>
+			</ul>
+			<ul class="og-csrd-abilities-array">
+				<li>Type Swap Option: <a href="#ability-spook">Spook</a></li>
+				<li>Type Swap Option: <a href="#ability-push">Push</a> <span class="og-csrd-ref">(173)</span></li>
+				<li>Tier 1: <a href="#ability-ghostly-nature">Ghostly Nature</a></li>
+				<li>Tier 1: <a href="#ability-ethereal-jaunt">Ethereal Jaunt</a></li>
+				<li>Tier 2: <a href="index.html#ability-terrifying-presence">Terrifying Presence</a> <span class="og-csrd-ref">(190)</span></li>
+				<li>Tier 3: <a href="#ability-haunt">Haunt</a> or <a href="index.html#ability-flight-not-fight">Flight Not Fight</a> <span class="og-csrd-ref">(141)</span></li>
+				<li>Tier 4: <a href="#ability-ghostly-shroud">Ghostly Shroud</a></li>
+				<li>Tier 5: <a href="#ability-ghostly-terror">Ghostly Terror</a></li>
+				<li>Tier 6: <a href="#ability-apparition">Apparition</a> or <a href="index.html#ability-break-their-mind">Break their Mind</a> <span class="og-csrd-ref">(116)</span></li>
+			</ul>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>GM Intrusions:</strong> Your tenuous connection to the world of the living falters, and others lose the ability to percieve your presence.</p>
+			</div>
+			<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>A PC who Has Unfinished Business might eventually resolve it completing one or more <a href="index.html#choose-character-arc">character arcs</a>. Ghosts usually move on to the next phase of existence when their unfinished business is concluded, but&mdash;as with all things&mdash;adventurers tend to be exceptional.</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<h4  class="og-csrd-border-line" id="focus-hoards-dross">Hoards Dross<a class="og-csrd-header-anchor" href="#focus-hoards-dross" title="Permalink" aria-hidden="true"></a></h4>
+			<p>Objects just seem to speak to you. Where most see junk, you see treasure. Wether your possessions were obtained from the dusty corners of a shop, crumbling ruins, or plucked from battlefield dead, you manage find extraordinary beauty in every headless hammer handle and cracked teacup.</p>
+			<p class="og-csrd-indent">You probably love to scavenge and haggle, making discoveries among the the overlooked, underappreciated, and underutilized. While you rarely have an immediate use in mind when adding something to your collection, you know value when you see it, and how to wait until the right purpose presents itself.</p>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Connection:</strong> Choose one of the following.</p></li>
+			</ul>
+			<ol>
+				<li>Pick one other PC. They borrowed something from you and never returned it.</li>
+				<li>Pick one other PC. You covet one of thier possessions intensely, and are always pestering them to sell it to you.</li>
+				<li>Pick one other PC. You're convinced everyone needs something and you're just the one to provide it.</li>
+				<li>There's bound to be treasures to be found and sold along the way.</li>
+			</ol>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Additional Equipment:</strong> You have an explorer's
+					pack with extra pockets and compartments, a bag of light tools, and an assortment of inexpensive trinkets and oddities.</p></li>
+				<li><p><strong>Minor Effect Suggestions:</strong> You obtain a favorable discount for yourself and your allies.</p></li>
+				<li><p><strong>Major Effect Suggestions:</strong> You stumble across something of great worth.</p></li>
+			</ul>
+			<ul class="og-csrd-abilities-array">
+				<li>Tier 1: <a href="#ability-packrat-pocket">Packrat Pocket</a></li>
+				<li>Tier 1: <a href="#ability-worldly-wiles">Worldly Wiles</a></li>
+				<li>Tier 2: <a href="#ability-handy-hold-all">Handy Hold-All</a></li>
+				<li>Tier 2: <a href="index.html#ability-junkmonger">Junkmonger</a> <span class="og-csrd-ref">(156)</span></li>
+				<li>Tier 3: <a href="#ability-improved-hold-all">Improved Hold-All</a> or <a href="index.html#ability-improvise">Improvise</a> <span class="og-csrd-ref">(170)</span></li>
+				<li>Tier 4: <a href="#ability-packrat-pocket-link">Packrat Pocket Link</a> </li>
+				<li>Tier 5: <a href="index.html#ability-using-whats-available">Using What's Available</a> <span class="og-csrd-ref">(195)</span></li>
+				<li>Tier 6: <a href="#ability-perfect-hold-all">Perfect Hold-All</a> or <a href="index.html#ability-negate-danger">Negate Danger</a> <span class="og-csrd-ref">(195)</span></li>
+			</ul>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p><strong>GM Intrusions:</strong> A favored container develops a tear or leak, spilling out its contents, or a required item mysteriously goes missing.</p>
+			</div>
+		</div>
+	</div>
+	<hr>
+
+	<h3 id="chapter-7-abilities">
+		<span class="og-csrd-chapter">Chapter 7</span>
+		Abilities
+	</h3>
+	<p>Abilities are presented in alphabetical order.</p>
+	<hr>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-amaneusis">
+			<p><strong>Amaneusis (2 Intellect points):</strong> You cause writing from one source (such as a book) to be copied onto parchment (or into some other appropriate object) you provide. This spell copies approximately 250 words per minute for up to an hour, creating a perfect transcription of the original. The spell only copies mundane text, ignoring illustrations, diagrams or supernatural inscriptions, leaving empty spaces where excluded items appeared in the original. Alternatively, you can also use this spell to dictate verbally, and have your dictation transcribed as if written in your own hand.</p>
+			<p class="og-csrd-indent">The spell automatically turns to the next blank page and continues its transcription until it completes the transcription, or it runs out of available pages. Action to initiate.</p>
+		</li>
+		<li id="ability-animate-flying-servantor">
+			<p><strong>Animate Flying Servantor:</strong> You give life an object, which becomes a level 3 follower of your size or smaller. It accompanies you and follows your instructions. You and the GM must work out the details of your servantor. You'll probably make rolls for it when it takes actions. A robot assistant in combat usually doesn't make separate attacks but helps with yours. On your action, if the servantor is next to you, it serves as an asset for one attack you make on your turn. If the servantor is destroyed, you can repair the original with a few days' worth of tinkering, or build a new one with a week's worth of half-time labor. The servantor can fly a long distance each round. It can carry you, but only for up to an hour between each of your ten-hour <a href="index.html#recovery-rolls">recovery rolls</a>. Enabler.</p>
+		</li>
+		<li id="ability-apparition">
+			<p><strong>Apparition:</strong> If attacking (or interacting) from a hidden vantage, with surprise, or before an opponent has acted, you get an asset on the attack or interaction. If your action dealt damage, you inflict 3 additional points of Intellect damage (ignores Armor). Enabler.</p>
+		</li>
+		<li id="ability-bad-attitude">
+			<p><strong>Bad Attitude:</strong> You are trained in negative social interaction, including intimidation and coercion, but your demeanor and the grim appearance of your mouth hinders any positive social interaction you attempt. Enabler.</p>
+		</li>
+		<li id="ability-conjure-familiar">
+			<p><strong>Conjure Familiar (1+ intellec):</strong> A level 1 creature accompanies you and follows your instructions. This creature is no larger than a large cat (about 20 pounds, or 9 kg). You and the GM must work out the details of your creature, and you'll probably make rolls for it in combat or when it takes actions. The familiar acts on your turn. As a level 1 creature, it has a target number of 3 and 3 health, and it inflicts 1 point of damage. Its movement is based on its creature type (avian, swimmer, and so on). If your familiar is reduced to 0 health, it becomes banished until you conjure it again. Action to initiate, 10 minutes to complete.</p>
+		</li>
+		<li id="ability-craft-arcana">
+			<strong>Craft Arcana:</strong> You can choose this ability multiple times, but you must select a different arcana each time.
+			<ul>
+				<li><em>Wands.</em> Climbing, jumping, running, swimming, carpentry, cooking, glassblowing, jewelrymaking, leatherworking, masonry, pottery, weaving, or woodcarving.</li>
+				<li><em>Cups.</em> Brewing, fishing, healing, a musical instrument, perception.</li>
+				<li><em>Swords.</em> Botany, history, metalworking, persuasion, or scrimshaw.</li>
+				<li><em>Pentacles.</em> Calligraphy, cartography, philosophy, or tracking.</li>
+			</ul>
+			<p>Enabler.</p>
+		</li>
+		<li id="ability-curse-of-stone">
+			<p><strong>Curse of Stone:</strong> You are petrified when exposed to sunlight, becoming a solid stone statue. Roll on the Curse of Stone Provisions table to determine the nature of your curse, or work out more exact details ahead of time with the GM.</p>
+			<p class="og-csrd-indent">While petrified, you gain +5 to Armor against damage of all sorts, you cannot act, nor can you sense what's happening around you&mdash;no time seems to pass for you until you wake, as soon as the curse's provisions allow. Enabler.</p>
+		</li>
+		<li id="ability-dimensional-rift">
+			<p><strong>Dimensional Rift (5 Intellect points):</strong> You to a place you can see, one you have been to before, or one you can describe with a relative distance and direction within a very long distance. If can apply a level of Effort using this ability, you can also bring one willing creature within your reach.</p>
+			<p class="og-csrd-indent">If you arrive in a place already occupied by an object or a creature, you (and any creature teleporting with you) each take 4d6 force damage, and are ejected prone where you used this ablity. Action.</p>
+		</li>
+	</ul>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Curse of Stone Provisions</caption>
+		<thead>
+			<tr>
+				<th scope="col" class="text-center">d6</th><th scope="col">Curse of Stone Provisions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="text-center fw-normal">1</th><td>Your statue awaited removal from where you were turned to stone. Any piece of your homeland might return you to your stony tomb.</td></tr>
+			<tr><th scope="row" class="text-center fw-normal">2</th><td>Only a descendent of the ones who imprisoned you can set you free.</td></tr>
+			<tr><th scope="row" class="text-center fw-normal">3</th><td>Other celestial mechanics provide excpetions&mdash;maybe even a solution&mdash;to your petrification problem.</td></tr>
+			<tr><th scope="row" class="text-center fw-normal">4</th><td>Righting an ancient wrong can end your curse.</td></tr>
+			<tr><th scope="row" class="text-center fw-normal">5</th><td>There's something or someone precious you must guard, or something important you must do.</td></tr>
+			<tr><th scope="row" class="text-center fw-normal">6</th><td>The curse upon you is a hopeless riddle.</td></tr>
+		</tbody>
+	</table>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>The Curse of Stone presents a significant obstacle for a PC and GM. It might mean the ideal game takes place primarily after sunset. It also might mean that a dramatic events take place while&mdash;possibly even momentarily after&mdash;the PC is incapacitated by the curse. As the story continues, consider the following possibilities:</p>
+		<ul>
+			<li>The PC might discover a way of protecting themselves from the petrifying effects of the sun, such as an artifact&mdash;or a special ability another PC posesses.</li>
+			<li>Where does a petrified PC's conciousness go? Is there a way to maintain a link with it, or for the PC to take meaningful actions in another realm?</li>
+			<li>What happens to the PC if the curse is lifted?</li>
+		</ul>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-eat-anything">
+			<p><strong>Eat Anything:</strong> Over the course of 1 minute, you can devour an object or a dead or otherwise incapacitated creature, which must be smaller than you. At the end of your meal, you can make a free <a href="index.html#recovery-rolls">recovery roll</a>. You can do this one time, although the ability renews each time you make a ten-hour recovery roll. Action to initiate.</p>
+		</li>
+		<li id="ability-eidetic-epicurean">
+			<p><strong>Eidetic Epicurean (2 Intellect points):</strong> For the next 24 hours, gain two assets to track anything you have eaten before by scent alone to a distance of 1 miles (1.5 km). If a source is within long range of you, you know it and the general direction toward it. Action to initiate.</p>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Being able to tell where the nearest batch of chocolate mousse is doesn't really do much in the grand scheme of things, but if you have gotten a taste of someone or something, Eidetic Epicurean is an excellent way to track that particular meal.</p>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-entropic-touch">
+			<p><strong>Entropic Touch (1 Intellect point):</strong> Your hands become wreathed in a distorion of time that the next time you touch a creature, you inflict 3 points of damage. Alternatively, you can use this ability on a weapon, and for ten minutes, it inflicts 1 additional point of damage. Action for touch; enabler for weapon.</p>
+		</li>
+		<li id="ability-withering">
+			<p><strong>Entropic Withering (3 Intellect points):</strong> When you damage a creature with your <a href="#ability-entropic-touch">Entropic Touch</a>, you can inflict one of the following properties to the attack:</p>
+			<ul class="og-csrd-list-disc">
+				<li>Your attack ignores Armor, up to an amount equal to your tier.</li>
+				<li>You can immediately end one ongoing effect (such as an effect created by a character ability) within immediate range upon the target.</li>
+				<li>The next action (including to defend) the target takes is hindered.</li>
+			</ul>
+			<p>Enabler.</p>
+		</li>
+		<li id="ability-ethereal-jaunt">
+			<p><strong>Ethereal Jaunt (1 Intellect point):</strong> You can move through walls and solid objects you can reach at half your usual speed. At the end of your next turn, return to your corporeal form. If you end your turn inside a solid object, you are ejected to the nearest available space, taking 1 damage for every 3 feet (1 m) you are moved. You can't move through energy barriers. Action to initiate.</p>
+		</li>
+		<li id="ability-evil-eye">
+			<p><strong>Evil Eye:</strong> You place a hex on a creature within short range, and inflict one of the following disabilities:</p>
+			<ul class="og-csrd-list-disc">
+				<li>The target's tasks are hindered.</li>
+				<li>The target becomes columsy and  is halved.</li>
+				<li>The target can take no action for one round.</li>
+				<li>The target deals 2 fewer points of damage (minimum 1 point) for one minute. If the target cannot hear you and understand your language (or intent), the difficulty of your curse attack is one step higher.</li>
+			</ul>
+			<p class="og-csrd-indent">This ability cannot affect creatures that are not alive, for example, robots and the undead. Action to initiate.</p>
+		</li>
+		<li id="ability-flash-petrification">
+			<p><strong>Flash Petrification (1+ Intellect or Speed points):</strong> You can use your curse to petrify parts of yourself at strategic moments. When your Might Pool would be damaged, you can pay this abilty's cost from your Speed or Intellect Pool. The cost is equal to the damage inflicted (after accounting for Amor). Enabler.</p>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Flash Petrification turns your Edge into Armor&mdash;provided you're willing to take the remainder of the damage to the Pool you use to pay the ability's cost. For example, if you are hit by a demon's flaming greatsword attack that inflicts 6 damage, you can pay 6 Intellect points to prevent it. If you have an Intellect edge of 2, the cost of the ability&mdash;and thus your total damage taken&mdash;becomes 4 Intellect points.</p>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-gargoyle-physique">
+			<p><strong>Gargoyle Physique:</strong> Your transformed body brings advantages and challenges:</p>
+			<ul class="og-csrd-list-disc">
+				<li><em>Gargoyle Weaponry.</em> You bear claws, hooves, horns, wings, talons, and a long, forked tail&mdash;all of which you can use as light or medium weapons (your choice).</li>
+				<li><em>Great Strength.</em> You gain +1 to Armor, +1 to your Might Edge, and 3 additional points to your Might Pool.</li>
+				<li><em>Special Climbing.</em> You are trained in climbing, and your unique physiology is an asset when climbing up structures made of concrete, brick, plaster, or stone.</li>
+				<li><em>Heavy.</em> You are twice as heavy as a human of your size and shape. While petrified by your <a href="#ability-curse-of-stone">Curse of Stone</a>, your weight doubles again.</li>
+			</ul>
+			<p>Enabler.</p>
+		</li>
+		<li id="ability-ghostly-nature">
+			<p><strong>Ghostly Nature:</strong> As an undead spirit, you gain the following benefits:</p>
+			<ul class="og-csrd-list-disc">
+				<li>You cannot be poisoned or become diseased.</li>
+				<li>You don't require air, food, drink, or sleep.</li>
+				<li>You do not age, and can persist indefinitely until dispersed.</li>
+				<li>When you make a ten-hour <a href="index.html#recovery-rolls">recovery roll</a>, you must spend it in the land of the dead, inert, and completely unaware of the goings-on on other planes. You cannot leave your inert state of your own volition until you complete your recovery roll, at which time you return to the same location you began your rest.</li>
+				<li>If you die, your essence is dispersed, leaving behind no body.</li>
+				<li>You can see in very dim light as though it were bright light. You can see in total darkness as if it were very dim light.</li>
+			</ul>
+			<p>Enabler.</p>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>On Death and Dying:</strong> Being dead is not the same as being alive. Ghosts cannot simply change clothes, feel sunshine on their face, or enjoy a light snack. The GM might decide that at time a ghost must pay an Initial cost to successfully manipulate simple objects. The GM decides what kind of equipment ghosts can use. A ghost typically only has items they had when they died, but they might discover ethereal items no one living creature could percieve.</p>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-ghostly-shroud">
+			<p><strong>Ghostly Shroud:</strong> For the next ten minutes, you attach yourself to an ally, taking the form of a ghostly shroud. In this state, you are invisible, although if a creature is aware of your presence, it has no difficulty attacking you. You cannot move, but can otherwise percieve and act normally in this state.</p>
+			<p>Moreover, you automatically inflict 4 points of damage to anyone who tries to touch your ally or strike them with a melee attack. All tasks your ally makes to evade the perceptions of others are eased. Action to initiate.</p>
+		</li>
+		<li id="ability-ghostly-terror">
+			<p><strong>Ghostly Terror (6 Intellect points):</strong> You create a horrific and twisted visage of yourself, growing to twice your usual size. For the next minute, you gain an asset on intimidation tasks. Creatures within short range may become frightened; make a separate Intellect attack roll for each creature. You decide if the target is frozen in fear or compelled to flee. Either way They take actions for one minute, or until they are attacked. Action.</p>
+		</li>
+		<li id="ability-haunt">
+			<p><strong>Haunt (3+ Intellect points):</strong> While using <a href="ability-ethereal-jaunt">Ethereal Jaunt</a>, you can either become invisible or fly up to a short distance. If you expend. If you expend Effort using this ability, you gain both benefits. However, if you damage a creature, your invisibility ends immediately. While invisible, stealth and Speed defense tasks are eased by two steps. Enabler.</p>
+		</li>
+		<li id="ability-handy-hold-all">
+			<p><strong>Handy Hold-All:</strong> You create a <a href="/#followers">follower</a>&mdash;the handy hold-all is a level 2 creature with two modifications for carrying. It accompanies you and follows your instructions, including retrieving any items it is carrying upon your request. If the hold-all dies, you can create a new one the next time you make a ten-hour <a href="index.html#recovery-rolls">recovery roll</a>, provided you have some spare junk to use in its creation. Enabler.</p>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>You determine the appearance and general demeanor of your hold-all when you create it. It might look like a dour suitcase with one-hundred feet, a lethargic walking garbage can, or a wooden chest that acts like an enthusiastic puppy.</p>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-improved-hold-all">
+			<p><strong>Improved Hold-All:</strong> Your <a href="#ability-handy-hold-all">Handy Hold-All</a>'s level increases by 1. Additionally, choose one of the following modifications:</p>
+			<ul class="og-csrd-list-disc">
+				<li><em>Cypher Pod.</em> The handy hold-all can carry and activate one extra manifest cypher for you. Enabler.</li>
+				<li><em>Climb.</em> The handy hold-all can climb natural steep and near-vertical surfaces, including carring you with it. Enabler.</li>
+			</ul>
+			<p class="og-csrd-indent">Enabler.</p>
+		</li>
+		<li id="ability-improved-psychometric-bond">
+			<p><strong>Improved Psychometric Bond:</strong> Your <a href="#ability-psychometric-bond">Psychometric Bond</a> with your object deepens. Depending on the object's function, you gain the following benefits:</p>
+			<ul class="og-csrd-list-disc">
+				<li><em>Weapon.</em> You are trained in attacks you make with it.</li>
+				<li><em>Armor or Shield.</em> While wearing it, you gain +1 Armor and reduce any <a href="index.html#equipment-using-armor">Speed Effort Additional Cost</a> the armor imposes by 1.</li>
+				<li><em>Tool.</em> You are trained in tasks you perform with it.</li>
+			</ul>
+			<p class="og-csrd-indent">Enabler.</p>
+		</li>
+		<li id="ability-joy-of-movement">
+			<p><strong>Joy of Movement:</strong> You are trained in your choice of three of the following skills: balancing, climbing, dancing, jumping, running, or swimming. Enabler.</p>
+		</li>
+		<li id="ability-lucky-charm">
+			<p><strong>Lucky Charm:</strong> You find a lucky object, which conatins a Pool called Luck that begins with 3 points, and it has a maximum value of 3 points. When spending points from any other Pool, you&mdash;or anyone else you give the charm to&mdash;can take one, some, or all of the points from the item's Luck Pool first. When you make a <a href="index.html#recovery-rolls">recovery roll</a> to recover points to any other Pool, the object's Luck Pool is also refreshed by the same number of points. Enabler.</p>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>If you lose your lucky charm, the GM will arrange for you to find another one at the next available opportunity.</p>
+	</div>
+	<ul>
+		<li id="ability-maw">
+			<p><strong>Maw:</strong> You are trained in all attacks you make with your bite, and they inflict 1 additional point of damage. Additionally, your jaw widens: you can fit anything up to 2 feet (61 cm in diameter) into your mouth, and swallow it. Enabler.</p>
+		</li>
+		<li id="ability-on-leather-wings">
+			<p><strong>On Leather Wings (4 Might):</strong> You unfurl your wings, allowing you to fly a short distance each round and still take another action in the same round, or you can carry another creature with you, and forgo your action. Enabler.</p>
+		</li>
+		<li id="ability-packrat-pocket">
+			<p><strong>Packrat Pocket (2+ Intellect points):</strong> You connect a physical portal&mdash;a door, pocket, flap, cubby, or other opening no larger than 1.5 feet (46 cm) in diameter&mdash;to an object&mdash;usually a pocket on a piece of your clothing, a pouch, or bag&mdash;. The opening leads to a space that is out of phase and moves with the object. The space can hold up to 3 cubic feet (1 cubic m) and up to 20 pounds (9 kg). For each 2 additional Intellect points you spend when you use this ability, the pocket's size adds an additional 3 cubic feet (1 cubic m) and 20 pounds (9 kg) to its capacity.</p>
+			<p>Anyone can reach into the space, although it is likely that only you are practiced in locating and retriving its contents. If you end this ability's effects as an action, create a new pocket with this ability, or the the pocket's opening is compromised, all its contents spill forth harmlessly. Action to initiate, one minute to complete.</p>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Your packrat pocket is technically a part of you, so you can't use it to carry more cyphers than your limit, a detonation cypher activated inside the pocket or near its opening harms you, and so on. Most packrats choose a secret location, or place on their person, and keep the pocket's exact location a secret to all but their most trusted allies.</p>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-packrat-pocket-link">
+			<p><strong>Packrat Pocket Link:</strong> While your <a href="#ability-packrat-pocket">Packrat Pocket</a>, and <a href="#ability-handy-hold-all">Handy Hold-All</a> are within 1 mile (1.5 km) of eachother, the contents of each can be retrieved through the other. Enabler.</p>
+		</li>
+		<li id="ability-perfect-hold-all">
+			<p><strong>Perfect Hold-All:</strong> Your <a href="#ability-handy-hold-all">Handy Hold-All</a>'s level increases by 1. Additionally, choose one of the following modifications:</p>
+			<ul class="og-csrd-list-disc">
+				<li><em>Clamoring Conveyance.</em> You can convert your hold-all into a carriage. In this form, the hold-all can't perform other actions other than to move or retrieve items from its contents, but it can travel up 48 km/h (30 mph) during long-distance travel (double movement on paved surfaces). You can performa a similar procedure to restore it to its usual form. Action to initiate, one minute to complete.</li>
+				<li><em>Scrap Monstrosity.</em> The hold-all summons forth everything it is carrying, doubling in size and gaining 2 levels for the next minute. You can do this one time, although the ability renews each time you make a ten-hour <a href="index.html#recovery-rolls">recovery roll</a>. Action to initiate.</li>
+			</ul>
+		</li>
+		<li id="ability-perfect-psychometric-bond">
+			<p><strong>Perfect Psychometric Bond:</strong>: Your <a href="#ability-psychometric-bond">Psychometric Bond</a> with your object deepens even further. Depending on the object's function, you gain the following benefits:</p>
+			<ul class="og-csrd-list-disc">
+				<li><em>Weapon.</em> You gain the <a href="index.html#ability-attack-and-attack-again">Attack and Attack Again</a> <span class="og-csrd-ref">(111)</span> ability while holding the weapon.</li>
+				<li><em>Armor or Shield.</em> You gain the <a href="index.html#ability-ultra-enhancement">Ultra Enhancement</a> <span class="og-csrd-ref">(194)</span> ability while wearing it.</li>
+				<li><em>Tool.</em> You gain the <a href="index.html#ability-effective-skill">Effective Skill</a> <span class="og-csrd-ref">(133)</span> ability when you perform a task with it.</li>
+			</ul>
+			<p>Enabler.</p>
+		</li>
+		<li id="ability-psychometric-bond">
+			<p><strong>Psychometric Bond:</strong> You are trained in identifying objects of historical significance, and have the ability to sense the presence of strong memories from ages past from objects you touch.</p>
+			<p class="og-csrd-indent">You can form a psychometric bond with certain objects that have a strong connection to an powerful story. The item might be a weaopn, armor, or tool (including musical instruments, gaming sets, or other objects approved by the GM). Once the bond is formed, you gain some knowledge of an individual associated with the tale, and their history with the object (determined by the GM). If you form a psychometric bond with second object, the first bond breaks. Action to initiate, one hour to complete. While holding an object with a psychometric bond, you gain the following benefits:</p>
+			<ul class="og-csrd-list-disc">
+				<li><em>Psychometry (1+ Intellect point).</em> You can search the memories attached to the objects questions. Answering simple questions usually have a difficulty of 3, but extremely technical questions or those that involve facts meant to be kept secret can have a much higher difficulty. Action.</li>
+				<li><em>Tongues.</em> You can speak, read, and write one language spoken by someone who once posessed the object (assigned by the GM). Enabler.</li>
+			</ul>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>The GM and player should work together&mdash;including by <a href="index.html#spending-experience-points">spending XP</a>&mdash;to fill in the historical memories, locations, and associated persons related to object of a Psychometric Bond.</p>
+	</div>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>These example questions might be the kind of things a GM considers when providing information obtained from a psychometric bond:</p>
+		<ul>
+			<li>Is a famous general's grand blade most significant moment on the battlefield where she fell, or the forge in which it was created?</li>
+			<li>Do the chains that bound an archdemon in a bottomless abyss contain the memories of the smith who forged them, demon's time in imprisonment, or the hero who died binding the demon into chains, or a combination of the three?</li>
+			<li>Does a wizard's diary contain a solution to an otherwise-indecipherable cipher, revealing a set of planar keys, or a detailed index of their hidden library?</li>
+			<li>Additional objects of significance&mdash;owned by the same person over their lifetime&mdash;or several people, all of whom where present for the same event&mdash;might provide useful assets to pscyhometric tasks.</li>
+		</ul>
+		<p class="og-csrd-indent">An object doesn't need to be supernatural to be significant&mdash;in fact, it might be quite mundane:</p>
+		<ul>
+			<li>A deposed emperor's favorite chess set might contain many memories of conversations with political and military advisors.</li>
+			<li>The favorite wine cup of a poisoned noble might prove to be a useful clue in solving the mystery of their death.</li>
+			<li>An elderly fisher's sextant might contain memories of being attacked at sea by a fangorious beastie&mdash;including landmarks, hazards and how to sail a ship properly, especially if one were in the area where those memories were made.</li>
+		</ul>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-read-blood">
+			<p><strong>Read Blood (2+ Intellect points):</strong> You focus your mind on a sample of blood, gaining insight into the creature it was spilled from. The GM tells you information in regard to two choices from the following list:</p>
+			<ul class="og-csrd-list-disc">
+				<li>The creature's surface thoughts at the time the blood was lost.</li>
+				<li>If the creature was diseased, poisoned, or suffering some other malady.</li>
+				<li>If the creature originated from a world other than the one the blood was spilled on.</li>
+				<li>How closely any another creature within 60 feet of you is related to the creature the fluid came from (for example, they might be the same creature, or a close relative, or of the same species). This sense fades after 1 minute.</li>
+			</ul>
+			<p>Action.</p>
+		</li>
+		<li id="ability-redundant-organs">
+			<p><strong>Redundant Organs:</strong> You have an asset to Might defense rolls you make to resist the effects of poisons and diseases, and your body fights off the effects of such maladies in half the usual amount of time. Enabler.</p>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>If your hold-all has only been recently made and does not contain a wealth of items and junk, the GM might reduce the efficacy of clamoring conveyance or scrap monstrosity modifications.</p>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-slapstick">
+			<p><strong>Slapstick (4 Speed points):</strong> You make a hindered melee attack against a target with the intent to overwhelm or inhibit one of its senses. If the attack is successful, it deals 1 less points of damage than normal, and the target's senses is impaired or damaged (your choice). Any task the target takes with that sense is hindered for the next hour. Immediately after you use this ability, you can move up to a short distance, but there is a 50% chance the target makes a melee attack against you if you do. Enabler.</p>
+		</li>
+		<li id="ability-spook">
+			<p><strong>Spook (1 Intellect point):</strong> You cause the border between the spirit world to tremble, causing your to voice to boom, flames to flicker, harmless tremors in the ground, walls or furniture, or nearby doors unlocked windows and doors to fly open or slam shut. This effect lasts for up to 1 minute. Action to initiate.</p>
+		</li>
+		<li id="ability-summerbloom">
+			<p><strong>Summerbloom (1 Intellect point):</strong> You create one of the following effects:</p>
+			<ul class="og-csrd-list-disc">
+				<li>You create a trinket in your hand that predicts what the weather for the next 24 hours. The trinket does not account for supernatural interference with the weather.</li>
+				<li>You touch a plant of your size or smaller, providing it with enough nourishment for one day. If you wish, it flowers, blooms, fruits, or opens its foliage.</li>
+				<li>You create a harmless display of life's great tapestry within a short distance and in an immediate area&mdash;a shower of of cherry blossoms, a warm breeze, the sounds of birdsong or similar effect.</li>
+			</ul>
+			<p>Action.</p>
+		</li>
+		<li id="ability-true-omnivore">
+			<p><strong>True Omnivore:</strong> You can use your bite as a light or a medium weapon. You can fit objects up to 1 foot (30 cm) inches in diameter into your mouth and swallow them without difficulty. If you have the time, you can eat almost anything. Your teeth are brutally flat and as hard as steel, and your digestive system (thankfully) remains a mystery. As long as you can put your mouth around something, for the most part, you can eat and subsist on it.</p>
+			<p class="og-csrd-indent">If you swallow something, you can use an action to retrieve it later, up to a number of hours equal to the level of the object or creature. Enabler.</p>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Certain items (enchanted items, for example) might be entirely indigestible, even by you. The GM might decide that your body rejects such items immediately, or that you body will pass them out in the usual way after some amount of time.</p>
+	</div>
+	<ul class="og-csrd-abilities-catalog">
+		<li id="ability-unmaking">
+			<p><strong>Unmaking (7+ Intellect points):</strong> You unmake a creature within immediate range. If the target is level 4 or lower, its body is destroyed, leaving behind only a fine dust. Its equipment and other posessions clatter to the ground. For each additional level of Effort you apply, you can increase the level of the target by 1. Action.</p>
+		</li>
+		<li id="ability-winterchill">
+			<p><strong>Winterchill (1 Intellect):</strong> A plethora of icy formations weave together at your command. Choose one of the following effects:</p>
+			<ul class="og-csrd-list-disc">
+				<li>You snuff out a candle, a torch, or a small campfire within long range.</li>
+				<li>You a flurry of snowflakes, a shower of sleet, or a harmless spray of icy mist in an immediate radius within short range.</li>
+				<li>You chill or freeze up to 3 cubic feet (1 cubic m) of nonliving material you can touch for 1 hour.</li>
+				<li>You cause frost to appear on up to 10 feet (3m) diameter of the surface of an object or a surface you touch for 1 minute.</li>
+				<li>You create a flickering image made of ice or snow that fits in your hands and lasts for 1 minute.</li>
+			</ul>
+			<p>Action.</p>
+		</li>
+		<li id="ability-worldly-wiles">
+			<p><strong>Worldly Wiles:</strong> You're trained in repairing broken objects, determining the value of objects, and negotiating better prices for goods. Enabler.</p>
+		</li>
+	</ul>
+	<hr>
+</div>
+<!--
+<div id="part2">
+	<h2 id="part2-cyphers">
+		<span class="og-csrd-chapter">Part 2</span>
+		Cyphers
+	</h2>
+	<h3 id="chapter-8-cyphers">
+		<span class="og-csrd-chapter">Chapter 8</span>
+		Cyphers
+	</h3>
+	<h5 class="og-csrd-header-h5-icon" id="cypher-">Cypher<span data-toggle="tooltip" title="Subtle Cypher" class="og-csrd-icon og-csrd-cypher-subtle ms-1"></span><span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6 + 4</p></li>
+		<li>
+			<p><strong>Effect:</strong> -</p>
+		</li>
+	</ul>
+	Drink Me (grow large, small, or become 2-dimensional)
+	Greasy Glue (sticky or slick, your choice)
+	Key of Door-Binding (connect any two doorways for 24 hours)
+	Kinetic Thunderball (encase allies in a nigh invulnerable ball for a limited time, can be rolled around by those inside, motion does not harm the party)
+	Meat Glue (re-attach severed limbs, or graft a new one on temporarily)
+	Metal ? (gives metal form)
+	Polliwog Poison (choose from a list of effects, or use as a posion)
+	Numbing Ablution (gain Armor including against ambient damage, but lose feeling)
+	Plant Pleaser (beanstalk mode)
+	Vermin Spawner (summons swarms of ravenous vermin)
+	Voice Thief (steal a voice for 24 hours)
+	Wonder Clock (12-hour retcon or prior arrangement)
+	<hr>
+	<h3 id="chapter-9-artifacts">
+		<span class="og-csrd-chapter">Chapter 9</span>
+		Artifacts
+	</h3>
+	<h5 id="artifact-">Artifact<a class="og-csrd-header-anchor" href="#artifact-" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6 + 4</p></li>
+		<li><p><strong>Form:</strong> -</p>
+		</li><li><p><strong>Effect:</strong> -.</p></li>
+		<li><p><strong>Depletion:</strong> 1 in 1d10</p></li>
+	</ul>
+	Acorns of the Petrified Forest (level for efficacy, 1d6 depletion)
+	Autotrphic Amulet (activate in sunlight to be nourished for a day and make a 1-action <a href="index.html#recovery-rolls">recovery roll</a>)
+	Batpack (asset on hearing, bat speech, activate to fly)
+	Dapper Duds (provides 1 armor, no encumbrance, activate to change its look, asset on social interaction when you are dressed appropriately for the occasion)
+	Eavesdrops (create a localized sensor with a fine tuned radius of hearing)
+	Love magnet (provide two assets for any positive social interaction)
+	Magnetic Weapon (eased attacks creatures with metallic armor, ignores that armor)
+	Ozalid Folio (stores objects as drawings in a book)
+	Powder of Life (create temporarily loyal creatures from inanimate objects)
+	<hr>
+</div>
+<div id="part3">
+	<h2 id="part3-running-the-game">
+		<span class="og-csrd-chapter">Part 3</span>
+		Running the Game
+	</h2>
+	<h3 id="chapter-10-optional-rules">
+		<span class="og-csrd-chapter">Chapter 10</span>
+		Optional Rules
+	</h3>
+	<hr>
+	<h3 id="chapter-11-collaborative-spellcasting-and-ritual-magic">
+		<span class="og-csrd-chapter">Chapter 11</span>
+		Collaborative Spellcasting and Ritual Magic
+	</h3>
+	<hr>
+	<h3 id="chapter-12-creatures">
+		<span class="og-csrd-chapter">Chapter 12</span>
+		Creatures
+	</h3>
+	Aboreal Octopus
+	Brownie
+	Buzzgrig
+	Cactus Drake
+	Debbie Warren
+	Dune-Witch
+	Foo-Dhadie
+	Giant Villous Moth
+	Ghost Rider
+	Grindylow
+	Grue
+	Horsefly
+	Jabberwock (Byahkee)
+	Kelp Thresher
+	Magic Mirror
+	Malfunctioning Concierge (Automaton)
+	Mother Mouther (Devoured Devourer)
+	Murdermachine (Warforged Terminator)
+	Nixie
+	Pale Reflection
+	Phun-Babuz (Faceless One)
+	Phun-ni Clown
+	Robosnail
+	Sidhe
+	Swamp Womp
+	Veridian Stalker
+	Temporal Wraith
+	<hr>
+</div>
+-->
+<div class="text-center pt-3 pb-3">
+	<p class="text-center">Copyright &copy; 2023, <a href="mailto:partario.flynn@gmail.com">partario.flynn@gmail.com</a></p>
+</div>
+</main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+      $('body').scrollspy({
+        target: ".navbar", offset: 50
+      });
+    });
+</script>
+</body>
+</html>
