@@ -72,7 +72,7 @@
 			margin-top: 1.25rem;
 		}
 		h5.og-csrd-header-h5-icon a.og-csrd-header-anchor {
-			margin-top: 1.25rem;
+			margin-top: 1rem;
 		}
 		h5.og-csrd-header-small-icon a.og-csrd-header-anchor {
 			margin-top: 0.75rem;
@@ -518,6 +518,13 @@
 						<li><a class="dropdown-item og-csrd-nav" href="#chapter-7-abilities">Abilities</a></li>
 					</ul>
 				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-resources">
+						<li><a class="dropdown-item" href="#chapter-8-cyphers">Cyphers</a></li>
+						<li><a class="dropdown-item" href="#chapter-9-artifacts">Artifacts</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -529,7 +536,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Daft Drafts
 	</h1>
-	<p class="small text-center">draft version 0.12 (2023-04-09)</p>
+	<p class="small text-center">draft version 0.20 (2023-04-11)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark" href="index.html"><abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
 	</ul>
@@ -554,7 +561,6 @@
 				<li><a href="#chapter-7-abilities">Chapter 7: <span class="text-uppercase">Abilities</span></a></li>
 			</ul>
 		</li>
-		<!--
 		<li class="og-csrd-toc-part og-csrd-toc-part2">
 			<span><a href="#part2-cyphers">Part 2: Cyphers</a></span>
 			<ul>
@@ -562,6 +568,7 @@
 				<li><a href="#chapter-9-artifacts">Chapter 9: <span class="text-uppercase">Artifacts</span></a></li>
 			</ul>
 		</li>
+		<!--
 		<li class="og-csrd-toc-part og-csrd-toc-part3">
 			<span><a href="#part3-running-the-game">Part 3: Running the Game</a></span>
 			<ul>
@@ -661,8 +668,8 @@
 	</div>
 	<hr>
 	<h4  class="og-csrd-border-line" id="descriptor-boggle">Boggle<a class="og-csrd-header-anchor" href="#descriptor-boggle" title="Permalink" aria-hidden="true"></a></h4>
-	<p>Most boggles resemble monstrous, gnarled, gnomes with at least one prominent wart on their face, but they can display a staggering variety: some boggles are hirsute, some are completely bald. Some boggles have monstrous features&mdash;wild pigmentation, horns, teeth, or claws&mdash;which make them look quite fearsome&mdash;at least to a child. Naturally jealous creatures, boggles that lack these ornamentations adopt a monstrous persona through trickery, and even those that do have them are not above a little enhancement to their appearance.</p>
-	<p class="og-csrd-indent">Petty mischief delights and even nourishes boggles, who frighten and bedevil folk&mdash;such pranks are always annoying, but usually harmless. The most unseelie of boggles frighten mortal children, hiding under their beds or in their closets, feeding on their victims' fear. As with all boggle mischief, their behavior is usually expression of deep self-loathing. A defeated boggle might offer its services in recompense if cornered, although precious few are strong-willed enough to truly get the best out of a boggle's mischievous compulsions in the long-term.</p>
+	<p>Most boggles resemble monstrous, gnarled gnomes with at least one prominent wart on their face, but they can display a staggering variety: some boggles are hirsute, some are completely bald. Some boggles have monstrous features&mdash;wild pigmentation, horns, teeth, or claws&mdash;which make them look quite fearsome&mdash;at least to a child. Naturally jealous creatures, boggles that lack these ornamentations adopt a monstrous persona through trickery, and even those that do have them are not above a little enhancement to their appearance.</p>
+	<p class="og-csrd-indent">Petty mischief delights and even nourishes boggles, who frighten and bedevil folk&mdash;such pranks are always annoying, but usually harmless. The most unseelie of boggles frighten mortal children, hiding under their beds or in their closets, feeding on their victims' fear. As with all boggle mischief, their behavior is usually an expression of deep self-loathing. A defeated boggle might offer its services in recompense if cornered, although precious few are strong-willed enough to truly get the best out of a boggle's mischievous compulsions in the long-term.</p>
 	<p class="og-csrd-indent">You gain the following characteristics:</p>
 	<ul class="list-unstyled og-csrd-indent">
 		<li><p><strong>Mischievous:</strong> +2 to your Speed Pool, or +2 to your Intellect Pool.</p></li>
@@ -671,12 +678,13 @@
 		<li><p><strong>Prankster:</strong> When you surprise a creature with an action that does not inflict damage, you gain an asset on the task. Enabler.</p></li>
 		<li><p><strong>Schadenfreude:</strong> Once after each ten-hour <a href="index.html#recovery-rolls">recovery roll</a>, when you make someone laugh inappropriately, frighten someone, or cause someone to feel humiliation, you can make a free recovery roll, and do not need to eat or drink that day.</p></li>
 		<li><p><strong>Inability:</strong> Your small size makes some physical tasks difficult. Might-based tasks are hindered.</p></li>
+		<li><p><strong>Inability:</strong> Your Intellect defense tasks are hindered.</p></li>
 		<li><p><strong>Inability:</strong> Your distinctive scent eases tasks to locate you by smell within a short distance. Roll on the boggle scents table, or create your own scent. The scent is so pungent that you have an inability on all positive social interactions with those are not acclimated to your scent.</p></li>
 	</ul>
 	<table class="table table-dark table-striped table-sm">
 		<caption>Boggle Scents</caption>
 		<thead>
-			<tr><th scope="col" class="text-center">d10</th><th scope="row">Boggle Scents</th></tr>
+			<tr><th scope="col" class="text-center">d10</th><th scope="col">Boggle Scents</th></tr>
 		</thead>
 		<tbody>
 			<tr><th scope="row" class="fw-normal text-center">1</th><td>Pencil shavings</td></tr>
@@ -692,7 +700,6 @@
 		</tbody>
 	</table>
 	<ul class="list-unstyled og-csrd-indent">
-		<li><p><strong>Inability:</strong> Your Intellect defense tasks are hindered.</p></li>
 		<li><p><strong>Additional Equipment:</strong> You have a personal disguise kit, which you can use to adopt the appearance of a nondescript individual your size, or a monster of your own design.</p></li>
 		<li><p><strong>Initial Link to the Starting Adventure:</strong> From the following list of options, choose how you became involved in the first adventure.</p></li>
 	</ul>
@@ -1363,7 +1370,7 @@
 		</li>
 		<li id="ability-curse-of-stone">
 			<p><strong>Curse of Stone:</strong> You are petrified when exposed to sunlight, becoming a solid stone statue. Roll on the Curse of Stone Provisions table to determine the nature of your curse, or work out more exact details ahead of time with the GM.</p>
-			<p class="og-csrd-indent">While petrified, you gain +5 to Armor against damage of all sorts, you cannot act, nor can you sense what's happening around you&mdash;until the curse's provisions allow you to awaken. Enabler.</p>
+			<p class="og-csrd-indent">While petrified, you gain +5 to Armor against damage of (including mental attacks), you cannot act, and you can't sense what's happening around you&mdash;until the curse's provisions allow you to awaken. Enabler.</p>
 		</li>
 		<li id="ability-dimensional-rift">
 			<p><strong>Dimensional Rift (5 Intellect points):</strong> You to a place you can see, one you have been to before, or one you can describe with a relative distance and direction within a very long distance. If can apply a level of Effort using this ability, you can also bring one willing creature within your reach.</p>
@@ -1636,7 +1643,6 @@
 	</ul>
 	<hr>
 </div>
-<!--
 <div id="part2">
 	<h2 id="part2-cyphers">
 		<span class="og-csrd-chapter">Part 2</span>
@@ -1646,6 +1652,26 @@
 		<span class="og-csrd-chapter">Chapter 8</span>
 		Cyphers
 	</h3>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Cyphers</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d10</th><th scope="col">Cypher</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td><a href="#cypher-adamant-ablution">Adamant Ablution</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td><a href="#cypher-door-binding">Door Binding</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3</th><td><a href="#cypher-incredible-edible">Incredible Edible</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4</th><td><a href="#cypher-kinetic-thunderball">Kinetic Thunderball</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5</th><td><a href="#cypher-locks-of-love">Locks of Love</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">6</th><td><a href="#cypher-meat-glue">Meat Glue</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">7</th><td><a href="#cypher-poison-polliwog">Poison (Polliwog)</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">8</th><td><a href="#cypher-switcheroo">Switcheroo</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">9</th><td><a href="#cypher-voice-thief">Voice Thief</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10</th><td><a href="#cypher-wonder-clock">Wonder Clock</a></td></tr>
+		</tbody>
+	</table>
+	<hr>
+	<!--
 	<h5 class="og-csrd-header-h5-icon" id="cypher-">Cypher<span data-toggle="tooltip" title="Subtle Cypher" class="og-csrd-icon og-csrd-cypher-subtle ms-1"></span><span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-csrd-indent-hang">
 		<li><p><strong>Level:</strong> 1d6 + 4</p></li>
@@ -1653,41 +1679,359 @@
 			<p><strong>Effect:</strong> -</p>
 		</li>
 	</ul>
-	Drink Me (grow large, small, or become 2-dimensional)
+	-->
+	<h5 class="og-csrd-header-h5-icon" id="cypher-adamant-ablution">Adamant Ablution</span><span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-adamant-ablution" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6 + 3</p></li>
+		<li>
+			<p><strong>Effect:</strong> This metallic-looking vicious liquid pools into a single palm-sized globule if poured from its stoppered container. When you apply it to yourself, it covers you and your equipment entirely for 1 hour. For the duration:</p>
+			<ul class="og-csrd-list-disc">
+				<li>You gain Armor equal to the cypher level.</li>
+				<li>You can withstand extreme heat and cold.</li>
+				<li>Your Speed and Intellect tasks are hindered.</li>
+				<li>You sink in most liquids, and are unable to swim.</li>
+				<li>You don't need to breathe.</li>
+			</ul>
+		</li>
+	</ul>
+	<h5 class="og-csrd-header-h5-icon" id="cypher-door-binding">Door Binding<span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-door-binding" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li>
+			<p><strong>Effect:</strong> Connects two portals you select within immediate range (for example, windows, doorways, or vents) no more than 10 feet on any side.</p>
+			<ul class="og-csrd-list-disc">
+				<li><em>Select Destination.</em> Choose a destination portal. Record the location of the destination, and which side of it you are on. Once a source is selected, the effect persist for a number of hours equal to the cypher level.</li>
+				<li><em>Select Source.</em> Choose a source portal. Doing so opens the door, which becomes a portal to the destination. The portal lasts until the end of your next turn, or until either door is shut, at which point both doors shut simultaneously, restoring locking mechanisms to the state they were in before the portal was opened.</li>
+				<li><em>Traversal.</em> Until the cypher's effects end, you can use the cypher as a key to open either portal to traverse to the other side.</li>
+			</ul>
+		</li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>When Door-Binding is used to open a door, it can only lead from the source to the destination or vice-versa. It doesn't bypass any locks that might open either door to its other side.</p>
+	</div>
+	<h5 class="og-csrd-header-h5-icon" id="cypher-incredible-edible">Incredible Edible<span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-incredible-edible" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li>
+			<p><strong>Effect:</strong> For a number of minutes equal to the cypher's level, you gain the following effects:</p>
+		</li>
+	</ul>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Drink Me Effects</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d20</th><th scope="col">Incredible Edible Effects</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1&ndash;9</th><td><strong>Taller:</strong> You grow to three times your normal size, adding +1 to Armor, and dealing 1 additional points of damage with melee attacks (both bonuses increase to +2 to Armor and 2 additional points of damage if the cypher is level 3 or higher, and +3 to Armor and 3 additional points of damage if the cypher is level 5 or higher). You gain an asset to smashing tasks.</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10&ndash;17</th><td><strong>Shorter:</strong> You shrink to a number of 1/20 inches (1 mm) tall equal to the cypher level. You gain an assets to stealth and Speed defense tasks, but your movement speed is halved.</strong> </td></tr>
+			<tr>
+				<th scope="row" class="fw-normal text-center">18&ndash;20</th>
+				<td>
+					<strong>Stranger:</strong> One of your three dimensions collapses into extradimensional space for up to 1 minute: your <em>(18)</em> height; <em>(19)</em> width; or <em>(20)</em> depth&mdash;resulting in a two-dimensional form.
+					<ul>
+						<li>You gain an asset on Speed and Intellect defense tasks.</li>
+						<li>You can move through any available space as long as your remaining two dimensions can squeeze through it.</li>
+						<li>You take 1 additional damage from physical attacks.</li>
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Sending one of your dimensions into another might result in creatures that dwell there noticing your presence and seeking you out later, or even attacking the dimension of yourself that there. A two-dimensional form might encounter other two-dimensional creatures that go otherwise unnoticed by three-dimensional creatures.</p>
+	</div>
+<!--
 	Greasy Glue (sticky or slick, your choice)
-	Key of Door-Binding (connect any two doorways for 24 hours)
-	Kinetic Thunderball (encase allies in a nigh invulnerable ball for a limited time, can be rolled around by those inside, motion does not harm the party)
-	Meat Glue (re-attach severed limbs, or graft a new one on temporarily)
-	Metal ? (gives metal form)
-	Polliwog Poison (choose from a list of effects, or use as a posion)
-	Numbing Ablution (gain Armor including against ambient damage, but lose feeling)
-	Plant Pleaser (beanstalk mode)
-	Vermin Spawner (summons swarms of ravenous vermin)
-	Voice Thief (steal a voice for 24 hours)
-	Wonder Clock (12-hour retcon or prior arrangement)
+-->
+	<h5 class="og-csrd-header-h5-icon" id="cypher-kinetic-thunderball">Kinetic Thunderball<span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-kinetic-thunderball" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6 + 2</p></li>
+		<li>
+			<p><strong>Effect:</strong> A sphere of whining, shimmering sonic energy, within an immediate radius is created around you, enveloping willing creatures of your choice. The sphere lasts for 1 minute. Passengers inside the sphere can use their action to roll the sphere in a direction of their choosing (the GM assigns the difficulty based on maneuvering the sphere's bulk through the terrain). If the sphere collides with a creature or object, it deals damage equal to the cypher level.</p>
+			<p class="og-csrd-indent">The sphere has health equal to 3 times its level. The sphere&mdash;and its passengers&mdash;are immune to falling damage, and any damage from physical collisions&mdash;all kinetic energy applied to the sphere affects only the sphere's trajectory. If the sphere is reduced to 0 health, it explodes in a shower of thundering force in an immediate radius (the sphere's passengers are unaffected). On a failed Might defense roll, the explosion inflicts damage equal to the cypher level.</p>
+		</li>
+	</ul>
+	<h5 class="og-csrd-header-h5-icon" id="cypher-locks-of-love">Locks of Love<span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-locks-of-love" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li>
+			<p><strong>Effect:</strong> These braided or tied locks of hair of belong to a close relative, treasured friend or loved one of the braid's bearer, and are blessed by the bond of true love. A creature can give their hair away to create such a braid only once in their lifetime.</p>
+			<p>By performing a 1-hour ritual, you can burn the locks as a part of a one- or ten-hour recovery roll, consuming and destroying the braids. When the ritual is complete, the creature that donated their hair to create the braid knows it, and you are energized by your connection to them. For the next 24 hours, you gain an asset to all tasks.</p>
+		</li>
+	</ul>
+	<h5 class="og-csrd-header-h5-icon" id="cypher-meat-glue">Meat Glue<span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-meat-glue" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6 + 2</p></li>
+		<li>
+			<p><strong>Effect:</strong> This short, round jar of sticky, red paste can be applied to re-attach and heal the wounds from a severed body part (for example, a finger, leg, tail, or head). The process takes one minute, and the severed limb must be held firmly in place while the glue is set. If the target has died within the last ten minutes as a result of losing the body part, the creature returns to life and can divide a number of points equal to the cypher level among their Pools.</p>
+			<p>Alternatively, you can attach a severed arm or leg onto yourself:</p>
+			<ul class="og-csrd-list-disc">
+				<li><em>Arm.</em> On your turn, you can command the limb to attack with an unarmed strike or a weapon, or take some other action of your choice, for example, to activate a manifest cypher for you.</li>
+				<li><em>Leg.</em> On your turn, you can move a short distance on your turn and take another action  or move a long distance without the need to make a roll.</li>
+			</ul>
+			<p class="og-csrd-indent">After an hour, the attached limb detaches itself and withers into dust.</p>
+		</li>
+	</ul>
+	<h5 class="og-csrd-header-h5-icon" id="cypher-poison-polliwog">Poison (Polliwog)<span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-poison-polliwog" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li>
+			<p><strong>Effect:</strong> Once ingested&mdash;and once every hour for the next 24 hours&mdash;the victim must roll a d10, and consult the Polliwog Poison Effects table. Before each roll, the victim returns to their original form.</p>
+		</li>
+	</ul>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Polliwog Poison Effects</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d20</th><th scope="col">Polliwog Poison Effects</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1&ndash;4</th><td>You assume the form of a frog.</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5&ndash;7</th><td>You assume the form of a giant frog.</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">8&ndash;10</th><td>Your head becomes that of a frog's&mdash;and has only the intelligence of a frog. You cannot speak, except to other frogs, and you gain an asset to interactions with them.</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">11&ndash;13</th><td>Your eyes bulge, your voice becomes a hoarse croak, and you grow webbing between your fingers and toes. You can breathe air and water, you gain an asset to swimming tasks, and you can jump a short distance on your turn, even without a running start. In this state, social interaction tasks are hindered.</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">14&ndash;16</th><td>Your mouth becomes a wide, froggy grimace. You cam make unarmed strikes within a short range with your tongue, which deal 3 damage on a hit. However, you are also compelled to attempt to eat small creatures near you.</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">18&ndash;19</th><td>You regain your normal form for an hour.</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">20</th><td>You assume the form of a swamp womp.</td></tr>
+		</tbody>
+	</table>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p class="og-csrd-indent"><strong>Frog:</strong> Level 1; swims as level 2</p>
+		<p class="og-csrd-indent"><strong>Giant Frog:</strong> Level 3; swims as level 4</p>
+		<p class="og-csrd-indent"><strong>Swamp Womp:</strong> Level 6, swims as level 7, can devour creatures as large as a human with a successful tongue attack.</p>
+	</div>
+	<h5 class="og-csrd-header-h5-icon" id="cypher-switcheroo">Switcheroo<span data-toggle="tooltip" title="Subtle Cypher" class="og-csrd-icon og-csrd-cypher-subtle ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-switcheroo" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6 + 2</p></li>
+		<li>
+			<p><strong>Effect:</strong> You swap places with one willing creature within 1 mile (1.5 km) of you. You must know where the target is, and the cypher cannot teleport through energy barriers of a higher level than the cypher level.</p>
+		</li>
+	</ul>
+	<h5 class="og-csrd-header-h5-icon" id="cypher-voice-thief">Voice Thief<span data-toggle="tooltip" title="Subtle Cypher" class="og-csrd-icon og-csrd-cypher-subtle ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-voice-thief" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li>
+			<p><strong>Effect:</strong>  You steal the voice of a creature within short range. For the next 24 hours, the creature cannot speak or make any sound from its mouth, and you can speak with the creature's voice, if you wish. You can speak languages you know, or any language the creature you stole the voice from knows, but you are not granted any ability to understand languages you do not know yourself.</p>
+		</li>
+	</ul>
+	<h5 class="og-csrd-header-h5-icon" id="cypher-wonder-clock">Wonder Clock<span data-toggle="tooltip" title="Manifest Cypher" class="og-csrd-icon og-csrd-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-csrd-icon og-csrd-cypher-fantastic ms-1"></span><a class="og-csrd-header-anchor" href="#cypher-wonder-clock" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li>
+			<p><strong>Effect:</strong> You anchor your essence to the current coordinates of your timeline, creating a waypoint for a possible return. For a number of hours equal to the cypher level, you can return to your waypoint using your action. You can also set conditions that would trigger a return to your waypoint (for example, your death, the failure of a particular objective, or a spoken codeword).</p>
+		</li>
+	</ul>
 	<hr>
 	<h3 id="chapter-9-artifacts">
 		<span class="og-csrd-chapter">Chapter 9</span>
 		Artifacts
 	</h3>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Artifacts</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d10</th><th scope="col">Artifact</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td><a href="#artifact-batpack">Batpack</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td><a href="#artifact-dapper-duds">Dapper Duds</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3</th><td><a href="#artifact-eavesdrops">Eavesdrops</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4</th><td><a href="#artifact-love-magnet">Love Magnet</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5</th><td><a href="#artifact-ozalid-folio">Ozalid Folio</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">6</th><td><a href="#artifact-petrified-acorns">Petrified Acorns</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">7</th><td><a href="#artifact-powder-of-life">Powder of Life</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">8</th><td><a href="#artifact-retro-causality-weapon">Retro-Causality Weapon</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">9</th><td><a href="#artifact-rivals-gaming-sets">Rival's Gaming Sets</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10</th><td><a href="#artifact-yarn-of-trivial-divination">Yarn of Trivial Divination</a></td></tr>
+		</tbody>
+	</table>
+	<hr>
+	<!--
 	<h5 id="artifact-">Artifact<a class="og-csrd-header-anchor" href="#artifact-" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-csrd-indent-hang">
 		<li><p><strong>Level:</strong> 1d6 + 4</p></li>
-		<li><p><strong>Form:</strong> -</p>
-		</li><li><p><strong>Effect:</strong> -.</p></li>
+		<li><p><strong>Form:</strong> -</p></li>
+		<li><p><strong>Effect:</strong> -.</p></li>
 		<li><p><strong>Depletion:</strong> 1 in 1d10</p></li>
 	</ul>
-	Acorns of the Petrified Forest (level for efficacy, 1d6 depletion)
-	Autotrphic Amulet (activate in sunlight to be nourished for a day and make a 1-action <a href="index.html#recovery-rolls">recovery roll</a>)
-	Batpack (asset on hearing, bat speech, activate to fly)
-	Dapper Duds (provides 1 armor, no encumbrance, activate to change its look, asset on social interaction when you are dressed appropriately for the occasion)
-	Eavesdrops (create a localized sensor with a fine tuned radius of hearing)
-	Love magnet (provide two assets for any positive social interaction)
-	Magnetic Weapon (eased attacks creatures with metallic armor, ignores that armor)
-	Ozalid Folio (stores objects as drawings in a book)
-	Powder of Life (create temporarily loyal creatures from inanimate objects)
+	-->
+	<h5 id="artifact-batpack">Batpack<a class="og-csrd-header-anchor" href="#artifact-batpack" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li><p><strong>Form:</strong> This stylish leather backpack has been tooled with glyphed designs and features two small protruding bat-like wings out of its sides.</p></li>
+		<li><p><strong>Effect:</strong> You can use the pack in any of the following three ways:</p>
+			<ul class="og-csrd-list-disc">
+				<li><em>Bat-Senses.</em> For 1 hour, you gain an asset to hearing tasks, and you can sense your environment within a short distance regardless of your ability to see. You can comprehend and verbally communicate with bats, and you gain an asset on tasks to interact with them.</li>
+				<li><em>Bat-Flight.</em> For 10 minutes, you can fly a short distance each turn for 10 minutes per artifact level. You can't carry other creatures with you.</li>
+				<li><em>Bat-Transformation.</em> For 1 hour, you assume the form of a bat. If your bat form is reduced to 0 health, you revert to your normal form immediately, taking any remainder of the damage inflicted.</li>
+			</ul>
+			<p class="og-csrd-indent">You can use the <em>Bat-senses</em> and <em>Bat-flight</em> options simultaneously, but must roll twice on the depletion table to do so.</p>
+		</li>
+		<li><p><strong>Depletion:</strong> 1 in 1d20</p></li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Bat:</strong> Level 1</p>
+	</div>
+	<h5 id="artifact-dapper-duds">Dapper Duds<a class="og-csrd-header-anchor" href="#artifact-dapper-duds" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li><p><strong>Form:</strong> Slacks, a jacket, a shirt, and an array of optional accessories: a vest, a tie, a tie clip, a pocket square, a pair of cufflinks, a pair of socks, and a pair of shoes</p></li>
+		<li>
+			<p><strong>Effect:</strong> While worn without any armor, you gain +1 Armor against Intellect Damage. You can use an action to alter the garments' appearance, fabric texture, or details, for example: adding a frilled cuff to a shirt, changing the jacket from velvet single-breasted to pinstripe linen double-breasted, and the tie from a paisley cotton to a solid silk. The retailoring process takes 1 minute. If you remove the clothes, you can command them to clean and mend themselves. After 10 minutes, the garments neatly press, fold, and&mdash;if a suitable peg or hangar is available&mdash;hang themselves.
+		</li>
+		<li><p><strong>Depletion:</strong> 1 in 1d100</p></li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Being dressed for the occassion might provide an asset on certain social interactions.</p>
+	</div>
+	<h5 id="artifact-eavesdrops">Eavesdrops<a class="og-csrd-header-anchor" href="#artifact-eavesdrops" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li><p><strong>Form:</strong> Medicine dropper</p></li>
+		<li><p><strong>Effect:</strong> By placing one droplet in each ear, you heighten your ability to hear over great distances through cluttered environments. For the next 10 minutes, you can use your action to create an invisible sensor within long range anywhere you can see. While doing so, you are deafened to your own surroundings, and hear as if you were in the sensor's space out to a 3-foot (1 m) radius. On your turn, you can move the sensor, or abandon the sensor and create a new one.</p></li>
+		<li><p><strong>Depletion:</strong> 1 in 1d6</p></li>
+	</ul>
+	<h5 id="artifact-love-magnet">Love Magnet<a class="og-csrd-header-anchor" href="#artifact-love-magnet" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6+4</p></li>
+		<li><p><strong>Form:</strong> Horseshoe-shaped lump of brown iron</p></li>
+		<li><p><strong>Effect:</strong> Activate this trinket as part of any positive social interaction to gain two assets to the task.</p></li>
+		<li><p><strong>Depletion:</strong> 1 in 1d10</p></li>
+	</ul>
+	<!--
+	<h5 id="artifact-magnetic-iron-weapon">Magnetic Weapon<a class="og-csrd-header-anchor" href="#artifact-magnetic-iron-weapon" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li><p><strong>Form:</strong> Any melee weapon</p></li>
+		<li><p><strong>Effect:</strong> Provides an asset on attack rolls against ferrous metal objects and creatures wearing wearing ferrous metal armor (or that are made of the stuff). While within long range of such an object or creature, you can mark the object. For the next 1 hour, you know the general direction toward the obect, so long as it remains on the same plane of existence as you.</p></li>
+		<li><p><strong>Depletion:</strong> 1 in 1d20</p></li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Common ferrous metals include alloy steel, carbon steel, cast iron and wrought iron.</p>
+	</div>
+	-->
+	<h5 id="artifact-ozalid-folio">Ozalid Folio<a class="og-csrd-header-anchor" href="#artifact-ozalid-folio" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li><p><strong>Form:</strong> Tome of translucent pages</p></li>
+		<li><p><strong>Effect:</strong> You can spend 10 minutes to draw a mundane object&mdash;no more than 10 feet (3 m) in any given dimension, and that weighs no more than 1,000 pounds&mdash;into the folio. When complete, the object's substance gives way, stored a series of 16 full-page illustrations within the book, each featuring the object drawn from a different angle, with precise mathematical notation about the object's construction, notes on materials used, and fine details, for example, a deep scratch left on a table leg. The folio can inscribe a number of items equal to the artifact level. You can retrieve an object by performing a similar 10 minute transference, freeing up those pages in the folio. When found, random items are already inscribed in its pages.</p></li>
+		<li><p><strong>Depletion:</strong> 1 in 1d20</p></li>
+	</ul>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Ozalid Folio Contents</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d100</th><th scope="col">Item</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1&ndash;3</th><td>A fine porcelain tea kettle</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4&ndash;6</th><td>A stylish fur coat</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">7&ndash;9</th><td>A teddy bear</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10&ndash;12</th><td>A crystal skull</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">13&ndash;15</th><td>An 8-foot candelabra</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">16&ndash;18</th><td>An armoire</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">19&ndash;21</th><td>A mounted taxidermy trophy</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">22&ndash;24</th><td>A harpsichord</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">25&ndash;27</th><td>A typewriter in a random language</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">28&ndash;30</th><td>A set of light tools</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">31&ndash;33</th><td>A minecart</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">34&ndash;36</th><td>A stack of 12 banana crème pies</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">37&ndash;39</th><td>A rowboat</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">40&ndash;42</th><td>A jar of honey</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">43&ndash;45</th><td>A set of 8 brightly colored sticks of chalk, each a different color</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">46&ndash;48</th><td>A snowman</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">49&ndash;51</th><td>A roaring campfire</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">52&ndash;54</th><td>A cannon (with 1 cannonball and enough black powder for one shot)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">55&ndash;57</th><td>A sack of flour (1 lb.)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">58&ndash;60</th><td>A dozen eggs</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">61&ndash;63</th><td>A spool of copper wire (100 feet)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">64&ndash;66</th><td>A barrel of rum</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">67&ndash;69</th><td>A sack of quicklime (5 lb.)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">70&ndash;72</th><td>A flawed diamond</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">73&ndash;75</th><td>A lavishly furnished four-poster bed</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">76&ndash;78</th><td>A treasure map</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">79&ndash;81</th><td>A silver bell</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">82&ndash;84</th><td>A book of useful phrases in an exotic language</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">85&ndash;87</th><td>A cauldron</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">88&ndash;90</th><td>A book of erotic imagery</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">91&ndash;93</th><td>A clockwork astrolabe</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">94&ndash;96</th><td>A large block of ice</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">97&ndash;99</th><td>Twelve dozen wheels of various cheeses</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">100</th><td>An old boot</td></tr>
+		</tbody>
+	</table>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>When the ozalid folio is depleted, all items held within its pages are lost.</p>
+	</div>
+	<h5 id="artifact-petrified-acorns">Petrified Acorns<a class="og-csrd-header-anchor" href="#artifact-petrified-acorns" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li><p><strong>Form:</strong> A simple pouch containing one or more chalky stone acorns.</p></li>
+		<li><p><strong>Effect:</strong> You can throw an acorn a short distance at a creature (or use them as a bullet for a sling). On a miss, the acorn crumbles into chalky dust wherever it impacts. If the acorn strikes a creature, that creature is petrified and turned to stone. A petrified creature gains +10 to Armor against damage of all kinds (including mental attacks), it cannot act, it doesn't age, and it is unaware of its surroundings. The petrification has a duration determined by the cypher level:</p></li>
+		<li><p><strong>Depletion:</strong> 1 in 1d6</p></li>
+	</ul>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Acorn Level</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">Acorn Level</th><th scope="col">Duration</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td>1 minute</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td>1 hour</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3</th><td>24 hours</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4</th><td>1 week</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5</th><td>Until the next full moon</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">6</th><td>Until the next solstice</td></tr>
+		</tbody>
+	</table>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>When you find a pouch of petrified acorns, roll until you deplete the artifact: The number of rolls you make is the number of acorns in the pouch. Next, roll on the Acorn Level table for each individual acorn. You can use the acorns in any order you wish.</p>
+	</div>
+	<h5 id="artifact-powder-of-life">Powder of Life<a class="og-csrd-header-anchor" href="#artifact-powder-of-life" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6 + 1</p></li>
+		<li><p><strong>Form:</strong> Quartz bottle</p></li>
+		<li><p><strong>Effect:</strong> By combining one minute ritual provided by instructions written upon the bottle, a sprinkle of the bottle's powder, you can bring life to an object no larger than 15 feet (4.5 m) on any side. The objects springs to life and has a level equal to the artifact level, with any other suitable modifications determined by the GM. It is friendly to you for at least 1 hour, or until it is mistreated.</p></li>
+		<li><p><strong>Depletion:</strong> 2 in 1d6</p></li>
+	</ul>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>~ Dr. Pipt's Incredible Powder of Life ~</strong></p>
+		<ol>
+			<li>Sprinkle lightly one dusting dose on static object to be brought to life.</li>
+			<li>Raise left hand, little finger pointing upward, and say "Weaugh!"</li>
+			<li>Raise right hand, thumb pointing upward, and say "Teaugh!"</li>
+			<li>Raise both hands, fingers and thumbs spread wide, and say "Peaugh!"</li>
+			<li>Try and keep a positive attitude!</li>
+		</ul>
+	</div>
+	<h5 id="artifact-retro-causality-weapon">Retro-Causality Weapon<a class="og-csrd-header-anchor" href="#artifact-retro-causality-weapon" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6 + 4</p></li>
+		<li><p><strong>Form:</strong> Any weapon</p></li>
+		<li><p><strong>Effect:</strong> Whatever form the weapon takes, it inflicts damage equal to the cypher level. If you kill creature with the weapon, reality warps around you to justify the killing and the weapon becomes a mundane weapon. For example, you might kill a person only to discover that they had murdered one of your parents. The GM determines the nature of the reality warp, and the extent to which any changes in reality are immediately obvious to you.</p></li>
+		<li><p><strong>Depletion:</strong> 1 in 1d10</p></li>
+	</ul>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>"I don't think I was even married before I shot them. I probably shouldn't tell my kids that they're just a metacausal byproduct of finding an excuse to shoot someone; that's a hell of an existential crisis to inflict on a child. Nobody wants to have that conversation."</p>
+		</ul>
+	</div>
+	<h5 id="artifact-rivals-gaming-sets">Rival's Gaming Sets<a class="og-csrd-header-anchor" href="#artifact-rivals-gaming-sets" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li><p><strong>Form:</strong> Gaming set</p></li>
+		<li><p><strong>Effect:</strong> This pair of identical gaming sets includes two of each of everything needed to play the game. The sets can be synchronized, allowing the owners to play over any distance, even from across the planes (although time dilation may interfere with the game's pace). While synchronized, playing any piece of the gaming set moves the corresponding piece on the other set. The set can be desynchronized, allowing the owner to pack it up, move it, and continue the game later. Either side can also cause the gaming set to begin a new game.</p></li>
+		<li><p><strong>Depletion:</strong> &mdash;</p></li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>When discovered, a PC might only find one of the rival's gaming sets, and there may already be a game in progress waiting to be resumed.</p>
+	</div>
+	<h5 id="artifact-yarn-of-trivial-divination">Yarn of Trivial Divination<a class="og-csrd-header-anchor" href="#artifact-yarn-of-trivial-divination" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Level:</strong> 1d6</p></li>
+		<li><p><strong>Form:</strong> Ball of yarn</p></li>
+		<li><p><strong>Effect:</strong> By placing the yarn on a surface and asking it a question, it will begin to roll itself in the direction of the answer for up to 10 minutes. For example, "Where in town serves the best calzones?", "Where is the nearest exit from this sewer?" or "Which way is north?". If the question is too complicated (GM's discretion), the yarn does nothing and no charge is expended from the yarn.</p></li>
+		<li><p><strong>Depletion:</strong> 1 in 1d10</p></li>
+	</ul>
 	<hr>
 </div>
+<!--
 <div id="part3">
 	<h2 id="part3-running-the-game">
 		<span class="og-csrd-chapter">Part 3</span>
