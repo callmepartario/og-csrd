@@ -49,7 +49,7 @@ h6 a.og-csrd-header-anchor {
 }
 /* anchor link positioning for alternate header styles */
 h4.og-csrd-header-small a.og-csrd-header-anchor, h5.og-csrd-header-small a.og-csrd-header-anchor, h6.og-csrd-header-small a.og-csrd-header-anchor {
-	margin-top: 0.6rem;
+	margin-top: 0.4rem;
 }
 h5.og-csrd-tabbed-item a.og-csrd-header-anchor {
 	margin-left: -1.75rem;
