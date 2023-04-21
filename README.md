@@ -3,7 +3,7 @@
 
 https://callmepartario.github.io/og-csrd
 
-This document is a hypertext version of the February 10, 2023 edition of the [Cypher System Reference Document (CSRD)](http://csol.montecookgames.com/). It is intended to help Game Masters (GMs), players, and others interested in the Cypher System to learn more about it, create characters, worlds, and share stories together.
+This document is a hypertext version of the April 18, 2023 edition of the [Cypher System Reference Document (CSRD)](http://csol.montecookgames.com/). It is intended to help Game Masters (GMs), players, and others interested in the Cypher System to learn more about it, create characters, worlds, and share stories together.
 
 This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the Cypher System Open License, found at http://csol.montecookgames.com
 
