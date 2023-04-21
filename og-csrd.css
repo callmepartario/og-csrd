@@ -51,7 +51,7 @@ h6 a.og-csrd-header-anchor {
 h4.og-csrd-header-small a.og-csrd-header-anchor, h5.og-csrd-header-small a.og-csrd-header-anchor, h6.og-csrd-header-small a.og-csrd-header-anchor {
 	margin-top: 0.4rem;
 }
-h5.og-csrd-tabbed-item a.og-csrd-header-anchor {
+h5.og-csrd-tabbed-item a.og-csrd-header-anchor, h5.og-csrd-tabbed-item-sub a.og-csrd-header-anchor {
 	margin-left: -1.75rem;
 }
 h5.og-csrd-technologies a.og-csrd-header-anchor {
@@ -63,7 +63,7 @@ h5.og-csrd-header-h5-icon a.og-csrd-header-anchor {
 h5.og-csrd-header-small-icon a.og-csrd-header-anchor {
 	margin-top: 0.75rem;
 }
-h6.og-csrd-tabbed-item a.og-csrd-header-anchor {
+h6.og-csrd-tabbed-item a.og-csrd-header-anchor, h6.og-csrd-tabbed-item-sub a.og-csrd-header-anchor {
 	margin-left: -1.75rem;
 }
 /* anchor link iconography */
@@ -146,7 +146,7 @@ h6 {
 	border-bottom: 0.25rem solid;
 }
 /* tabbed item for creatures, detailed equipment, vehicles, and traps */
-.og-csrd-tabbed-item {
+.og-csrd-tabbed-item, .og-csrd-tabbed-item-sub {
 	text-shadow: #000 1px 0 0.5rem;
 	padding: 0.25rem 0.5rem 0rem 0.5rem;
 	border-radius: 0.25em;
@@ -455,6 +455,24 @@ ul.og-csrd-technologies-fantastic li, .og-csrd-legend ul.og-csrd-legend-list li.
 }
 #part5 h2, ul.og-csrd-toc li.og-csrd-toc-part5 span a, #part5 .og-csrd-tabbed-item {
 	background-color: #449;
+}
+#part0 .og-csrd-tabbed-item-sub {
+	background-color: #303;
+}
+#part1 .og-csrd-tabbed-item-sub {
+	background-color: #036;
+}
+#part2 .og-csrd-tabbed-item-sub {
+	background-color: #630;
+}
+#part3 .og-csrd-tabbed-item-sub {
+	background-color: #541;
+}
+#part4 .og-csrd-tabbed-item-sub {
+	background-color: #142;
+}
+#part5 .og-csrd-tabbed-item-sub {
+	background-color: #224;
 }
 #part0 h4, #part0, #part0 .alert, #part0 .og-csrd-sidebar, #part0 .og-csrd-legend {
 	border-color: #625;
