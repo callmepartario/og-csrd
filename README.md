@@ -34,12 +34,6 @@ Readers are encouraged to support the creators. Consider buying products listed 
 
 This is a living document, and corrections will need to be made in the future. If ever Monte Cook Games expands the CSRD further, that new content should be incorporated that content into this document accordingly.
 
-
-**Contact the Editor:** 
-- Email: partario.flynn@gmail.com
-- Mastodon: [@oldgus@dice.camp](https://dice.camp/@oldgus)
-- [Buy Me a Coffee](https://ko-fi.com/oldgus)
-
 ## Acknowledgements
 
 [Marko Wenzel(https://github.com/mrkwnzl/cyphersystem-foundryvtt/), [Qedhup](youtube.com/qedhup), [AlphaDean](https://www.drivethrurpg.com/product_reviews.php?products_id=342942), Farling, synth, Saki, Charlie, Gelsiah, Siv, Stormbringer, Sir James, David H., Stellar5, alasdesammael, Pseudolurker, Attilisk, Da_Brass_Monkey, carrollastrophe, Chris Tavares, Apocalypse Meow, Menagerie, fAbIaN, Myrilla, kagozaiku, everyone else I am neglecting to mention from [Cypher Unlimited Discord Server](https://discord.com/invite/WQYRWhn) for their help editing, reading, and guidance, and with utmost respect to everyone from [Monte Cook Games](https://www.montecookgames.com/) for an amazing resource that continue to help us scaffold the ever-expanding imaginarium for others.
@@ -47,3 +41,9 @@ This is a living document, and corrections will need to be made in the future. I
 Thanks for reading, and may this record bring you and yours many happy adventures!
 
 —Old Gus
+
+## Contact the Editor
+
+- Email: partario.flynn@gmail.com
+- Mastodon: [@oldgus@dice.camp](https://dice.camp/@oldgus)
+- [Buy Me a Coffee](https://ko-fi.com/oldgus)
