@@ -36,6 +36,9 @@ This is a living document, and corrections will need to be made in the future. I
 
 
 **Contact the Editor:** 
+
 Email: partario.flynn@gmail.com
+
 Mastodon: [@oldgus@dice.camp](https://dice.camp/@oldgus)
+
 [![Buy me a coffee](https://camo.githubusercontent.com/30c3222ed37f33ca6deeaa84826cb60918cf70adf20c1881e514a663f616411c/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d626c75652e706e67 | width=150)](https://ko-fi.com/oldgus)
