@@ -24,7 +24,6 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">Characters</a>
 					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-characters">
-						<li><a class="dropdown-item og-csrd-nav" href="#choose-characters">Creating Your Character</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-descriptor">Descriptors</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-type">Types</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-focus">Foci</a></li>
@@ -33,6 +32,7 @@
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-abilities">Abilities</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-character-arc">Character Arcs</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#character-advancement">Character Advancement</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#character-sentence-generator">Character Generator</a></li>
 					</ul>
 				</li>
 				<li class="nav-item dropdown">
@@ -97,7 +97,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Cypher System Reference Document
 	</h1>
-	<p class="small text-center">version 1.21q (2023-04-23)</p>
+	<p class="small text-center">version 1.21r (2023-04-23)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Player's Guide PDF: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSPG</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark" href="og-dd.html">Daft Drafts</a></li>
@@ -574,18 +574,22 @@
 	</ul>
 	<hr>
 	<h4 id="character-descriptor-type-and-focus">Character Descriptor, Type, and Focus<a class="og-csrd-header-anchor" href="#character-descriptor-type-and-focus" title="Permalink" aria-hidden="true"></a></h4>
-	<p>To create your character, you build a simple statement that describes them. The statement takes this form: "I am a [fill in an adjective here] [fill in a noun here] who [fill in a verb here]."</p>
+	<p>To create your character, you build a simple statement that describes them. The statement takes this form:</p>
+	<p class="lead">I am an [adjective] [noun] who [verbs]."</p>
+	<!--
 	<p class="og-csrd-indent">Thus: "I am an <em>adjective</em> <em>noun</em> who <em>verbs</em>." For example, you might say, "I am a <a href="#descriptor-rugged">Rugged</a> <a href="#type-warrior">Warrior</a> who <a href="#focus-controls-beasts">Controls Beasts</a>" or "I am a <a href="#descriptor-charming">Charming</a> <a href="#type-explorer">Explorer</a> who <a href="#focus-focuses-mind-over-matter">Focuses Mind Over Matter</a>."</p>
-	<p class="og-csrd-indent">In this sentence, the adjective is called your <a href="#chapter-7-descriptor">descriptor</a>.</p>
-	<p class="og-csrd-indent">The noun is your character <a href="#chapter-5-type">type</a>.</p>
-	<p class="og-csrd-indent">The verb is called your <a href="#chapter-8-focus">focus</a>.</p>
-	<p class="og-csrd-indent">Even though character type is in the middle of the sentence, that's where we'll start this discussion. (Just as in a sentence, the noun provides the foundation.)</p>
-	<p class="og-csrd-indent">Your character type is the core of your character. In some roleplaying games, it might be called your character class. Your type helps determine your character's place in the world and relationship with other people in the setting. It's the noun of the sentence "I am an adjective noun who verbs."</p>
-	<p class="og-csrd-indent">You can choose from four character types: <a href="#type-warrior">Warriors</a>, <a href="#type-adept">Adepts</a>, <a href="#type-explorer">Explorers</a>, and <a href="#type-speaker">Speakers</a>.</p>
-	<p class="og-csrd-indent">Your descriptor defines your character&mdash;it colors everything you do. Your descriptor places your character in the situation (the first adventure, which starts the campaign) and helps provide motivation. It's the adjective of the sentence "I am an adjective noun who verbs."</p>
-	<p class="og-csrd-indent">Unless your GM says otherwise, you can choose from any of the character descriptors.</p>
-	<p class="og-csrd-indent">Focus is what your character does best. Focus gives your character specificity and provides interesting new abilities that might come in handy. Your focus also helps you understand how you relate with the other player characters in your group. It's the verb of the sentence "I am an adjective noun who verbs."</p>
-	<p class="og-csrd-indent">There are many character foci. The ones you choose from will probably depend on the setting and genre of your game.</p>
+	-->
+	<p class="og-csrd-indent">In this sentence, the adjective is called your <a href="#chapter-7-descriptor">descriptor</a>. Your descriptor defines your character—it colors everything you do. Unless your GM says otherwise, you can choose from any of the character descriptors.</p>
+	<p class="og-csrd-indent">The noun is your character <a href="#chapter-5-type">type</a>. Your character type is the core of your character. In some roleplaying games, it might be called your character class.</p>
+	<p class="og-csrd-indent">The verb is called your <a href="#chapter-8-focus">focus</a>. Focus is what your character does best. Focus gives your character specificity and provides interesting new abilities that might come in handy. Your focus also helps you understand how you relate with the other player characters in your group. The foci you choose from will probably depend on the setting and genre of your game.</p>
+	<div class="alert bg-dark ps-4">
+		<h5 class="og-csrd-header-small" id="character-sentence-generator">Cypher System Charater Sentence Generator<a class="og-csrd-header-anchor" href="#character-sentence-generator" title="Permalink" aria-hidden="true"></a></h6>
+		<p class="lead mt-3"><span class="fst-italic" id="random-character-sentence">&mldr;</span></p>	
+		<button class="btn btn-dark border" id="random-character-sentence-button" type="button" title="Generate New Character">Generate New Character</button>
+	</div>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<strong>Editor's Note</strong> &mdash; This section has been abridged significantly since you can read more in-depth through the hyperlinks. The character sentence generator omits descriptors described in genre chapters.</p>
+	</div>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>You can use the <a href="#chapter-6-flavor">Flavors</a> chapter to slightly modify character types to customize them for different genres.</p>
 	</div>
@@ -1752,6 +1756,17 @@
 				</ul>
 			</div>
 		</div>
+	</div>
+	<div class="alert bg-dark ps-4">
+		<h5 class="og-csrd-header-small og-csrd-header-small-icon" id="gods-of-the-fall-types">Gods of the Fall &mdash; Types<a href="https://www.montecookgames.com/store/product/gods-of-the-fall/" aria-label="Purchase Gods of the Fall"><span data-toggle="tooltip" title="Purchase from MCG" class="og-csrd-icon og-csrd-mcg ms-1"></span></a><a class="og-csrd-header-anchor" href="#gods-of-the-fall-types" title="Permalink" aria-hidden="true"></a></h5>
+		<p><em>The Gods are Dead&mdash;Now It's Your Turn.</em></p>
+		<ul class="list-unstyled og-csrd-quick-reference-compact">
+			<li>Champion</li>
+			<li>Destroyer</li>
+			<li>Savior</li>
+			<li>Shaper</li>
+		</ul>
+		<p class="small"><em>See also: <a href="#gods-of-the-fall-descriptors">Gods of the Fall &mdash; Descriptors</a> and <a href="#gods-of-the-fall-foci">Gods of the Fall &mdash; Foci</a></em></p>
 	</div>
 	<div class="alert bg-dark ps-4">
 		<h5 class="og-csrd-header-small og-csrd-header-small-icon" id="numenera-discovery-types">Numenera Discovery &mdash; Types<a href="https://www.montecookgames.com/store/product/numenera-discovery/" aria-label="Purchase Numenera Discovery"><span data-toggle="tooltip" title="Purchase from MCG" class="og-csrd-icon og-csrd-mcg ms-1"></span></a><a class="og-csrd-header-anchor" href="#numenera-discovery-types" title="Permalink" aria-hidden="true"></a></h5>
@@ -3277,7 +3292,7 @@
 			<li>Sleen</li>
 			<li>Taran</li>
 		</ul>
-		<p class="small"><em>See also: <a href="#gods-of-the-fall-foci">Gods of the Fall &mdash; Foci</a></em></p>
+		<p class="small"><em>See also: <a href="#gods-of-the-fall-types">Gods of the Fall &mdash; Types</a> and <a href="#gods-of-the-fall-foci">Gods of the Fall &mdash; Foci</a></em></p>
 	</div>
 	<div class="alert bg-dark ps-4">
 		<h5 class="og-csrd-header-small og-csrd-header-small-icon" id="numenera-destiny-descriptors">Numenera Destiny &mdash; Descriptors<a href="https://www.montecookgames.com/store/product/numenera-destiny/" aria-label="Purchase Numenera Destiny"><span data-toggle="tooltip" title="Purchase from MCG" class="og-csrd-icon og-csrd-mcg ms-1"></span></a><a class="og-csrd-header-anchor" href="#numenera-destiny-descriptors" title="Permalink" aria-hidden="true"></a></h5>
@@ -30952,5 +30967,6 @@
 		});
 	});
 </script>
+<script type="module" src="scripts/random.js"></script>
 </body>
 </html>
