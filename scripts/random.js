@@ -55,8 +55,3 @@ document.getElementById("new-random-character-sentence").addEventListener("click
   randomCharacterType();
   randomCharacterFocus();  
 });
-
-document.getElementById("generate-new-random-oddity").addEventListener("click", function (event) {
-  randomOddity();
-});
-
