@@ -1,0 +1,142 @@
+		/* Headers: Lexend Zetta */
+		/* Chapter Identifiers: Lexend Zetta */
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,i,bi|Teko:300,400,500,600,700,i,bi|BenchNine:400,i,bi|Lexend+Zetta:400,500,600,700,800,900,i,bi|Walter+Turncoat:400,i,bi);	
+		/* override link and body coloration */
+		a { color: #daaf46; }
+		a:hover { color: #eed086; }
+		/* anchor link positioning for alternate header styles */
+		h5.og-csrd-technologies a.og-csrd-header-anchor {
+			margin-top: 1.25rem;
+		}
+		h5.og-csrd-header-h5-icon a.og-csrd-header-anchor {
+			margin-top: 1rem;
+		}
+		/* anchor link iconography */
+		h4:hover a.og-csrd-header-anchor, h5:hover a.og-csrd-header-anchor, h6:hover a.og-csrd-header-anchor {
+			color: #238d94;
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 400 400' style='enable-background:new 0 0 400 400%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%23daaf46%3B%7D%3C/style%3E%3Crect x='-0.4' y='-0.9' class='st0' width='399.7' height='399.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer1_0_FILL'%3E%3Cpath class='st1' d='M234.4 166.4l-25.8 25.7l14.2 14.2c3.9 3.9 5.8 8.6 5.8 14.1v0c0 5.5-1.9 10.2-5.8 14.1l-73.3 73.3c-3.9 3.9-8.6 5.8-14.1 5.8v0.1c-5.5 0-10.1-2-14-5.9l-28.4-28.5c-3.9-3.9-5.9-8.5-5.9-13.9v-0.1c0-5.5 2-10.1 5.9-14l27.8-27.8c3.3-3.5 5-7.7 5-12.6c0-5-1.8-9.3-5.3-12.8c-3.5-3.5-7.8-5.2-12.8-5.2c-4.9 0-9.1 1.6-12.6 5l-27.8 27.8c-11 11-16.5 24.2-16.5 39.7c0 15.5 5.5 28.8 16.5 39.8l28.5 28.5c11 11 24.2 16.5 39.7 16.5c15.6 0 28.8-5.5 39.8-16.5l73.3-73.4c11-10.9 16.4-24.2 16.4-39.7s-5.5-28.8-16.4-39.8L234.4 166.4 M332.6 174.4c11-11 16.5-24.2 16.5-39.8c0-15.5-5.5-28.8-16.5-39.8l-28.4-28.4c-11-11-24.2-16.5-39.8-16.5c-15.5 0-28.7 5.5-39.7 16.5l-73.4 73.3c-11 11-16.5 24.2-16.5 39.8c0 15.5 5.5 28.8 16.5 39.8l14.2 14.2l25.6-25.7l-14.1-14.2c-3.9-3.9-5.9-8.6-5.8-14v-0.1c-0.1-5.5 1.9-10.1 5.8-14l73.3-73.3c3.9-3.9 8.6-5.8 14.1-5.8l0-0.1c5.5 0 10.2 1.9 14.1 5.8l28.4 28.4c3.9 3.9 5.8 8.6 5.8 14l0 0.1c0 5.4-2 10.1-5.8 14l-27.9 27.8c-3.3 3.5-5 7.7-5.1 12.6c0.1 5 1.9 9.3 5.5 12.9c3.6 3.5 7.8 5.3 12.8 5.3c4.9 0 9.1-1.7 12.6-5.1L332.6 174.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		}
+		h4:hover a.og-csrd-header-anchor:hover, h5:hover a.og-csrd-header-anchor:hover, h6:hover a.og-csrd-header-anchor:hover {
+			color: #7be7ee;
+			text-decoration: none;
+			background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 400 400' style='enable-background:new 0 0 400 400%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%23eed086%3B%7D%3C/style%3E%3Crect x='-0.4' y='-0.9' class='st0' width='399.7' height='399.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer1_0_FILL'%3E%3Cpath class='st1' d='M234.4 166.4l-25.8 25.7l14.2 14.2c3.9 3.9 5.8 8.6 5.8 14.1v0c0 5.5-1.9 10.2-5.8 14.1l-73.3 73.3c-3.9 3.9-8.6 5.8-14.1 5.8v0.1c-5.5 0-10.1-2-14-5.9l-28.4-28.5c-3.9-3.9-5.9-8.5-5.9-13.9v-0.1c0-5.5 2-10.1 5.9-14l27.8-27.8c3.3-3.5 5-7.7 5-12.6c0-5-1.8-9.3-5.3-12.8c-3.5-3.5-7.8-5.2-12.8-5.2c-4.9 0-9.1 1.6-12.6 5l-27.8 27.8c-11 11-16.5 24.2-16.5 39.7c0 15.5 5.5 28.8 16.5 39.8l28.5 28.5c11 11 24.2 16.5 39.7 16.5c15.6 0 28.8-5.5 39.8-16.5l73.3-73.4c11-10.9 16.4-24.2 16.4-39.7s-5.5-28.8-16.4-39.8L234.4 166.4 M332.6 174.4c11-11 16.5-24.2 16.5-39.8c0-15.5-5.5-28.8-16.5-39.8l-28.4-28.4c-11-11-24.2-16.5-39.8-16.5c-15.5 0-28.7 5.5-39.7 16.5l-73.4 73.3c-11 11-16.5 24.2-16.5 39.8c0 15.5 5.5 28.8 16.5 39.8l14.2 14.2l25.6-25.7l-14.1-14.2c-3.9-3.9-5.9-8.6-5.8-14v-0.1c-0.1-5.5 1.9-10.1 5.8-14l73.3-73.3c3.9-3.9 8.6-5.8 14.1-5.8l0-0.1c5.5 0 10.2 1.9 14.1 5.8l28.4 28.4c3.9 3.9 5.8 8.6 5.8 14l0 0.1c0 5.4-2 10.1-5.8 14l-27.9 27.8c-3.3 3.5-5 7.7-5.1 12.6c0.1 5 1.9 9.3 5.5 12.9c3.6 3.5 7.8 5.3 12.8 5.3c4.9 0 9.1-1.7 12.6-5.1L332.6 174.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		}
+		/* header overrides */
+		h1, h2, h3, h4, h5, h6 {
+			font-family: BenchNine, sans-serif;
+			text-transform: uppercase;
+		}
+		/* page title */
+		h1 { 
+			font-size: 3rem;
+			font-weight: 600;
+			text-align: center;
+		}
+		/* header 2 divides the document parts */
+		h2 {
+			font-size: 3rem; text-align: center; font-weight: 600;
+			font-weight: 600;
+			text-align: center;
+			padding: 0.5rem 0.25rem 0.1rem 0.25rem;
+			margin: 0.5rem -1rem 0.5rem 0;
+			border-radius: 1rem 0 0 1rem;
+		}
+		/* header 3 divides the document chapters */
+		h3 { 
+			font-size: 3rem; 
+			font-weight: 600;
+			text-align: center; 
+		}
+		/* large section within a chapter */
+		h4 { 
+			font-size: 2.5rem; 
+			font-weight: 400;
+		}
+		/* medium section within a chapter */
+		h5 { 
+			font-size: 2.25rem;
+			font-weight: 400;
+		}
+		/* small header within a chapter */
+		h6 { 
+			font-size: 2rem;
+			font-weight: 400;
+		}
+		/* alternate header styles */
+		/* chapter numbers */
+		.og-csrd-chapter { 
+			font-family: Lexend Zetta;
+			font-size: 40%; 
+			display: block;
+			text-transform: none;
+			font-weight: 400;
+			font-variant: small-caps;
+			letter-spacing: 0.1rem;
+		}
+		/* table of contents */
+		ul.og-csrd-toc {
+			font-family: BenchNine;
+			font-size: 2.2rem;
+			font-weight: 300;
+			list-style-type: none;
+		}
+		.og-csrd-ednote {
+			border-top: 0.25rem solid;
+			border-bottom: 0.25rem solid;
+			border-left: 0;
+			border-right: 0;
+		}
+		.og-csrd-ednote {
+			font-family: Walter Turncoat;
+			font-size: 1.1rem;
+			border-color: #b35c2f;
+			color: #cb966c;
+			background-color: #1f2733;
+		}
+		/* legends with iconography explanations */
+		.og-csrd-legend ul.og-csrd-legend-list {
+			font-family: Lexend Zetta;
+			font-size: 1.6rem;
+			text-transform: uppercase;
+		}
+		/* color theming by part */
+		#part0 h2, ul.og-csrd-toc li.og-csrd-toc-part0 span a, #part0 .og-csrd-tabbed-item {
+			background-color: #103f65;
+		}
+		#part1 h2, ul.og-csrd-toc li.og-csrd-toc-part1 span a, #part1 .og-csrd-tabbed-item {
+			background-color: #1b6c6e;
+		}
+		#part2 h2, ul.og-csrd-toc li.og-csrd-toc-part2 span a, #part2 .og-csrd-tabbed-item {
+			background-color: #3d6f3e;
+		}
+		#part3 h2, ul.og-csrd-toc li.og-csrd-toc-part3 span a, #part3 .og-csrd-tabbed-item {
+			background-color: #834242;
+		}
+		#part0 h4, #part0, #part0 .alert, #part0 .og-csrd-sidebar, #part0 .og-csrd-legend {
+			border-color: #103f65;
+		}
+		#part1 h4, #part1, #part1 .alert, #part1 .og-csrd-sidebar, #part1 .og-csrd-legend {
+			border-color: #1b6c6e;
+		}
+		#part2 h4, #part2, #part2 .alert, #part2 .og-csrd-sidebar, #part2 .og-csrd-legend {
+			border-color: #3d6f3e;
+		}
+		#part3 h4, #part3, #part3 .alert, #part3 .og-csrd-sidebar, #part3 .og-csrd-legend {
+			border-color: #834242;
+		}
+		#part0 h3, #part0 h4, #part0 h5, #part0 h6, #part0 .og-csrd-sidebar, ul.og-csrd-toc li.og-csrd-toc-part0 ul li a, #part0 .og-csrd-legend, #part0 .og-csrd-border-line {
+			color: #b7d3ea;
+			border-color: #b7d3ea;
+		}
+		#part1 h3, #part1 h4, #part1 h5, #part1 h6, #part1 .og-csrd-sidebar, ul.og-csrd-toc li.og-csrd-toc-part1 ul li a, #part1 .og-csrd-legend, #part1 .og-csrd-border-line {
+			color: #b5eced;
+			border-color: #b5eced;
+		}
+		#part2 h3, #part2 h4, #part2 h5, #part2 h6, #part2 .og-csrd-sidebar, ul.og-csrd-toc li.og-csrd-toc-part2 ul li a, #part2 .og-csrd-legend, #part2 .og-csrd-border-line {
+			color: #b9e7ba;
+			border-color: #b9e7ba;
+		}
+		#part3 h3, #part3 h4, #part3 h5, #part3 h6, #part3 .og-csrd-sidebar, ul.og-csrd-toc li.og-csrd-toc-part3 ul li a, #part3 .og-csrd-legend, #part3 .og-csrd-border-line {
+			color: #e8baba;
+			border-color: #e8baba;
+		}
