@@ -8,7 +8,7 @@ generateOddity();
 function generateCharacterSentence() {
   let characterdescriptor = data.characterdescriptorlist[Math.floor(Math.random() * data.characterdescriptorlist.length)];
   let charactertype = data.charactertypelist[Math.floor(Math.random() * data.charactertypelist.length)];;
-  let characterfocus = data.characterfouslist[Math.floor(Math.random() * data.characterfouslist.length)];;
+  let characterfocus = data.characterfocuslist[Math.floor(Math.random() * data.characterfocuslist.length)];;
   let randomcharactersentence = "I am a(n) <em>" + characterdescriptor + " " + charactertype + "</em> who <em>" + characterfocus + "</em>.";
   document.getElementById("random-character-sentence").innerHTML = randomcharactersentence;
 }
