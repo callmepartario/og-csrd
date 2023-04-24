@@ -9,7 +9,7 @@ function generateCharacterSentence() {
   let characterdescriptor = data.characterdescriptors[Math.floor(Math.random() * data.characterdescriptors.length)];
   let charactertype = data.charactertypes[Math.floor(Math.random() * data.charactertypes.length)];;
   let characterfocus = data.characterfoci[Math.floor(Math.random() * data.characterfoci.length)];;
-  let randomcharactersentence = "I am a " + characterdescriptor + " " + charactertype + " who " + characterfocus; + "."
+  let randomcharactersentence = characterdescriptor + " " + charactertype + " who " + characterfocus;
   document.getElementById("random-character-sentence").innerHTML = randomcharactersentence;
 }
 // Random Oddity
@@ -17,7 +17,7 @@ function generateOddity() {
   let oddityquality = data.oddityqualities[Math.floor(Math.random() * data.oddityqualities.length)];
   let oddityproperty = data.oddityproperties[Math.floor(Math.random() * data.oddityproperties.length)];;
   let oddityform = data.oddityforms[Math.floor(Math.random() * data.oddityforms.length)];;
-  let randomoddity = oddityquality + " " + oddityproperty + " " + oddityform; +
+  let randomoddity = oddityquality + " " + oddityproperty + " " + oddityform;
   document.getElementById("random-oddity").innerHTML = randomoddity;
 }
 
