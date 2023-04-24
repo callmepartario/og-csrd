@@ -6,15 +6,15 @@ generateOddity();
 
 // Functions
 function generateOddity() {
-  let oddityquality = data.oddityqualities[Math.floor(Math.random() * data.oddityqualities.length)];
-  let oddityproperty = data.oddityproperties[Math.floor(Math.random() * data.oddityproperties.length)];;
-  let oddityform = data.oddityforms[Math.floor(Math.random() * data.oddityforms.length)];;
-  let oddity = oddityquality + " " + oddityproperty + " " + oddityform;
+  let quality = data.qualities[Math.floor(Math.random() * data.qualities.length)];
+  let property = data.properties[Math.floor(Math.random() * data.properties.length)];;
+  let form = data.forms[Math.floor(Math.random() * data.forms.length)];;
+  let oddity = quality + " " + property + " " + form;
 
   // Send oddity to HTML
-  document.getElementById("random-oddity").innerHTML = oddity;
+  document.getElementById("oddity").innerHTML = oddity;
 }
 
-document.getElementById('random-oddity-button').addEventListener('click', function (event) {
+document.getElementById('generate-oddity-button').addEventListener('click', function (event) {
   generateOddity();
 });
