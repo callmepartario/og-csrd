@@ -39,7 +39,7 @@ document.getElementById("new-random-character-type").addEventListener("click", f
   randomCharacterType();
 });
 document.getElementById("new-random-character-focus").addEventListener("click", function (event) {
-  randomCharacterType();
+  randomCharacterFocus();
 });
 document.getElementById("new-random-character-sentence").addEventListener("click", function (event) {
   randomCharacterDescriptor();
