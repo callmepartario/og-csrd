@@ -6,17 +6,17 @@ generateOddity();
 
 // Random Character
 function generateCharacterSentence() {
-  let characterdescriptor = data.characterdescriptors[Math.floor(Math.random() * data.characterdescriptors.length)];
-  let charactertype = data.charactertypes[Math.floor(Math.random() * data.charactertypes.length)];;
-  let characterfocus = data.characterfoci[Math.floor(Math.random() * data.characterfoci.length)];;
-  let randomcharactersentence = characterdescriptor + " " + charactertype + " who " + characterfocus;
+  let characterdescriptor = data.characterdescriptorlist[Math.floor(Math.random() * data.characterdescriptorlist.length)];
+  let charactertype = data.charactertypelist[Math.floor(Math.random() * data.charactertypelist.length)];;
+  let characterfocus = data.characterfouslist[Math.floor(Math.random() * data.characterfouslist.length)];;
+  let randomcharactersentence = "I am a(n) <em>" + characterdescriptor + " " + charactertype + "</em> who <em>" + characterfocus + "</em>.";
   document.getElementById("random-character-sentence").innerHTML = randomcharactersentence;
 }
 // Random Oddity
 function generateOddity() {
-  let oddityquality = data.oddityqualities[Math.floor(Math.random() * data.oddityqualities.length)];
-  let oddityproperty = data.oddityproperties[Math.floor(Math.random() * data.oddityproperties.length)];;
-  let oddityform = data.oddityforms[Math.floor(Math.random() * data.oddityforms.length)];;
+  let oddityquality = data.oddityqualitylist[Math.floor(Math.random() * data.oddityqualitylist.length)];
+  let oddityproperty = data.odditypropertylist[Math.floor(Math.random() * data.odditypropertylist.length)];;
+  let oddityform = data.oddityformlist[Math.floor(Math.random() * data.oddityformlist.length)];;
   let randomoddity = oddityquality + " " + oddityproperty + " " + oddityform;
   document.getElementById("random-oddity").innerHTML = randomoddity;
 }
