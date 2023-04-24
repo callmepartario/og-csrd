@@ -7,7 +7,6 @@ let data = await fetchData.json();
 randomCharacterDescriptor();
 randomCharacterType();
 randomCharacterFocus();
-randomOddity();
 
 // Random Character Descriptor, Type and Focus
 
