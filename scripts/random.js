@@ -10,23 +10,23 @@ randomOddity();
 
 // Random Character Descriptor, Type and Focus
 function randomCharacterDescriptor() {
-  let descriptor = data.characterdescriptorlist[Math.floor(Math.random() * data.characterdescriptorlist.length)];
+  let descriptor = data.characterdescriptor[Math.floor(Math.random() * data.characterdescriptor.length)];
   document.getElementById("character-random-descriptor").innerHTML = descriptor;
 }
 function randomCharacterType() {
-  let type = data.characterdescriptorlist[Math.floor(Math.random() * data.characterdescriptorlist.length)];
+  let type = data.charactertype[Math.floor(Math.random() * data.charachtertype.length)];
   document.getElementById("character-random-type").innerHTML = type;
 }
 function randomCharacterFocus() {
-  let focus = data.characterdescriptorlist[Math.floor(Math.random() * data.characterdescriptorlist.length)];
+  let focus = data.characterfocus[Math.floor(Math.random() * data.characterfocus.length)];
   document.getElementById("character-random-focus").innerHTML = focus;
 }
 
 // Random Oddity
 function randomOddity() {
-  let quality = data.oddityqualitylist[Math.floor(Math.random() * data.oddityqualitylist.length)];
-  let property = data.odditypropertylist[Math.floor(Math.random() * data.odditypropertylist.length)];;
-  let form = data.oddityformlist[Math.floor(Math.random() * data.oddityformlist.length)];;
+  let quality = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let property = data.oddityproperty[Math.floor(Math.random() * data.oddityproperty.length)];;
+  let form = data.oddityform[Math.floor(Math.random() * data.oddityform.length)];;
   let oddity = quality + " " + property + " " + form;
   document.getElementById("new-random-oddity").innerHTML = oddity;
 }
