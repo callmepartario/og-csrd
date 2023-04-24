@@ -11,7 +11,7 @@ function generateCharacterSentence() {
   let charactertype = data.charactertypelist[Math.floor(Math.random() * data.charactertypelist.length)];;
   let characterfocus = data.characterfocuslist[Math.floor(Math.random() * data.characterfocuslist.length)];;
   let charactersentence = "I am " + characterdescriptor + " " + charactertype + " who " + characterfocus + ".";
-  document.getElementById("random-character-sentence").innerHTML = charactersentence;
+  document.getElementById("generated-character-sentence").innerHTML = charactersentence;
 }
 // Random Oddity
 function generateOddity() {
@@ -22,10 +22,11 @@ function generateOddity() {
   document.getElementById("random-oddity").innerHTML = oddity;
 }
 
-document.getElementById("random-character-sentence-button").addEventListener("click", function (event) {
+// Listen
+document.getElementById("generate-new-character-sentence").addEventListener("click", function (event) {
   generateCharacterSentence();
 });
 
-document.getElementById("random-oddity-button").addEventListener("click", function (event) {
+document.getElementById("generate-new-random-oddity").addEventListener("click", function (event) {
   generateOddity();
 });
