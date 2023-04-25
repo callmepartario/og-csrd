@@ -28,15 +28,15 @@ function randomOddityForm() {
 // Listen
 
 document.getElementById("new-random-oddity-quality").addEventListener("click", function (event) {
-  randomCharacterDescriptor();
+  randomOddityQuality();
 });
 
 document.getElementById("new-random-oddity-property").addEventListener("click", function (event) {
-  randomCharacterType();
+  randomOddityProperty();
 });
 
 document.getElementById("new-random-oddity-form").addEventListener("click", function (event) {
-  randomCharacterFocus();
+  randomOddityForm();
 });
 
 document.getElementById("new-random-oddity-sentence").addEventListener("click", function (event) {
