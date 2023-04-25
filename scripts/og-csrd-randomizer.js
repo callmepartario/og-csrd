@@ -8,6 +8,7 @@ randomCharacterDescriptor();
 randomCharacterType();
 randomCharacterFocus();
 randomCharacterFlavor();
+randomCharacterArc();
 
 // Random Character Descriptor, Type and Focus
 
@@ -35,6 +36,11 @@ function randomCharacterFlavor() {
   document.getElementById("character-random-flavor").innerHTML = flavor;
 }
 
+function randomCharacterArc() {
+  let arc = data.characterarc[Math.floor(Math.random() * data.characterarc.length)];
+  document.getElementById("character-random-arc").innerHTML = arc;
+}
+
 // Listen
 
 document.getElementById("new-random-character-descriptor").addEventListener("click", function (event) {
@@ -49,6 +55,10 @@ document.getElementById("new-random-character-focus").addEventListener("click", 
   randomCharacterFocus();
 });
 
+document.getElementById("new-random-character-arc").addEventListener("click", function (event) {
+  randomCharacterArc();
+});
+
 document.getElementById("new-random-character-flavor").addEventListener("click", function (event) {
   randomCharacterFlavor();
 });
@@ -58,4 +68,5 @@ document.getElementById("new-random-character-sentence").addEventListener("click
   randomCharacterType();
   randomCharacterFocus(); 
   randomCharacterFlavor();
+  randomCharacterArc();
 });
