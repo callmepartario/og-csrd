@@ -4,43 +4,42 @@ let data = await fetchData.json();
 
 //initialize
 
-randomCharacterDescriptor();
-randomCharacterType();
-randomCharacterFocus();
+randomOddityQuality();
+randomOddityProperty();
+randomOddityForm();
 
 // Random Character Descriptor, Type and Focus
 
 function randomCharacterDescriptor() {
   let descriptor = data.characterdescriptor[Math.floor(Math.random() * data.characterdescriptor.length)];
-  document.getElementById("character-random-descriptor").innerHTML = descriptor;
+  document.getElementById("oddity-random-quality").innerHTML = descriptor;
 }
 
 function randomCharacterType() {
   let type = data.charactertype[Math.floor(Math.random() * data.charactertype.length)];
-  document.getElementById("character-random-type").innerHTML = type;
+  document.getElementById("oddity-random-property").innerHTML = type;
 }
 
 function randomCharacterFocus() {
   let focus = data.characterfocus[Math.floor(Math.random() * data.characterfocus.length)];
-  document.getElementById("character-random-focus").innerHTML = focus;
+  document.getElementById("oddity-random-form").innerHTML = focus;
 }
-
 
 // Listen
 
-document.getElementById("new-random-character-descriptor").addEventListener("click", function (event) {
+document.getElementById("new-random-oddity-quality").addEventListener("click", function (event) {
   randomCharacterDescriptor();
 });
 
-document.getElementById("new-random-character-type").addEventListener("click", function (event) {
+document.getElementById("new-random-oddity-property").addEventListener("click", function (event) {
   randomCharacterType();
 });
 
-document.getElementById("new-random-character-focus").addEventListener("click", function (event) {
+document.getElementById("new-random-oddity-form").addEventListener("click", function (event) {
   randomCharacterFocus();
 });
 
-document.getElementById("new-random-character-sentence").addEventListener("click", function (event) {
+document.getElementById("new-random-oddity-sentence").addEventListener("click", function (event) {
   randomCharacterDescriptor();
   randomCharacterType();
   randomCharacterFocus();  

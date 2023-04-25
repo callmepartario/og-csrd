@@ -36,6 +36,7 @@
 					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-resources">
 						<li><a class="dropdown-item" href="#chapter-8-cyphers">Cyphers</a></li>
 						<li><a class="dropdown-item" href="#chapter-9-artifacts">Artifacts</a></li>
+						<li><a class="dropdown-item" href="#chapter-10-oddities">Oddities</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -80,6 +81,7 @@
 			<ul>
 				<li><a href="#chapter-8-cyphers">Chapter 8: <span class="text-uppercase">Cyphers</span></a></li>
 				<li><a href="#chapter-9-artifacts">Chapter 9: <span class="text-uppercase">Artifacts</span></a></li>
+				<li><a href="#chapter-10-oddities">Chapter 10: <span class="text-uppercase">Oddities</span></a></li>
 			</ul>
 		</li>
 		<!--
@@ -1573,6 +1575,28 @@
 		<li><p><strong>Depletion:</strong> &mdash; (when the final peice of ammunition is fired)</p></li>
 	</ul>
 	<hr>
+	<h3 id="chapter-10-oddities">
+		<span class="og-csrd-chapter">Chapter 10</span>
+		Oddities
+	</h3>
+	<p></p>
+	<div class="alert bg-dark ps-4">
+		<h5 class="og-csrd-header-small" id="oddity-generator">Oddity Generator<a class="og-csrd-header-anchor" href="#oddity-generator" title="Permalink" aria-hidden="true"></a></h6>
+		<p>The oddity generator creates all manner of gubbins, macguffins, and almagoozlums. You can use it to make strange treasures from across the planes, alien trade goods, or technobabble names for cypher or artifacts. An oddity is made up of three wordss: a <strong>quality</strong>, a <strong>property</strong>,  and a <strong>form</strong>. If something is close to what you're looking for but one of the words doesn't make sense, you can randomize each word individually.</p>
+		</ul>
+		<ul class="list-inline">
+			<li class="list-inline-item"><p><button class="btn btn-dark border" id="new-random-oddity-quality" type="button" title="New Quality">New Quality</button></p></li>
+			<li class="list-inline-item"><p><button class="btn btn-dark border" id="new-random-oddity-property" type="button" title="New Property">New Property</button></p></li>
+			<li class="list-inline-item"><p><button class="btn btn-dark border" id="new-random-oddity-form" type="button" title="New Form">New Form</button></p></li>
+			<li class="list-inline-item"><p><button class="btn btn-dark border" id="new-random-oddity-sentence" type="button" title="Randomize All">New Oddity</button></p></li>
+		</ul>
+		<p class="lead">
+			<span id="oddity-random-quality">[Quality]</span> 
+			<span id="oddity-random-property">[Property]</span> 
+			<span id="oddity-random-form">[Form]</span>
+		</p>
+	</div>
+	<hr>
 </div>
 <!--
 <div id="part3">
@@ -1637,5 +1661,6 @@
 		});
 	});
 </script>
+<script type="module" src="scripts/og-csrd-randomizer.js"></script>
 </body>
 </html>
