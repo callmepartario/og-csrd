@@ -40,7 +40,7 @@ document.getElementById("new-random-oddity-form").addEventListener("click", func
 });
 
 document.getElementById("new-random-oddity-sentence").addEventListener("click", function (event) {
-  randomCharacterDescriptor();
-  randomCharacterType();
-  randomCharacterFocus();  
+  randomOddityQuality();
+  randomOddityProperty();
+  randomOddityForm();  
 });
