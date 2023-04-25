@@ -30,7 +30,7 @@ function randomCharacterFlavor() {
   if ( Math.random() * 5 < 2 ) { 
     var flavor = data.characterflavor[Math.floor(Math.random() * data.characterflavor.length)]
   } else {
-    var flavor = ;
+    var flavor = "";
   }
   document.getElementById("character-random-flavor").innerHTML = flavor;
 }
