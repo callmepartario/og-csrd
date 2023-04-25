@@ -7,6 +7,7 @@ let data = await fetchData.json();
 randomCharacterDescriptor();
 randomCharacterType();
 randomCharacterFocus();
+randomCharacterFlavor();
 
 // Random Character Descriptor, Type and Focus
 
@@ -25,6 +26,14 @@ function randomCharacterFocus() {
   document.getElementById("character-random-focus").innerHTML = focus;
 }
 
+function randomCharacterFlavor() {
+  if ( Math.random() * 5 < 2 ) { 
+    var flavor = data.characterflavor[Math.floor(Math.random() * data.characterflavor.length)]
+  } else {
+    var flavor = ;
+  }
+  document.getElementById("character-random-flavor").innerHTML = flavor;
+}
 
 // Listen
 
@@ -40,8 +49,13 @@ document.getElementById("new-random-character-focus").addEventListener("click", 
   randomCharacterFocus();
 });
 
+document.getElementById("new-random-character-flavor").addEventListener("click", function (event) {
+  randomCharacterFlavor();
+});
+
 document.getElementById("new-random-character-sentence").addEventListener("click", function (event) {
   randomCharacterDescriptor();
   randomCharacterType();
-  randomCharacterFocus();  
+  randomCharacterFocus(); 
+  randomCharacterFlavor();
 });
