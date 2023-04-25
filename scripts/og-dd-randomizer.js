@@ -11,17 +11,17 @@ randomOddityForm();
 // Random Character Descriptor, Type and Focus
 
 function randomOddityQuality() {
-  let descriptor = data.characterdescriptor[Math.floor(Math.random() * data.characterdescriptor.length)];
+  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
   document.getElementById("oddity-random-quality").innerHTML = descriptor;
 }
 
 function randomOddityProperty() {
-  let type = data.charactertype[Math.floor(Math.random() * data.charactertype.length)];
+  let type = data.oddityproperty[Math.floor(Math.random() * data.oddityproperty.length)];
   document.getElementById("oddity-random-property").innerHTML = type;
 }
 
 function randomOddityForm() {
-  let focus = data.characterfocus[Math.floor(Math.random() * data.characterfocus.length)];
+  let focus = data.oddityform[Math.floor(Math.random() * data.oddityform.length)];
   document.getElementById("oddity-random-form").innerHTML = focus;
 }
 
@@ -39,7 +39,7 @@ document.getElementById("new-random-oddity-form").addEventListener("click", func
   randomOddityForm();
 });
 
-document.getElementById("new-random-oddity-sentence").addEventListener("click", function (event) {
+document.getElementById("new-random-oddity").addEventListener("click", function (event) {
   randomOddityQuality();
   randomOddityProperty();
   randomOddityForm();  
