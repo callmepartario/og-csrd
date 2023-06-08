@@ -12,6 +12,11 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/og-csrd.css">
 	<link rel="stylesheet" href="css/og-dd.css">
+	<link rel="manifest" href="manifest.json">
+	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+	<meta name="theme-color" content="#b6c5ce">
 </head>
 <body class="bg-dark">
 <nav id="og-csrd-navbar" class="container-xxl navbar navbar-expand-md navbar-dark bg-dark sticky-top og-csrd-navbar">
@@ -51,7 +56,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Daft Drafts
 	</h1>
-	<p class="small text-center">draft version 0.58 (2023-05-14)</p>
+	<p class="small text-center">version 0.59 (2023-06-08)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="index.html"><abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://ko-fi.com/oldgus">&#9749;Buy me a coffee</a></li>
@@ -86,16 +91,16 @@
 				<li><a href="#chapter-11-oddities">Chapter 11: <span class="text-uppercase">Oddities</span></a></li>
 			</ul>
 		</li>
-		<!--
 		<li class="og-csrd-toc-part og-csrd-toc-part3">
 			<span><a href="#part3-running-the-game">Part 3: Running the Game</a></span>
 			<ul>
-				<li><a href="#chapter-10-optional-rules">Chapter 10: <span class="text-uppercase">Optional Rules</span></a></li>
+				<li><a href="#chapter-10-decisive-vehicular-combat">Chapter 10: <span class="text-uppercase">Decisive Vehicular Combat</span></a></li>
+				<!--
 				<li><a href="#chapter-11-ritual-magic">Chapter 11: <span class="text-uppercase">Ritual Magic</span></a></li>
 				<li><a href="#chapter-12-creatures">Chapter 12: <span class="text-uppercase">Creatures</span></a></li>
+				-->
 			</ul>
 		</li>
-		-->
 	</ul>
 	<hr>
 	<h2 id="introduction">Introduction</h2>
@@ -2901,17 +2906,65 @@ Finding Salvation
 	</div>
 	<hr>
 </div>
-<!--
 <div id="part3">
 	<h2 id="part3-running-the-game">
 		<span class="og-csrd-chapter">Part 3</span>
 		Running the Game
 	</h2>
-	<h3 id="chapter-10-optional-rules">
+	<h3 id="chapter-10-decisive-vehicular-combat">
 		<span class="og-csrd-chapter">Chapter 10</span>
-		Optional Rules
+		Decisive Vehicular Combat
 	</h3>
+	<p>If the GM chooses, decisive vehicular combat begins when two opposing vehicles are close enough to one another to cause damage to one another.</p>
+	<div class="alert bg-dark ps-4">
+		<h4 class="og-csrd-header-small" id="decisive-vehicular-combat-glossary">Decisive Vehicular Combat Glossary<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-glossary" title="Permalink" aria-hidden="true"></a></h4>
+		<ul class="list-unstyled">
+			<li><p><strong>CREW:</strong> Anyone on a vehicle in operation of some part of it.</p></li>
+			<li><p><strong>HELM:</strong> The location (and individual) responsible for controlling the ship's orientation and movement. Leaving a lack of someone at the helm of a vehicle in motion is unwise: colliding with objects in structures might eventually becomes inevitable.</p></li>
+			<li><p><strong>MORALE:</strong> On a vehicle with a large crew of NPCs, morale measures the crew's satisfaction with their lives. A lack of food, comfort, rest, and success can lower morale. A breakdown in morale might cause crew to be absent without leave, or other disruptions to the chain of command and vehicle operation. Morale can provide an asset to any number of activities performed aboard a vehicle: if the crew is responsible for positioning sails to catch wind and control the ship's speed, high morale might provide an asset to tactical tasks that require propulsion. Likewise, low morale is a hindrance.</p></li>
+			<li><p><strong>OUTCLASSED:</strong> When PCs vehicle faces overwhelming numbers of enemies, a single enemy with superior technology, or adverse circumstances&mdash;the presence of sharp rocks, a hurrican, or a dense asteroid field&mdash;the GM can escalate the situation by declaring the PC's vehicle outclassed. While outclassed, the GM intrusion range of tactical tasks by 1 or more.</p></li>
+			<li><p><strong>PROPULSION:</strong> Propulsion varies from vehicle to vehicle, but is an important consideration. For example, a galleon uses wind through sails oriented by its sizable crew, a big rig truck with a internal combusion engine uses gasoline for fuel and the propulsion is controlled by a foot pedal at the helm, and a spacecraft with a fusion drive might use a holographic throttle to control its primary propulsion and a shipmind to operate various stabilizing thrusters. Running out of fuel, sailing into a strong headwind, or damage to a spacecraft's thruster systems might hinder tasks. An expert crew, an expendible bottle of nitrous oxide, or an expensive thruster upgrade might add an asset to tactical tasks.</p></li>
+			<li><p><strong>TACTICAL TASK:</strong> A tactical task represents "the ship's turn". In combat, it happens at the start of the turn and determines your vehicle's position and orientation.</p></li>
+			<li><p><strong>WEAPON STATION:</strong> A weapon station might be operated by manually operating a gun-turret on top of a jeep, a cannon on a sailing vessel, or a full-body gyroscopic interface on a spaceship. The <a href="index.html#choose-science-fiction-vehicles">Modern and Science Fiction Vehicles</a> in the CSRD include several examples of weapon stations.</p></li>
+		</ul>
+	</div>
 	<hr>
+	<h4 id="decisive-vehicular-tactical-tasks">Tactical Tasks<a class="og-csrd-header-anchor" href="#decisive-vehicular-tactical-tasks" title="Permalink" aria-hidden="true"></a></h4>
+	<p>At the start of each round of decisive vehicular combat, one or more PCs decide on the vehicle's tactical task, which determines the vehicles direction, orientation, and purpose of movement. The outcome of the tactical task determines what other actions are possible, and also modifies their difficulty. A vehicle's tactical task might be decided upon by a concensus among the PCs, or a PC giving orders to a crew, or left to the PC driving or piloting the vehicle.</p>
+	<p class="og-csrd-indent">For each tactical task, helm performs a driving, piloting, task&mdash;at a baseline, the difficulty of which equals the level of the enemy ship. Depending on the type of vehicle, one or more others who can operate the vehicle's propulsion might be able to help or provide an asset.</p>
+	<h5 id="decisive-vehicular-combat-engage">Engage<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-engage" title="Permalink" aria-hidden="true"></a></h5>
+	<p>On a success, .</p>
+	<p>On a failure, .</p>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>GM Intrusion:</strong> A miscalculation causes the enemy to have you right where they want you.</p>
+	</div>
+	<h5 id="decisive-vehicular-combat-outmaneuver">Outmaneuver<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-outmaneuver" title="Permalink" aria-hidden="true"></a></h5>
+	<p>On a success, .</p>
+	<p>On a failure, .</p>
+	<p>When your ship's crew outmaneuvers your opponent to put them in a bad position, roll +Speed. On a hit, you get your enemy right where you want them; describe the opportunity you've opened up. On a 7-9, the opportunity is short-lived; the Fates will tell you what it takes to seize it. On a miss, your enemy pins you down instead; !ght your way out or surrender.</p>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>GM Intrusion:</strong> The helm attempts to position the ship in an advantageous position. On a success, your attacks gain an asset for the round.</p>
+	</div>
+	<h5 id="decisive-vehicular-combat-escape">Escape<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-escape" title="Permalink" aria-hidden="true"></a></h5>
+	<p>On a success, .</p>
+	<p>On a failure, .</p>
+	<p>The ship attempts to flee the opponent. On a hit, you get away; choose 1. On a 7-9, it's by the skin of your teeth; the Fates choose 1 as well. On a miss, the Fates will tell you the terrible sacri!ce you must pay to escape. Pay it or be caught.</p>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>GM Intrusion:</strong> </p>
+	</div>
+	<h5 id="decisive-vehicular-combat-surrender">Surrender<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-surrender" title="Permalink" aria-hidden="true"></a></h5>
+	<p>On a success, .</p>
+	<p>On a failure, .</p>
+	<p>When your ship's crew waves the white flag and surrenders to another ship to cut losses, roll +Fortune. On a hit, you've convinced them to spare you. On a 7-9, they do some damage as they board; choose what beloved feature of your ship doesn't survive. On a 10+, they're sympathetic; take +1 forward to parleying with them as they board you. On a miss, your pleas fall on deaf ears; they show you true cruelty as they claim their prize.</p>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>GM Intrusion:</strong> </p>
+	</div>
+	<div class="alert bg-dark ps-4">
+		<h4 class="og-csrd-header-small" id="decisive-vehicular-combat-navigation">Decisive Navigation<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-navigation" title="Permalink" aria-hidden="true"></a></h4>
+		<p>When your ship's crew navigates toward a difficult or new destination, the navigator rolls +Spitfire. On a 10+, you get there without trouble; the crew takes a downtime during the journey, and the Fates will tell you what strange sights you see on the way. On a 7-9, you encounter trouble on the journey and must contend with it before reaching your destination. On a miss, you face serious trouble that leaves you hopelessly lost.</p>
+	</div>
+	<hr>
+	<!--
 	<h3 id="chapter-11-collaborative-spellcasting-and-ritual-magic">
 		<span class="og-csrd-chapter">Chapter 11</span>
 		Collaborative Spellcasting and Ritual Magic
@@ -2964,5 +3017,11 @@ Finding Salvation
 	});
 </script>
 <script type="module" src="scripts/og-dd-randomizer.js"></script>
+<script>
+	//PWA Cache
+	if ("serviceWorker" in navigator) {
+		navigator.serviceWorker.register("service-worker.js");
+	}
+</script>
 </body>
 </html>
