@@ -51,6 +51,9 @@ h6 a.og-csrd-header-anchor {
 h4.og-csrd-header-small a.og-csrd-header-anchor, h5.og-csrd-header-small a.og-csrd-header-anchor, h6.og-csrd-header-small a.og-csrd-header-anchor {
 	margin-top: 0.4rem;
 }
+h4.og-csrd-header-smaller a.og-csrd-header-anchor, h5.og-csrd-header-smaller a.og-csrd-header-anchor, h6.og-csrd-header-smaller a.og-csrd-header-anchor {
+	margin-top: 0.25rem;
+}
 h5.og-csrd-tabbed-item a.og-csrd-header-anchor, h5.og-csrd-tabbed-item-sub a.og-csrd-header-anchor {
 	margin-left: -1.75rem;
 }
@@ -140,6 +143,10 @@ h6 {
 /* due to header structure, this might be used for header 4, 5, or 6 */
 .og-csrd-header-small {
 	font-size: 2rem;
+	text-transform: uppercase;
+}
+.og-csrd-header-smaller {
+	font-size: 1.5rem;
 	text-transform: uppercase;
 }
 .og-csrd-border-line {

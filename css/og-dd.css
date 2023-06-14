@@ -140,3 +140,10 @@
 			color: #e8baba;
 			border-color: #e8baba;
 		}
+
+
+		div.og-csrd-species {
+			background-image: url('../images/species-alien-background.webp');
+			background-position: center center;
+			border-bottom: 0.25em solid #1b6c6e;
+		}
