@@ -57,7 +57,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Daft Drafts
 	</h1>
-	<p class="small text-center">version 0.81 (2023-07-21)</p>
+	<p class="small text-center">version 0.82 (2023-07-25)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="index.html"><abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://foundryvtt.com/packages/cyphersystem-community-module">Foundry <abbr title="Virtual Tabletop">VTT</abbr></a></li>
@@ -3453,14 +3453,717 @@
 		<span class="og-csrd-chapter">Chapter 8</span>
 		Other Character Options
 	</h3>
-		<!-- 
-			Anxious
-			Disgusting
-			Addicted / Overcome an Addiction
-			Illiterate / Learn to Read
-			Traumatized / existing arc
-		-->
-	<h5 id="fear">Fear<a class="og-csrd-header-anchor" href="#fear" title="Permalink" aria-hidden="true"></a></h5>
+	<div class="alert bg-dark ps-4">
+		<h4 class="og-csrd-header-small" id="choose-other-character-options">Quick Reference: Other Character Options<a class="og-csrd-header-anchor" href="#choose-other-character-options" title="Permalink" aria-hidden="true"></a></h4>
+		<ul class="list-unstyled og-csrd-quick-reference">
+			<li><a href="#gritty-rules-modules">Gritty Rules Modules</a></li>
+			<li><a href="#gritty-pcs">Gritty PCs</a></li>
+			<li><a href="#gritty-skills">Gritty Skills</a></li>
+			<li><a href="#gritty-abilities">Gritty Abilities</a></li>
+			<li><a href="#gritty-advancement">Gritty Advancement</a></li>
+			<li><a href="#fear">Fear</a></li>
+		</ul>
+	</div>
+	<!-- 
+		Possible Character Arcs
+		Addicted / Overcome an Addiction
+		Illiterate / Learn to Read
+		Traumatized / existing arc
+	-->
+	<hr>
+	<h4 id="gritty-rules-modules">Gritty Rules Modules<a class="og-csrd-header-anchor" href="#gritty-rules-modules" title="Permalink" aria-hidden="true"></a></h4>
+	<p>These rules streamline character creation, and assume the GM is familiar with the <a href="index.html#skills">skills</a> section in <a href="index.html#chapter-4-creating-your-character">Chapter 4: Creating Your Character</a>, as well as the special abilities in <a href="index.html#chapter-9-abilities">Chapter 9: Abilities</a>. Most of these rules rely on dice to reveal a character in character creation, and develop them through advancement, similar to tabletop role-playing games like <a href="https://morkborg.com/">MÖRK BORG</a> or <a href="https://www.troikarpg.com/">Troika!</a>, by defining satisfying parameters within any number of a genres.</p>
+	<h5 id="gritty-pcs">Gritty PCs<a class="og-csrd-header-anchor" href="#gritty-pcs" title="Permalink" aria-hidden="true"></a></h5>
+	<div class="row">
+		<div class="col-lg-6">
+			<p>This rule replaces the use of character <a href="index.html#choose-descriptor">descriptor</a> and <a href="index.html#choose-type">type</a>. Each PC begins with 6 points in each of their <a href="index.html#character-stats">stat</a> <a href="index.html#pool">pools</a>, and 1 <a href="index.html#effort">Effort</a>.</p>		
+			<table class="table table-dark table-striped table-sm">
+				<caption>Gritty PC Stat Pools</caption>
+				<thead>
+					<tr>
+						<th scope="col">Stat</th>
+						<th scope="col" class="text-center">Pool Starting Value</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row" class="fw-normal">Might</th>
+						<td class="text-center">6</td>
+					</tr>
+					<tr>
+						<th scope="row" class="fw-normal">Speed</th>
+						<td class="text-center">6</td>
+					</tr>
+					<tr>
+						<th scope="row" class="fw-normal">Intellect</th>
+						<td class="text-center">6</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="og-csrd-indent">Roll a d6 to determine the PC's pool modification:</p>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Gritty Pool Modification</caption>
+				<thead>
+					<tr>
+						<th class="vertical-align-bottom text-center" scope="col">d6</th>
+						<th class="vertical-align-bottom" scope="col">Pool Modification</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="text-center fw-normal">1&ndash;2</th><td><strong>Tough.</strong> Your Might Pool increases by 3.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">3&ndash;4</th><td><strong>Agile.</strong> Your Speed Pool increases by 3.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">5&ndash;6</th><td><strong>Wise.</strong> Your Intellect Pool increases by 3.</td></tr>
+				</tbody>
+			</table>
+			<p class="og-csrd-indent">You get 6 additional points to divide among your stat Pools however you wish. Next, roll a d6 for your <a href="index.html#edge">Edge</a> modification:</p>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Gritty Edge Modification</caption>
+				<thead>
+					<tr>
+						<th class="vertical-align-bottom text-center" scope="col">d6</th>
+						<th class="vertical-align-bottom" scope="col">Edge Modification</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="text-center fw-normal">1&ndash;2</th><td><strong>Strong.</strong> Your Might Edge is 1.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">3&ndash;4</th><td><strong>Swift.</strong> Your Speed Edge is 1.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">5&ndash;6</th><td><strong>Cunning.</strong> Your Intellect Edge is 1.</td></tr>
+				</tbody>
+			</table>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Don't be afraid to change numbers, or use polyhedral dice other than those called for by the Cypher System! These rules also won't address starting <a href="index.html#choose-equipment">equipment</a> at all, and leave such determinations to the GM.</p>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="alert bg-dark ps-4">
+				<h6 class="og-csrd-header-small" id="gritty-optional-add-a-weakness">Optional: Add a Weakness<a class="og-csrd-header-anchor" href="#gritty-optional-add-a-weakness" title="Permalink" aria-hidden="true"></a></h6>
+				<p>Essentially, weakness is negative Edge. If you have a weakness of 1 in Speed, all Speed actions that require you to spend points cost 1 additional point from your Pool. When using this optional rule, PCs roll a d6 on a weakness table, which corresponds to their Edge modification: Strong, Swift, or Cunning.</p>
+			</div>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Gritty Weaknesses &mdash; Strong</caption>
+				<thead>
+					<tr>
+						<th class="vertical-align-bottom text-center" scope="col">d6</th>
+						<th class="vertical-align-bottom" scope="col">Strong Weakness Modification</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td><strong>Laborious.</strong> Your Speed Edge is &minus;1.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">4&ndash;6</th><td><strong>Unreliable.</strong> Your Intellect Edge is &minus;1.</td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Gritty Weaknesses &mdash; Swift</caption>
+				<thead>
+					<tr>
+						<th class="vertical-align-bottom text-center" scope="col">d6</th>
+						<th class="vertical-align-bottom" scope="col">Swift Weakness Modification</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td><strong>Spindly.</strong> Your Might Edge is &minus;1.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">4&ndash;6</th><td><strong>Impulsive.</strong> Your Intellect Edge is &minus;1.</td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Gritty Weaknesses &mdash; Cunning</caption>
+				<thead>
+					<tr>
+						<th class="vertical-align-bottom text-center" scope="col">d6</th>
+						<th class="vertical-align-bottom" scope="col">Cunning Weakness Modification</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td><strong>Pampered.</strong> Your Might Edge is &minus;1.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">4&ndash;6</th><td><strong>Sluggish.</strong> Your Speed Edge is &minus;1.</td></tr>
+				</tbody>
+			</table>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>The combination of Pool modifications, Edge modifications, and Weakness might begin to suggest something about the PC's species, personality, or other relationship to the setting. However, it might be wise to wait until a PC's skills and abilities are determined.</p>
+			</div>
+		</div>
+	</div>
+	<h5 id="gritty-skills">Gritty Skills<a class="og-csrd-header-anchor" href="#gritty-skills" title="Permalink" aria-hidden="true"></a></h5>
+	<div class="row">
+		<div class="col-lg-6">
+			<p>When using this rule, the GM provides a prepared list or table of skills for the game. The GM also decides how many skills PCs begin with. The specifics depend on the examples, which are explored in the two examples that follow. Bur for now, the GM should consider the following qualities that make for a great skill system:</p>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Relevence:</strong> Skills should be associated with meaningful tasks PCs will perform in the genre and setting.</p></li>
+				<li><p><strong>Organization and Presentation:</strong> Different settings and genres will require different categories and groups of skills.</p></li>
+				<li><p><strong>Determine Rarity:</strong> Appropriately determine scarcity or rarity for randomly deteremind skills (including languages).</p></li>
+				<li><p><strong>Revisit Lists and Tables:</strong> As games progress, players might make good suggestions for additions to the skill list that will improve the game. Alternatively, the PCs might make disoveries or forge bonds with others that make new skills or abiltiies available from an entirely new table.</p></li>
+			</ul>
+		</div>
+		<div class="col-lg-6">
+			<div class="alert bg-dark ps-4">
+				<h6 class="og-csrd-header-small" id="gritty-optional-add-inabilities">Optional: Add Inabilities <a class="og-csrd-header-anchor" href="#gritty-optional-add-inabilities" title="Permalink" aria-hidden="true"></a></h6>
+				<p>The GM might approve a PC take <a href="index.html#key-concepts">inabilities</a>, which are determined by choosing from a GM-provided list, rolling on a GM-provided skills table, or choosing an inability with certain types of weapons. A PC must take an inability with heavy weapons before taking an inability with medium weapons. The PC chooses or rolls one additional skill for each inability they take. If any result would grant a PC an inability in a skill they are already trained in, make a new roll on the table. The GM determines how many inabilities a PC can take. It's probably a good idea for this number not to exceed three.</p>
+			</div>		
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>If a PC chooses or rolls the same skill a second time, they become <a href="index.html#key-concepts">specialized</a> in it. In these examples, training in attacks or defense is addressed through <a href="#gritty-advancement">gritty advancement</a> instead, but they could be addressed through <a href="#gritty-abilities">gritty abilities</a> instead.</p>
+			</div>
+		</div>
+	</div>
+	<h6 id="gritty-skills-example-dangerops">Gritty Skills Example: DangerOps<a class="og-csrd-header-anchor" href="#gritty-skills-example-dangerops" title="Permalink" aria-hidden="true"></a></h6>
+	<p>In this example, the GM wants create a game where centers around the exploits of a gritty team of disposable 80's action movie heroes called <em>DangerOps</em>. The game with have high lethality, so making new characters needs to be quick. To keep it simple, the GM limits the skill list to ten broadly useful skills for completing team missions, and decides each player will roll 3d10 on the DangerOps skill table for their PC.</p>
+	<table class="table table-dark table-striped table-sm">
+		<caption>DangerOps Skills</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d10</th><th scope="col">DangerOps Skills</th><th scope="col">Tasks</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td>Athletics</td><td>Running, jumping, climbing, swimming, moving heavy objects</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td>Reconaissance</td><td>Perception, memorization</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3</th><td>Mechanical engineering</td><td>Building, repairing, operating heavy machinery, welding</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4</th><td>Searching</td><td>Finding missing or hidden objects and traps, tracking</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5</th><td>SigCom</td><td>Languages, codebreaking, radio signals and encryption</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">6</th><td>Subterfuge</td><td>Stealth, hiding, sneaking, stealing, disguise</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">7</th><td>Social interaction</td><td>Infiltration, inspiration, persuading, lying, intimidating, seduction</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">8</th><td>Structural engineering</td><td>Building and destroying structures, handling, placing and timing explosives</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">9</th><td>Technology</td><td>Computers, electronics, hacking</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10</th><td>Vehicle operations</td><td>Driving, piloting</td></tr>
+		</tbody>
+	</table>
+	<h6 id="gritty-skills-example-scallywags-and-skullduggery">Gritty Skills Example: Scallywags &amp; Skullduggery<a class="og-csrd-header-anchor" href="#gritty-skills-example-scallywags-and-skullduggery" title="Permalink" aria-hidden="true"></a></h6>
+	<p>In this example, the GM is preparing a gritty swashbuckling fantasy game setting called <em>Scallywags &amp; Skullduggery</em>. The GM decides PCs in this setting begin as humble sailors with just two skills, determined by randomly rolling a d20 table on a skills table. To populate the table, the GM chooses a mix of skills that are familiar to the players, adding a few nautical skills and something the players can never seem to get enough of&mdash;befriending exotic beasts and obtaining pets. The GM names each skill with some pirate flair, but is careful to define what each skill means until the players catch on to the lingo.</p>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Scallywags &amp; Skullduggery Skills</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d20</th><th scope="col">Skill</th><th scope="col">Applicable Tasks</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td>Carousing</td><td>Entertaining, gambling, playing musical instruments, singing, dancing, telling stories</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td>Crafting</td><td>Choose a trade: blacksmithing, brewing, carpentry, cooking, fishing, glassblowing, jewelrymaking, leatherworking, painting, stoneworking, or woodcarving</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3</th><td>Creature Affinity (Land)</td><td>Befriending creatures of the land</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4</th><td>Creature Affinity (Sea)</td><td>Befriending creatures of the sea</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5</th><td>Creature Affinity (Sky)</td><td>Befriending creatures of the sky</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">6</th><td>Having a Hunch</td><td>Sensing motives, seeing through deception and trickery</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">7</th><td>Hornswaggling</td><td>Lying, gaining confidence, telling tall tales</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">8</th><td>Looking Out</td><td>Initiative, using your senses, listening, seeing at a distance, recognizing sounds or voices</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">9</th><td>Lore</td><td>Physical sciences, alchemy, and celestial mechanics</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10</th><td>Patchwork</td><td>Bandaging, suturing, diagnosing and treating poisons and diseases</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">11</th><td>Occult</td><td>Understanding the supernatural, knowledge of the gods</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">12</th><td>Oratory</td><td>Inspiring others with words, commanding subordinates, and commanding authority</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">13</th><td>Rough and Tumble</td><td>Running, jumping, climbing, swimming, carrying heavy objects, and performing feats of strength</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">14</th><td>Salting</td><td>Sailing, steering, rigging sails, and tying knots</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">15</th><td>Savvy</td><td>Recalling knowledge of the archipelago, its location, history, factions, cultures, and customs</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">16</th><td>Scourging</td><td>Intimidating, frightening, leveraging your reputation, and inspirting terror</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">17</th><td>Skullduggery</td><td>Sneaking, hiding, pickpocketing, picking locks, and sabatoge</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">18</th><td>Sweet-Talking</td><td>Persuading, bargaining, charming, negotiating, and seducing</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">19</th><td>Treasure Scenting</td><td>Searching, investigating, finding and disarming traps</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">20</th><td>Wild Ken</td><td>Botany, herbalism, tracking, wilderness survival, zoology</td></tr>
+		</tbody>
+	</table>
+	<p class="og-csrd-indent">The GM also decides that while learning new languages is best put off for character advancement, he wants every PC to be able to speak at least one other language in addition to the <em>arkant</em>&mdash;a common tongue spoken across the endless archipelago&mdash;but also decides PCs should roll a d100 on a languages table, where the GM ensures some languages more common than others.</p>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Scallywags &amp; Skullduggery Languages</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d100</th><th scope="col">Language</th><th scope="col">First Speakers</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1&ndash;25</th><td>Pebbletongue</td><td>Dorfs</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">26&ndash;39</th><td>Indar</td><td>Elvs</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">40&ndash;49</th><td>Nimlish</td><td>Nomes</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">50&ndash;66</th><td>Sbeis</td><td>Herblits</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">67&ndash;69</th><td>Oowaoowah</td><td>Giants</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">70&ndash;75</th><td>Gubber</td><td>Gerblins</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">76&ndash;89</th><td>Uraxic</td><td>Urks</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">90&ndash;92</th><td>Abyssal</td><td>Demons</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">93&ndash;95</th><td>Infernal</td><td>Devils</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">96&ndash;97</th><td>Primord</td><td>Primordials</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">98&ndash;99</th><td>Sylv</td><td>Mermaids and Faeries</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">00</th><td>Elder Speech</td><td>Old Gods and Dragons</td></tr>
+		</tbody>
+	</table>
+	<h6 id="gritty-skills-example-london-2166">Gritty Skills Example: London 2166<a class="og-csrd-header-anchor" href="#gritty-skills-example-london-2166" title="Permalink" aria-hidden="true"></a></h6>
+	<p>In this example, a GM is preparing a a game set in London in the year 2166. The GM decides that PCs begin the game in a way that reflecting the setting's many inequities, with 1d6 + 1 random skills determined by rolling a from d66 table of skill groups. The GM also includes a set of "elite skills", and decides players who are not trained in these skills have an <a href="index.html#key-concepts">inability</a> with them.</p>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>A d66 table is resolved by rolling 2d6. Consult the table using the result of the first d6 result as the integer, and the result of the second d6 as a decimal place.</p>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<table class="table table-dark table-striped table-sm">
+				<caption>Language Skills</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Language Skills</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">1.1</th><td>Arabic</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.2</th><td>Dutch</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.3</th><td>Hindi</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.4</th><td>Japanese</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.5</th><td>Telugu</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.6</th><td>Ukranian</td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Street Survival Skills</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Survival Skills</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">2.1</th><td>Hustling</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.2</th><td>Mending</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.3</th><td>Parkour</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.4</th><td>Sensing</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.5</th><td>Streetsmarts</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.6</th><td>Theiving</td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Pleb Skills</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Pleb Skills</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">3.1</th><td>Busking</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.2</th><td>Day trading</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.3</th><td>Dealing</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.4</th><td>Forgery</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.5</th><td>Gaming</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.6</th><td>Off-grid living</td></tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-6">
+			<table class="table table-dark table-striped table-sm">
+				<caption>Jobber Skills</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Jobber Skills</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">4.1</th><td>Construction/Demolition</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.2</th><td>Drive (cycles)</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.3</th><td>Drive (cars)</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.4</th><td>Electronics</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.5</th><td>HVAC</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.6</th><td>Plumbing</td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Corpo Skills</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Corpo Skills</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">5.1</th><td>DroneOps</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.2</th><td>Infodump</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.3</th><td>Netrun</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.4</th><td>Pharmacokinetics</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.5</th><td>Psych</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.6</th><td>Robotics</td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Special Skills</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Elite Skills *</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">6.1</th><td>Piloting</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.2</th><td>Administration</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.3</th><td>Wetware engineering</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.4</th><td>Arms manufacturing</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.5</th><td>Artificial intelligence</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.6</th><td>Cryogenics</td></tr>
+				</tbody>
+			</table>
+			<p class="small og-csrd-indent-hang">* Elite skills represent detailed knowledge skill that probably involve special training of some kind. PCs not trained in these skills have an <a href="index.html#key-concepts">inability</a> with them.</p>
+		</div>
+	</div>
+	<h5 id="gritty-abilities">Gritty Abilities<a class="og-csrd-header-anchor" href="#gritty-abilities" title="Permalink" aria-hidden="true"></a></h5>
+	<div class="row">
+		<div class="col-lg-6">
+			<p>Using this optional rule, PCs gain abilities randomly from one or more sets of abilities determined by the GM. The GM groups abilities into tables, intentionally including abilities that represent the game's genre and setting. At character creation, PCs choose or roll an random ability from a list or table provided by the GM. The next sections the same three example settings we examined earlier in the <a href="#gritty-skills">Gritty Skills</a> section: modern military squad <em>DangerOps</em>, privateer fantasy <em>Scallywags &amp; Skullduggery,</em> and <em>London 2166</em>. While on the subject of skills, it's probably best if the abilities the GM in these examples don't provide training in skills&mdash;instead, focus on abilities that provide things that skills can't.</p>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>If a player rolls an ability from a table that they already have, the GM decides if the PC becomes trained in the ability, or rerolls for a new ability instead.</p>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="alert bg-dark ps-4">
+				<h6 class="og-csrd-header-small" id="optiona-rule-gritty-ability-costs">Optional Rule: Gritty Ability Costs<a class="og-csrd-header-anchor" href="#optiona-rule-gritty-ability-costs" title="Permalink" aria-hidden="true"></a></h6>
+				<p>If you lack the Pool points to use an ability, you can pay the remainder of the cost from your other Pools, in the same order they are depleted by any other source as described in the <a href="index.html#the-effects-of-taking-damage">The Effects of Taking Damage</a>: Might, Speed, and finally, Intellect. When you do, you observe any restrictions placed upon you by your position on the <a href="#the-damage-track">the damage track</a>.</p>
+			</div>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>When using the gritty ability use rule, encourage players to make spending from other pools part of the story. For example, a spellcaster spending from their Might pool must spend their blood or essence to cast their spells.</p>
+			</div>
+		</div>
+	</div>
+	<h6 class="og-csrd-header-small" id="gritty-abilities-example-dangerops">Gritty Abilities Example: DangerOps<a class="og-csrd-header-anchor" href="#gritty-abilities-example-dangerops" title="Permalink" aria-hidden="true"></a></h6>
+	<p>After reviewing the <a href="#gritty-skills-example-dangerops">DangerOps skills</a>, the GM creates two tables. The "Danger" table includes abiltiies that will lead each agent to develop their own combat style. Next, the GM creates the "Operations" table, which features non-combat abilities that help the agents plan and support their missions. The GM decides to allow players to choose either table whenever they roll for a new ability, allowing them to direct the advancement of the PC. The GM populates each tables with low-tier abilities that work well in a modern setting, with a few mid and high-tier abilities toward the end of each table's results.</p>
+	<div class="row">
+		<div class="col col-md-6">
+			<table class="table table-dark table-striped table-sm">
+				<caption>Danger Abiltiies</caption>
+				<thead>
+					<tr><th scope="col" class="text-center">d20</th><th scope="col">Danger Abilities</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">1</th><td><a href="index.html#ability-bash">Bash</a> <span class="og-csrd-ref">(112)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2</th><td><a href="index.html#ability-combat-prowess">Combat Prowess</a> <span class="og-csrd-ref">(120)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3</th><td><a href="index.html#ability-double-strike">Double Strike</a> <span class="og-csrd-ref">(131)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4</th><td><a href="index.html#ability-driving-on-the-edge">Driving on the Edge</a> <span class="og-csrd-ref">(132)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5</th><td><a href="index.html#ability-fists-of-fury">Fists of Fury</a> <span class="og-csrd-ref">(140)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6</th><td><a href="index.html#ability-flash">Flash</a> <span class="og-csrd-ref">(140)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">7</th><td><a href="index.html#ability-gunner">Gunner</a> <span class="og-csrd-ref">(147)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">8</th><td><a href="index.html#ability-heads-up-display">Heads-Up Display</a> <span class="og-csrd-ref">(148)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">9</th><td><a href="index.html#ability-no-need-for-weapons">No Need for Weapons</a> <span class="og-csrd-ref">(166)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">10</th><td><a href="index.html#ability-overwatch">Overwatch</a> <span class="og-csrd-ref">(168)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">11</th><td><a href="index.html#ability-precision">Precision</a> <span class="og-csrd-ref">(171)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">12</th><td><a href="index.html#ability-quick-death">Quick Death</a> <span class="og-csrd-ref">(173)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">13</th><td><a href="index.html#ability-quick-throw">Quick Throw</a> <span class="og-csrd-ref">(174)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">14</th><td><a href="index.html#ability-swipe">Swipe</a> <span class="og-csrd-ref">(188)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">15</th><td><a href="index.html#ability-unarmed-fighting-style">Unarmed Fighting Style</a> <span class="og-csrd-ref">(194)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">16</th><td><a href="index.html#ability-wrecl">Wreck</a> <span class="og-csrd-ref">(200)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">17</th><td><a href="index.html#ability-feint">Feint</a> <span class="og-csrd-ref">(139)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">18</th><td><a href="index.html#ability-rapid-attack">Rapid Attack</a> <span class="og-csrd-ref">(174)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">19</th><td><a href="index.html#ability-break-the-ranks">Break the Ranks</a> <span class="og-csrd-ref">(116)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">20</th><td><a href="index.html#ability-arc-spray">Arc Spray</a> <span class="og-csrd-ref">(110)</span></td></tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col col-md-6">
+			<table class="table table-dark table-striped table-sm">
+				<caption>Operations Abiltiies</caption>
+				<thead>
+					<tr><th scope="col" class="text-center">d20</th><th scope="col">Operations Abilities</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">1</th><td><a href="index.html#ability-beast-companion">Beast Companion</a> <span class="og-csrd-ref">(112)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2</th><td><a href="index.html#ability-cloud-personal-memories">Cloud Personal Memories</a> <span class="og-csrd-ref">(119)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3</th><td><a href="index.html#ability-decipher">Decipher</a> <span class="og-csrd-ref">(126)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4</th><td><a href="index.html#ability-eyes-adjusted">Eyes Adjusted</a> <span class="og-csrd-ref">(138)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5</th><td><a href="index.html#ability-fleet-of-foot">Fleet of Foot</a> <span class="og-csrd-ref">(141)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6</th><td><a href="index.html#ability-foil-danger">Foil Danger</a> <span class="og-csrd-ref">(142)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">7</th><td><a href="index.html#ability-fortified-position">Fortified Position</a> <span class="og-csrd-ref">(143)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">8</th><td><a href="index.html#ability-gather-intelligence">Gather Intelligence</a> <span class="og-csrd-ref">(144)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">9</th><td><a href="index.html#ability-hack-the-impossible">Hack the Impossible</a> <span class="og-csrd-ref">(147)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">10</th><td><a href="index.html#ability-healing-touch">Healing Touch</a> <span class="og-csrd-ref">(149)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">11</th><td><a href="index.html#ability-ignore-the-pain">Ignore the Pain</a> <span class="og-csrd-ref">(150)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">12</th><td><a href="index.html#ability-modify-device">Modify Device</a> <span class="og-csrd-ref">(164)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">13</th><td><a href="index.html#ability-practiced-in-armor">Practiced in Armor</a> <span class="og-csrd-ref">(171)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">14</th><td><a href="index.html#ability-range-increase">Range Increase</a> <span class="og-csrd-ref">(174)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">25</th><td><a href="#index.htmlability-rally-to-me">Rally to Me</a> <span class="og-csrd-ref">(174)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">16</th><td><a href="index.html#ability-trained-without-armor">Trained Without Armor</a> <span class="og-csrd-ref">(193)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">17</th><td><a href="index.html#ability-outwit">Outwit</a> <span class="og-csrd-ref">(168)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">18</th><td><a href="index.html#ability-strategize">Strategize</a> <span class="og-csrd-ref">(187)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">19</th><td><a href="index.html#ability-take-command">Take Command</a> <span class="og-csrd-ref">(188)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">20</th><td><a href="index.html#ability-battlefield-tactician">Battlefield Tactician</a> <span class="og-csrd-ref">(112)</span></td></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<h6 class="og-csrd-header-small" id="gritty-abilities-example-scallywags-and-skullduggery">Gritty Abilities Example: Scallywags &amp; Skullduggery <a class="og-csrd-header-anchor" href="#gritty-abilities-example-scallywags-and-skullduggery" title="Permalink" aria-hidden="true"></a></h6>
+	<p>After reviewing the <a href="#gritty-skills-example-scallywags-and-skullduggery">Scallywags &amp; Skullduggery skills</a>, the GM decides to create a single d100 table that favors swashbuckling combat, with cyphers intended to create and manage most of the game's magic, and the  driving the remainder of gameplay. The table also provides significant chance of obtaining pets and companions as the game goes on.</p>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Scallywags &amp; Skullduggery Abilities</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d100</th><th scope="col">Ability</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">01&ndash;02</th><td><a href="index.html#ability-dual-light-wield">Dual Light Wield</a> <span class="og-csrd-ref">(132)</span> (if rolled a second time, gain <a href="#ability-dual-medium-wield">Dual Medium Wield</a> <span class="og-csrd-ref">(132)</span> instead)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">03&ndash;04</th><td><a href="index.html#ability-underworld-contacts">Underworld Contacts</a> <span class="og-csrd-ref">(195)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">05&ndash;06</th><td><a href="index.html#ability-alleviate">Alleviate</a> <span class="og-csrd-ref">(109)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">07&ndash;08</th><td><a href="index.html#ability-elusive">Elusive</a> <span class="og-csrd-ref">(133)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">09&ndash;10</th><td><a href="index.html#ability-endurance">Endurance</a> <span class="og-csrd-ref">(134)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">11&ndash;12</th><td><a href="index.html#ability-fleet-of-foot">Fleet of Foot</a> <span class="og-csrd-ref">(141)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">13&ndash;14</th><td><a href="index.html#ability-frenzy">Frenzy</a> <span class="og-csrd-ref">(143)</span> (if rolled a second time, gain <a href="#ability-greater-frenzy">Greater Frenzy</a> <span class="og-csrd-ref">(146)</span> instead)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">15&ndash;16</th><td><a href="index.html#ability-good-advice">Good Advice</a> <span class="og-csrd-ref">(145)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">17&ndash;18</th><td><a href="index.html#ability-hand-to-eye">Hand to Eye</a> <span class="og-csrd-ref">(148)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">19&ndash;20</th><td><a href="index.html#ability-ignore-the-pain">Ignore the Pain</a> <span class="og-csrd-ref">(150)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">21&ndash;22</th><td><a href="index.html#ability-inspire-action">Inspire Action</a> <span class="og-csrd-ref">(154)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">23&ndash;24</th><td><a href="index.html#ability-monster-bane">Monster Bane</a> <span class="og-csrd-ref">(164)</span> (if rolled a second time, gain <a href="#ability-heroic-monster-bane">Heroic Monster Bane</a> <span class="og-csrd-ref">(149)</span> instead)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">25&ndash;26</th><td><a href="index.html#ability-pull-a-fast-one">Pull a Fast One</a> <span class="og-csrd-ref">(173)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">27&ndash;28</th><td><a href="index.html#ability-surging-confidence">Surging Confidence</a> <span class="og-csrd-ref">(188)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">29&ndash;30</th><td><a href="index.html#ability-controlled-fall">Controlled Fall</a> <span class="og-csrd-ref">(122)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">31&ndash;32</th><td><a href="index.html#ability-destined-for-greatness">Destined for Greatness</a> <span class="og-csrd-ref">(127)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">33&ndash;34</th><td><a href="index.html#ability-weaspon-master">Weapon Master</a> <span class="og-csrd-ref">(197)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">35&ndash;36</th><td><a href="index.html#ability-acrobatic-attack">Acrobatic Attack</a> <span class="og-csrd-ref">(108)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">37&ndash;38</th><td><a href="index.html#ability-answering-attack">Answering Attack</a> <span class="og-csrd-ref">(110)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">39&ndash;40</th><td><a href="index.html#ability-capable-warrior">Capable Warrior</a> <span class="og-csrd-ref">(118)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">41&ndash;42</th><td><a href="index.html#ability-draw-conclusion">Draw Conclusion</a> <span class="og-csrd-ref">(131)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">43&ndash;44</th><td><a href="index.html#ability-increasing-determination">Increasing Determination</a> <span class="og-csrd-ref">(153)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">45&ndash;46</th><td><a href="index.html#ability-obstacle-running">Obstacle Running</a> <span class="og-csrd-ref">(167)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">47&ndash;48</th><td><a href="index.html#ability-precise-cut">Precise Cut</a> <span class="og-csrd-ref">(171)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">49&ndash;50</th><td><a href="index.html#ability-seize-the-moment">Seize the Moment</a> <span class="og-csrd-ref">(181)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">51&ndash;52</th><td><a href="index.html#ability-subtle-steps">Subtle Steps</a> <span class="og-csrd-ref">(187)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">52&ndash;54</th><td><a href="index.html#ability-tough-it-out">Tough It Out</a> <span class="og-csrd-ref">(193)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">55&ndash;56</th><td><a href="index.html#ability-again-and-again">Again and Again</a> <span class="og-csrd-ref">(109)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">57&ndash;58</th><td><a href="index.html#ability-disarming-attack">Disarming Attack</a> <span class="og-csrd-ref">(129)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">59&ndash;60</th><td><a href="index.html#ability-explains-the-ineffable">Explains the Ineffable</a> <span class="og-csrd-ref">(137)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">61&ndash;62</th><td><a href="index.html#ability-free-to-move">Free to Move</a> <span class="og-csrd-ref">(143)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">63&ndash;63</th><td><a href="index.html#ability-inspire-coordinated-actions">Inspire Coordinated Actions</a> <span class="og-csrd-ref">(154)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">65&ndash;64</th><td><a href="index.html#ability-jump-attack">Jump Attack</a> <span class="og-csrd-ref">(156)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">65&ndash;66</th><td><a href="index.html#ability-share-defense">Share Defense</a> <span class="og-csrd-ref">(181)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">67&ndash;68</th><td><a href="index.html#ability-spin-attack">Spin Attack</a> <span class="og-csrd-ref">(185)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">69&ndash;70</th><td><a href="index.html#ability-will-of-legend">Will of Legend</a> <span class="og-csrd-ref">(199)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">71&ndash;80</th><td><a href="index.html#ability-critter-companion">Critter Companion</a> <span class="og-csrd-ref">(123)</span> (if rolled a second time, gain <a href="index.html#ability-beast-companion">Beast Companion</a> <span class="og-csrd-ref">(112)</span> instead; if rolled a third time, gain <a href="index.html#ability-flying-companion">Flying Companion</a> <span class="og-csrd-ref">(CTS, 53)</span> instead; if rolled a fourth time, gain <a href="index.html#ability-gain-unusual-companion">Gain Unusual Companion</a> <span class="og-csrd-ref">(144)</span> instead)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">81</th><td><a href="index.html#ability-blessing-of-the-gods">Blessing of the Gods</a> <span class="og-csrd-ref">(114)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">82</th><td><a href="index.html#ability-far-step">Far Step</a> <span class="og-csrd-ref">(138)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">83</th><td><a href="index.html#ability-healing-touch">Healing Touch</a> <span class="og-csrd-ref">(149)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">84</th><td><a href="index.html#ability-hedge-magic">Hedge Magic</a> <span class="og-csrd-ref">(149)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">85</th><td><a href="index.html#ability-impetus">Impetus</a> <span class="og-csrd-ref">(151)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">86</th><td><a href="index.html#ability-mist-cloud">Mist Cloud</a> <span class="og-csrd-ref">(CTS, 53)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">87</th><td><a href="index.html#ability-onslaught">Onslaught</a> <span class="og-csrd-ref">(167)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">88</th><td><a href="index.html#ability-ward">Ward</a> <span class="og-csrd-ref">(196)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">89</th><td><a href="index.html#ability-adaptation">Adaptation</a> <span class="og-csrd-ref">(108)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">90</th><td><a href="index.html#ability-read-the-signs">Read the Signs</a> <span class="og-csrd-ref">(174)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">91&ndash;97</th><td><a href="index.html#ability-expert-cypher-use">Expert Cypher Use</a> <span class="og-csrd-ref">(137)</span> (if rolled a second time, gain <a href="index.html#ability-adroit-cypher-use">Adroit Cypher Use</a> <span class="og-csrd-ref">(108)</span> instead; if rolled a third time, gain <a href="index.html#ability-expert-cypher-use">Expert Cypher Use</a> <span class="og-csrd-ref">(137)</span> instead; if rolled a fourth time, gain <a href="#ability-usurp-cypher">Usurp Cypher</a> <span class="og-csrd-ref">(195)</span> instead)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">98&ndash;00</th><td><a href="index.html#ability-magical-repertoire">Magical Repertoire</a> <span class="og-csrd-ref">(GF, 32)</span> (if rolled a second time, gain <a href="index.html#ability-cypher-casting">Cypher Casting</a> <span class="og-csrd-ref">(GF, 29)</span> instead, if rolled a third time, gain <a href="index.html#ability-expanded-repertoire">Expanded Repertoire</a> <span class="og-csrd-ref">(GF, 31)</span> instead; if rolled a fourth time, gain <a href="index.html#ability-maximize-cypher">Maximize Cypher</a> <span class="og-csrd-ref">(GF, 32)</span> instead)</td></tr>
+
+		</tbody>
+	</table>
+	<h6 id="gritty-abilities-example-london-2166">Gritty Abilities Example: London 2166<a class="og-csrd-header-anchor" href="#gritty-abilities-example-london-2166" title="Permalink" aria-hidden="true"></a></h6>
+	<p>After reviewing the <a href="#gritty-skills-example-london-2166">London 2166 skills</a>, the GM decides to create similar tables of abilities to roll from. The GM decides to allow players to choose which table they want to roll their abilities from. The GM is careful to add a variety of combat skills, melee and ranged attacks, stealth, cybernetic implants, netrunning, and social abilities to help drive the gameplay.</p>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>A d66 table is resolved by rolling 2d6. Consult the table using the result of the first d6 result as the integer, and the result of the second d6 as a decimal place.</p>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<table class="table table-dark table-striped table-sm">
+				<caption>Combat Abilities</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Combat Abilities</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">1.1</th><td><a href="index.html#ability-combat-challenge">Combat Challenge</a> <span class="og-csrd-ref">(120)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.2</th><td><a href="index.html#ability-damage-dealer">Damage Dealer</a> <span class="og-csrd-ref">(124)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.3</th><td><a href="index.html#ability-fists-of-fury">Fists of Fury</a> <span class="og-csrd-ref">(140)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.4</th><td><a href="index.html#ability-fast-kill">Fast Kill</a> <span class="og-csrd-ref">(138)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.5</th><td><a href="index.html#ability-increased-effects">Increased Effects</a> <span class="og-csrd-ref">(153)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">1.6</th><td><a href="index.html#ability-opportunist">Opportunist</a> <span class="og-csrd-ref">(167)</span></td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Attack Abilities</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Attack Abilities</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">2.1</th><td><a href="index.html#ability-bash">Bash</a> <span class="og-csrd-ref">(112)</span> or <a href="#ability-swipe">Swipe</a> <span class="og-csrd-ref">(188)</span> (choose one)</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.2</th><td><a href="index.html#ability-careful-shot">Careful Shot</a> <span class="og-csrd-ref">(118)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.3</th><td><a href="index.html#ability-control-the-field">Control the Field</a> <span class="og-csrd-ref">(121)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.4</th><td><a href="index.html#ability-special-shot">Special Shot</a> <span class="og-csrd-ref">(184)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.5</th><td><a href="index.html#ability-successive-attack">Successive Attack</a> <span class="og-csrd-ref">(187)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">2.6</th><td><a href="index.html#ability-trick-shot">Trick Shot</a> <span class="og-csrd-ref">(194)</span></td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Social Abilities</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Social Abilities</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">3.1</th><td><a href="index.html#ability-calm-stranger">Calm Stranger</a> <span class="og-csrd-ref">(118)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.2</th><td><a href="index.html#ability-enthrall">Enthrall</a> <span class="og-csrd-ref">(136)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.3</th><td><a href="index.html#ability-inspire-aggression">Inspire Aggression</a> <span class="og-csrd-ref">(154)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.4</th><td><a href="index.html#ability-spur-effort">Spur Effort</a> <span class="og-csrd-ref">(186)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.5</th><td><a href="index.html#ability-suggestion">Suggestion</a> <span class="og-csrd-ref">(188)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">3.6</th><td><a href="index.html#ability-stimulate">Stimulate</a> <span class="og-csrd-ref">(186)</span></td></tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-6">
+			<table class="table table-dark table-striped table-sm">
+				<caption>Subtlety Skills</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Subtlety Skills</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">4.1</th><td><a href="index.html#ability-face-morph">Face Morph</a> <span class="og-csrd-ref">(138)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.2</th><td><a href="index.html#ability-knock-out">Knock Out</a> <span class="og-csrd-ref">(156)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.3</th><td><a href="index.html#ability-mask">Mask</a> <span class="og-csrd-ref">(160)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.4</th><td><a href="index.html#ability-misdirect">Misdirect</a> <span class="og-csrd-ref">(163)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.5</th><td><a href="index.html#ability-perfect-stranger">Perfect Stranger</a> <span class="og-csrd-ref">(169)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4.6</th><td><a href="index.html#ability-vanish">Vanish</a> <span class="og-csrd-ref">(196)</span></td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Netrunning Abilities</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Netrunning Abilities</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">5.1</th><td><a href="index.html#ability-confidence-artist">Confidence Artist</a> <span class="og-csrd-ref">(121)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.2</th><td><a href="index.html#ability-datajack">Datajack</a> <span class="og-csrd-ref">(124)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.3</th><td><a href="index.html#ability-hack-the-impossible">Hack the Impossible</a> <span class="og-csrd-ref">(147)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.4</th><td><a href="index.html#ability-knowing-the-unknown">Knowing the Unknown</a> <span class="og-csrd-ref">(156)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.5</th><td><a href="index.html#ability-network-tap">Network Tap</a> <span class="og-csrd-ref">(165)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.6</th><td><a href="index.html#ability-scramble-machine">Scramble Machine</a> <span class="og-csrd-ref">(179)</span></td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Cyberware Abilities</caption>
+				<thead>
+					<tr><th scope="col" class="text-center w-25">d66</th><th scope="col">Cyberware Abilities *</th></tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="fw-normal text-center">6.1</th><td><a href="index.html#ability-enhanced-body">Enhanced Body</a> <span class="og-csrd-ref">(134)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.2</th><td><a href="index.html#ability-interface">Interface</a> <span class="og-csrd-ref">(155)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.3</th><td><a href="index.html#ability-mind-surge">Mind Surge</a> <span class="og-csrd-ref">(162)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.4</th><td><a href="index.html#ability-sensing-package">Sensing Package</a> <span class="og-csrd-ref">(181)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.5</th><td><a href="index.html#ability-weaponization">Weaponization</a> <span class="og-csrd-ref">(197)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">6.6</th><td><a href="index.html#ability-ultra-enhancement">Ultra Enhancement</a> <span class="og-csrd-ref">(194)</span></td></tr>
+				</tbody>
+			</table>
+			<p class="small og-csrd-indent-hang">* Most cyberware installations requires several hours to perform. After installation, most cyberware isn't fully functional until the PC completes a 10-hour rest.</p>
+		</div>
+	</div>
+	<h5 id="gritty-advancement">Gritty Advancement<a class="og-csrd-header-anchor" href="#gritty-advancement" title="Permalink" aria-hidden="true"></a></h5>
+	<div class="row">
+		<div class="col-lg-6">
+			<p>Using this rule, PCs no longer have a numerical tier. Instead, each time you gain a <a href="index.html#character-advancement">character advancement</a>, select one of the following options:</p>	
+			<ul class="list-unstyled">
+				<li><p><strong>Increasing Capabilities:</strong> Roll a d6 and add the results as points to your stat Pools. You can allocate the points among the Pools however you wish.</p></li>
+				<li><p><strong>Moving Toward Perfection:</strong> Choose your Might Edge, Speed Edge, or Intellect Edge and roll a d6. If the result is greater than the Edge you chose, increase that Edge by 1 (to a maximum of 6).</p></li>
+				<li><p><strong>Extra Effort:</strong> Roll a d6. If the result is greater than your Effort score, your Effort score increases by 1 (to a maximum of 6).</p></li>
+				<li><p><strong>Improved Recovery:</strong> Roll a d6. If the result is greater than the number you add to your recovery rolls, that number increases by 1 (to a maximum of 6).</p></li>
+				<li><p><strong>Abilities:</strong> Gain a new ability, as described in the <a href="#gritty-abilities">Gritty Abilities</a> section.</p></li>
+				<li><p><strong>Skills:</strong> Roll a a d20 on the gritty skill advancement table.</p></li>
+			</ul>
+		</div>
+		<div class="col-lg-6">
+			<h6 class="og-csrd-header-small" id="gritty-skill-advancement">Gritty Skill Advancement<a class="og-csrd-header-anchor" href="#gritty-skill-advancement" title="Permalink" aria-hidden="true"></a></h6>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Gritty Skill Advancement</caption>
+				<thead>
+					<tr>
+						<th class="vertical-align-bottom text-center" scope="col">d20</th>
+						<th class="vertical-align-bottom" scope="col">Skill Advancement</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td>No skill gained.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">4&ndash;16</th><td>You gain training in one skill.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">17</th><td>You gain training in two skills.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">18</th><td>You gain training in two skills. Alternatively, you can the <a href="index.html#ability-practiced-in-armor">Practiced in Armor</a> <span class="og-csrd-ref">(171)</span>. If you already have this ability, you gain the <a href="index.html#ability-experienced-in-armor">Experienced in Armor</a> <span class="og-csrd-ref">(136)</span> ability instead, and if you already have that ability, you gain the <a href="index.html#ability-mastery-in-armor">Mastery in Armor</a> <span class="og-csrd-ref">(161)</span> ability instead.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">19</th><td>You gain training in two skills. Alternatively, you gain your choice of the <a href="index.html#ability-skill-with-attacks">Skill With Attacks</a> <span class="og-csrd-ref">(183)</span> or <a href="index.html#ability-skill-with-defense">Skill With Defense</a> <span class="og-csrd-ref">(183)</span> abilities.</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">20</th><td>You gain training in two skills. Alternatively, you gain your choice of the <a href="index.html#ability-greater-skill-with-attacks">Greater Skill With Attacks</a> <span class="og-csrd-ref">(147)</span> or <a href="index.html#ability-greater-skill-with-defense">Greater Skill With Defense</a> <span class="og-csrd-ref">(147)</span> abilities.</td></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Gritty advancement means a character directs their character growth each advancement, but not every advancement takes effect. It also becomes increasingly unlikely for a PC to enhance aspects of their character they've already enhanced. The GM should take care to ensure plenty of opportunities for PCs to gain a character advancement&mdash;at least once each session is a good baseline. Characters advancing using these rules will vary a great deal!</p>
+		<p class="og-csrd-indent">These rules assume that character advancements are purchased with 4 XP, but the GM might decide character advancements are earned by other means, for example, completing quests.</p>
+	</div>
+<!--
+	<h5 id="vows">Vows<a class="og-csrd-header-anchor" href="#vows" title="Permalink" aria-hidden="true"></a></h5>
+	<p>With the GMs approval, a PC can swear two Vows: a personal vow, and a shared vow:</p>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Personal Vow:</strong> A vow works similar to a <a href="index.html#character-arcs">Character Arc</a>. The GM and player should ensure that a personal vow is something that can be addressed in the course of the game's scope and length. A character earns 1 XP whenever they progress toward a resolution of their personal vow.</p></li>
+		<li><p><strong>Shared Vow:</strong> Each PC can share an ally's Vow. When two PCs share a vow, any XP earned toward completing that vow is shared between all who have sworn that vow.</p></li>
+	</ul>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Sharing an NPC's Vow:</strong> PCs might find themselves in the position to be available to share a vow with an NPC, creature or other entity. These absences can be a good source of new stories, GM intrusion, or overdue closure that have come up in stories.</p>
+	</div>
+	<h6 class="og-csrd-header-small" id="example-vows">Example Vows<a class="og-csrd-header-anchor" href="#example-vows" title="Permalink" aria-hidden="true"></a></h6>
+	<table class="table table-dark table-striped table-sm">
+		<caption>Example Vows</caption>
+		<thead>
+			<tr><th scope="col" class="text-center">d20</th><th scope="col">Vow</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">6</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">7</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">8</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">9</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">11</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">12</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">13</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">14</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">15</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">16</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">17</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">18</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">19</th><td></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">20</th><td></td></tr>
+		</tbody>
+	</table>	
+	<h6 class="og-csrd-header-small" id="conflicting-and-breaking-vows">Conflicting and Breaking Vows<a class="og-csrd-header-anchor" href="#conflicting-and-breaking-vows" title="Permalink" aria-hidden="true"></a></h6>
+	<p>Circumstances might one day dictate that the situation throws two PCs' vows into conflict. If a vow is broken, for example, through a betrayal of principle, an unexpected defense of the opposition, a creature's loss of freedom or their life.</p>
+	<p class="og-csrd-indent">Vows allow players to push one eachother's PCs to their emotional limits, and rely on players being able to trust one another to direct the narrative on their own. Some vows might bring PCs to the bring of crossing lines they did not think they could cross. For more information and advice on safe ways to address consent issues in your game, read <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/consent-in-gaming/">Consent in Gaming</a> from Monte Cook Games.</p>
+	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Vows will work differently in a game depending on the genre, the world, and the specifics of the a broken or abandoned vow, but resuming an abandoned vow usually requires at least 1 day, and costs 1 XP.</p>
+		<p class="og-csrd-indent"><strong>GM Intrusion:</strong> If the GM determines PCs are playing fast and loose with their vows&mdash;someting that can be a valid playchoice!&mdash;a broken vow serves as a great source of GM intrusion. Unforeseen circumstances, a case of mistaken identity, or a simple mistake that tips off the wrong people might cause a PC to break a vow. A broken vow is a good source of <a href="#index.html#choose-gm-intrusion-basic">GM intrusion</a>.</p>
+	</div>
+-->
+<!--
+	<hr>
+	<h4 id="deep-magic">Deep Magic<a class="og-csrd-header-anchor" href="#deep-magic" title="Permalink" aria-hidden="true"></a></h4>
+Sources of Magic
+
+Spiritual. Borrow, bargain, contract, or channel. 
+Divine. The powers of the gods are a powerful ally to those who seek their favor, spread their word and dedicate themselves to their cause.
+Arcane. Study and mastery can accomplish much, and there is no limit to the power understanding can bring. Magic is just another thing in the world to be understood, studied, and mastered.
+Essential. Gods, dragons, and otherworldy enteties occasionally lose their way, are forced into mortality, or share union with those beneath their station. These offspring frequently share those powers, although it's not uncommon for such gifts to skip an auspicious number of generations.
+
+Spell Cyphers
+Using this optional rule, spells are treated like additional special cyphers called "spell cyphers", which are detailed in the Spell Cyphers and Reliable Spell Cyphers abilities:
+
+Spell Cyphers. The gain two additional cyphers slots, which you can spell with spell cyphers. You can gain this ability multiple times. When you complete a 10-hour recovery roll, you can prepare up to 1d6 spells, which occupy these cypher slots.
+Resilient Spell Cyphers. One of your spell cyphers no longer depletes when used. You can gain this ability multiple times.
+Reliable Spell Cypher. When you complete a 10-hour recovery roll, you can choose one of your spell cyphers. When you use that spell cypher, make a DC 4 Intelligence check. If you succeed, the spell cypher takes effet, but is not expended.
+
+Gaining Spell Cyphers
+If you have the spell cyphers ability, you can also gain the ability to gain spell cyphers. You can bear a number of spell cyphers equal to your Intellect score. Depending on the source of magic or other restrictions placed on a spell cypher, bearing it might be thought of as learning, knowing, or having been gifted a spell from any number of sources.
+
+Mentors and Teachers. 
+Gleaning Spells from Artifacts. 
+Spending XP for Spells.
+Completing Quests.
+
+d20 Spellcaster Artifact Forms
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+Spell Requirements
+Spells might require certain things. Common spell requirements include:
+Verbal. A spell with a verbal component means that the caster must be able to think thoughts and speak words in order to cast a spell. Such words are unmistakable audible to any creature within an immediate distance, but the spell. Those with especially sharp senses or that are able to sense or cast spells might have an easier time noticing any magical disturbances at up to long range.
+Somatic. A spell with a somatic component means that the caster must make special gestures. A spell's motions might require the use of one or more free hands. With an understanding of deep magic, a spell devised by generations of <a href="#fantasy-species-lizardfolk">lizardfolk</a> shaman might require specific positioning of a tail, making the spell 
+Material.
+Targeting. Spells might target the spellcaster, a creature they can touch, or a creature they can locate or otherwise sense.
+Casting Times. Powerful spells often take time to execute. The <a href="index.html#ritual-magic">Ritual Magic</a> rules might be more approptiate venue for some spells.
+Pool Costs. In addition to a spell cypher, the 
+
+Creating Spells
+Abilities. Spells might include abilities from your type, focus, and flavor that you did not choose. They might even 
+Cyphers and Artifacts. Cyphers you have found or used before, or the effects of certain artifacts might be intersting spells. A cypher spell of an ability like <a href="index.html#ability-flash">Flash</a> for a Fireball spell might include a choice of radius, with a defense rolls hindered on a smaller radius blast. The damage type will specifically be fire, with caveats that unattended nearby flammable objects and structures might ignite at the GM's discretion. 
+
+Optional Rule: Spell Depletion
+A spell can be removed from a player's mind. From the moment a spell is learned, or in response to a GM intrusion, the GM might assign a spell a depetion rating, for example, 1 in 1d20. Depletion can add additional drama to powerful spells, even depleting automatically, causing the caster to forget any useful knowledge of the spell.
+
+Assigning a spell a depletion rating is a good way to test a spell out without committing to it long-term.
+
+Example Spells
+use wanderers of the inifite skies to find cool spells - unbinding, wormhole, "meteo", so on
+-->
+	<hr>
+	<h4 id="fear">Fear<a class="og-csrd-header-anchor" href="#fear" title="Permalink" aria-hidden="true"></a></h4>
 	<p>A phobia is an overwhelming fear with an exaggerated and often unrealistic sense of danger about a object, situation, or activity. If a PC's phobia is present, the GM might hinder their tasks by one or even two steps, or enable <a href="index.html#horror-rules-horror-mode">Horror Mode</a>&mdash;especially the <a href="index.html#horror-rules-instant-panic">Instant Panic</a> module, raising the chance of a <a href="index.html#gm-intrusion">GM intrusion</a> for the PC. Phobias are quite common, and a PC's descriptor is no barrier to having one.</p>
 	<p class="og-csrd-indent">The Phobias table contains a list of phobias useful for a modern setting. In other settings, there might be entirely new and more applicable fears a PC might reasonably have, for example, the fear of elves or a particular alien species.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
@@ -3624,7 +4327,7 @@ Finding Salvation
 		<span class="og-csrd-chapter">Chapter 9</span>
 		Cyphers
 	</h3>
-	<h4 id="types-of-cyphers">Heroic Subtle Cyphers and Incidental Subtle Cyphers<a class="og-csrd-header-anchor" href="#types-of-cyphers" title="Permalink" aria-hidden="true"></a></h4>
+	<h4 id="heroic-subtle-cyphers-and-incidental-subtle-cyphers">Heroic Subtle Cyphers and Incidental Subtle Cyphers<a class="og-csrd-header-anchor" href="#heroic-subtle-cyphers-and-incidental-subtle-cyphers" title="Permalink" aria-hidden="true"></a></h4>
 	<ul class="list-unstyled og-csrd-indent">
 		<li><p><strong>Heroic subtle cyphers</strong> mimic commonly used plot devices in stories. Heroic subtle cyphers often allow success without the need for a roll, and can allow a PC to step outside their usual role and perform an unexpected feat. They are especially useful for games and settings with a sense of melodrama, from slasher horror to gritty modern spy thrillers, and romantic comedies to high-octane post-apocalyptic action and wacky space operas.</p></li>
 		<li><p><strong>Incidental subtle cyphers</strong> function similar to <a href="index.html#running-the-game-player-intrusions">player intrusions</a>, in that they can cause objects, creatures, or events to appear, as if by a stroke of luck. Because of this, a GM might occasionally refuse their use to maintain the verisimilitude  of the game. In such instances, an incidental subtle cypher is not expended. The GM might also delay the onset of an incidental subtle cypher's effects for some amount of time until it is more appropriate to the scene.</p></li>
