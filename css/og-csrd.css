@@ -358,6 +358,12 @@ ul.og-csrd-list-disc li {
 	color: #17a0a9;
 	background-color: #1f2733;
 }
+.og-csrd-edrule {
+	border-color: #17a0a9 !important;
+}
+.og-csrd-edrule h4, .og-csrd-edrule h5, .og-csrd-edrule h6 {
+	color: #17a0a9 !important;
+}
 .og-csrd-sidebar { 
 	font-style: italic;
 }

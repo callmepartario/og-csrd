@@ -57,7 +57,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Daft Drafts
 	</h1>
-	<p class="small text-center">version 0.87 (2023-07-27)</p>
+	<p class="small text-center">version 0.89 (2023-07-29)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="index.html"><abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://foundryvtt.com/packages/cyphersystem-community-module">Foundry <abbr title="Virtual Tabletop">VTT</abbr></a></li>
@@ -144,6 +144,7 @@
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>GM Notes:</strong> Information for GMs about running the game, considerations and questions you might want to address before game time.</p>
 	</div>
+	<!--
 	<p class="og-csrd-indent">Future plans for the document include:</p>
 	<ul>
 		<li>playtest and refine character options;</li>
@@ -152,6 +153,7 @@
 		<li>and expanded options for <a href="index.html#ritual-magic">ritual magic</a>; and</li>
 		<li>comission original artwork for selections of the material.</li>
 	</ul>
+	-->
 	<p class="og-csrd-indent">Thanks for reading! I hope this document helps you play a great game.</p>
 	<p class="lead">&mdash;Old Gus</p>
 	<p><strong>Contact the Author:</strong>
@@ -404,7 +406,7 @@
 			<li><a href="#descriptor-veloxi">Veloxi</a></li>
 			<li><a href="#descriptor-yloi">Yloi</a></li>
 			<li>or <a href="#descriptor-near-human">Near-Human</a></li>
-			<li>or <a href="#descriptor-create-a-new">Create A New Species</a></li>
+			<li>or <a href="#descriptor-create-a-new-species">Create A New Species</a></li>
 		</ul>
 		<h5 class="og-csrd-header-small" id="descriptors-science-fiction-glossary">Science Fiction Species Glossary<a class="og-csrd-header-anchor" href="#descriptors-science-fiction-glossary" title="Permalink" aria-hidden="true"></a></h5>
 		<ul class="list-unstyled og-csrd-indent-hang">
@@ -3461,6 +3463,9 @@
 			<li><a href="#gritty-skills">Gritty Skills</a></li>
 			<li><a href="#gritty-abilities">Gritty Abilities</a></li>
 			<li><a href="#gritty-advancement">Gritty Advancement</a></li>
+			<!--
+			<li><a href="#deep-magic">Deep Magic</a></li>
+			-->
 			<li><a href="#fear">Fear</a></li>
 		</ul>
 	</div>
@@ -3471,7 +3476,7 @@
 		Traumatized / existing arc
 	-->
 	<hr>
-	<h4 id="gritty-rules-modules">Gritty Rules Modules<a class="og-csrd-header-anchor" href="#gritty-rules-modules" title="Permalink" aria-hidden="true"></a></h4>
+	<h4 class="og-csrd-border-line" id="gritty-rules-modules">Gritty Rules Modules<a class="og-csrd-header-anchor" href="#gritty-rules-modules" title="Permalink" aria-hidden="true"></a></h4>
 	<p>These rules streamline character creation, and assume the GM is familiar with the <a href="index.html#skills">skills</a> section in <a href="index.html#chapter-4-creating-your-character">Chapter 4: Creating Your Character</a>, as well as the special abilities in <a href="index.html#chapter-9-abilities">Chapter 9: Abilities</a>. Most of these rules rely on dice to reveal a character in character creation, and develop them through advancement, similar to tabletop role-playing games like <a href="https://morkborg.com/">MÖRK BORG</a> or <a href="https://www.troikarpg.com/">Troika!</a>, by defining satisfying parameters within any number of a genres.</p>
 	<h5 id="gritty-pcs">Gritty PCs<a class="og-csrd-header-anchor" href="#gritty-pcs" title="Permalink" aria-hidden="true"></a></h5>
 	<div class="row">
@@ -3500,7 +3505,7 @@
 					</tr>
 				</tbody>
 			</table>
-			<p class="og-csrd-indent">Roll a d6 to determine the PC's pool modification:</p>
+			<p class="og-csrd-indent">Roll a d6 to determine the PC's <a href="index.html#pool">Pool</a> modification:</p>
 			<table class="table table-dark table-striped table-sm">
 				<caption>Gritty Pool Modification</caption>
 				<thead>
@@ -3586,7 +3591,7 @@
 	<h5 id="gritty-skills">Gritty Skills<a class="og-csrd-header-anchor" href="#gritty-skills" title="Permalink" aria-hidden="true"></a></h5>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>When using this rule, the GM provides a prepared list or table of skills for the game. The GM also decides how many skills PCs begin with. The specifics depend on the examples, which are explored in the two examples that follow. Bur for now, the GM should consider the following qualities that make for a great skill system:</p>
+			<p>When using this rule, the GM provides a prepared list or table of <a href="index.html#skills">skills</a> for the game. The GM also decides how many skills PCs begin with. The specifics depend on the examples, which are explored in the two examples that follow. Bur for now, the GM should consider the following qualities that make for a great skill system:</p>
 			<ul class="list-unstyled og-csrd-indent">
 				<li><p><strong>Relevance:</strong> Skills should be associated with meaningful tasks PCs will perform in the genre and setting.</p></li>
 				<li><p><strong>Organization and Presentation:</strong> Different settings and genres will require different categories and groups of skills.</p></li>
@@ -3747,8 +3752,8 @@
 				</thead>
 				<tbody>
 					<tr><th scope="row" class="fw-normal text-center">5.1</th><td>DroneOps</td></tr>
-					<tr><th scope="row" class="fw-normal text-center">5.2</th><td>Infodump</td></tr>
-					<tr><th scope="row" class="fw-normal text-center">5.3</th><td>Netrun</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.2</th><td>Infodumping</td></tr>
+					<tr><th scope="row" class="fw-normal text-center">5.3</th><td>Netrunning</td></tr>
 					<tr><th scope="row" class="fw-normal text-center">5.4</th><td>Pharmacokinetics</td></tr>
 					<tr><th scope="row" class="fw-normal text-center">5.5</th><td>Psychology</td></tr>
 					<tr><th scope="row" class="fw-normal text-center">5.6</th><td>Robotics</td></tr>
@@ -3781,11 +3786,9 @@
 		</div>
 		<div class="col-lg-6">
 			<div class="alert bg-dark ps-4">
-				<h6 class="og-csrd-header-small" id="optiona-rule-gritty-ability-costs">Optional Rule: Gritty Ability Costs<a class="og-csrd-header-anchor" href="#optiona-rule-gritty-ability-costs" title="Permalink" aria-hidden="true"></a></h6>
-				<p>If you lack the Pool points to use an ability, you can pay the remainder of the cost from your other Pools, in the same order they are depleted by any other source as described in the <a href="index.html#the-effects-of-taking-damage">The Effects of Taking Damage</a>: Might, Speed, and finally, Intellect. When you do, you observe any restrictions placed upon you by your position on the <a href="#the-damage-track">the damage track</a>.</p>
-			</div>
-			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>When using the gritty ability use rule, encourage players to make spending from other pools part of the story. For example, a spellcaster spending from their Might pool must spend their blood or essence to cast their spells.</p>
+				<h5 class="og-csrd-header-small" id="optional-rule-using-other-pools-to-pay-remainders">Optional Rule: Using Other Pools to Pay Remainders<a class="og-csrd-header-anchor" href="#optional-rule-using-other-pools-to-pay-remainders" title="Permalink" aria-hidden="true"></a></h5>
+				<p>If you lack the available Pool points to perform a task, you can pay the remainder of the cost from your other Pools, in the same order they are depleted by <a href="index.html#the-effects-of-taking-damage">taking damage</a>: Might, then Speed, and finally, Intellect. When you do, you don't change your position on the <a href="index.html#the-damage-track">the damage track</a> as a result of the expenditure until after the task is resolved.</p>
+				<p class="og-csrd-indent">For example, a wizard who is out of "mana" (Intellect points) might resort to blood sacrifice, casting spells by spending points from their Might Pool instead. A battered warrior whose Might and Speed pools are depleted might yet be able to muster a defense&mdash;or final heroic act&mdash;by mustering their willpower (Intellect points). In either case, this is a risky strategy&mdash;These PCs are both at risk of quickly moving further down the damage track.</p>
 			</div>
 		</div>
 	</div>
@@ -4014,22 +4017,21 @@
 		<div class="col-lg-6">
 			<p>Using this rule, PCs no longer have a numerical tier. Instead, each time you gain a <a href="index.html#character-advancement">character advancement</a>, select one of the following options:</p>	
 			<ul class="list-unstyled">
-				<li><p><strong>Increasing Capabilities:</strong> Roll a d6 and add the results as points to your stat Pools. You can allocate the points among the Pools however you wish.</p></li>
-				<li><p><strong>Moving Toward Perfection:</strong> Choose your Might Edge, Speed Edge, or Intellect Edge and roll a d6. If the result is greater than the Edge you chose, increase that Edge by 1 (to a maximum of 6).</p></li>
+				<li><p><strong>Abilities:</strong> Gain a new ability, as described in the <a href="#gritty-abilities">Gritty Abilities</a> section.</p></li>
 				<li><p><strong>Extra Effort:</strong> Roll a d6. If the result is greater than your Effort score, your Effort score increases by 1 (to a maximum of 6).</p></li>
 				<li><p><strong>Improved Recovery:</strong> Roll a d6. If the result is greater than the number you add to your recovery rolls, that number increases by 1 (to a maximum of 6).</p></li>
-				<li><p><strong>Abilities:</strong> Gain a new ability, as described in the <a href="#gritty-abilities">Gritty Abilities</a> section.</p></li>
+				<li><p><strong>Increasing Capabilities:</strong> Roll a d6 and add the results as points to your stat Pools. You can allocate the points among the Pools however you wish.</p></li>
+				<li><p><strong>Moving Toward Perfection:</strong> Choose your Might Edge, Speed Edge, or Intellect Edge and roll a d6. If the result is greater than the Edge you chose, increase that Edge by 1 (to a maximum of 6).</p></li>
 				<li><p><strong>Skills:</strong> Roll a a d20 on the gritty skill advancement table.</p></li>
 			</ul>
 		</div>
 		<div class="col-lg-6">
-			<h6 class="og-csrd-header-small" id="gritty-skill-advancement">Gritty Skill Advancement<a class="og-csrd-header-anchor" href="#gritty-skill-advancement" title="Permalink" aria-hidden="true"></a></h6>
 			<table class="table table-dark table-striped table-sm">
 				<caption>Gritty Skill Advancement</caption>
 				<thead>
 					<tr>
 						<th class="vertical-align-bottom text-center" scope="col">d20</th>
-						<th class="vertical-align-bottom" scope="col">Skill Advancement</th>
+						<th class="vertical-align-bottom" scope="col">Gritty Skill Advancement</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -4096,74 +4098,127 @@
 -->
 <!--
 	<hr>
-	<h4 id="deep-magic">Deep Magic<a class="og-csrd-header-anchor" href="#deep-magic" title="Permalink" aria-hidden="true"></a></h4>
-Sources of Magic
-
-Spiritual. Borrow, bargain, contract, or channel. 
-Divine. The powers of the gods are a powerful ally to those who seek their favor, spread their word and dedicate themselves to their cause.
-Arcane. Study and mastery can accomplish much, and there is no limit to the power understanding can bring. Magic is just another thing in the world to be understood, studied, and mastered.
-Essential. Gods, dragons, and otherworldy enteties occasionally lose their way, are forced into mortality, or share union with those beneath their station. These offspring frequently share those powers, although it's not uncommon for such gifts to skip an auspicious number of generations.
-
-Spell Cyphers
-Using this optional rule, spells are treated like additional special cyphers called "spell cyphers", which are detailed in the Spell Cyphers and Reliable Spell Cyphers abilities:
-
-Spell Cyphers. The gain two additional cyphers slots, which you can spell with spell cyphers. You can gain this ability multiple times. When you complete a 10-hour recovery roll, you can prepare up to 1d6 spells, which occupy these cypher slots.
-Resilient Spell Cyphers. One of your spell cyphers no longer depletes when used. You can gain this ability multiple times.
-Reliable Spell Cypher. When you complete a 10-hour recovery roll, you can choose one of your spell cyphers. When you use that spell cypher, make a DC 4 Intelligence check. If you succeed, the spell cypher takes effet, but is not expended.
-
-Gaining Spell Cyphers
-If you have the spell cyphers ability, you can also gain the ability to gain spell cyphers. You can bear a number of spell cyphers equal to your Intellect score. Depending on the source of magic or other restrictions placed on a spell cypher, bearing it might be thought of as learning, knowing, or having been gifted a spell from any number of sources.
-
-Mentors and Teachers. 
-Gleaning Spells from Artifacts. 
-Spending XP for Spells.
-Completing Quests.
-
-d20 Spellcaster Artifact Forms
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-
-Spell Requirements
-Spells might require certain things. Common spell requirements include:
-Verbal. A spell with a verbal component means that the caster must be able to think thoughts and speak words in order to cast a spell. Such words are unmistakable audible to any creature within an immediate distance, but the spell. Those with especially sharp senses or that are able to sense or cast spells might have an easier time noticing any magical disturbances at up to long range.
-Somatic. A spell with a somatic component means that the caster must make special gestures. A spell's motions might require the use of one or more free hands. With an understanding of deep magic, a spell devised by generations of <a href="#fantasy-species-lizardfolk">lizardfolk</a> shaman might require specific positioning of a tail, making the spell 
-Material.
-Targeting. Spells might target the spellcaster, a creature they can touch, or a creature they can locate or otherwise sense.
-Casting Times. Powerful spells often take time to execute. The <a href="index.html#ritual-magic">Ritual Magic</a> rules might be more approptiate venue for some spells.
-Pool Costs. In addition to a spell cypher, the 
-
-Creating Spells
-Abilities. Spells might include abilities from your type, focus, and flavor that you did not choose. They might even 
-Cyphers and Artifacts. Cyphers you have found or used before, or the effects of certain artifacts might be intersting spells. A cypher spell of an ability like <a href="index.html#ability-flash">Flash</a> for a Fireball spell might include a choice of radius, with a defense rolls hindered on a smaller radius blast. The damage type will specifically be fire, with caveats that unattended nearby flammable objects and structures might ignite at the GM's discretion. 
-
-Optional Rule: Spell Depletion
-A spell can be removed from a player's mind. From the moment a spell is learned, or in response to a GM intrusion, the GM might assign a spell a depetion rating, for example, 1 in 1d20. Depletion can add additional drama to powerful spells, even depleting automatically, causing the caster to forget any useful knowledge of the spell.
-
-Assigning a spell a depletion rating is a good way to test a spell out without committing to it long-term.
-
-Example Spells
-use wanderers of the inifite skies to find cool spells - unbinding, wormhole, "meteo", so on
+	<h4 class="og-csrd-border-line" id="deep-magic">Deep Magic<a class="og-csrd-header-anchor" href="#deep-magic" title="Permalink" aria-hidden="true"></a></h4>
+	<h5 id="deep-magic-sources-of-magic">Sources of Magic<a class="og-csrd-header-anchor" href="#deep-magic" title="Permalink" aria-hidden="true"></a></h5>
+	<p>Magic might be common or rare, but there is always a question of where magic comes from and what it is for in the purpose of a good story. A magic world might involve any number of the following sources:</p>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Arcane:</strong> Study and mastery can accomplish much, and there is no limit to the magic power that understanding can bring.</p></li>
+		<li><p><strong>Divine:</strong> The gods are alive and active. Those who dedicate themselves to a god's faith or cause might gain divine favors and boons.</p></li>
+		<li><p><strong>Essential:</strong> Gods, dragons, and otherworldy entities occasionally take a mortal shape, and share union with those from the mundane world. Offspring from such trysts share some of their forebears' powers, and the gifts frequently can lie dormant for an auspicious number of generations before reappearang again.</p></li>
+		<li><p><strong>Spiritual:</strong> There are powerful spirits in the world&mdash;elementals, faeries, or demons&mdash;who are sometimes willing to lend magic power to others. Master conjurers can even summon or compel spirits to do their bidding.</p></li>
+	</ul>
+	<div class="alert bg-dark ps-4">
+		<h5 class="og-csrd-header-small" id="deep-magic-spellcasting-example-spell-cyphers">Deep Magic Variant: Magic Do As You Will<a class="og-csrd-header-anchor" href="#deep-magic-spellcasting-example-spell-cyphers" title="Permalink" aria-hidden="true"></a></h5>
+		<p>Perhaps simplest way to handle magic is to have the player describe the effect they'd like the PC use magic to create, and then the GM assign an <a href="index.html#rules-initial-cost">Initial Cost</a>, and appropriate Intellect task for the spell to succeed. In some settings, using magic might be dangerous, and failure casting a spell might cause unexpected or undesired effects, and a <a href="index.html#gm-intrusion">GM intrusion</a> might create significant magical backlash.</p>
+	</div>
+	<h5 id="deep-magic-gaining-and-holding-magic-spells">Gaining and Holding Magic Spells<a class="og-csrd-header-anchor" href="#deep-magic-gaining-and-holding-magic-spells" title="Permalink" aria-hidden="true"></a></h5>
+	<div class="row">
+		<div class="col-lg-6">
+			<p>Depending on a PC's source of magic, how they hold it will differ. A studious wizard might hold magic through intense study, the last in the line of a family with powerful dragon blood might hold new magic by discovering more about their ancestry, a devout druid might pray to the gods to grant them the magic they must hold to serve, and an eldritch being might place an mysterious spell into their chosen one with crptic instructions that they will know when the time comes to release hold of it. There are many ways PCs might first come to hold a magic spell:</p>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Mentors and Masters:</strong> Wizards, enchanters, and the scienfitically-minded might be willing to share a reliably formulated spell or magical principle, priests develop orders and sects that dedicate themselves to different aspets of their shared god, and so on.</p></li>
+				<li><p><strong>Spells from Artifacts:</strong> Spellcasters frequently have posesssions that might include information or clues about their spellcasting. As a result, the posessions of a spellcaster can be quite valuable, especially to others with similar magical talents. Talismans of power might hold magical secrets that can be deciphered only by those with a connection to a specific source of magic.</p></li>
+				<li><p><strong>Completing Quests:</strong> The GM might allow as a reward for making discoveries or completing quests or reaching a new step in a character arc.</p></li>
+			</ul>
+		</div>
+		<div class="col-lg-6">
+			<div class="alert bg-dark ps-4">
+				<h6 id="deep-magic-holding-magic-cyphers">Setting Limits<a class="og-csrd-header-anchor" href="#deep-magic-holding-magic-cyphers" title="Permalink" aria-hidden="true"></a></h6>
+				<p>Limiting the amount of magic a PC can hold can be a good way to set expectations and ensure you're not adding too many new rules and abilities into the game.</p>
+				<ul class="list-unstyled og-csrd-indent">
+					<li><p><strong>Restrictive:</strong> You can hold a number of spells equal to your Intellect Edge.</p></li>
+					<li><p><strong>Reasonable:</strong> You can hold a number of spells equal to your Intellect Edge plus your tier.</p></li>
+					<li><p><strong>Permissive:</strong> You can hold a number of spells equal to your Intellect Pool.</p></li>
+				</ul>
+			</div>
+			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Spending 4 XP for a <a href="index.html#character-advancement">character advancement</a> is a good way for a player to express character in a PC's spellcasting, wether they are making a sacrifice to their god, performing a ritual of power, or gaining admission to a prestigious wizarding academy.</p>
+			</div>
+		</div>
+	</div>
+	<div class="alert bg-dark ps-4">
+		<h5 class="og-csrd-header-small" id="deep-magic-spellcasting-example-spell-cyphers">Deep Magic Variant: Spell Cyphers<a class="og-csrd-header-anchor" href="#deep-magic-spellcasting-example-spell-cyphers" title="Permalink" aria-hidden="true"></a></h5>
+		<p>A more complex magic system models spells subtle cyphers in a similar way to the <a href="index.html#focus-uses-wild-magic">Uses Wild Magic</a> <span class="og-csrd-ref">(GF, 32)</span> focus, except PCs choose cyphers from spells they hold:</p>
+		<ul class="og-csrd-abilities-catalog">
+			<li>
+				<p><strong>Spell Cyphers:</strong> The number of subtle cyphers you can bear at the same time increases by two. If you spend one hour preparing your magic, you can fill any of your open cypher slots with a spell you hold (this hour can be part of a one-hour or ten-hour recovery action if you are awake for the entire time). As part of this preparation process, you may discard any number of subtle cyphers you carry to make room for more subtle cyphers. Enabler.</p></li>
+			<li>
+				<p><strong>Reliable Spell Cypher:</strong> Whenever you complete a 10-hour recovery roll, choose one of your spell cyphers. When you use that spell cypher, it is not expended if you succeed on a Difficulty 4 Intelligence task. You can gain this ability multiple times. Enabler.</p>
+			</li>
+		</ul>
+		<h6 class="og-csrd-header-small" id="optional-rule-spell-depletion">Optional Rule: Spell Depletion<a class="og-csrd-header-anchor" href="#optional-rule-spell-depletion" title="Permalink" aria-hidden="true"></a></h6>
+		<p>A spell can also be removed from a PC's mind. From the moment a spell is held, or in response to a <a href="index.html#gm-intrusion">GM intrusion</a>, or the GM might assign a spell a depletion rating, similar to those of an artifact. If a spell has a depletion, it is rolled each time the spell is cast. The depletion might be automatic, or determined randomly, for example, 1 in 1d20. When a spell depletes, the spellcaster loses hold of the spell until such time they manage to regain it (if possible).</p>
+		<ul class="og-csrd-abilities-catalog">
+			<li>
+				<p><strong>Resilient Spell Cyphers:</strong> When you cast a spell, its cypher does not deplete unless it has a depletion assigned. You can gain this ability multiple times. Enabler.</p>
+			</li>
+		</ul>
+	</div>
+	<h5 id="deep-magic-creating-spells">Creating Spells<a class="og-csrd-header-anchor" href="#deep-magic-creating-spells" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-csrd-indent">
+		<li><p><strong>Abilities:</strong> Spells might include <a href="#index.html#choose-abilities">abilities</a>, or modified versions of those abilities, for example, a <em>ball lightning</em> spell might just be the <a href="index.html#ability-flash">Flash</a> ability with modified damage numbers to reflect the spell's desired power, and a replace the "explosion of energy" mentioned in the ability with a "ball of magical lightning". This is an easy approach for creating a spell, but it is hardly the most rewarding. Use the <a href="index.html#superhero-power-stunts">power stunts</a> rules to help you modify and customize abilities.</p></li>
+		<li><p><strong>Cyphers and Artifacts:</strong> Cyphers the PC has found or used before, or the effects of certain artifacts might make for intersting spells. But like artifacts, borrowing from their effects too closely&mdash;even with a static level&mdash;might start making the game too homogeneous.</p></li>
+		<li><p><strong>Something Strange:</strong> Magic is perhaps best when it is left to be a little abstract</p></li>
+	</ul>
+	<h6 id="deep-magic-spell-requirements-and-effects">Spell Requirements and Effects<a class="og-csrd-header-anchor" href="#deep-magic-spell-requirements-and-effects" title="Permalink" aria-hidden="true"></a></h6>
+	<div class="row">
+		<div class="col-lg-6">
+			<p>When defining a spell, it can be wise to think about how to define a spell's requirements and effects:</p>
+			<ul class="list-unstyled og-csrd-indent">
+				<li><p><strong>Thinking, Speaking and Moving:</strong> Casting spells requires mental concentration, and frequently involves a certain amount of freedom of movement to make gestures or motions. With an understanding of deep magic, a spell devised by generations of <a href="#fantasy-species-lizardfolk">lizardfolk</a> shaman might require specific positioning and shaking of the tail, or making motions with a spellcasting artifact. Like <a href="index.html#type-adept">Adept</a> abilities, it generally assumed that a character must be able to think, speak, and have one free hand with which to handle reagents or a spellcasting artifact.</p></li>
+				<li><p><strong>Initial Costs:</strong> As an addition to or alternative to the spell cyphers system proposed in the next section, a spell might require paying points from Pool or spending XP.</p></li>
+				<li><p><strong>Reagents:</strong> Some spells might require a specific item to cast, or substitute them through the employ of a spellcasting artifact. Certain spells even consume a required material ingredient when cast.</p></li>
+				<li><p><strong>Time:</strong> Powerful spells often take time to execute. If a spell takes longer than a minute to complete, the <a href="index.html#ritual-magic">Ritual Magic</a> rules might be more approptiate venue for certain spells.</p></li>
+				<li><p><strong>Targeting:</strong> When describing the spell effects, be sure to include requirements for selecting the target of the spell&mdash;the spellcaster, a creature they can touch, or a creature they can locate, sense, or identify within a specified range.</p></li>
+				<li><p><strong>Tasks and GM Intrusion:</strong> In some settings or due special circumstances, casting a spell might be tricky. Setting an Intellect task with an appropriate difficulty in order for a spell to succeed can provide a good source of <a href="#gm-intrusion">GM intrusion</a>. The GM might define known risks of spells ahead of time and include them in the spell's details.</p></li>
+			</ul>
+		</div>
+		<div class="col-lg-6">
+			<table class="table table-dark table-striped table-sm">
+				<caption>Spellcasting Artifacts</caption>
+				<thead>
+					<tr>
+						<th class="vertical-align-bottom text-center" scope="col">d20</th>
+						<th class="vertical-align-bottom" scope="col">Spellcasting Artifacts</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th scope="row" class="text-center fw-normal">1</th><td>Amulet</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">2</th><td>Bone</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">3</th><td>Cloak</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">4</th><td>Dagger</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">5</th><td>Diadem</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">6</th><td>Figurine</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">7</th><td>Gem</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">8</th><td>Mask</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">9</th><td>Musical instrument</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">10</th><td>Orb</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">11</th><td>Paintbrush</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">12</th><td>Ring</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">13</th><td>Rod</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">14</th><td>Scepter</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">15</th><td>Skull</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">16</th><td>Staff</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">17</th><td>Symbol</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">18</th><td>Talisman</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">19</th><td>Tome</td></tr>
+					<tr><th scope="row" class="text-center fw-normal">20</th><td>Wand</td></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<h5 id="deep-magic-example-spells">Example Spells<a class="og-csrd-header-anchor" href="#deep-magic-example-spells" title="Permalink" aria-hidden="true"></a></h5>
+	<p></p>
+	<h6 class="og-csrd-header-small" id="deep-magic-example-spell">Example Spell<a class="og-csrd-header-anchor" href="#deep-magic-example-spell" title="Permalink" aria-hidden="true"></a></h6>
+	<ul class="list-unstyled og-csrd-indent-hang">
+		<li><p><strong>Requirements:</strong> </p></li>
+		<li><p><strong>Initial Cost:</strong> </p></li>
+		<li><p><strong>Effects:</strong> </p></li>
+		<li><p><strong>Depletion:</strong> &mdash;</p></li>
+	</ul>
 -->
 	<hr>
-	<h4 id="fear">Fear<a class="og-csrd-header-anchor" href="#fear" title="Permalink" aria-hidden="true"></a></h4>
+	<h4 class="og-csrd-border-line" id="fear">Fear<a class="og-csrd-header-anchor" href="#fear" title="Permalink" aria-hidden="true"></a></h4>
 	<p>A phobia is an overwhelming fear with an exaggerated and often unrealistic sense of danger about a object, situation, or activity. If a PC's phobia is present, the GM might hinder their tasks by one or even two steps, or enable <a href="index.html#horror-rules-horror-mode">Horror Mode</a>&mdash;especially the <a href="index.html#horror-rules-instant-panic">Instant Panic</a> module, raising the chance of a <a href="index.html#gm-intrusion">GM intrusion</a> for the PC. Phobias are quite common, and a PC's descriptor is no barrier to having one.</p>
 	<p class="og-csrd-indent">The Phobias table contains a list of phobias useful for a modern setting. In other settings, there might be entirely new and more applicable fears a PC might reasonably have, for example, the fear of elves or a particular alien species.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
@@ -5825,13 +5880,14 @@ Finding Salvation
 		<span class="og-csrd-chapter">Part 3</span>
 		Running the Game
 	</h2>
-	<h3 id="chapter-10-decisive-vehicular-combat">
+	<h3 id="chapter-10-optional-rules">
 		<span class="og-csrd-chapter">Chapter 10</span>
-		Decisive Vehicular Combat
+		Optional Rules
 	</h3>
+	<h4 class="og-csrd-border-line" id="decisive-vehicular-combat">Decisive Vehicular Combat<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat" title="Permalink" aria-hidden="true"></a></h4>
 	<p>If the GM chooses, decisive vehicular combat begins when two opposing vehicles are close enough to one another to cause damage to one another.</p>
 	<div class="alert bg-dark ps-4">
-		<h4 class="og-csrd-header-small" id="decisive-vehicular-combat-glossary">Decisive Vehicular Combat Glossary<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-glossary" title="Permalink" aria-hidden="true"></a></h4>
+		<h5 class="og-csrd-header-small" id="decisive-vehicular-combat-glossary">Decisive Vehicular Combat Glossary<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-glossary" title="Permalink" aria-hidden="true"></a></h5>
 		<ul class="list-unstyled">
 			<li><p><strong>CREW:</strong> Anyone on a vehicle in operation of some part of it.</p></li>
 			<li><p><strong>HELM:</strong> The location (and individual) responsible for controlling the ship's orientation and movement. Leaving a lack of someone at the helm of a vehicle in motion is unwise: colliding with objects in structures might eventually becomes inevitable.</p></li>
@@ -5842,8 +5898,7 @@ Finding Salvation
 			<li><p><strong>WEAPON STATION:</strong> A weapon station might be operated by manually operating a gun-turret on top of a jeep, a cannon on a sailing vessel, or a full-body gyroscopic interface on a spaceship. The <a href="index.html#choose-science-fiction-vehicles">Modern and Science Fiction Vehicles</a> in the CSRD include several examples of weapon stations.</p></li>
 		</ul>
 	</div>
-	<hr>
-	<h4 id="decisive-vehicular-tactical-tasks">Tactical Tasks<a class="og-csrd-header-anchor" href="#decisive-vehicular-tactical-tasks" title="Permalink" aria-hidden="true"></a></h4>
+	<h5 id="decisive-vehicular-tactical-tasks">Tactical Tasks<a class="og-csrd-header-anchor" href="#decisive-vehicular-tactical-tasks" title="Permalink" aria-hidden="true"></a></h5>
 	<p>At the start of each round of decisive vehicular combat, one or more PCs decide on the vehicle's tactical task, which determines the vehicles direction, orientation, and purpose of movement. The outcome of the tactical task determines what other actions are possible, and also modifies their difficulty. A vehicle's tactical task might be decided upon by a concensus among the PCs, or a PC giving orders to a crew, or left to the PC driving or piloting the vehicle.</p>
 	<p class="og-csrd-indent">For each tactical task, helm performs a driving, piloting, task&mdash;at a baseline, the difficulty of which equals the level of the enemy ship. Depending on the type of vehicle, one or more others who can operate the vehicle's propulsion might be able to help or provide an asset.</p>
 	<h5 id="decisive-vehicular-combat-engage">Engage<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-engage" title="Permalink" aria-hidden="true"></a></h5>
@@ -5852,21 +5907,21 @@ Finding Salvation
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>GM Intrusion:</strong> A miscalculation causes the enemy to have you right where they want you.</p>
 	</div>
-	<h5 id="decisive-vehicular-combat-outmaneuver">Outmaneuver<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-outmaneuver" title="Permalink" aria-hidden="true"></a></h5>
+	<h6 class="og-csrd-header-small" id="decisive-vehicular-combat-outmaneuver">Outmaneuver<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-outmaneuver" title="Permalink" aria-hidden="true"></a></h6>
 	<p>On a success, .</p>
 	<p>On a failure, .</p>
 	<p>When your ship's crew outmaneuvers your opponent to put them in a bad position, roll +Speed. On a hit, you get your enemy right where you want them; describe the opportunity you've opened up. On a 7-9, the opportunity is short-lived; the Fates will tell you what it takes to seize it. On a miss, your enemy pins you down instead; !ght your way out or surrender.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>GM Intrusion:</strong> The helm attempts to position the ship in an advantageous position. On a success, your attacks gain an asset for the round.</p>
 	</div>
-	<h5 id="decisive-vehicular-combat-escape">Escape<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-escape" title="Permalink" aria-hidden="true"></a></h5>
+	<h6 class="og-csrd-header-small" id="decisive-vehicular-combat-escape">Escape<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-escape" title="Permalink" aria-hidden="true"></a></h6>
 	<p>On a success, .</p>
 	<p>On a failure, .</p>
 	<p>The ship attempts to flee the opponent. On a hit, you get away; choose 1. On a 7-9, it's by the skin of your teeth; the Fates choose 1 as well. On a miss, the Fates will tell you the terrible sacri!ce you must pay to escape. Pay it or be caught.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>GM Intrusion:</strong> </p>
 	</div>
-	<h5 id="decisive-vehicular-combat-surrender">Surrender<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-surrender" title="Permalink" aria-hidden="true"></a></h5>
+	<h6 class="og-csrd-header-small" id="decisive-vehicular-combat-surrender">Surrender<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-surrender" title="Permalink" aria-hidden="true"></a></h6>
 	<p>On a success, .</p>
 	<p>On a failure, .</p>
 	<p>When your ship's crew waves the white flag and surrenders to another ship to cut losses, roll +Fortune. On a hit, you've convinced them to spare you. On a 7-9, they do some damage as they board; choose what beloved feature of your ship doesn't survive. On a 10+, they're sympathetic; take +1 forward to parleying with them as they board you. On a miss, your pleas fall on deaf ears; they show you true cruelty as they claim their prize.</p>
@@ -5874,14 +5929,42 @@ Finding Salvation
 		<p><strong>GM Intrusion:</strong> </p>
 	</div>
 	<div class="alert bg-dark ps-4">
-		<h4 class="og-csrd-header-small" id="decisive-vehicular-combat-navigation">Decisive Navigation<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-navigation" title="Permalink" aria-hidden="true"></a></h4>
+		<h5 class="og-csrd-header-small" id="decisive-vehicular-combat-navigation">Decisive Navigation<a class="og-csrd-header-anchor" href="#decisive-vehicular-combat-navigation" title="Permalink" aria-hidden="true"></a></h5>
 		<p>When your ship's crew navigates toward a difficult or new destination, the navigator rolls +Spitfire. On a 10+, you get there without trouble; the crew takes a downtime during the journey, and the Fates will tell you what strange sights you see on the way. On a 7-9, you encounter trouble on the journey and must contend with it before reaching your destination. On a miss, you face serious trouble that leaves you hopelessly lost.</p>
 	</div>
 	<hr>
-	<h3 id="chapter-11-collaborative-spellcasting-and-ritual-magic">
-		<span class="og-csrd-chapter">Chapter 11</span>
-		Collaborative Spellcasting and Ritual Magic
-	</h3>
+	<h4 class="og-csrd-border-line" id="gritty-rules-modules">Mechs<a class="og-csrd-header-anchor" href="#gritty-rules-modules" title="Permalink" aria-hidden="true"></a></h4>
+	Creature Classes
+	Assumes that any pilot's best hope against a mech is probably to try to survive the encounter rather than defeat their opponent. This could be due to material construction, size, or weapon potency essentially being at least an order of magnitude higher in level. To keep things simple, the GM will frequently separate the modes of play.
+	Transformation artifacts
+	Mofifications
+	Example Modifications
+	1 Light melee weapon
+	2 Light melee weapon
+	3 Medium melee weapon
+	4 Medium ranged weapon
+	5 Heavy melee weapon
+	6 Heavy ranged weapon
+	7 Light Armor
+	8 Medium Armor
+	9 Heavy Armor
+	10
+	11
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20 Self-piloting AI (<a href="robots-and-ai-shipmind">Shipmind</a>)
+	Power Shifts
+	At a cost of 3 intellect the pilot can summon and of Power Shift for the mech. The amount of time the mech takes to arrive is determined by the GM, but this is usually within 1 minute. Once, the mech is not usable again until the GM says so.
+	A customized mech typically allows the pilot's to use any of their abilities through its frame. Mechs might also be customized with abilities the pilot can only use while inside the active frame.
+	Upgrading mechs might happen automatically each tier, or require an investment of materials, time, and XP.
+-->
+<!--
 	<hr>
 	<h3 id="chapter-12-creatures">
 		<span class="og-csrd-chapter">Chapter 12</span>
@@ -5913,8 +5996,9 @@ Finding Salvation
 	Swamp Womp
 	Veridian Stalker
 	Temporal Wraith
-	<hr>
 </div>
+<hr>
+
 -->
 <div class="text-center pt-3 pb-3">
 	<p class="text-center">Copyright &copy; 2023, <a href="mailto:partario.flynn@gmail.com">partario.flynn@gmail.com</a></p>
