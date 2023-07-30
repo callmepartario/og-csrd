@@ -57,7 +57,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Daft Drafts
 	</h1>
-	<p class="small text-center">version 0.89 (2023-07-29)</p>
+	<p class="small text-center">version 0.90 (2023-07-30)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="index.html"><abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://foundryvtt.com/packages/cyphersystem-community-module">Foundry <abbr title="Virtual Tabletop">VTT</abbr></a></li>
@@ -3543,46 +3543,46 @@
 			<div class="alert bg-dark ps-4">
 				<h6 class="og-csrd-header-small" id="gritty-optional-add-a-weakness">Optional: Add a Weakness<a class="og-csrd-header-anchor" href="#gritty-optional-add-a-weakness" title="Permalink" aria-hidden="true"></a></h6>
 				<p>Essentially, weakness is negative Edge. If you have a weakness of 1 in Speed, all Speed actions that require you to spend points cost 1 additional point from your Pool. When using this optional rule, PCs roll a d6 on a weakness table, which corresponds to their Edge modification: Strong, Swift, or Cunning.</p>
+				<table class="table table-dark table-striped table-sm">
+					<caption>Gritty Weaknesses &mdash; Strong</caption>
+					<thead>
+						<tr>
+							<th class="vertical-align-bottom text-center" scope="col">d6</th>
+							<th class="vertical-align-bottom" scope="col">Strong Weakness Modification</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td><strong>Laborious.</strong> Your Speed Edge is &minus;1.</td></tr>
+						<tr><th scope="row" class="text-center fw-normal">4&ndash;6</th><td><strong>Unreliable.</strong> Your Intellect Edge is &minus;1.</td></tr>
+					</tbody>
+				</table>
+				<table class="table table-dark table-striped table-sm">
+					<caption>Gritty Weaknesses &mdash; Swift</caption>
+					<thead>
+						<tr>
+							<th class="vertical-align-bottom text-center" scope="col">d6</th>
+							<th class="vertical-align-bottom" scope="col">Swift Weakness Modification</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td><strong>Spindly.</strong> Your Might Edge is &minus;1.</td></tr>
+						<tr><th scope="row" class="text-center fw-normal">4&ndash;6</th><td><strong>Impulsive.</strong> Your Intellect Edge is &minus;1.</td></tr>
+					</tbody>
+				</table>
+				<table class="table table-dark table-striped table-sm">
+					<caption>Gritty Weaknesses &mdash; Cunning</caption>
+					<thead>
+						<tr>
+							<th class="vertical-align-bottom text-center" scope="col">d6</th>
+							<th class="vertical-align-bottom" scope="col">Cunning Weakness Modification</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td><strong>Pampered.</strong> Your Might Edge is &minus;1.</td></tr>
+						<tr><th scope="row" class="text-center fw-normal">4&ndash;6</th><td><strong>Sluggish.</strong> Your Speed Edge is &minus;1.</td></tr>
+					</tbody>
+				</table>
 			</div>
-			<table class="table table-dark table-striped table-sm">
-				<caption>Gritty Weaknesses &mdash; Strong</caption>
-				<thead>
-					<tr>
-						<th class="vertical-align-bottom text-center" scope="col">d6</th>
-						<th class="vertical-align-bottom" scope="col">Strong Weakness Modification</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td><strong>Laborious.</strong> Your Speed Edge is &minus;1.</td></tr>
-					<tr><th scope="row" class="text-center fw-normal">4&ndash;6</th><td><strong>Unreliable.</strong> Your Intellect Edge is &minus;1.</td></tr>
-				</tbody>
-			</table>
-			<table class="table table-dark table-striped table-sm">
-				<caption>Gritty Weaknesses &mdash; Swift</caption>
-				<thead>
-					<tr>
-						<th class="vertical-align-bottom text-center" scope="col">d6</th>
-						<th class="vertical-align-bottom" scope="col">Swift Weakness Modification</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td><strong>Spindly.</strong> Your Might Edge is &minus;1.</td></tr>
-					<tr><th scope="row" class="text-center fw-normal">4&ndash;6</th><td><strong>Impulsive.</strong> Your Intellect Edge is &minus;1.</td></tr>
-				</tbody>
-			</table>
-			<table class="table table-dark table-striped table-sm">
-				<caption>Gritty Weaknesses &mdash; Cunning</caption>
-				<thead>
-					<tr>
-						<th class="vertical-align-bottom text-center" scope="col">d6</th>
-						<th class="vertical-align-bottom" scope="col">Cunning Weakness Modification</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr><th scope="row" class="text-center fw-normal">1&ndash;3</th><td><strong>Pampered.</strong> Your Might Edge is &minus;1.</td></tr>
-					<tr><th scope="row" class="text-center fw-normal">4&ndash;6</th><td><strong>Sluggish.</strong> Your Speed Edge is &minus;1.</td></tr>
-				</tbody>
-			</table>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>The combination of Pool modifications, Edge modifications, and Weakness might begin to suggest something about the PC's species, personality, or other relationship to the setting. However, it might be wise to wait until a PC's skills and abilities are determined.</p>
 			</div>
@@ -3596,8 +3596,10 @@
 				<li><p><strong>Relevance:</strong> Skills should be associated with meaningful tasks PCs will perform in the genre and setting.</p></li>
 				<li><p><strong>Organization and Presentation:</strong> Different settings and genres will require different categories and groups of skills.</p></li>
 				<li><p><strong>Determine Rarity:</strong> Appropriately determine scarcity or rarity for randomly determined skills (including languages).</p></li>
-				<li><p><strong>Revisit Lists and Tables:</strong> As games progress, players might make good suggestions for additions to the skill list that will improve the game. Alternatively, the PCs might make discoveries or forge bonds with others that make new skills or abilities available from an entirely new table.</p></li>
 			</ul>
+		</div>
+		<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+			<p>As games progress, players might make good suggestions for alterations or additions to the skill list that will improve the game. Alternatively, the PCs might make discoveries or forge bonds with others that provide new skills from an entirely new table.</p>
 		</div>
 		<div class="col-lg-6">
 			<div class="alert bg-dark ps-4">
@@ -3629,10 +3631,10 @@
 			<tr><th scope="row" class="fw-normal text-center">10</th><td>Vehicle operations</td><td>Driving, piloting</td></tr>
 		</tbody>
 	</table>
-	<h6 id="gritty-skills-example-scallywags-and-skullduggery">Gritty Skills Example: Scallywags &amp; Skullduggery<a class="og-csrd-header-anchor" href="#gritty-skills-example-scallywags-and-skullduggery" title="Permalink" aria-hidden="true"></a></h6>
-	<p>In this example, the GM is preparing a gritty swashbuckling fantasy game setting called <em>Scallywags &amp; Skullduggery</em>. The GM decides PCs in this setting begin as humble sailors with just two skills, determined by randomly rolling a d20 table on a skills table. To populate the table, the GM chooses a mix of skills that are familiar to the players, adding a few nautical skills and something the players can never seem to get enough of&mdash;befriending exotic beasts and obtaining pets. The GM names each skill with some pirate flair, but is careful to define what each skill means until the players catch on to the lingo.</p>
+	<h6 id="gritty-skills-example-scalawags-and-skullduggery">Gritty Skills Example: Scalawags &amp; Skullduggery<a class="og-csrd-header-anchor" href="#gritty-skills-example-scalawags-and-skullduggery" title="Permalink" aria-hidden="true"></a></h6>
+	<p>In this example, the GM is preparing a gritty swashbuckling fantasy game setting called <em>Scalawags &amp; Skullduggery</em>. The GM decides PCs in this setting begin as humble sailors with just two skills, determined by randomly rolling a d20 table on a skills table. To populate the table, the GM chooses a mix of skills that are familiar to the players, adding a few nautical skills and something the players can never seem to get enough of&mdash;befriending exotic beasts and obtaining pets. The GM names each skill with some pirate flair, but is careful to define what each skill means until the players catch on to the lingo.</p>
 	<table class="table table-dark table-striped table-sm">
-		<caption>Scallywags &amp; Skullduggery Skills</caption>
+		<caption>Scalawags &amp; Skullduggery Skills</caption>
 		<thead>
 			<tr><th scope="col" class="text-center">d20</th><th scope="col" class="w-25">Skill</th><th scope="col">Applicable Tasks</th></tr>
 		</thead>
@@ -3661,7 +3663,7 @@
 	</table>
 	<p class="og-csrd-indent">The GM also decides that while learning new languages is best put off for character advancement, he wants every PC to be able to speak at least one other language in addition to the <em>arkant</em>&mdash;a common tongue spoken across the endless archipelago&mdash;but also decides PCs should roll a d100 on a languages table, where the GM ensures some languages more common than others.</p>
 	<table class="table table-dark table-striped table-sm">
-		<caption>Scallywags &amp; Skullduggery Languages</caption>
+		<caption>Scalawags &amp; Skullduggery Languages</caption>
 		<thead>
 			<tr><th scope="col" class="text-center">d100</th><th scope="col">Language</th><th scope="col">First Speakers</th></tr>
 		</thead>
@@ -3779,9 +3781,10 @@
 	<h5 id="gritty-abilities">Gritty Abilities<a class="og-csrd-header-anchor" href="#gritty-abilities" title="Permalink" aria-hidden="true"></a></h5>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>Using this optional rule, PCs gain abilities randomly from one or more sets of abilities determined by the GM. The GM groups abilities into tables, intentionally including abilities that represent the game's genre and setting. At character creation, PCs choose or roll a random ability from a list or table provided by the GM. The next sections the same three example settings we examined earlier in the <a href="#gritty-skills">Gritty Skills</a> section: modern military squad <em>DangerOps</em>, privateer fantasy <em>Scallywags &amp; Skullduggery,</em> and <em>London 2166</em>. It's probably best if the abilities the GM in these examples don't provide training in skills&mdash;instead, focus on abilities that provide things that skills can't.</p>
+			<p>Using this optional rule, PCs gain abilities randomly from one or more sets of abilities determined by the GM. The GM groups abilities into tables, intentionally including abilities that represent the game's genre and setting. At character creation, PCs choose or roll a random ability from a list or table provided by the GM. The next sections the same three example settings we examined earlier in the <a href="#gritty-skills">Gritty Skills</a> section: modern military squad <em>DangerOps</em>, privateer fantasy <em>Scalawags &amp; Skullduggery,</em> and <em>London 2166</em>. It's probably best if the abilities the GM in these examples don't provide training in skills&mdash;instead, focus on abilities that provide things that skills can't.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>If a player rolls an ability from a table that they already have, the GM decides if the PC becomes trained in the ability, or rerolls for a new ability instead.</p>
+				<p class="og-csrd-indent">As games progress, players might make good suggestions for alterations or abilities list that will improve the game. Alternatively, the PCs might make discoveries or forge bonds with others that provide new abilities from an entirely new table.</p>
 			</div>
 		</div>
 		<div class="col-lg-6">
@@ -3856,10 +3859,10 @@
 			</table>
 		</div>
 	</div>
-	<h6 class="og-csrd-header-small" id="gritty-abilities-example-scallywags-and-skullduggery">Gritty Abilities Example: Scallywags &amp; Skullduggery <a class="og-csrd-header-anchor" href="#gritty-abilities-example-scallywags-and-skullduggery" title="Permalink" aria-hidden="true"></a></h6>
-	<p>After reviewing the <a href="#gritty-skills-example-scallywags-and-skullduggery">Scallywags &amp; Skullduggery skills</a>, the GM decides to create a single d100 table that favors swashbuckling combat, with cyphers intended to create and manage most of the game's magic, and the  driving the remainder of gameplay. The table also provides significant chance of obtaining pets and companions as the game goes on.</p>
+	<h6 class="og-csrd-header-small" id="gritty-abilities-example-scalawags-and-skullduggery">Gritty Abilities Example: Scalawags &amp; Skullduggery <a class="og-csrd-header-anchor" href="#gritty-abilities-example-scalawags-and-skullduggery" title="Permalink" aria-hidden="true"></a></h6>
+	<p>After reviewing the <a href="#gritty-skills-example-scalawags-and-skullduggery">Scalawags &amp; Skullduggery skills</a>, the GM decides to create a single d100 table that favors swashbuckling combat, with cyphers intended to create and manage most of the game's magic, and the  driving the remainder of gameplay. The table also provides significant chance of obtaining pets and companions as the game goes on.</p>
 	<table class="table table-dark table-striped table-sm">
-		<caption>Scallywags &amp; Skullduggery Abilities</caption>
+		<caption>Scalawags &amp; Skullduggery Abilities</caption>
 		<thead>
 			<tr><th scope="col" class="text-center">d100</th><th scope="col">Ability</th></tr>
 		</thead>
