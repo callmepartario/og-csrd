@@ -102,7 +102,7 @@
 		OG-CSRD
 		<span class="og-csrd-chapter">Old Gus' Cypher System Reference Document</span>
 	</h1>
-	<p class="small text-center">version 1.32g (2023-08-02)</p>
+	<p class="small text-center">version 1.32h (2023-08-03)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Player's Guide: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSPG</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Cypher Decks: <abbr title="Old Gus' Cypher Decks">OG-CD</abbr></a></li>
@@ -336,6 +336,7 @@
 				<th class="vertical-align-bottom text-center" scope="col">Task Difficulty</th>
 				<th class="vertical-align-bottom" scope="col">Description</th>
 				<th class="vertical-align-bottom text-center" scope="col">Target Number</th>
+				<th class="vertical-align-bottom text-center" scope="col">Task Success Rate</th>
 				<th class="vertical-align-bottom" scope="col">Guidance</th>
 			</tr>
 		</thead>
@@ -343,71 +344,85 @@
 			<tr>
 				<th class="text-center fw-normal" scope="row">0</th>
 				<td class="">Routine</td>
-				<td class="text-center">(0)</td>
+				<td class="text-center">0</td>
+				<td class="text-center">100%</td>
 				<td class="">Anyone can do this basically every time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">1</th>
 				<td class="">Simple</td>
-				<td class="text-center">(3)</td>
+				<td class="text-center">3</td>
+				<td class="text-center">90%</td>
 				<td class="">Most people can do this most of the time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">2</th>
 				<td class="">Standard</td>
-				<td class="text-center">(6)</td>
+				<td class="text-center">6</td>
+				<td class="text-center">75%</td>
 				<td class="">Typical task requiring focus, but most people can usually do this.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">3</th>
 				<td class="">Demanding</td>
-				<td class="text-center">(9)</td>
+				<td class="text-center">9</td>
+				<td class="text-center">60%</td>
 				<td class="">Requires full attention; most people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">4</th>
 				<td class="">Difficult</td>
-				<td class="text-center">(12)</td>
+				<td class="text-center">12</td>
+				<td class="text-center">45%</td>
 				<td class="">Trained people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">5</th>
 				<td class="">Challenging</td>
-				<td class="text-center">(15)</td>
+				<td class="text-center">15</td>
+				<td class="text-center">30%</td>
 				<td class="">Even trained people often fail.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">6</th>
 				<td class="">Intimidating</td>
-				<td class="text-center">(18)</td>
+				<td class="text-center">18</td>
+				<td class="text-center">15%</td>
 				<td class="">Normal people almost never succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">7</th>
 				<td class="">Formidable</td>
-				<td class="text-center">(21)</td>
+				<td class="text-center">21</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">Impossible without skills or great effort.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">8</th>
 				<td class="">Heroic</td>
-				<td class="text-center">(24)</td>
+				<td class="text-center">24</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">A task worthy of tales told for years afterward.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">9</th>
 				<td class="">Immortal</td>
-				<td class="text-center">(27)</td>
+				<td class="text-center">27</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">A task worthy of legends that last lifetimes.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">10</th>
 				<td class="">Impossible</td>
-				<td class="text-center">(30)</td>
+				<td class="text-center">30</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">A task that normal humans couldn't consider (but one that doesn't break the laws of physics).</td>
 			</tr>
 		</tbody>
 	</table>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Editor's Notes</strong> &mdash; This table has been amended by the editor to include task success rates as a percentage.</p>
+	</div>
 	<hr>
 	<h4 id="how-to-play-combat">Combat<a class="og-csrd-header-anchor" href="#how-to-play-combat" title="Permalink" aria-hidden="true"></a></h4>
 	<p>Making an <a href="#action-attack">attack</a> in combat works the same way as any other roll: the GM assigns a difficulty to the task, and you roll a d20 against the associated target number.</p>
@@ -837,7 +852,7 @@
 		<thead>
 			<tr>
 				<th scope="col">Skill Level</th>
-				<th scope="col" class="text-center">Task Difficulty Modification</th>
+				<th scope="col">Task Difficulty</th>
 				<th scope="col" class="text-center">Target Number Modification</th>
 				<th scope="col" class="text-center">Task Success Rate</th>
 			</tr>
@@ -845,26 +860,26 @@
 		<tbody>
 			<tr>
 				<th scope="row" class="fw-normal">Inability</th>
-				<td class="text-center">+1</td>
-				<td class="text-center">(+3)</td>
+				<td>hindered by one step</td>
+				<td class="text-center">+3</td>
 				<td class="text-center">&minus;15%</td>
 			</tr>
 			<tr>
 				<th scope="row" class="fw-normal">Practiced</th>
-				<td class="text-center">0</td>
-				<td class="text-center">(0)</td>
+				<td>&mdash;</td>
+				<td class="text-center">&mdash;</td>
 				<td class="text-center">&mdash;</td>
 			</tr>
 			<tr>
 				<th scope="row" class="fw-normal">Trained</th>
-				<td class="text-center">&minus;1</td>
-				<td class="text-center">(&minus;3)</td>
+				<td>eased by one step</td>
+				<td class="text-center">&minus;3</td>
 				<td class="text-center">+15%</td>
 			</tr>
 			<tr>
 				<th scope="row" class="fw-normal">Specialized</th>
-				<td class="text-center">&minus;2</td>
-				<td class="text-center">(&minus;6)</td>
+				<td>eased by two steps</td>
+				<td class="text-center">&minus;6</td>
 				<td class="text-center">+30%</td>
 			</tr>
 		</tbody>
@@ -2567,14 +2582,14 @@
 			<li><a href="#post-apocalyptic-species-morlock">Morlock</a> <span class="og-csrd-ref">(300)</span></li>
 			<li><a href="#post-apocalyptic-species-roach">Roach</a> <span class="og-csrd-ref">(301)</span></li>
 		</ul>
+		<p class="small og-csrd-indent-hang">&dagger; denotes a descriptor not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
 	</div>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>Your descriptor matters most when you are a beginning character. The benefits (and perhaps drawbacks) that come from your descriptor will eventually be overshadowed by the growing importance of your type and focus. However, the influence of your descriptor will remain at least somewhat important throughout your character's life.</p>
 		<p class="og-csrd-indent">Descriptors like <a href="#descriptor-craven">Craven</a>, <a href="#descriptor-cruel">Cruel</a>, and <a href="#descriptor-dishonorable">Dishonorable</a> might not be appropriate for every group. These are villainous traits and some people want their PCs to be entirely heroic. But others don't mind a little moral greyness thrown into the mix. Still others see things like Craven and Cruel as traits to overcome as their characters develop (probably earning them different descriptors).</p>
 	</div>
 	<div class="og-csrd-ednote bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p><strong>Editor's Notes</strong> &mdash; † denotes a descriptor not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>, but that has been added to the CSRD.</p>
-		<p class="og-csrd-indent">People change, especially in response to significant life experiences. The <a href="#character-arcs">Character Arcs</a> section in <a href="#chapter-12-experience-points">Chapter 12: Experience Points</a> provide a way for characters to turn over a new leaf and earn a new descriptor.</p>
+		<p><strong>Editor's Notes</strong> &mdash; People change, especially in response to significant life experiences. The <a href="#character-arcs">Character Arcs</a> section in <a href="#chapter-12-experience-points">Chapter 12: Experience Points</a> provide a way for characters to turn over a new leaf and earn a new descriptor.</p>
 	</div>
 	<hr>
 	<div class="row">
@@ -4381,9 +4396,7 @@
 			<li>or <a href="#focus-customizing-foci">Customizing Foci</a> <span class="og-csrd-ref">(94)</span></li>
 			<li>or <a href="#additional-foci">Additional Foci</a></li>
 		</ul>
-	</div>
-	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p><strong>Editor's Notes</strong> &mdash; &dagger; denotes a focus not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>, but that has been added to the CSRD.</p>
+		<p class="small og-csrd-indent-hang">&dagger; denotes a focus not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
 	</div>
 	<div class="row">
 		<div class="col-12 col-md-6">
@@ -7130,6 +7143,8 @@
 			<li><a href="#abilities-category-task">Task</a> <span class="og-csrd-ref">(106)</span></li>
 			<li><a href="#abilities-category-transform">Transform</a> <span class="og-csrd-ref">(107)</span></li>
 		</ul>
+		<p class="small og-csrd-indent-hang">&dagger; denotes abilities not listed in <a href="#chapter-5-type">Chapter 5: Type</a>, <a href="#chapter-6-flavor">Chapter 6: Flavor</a>, or <a href="#chapter-8-focus">Chapter 8: Focus</a>.</p>
+		<p class="small og-csrd-indent-hang">&ddagger; denotes abilities not categorized by the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>, but that have been added by the editor.</p>
 		<h4 class="og-csrd-header-small" id="choose-ability-alphabetical">Quick Reference: Abilities by Alphabetical Order<a class="og-csrd-header-anchor" href="#choose-ability-alphabetical" title="Permalink" aria-hidden="true"></a></h4>
 		<ul class="list-inline">
 			<li class="list-inline-item"><a href="#abilities-a">A</a></li>
@@ -7161,9 +7176,6 @@
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; For additional useful information on special abilities, see <a href="#special-abilities">Special Abilities</a> <span class="og-csrd-ref">(18)</span> and <a href="#action-activate-a-special-ability">Action: Activate a Special Ability</a> <span class="og-csrd-ref">(223)</span>.</p>
-		<p class="og-csrd-indent-hang"><span class="og-csrd-ref">(Errata)</span> denotes an ability updated in the CSRD from the time of the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>'s printing.</p>
-		<p class="og-csrd-indent-hang">&dagger; denotes abilities not listed in <a href="#chapter-5-type">Chapter 5: Type</a>, <a href="#chapter-6-flavor">Chapter 6: Flavor</a>, or <a href="#chapter-8-focus">Chapter 8: Focus</a>.</p>
-		<p class="og-csrd-indent-hang">&ddagger; denotes abilities not categorized by the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>, but that have been added by the editor.</p>
 	</div>
 	<hr>
 	<h4 id="ability-categories-and-relative-power">Ability Categories and Relative Power<a class="og-csrd-header-anchor" href="#ability-categories-and-relative-power" title="Permalink" aria-hidden="true"></a></h4>
@@ -12669,37 +12681,37 @@
 	<div class="alert bg-dark ps-4">
 		<h4 class="og-csrd-header-small" id="key-concepts">Key Concepts <a class="og-csrd-header-anchor" href="#key-concepts" title="Permalink" aria-hidden="true"></a></h4>
 		<dl>
-			<dt class="text-uppercase">Action</dt>
+			<dt>Action</dt>
 			<dd>Anything a character does that is significant&mdash;punch a foe, leap a chasm, activate a device, use a special power, and so on. Each character can take one action in a round.</dd>
-			<dt class="text-uppercase">Character</dt>
+			<dt>Character</dt>
 			<dd>Any creature in the game capable of acting, whether it is a player character (PC) run by a player or a nonplayer character (NPC) run by the game master (GM). In the Cypher System, even bizarre creatures, sentient machines, and living energy beings can be "characters."
-			<dt class="text-uppercase">Difficulty</dt>
+			<dt>Difficulty</dt>
 			<dd>A measure of how easy it is to accomplish a task. Difficulty is rated on a scale from 1 (lowest) to 10 (highest). Altering the difficulty to make a task harder is called "hindering." Altering it to make a task easier is called "easing." All changes in difficulty are measured in steps. Difficulty often equates directly with level, so opening a level 3 locked door probably has a difficulty of 3.</dd>
-			<dt class="text-uppercase">Ease</dt>
+			<dt>Ease</dt>
 			<dd>A decrease in a task's difficulty, usually by one step. If something doesn't say how many steps it eases a task, then it reduces the difficulty by one step.</dd>
-			<dt class="text-uppercase">Effort</dt>
+			<dt>Effort</dt>
 			<dd>Spending points from a stat Pool to reduce the difficulty of a task. A PC decides whether or not to apply Effort on their turn before the roll is made. NPCs never apply Effort.</dd>
-			<dt class="text-uppercase">Hinder</dt>
+			<dt>Hinder</dt>
 			<dd>An increase in a task's difficulty, usually by one step. If something doesn't say how many steps it hinders a task, then it increases the difficulty by one step.</dd>
-			<dt class="text-uppercase">Inability</dt>
+			<dt>Inability</dt>
 			<dd>The opposite of trained&mdash;you're hindered whenever you attempt a task that you have an inability in. If you also become trained in the task, the training and the inability cancel each other out and you become practiced.</dd>
-			<dt class="text-uppercase">Level</dt>
+			<dt>Level</dt>
 			<dd>A way to measure the strength, difficulty, power, or challenge of something in the game. Everything in the game has a level. NPCs and objects have levels that determine the difficulty of any task related to them. For example, an opponent's level determines how hard they are to hit or avoid in combat. A door's level indicates how hard it is to break down. A lock's level determines how hard it is to pick. Levels are rated on a scale from 1 (lowest) to 10 (highest). PC tiers are a little like levels, but they go only from 1 to 6 and mechanically work very differently than levels&mdash;for example, a PC's tier does not determine a task's difficulty.</dd>
-			<dt class="text-uppercase">Practiced</dt>
+			<dt>Practiced</dt>
 			<dd>The normal, unmodified ability to use a <a href="#skills">skill</a>&mdash;not trained, specialized, or an inability. Your type determines what weapon skills you're practiced in; if you aren't practiced with a type of weapon, you have an inability in it.</dd>
-			<dt class="text-uppercase">Roll</dt>
+			<dt>Roll</dt>
 			<dd>A d20 roll made by a PC to determine whether an action is successful. Although the game occasionally uses other dice, when the text simply refers to "a roll," it always means a d20 roll.</dd>
-			<dt class="text-uppercase">Round</dt>
+			<dt>Round</dt>
 			<dd>A length of time about five to ten seconds long. There are about ten rounds in a minute. When it's really important to track precise time, use rounds. Basically, it's the length of time to take an action in the game, but since everyone more or less acts simultaneously, all characters get to take an action each round.</dd>
-			<dt class="text-uppercase">Specialized</dt>
+			<dt>Specialized</dt>
 			<dd>Having an exceptional amount of <a href="#skills">skill</a> in a task. Being specialized eases the task by two steps. So, if you are specialized in climbing, all your climbing tasks are eased by two steps.</dd>
-			<dt class="text-uppercase">Stat</dt>
+			<dt>Stat</dt>
 			<dd>One of the three defining characteristics for PCs: <a href="#might">Might</a>, <a href="#speed">Speed</a>, or <a href="#intellect">Intellect</a>. Each stat has two values: Pool and Edge. Your Pool represents your raw, innate ability, and your Edge represents knowing how to use what you have. Each stat Pool can increase or decrease over the course of play&mdash;for example, you can lose points from your Might Pool when struck by an opponent, spend points from your Intellect Pool to <a href="#action-activate-a-special-ability">activate a special ability</a>, or rest to recover points in your Speed Pool after a long day of marching. Anything that damages a stat, restores a stat, or boosts or penalizes a stat affects the stat's Pool.</dd>
-			<dt class="text-uppercase">Task</dt>
+			<dt>Task</dt>
 			<dd>Any action that a PC attempts. The GM determines the difficulty of the task. In general, a task is something that you do and an action is you performing that task, but in most cases they mean the same thing.</dd>
-			<dt class="text-uppercase">Trained</dt>
+			<dt>Trained</dt>
 			<dd>Having a reasonable amount of <a href="#skills">skill</a> in a task. Being trained eases the task. For example, if you are trained in climbing, all climbing tasks for you are eased. If you become very skilled at that task, you become specialized instead of trained. You do not need to be trained to attempt a task.</dd>
-			<dt class="text-uppercase">Turn</dt>
+			<dt>Turn</dt>
 			<dd>The part of the round when a character or creature takes its actions. For example, if a Warrior and an Adept are fighting an orc, each round the Warrior takes an action on their turn, the Adept takes an action on their turn, and the orc takes an action on its turn. Some abilities or effects last only one turn, or end when the next turn is started.</dd>
 		</dl>
 	</div>
@@ -12726,6 +12738,7 @@
 				<th class="vertical-align-bottom text-center" scope="col">Task Difficulty</th>
 				<th class="vertical-align-bottom" scope="col">Description</th>
 				<th class="vertical-align-bottom text-center" scope="col">Target Number</th>
+				<th class="vertical-align-bottom text-center" scope="col">Task Success Rate</th>
 				<th class="vertical-align-bottom" scope="col">Guidance</th>
 			</tr>
 		</thead>
@@ -12733,71 +12746,85 @@
 			<tr>
 				<th class="text-center fw-normal" scope="row">0</th>
 				<td class="">Routine</td>
-				<td class="text-center">(0)</td>
+				<td class="text-center">0</td>
+				<td class="text-center">100%</td>
 				<td class="">Anyone can do this basically every time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">1</th>
 				<td class="">Simple</td>
-				<td class="text-center">(3)</td>
+				<td class="text-center">3</td>
+				<td class="text-center">90%</td>
 				<td class="">Most people can do this most of the time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">2</th>
 				<td class="">Standard</td>
-				<td class="text-center">(6)</td>
+				<td class="text-center">6</td>
+				<td class="text-center">75%</td>
 				<td class="">Typical task requiring focus, but most people can usually do this.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">3</th>
 				<td class="">Demanding</td>
-				<td class="text-center">(9)</td>
+				<td class="text-center">9</td>
+				<td class="text-center">60%</td>
 				<td class="">Requires full attention; most people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">4</th>
 				<td class="">Difficult</td>
-				<td class="text-center">(12)</td>
+				<td class="text-center">12</td>
+				<td class="text-center">45%</td>
 				<td class="">Trained people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">5</th>
 				<td class="">Challenging</td>
-				<td class="text-center">(15)</td>
+				<td class="text-center">15</td>
+				<td class="text-center">30%</td>
 				<td class="">Even trained people often fail.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">6</th>
 				<td class="">Intimidating</td>
-				<td class="text-center">(18)</td>
+				<td class="text-center">18</td>
+				<td class="text-center">15%</td>
 				<td class="">Normal people almost never succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">7</th>
 				<td class="">Formidable</td>
-				<td class="text-center">(21)</td>
+				<td class="text-center">21</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">Impossible without skills or great effort.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">8</th>
 				<td class="">Heroic</td>
-				<td class="text-center">(24)</td>
+				<td class="text-center">24</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">A task worthy of tales told for years afterward.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">9</th>
 				<td class="">Immortal</td>
-				<td class="text-center">(27)</td>
+				<td class="text-center">27</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">A task worthy of legends that last lifetimes.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">10</th>
 				<td class="">Impossible</td>
-				<td class="text-center">(30)</td>
+				<td class="text-center">30</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">A task that normal humans couldn't consider (but one that doesn't break the laws of physics).</td>
 			</tr>
 		</tbody>
 	</table>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Editor's Notes</strong> &mdash; This table has been amended by the editor to include task success rates as a percentage.</p>
+	</div>
 	<p>The most frequent thing a GM does during the game&mdash;and probably the most important thing&mdash;is set a task's difficulty. To make the job easier, use the Task Difficulty table, which associates a difficulty rating with a descriptive name, a target number, and general guidance about the difficulty.</p>
 	<p class="og-csrd-indent">Every difficulty from 1 to 10 has a target number associated with it. The target number is easy to remember: it's always three times the difficulty. The target number is the minimum number a player needs to roll on a d20 to succeed at the task. Moving up or down on the table is called hindering or easing, which is measured in steps.</p>
 	<p class="og-csrd-indent">For example, reducing a difficulty 5 task to a difficulty 4 task is "easing the difficulty by one step" or just "easing the difficulty" or "easing the task." Most modifiers affect the difficulty rather than the player's roll. This has two consequences:</p>
@@ -14372,10 +14399,10 @@
 			<li><a href="#fantasy-species-helborn">Helborn</a> <span class="og-csrd-ref">(259)</span></li>
 			<li><a href="#fantasy-species-lizardfolk">Lizardfolk</a> <span class="og-csrd-ref">(GF, 89)</span>&dagger;</li>
 		</ul>
+		<p class="small og-csrd-indent-hang">&dagger; denotes a species not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; Some GMs may want fantasy species to be mechanically different from humans. Below are some possibilities for how this might work. The <a href="#species-as-descriptor">Species As Descriptor</a> section, includes options for <a href="#variant-rule-two-descriptors">two descriptors</a> or <a href="#descriptors-as-species">descriptors as species</a> &mdash; choose what works best for your game!</p>
-		<p class="og-csrd-indent-hang">&dagger; denotes a species not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
 	</div>
 	<h5 id="fantasy-species-catfolk">Catfolk<a class="og-csrd-header-anchor" href="#fantasy-species-catfolk" title="Permalink" aria-hidden="true"></a></h5>
 	<p>You are unmistakably feline. Your people have fur; large, pointed ears; sharp teeth and claws; and even tails. You are nimble, graceful, and quick. An ancient and sophisticated culture, your people have their own language, customs, and traditions developed in relative seclusion over the centuries. Neither conquerors nor conquered, the success of your society has come from the fact that you have given most others a wide berth. As a people, you almost never get involved in wars or similar matters, which has given other cultures the idea that you are aloof, unapproachable, or mysterious. As long as they leave you alone, what they think is fine with you. <span class="og-csrd-ref">(GF, 86)</span></p>
@@ -16692,56 +16719,104 @@
 	<hr>
 	<div class="alert bg-dark ps-4">
 		<h4 class="og-csrd-header-small" id="basic-creatures-and-npcs-for-a-fantasy-game">Basic Creatures and NPCs for a Fantasy Game<a class="og-csrd-header-anchor" href="#basic-creatures-and-npcs-for-a-fantasy-game" title="Permalink" aria-hidden="true"></a></h4>
-		<ul class="list-unstyled og-csrd-indent-hang">
-			<li><p><strong>Bat:</strong> level 1</p></li>
-			<li><p><strong>Black bear:</strong> level 3, attacks as level 4</p></li>
-			<li><p><strong>Blacksmith:</strong> level 2, metalworking as level 4; health 8</p></li>
-			<li><p><strong>Cat:</strong> level 1, Speed defense as level 3 due to size and quickness</p></li>
-			<li><p><strong>Catfolk:</strong> level 3, balancing and climbing as level 4; damage inflicted 4 points</p></li>
-			<li><p><strong>Centaur:</strong> level 4; health 15; moves a long distance each round</p></li>
-			<li><p><strong>Crocodile:</strong> level 4; Armor 1; swims a short distance each round</p></li>
-			<li><p><strong>Dire wolf:</strong> level 4, attacks and perception as level 5; Armor 1</p></li>
-			<li><p><strong>Dog:</strong> level 2, perception as level 3</p></li>
-			<li><p><strong>Dog, guard:</strong> level 3, attacks and perception as level 4</p></li>
-			<li><p><strong>Elephant:</strong> level 5; health 20; Armor 1</p></li>
-			<li><p><strong>Farmer:</strong> level 2, animal handling as level 3; health 8</p></li>
-			<li><p><strong>Gargoyle:</strong> level 3; Armor 5; damage inflicted 5 points; flies a short distance each round</p></li>
-			<li><p><strong>Giant ape:</strong> level 3, climbing and attacks as level 4</p></li>
-			<li><p><strong>Giant crab:</strong> level 6; Armor 4; pincer attack holds prey and automatically inflicts damage each turn until the target succeeds at a Might or Speed defense task</p></li>
-			<li><p><strong>Giant frog:</strong> level 3</p></li>
-			<li><p><strong>Giant octopus:</strong> level 5, Might defense and stealth as level 6; health 25; attacks four times as an action</p></li>
-			<li><p><strong>Giant scorpion:</strong> level 4; Armor 2; damage inflicted 4 points plus 4 points of Speed damage (ignores Armor) on a failed Might defense task</p></li>
-			<li><p><strong>Giant snake:</strong> level 4; health 18; Armor 2; damage inflicted 4 points plus 3 points of Speed damage (ignores Armor) on a failed Might defense task</p></li>
-			<li><p><strong>Gnoll:</strong> level 2, Speed defense as level 3 due to shield; health 8; Armor 2</p></li>
-			<li><p><strong>Gorilla:</strong> level 2, attacks as level 3; damage inflicted 3 points</p></li>
-			<li><p><strong>Griffon:</strong> level 4, perception as level 5; Armor 1; flies a long distance each round</p></li>
-			<li><p><strong>Grizzly bear:</strong> level 5; health 20; Armor 1</p></li>
-			<li><p><strong>Hawk:</strong> level 2; flies a long distance each round</p></li>
-			<li><p><strong>Hippogryph:</strong> level 3, attacks as level 4; flies a long distance each round.</p></li>
-			<li><p><strong>Horse:</strong> level 3; moves a long distance each round</p></li>
-			<li><p><strong>Leopard:</strong> level 4; climbing, jumping, stealth, and attacks as level 5; Armor 1</p></li>
-			<li><p><strong>Lion or tiger:</strong> level 5, attacks as level 6; Armor 1</p></li>
-			<li><p><strong>Lizardfolk:</strong> level 3; Armor 1</p></li>
-			<li><p><strong>Merchant:</strong> level 2, haggling and assessment tasks as level 3</p></li>
-			<li><p><strong>Mummy:</strong> level 6; ancient history, ancient religion, climbing, and stealth as level 8; health 24; Armor 2; damage inflicted 7 points</p></li>
-			<li><p><strong>Nymph:</strong> level 3, stealth and positive social interactions as level 6</p></li>
-			<li><p><strong>Pegasus:</strong> level 3, Speed defense as level 4; moves or flies a long distance each round</p></li>
-			<li><p><strong>Pterodactyl:</strong> level 3; Armor 1; flies a long distance each round</p></li>
-			<li><p><strong>Rat:</strong> level 1</p></li>
-			<li><p><strong>Roc:</strong> level 6; health 25; Armor 2; flies a long distance each round; attacks twice as an action</p></li>
-			<li><p><strong>Shark:</strong> level 3, attacks as level 4; health 15; Armor 2</p></li>
-			<li><p><strong>Undead claw:</strong> level 1, attacks as level 3, Speed defense as level 3 due to quickness and size; health 5; Armor 1</p></li>
-			<li><p><strong>Unicorn:</strong> level 4; Might defense, perception, and attacks as level 5; health 15; Armor 1; makes two attacks as its action; once per hour can teleport up to 1 mile; once per hour can heal a creature for 4 Pool points (or health) and remove poisons up to level 4</p></li>
-			<li><p><strong>Villager:</strong> level 1</p></li>
-			<li><p><strong>Viper:</strong> level 2; bite inflicts 3 points of Speed damage (ignores Armor)</p></li>
-			<li><p><strong>Warhorse:</strong> level 4; moves a long distance each round</p></li>
-			<li><p><strong>Werebear:</strong> level 5, attacks as level 6; Armor 1; damage inflicted 6 points; regenerates 2 health per round (unless recently wounded by silver)
-			<li><p><strong>Wererat:</strong> level 3, Speed defense and stealth as level 4; regenerates 2 health per round (unless recently wounded by silver)</p></li>
-			<li><p><strong>Wereshark:</strong> level 4, attacks as level 5; health 15; Armor 2; regenerates 2 health per round (unless recently wounded by silver)</p></li>
-			<li><p><strong>Weretiger:</strong> level 5, attacks as level 6; Armor 1; damage inflicted 6 points; regenerates 2 health per round (unless recently wounded by silver)</p></li>
-			<li><p><strong>Wolf:</strong> level 3, perception as level 4</p></li>
-			<li><p><strong>Yeti:</strong> level 3; attacks, perception, and stealth as level 4; Armor 1</p></li>
-		</ul>
+		<dl>
+			<dt>Bat</dt>
+			<dd>level 1</dd>
+			<dt>Black bear</dt>
+			<dd>level 3, attacks as level 4</dd>
+			<dt>Blacksmith</dt>
+			<dd>level 2, metalworking as level 4; health 8</dd>
+			<dt>Cat</dt>
+			<dd>level 1, Speed defense as level 3 due to size and quickness</dd>
+			<dt>Catfolk</dt>
+			<dd>level 3, balancing and climbing as level 4; damage inflicted 4 points</dd>
+			<dt>Centaur</dt>
+			<dd>level 4; health 15; moves a long distance each round</dd>
+			<dt>Crocodile</dt>
+			<dd>level 4; Armor 1; swims a short distance each round</dd>
+			<dt>Dire wolf</dt>
+			<dd>level 4, attacks and perception as level 5; Armor 1</dd>
+			<dt>Dog</dt>
+			<dd>level 2, perception as level 3</dd>
+			<dt>Dog, guard</dt>
+			<dd>level 3, attacks and perception as level 4</dd>
+			<dt>Elephant</dt>
+			<dd>level 5; health 20; Armor 1</dd>
+			<dt>Farmer</dt>
+			<dd>level 2, animal handling as level 3; health 8</dd>
+			<dt>Gargoyle</dt>
+			<dd>level 3; Armor 5; damage inflicted 5 points; flies a short distance each round</dd>
+			<dt>Giant ape</dt>
+			<dd>level 3, climbing and attacks as level 4</dd>
+			<dt>Giant crab</dt>
+			<dd>level 6; Armor 4; pincer attack holds prey and automatically inflicts damage each turn until the target succeeds at a Might or Speed defense task</dd>
+			<dt>Giant frog</dt>
+			<dd>level 3</dd>
+			<dt>Giant octopus</dt>
+			<dd>level 5, Might defense and stealth as level 6; health 25; attacks four times as an action</dd>
+			<dt>Giant scorpion</dt>
+			<dd>level 4; Armor 2; damage inflicted 4 points plus 4 points of Speed damage (ignores Armor) on a failed Might defense task</dd>
+			<dt>Giant snake</dt>
+			<dd>level 4; health 18; Armor 2; damage inflicted 4 points plus 3 points of Speed damage (ignores Armor) on a failed Might defense task</dd>
+			<dt>Gnoll</dt>
+			<dd>level 2, Speed defense as level 3 due to shield; health 8; Armor 2</dd>
+			<dt>Gorilla</dt>
+			<dd>level 2, attacks as level 3; damage inflicted 3 points</dd>
+			<dt>Griffon</dt>
+			<dd>level 4, perception as level 5; Armor 1; flies a long distance each round</dd>
+			<dt>Grizzly bear</dt>
+			<dd>level 5; health 20; Armor 1</dd>
+			<dt>Hawk</dt>
+			<dd>level 2; flies a long distance each round</dd>
+			<dt>Hippogryph</dt>
+			<dd>level 3, attacks as level 4; flies a long distance each round.</dd>
+			<dt>Horse</dt>
+			<dd>level 3; moves a long distance each round</dd>
+			<dt>Leopard</dt>
+			<dd>level 4; climbing, jumping, stealth, and attacks as level 5; Armor 1</dd>
+			<dt>Lion or tiger</dt>
+			<dd>level 5, attacks as level 6; Armor 1</dd>
+			<dt>Lizardfolk</dt>
+			<dd>level 3; Armor 1</dd>
+			<dt>Merchant</dt>
+			<dd>level 2, haggling and assessment tasks as level 3</dd>
+			<dt>Mummy</dt>
+			<dd>level 6; ancient history, ancient religion, climbing, and stealth as level 8; health 24; Armor 2; damage inflicted 7 points</dd>
+			<dt>Nymph</dt>
+			<dd>level 3, stealth and positive social interactions as level 6</dd>
+			<dt>Pegasus</dt>
+			<dd>level 3, Speed defense as level 4; moves or flies a long distance each round</dd>
+			<dt>Pterodactyl</dt>
+			<dd>level 3; Armor 1; flies a long distance each round</dd>
+			<dt>Rat</dt>
+			<dd>level 1</dd>
+			<dt>Roc</dt>
+			<dd>level 6; health 25; Armor 2; flies a long distance each round; attacks twice as an action</dd>
+			<dt>Shark</dt>
+			<dd>level 3, attacks as level 4; health 15; Armor 2</dd>
+			<dt>Undead claw</dt>
+			<dd>level 1, attacks as level 3, Speed defense as level 3 due to quickness and size; health 5; Armor 1</dd>
+			<dt>Unicorn</dt>
+			<dd>level 4; Might defense, perception, and attacks as level 5; health 15; Armor 1; makes two attacks as its action; once per hour can teleport up to 1 mile; once per hour can heal a creature for 4 Pool points (or health) and remove poisons up to level 4</dd>
+			<dt>Villager</dt>
+			<dd>level 1</dd>
+			<dt>Viper</dt>
+			<dd>level 2; bite inflicts 3 points of Speed damage (ignores Armor)</dd>
+			<dt>Warhorse</dt>
+			<dd>level 4; moves a long distance each round</dd>
+			<dt>Werebear</dt>
+			<dd>level 5, attacks as level 6; Armor 1; damage inflicted 6 points; regenerates 2 health per round (unless recently wounded by dd)
+			<dt>Wererat</dt>
+			<dd>level 3, Speed defense and stealth as level 4; regenerates 2 health per round (unless recently wounded by silver)</dd>
+			<dt>Wereshark</dt>
+			<dd>level 4, attacks as level 5; health 15; Armor 2; regenerates 2 health per round (unless recently wounded by silver)</dd>
+			<dt>Weretiger</dt>
+			<dd>level 5, attacks as level 6; Armor 1; damage inflicted 6 points; regenerates 2 health per round (unless recently wounded by silver)</dd>
+			<dt>Wolf</dt>
+			<dd>level 3, perception as level 4</dd>
+			<dt>Yeti</dt>
+			<dd>level 3; attacks, perception, and stealth as level 4; Armor 1</dd>
+		</dl>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; See <a href="#chapter-22-creatures">Chapter 22: Creatures</a> and <a href="#chapter-23-npcs">Chapter 23: NPCs</a>.</p>
@@ -17541,16 +17616,24 @@
 	<hr>
 	<div class="alert bg-dark ps-4">
 		<h4 class="og-csrd-header-small" id="basic-creatures-and-npcs-for-a-modern-game">Basic Creatures and NPCs for a Modern Game<a class="og-csrd-header-anchor" href="#basic-creatures-and-npcs-for-a-modern-game" title="Permalink" aria-hidden="true"></a></h4>
-		<ul class="list-unstyled og-csrd-indent-hang">
-			<li><p><strong>Businessperson:</strong> level 2, business tasks as level 3</p></li>
-			<li><p><strong>Cat:</strong> level 1, Speed defense as level 3</p></li>
-			<li><p><strong>Clerk:</strong> level 2</p></li>
-			<li><p><strong>Dog:</strong> level 2, perception as level 3</p></li>
-			<li><p><strong>Dog, guard:</strong> level 3, attacks and perception as level 4</p></li>
-			<li><p><strong>Horse:</strong> level 3; moves a long distance each round</p></li>
-			<li><p><strong>Rat:</strong> level 1</p></li>
-			<li><p><strong>Worker:</strong> level 2; health 8</p></li>
-		</ul>
+		<dl>
+			<dt>Businessperson</dt>
+			<dd>level 2, business tasks as level 3</dd>
+			<dt>Cat</dt>
+			<dd>level 1, Speed defense as level 3</dd>
+			<dt>Clerk</dt>
+			<dd>level 2</dd>
+			<dt>Dog</dt>
+			<dd>level 2, perception as level 3</dd>
+			<dt>Dog, guard</dt>
+			<dd>level 3, attacks and perception as level 4</dd>
+			<dt>Horse</dt>
+			<dd>level 3; moves a long distance each round</dd>
+			<dt>Rat</dt>
+			<dd>level 1</dd>
+			<dt>Worker</dt>
+			<dd>level 2; health 8</dd>
+		</dl>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; See <a href="#chapter-22-creatures">Chapter 22: Creatures</a> and <a href="#chapter-23-npcs">Chapter 23: NPCs</a>.</p>
@@ -20138,12 +20221,16 @@
 	<h4 id="science-fiction-creatures">Science Fiction Creatures<a class="og-csrd-header-anchor" href="#science-fiction-creatures" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="alert bg-dark ps-4">
 		<h4 class="og-csrd-header-small" id="basic-creatures-and-npcs-for-a-science-fiction-game">Basic Creatures and NPCs for a Science-Fiction Game<a class="og-csrd-header-anchor" href="#basic-creatures-and-npcs-for-a-science-fiction-game" title="Permalink" aria-hidden="true"></a></h4>
-		<ul class="list-unstyled og-csrd-indent-hang">
-			<li><p><strong>Innocuous rodent:</strong> level 1</p></li>
-			<li><p><strong>Guard beast:</strong> level 3, perception as level 4</p></li>
-			<li><p><strong>Corporate drone:</strong> level 2</p></li>
-			<li><p><strong>Physical laborer:</strong> level 2; health 8</p></li>
-		</ul>
+		<dl>
+			<dt>Innocuous rodent</dt>
+			<dd>level 1</dd>
+			<dt>Guard beast</dt>
+			<dd>level 3, perception as level 4</dd>
+			<dt>Corporate drone</dt>
+			<dd>level 2</dd>
+			<dt>Physical laborer</dt>
+			<dd>level 2; health 8</dd>
+		</dl>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; See <a href="#chapter-22-creatures">Chapter 22: Creatures</a> and <a href="#chapter-23-npcs">Chapter 23: NPCs</a>.</p>
@@ -20185,9 +20272,7 @@
 			<tr><td class="text-center">10</td><th scope="row" class="fw-normal"><a href="#creature-omworwar">Omworwar</a></th><td>Fantastic</td></tr>
 		</tbody>
 	</table>
-	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p><strong>Editor's Notes</strong> &mdash; &dagger; denotes a creature presented the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>. The tech levels of these creatures are assigned by the editor.</p>
-	</div>
+	<p class="small og-csrd-indent">&dagger; denotes a creature presented the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>. The tech levels of these creatures are assigned by the editor.</p>
 	<hr>
 	<h3 id="chapter-16-horror">
 		<span class="og-csrd-chapter">Chapter 16</span>
@@ -20936,17 +21021,26 @@
 	<h4 id="horror-creatures">Horror Creatures<a class="og-csrd-header-anchor" href="#horror-creatures" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="alert bg-dark ps-4">
 		<h5 class="og-csrd-header-small" id="basic-creatures-and-npcs-for-a-horror-game">Basic Creatures and NPCs for a Horror Game<a class="og-csrd-header-anchor" href="#basic-creatures-and-npcs-for-a-horror-game" title="Permalink" aria-hidden="true"></a></h5>
-		<ul class="list-unstyled og-csrd-indent-hang">
-			<li><p><strong>Businessperson:</strong> level 2</p></li>
-			<li><p><strong>Cat:</strong> level 1, Speed defense as level 3</p></li>
-			<li><p><strong>Clerk:</strong> level 2</p></li>
-			<li><p><strong>Dog:</strong> level 2, perception as level 3</p></li>
-			<li><p><strong>Dog, vicious:</strong> level 3, attacks and perception as level 4</p></li>
-			<li><p><strong>Groundskeeper/caretaker:</strong> level 2; health 8</p></li>
-			<li><p><strong>Man in Black:</strong> level 4; carries weird weapons, including those with long range</p></li>
-			<li><p><strong>Rat:</strong> level 1</p></li>
-			<li><p><strong>Tarantula:</strong> level 1</p></li>
-		</ul>
+		<dl>
+			<dt>Businessperson</dt>
+			<dd>level 2</dd>
+			<dt>Cat</dt>
+			<dd>level 1, Speed defense as level 3</dd>
+			<dt>Clerk</dt>
+			<dd>level 2</dd>
+			<dt>Dog</dt>
+			<dd>level 2, perception as level 3</dd>
+			<dt>Dog, vicious</dt>
+			<dd>level 3, attacks and perception as level 4</dd>
+			<dt>Groundskeeper/caretaker</dt>
+			<dd>level 2; health 8</dd>
+			<dt>Man in Black</dt>
+			<dd>level 4; carries weird weapons, including those with long range</dd>
+			<dt>Rat</dt>
+			<dd>level 1</dd>
+			<dt>Tarantula</dt>
+			<dd>level 1</dd>
+		</dl>
 	</div>
 	<h5 class="og-csrd-header-small" id="horror-creatures-by-level-and-genre">Horror Creatures and NPCs by Level and Genre<a class="og-csrd-header-anchor" href="#horror-creatures-by-level-and-genre" title="Permalink" aria-hidden="true"></a></h5>
 	<table class="table table-dark table-striped table-sm">
@@ -21078,13 +21172,18 @@
 	<hr>
 	<div class="alert bg-dark ps-4">
 		<h4 class="og-csrd-header-small" id="basic-creatures-and-npcs-for-a-romance-game">Basic Creatures and NPCs for a Romance Game<a class="og-csrd-header-anchor" href="#basic-creatures-and-npcs-for-a-romance-game" title="Permalink" aria-hidden="true"></a></h4>
-		<ul class="list-unstyled og-csrd-indent-hang">
-			<li><p><strong>Distrustful relative:</strong> level 2</p></li>
-			<li><p><strong>Jealous ex:</strong> level 2, attacks as level 3</p></li>
-			<li><p><strong>Nosy neighbor:</strong> level 2, perception as level 3</p></li>
-			<li><p><strong>Rival suitor:</strong> level 2, interactions as level 3</p></li>
-			<li><p><strong>The unattainable:</strong> level 3, interactions as level 7, resistance to all interactions as level 9</p></li>
-		</ul>
+		<dl>
+			<dt>Distrustful relative</dt>
+			<dd>level 2</dd>
+			<dt>Jealous ex</dt>
+			<dd>level 2, attacks as level 3</dd>
+			<dt>Nosy neighbor</dt>
+			<dd>level 2, perception as level 3</dd>
+			<dt>Rival suitor</dt>
+			<dd>level 2, interactions as level 3</dd>
+			<dt>The unattainable</dt>
+			<dd>level 3, interactions as level 7, resistance to all interactions as level 9</dd>
+		</dl>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; See <a href="#chapter-22-creatures">Chapter 22: Creatures</a> and <a href="#chapter-23-npcs">Chapter 23: NPCs</a>.</p>
@@ -21391,10 +21490,10 @@
 			<li><a href="#superhero-descriptor-sensational">Sensational</a><span class="og-csrd-ref">(CTS, 44)</span>&dagger;</li>
 			<li><a href="#superhero-descriptor-uncanny">Uncanny</a><span class="og-csrd-ref">(CTS, 44)</span>&dagger;</li>
 		</ul>
+		<p class="small og-csrd-indent-hang">&dagger; denotes a descriptor not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; Some GMs may want fantasy species to be mechanically different from humans. Below are some possibilities for how this might work. The <a href="#species-as-descriptor">Species As Descriptor</a> section, includes options for <a href="#variant-rule-two-descriptors">two descriptors</a> or <a href="#descriptors-as-species">descriptors as species</a>&mdash;choose what works best for your game!</p>
-		<p class="og-csrd-indent-hang">&dagger; denotes a species not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
 	</div>
 	<h5 id="superhero-descriptor-amazing">Amazing<a class="og-csrd-header-anchor" href="#superhero-descriptor-amazing" title="Permalink" aria-hidden="true"></a></h5>
 	<p>You have a knack for surprising people&mdash;performing impossible athletic feats, sneaking up on someone who's alert, or instantly reacting to an ambush. You like to make use of these talents to enhance (or rehabilitate) your reputation as a hero prone to spectacular rescues, defeating foes way above your league, and arriving just in time to save the day. Ironically, in your normal daily life, you're a little awkward and overlooked. <span class="og-csrd-ref">(CTS, 42)</span></p>
@@ -21792,15 +21891,22 @@
 	<hr>
 	<div class="alert bg-dark ps-4">
 		<h4 class="og-csrd-header-small" id="basic-creatures-and-npcs-for-a-superhero-game">Basic Creatures and NPCs for a Superhero Game<a class="og-csrd-header-anchor" href="#basic-creatures-and-npcs-for-a-superhero-game" title="Permalink" aria-hidden="true"></a></h4>
-		<ul class="list-unstyled og-csrd-indent-hang">
-			<li><p><strong>Dog, guard:</strong> level 3, attacks and perception as level 4</p></li>
-			<li><p><strong>Genetically enhanced bruiser:</strong> level 3, attacks as level 4; health 15; 5 points of melee damage</p></li>
-			<li><p><strong>Ninja:</strong> level 3, stealth as level 6</p></li>
-			<li><p><strong>Robot minion:</strong> level 4; Armor 2</p></li>
-			<li><p><strong>Bystander:</strong> level 2</p></li>
-			<li><p><strong>Scientist:</strong> level 2, science-related tasks as level 4</p></li>
-			<li><p><strong>Worker:</strong> level 2; health 8</p></li>
-		</ul>
+		<dl>
+			<dt>Dog, guard</dt>
+			<dd>level 3, attacks and perception as level 4</dd>
+			<dt>Genetically enhanced bruiser</dt>
+			<dd>level 3, attacks as level 4; health 15; 5 points of melee damage</dd>
+			<dt>Ninja</dt>
+			<dd>level 3, stealth as level 6</dd>
+			<dt>Robot minion</dt>
+			<dd>level 4; Armor 2</dd>
+			<dt>Bystander</dt>
+			<dd>level 2</dd>
+			<dt>Scientist</dt>
+			<dd>level 2, science-related tasks as level 4</dd>
+			<dt>Worker</dt>
+			<dd>level 2; health 8</dd>
+		</dl>
 		<h4 class="og-csrd-header-small" id="supervillains">Supervillains<a class="og-csrd-header-anchor" href="#basic-creatures-and-npcs-for-a-superhero-game" title="Permalink" aria-hidden="true"></a></h4>
 		<p>People with amazing abilities who use them for evil earn the label of <a href="#npc-supervillain">Supervillain</a>.</p>
 	</div>
@@ -24476,18 +24582,28 @@
 	</div>
 	<h5 id="fairy-tale-creatures-magical-animals">Magical Animals<a class="og-csrd-header-anchor" href="#fairy-tale-creatures-magical-animals" title="Permalink" aria-hidden="true"></a></h5>
 	<p>The creatures in this section all appear to be animal in their nature, from <a href="#creature-black-dog">black dogs</a> and <a href="#npc-wolf-big-bad">big bad wolves</a> to horses and <a href="#creature-snark">snarks</a>.</p>
-	<ul class="list-unstyled og-csrd-indent">
-		<li><p><strong>Bear:</strong> level 5; health 20; Armor 1; two magical abilities</p></li>
-		<li><p><strong>Cat:</strong> level 2; two magical abilities</p></li>
-		<li><p><strong>Fish:</strong> level 2; one magical ability</p></li>
-		<li><p><strong>Fox/Rabbit/Monkey:</strong> level 3, cunning and trickery as level 5; two magical abilities</p></li>
-		<li><p><strong>Horse/Donkey:</strong> level 4; two magical abilities</p></li>
-		<li><p><strong>Mouse/Rat:</strong> level 2; one magical ability</p></li>
-		<li><p><strong>Raven/Owl:</strong> level 3, intelligence and cunning as level 4; one magical ability</p></li>
-		<li><p><strong>Snake/Serpent:</strong> level 3; bite inflicts 4 points of Intellect damage (ignores Armor); one magical ability</p></li>
-		<li><p><strong>Songbird:</strong> level 1; offer sage advice to those they choose; one magical ability</p></li>
-		<li><p><strong>Stag/Hart:</strong> level 4; Armor 1; horns inflict 3 points of damage; two magical abilities</p></li>
-	</ul>
+	<dl>
+		<dt>Bear</dt>
+		<dd>level 5; health 20; Armor 1; two magical abilities</dd>
+		<dt>Cat</dt>
+		<dd>level 2; two magical abilities</dd>
+		<dt>Fish</dt>
+		<dd>level 2; one magical ability</dd>
+		<dt>Fox/Rabbit/Monkey</dt>
+		<dd>level 3, cunning and trickery as level 5; two magical abilities</dd>
+		<dt>Horse/Donkey</dt>
+		<dd>level 4; two magical abilities</dd>
+		<dt>Mouse/Rat</dt>
+		<dd>level 2; one magical ability</dd>
+		<dt>Raven/Owl</dt>
+		<dd>level 3, intelligence and cunning as level 4; one magical ability</dd>
+		<dt>Snake/Serpent</dt>
+		<dd>level 3; bite inflicts 4 points of Intellect damage (ignores Armor); one magical ability</dd>
+		<dt>Songbird</dt>
+		<dd>level 1; offer sage advice to those they choose; one magical ability</dd>
+		<dt>Stag/Hart</dt>
+		<dd>level 4; Armor 1; horns inflict 3 points of damage; two magical abilities</dd>
+	</dl>
 	<p class="og-csrd-indent"><strong>Bagheera:</strong> This cunning, bold, and brilliant black panther can be someone's worst enemy or their most loyal friend, protector, and mentor. <span class="og-csrd-ref">(WAAMH, 106)</span></p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Bagheera:</strong> Level 7; stalking, hunting, sneaking, and chasing prey as level 8; persuasion and positive social interactions as level 8; inflicts 6 points of damage with teeth and claws; can pounce on a victim from a long distance away to inflict 7 points of damage and knock the victim prone.</p>
@@ -24798,19 +24914,30 @@
 	<hr>
 	<div class="alert bg-dark ps-4">
 		<h4 class="og-csrd-header-small" id="basic-creatures-and-npcs-for-a-historical-game">Basic Creatures and NPCs for a Historical Game<a class="og-csrd-header-anchor" href="#basic-creatures-and-npcs-for-a-historical-game" title="Permalink" aria-hidden="true"></a></h4>
-		<ul class="list-unstyled og-csrd-indent-hang">
-			<li><p><strong>Cat:</strong> level 1, Speed defense as level 3</p></li>
-			<li><p><strong>Dodo:</strong> level 1</p></li>
-			<li><p><strong>Dog:</strong> level 2, perception as level 3</p></li>
-			<li><p><strong>Dog, guard:</strong> level 3, attacks and perception as level 4</p></li>
-			<li><p><strong>Horse:</strong> level 3; moves a long distance each round</p></li>
-			<li><p><strong>Merchant:</strong> level 2, haggling as level 3</p></li>
-			<li><p><strong>Noble:</strong> level 2, pleasant social interaction as level 4</p></li>
-			<li><p><strong>Rat:</strong> level 1</p></li>
-			<li><p><strong>Serf:</strong> level 2, animal handling as level 3</p></li>
-			<li><p><strong>Snake, poisonous:</strong> level 1, attacks as level 4</p></li>
-			<li><p><strong>Warhorse:</strong> level 4; moves a long distance each round</p></li>
-		</ul>
+		<dl>
+			<dt>Cat</dt>
+			<dd>level 1, Speed defense as level 3</dd>
+			<dt>Dodo</dt>
+			<dd>level 1</dd>
+			<dt>Dog</dt>
+			<dd>level 2, perception as level 3</dd>
+			<dt>Dog, guard</dt>
+			<dd>level 3, attacks and perception as level 4</dd>
+			<dt>Horse</dt>
+			<dd>level 3; moves a long distance each round</dd>
+			<dt>Merchant</dt>
+			<dd>level 2, haggling as level 3</dd>
+			<dt>Noble</dt>
+			<dd>level 2, pleasant social interaction as level 4</dd>
+			<dt>Rat</dt>
+			<dd>level 1</dd>
+			<dt>Serf</dt>
+			<dd>level 2, animal handling as level 3</dd>
+			<dt>Snake, poisonous</dt>
+			<dd>level 1, attacks as level 4</dd>
+			<dt>Warhorse</dt>
+			<dd>level 4; moves a long distance each round</dd>
+		</dl>
 	</div>
 </div>
 <div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
@@ -24928,6 +25055,8 @@
 			<li><span class="float-end">10</span><a href="#creature-godmind">Godmind</a> <span class="og-csrd-ref">(SF, 120)</span>&dagger;</li>
 			<li><span class="float-end">10</span><a href="#creature-kaiju">Kaiju</a> <span class="og-csrd-ref">(338)</span></li>
 		</ul>
+		<p class="small og-csrd-indent-hang">&dagger; denotes a creature not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
+		<p class="small og-csrd-indent-hang">&ddagger; denotes a creature with updates to printed material.</p>
 		<h5 class="og-csrd-header-small" id="additional-creatures-and-npcs">Additional Creatures and NPCs<a class="og-csrd-header-anchor" href="#additional-creatures-and-npcs" title="Permalink" aria-hidden="true"></a></h5>
 		<ul class="list-unstyled og-csrd-quick-reference-compact">
 			<li><a href="#normal-animals">Normal Animals</a></li>
@@ -24941,13 +25070,11 @@
 			<li><a href="#science-fiction-creatures">Science Fiction Creatures</a></li>
 			<li><a href="#basic-creatures-and-npcs-for-a-superhero-game">Superhero Creatures</a></li>
 			<li><a href="#npcs-by-level">NPCs</a></li>
-			<li>or <a href="#create-a-new-creature-or-npc">Create a Creature or NPC</a></li>
+			<li>or <a href="#create-a-new-creature-or-npc">Create a New Creature or NPC</a></li>
 		</ul>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; The editor has placed some of the creatures in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a> as <a href="#npcs-by-level">NPCs</a> instead. Monte Cook Games also provides an online <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/cypher-system-creature-search/">Cypher System Creature Index</a> that includes creatures from across their published material.</p>
-		<p class="og-csrd-indent-hang">&dagger; denotes a creature not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
-		<p class="og-csrd-indent-hang">&ddagger; denotes a creature with updates to printed material.</p>
 	</div>
 	<hr>
 	<h4 id="understanding-the-listings">Understanding the Listings<a class="og-csrd-header-anchor" href="#understanding-the-listings" title="Permalink" aria-hidden="true"></a></h4>
@@ -24955,70 +25082,97 @@
 	<table class="table table-dark table-striped table-sm">
 		<caption>Creature Level and Target Number</caption>
 		<thead>
-			<tr><th scope="col" class="text-center">Level</th><th scope="col" class="text-center">Target Number</th></tr>
+			<tr><th scope="col" class="text-center">Level</th><th scope="col" class="text-center">Target Number</th><th scope="col" class="text-center">Task Success Rate</th></tr>
 		</thead>
 		<tbody>
-			<tr><th scope="row" class="fw-normal text-center">1</th><td class="text-center">(3)</td></tr>
-			<tr><th scope="row" class="fw-normal text-center">2</th><td class="text-center">(6)</td></tr>
-			<tr><th scope="row" class="fw-normal text-center">3</th><td class="text-center">(9)</td></tr>
-			<tr><th scope="row" class="fw-normal text-center">4</th><td class="text-center">(12)</td></tr>
-			<tr><th scope="row" class="fw-normal text-center">5</th><td class="text-center">(15)</td></tr>
-			<tr><th scope="row" class="fw-normal text-center">6</th><td class="text-center">(18)</td></tr>
-			<tr><th scope="row" class="fw-normal text-center">7</th><td class="text-center">(21)</td></tr>
-			<tr><th scope="row" class="fw-normal text-center">8</th><td class="text-center">(24)</td></tr>
-			<tr><th scope="row" class="fw-normal text-center">9</th><td class="text-center">(27)</td></tr>
-			<tr><th scope="row" class="fw-normal text-center">10</th><td class="text-center">(30)</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td class="text-center">3</td><td class="text-center">90%</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td class="text-center">6</td><td class="text-center">75%</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3</th><td class="text-center">9</td><td class="text-center">60%</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">4</th><td class="text-center">12</td><td class="text-center">45%</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">5</th><td class="text-center">15</td><td class="text-center">30%</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">6</th><td class="text-center">18</td><td class="text-center">15%</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">7</th><td class="text-center">21</td><td class="text-center">&mdash;</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">8</th><td class="text-center">24</td><td class="text-center">&mdash;</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">9</th><td class="text-center">27</td><td class="text-center">&mdash;</td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10</th><td class="text-center">30</td><td class="text-center">&mdash;</td></tr>
 		</tbody>
 	</table>
-	<dl>
-		<dt>Level</dt>
-		<dd>Like the difficulty of a task, each creature and NPC has a level attached to it. You use the level to determine the target number a PC must reach to attack or defend against the opponent. In each entry, the difficulty number for the creature or NPC is listed in parentheses after its level. As shown on the following table, the target number is three times the level.</dd>
-		<dt>Description</dt>
-		<dd>Following the name of the creature or NPC is a general description of its appearance, nature, intelligence, or background.</dd>
-		<dt>Motive</dt>
-		<dd>This entry is a way to help the GM understand what a creature or NPC wants. Every creature or person wants something, even if it's just to be left alone.</dd>
-		<dt>Environment</dt>
-		<dd>This entry describes whether the creature tends to be solitary or travel in groups and what kind of terrain it inhabits (such as "They travel in packs through dry wastes and temperate lowlands").</dd>
-		<dt>Health</dt>
-		<dd>A creature's target number is usually also its health, which is the amount of damage it can sustain before it is dead or incapacitated. For easy reference, the entries always list a creature's health, even when it's the normal amount for a creature of its level.</dd>
-		<dt>Damage Inflicted</dt>
-		<dd>Generally, when creatures hit in combat, they inflict their level in damage regardless of the form of attack. Some inflict more or less or have a special modifier to damage. Intelligent NPCs often use weapons, but this is more a flavor issue than a mechanical one. In other words, it doesn't matter if a level 3 foe uses a sword or claws&mdash;it deals the same damage if it hits. The entries always specify the amount of damage inflicted, even if it's the normal amount for a creature of its level.</dd>
-		<dt>Armor</dt>
-		<dd>This is the creature's Armor value. Sometimes the number represents physical armor, and other times it represents natural protection. This entry doesn't appear in the game stats if a creature has no Armor.</dd>
-		<dt>Movement</dt>
-		<dd>Movement determines how far the creature can move in a single turn. Creatures have movements of immediate, short, long, or very long, which equate to the ranges of the same name. Most PCs have an effective movement of short, so if they are chasing (or being chased by) a creature with immediate movement, their Speed tasks are eased; if the creature's movement is long or greater, the PCs' Speed tasks are hindered.</dd>
-		<dt>Modifications</dt>
-		<dd>Use these default numbers when a creature's information says to use a different target number. For example, a level 4 creature might say "defends as level 5," which means PCs attacking it must roll a target number of 15 (for difficulty 5) instead of 12 (for difficulty 4). In special circumstances, some creatures have other modifications, but these are almost always specific to their level.</dd>
-		<dt>Combat</dt>
-		<dd>This entry gives advice on using the creature in combat, such as "This creature uses ambushes and hit-and-run tactics." At the end of the combat listing, you'll also find any special abilities, such as immunities, poisons, and healing skills. GMs should be logical about a creature's reaction to a particular action or attack by a PC. For example, a mechanical creation is immune to normal diseases, a character can't poison a being of energy (at least, not with a conventional poison), and so on.</dd>
-		<dt>Interaction</dt>
-		<dd>This entry gives advice on using the creature in interactions, such as "These creatures are willing to talk but respond poorly to threats," or "This creature is an animal and acts like an animal."</dd>
-		<dt>Use</dt>
-		<dd>This entry gives the GM suggestions for how to use the creature in a game session. It might provide general notes or specific adventure ideas.</dd>
-		<dt>Loot</dt>
-		<dd>This entry indicates what the PCs might gain if they take items from their fallen foes (or trade with or trick them). It doesn't appear in the game stats if the creature has no loot.</dd>
-		<dt>GM Intrusion</dt>
-		<dd>This optional entry in the stats suggests a way to use <a href="#gm-intrusion">GM intrusion</a> in an encounter with the creature. It's just one possible idea of many, and the GM is encouraged to come up with their own uses of the game mechanic.</dd>
-	</dl>
-	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3" id="create-a-new-creature-or-npc">
-		<p><strong>Editor's Notes</strong> &mdash; <a href="https://www.montecookgames.com/make-a-creature-in-10-minutes-or-less-2/">Make a Cypher System Creature in Ten Minutes or Less</a> by Cypher System designer <strong>Charles Ryan</strong> provides some excellent guidance on creating creatures or NPCs.</p>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Editor's Notes</strong> &mdash; This table has been amended by the editor to include task success rates as a percentage. Remember to read the modifications for creatures you employ, and consider a few appropriate modifications for creatures you improvise!</p>
+	</div>
+	<div class="alert bg-dark ps-4">
+		<dl>
+			<dt>Level</dt>
+			<dd>Like the difficulty of a task, each creature and NPC has a level attached to it. You use the level to determine the target number a PC must reach to attack or defend against the opponent. In each entry, the difficulty number for the creature or NPC is listed in parentheses after its level. As shown on the following table, the target number is three times the level.</dd>
+			<dt>Description</dt>
+			<dd>Following the name of the creature or NPC is a general description of its appearance, nature, intelligence, or background.</dd>
+			<dt>Motive</dt>
+			<dd>This entry is a way to help the GM understand what a creature or NPC wants. Every creature or person wants something, even if it's just to be left alone.</dd>
+			<dt>Environment</dt>
+			<dd>This entry describes whether the creature tends to be solitary or travel in groups and what kind of terrain it inhabits (such as "They travel in packs through dry wastes and temperate lowlands").</dd>
+			<dt>Health</dt>
+			<dd>A creature's target number is usually also its health, which is the amount of damage it can sustain before it is dead or incapacitated. For easy reference, the entries always list a creature's health, even when it's the normal amount for a creature of its level.</dd>
+			<dt>Damage Inflicted</dt>
+			<dd>Generally, when creatures hit in combat, they inflict their level in damage regardless of the form of attack. Some inflict more or less or have a special modifier to damage. Intelligent NPCs often use weapons, but this is more a flavor issue than a mechanical one. In other words, it doesn't matter if a level 3 foe uses a sword or claws&mdash;it deals the same damage if it hits. The entries always specify the amount of damage inflicted, even if it's the normal amount for a creature of its level.</dd>
+			<dt>Armor</dt>
+			<dd>This is the creature's Armor value. Sometimes the number represents physical armor, and other times it represents natural protection. This entry doesn't appear in the game stats if a creature has no Armor.</dd>
+			<dt>Movement</dt>
+			<dd>Movement determines how far the creature can move in a single turn. Creatures have movements of immediate, short, long, or very long, which equate to the ranges of the same name. Most PCs have an effective movement of short, so if they are chasing (or being chased by) a creature with immediate movement, their Speed tasks are eased; if the creature's movement is long or greater, the PCs' Speed tasks are hindered.</dd>
+			<dt>Modifications</dt>
+			<dd>Use these default numbers when a creature's information says to use a different target number. For example, a level 4 creature might say "defends as level 5," which means PCs attacking it must roll a target number of 15 (for difficulty 5) instead of 12 (for difficulty 4). In special circumstances, some creatures have other modifications, but these are almost always specific to their level.</dd>
+			<dt>Combat</dt>
+			<dd>This entry gives advice on using the creature in combat, such as "This creature uses ambushes and hit-and-run tactics." At the end of the combat listing, you'll also find any special abilities, such as immunities, poisons, and healing skills. GMs should be logical about a creature's reaction to a particular action or attack by a PC. For example, a mechanical creation is immune to normal diseases, a character can't poison a being of energy (at least, not with a conventional poison), and so on.</dd>
+			<dt>Interaction</dt>
+			<dd>This entry gives advice on using the creature in interactions, such as "These creatures are willing to talk but respond poorly to threats," or "This creature is an animal and acts like an animal."</dd>
+			<dt>Use</dt>
+			<dd>This entry gives the GM suggestions for how to use the creature in a game session. It might provide general notes or specific adventure ideas.</dd>
+			<dt>Loot</dt>
+			<dd>This entry indicates what the PCs might gain if they take items from their fallen foes (or trade with or trick them). It doesn't appear in the game stats if the creature has no loot.</dd>
+			<dt>GM Intrusion</dt>
+			<dd>This optional entry in the stats suggests a way to use <a href="#gm-intrusion">GM intrusion</a> in an encounter with the creature. It's just one possible idea of many, and the GM is encouraged to come up with their own uses of the game mechanic.</dd>
+		</dl>
 	</div>
 	<hr>
 	<div class="alert bg-dark ps-4">
 		<h4 class="og-csrd-header-small" id="normal-animals">Normal Animals<a class="og-csrd-header-anchor" href="#normal-animals" title="Permalink" aria-hidden="true"></a></h4>
 		<p>Unlike many creatures in this chapter, normal animals are simple and understandable enough to be encapsulated by just their level and maybe one or two other stats.</p>
-		<ul class="list-unstyled og-csrd-indent-hang">
-			<li><strong>Bear, black:</strong> level 3, attacks as level 4</li>
-			<li><strong>Bear, grizzly:</strong> level 5; health 20; Armor 1</li>
-			<li><strong>Dog:</strong> level 2, perception as level 3</li>
-			<li><strong>Dog, guard:</strong> level 3, attacks and perception as level 4</li>
-			<li><strong>Hawk:</strong> level 2; flies a long distance each round</li>
-			<li><strong>Horse:</strong> level 3; moves a long distance each round</li>
-			<li><strong>Rat:</strong> level 1</li>
-			<li><strong>Rattlesnake:</strong> level 2; bite inflicts 3 points of Speed damage (ignores Armor)</li>
-		</ul>
+		<dl>
+			<dt>Bear, black</dt>
+			<dd>level 3, attacks as level 4</dd>
+			<dt>Bear, grizzly</dt>
+			<dd>level 5; health 20; Armor 1</dd>
+			<dt>Dog</dt>
+			<dd>level 2, perception as level 3</dd>
+			<dt>Dog, guard</dt>
+			<dd>level 3, attacks and perception as level 4</dd>
+			<dt>Hawk</dt>
+			<dd>level 2; flies a long distance each round</dd>
+			<dt>Horse</dt>
+			<dd>level 3; moves a long distance each round</dd>
+			<dt>Rat</dt>
+			<dd>level 1</dd>
+			<dt>Rattlesnake</dt>
+			<dd>level 2; bite inflicts 3 points of Speed damage (ignores Armor)</dd>
+		</dl>
 		<p class="og-csrd-indent"><strong>Bigger and Tougher:</strong> If you need a larger or tougher version of a creature, such as a dire wolf or a giant crocodile, you can just increase the creature's level (and all of its modifications) by 1 or 2. If the creature has a damage or health stat that isn't the default for its level, take that into account at the modified creature's new level.</p>
 		<p class="og-csrd-indent">A simple rule of thumb is to double a creature's size (length, width, and height) for every level it increases.</p>
+	</div>
+	<div class="alert bg-dark ps-4 og-csrd-edrule">
+		<h4 id="create-a-new-creature-or-npc">Create a New Creature or NPC <a class="og-csrd-header-anchor" href="#create-a-new-creature-or-npc" title="Permalink" aria-hidden="true"></a></h4>
+		<p>It doesn't take a lot of preparation to create a memorable creature or NPC. You don't have to follow all of the following steps, but if you find yourself more time and energy, take the next step on the checklist:</p>
+		<ul class="list-unstyled og-csrd-indent-hang">
+			<li><p><strong>Level, Motive, and Combat:</strong> Decide on the <a href="#understanding-the-listings">level</a>, motive and general combat tactics of the NPC.</p></li>
+			<li><p><strong>Modifications:</strong> Decide what is most important about the NPC for your purposes. This might be defining its movement, tasks it is particularly skilled with, or weaknesses it might have with certain tasks. Consider how the creature thinks and behaves&mdash;especially if the PCs might try to interact with it, and if it requires any signature combat tactics or special abilities. Describing for players what the creature does is important&mdash;descrbing <em>how the NPC does it</em> is equally important. If it's supposed to be creepy, detail that creepiness.</p></li>
+			<li><p><strong>GM Intrusion:</strong> Consider what might happens if a player triggers a <a href="#gm-intrusion">GM intrusion</a>, or create a twist you'd like to be able to propose in an encounter.</p></li>
+			<li><p><strong>Health:</strong> A creature's health dictates how long it will survive in combat. A party of four Tier 1&ndash;2 characters typically inflict 10 points of damage each round. Tier 3&ndash;4 characters typically inflict 16 points of damage, and 5&ndash;6 characters typically inflict 22 points per round.</li>
+			<li><p><strong>Armor:</strong> <a href="#rules-armor">Armor</a> reduces how quickly an NPC's health is depleted. One point of Armor is typically equivalent to adding 6&ndash;7 points of health.</p></li>
+			<li><p><strong>Damage Inflicted:</strong> You can increase damage inflicted if neccesary. Even low-level creatures inflict at least 2&ndash;3 points of damage. During combat, creatures typically damage the PCs twice.</p></li>
+			<li><p><strong>Special Damage:</strong> Decide if the the creature can inflict any kind of <a href="#special-damage">special damage</a>&mdash;venom, entanglement, stun, mental control, temporary reductions to Pools, even moving characters down <a href="#the-damage-track">the damage track</a> without depleting their Pools. If employing such effects, decide on conditions that alleviate them, for example, a successful Might defense roll made each hour, a successful healing task against the level of a poison, or completing a 10-hour <a href="#recovery-rolls">recovery roll</a>. These effects can certainly make an NPC more interesting, but don't overuse them.</p></li>
+			<li><p><strong>Use and Loot:</strong> Describe at least one way the party might be likely to discover or encounter the creature. If the creature is likely to have any useful loot, such as a cypher, equipment, or part of its body, note that, too.</p></li>
+		</ul>
+	</div>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Editor's Notes</strong> &mdash; Creating a New Creature or NPC is based on the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/make-a-creature-in-10-minutes-or-less-2/">Make a Cypher System Creature in Ten Minutes or Less</a> blog post by Charles Ryan, paraphrased by the editor.</p>
 	</div>
 	<hr>
 	<h4 id="creatures">Creatures<a class="og-csrd-header-anchor" href="#creatures" title="Permalink" aria-hidden="true"></a></h4>
@@ -27751,29 +27905,39 @@
 			<li><span class="float-end">9</span><a href="#npc-aine-fairy-queen-of-light-and-love">Áine, Fairy Queen of Light and Love</a> <span class="og-csrd-ref">(WAAMH, 124)</span>&dagger;</li>
 			<li><span class="float-end">9</span><a href="#npc-grainne-the-wayward-daughter">Gráinne, the Wayward Daughter</a> <span class="og-csrd-ref">(WAAMH, 125)</span>&dagger;</li>
 			<li>or <a href="#other-npcs">Other NPCs</a></li>
-			<li>or <a href="#creatures-by-level">Creatures</a> (includes NPCs by Genre)</li>
+			<li>or <a href="#creatures-by-level">Creatures</a> (includes additional NPCs by genre)</li>
+			<li>or <a href="#create-a-new-creature-or-npc">Create a New Creature or NPC</a></li>
 		</ul>
+		<p class="small og-csrd-indent-hang">&dagger; denotes an NPC not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
+		<p class="small og-csrd-indent-hang">&ddagger; denotes an NPC with updates to printed material.</p>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; The editor has placed some of the <a href="#creatures-by-level">creatures</a> in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a> as NPCs instead. Monte Cook Games also provides an online <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/cypher-system-creature-search/">Cypher System Creature Index</a> that includes creatures from across their published material.</p>
-		<p class="og-csrd-indent-hang">&dagger; denotes an NPC not presented in the <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a>.</p>
-		<p class="og-csrd-indent-hang">&ddagger; denotes an NPC with updates to printed material.</p>
 	</div>
 	<hr>
 	<div class="alert bg-dark ps-4">
 		<h4 class="og-csrd-header-small" id="other-npcs">Other NPCs<a class="og-csrd-header-anchor" href="#other-npcs" title="Permalink" aria-hidden="true"></a></h4>
 		<p>Many NPCs are simple and understandable enough to be encapsulated just by their level and a few other other relevant stats.</p>
-		<ul class="list-unstyled og-csrd-indent-hang">
-			<li><p><strong>Cannibal:</strong> level 3, deception and other interaction tasks as level 6; health 12</p></li>
-			<li><p><strong>Hacker:</strong> level 2; programming, digital infiltration, and repairing computers as level 7</p></li>
-			<li><p><strong>Mad scientist:</strong> level 4, most actions as level 6 due to gadgets, serums, artifacts, etc.</p></li>
-			<li><p><strong>Marauder:</strong> level 4, initiative and intimidation as level 7; health 28; Armor 1</p></li>
-			<li><p><strong>Master detective:</strong> level 5; perception, intuition, initiative, and detecting falsehood as level 9</p></li>
-			<li><p><strong>Politician:</strong> level 2, all interaction tasks as level 6</p></li>
-			<li><p><strong>Priest:</strong> level 2, religious lore and all interaction tasks as level 6</p></li>
-			<li><p><strong>Professor:</strong> level 2, knowledge of science and all interaction tasks as level 6</p></li>
-			<li><p><strong>Soldier:</strong> level 3, perception as level 4; health 12; Armor 1; attacks inflict 5 points of damage</p></li>
-		</ul>
+		<dl>
+			<dt>Cannibal</dt>
+			<dd>level 3, deception and other interaction tasks as level 6; health 12</dd>
+			<dt>Hacker</dt>
+			<dd>level 2; programming, digital infiltration, and repairing computers as level 7</dd>
+			<dt>Mad scientist</dt>
+			<dd>level 4, most actions as level 6 due to gadgets, serums, artifacts, etc.</dd>
+			<dt>Marauder</dt>
+			<dd>level 4, initiative and intimidation as level 7; health 28; Armor 1</dd>
+			<dt>Master detective</dt>
+			<dd>level 5; perception, intuition, initiative, and detecting falsehood as level 9</dd>
+			<dt>Politician</dt>
+			<dd>level 2, all interaction tasks as level 6</dd>
+			<dt>Priest</dt>
+			<dd>level 2, religious lore and all interaction tasks as level 6</dd>
+			<dt>Professor</dt>
+			<dd>level 2, knowledge of science and all interaction tasks as level 6</dd>
+			<dt>Soldier</dt>
+			<dd>level 3, perception as level 4; health 12; Armor 1; attacks inflict 5 points of damage</dd>
+		</dl>
 	</div>
 	<hr>
 	<h5 class="og-csrd-tabbed-item text-white" id="npc-aine-fairy-queen-of-light-and-love">Áine, Fairy Queen of Light and Love <span class="float-end">9 (27)</span><a class="og-csrd-header-anchor" href="#npc-aine-fairy-queen-of-light-and-love" title="Permalink" aria-hidden="true"></a></h5>
@@ -31041,6 +31205,7 @@
 				<th class="vertical-align-bottom text-center" scope="col">Task Difficulty</th>
 				<th class="vertical-align-bottom" scope="col">Description</th>
 				<th class="vertical-align-bottom text-center" scope="col">Target Number</th>
+				<th class="vertical-align-bottom text-center" scope="col">Task Success Rate</th>
 				<th class="vertical-align-bottom" scope="col">Guidance</th>
 			</tr>
 		</thead>
@@ -31048,71 +31213,85 @@
 			<tr>
 				<th class="text-center fw-normal" scope="row">0</th>
 				<td class="">Routine</td>
-				<td class="text-center">(0)</td>
+				<td class="text-center">0</td>
+				<td class="text-center">100%</td>
 				<td class="">Anyone can do this basically every time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">1</th>
 				<td class="">Simple</td>
-				<td class="text-center">(3)</td>
+				<td class="text-center">3</td>
+				<td class="text-center">90%</td>
 				<td class="">Most people can do this most of the time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">2</th>
 				<td class="">Standard</td>
-				<td class="text-center">(6)</td>
+				<td class="text-center">6</td>
+				<td class="text-center">75%</td>
 				<td class="">Typical task requiring focus, but most people can usually do this.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">3</th>
 				<td class="">Demanding</td>
-				<td class="text-center">(9)</td>
+				<td class="text-center">9</td>
+				<td class="text-center">60%</td>
 				<td class="">Requires full attention; most people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">4</th>
 				<td class="">Difficult</td>
-				<td class="text-center">(12)</td>
+				<td class="text-center">12</td>
+				<td class="text-center">45%</td>
 				<td class="">Trained people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">5</th>
 				<td class="">Challenging</td>
-				<td class="text-center">(15)</td>
+				<td class="text-center">15</td>
+				<td class="text-center">30%</td>
 				<td class="">Even trained people often fail.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">6</th>
 				<td class="">Intimidating</td>
-				<td class="text-center">(18)</td>
+				<td class="text-center">18</td>
+				<td class="text-center">15%</td>
 				<td class="">Normal people almost never succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">7</th>
 				<td class="">Formidable</td>
-				<td class="text-center">(21)</td>
+				<td class="text-center">21</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">Impossible without skills or great effort.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">8</th>
 				<td class="">Heroic</td>
-				<td class="text-center">(24)</td>
+				<td class="text-center">24</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">A task worthy of tales told for years afterward.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">9</th>
 				<td class="">Immortal</td>
-				<td class="text-center">(27)</td>
+				<td class="text-center">27</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">A task worthy of legends that last lifetimes.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">10</th>
 				<td class="">Impossible</td>
-				<td class="text-center">(30)</td>
+				<td class="text-center">30</td>
+				<td class="text-center">&mdash;</td>
 				<td class="">A task that normal humans couldn't consider (but one that doesn't break the laws of physics).</td>
 			</tr>
 		</tbody>
 	</table>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Editor's Notes</strong> &mdash; This table has been amended by the editor to include task success rates as a percentage.</p>
+	</div>
 	<p class="og-csrd-indent">For example, we make the distinction between something that most people can do and something that trained people can do. In this case, "normal" means someone with absolutely no training, talent, or experience&mdash;imagine your ne'er-do-well, slightly overweight uncle trying a task he's never tried before. "Trained" means the person has some level of instruction or experience but is not necessarily a professional.</p>
 	<p class="og-csrd-indent">With that in mind, think about the act of balance. With enough focus, most people can walk across a narrow bridge (like a fallen tree trunk). That suggests it is difficulty 2. However, walking across a narrow plank that's only 3 inches (8 cm) wide? That's probably more like difficulty 3. Now consider walking across a tightrope. That's probably difficulty 5&mdash;a normal person can manage that only with a great deal of luck. Someone with some training can give it a go, but it's still hard. Of course, a professional acrobat can do it easily. Consider, however, that the professional acrobat is specialized in the task, making it difficulty 3 for them. They probably are using <a href="#effort">Effort</a> as well during their performance.</p>
 	<p class="og-csrd-indent">Let's try another task. This time, consider how hard it might be to remember the name of the previous leader of the village where the character lives. The difficulty might be 0 or 1, depending on how long ago they were the leader and how well known they were. Let's say it was thirty years ago and they were only mildly memorable, so it's difficulty 1. Most people remember them, and with a little bit of effort, anyone can come up with their name. Now let's consider the name of the leader's daughter. That's much harder. Assuming the daughter wasn't famous in her own right, it's probably difficulty 4. Even people who know a little about local history (that is to say, people who are trained in the subject) might not be able to remember it. But what about the name of the pet dog owned by the daughter's spouse? That's probably impossible. Who's going to remember the name of an obscure person's pet from thirty years ago? Basically no one. However, it's not forbidden knowledge or a well-guarded secret, so it sounds like difficulty 7. Difficulty 7 is the rating that means "No one can do this, yet some people still do." It's not the stuff of legend, but it's something you would assume people can't do. When you think there's no way you can get tickets for a sold-out concert, but somehow your friend manages to score a couple anyway, that's difficulty 7. (See the next section for more on difficulties 7, 8, 9, and 10.)</p>
@@ -31514,6 +31693,7 @@
 		<h5 class="og-csrd-header-small" id="choose-optional-house-rules">House Rules and Clarifications<a class="og-csrd-header-anchor" href="#choose-optional-house-rules" title="Permalink" aria-hidden="true"></a></h5>
 		<p>These unofficial "house rules" and clarifications are informed by long-time GMs and afficionados of the Cypher System and compiled by the editor. These rules alter the Cypher System to simplify or complicate aspects of the game.</p>
 		<ul class="list-unstyled og-csrd-quick-reference">
+			<li><a href="#create-a-new-creature-or-npc">Create a New Creature or NPC</a></li>
 			<li><a href="#house-rule-effort-for-npcs">Effort for NPCs</a></li>
 			<li><a href="#house-rule-healing-limitations">Healing Limitations</a></li>
 			<li><a href="#clarification-effort-and-edge">Effort and Edge</a></li>
