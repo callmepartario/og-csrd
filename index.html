@@ -102,7 +102,7 @@
 		OG-CSRD
 		<span class="og-csrd-chapter">Old Gus' Cypher System Reference Document</span>
 	</h1>
-	<p class="small text-center">version 1.32h (2023-08-03)</p>
+	<p class="small text-center">version 1.32i (2023-08-04)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Player's Guide: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSPG</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Cypher Decks: <abbr title="Old Gus' Cypher Decks">OG-CD</abbr></a></li>
@@ -571,6 +571,9 @@
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>When applying Effort to melee attacks, you have the option of spending points from either your Might Pool or your Speed Pool. When making ranged attacks, you may spend points only from your Speed Pool. This reflects that with melee you sometimes use brute force and sometimes use finesse, but with ranged attacks, it's always about careful targeting.</p>
 	</div>
+	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>Editor's Notes</strong> &mdash; For more on <a href="#modifying-the-difficulty-effort">Effort</a>, see <a href="#chapter-11-rules-of-the-game">Chapter 11: Rules of the Game</a>.</p>
+	</div>
 	<h5 id="effort-and-damage">Effort and Damage<a class="og-csrd-header-anchor" href="#effort-and-damage" title="Permalink" aria-hidden="true"></a></h5>
 	<p>Instead of applying Effort to ease your <a href="#action-attack">attack</a>, you can apply Effort to increase the amount of <a href="#rules-damage">damage</a> you inflict with an attack. For each level of Effort you apply in this way, you inflict 3 additional points of damage. This works for any kind of attack that inflicts damage, whether a sword, a crossbow, a mind blast, or something else.</p>
 	<p class="og-csrd-indent">When using Effort to increase the damage of an <a href="#special-situation-area-attacks">area attack</a>, such as the explosion created by an <a href="#type-adept">Adept</a>'s <a href="#ability-concussion">Concussion</a> ability, you inflict 2 additional points of damage instead of 3 points. However, the additional points are dealt to all targets in the area. Further, even if one or more of the targets resist the attack, they still take 1 point of damage.</p>
@@ -580,14 +583,14 @@
 	<p class="og-csrd-indent">You can use Edge for a particular stat only once per action. For example, if you apply Effort to a Might attack roll and to your damage, you can use your Might Edge to reduce the cost of one of those uses of Effort, not both. If you spend 1 Intellect point to activate your mind blast and one level of Effort to ease the attack roll, you can use your Intellect Edge to reduce the cost of one of those things, not both.</p>
 	<div class="alert bg-dark ps-4 og-csrd-edrule">
 		<h5 id="clarification-effort-and-edge">Clarification: Effort and Edge<a class="og-csrd-header-anchor" href="#clarification-effort-and-edge" title="Permalink" aria-hidden="true"></a></h5>
-		<p>This isn't so much a rule as a clarification on <a href="#multiple-uses-of-effort-and-edge">Multiple Uses of Effort and Edge</a>. The final paragraph of this section might make it sound like costs for ability use any given use of Effort are separate, potentially causing a remainder of Edge to go to waste, but this isn't the case. When resolving a task:</p>
+		<p>This isn't so much a rule as a clarification on <a href="#multiple-uses-of-effort-and-edge">Multiple Uses of Effort and Edge</a>. The final paragraph of this section might make it sound like costs for ability use any given use of Effort are separate, potentially causing a remainder of Edge to go to waste, but this isn't the case. When resolving an action:</p>
 		<ol>
 			<li>Total all <a href="#pool">Pool</a> costs for the <a href="#rules-determining-task-stat">task stat</a>&mdash;including <a href="#effort">Effort</a> used, <a href="#special-abilities">special abilities</a> activated, Speed Effort additional costs due to <a href="#equipment-using-armor">using armor</a>, or an <a href="#rules-initial-cost">initial cost</a> determined by the GM.</li>
 			<li>Next, subtract your stat's <a href="#edge">Edge</a> from the total, and pay any remaining costs from your stat Pool.</li>
 			<li>Most of the time, all costs will be paid from the same Pool, but an Enabler ability might cause a different Pool incur a cost as part of the same action. Repeat these steps for any other stat that incurred a cost during the task.</li>
 		</ol>
 		<p class="og-csrd-indent">The following table displays the number of Pool points spent by using levels of Effort, adjusted for Edge. Most of the time, you can consult the table, then add any costs from special abilities or initial costs incurred by the task for a total.</p>
-		<h6 class="og-csrd-header-small" id="pool-costs-for-simplified-effort">Pool Costs for Simplified Effort and Edge<a class="og-csrd-header-anchor" href="#pool-costs-for-simplified-effort" title="Permalink" aria-hidden="true"></a></h6>
+		<h6 class="og-csrd-header-small" id="pool-costs-for-effort-and-edge">Pool Costs for Effort and Edge<a class="og-csrd-header-anchor" href="#pool-costs-for-effort-and-edge" title="Permalink" aria-hidden="true"></a></h6>
 		<table class="table table-dark table-striped table-sm">
 			<caption>Pool Costs for Simplified Effort and Edge</caption>
 			<thead>
@@ -694,6 +697,13 @@
 		<ul class="list-unstyled og-csrd-indent-hang small">
 			<li>* <a href="#drawbacks-and-penalties">Weakness</a> is like negative edge. If PC pays any points for performing the task from a stat with which they have a weakness, the cost is increased still by 1, even if no Effort was used.</li>
 		</ul>
+		<h6 class="og-csrd-header-small" id="actions-with-multiple-tasks">Actions with Multiple Tasks<a class="og-csrd-header-anchor" href="#actions-with-multiple-tasks" title="Permalink" aria-hidden="true"></a></h6>
+		<p>The Cypher System uses words like "action", "task", and "roll" almost interchangeably, but there are subtle differences between them. When a PC <a href="#rules-taking-action">takes action</a>, the GM (or rules) frequently <a href="#rules-determining-task-stat">call for a task</a> with a <a href="#rules-determining-task-difficulty">difficulty</a> assigned by the GM. As a general rule, PCs can spend <a href="#modifying-the-difficulty-effort">Effort</a> on each task as one way of  <a href="#modifying-the-difficulty">modifying the difficulty</a>. Unless the difficulty is reduced to 0, the player <a href="#rules-rolling-the-die">rolls the die</a>.</p>
+		<p class="og-csrd-indent">Because <a href="#rules-the-player-always-rolls">the player always rolls</a>, PCs often have to frantically perform actions and tasks, even when it isn't their turn. For example, PC fighting a giant squid might spend Effort on several Speed <a href="#action-defend">defense</a> tasks between one turn and the next. On the PC's turn, they have a lot more agency when it comes to the action they take. Most of the time, a PCs action only prompts one task, but there are other possibilities.</p>
+		<p class="og-csrd-indent">For example, let's say a PC wants to use their action to <a href="#action-move">move a short distance and make an attack</a>. If the PC fails the assigned difficulty 4 Speed task, the PC doesn't get to make the attack. Because using Effort might make the difference, forcing the PC to decide how much Effort to withhold for a second task&dash;one that might not occur&mdash;only complicates their decision-making.</p>
+		<p class="og-csrd-indent">By resolving each task separately when possible, the Cypher System establishes a system of player-enforced <a href="#rules-initial-cost">Initial Costs</a> for pushing the limits of what can normally be accomplished with an action on a turn.</p>
+		<p class="og-csrd-indent">A few <a href="#special-abilities">special abilities</a> allow PCs to perform multiple tasks "as part of the same action", for example, <a href="#ability-dual-light-wield">Dual Light Wield</a> and <a href="#ability-fleet-of-foot">Fleet of Foot</a>. in these instances , the ability will explain special uses for Effort, and any restrictions on diving it among multiple tasks being made as part of the same action. A few other abilities include options in addition to the normal options for using Effort, for example, <a href="#ability-hemorrhage">Hemorrhage</a> and <a href="#ability-reveal">Reveal</a>.</p>
+		<p class="og-csrd-indent">While using <a href="#effort">Effort</a> is usually limited by each task, your <a href="#edge">Edge</a> reduces <a href="#pool">Pool</a> point costs incurred by the entire action&mdash;even if that action prompted multiple tasks.</p>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Editor's Notes</strong> &mdash; House Rule: Simplified Effort and Edge is paraphrased by the editor from this <a href="https://twitter.com/brucecordell/status/1283056573498052609?s=46&t=LeMqlPUtcrzToqmb6zMVRg">clarifying social media post</a> by Cypher System designer Bruce R. Cordell.</p>
@@ -12717,12 +12727,12 @@
 	</div>
 	<hr>
 	<h4 id="rules-taking-action">Taking Action <a class="og-csrd-header-anchor" href="#rules-taking-action" title="Permalink" aria-hidden="true"></a></h4>
-	<p>Each character gets one turn each round. On a character's turn, they can do one thing&mdash;an action. All actions fall into one of three categories: Might, Speed, or Intellect (just like the three stats). Many actions require die rolls&mdash;rolling a d20.</p>
+	<p>Each character gets one turn each round. On a character's turn, they can do one thing&mdash;an action. All actions fall into one of three categories: Might, Speed, or Intellect (just like the three stats). Many actions require die rolls&mdash;<a href="#rules-rolling-the-die">rolling a d20</a>.</p>
 	<p class="og-csrd-indent">Every action performs a task, and every task has a difficulty that determines what number a character must reach or surpass with a die roll to succeed.</p>
 	<p class="og-csrd-indent">Most tasks have a difficulty of 0, which means the character succeeds automatically. For example, walking across a room, opening a door, and throwing a stone into a nearby bucket are all actions, but none of them requires a roll. Actions that are usually difficult or that become difficult due to the situation (such as shooting at a target in a blizzard) have a higher difficulty. These actions usually require a roll.</p>
 	<p class="og-csrd-indent">Some actions require a minimum expenditure of Might, Speed, or Intellect points. If a character cannot spend the minimum number of points needed to complete the action, they automatically fail at the task.</p>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p>A <a href="#rules-determining-task-difficulty">task</a> is any <a href="#choose-actions">action</a>, <a href="#chapter-9-abilities">ability</a>, interaction, or reaction&mdash;that requires a roll. A PC using their action doesn't always require a task (for example, those with a routine difficulty), and tasks are not always performed using the PC's action (for example, <a href="#action-defend">defending</a>).</p>
+		<p><strong>Editor's Notes</strong> &mdash; A list of common <a href="#rules-actions">actions</a> is provided later in this chapter.</p>
 	</div>
 	<h5 id="rules-determining-task-stat">Determining Task Stat <a class="og-csrd-header-anchor" href="#rules-determining-task-stat" title="Permalink" aria-hidden="true"></a></h5>
 	<p>Every task relates to one of a character's three stats: <a href="#might">Might</a>, <a href="#speed">Speed</a>, or <a href="#intellect">Intellect</a>. Physical activities that require strength, power, or endurance relate to Might. Physical activities that require agility, flexibility, or fast reflexes relate to Speed. Mental activities that require force of will, memory, or mental power relate to Intellect. This means you can generalize tasks into three categories: Might tasks, Speed tasks, and Intellect tasks. You can also generalize rolls into three categories: Might rolls, Speed rolls, and Intellect rolls.</p>
