@@ -355,8 +355,11 @@ ul.og-csrd-list-disc li {
 }
 .og-csrd-ednote {
 	border-color: #1DC7D3;
-	color: #17a0a9;
+	color: #cffcff;
 	background-color: #1f2733;
+}
+.og-csrd-ednote p strong {
+	color: #17a0a9;
 }
 .og-csrd-edrule {
 	border-color: #17a0a9 !important;
