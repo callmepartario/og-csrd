@@ -354,8 +354,7 @@ ul.og-csrd-list-disc li {
 	border-left: 0.25rem solid;
 }
 .og-csrd-ednote {
-	border-color: #1DC7D3;
-	color: #cffcff;
+	border-color: #17a0a9;
 	background-color: #1f2733;
 }
 .og-csrd-ednote p strong {
@@ -366,7 +365,7 @@ ul.og-csrd-list-disc li {
 	background-color: #1f2733 !important;
 }
 .og-csrd-edrule h4, .og-csrd-edrule h5, .og-csrd-edrule h6 {
-	color: #17a0a9 !important;
+	color: #7be7ee !important;
 }
 .og-csrd-sidebar { 
 	font-style: italic;
@@ -534,8 +533,8 @@ ul.og-csrd-technologies-fantastic li, .og-csrd-legend ul.og-csrd-legend-list li.
 	border-color: #89b;
 }
 .og-csrd-legend-edrule {
-	color: #1DC7D3 !important;
-	border-color: #1DC7D3 !important;
+	color: #17a0a9 !important;
+	border-color: #17a0a9 !important;
 }
 
 /* difficulty dial for how to play in chpater 11 */
