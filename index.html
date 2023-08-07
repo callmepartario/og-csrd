@@ -53,9 +53,9 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-gameplay" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gameplay</a>
 					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-gameplay">
+						<li><a class="dropdown-item" href="#choose-how-to-play-the-cypher-system">How to Play</a></li>
 						<li><a class="dropdown-item" href="#choose-rules">Rules of the Game</a></li>
-						<li><a class="dropdown-item" href="#character-stats">Character Stats</a></li>
-						<li><a class="dropdown-item" href="#pool-edge-and-effort">Pool, Edge, and Effort</a></li>
+						<li><a class="dropdown-item" href="#pool-edge-and-effort">Stats, Pool, Edge, and Effort</a></li>
 						<li><a class="dropdown-item" href="#choose-actions">Actions</a></li>
 						<li><a class="dropdown-item" href="#rules-rolling-the-die">Rolling the Die</a></li>
 						<li><a class="dropdown-item" href="#how-to-play-combat">Combat</a></li>
@@ -88,7 +88,7 @@
 						<li><a class="dropdown-item" href="#choose-attack-modifiers-and-special-situations">Attack Modifiers</a></li>
 						<li><a class="dropdown-item" href="#movement-modifiers">Movement Modifiers</a></li>
 						<li><a class="dropdown-item" href="#choose-optional-rules">Optional Rules</a></li>
-						<li><a class="dropdown-item" href="#choose-products">What's in the Book?</a></li>
+						<li><a class="dropdown-item" href="#choose-editorial-additions">Editorial Additions</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -102,7 +102,7 @@
 		OG-CSRD
 		<span class="og-csrd-chapter">Old Gus' Cypher System Reference Document</span>
 	</h1>
-	<p class="small text-center">version 1.32v (2023-08-06)</p>
+	<p class="small text-center">version 1.32w (2023-08-06)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Player's Guide: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSPG</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Cypher Decks: <abbr title="Old Gus' Cypher Decks">OG-CD</abbr></a></li>
@@ -264,15 +264,15 @@
 		How to Play the Cypher System
 	</h3>
 	<p>This chapter provides a brief explanation of how to play the game, and it's useful for learning the game. Once you understand the basic concepts, you'll likely want to reference <a href="#chapter-11-rules-of-the-game">Chapter 11: Rules of the Game</a> for a more in-depth treatment.</p>
-	<p>The Cypher System uses a twenty-sided die (1d20) to determine the results of most actions. Whenever a roll of any kind is called for and no die is specified, roll a d20.</p>
+	<p>The Cypher System uses a twenty-sided die (1d20) to determine the results of most <a href="#choose-actions">actions</a>. Whenever a roll of any kind is called for and no die is specified, roll a d20.</p>
 	<p class="og-csrd-indent">The game master (GM) sets a difficulty for any given task. There are ten degrees of difficulty. Thus, the difficulty of a task can be rated on a scale of 1 to 10.</p>
-	<p class="og-csrd-indent">Each difficulty has a target number associated with it. The target number is always three times the task's difficulty, so a difficulty 1 task has a target number of 3, but a difficulty 4 task has a target number of 12. To succeed at the task, you must roll the target number or higher. See the <a href="#running-task-difficulty">Task Difficulty</a> table for guidance in how this works.</p>
+	<p class="og-csrd-indent">Each difficulty has a target number associated with it. The target number is always three times the task's difficulty, so a difficulty 1 task has a target number of 3, but a difficulty 4 task has a target number of 12. To succeed at the task, you must roll the target number or higher. See the <a href="#how-to-play-task-difficulty">Task Difficulty</a> table for guidance in how this works.</p>
 	<p class="og-csrd-indent">Character skills, favorable circumstances, or excellent equipment can decrease the difficulty of a task. For example, if a character is trained in climbing, they turn a difficulty 6 climb into a difficulty 5 climb. This is called easing the difficulty by one step (or just easing the difficulty, which assumes it's eased by one step). If they are specialized in climbing, they turn a difficulty 6 climb into a difficulty 4 climb. This is called easing the difficulty by two steps. Decreasing the difficulty of a task can also be called easing a task. Some situations increase, or hinder, the difficulty of a task. If a task is hindered, it increases the difficulty by one step.</p>
 	<p class="og-csrd-indent">A skill is a category of knowledge, ability, or activity relating to a task, such as climbing, geography, or persuasiveness. A character who has a skill is better at completing related tasks than a character who lacks the skill. A character's level of skill is either trained (reasonably skilled) or specialized (very skilled).</p>
 	<p class="og-csrd-indent">If you are trained in a skill relating to a task, you ease the difficulty of that task by one step. If you are specialized, you ease the difficulty by two steps. A skill can never decrease a task's difficulty by more than two steps.</p>
 	<p class="og-csrd-indent">Anything else that reduces difficulty (help from an ally, a particular piece of equipment, or some other advantage) is referred to as an asset. Assets can never decrease a task's difficulty by more than two steps.</p>
 	<p class="og-csrd-indent">You can also decrease the difficulty of a given task by applying Effort.</p>
-	<p class="og-csrd-indent">To sum up, three things can decrease a task's difficulty: <a href="#skills">skills</a>, <a href="#modifying-the-difficulty-assets">assets</a>, and <a href="#effort">Effort</a>.</p>
+	<p class="og-csrd-indent">To sum up, three things can decrease a task's difficulty: <a href="#modifying-the-difficulty-skills">skills</a>, <a href="#modifying-the-difficulty-assets">assets</a>, and <a href="#modifying-the-difficulty-effort">Effort</a>.</p>
 	<p class="og-csrd-indent">If you can ease a task so its difficulty is reduced to 0, you automatically succeed and don't need to make a roll.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>Skills, assets, and effort are described in more detail in the <a href="#modifying-the-difficulty">Modifying the Difficulty</a> section of <a href="#chapter-11-rules-of-the-game">Chapter 11: Rules of the Game</a>.</p>
@@ -341,78 +341,78 @@
 			<tr>
 				<th class="text-center fw-normal" scope="row">0</th>
 				<td class="">Routine</td>
-				<td class="text-center">0</td>
+				<td class="text-center">(0)</td>
 				<td class="text-center">100%</td>
 				<td class="">Anyone can do this basically every time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">1</th>
 				<td class="">Simple</td>
-				<td class="text-center">3</td>
+				<td class="text-center">(3)</td>
 				<td class="text-center">90%</td>
 				<td class="">Most people can do this most of the time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">2</th>
 				<td class="">Standard</td>
-				<td class="text-center">6</td>
+				<td class="text-center">(6)</td>
 				<td class="text-center">75%</td>
 				<td class="">Typical task requiring focus, but most people can usually do this.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">3</th>
 				<td class="">Demanding</td>
-				<td class="text-center">9</td>
+				<td class="text-center">(9)</td>
 				<td class="text-center">60%</td>
 				<td class="">Requires full attention; most people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">4</th>
 				<td class="">Difficult</td>
-				<td class="text-center">12</td>
+				<td class="text-center">(12)</td>
 				<td class="text-center">45%</td>
 				<td class="">Trained people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">5</th>
 				<td class="">Challenging</td>
-				<td class="text-center">15</td>
+				<td class="text-center">(15)</td>
 				<td class="text-center">30%</td>
 				<td class="">Even trained people often fail.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">6</th>
 				<td class="">Intimidating</td>
-				<td class="text-center">18</td>
+				<td class="text-center">(18)</td>
 				<td class="text-center">15%</td>
 				<td class="">Normal people almost never succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">7</th>
 				<td class="">Formidable</td>
-				<td class="text-center">21</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(21)</td>
+				<td class="text-center">&minus;0%</td>
 				<td class="">Impossible without skills or great effort.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">8</th>
 				<td class="">Heroic</td>
-				<td class="text-center">24</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(24)</td>
+				<td class="text-center">&minus;15%</td>
 				<td class="">A task worthy of tales told for years afterward.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">9</th>
 				<td class="">Immortal</td>
-				<td class="text-center">27</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(27)</td>
+				<td class="text-center">&minus;30%</td>
 				<td class="">A task worthy of legends that last lifetimes.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">10</th>
 				<td class="">Impossible</td>
-				<td class="text-center">30</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(30)</td>
+				<td class="text-center">&minus;45%</td>
 				<td class="">A task that normal humans couldn't consider (but one that doesn't break the laws of physics).</td>
 			</tr>
 		</tbody>
@@ -538,38 +538,38 @@
 	</div>
 	<hr>
 	<h4 id="pool-edge-and-effort">Pool, Edge, and Effort<a class="og-csrd-header-anchor" href="#pool-edge-and-effort" title="Permalink" aria-hidden="true"></a></h4>
-	<p>Each of the three stats has two components: Pool and Edge. Your Pool represents your raw, innate ability, and your Edge represents knowing how to use what you have. A third element ties into this concept: Effort. When your character really needs to accomplish a task, you apply Effort.</p>
+	<p>Each of the three <a href="#character-stats">stats</a> has two components: <a href="#pool">Pool</a> and <a href="#edge">Edge</a>. Your Pool represents your raw, innate ability, and your Edge represents knowing how to use what you have. A third element ties into this concept: <a href="#effort">Effort</a>. When your character really needs to accomplish a task, you apply Effort.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p>Your stat Pools, as well as your Effort and Edge, are determined by the character type, descriptor, and focus that you choose. Within those guidelines, however, you have a lot of flexibility in how you develop your character.</p>
+		<p>Your stat Pools, as well as your Effort and Edge, are determined by the character <a href="#choose-type">type</a>, <a href="#choose-descriptor">descriptor</a>, and <a href="#choose-focus">focus</a> that you choose. Within those guidelines, however, you have a lot of flexibility in how you develop your character.</p>
 	</div>
 	<h5 id="pool">Pool<a class="og-csrd-header-anchor" href="#pool" title="Permalink" aria-hidden="true"></a></h5>
-	<p>Your Pool is the most basic measurement of a stat. Comparing the Pools of two creatures will give you a general sense of which creature is superior in that stat. For example, a character who has a Might Pool of 16 is stronger (in a basic sense) than a character who has a Might Pool of 12. Most characters start with a Pool of 9 to 12 in most stats&mdash;that's the average range.</p>
-	<p class="og-csrd-indent">When your character is injured, sickened, or attacked, you temporarily lose points from one of your stat Pools. The nature of the attack determines which Pool loses points. For example, physical damage from a sword reduces your Might Pool, a poison that makes you clumsy reduces your Speed Pool, and a psionic blast reduces your Intellect Pool. You can also spend points from one of your stat Pools to decrease a task's difficulty (see Effort, below). You can rest to recover lost points from a stat Pool, and some <a href="#special-abilities">special abilities</a> or <a href="#chapter-24-cyphers">cyphers</a> might allow you to recover lost points quickly.</p>
+	<p>Your Pool is the most basic measurement of a stat. Comparing the Pools of two creatures will give you a general sense of which creature is superior in that stat. For example, a character who has a <a href="#might">Might</a> Pool of 16 is stronger (in a basic sense) than a character who has a Might Pool of 12. Most characters start with a Pool of 9 to 12 in most stats&mdash;that's the average range.</p>
+	<p class="og-csrd-indent">When your character is injured, sickened, or attacked, you temporarily lose points from one of your stat Pools. The nature of the attack determines which Pool loses points. For example, physical damage from a sword reduces your Might Pool, a poison that makes you clumsy reduces your <a href="speed">Speed</a> Pool, and a psionic blast reduces your <a href="#intellect">Intellect</a> Pool. You can also spend points from one of your stat Pools to decrease a task's difficulty (see <a href="#effort">Effort</a>, below). You can rest to <a href="#recovery-rolls">recover lost points</a> from a stat Pool, and some <a href="#special-abilities">special abilities</a> or <a href="#chapter-24-cyphers">cyphers</a> might allow you to recover lost points quickly.</p>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3 small">
 		<p><strong>Editor's Notes &mdash;</strong> If you lose Pool points due to using <a href="#chapter-9-abilities">abilities</a> or taking <a href="#rules-damage">damage</a>, you can recover points in a pool with a <a href="#recovery-rolls">recovery roll</a>.</p>
 	</div>
 	<h5 id="edge">Edge<a class="og-csrd-header-anchor" href="#edge" title="Permalink" aria-hidden="true"></a></h5>
-	<p>Although your Pool is the basic measurement of a stat, your Edge is also important. When something requires you to spend points from a stat Pool, your Edge for that stat reduces the cost. It also reduces the cost of applying Effort to a roll.</p>
-	<p class="og-csrd-indent">For example, let's say you have a mental blast ability, and activating it costs 1 point from your Intellect Pool. Subtract your Intellect Edge from the activation cost, and the result is how many points you must spend to use the mental blast. If using your Edge reduces the cost to 0, you can use the ability for free.</p>
-	<p class="og-csrd-indent">Your Edge can be different for each stat. For example, you could have a Might Edge of 1, a Speed Edge of 1, and an Intellect Edge of 0. You'll always have an Edge of at least 1 in one stat. Your Edge for a stat reduces the cost of spending points from that stat Pool, but not from other Pools. Your Might Edge reduces the cost of spending points from your Might Pool, but it doesn't affect your Speed Pool or Intellect Pool. Once a stat's Edge reaches 3, you can apply one level of Effort for free.</p>
+	<p>Although your <a href="#pool">Pool</a> is the basic measurement of a stat, your Edge is also important. When something requires you to spend points from a stat Pool, your Edge for that stat reduces the cost. It also reduces the cost of applying <a href="#effort">Effort</a> to a roll.</p>
+	<p class="og-csrd-indent">For example, let's say you have a mental blast ability, and activating it costs 1 point from your <a href="#intellect">Intellect</a> Pool. Subtract your Intellect Edge from the activation cost, and the result is how many points you must spend to use the mental blast. If using your Edge reduces the cost to 0, you can use the ability for free.</p>
+	<p class="og-csrd-indent">Your Edge can be different for each stat. For example, you could have a <a href="#might">Might</a> Edge of 1, a <a href="#speed">Speed</a> Edge of 1, and an <a href="#intellect">Intellect</a> Edge of 0. You'll always have an Edge of at least 1 in one stat. Your Edge for a stat reduces the cost of spending points from that stat Pool, but not from other Pools. Your Might Edge reduces the cost of spending points from your Might Pool, but it doesn't affect your Speed Pool or Intellect Pool. Once a stat's Edge reaches 3, you can apply one level of Effort for free.</p>
 	<p class="og-csrd-indent">A character who has a low Might Pool but a high Might Edge has the potential to perform Might actions consistently better than a character who has a Might Edge of 0. The high Edge will let them reduce the cost of spending points from the Pool, which means they'll have more points available to spend on applying Effort.</p>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3 small">
-		<p><strong>Editor's Notes &mdash;</strong> One way to think about Edge is "effortlessness" &mdash; It represents what a PC can accomplish with a stat without having to try very hard or deplete a stat Pool.</p>
+		<p><strong>Editor's Notes &mdash;</strong> One way to think about Edge is "effortlessness" &mdash; It represents what a PC can accomplish with a stat without having to try very hard or deplete a stat Pool. For more information on Edge, see <a href="#clarification-effort-and-edge">Clarification: Effort and Edge</a>.</p>
 	</div>
 	<h5 id="effort">Effort<a class="og-csrd-header-anchor" href="#effort" title="Permalink" aria-hidden="true"></a></h5>
-	<p>When your character really needs to accomplish a task, you can apply Effort. For a beginning character, applying Effort requires spending 3 points from the stat Pool appropriate to the action. Thus, if your character tries to dodge an attack (a Speed roll) and wants to increase the chance for success, you can apply Effort by spending 3 points from your Speed Pool. Effort eases the task by one step. This is called applying one level of Effort.</p>
+	<p>When your character really needs to accomplish a task, you can apply Effort. For a beginning character, applying Effort requires spending 3 points from the stat <a href="#pool">Pool</a> appropriate to the action. Thus, if your character tries to dodge an attack (a Speed roll) and wants to increase the chance for success, you can apply Effort by spending 3 points from your <a href="#speed">Speed</a> Pool. Effort eases the task by one step. This is called applying one level of Effort.</p>
 	<p class="og-csrd-indent">You don't have to apply Effort if you don't want to. If you choose to apply Effort to a task, you must do it before you attempt the roll&mdash;you can't roll first and then decide to apply Effort if you rolled poorly.</p>
-	<p class="og-csrd-indent">Applying more Effort can lower a task's difficulty further: each additional level of Effort eases the task by another step. Applying one level of Effort eases the task by one step, applying two levels eases the task by two steps, and so on. However, each level of Effort after the first costs only 2 points from the stat Pool instead of 3. So applying two levels of Effort costs 5 points (3 for the first level plus 2 for the second level), applying three levels costs 7 points (3 plus 2 plus 2), and so on.</p>
+	<p class="og-csrd-indent">Applying more Effort can lower a task's <a href="#rules-determining-task-difficulty">difficulty</a> further: each additional level of Effort eases the task by another step. Applying one level of Effort eases the task by one step, applying two levels eases the task by two steps, and so on. However, each level of Effort after the first costs only 2 points from the stat Pool instead of 3. So applying two levels of Effort costs 5 points (3 for the first level plus 2 for the second level), applying three levels costs 7 points (3 plus 2 plus 2), and so on.</p>
 	<p class="og-csrd-indent">Every character has an Effort score, which indicates the maximum number of levels of Effort that can be applied to a roll. A beginning (first-tier) character has an Effort of 1, meaning you can apply only one level of Effort to a roll. A more experienced character has a higher Effort score and can apply more levels of Effort to a roll. For example, a character who has an Effort of 3 can apply up to three levels of Effort to reduce a task's difficulty.</p>
-	<p class="og-csrd-indent">When you apply Effort, subtract your relevant Edge from the total cost of applying Effort. For example, let's say you need to make a Speed roll. To increase your chance for success, you decide to apply one level of Effort, which will ease the task. Normally, that would cost 3 points from your Speed Pool. However, you have a Speed Edge of 2, so you subtract that from the cost. Thus, applying Effort to the roll costs only 1 point from your Speed Pool.</p>
+	<p class="og-csrd-indent">When you apply Effort, subtract your relevant <a href="#edge">Edge</a> from the total cost of applying Effort. For example, let's say you need to make a Speed roll. To increase your chance for success, you decide to apply one level of Effort, which will ease the task. Normally, that would cost 3 points from your Speed Pool. However, you have a Speed Edge of 2, so you subtract that from the cost. Thus, applying Effort to the roll costs only 1 point from your Speed Pool.</p>
 	<p class="og-csrd-indent">What if you applied two levels of Effort to the Speed roll instead of just one? That would ease the task by two steps. Normally, it would cost 5 points from your Speed Pool, but after subtracting your Speed Edge of 2, it costs only 3 points.</p>
 	<p class="og-csrd-indent">Once a stat's Edge reaches 3, you can apply one level of Effort for free. For example, if you have a Speed Edge of 3 and you apply one level of Effort to a Speed roll, it costs you 0 points from your Speed Pool. (Normally, applying one level of Effort would cost 3 points, but you subtract your Speed Edge from that cost, reducing it to 0.)</p>
-	<p class="og-csrd-indent">Skills and other advantages also ease a task, and you can use them in conjunction with Effort. In addition, your character might have <a href="#special-abilities">special abilities</a> or equipment that allow you to apply Effort to accomplish a special effect, such as knocking down a foe with an attack or affecting multiple targets with a power that normally affects only one.</p>
+	<p class="og-csrd-indent"><a href="#skills">Skills</a> and other advantages also ease a task, and you can use them in conjunction with Effort. In addition, your character might have <a href="#special-abilities">special abilities</a> or equipment that allow you to apply Effort to accomplish a special effect, such as knocking down a foe with an attack or affecting multiple targets with a power that normally affects only one.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p>When applying Effort to melee attacks, you have the option of spending points from either your Might Pool or your Speed Pool. When making ranged attacks, you may spend points only from your Speed Pool. This reflects that with melee you sometimes use brute force and sometimes use finesse, but with ranged attacks, it's always about careful targeting.</p>
+		<p>When applying Effort to melee attacks, you have the option of spending points from either your <a href="#might">Might</a> Pool or your <a href="#speed">Speed</a> Pool. When making ranged attacks, you may spend points only from your Speed Pool. This reflects that with melee you sometimes use brute force and sometimes use finesse, but with ranged attacks, it's always about careful targeting.</p>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3 small">
-		<p><strong>Editor's Notes &mdash;</strong> For more on <a href="#modifying-the-difficulty-effort">Effort</a>, see <a href="#chapter-11-rules-of-the-game">Chapter 11: Rules of the Game</a>.</p>
+		<p><strong>Editor's Notes &mdash;</strong> For more on Effort, see <a href="#clarification-effort-and-edge">Clarification: Effort and Edge</a> and <a href="#modifying-the-difficulty-effort">Effort</a> in <a href="#chapter-11-rules-of-the-game">Chapter 11: Rules of the Game</a>.</p>
 	</div>
 	<h5 id="effort-and-damage">Effort and Damage<a class="og-csrd-header-anchor" href="#effort-and-damage" title="Permalink" aria-hidden="true"></a></h5>
 	<p>Instead of applying Effort to ease your <a href="#action-attack">attack</a>, you can apply Effort to increase the amount of <a href="#rules-damage">damage</a> you inflict with an attack. For each level of Effort you apply in this way, you inflict 3 additional points of damage. This works for any kind of attack that inflicts damage, whether a sword, a crossbow, a mind blast, or something else.</p>
@@ -585,26 +585,21 @@
 	</div>
 	<div class="alert ps-4 og-csrd-edrule">
 		<h5 id="clarification-effort-and-edge">Clarification: Effort and Edge<a class="og-csrd-header-anchor" href="#clarification-effort-and-edge" title="Permalink" aria-hidden="true"></a></h5>
-		<p class="small"><em>This section is based on social media posts made by Cypher System designers <a href="https://twitter.com/brucecordell/status/1283056573498052609">Bruce R. Cordell</a> and  <a href="https://twitter.com/seankreynolds/status/1282740692674940928">Sean K. Reynolds</a>.</em></p>
+		<p class="small"><em>This section has been added by the editor, based on social media posts made by Cypher System designers <a href="https://twitter.com/brucecordell/status/1283056573498052609">Bruce R. Cordell</a> and  <a href="https://twitter.com/seankreynolds/status/1282740692674940928">Sean K. Reynolds</a>, and input from others.</em></p>
 		<hr>
-		<p>The final paragraph of <a href="#multiple-uses-of-effort-and-edge">Multiple Uses of Effort and Edge</a> might make it sound like costs for ability use any given use of Effort are separate, potentially causing a remainder of Edge to go to waste, but this isn't the case. Instead, when resolving an action:</p>
+		<p>The final paragraph of <a href="#multiple-uses-of-effort-and-edge">Multiple Uses of Effort and Edge</a> might make it sound like costs for ability use any given use of <a href="#effort">Effort</a> are separate, potentially causing a remainder of <a href="#edge">Edge</a> to go to waste, but this isn't the case. Instead, when resolving an action:</p>
 		<ol>
-			<li><p>Total all <a href="#pool">Pool</a> costs for the <a href="#rules-determining-task-stat">task stat</a>&mdash;including <a href="#effort">Effort</a> used, <a href="#special-abilities">special abilities</a> activated, Speed Effort additional costs due to <a href="#equipment-using-armor">using armor</a>, or an <a href="#rules-initial-cost">initial cost</a> determined by the GM. Most of the time, all costs are paid from the same Pool as the task stat, and resolved with a single task roll.</p></li>
-			<li><p>Subtract each stat's <a href="#edge">Edge</a> from its total point cost. Pay any remaining costs from your stat Pools.</p></li>
+			<li><p>Total all <a href="#pool">Pool</a> point costs for the <a href="#rules-determining-task-stat">task stat</a>&mdash;including Effort used, <a href="#special-abilities">special abilities</a> activated, <a href="#equipment-using-armor">Speed Effort cost</a> for wearing armor, or an <a href="#rules-initial-cost">initial cost</a> determined by the GM. Most of the time, all costs are paid from the same Pool as the task stat, and resolved with a single task roll.</p></li>
+			<li><p>Subtract each stat's Edge from its total point cost. Pay any remaining costs from your stat Pools.</p></li>
 		</ol>
-		<h6 class="og-csrd-header-small" id="actions-with-multiple-tasks">Actions with Multiple Tasks<a class="og-csrd-header-anchor" href="#actions-with-multiple-tasks" title="Permalink" aria-hidden="true"></a></h6>
-		<p>The Cypher System frequently uses words like "action", "task", and "roll" almost interchangeably, but there are subtle differences between them. When a PC <a href="#rules-taking-action">takes action</a>, the GM (or rules) frequently <a href="#rules-determining-task-stat">call for a task</a> with a <a href="#rules-determining-task-difficulty">difficulty</a> assigned by the GM. As a general rule, PCs can spend <a href="#modifying-the-difficulty-effort">Effort</a> on each task as one way of  <a href="#modifying-the-difficulty">modifying the difficulty</a>. Unless the difficulty is reduced to 0, the player <a href="#rules-rolling-the-die">rolls the die</a>.</p>
-		<p class="og-csrd-indent">Because <a href="#rules-the-player-always-rolls">the player always rolls</a>, PCs often have to frantically perform actions and tasks, even when it isn't their turn. For example, PC fighting a giant squid might spend Effort on several Speed <a href="#action-defend">defense</a> tasks between one turn and the next. On the PC's turn, they have a lot more agency when it comes to the action they take. Most of the time, a PC's action only prompts one task, but there are are exceptions.</p>
-		<p class="og-csrd-indent">For example, let's say a PC wants to use their action to <a href="#action-move">move a short distance and make an attack</a>. If the PC fails the assigned difficulty 4 Speed task, the PC doesn't get to make the attack at all. Using using Effort might make the difference, so forcing the PC to decide how much Effort to withhold for a second task&dash;one that might not occur&mdash;only complicates decision-making and slows down the game. By providing an opportunity to use of Efort on a prerequisite task, a GM naturally creates <a href="#rules-initial-cost">initial costs</a> for PCc pushing themselves to the limit with a chosen action.</p>
-		<p class="og-csrd-indent">A few <a href="#special-abilities">special abilities</a> allow PCs to perform multiple tasks "as part of the same action", for example, <a href="#ability-dual-light-wield">Dual Light Wield</a> <span class="og-csrd-ref">(132)</span> and <a href="#ability-fleet-of-foot">Fleet of Foot</a> <span class="og-csrd-ref">(141)</span>. in these instances , the ability will explain special uses for Effort, and any restrictions on diving it among multiple tasks being made as part of the same action. A few other abilities include options in addition to the normal options for using Effort, for example, <a href="#ability-hemorrhage">Hemorrhage</a> <span class="og-csrd-ref">(149)</span> and <a href="#ability-reveal">Reveal</a> <span class="og-csrd-ref">(178)</span>.</p>
-		<p class="og-csrd-indent">Remember that while use of <a href="#effort">Effort</a> is limited by each task, <a href="#edge">Edge</a> reduces stat <a href="#pool">Pool</a> point costs only once for an action&mdash;even if that action prompted multiple tasks.</p>
 		<h6 class="og-csrd-header-small" id="pool-costs-for-effort-and-edge">Pool Costs for Effort and Edge<a class="og-csrd-header-anchor" href="#pool-costs-for-effort-and-edge" title="Permalink" aria-hidden="true"></a></h6>
-		<p>The following table displays the number of Pool points spent by using levels of Effort, adjusted for Edge. Most of the time, you can consult the table, then add any costs from special abilities or initial costs incurred by the task for a total.</p>
+		<p>The following table displays levels of effort, their effective change in task <a href="#rules-determining-task-difficulty">difficulty</a>, and the number of <a href="#pool">Pool</a> points spent by using levels of <a href="#effort">Effort</a>, adjusted for <a href="#edge">Edge</a>. Most of the time, you can consult the table, then add any costs from <a href="#special-abilities">special abilities</a> or <a href="initial cost">initial cost</a> incurred by the task for a total.</p>
 		<table class="table table-dark table-striped table-sm">
 			<caption>Pool Costs for Simplified Effort and Edge</caption>
 			<thead>
 				<tr>
 					<th scope="col">Effort Used</th>
+					<th scope="col" class="text-center">Target Number Modification</th>
 					<th scope="col" class="text-center">Task Success Rate</th>
 					<th scope="col" class="text-center">1 Weakness</th>
 					<th scope="col" class="text-center">0 Edge</th>
@@ -620,6 +615,7 @@
 				<tr>
 					<th class="fw-normal" scope="row">0 levels</th>
 					<td class="text-center">&mdash;</td>
+					<td class="text-center">&mdash;</td>
 					<td class="text-center">0&ndash;1*</td>
 					<td class="text-center">&mdash;</td>
 					<td class="text-center">&mdash;</td>
@@ -631,6 +627,7 @@
 				</tr>
 				<tr>
 					<th class="fw-normal" scope="row">1 level</th>
+					<td class="text-center">&minus;3</td>
 					<td class="text-center">+15%</td>
 					<td class="text-center">4</td>
 					<td class="text-center">3</td>
@@ -643,6 +640,7 @@
 				</tr>
 				<tr>
 					<th class="fw-normal" scope="row">2 levels</th>
+					<td class="text-center">&minus;6</td>
 					<td class="text-center">+30%</td>
 					<td class="text-center">6</td>
 					<td class="text-center">5</td>
@@ -655,6 +653,7 @@
 				</tr>
 				<tr>
 					<th class="fw-normal" scope="row">3 levels</th>
+					<td class="text-center">&minus;9</td>
 					<td class="text-center">+45%</td>
 					<td class="text-center">8</td>
 					<td class="text-center">7</td>
@@ -667,6 +666,7 @@
 				</tr>
 				<tr>
 					<th class="fw-normal" scope="row">4 levels</th>
+					<td class="text-center">&minus;12</td>
 					<td class="text-center">+60%</td>
 					<td class="text-center">10</td>
 					<td class="text-center">9</td>
@@ -679,6 +679,7 @@
 				</tr>
 				<tr>
 					<th class="fw-normal" scope="row">5 levels</th>
+					<td class="text-center">&minus;15</td>
 					<td class="text-center">+75%</td>
 					<td class="text-center">12</td>
 					<td class="text-center">11</td>
@@ -691,6 +692,7 @@
 				</tr>
 				<tr>
 					<th class="fw-normal" scope="row">6 levels</th>
+					<td class="text-center">&minus;18</td>
 					<td class="text-center">+90%</td>
 					<td class="text-center">14</td>
 					<td class="text-center">13</td>
@@ -706,17 +708,28 @@
 		<ul class="list-unstyled og-csrd-indent-hang small">
 			<li>* <a href="#drawbacks-and-penalties">Weakness</a> is like negative edge. If PC pays any points for performing the task from a stat with which they have a weakness, the cost is increased still by 1, even if no Effort was used.</li>
 		</ul>
-		<hr>
-		<h5 id="house-rule-using-other-pools-to-pay-cost-remainders">House Rule: Using Other Pools to Pay Cost Remainders<a class="og-csrd-header-anchor" href="#house-rule-using-other-pools-to-pay-cost-remainders" title="Permalink" aria-hidden="true"></a></h5>
-		<p class="small"><em>The section has been added by the editor.</em></p>
-		<hr>
+		<h6 class="og-csrd-header-small" id="actions-with-multiple-tasks">Actions with Multiple Tasks<a class="og-csrd-header-anchor" href="#actions-with-multiple-tasks" title="Permalink" aria-hidden="true"></a></h6>
+		<p>In the game rules, "action", "task", and "roll" are used almost interchangeably, but there is a kind of hierarchy to them:</p>
+		<ul>
+			<li>When the PC <a href="#rules-taking-action">takes action</a> on their own turn, the GM might call more one or more tasks, each with its own <a href="#rules-determining-task-difficulty">difficulty</a>.</li>
+			<li>If the PC <a href="#modifying-the-difficulty">modifies the difficulty</a> of a task such that the difficulty is reduced to 0, they succeed automatically, and don't need to make a roll.</li>
+			<li>If the player doeesn't <a href="#rules-rolling-the-die">roll the die</a>, they cannot trigger a <a href="#rules-special-rolls">special rolls</a>&mdash;including <a href="#gm-intrusion">GM intrusion</a>.</li>
+		</ul>
+		<p class="og-csrd-indent">Most of the time, PCs can spend <a href="#modifying-the-difficulty-effort">Effort</a> on each task they perform (and thus each roll they make). Let's examine a few examples:</p>
+		<ul class="list-unstyled og-csrd-indent">
+			<li><p><strong>Defending:</strong> Because <a href="#rules-the-player-always-rolls">the player always rolls</a>, PCs often have to frantically perform actions and tasks&mdash;even when it isn't their turn. For example, let's say you are fighting a giant squid. You might end up spending <a href="#effort">Effort</a> on several Speed <a href="#action-defend">defense tasks</a>. Each of these is an action&mdash;one you didn't choose&mdash;but you can choose how much Effort to spend on each one.</p></li>
+			<li><p><strong>Complex Actions:</strong> A PC has lot more agency when it comes to the <a href="#rules-taking-action">action</a> they take on their turn. Most of the time, a PC's action is resolved in just one task, but there are are exceptions. For example, let's say you use your action to <a href="#action-move">move a short distance and make an attack</a>. If you fail the assigned difficulty 4 <a href="#speed">Speed</a> task, you doesn't get to make the attack at all. Using <a href="#effort">Effort</a> might make the difference, so forcing you to decide how much Effort to withhold for a second task&dash;one that might not even occur&mdash;only complicates your decision-making and slows down the game. By providing an opportunity to use as much Effort as you want on the prerequisite task, the game naturally creates an <a href="#rules-initial-cost">initial cost</a> for pushing the limit of what can be accomplished with just one action&mdash;in addition to raising the chance of triggering a <a href="#gm-intrusion">GM intrusion</a> by making two rolls for two tasks.</p></li>
+			<li><p><strong>Special Abilities:</strong> A few <a href="#special-abilities">special abilities</a> allow PCs to perform multiple tasks "as part of the same action", for example, <a href="#ability-dual-light-wield">Dual Light Wield</a>  and <a href="#ability-fleet-of-foot">Fleet of Foot</a>. Others create new uses for a <a href="#effort">Effort</a>, for example, <a href="#ability-hemorrhage">Hemorrhage</a>  and <a href="#ability-reveal">Reveal</a>. When this is the case, the ability will any explain special uses or restrictions on diving Effort among multiple tasks.</p></li>
+			<li><p><strong>Effort and Edge:</strong> Remember while <a href="#effort">Effort</a>  is limited by each task, <a href="#edge">Edge</a> reduces stat <a href="#pool">Pool</a> point costs only once for an action&mdash;even if that action prompted multiple tasks and costs.</p></li>
+		</ul>
+		<h6 id="house-rule-using-other-pools-to-pay-cost-remainders">House Rule: Using Other Pools to Pay Cost Remainders<a class="og-csrd-header-anchor" href="#house-rule-using-other-pools-to-pay-cost-remainders" title="Permalink" aria-hidden="true"></a></h6>
 		<p>If you lack the available <a href="#pool">Pools</a> points to pay the cost of performing a task, you can pay the remainder of the cost from your other Pools, in the same order they are depleted by <a href="#the-effects-of-taking-damage">taking damage</a>: <a href="#might">Might</a>, then <a href="#speed">Speed</a>, and finally, <a href="#intellect">Intellect</a>. When you do, you don't change your position on the <a href="#the-damage-track">the damage track</a> as a result of the expenditure until after the task is resolved.</p>
 		<p class="og-csrd-indent">For example, a wizard who is out of "mana" (Intellect points) might resort to blood sacrifice, casting spells by spending points from their Might Pool instead. A battered warrior whose Might and Speed pools are depleted might yet be able to muster a defense&mdash;or final heroic act&mdash;by mustering their willpower (Intellect points). In either case, this is a risky strategy&mdash;These PCs are both at risk of quickly moving even further down the damage track.</p>
 	</div>
 	<hr>
 	<h4 id="character-tiers">Character Tiers<a class="og-csrd-header-anchor" href="#character-tiers" title="Permalink" aria-hidden="true"></a></h4>
 	<p>Every character starts the game at the first tier. Tier is a measurement of power, toughness, and ability. Characters can advance up to the sixth tier. As your character advances to higher tiers, you gain more abilities, increase your Effort, and can improve a stat's Edge or increase a stat. Generally speaking, even first-tier characters are already quite capable. It's safe to assume that they've already got some experience under their belt. This is not a "zero to hero" progression, but rather an instance of competent people refining and honing their capabilities and knowledge. Advancing to higher tiers is not really the goal of Cypher System characters, but rather a representation of how characters progress in a story.</p>
-	<p class="og-csrd-indent">To progress to the next tier, characters earn experience points (XP) by pursuing <a href="#character-arcs">character arcs</a>, going on adventures, and discovering new things&mdash;the system is about both discovery and exploration, as well as achieving personal goals. Experience points have many uses, and one use is to purchase character benefits. After your character purchases four character benefits, they advance to the next tier. Each benefit costs 4 XP, and you can purchase them in any order, but you must purchase one of each kind of benefit (and then advance to the next tier) before you can purchase the same benefit again. The four character benefits are as follows.</p>
+	<p class="og-csrd-indent">To progress to the next tier, characters earn <a href="#chapter-12-experience-points">experience points</a> (XP) by pursuing <a href="#character-arcs">character arcs</a>, going on adventures, and discovering new things&mdash;the system is about both discovery and exploration, as well as achieving personal goals. Experience points have many uses, and one use is to <a href="#spending-experience-points">purchase character benefits</a>. After your character purchases four character benefits, they <a href="#character-advancement">advance to the next tier</a>. Each benefit costs 4 XP, and you can purchase them in any order, but you must purchase one of each kind of benefit (and then advance to the next tier) before you can purchase the same benefit again. The four character benefits are as follows.</p>
 	<ul class="list-unstyled">
 		<li><p><strong>Increasing Capabilities:</strong> You gain 4 points to add to your stat <a href="#pool">Pools</a>. You can allocate the points among the Pools however you wish.</p></li>
 		<li><p><strong>Moving Toward Perfection:</strong> You add 1 to your Might <a href="#edge">Edge</a>, your Speed Edge, or your Intellect Edge (your choice).</p></li>
@@ -775,8 +788,8 @@
 				<h6 class="og-csrd-header-small" id="character-sheets-and-player-handouts">Character Sheets and Player Handouts<a class="og-csrd-header-anchor" href="#character-sheets-and-player-handouts" title="Permalink" aria-hidden="true"></a></h6>
 				<p>Monte Cook Games provides a free PDFs of <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/cypher-system-rules-primer/">Cypher System Rules Primer</a> and <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-character-portfolios-and-character-sheets/">Cypher System Character Portfolios and Character Sheets</a> in PDF.</p>
 				<p class="og-csrd-indent"><a href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Old Gus' Cypher System Player's Guide (OG-CSPG)</a> provides descriptors, types, foci, and rules in PDF, with type and foci abilities listed inline, making them ideal for player handouts.</p>
-				<p class="og-csrd-indent">Additional character options can be purchased from Monte Cook Games and third party publishers. A curated list of these are presented in the <a href="#additional-descriptors">additional descriptors</a>, <a href="#additional-types">additional types</a>, <a href="#additional-foci">additional foci</a>, and <a href="#additional-flavors">additional flavors</a>.</p>
 				<p class="og-csrd-indent">The Cypher System is available to play on <a href="https://app.roll20.net/">Roll20</a>, and on <a href="https://foundryvtt.com/packages/cyphersystem">Foundry VTT</a>. Additionally, Lost Company Press provides an online <a href="https://lostcompanypress.com/app/cypher_character_generator">Cypher Character Generator</a>.</p>
+				<p class="og-csrd-indent">Additional character options can be purchased from Monte Cook Games and third party publishers. A curated list of these are presented in the <a href="#additional-descriptors">additional descriptors</a>, <a href="#additional-types">additional types</a>, <a href="#additional-foci">additional foci</a>, <a href="#additional-flavors">additional flavors</a>, and <a href="#choose-products">What's in the Book?</a> sections.</p>
 			</div>
 			<div class="col-md-6">
 				<div class="ratio ratio-16x9 mb-2">
@@ -797,7 +810,7 @@
 		<p>Because the Cypher System covers so many genres, not all of the descriptors, types, and foci might be available for players. The GM will decide what's available in their particular game and whether anything is modified, and they'll let the players know.</p>
 	</div>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3 small">
-		<p><strong>Editor's Notes &mdash;</strong> For more on special abilities, see <a href="#chapter-9-abilities">Chapter 9: Abilities</a>, and <a href="#action-activate-a-special-ability">Action: Activate a Special Ability</a> in <a href="#chapter-11-rules-of-the-game">Chapter 11: Rules of the Game</a>.</p>
+		<p><strong>Editor's Notes &mdash;</strong> For more on special abilities, see <a href="#chapter-9-abilities">Chapter 9: Abilities</a>, <a href="#action-activate-a-special-ability">Action: Activate a Special Ability</a> in <a href="#chapter-11-rules-of-the-game">Chapter 11: Rules of the Game</a>, and <a href="#clarification-effort-and-edge">Clarification: Effort and Edge</a>.</p>
 	</div>
 	<hr>
 	<h4 id="skills">Skills<a class="og-csrd-header-anchor" href="#skills" title="Permalink" aria-hidden="true"></a></h4>
@@ -1955,12 +1968,12 @@
 	</ul>
 	<hr>
 	<div class="alert ps-4 og-csrd-edrule">
-		<h4 id="additional-types">Additional Types<a class="og-csrd-header-anchor" href="#additional-types" title="Permalink" aria-hidden="true"></a></h4>
 		<div class="row">
 			<div class="col col-12 col-lg-8">
+				<h4 id="additional-types">Additional Types<a class="og-csrd-header-anchor" href="#additional-types" title="Permalink" aria-hidden="true"></a></h4>
 				<p class="small"><em>This section has been added by the editor.</em></p>
 				<hr>
-				<p>These types include page reference numbers that correspond to the product. Linked items are roughly equivalent to content in the CSRD, although such contents frequently include differences in presentation.</p>
+				<p>These types include page reference numbers that correspond to the product. Linked items lead to rough equivalents in this document, but each product tailors content specifically for its genre and setting.</p>
 			</div>
 			<div class="col col-12 col-lg-4 pb-3">
 				<div class="og-csrd-legend-edrule pt-2 pb-2 ps-3" aria-hidden="true">
@@ -2422,9 +2435,9 @@
 	</div>
 	<hr>
 	<div class="alert ps-4 og-csrd-edrule">
-		<h4 id="additional-flavors">Additional Flavors<a class="og-csrd-header-anchor" href="#additional-flavors" title="Permalink" aria-hidden="true"></a></h4>
 		<div class="row">
 			<div class="col col-12 col-lg-8">
+				<h4 id="additional-flavors">Additional Flavors<a class="og-csrd-header-anchor" href="#additional-flavors" title="Permalink" aria-hidden="true"></a></h4>
 				<p class="small"><em>This section has been added by the editor.</em></p>
 				<hr>
 				<p>These flavors include page reference numbers that correspond to the product.</p>
@@ -3550,7 +3563,7 @@
 			<div class="col col-12 col-lg-8">
 				<p class="small"><em>This section has been added by the editor.</em></p>
 				<hr>
-				<p>These descriptors include page reference numbers that correspond to the product. Linked items are roughly equivalent to content in the CSRD, although such contents frequently include differences in presentation.</p>
+				<p>These descriptors include page reference numbers that correspond to the product. Linked items lead to rough equivalents in this document, but each product tailors content specifically for its genre and setting.</p>
 			</div>
 			<div class="col col-12 col-lg-4 pb-3">
 				<div class="og-csrd-legend-edrule pt-2 pb-2 ps-3" aria-hidden="true">
@@ -6540,12 +6553,12 @@
 	</ul>
 	<hr>
 	<div class="alert ps-4 og-csrd-edrule">
-		<h4 id="additional-foci">Additional Foci<a class="og-csrd-header-anchor" href="#additional-foci" title="Permalink" aria-hidden="true"></a></h4>
 		<div class="row">
 			<div class="col col-12 col-lg-8">
+				<h4 id="additional-foci">Additional Foci<a class="og-csrd-header-anchor" href="#additional-foci" title="Permalink" aria-hidden="true"></a></h4>
 				<p class="small"><em>This section has been added by the editor.</em></p>
 				<hr>
-				<p>These foci include page reference numbers that correspond to the product. Linked items are roughly equivalent to content in the CSRD, although such contents frequently include differences in presentation.</p>
+				<p>These foci include page reference numbers that correspond to the product. Linked items lead to rough equivalents in this document, but each product tailors content specifically for its genre and setting.</p>
 			</div>
 			<div class="col col-12 col-lg-4 pb-3">
 				<div class="og-csrd-legend-edrule pt-2 pb-2 ps-3" aria-hidden="true">
@@ -12462,7 +12475,7 @@
 		<p>Anyone can wear any armor, but it can be taxing. Wearing armor increases the cost of using a level of <a href="#effort">Effort</a> when attempting a <a href="#speed">Speed</a> task.</p>
 		<p class="og-csrd-indent">The following table displays types of armor, the bonuses they provide to a PC's <a href="#rules-armor">Armor</a> characteristic, and the additional cost (in points from their Speed <a href="#pool">Pool</a>) the PC must spend for each level of Effort used when attempting a Speed task. By default, PCs use the <em>Not Experienced with Armor</em> column. However, if a PC has one or more <a href="special-abilities">special abilities</a> that reduce Speed Effort cost for wearing armor&mdash;<a href="#ability-practiced-in-armor">Practiced in Armor</a>, <a href="#ability-experienced-in-armor">Experienced in Armor</a>, and <a href="#ability-mastery-in-armor">Mastery in Armor</a>)&mdash;they can use the corresponding column on the table instead.</p>
 		<h6 class="og-csrd-header-small" id="equipment-armor-speed-effort-additional-cost-per-level">Speed Effort Additional Cost per Level<a class="og-csrd-header-anchor" href="#equipment-armor-speed-effort-additional-cost-per-level" title="Permalink" aria-hidden="true"></a></h6>
-		<p class="small">In other chapters, "Speed Effort cost", "Speed cost", "encumbering" and "encumbers" are used interchangably to refer to the contents of this table.</p>
+		<p class="small">In the game rules, "Speed Effort cost", "Speed cost", "encumbering" and "encumbers" are used interchangably to refer to the contents of this table.</p>
 		<table class="table table-dark table-striped table-sm">
 			<caption>Speed Effort Cost per Level</caption>
 			<thead>
@@ -12506,7 +12519,7 @@
 		</tbody>
 	</table>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3 small">
-		<p><strong>Editor's Notes &mdash;</strong> Melee weapon <a href="#action-attack">attacks</a> can be <a href="might">Might</a> or <a href="#speed">Speed</a> actions—player choice. Ranged weapon attacks are almost always Speed actions.</p>
+		<p><strong>Editor's Notes &mdash;</strong> When making melee attacks, the PC can choose to use their <a href="#might">Might</a> or <a href="#speed">Speed</a> for the task. Making ranged attacks is usually a Speed task. This reflects that with melee you sometimes use brute force and sometimes use finesse, but with ranged attacks, it's always about careful targeting.</p>
 	</div>
 	<p class="og-csrd-indent">In general, light weapons are moderately priced items, medium weapons are expensive, and heavy weapons are very expensive. Ammunition for a ranged weapon is inexpensive. <a href="#part-3-genres">Part 3: Genres</a> offers more specific details on weapons available in a given setting. Keep in mind that in many genres, it's not acceptable to run around carrying dangerous weapons.</p>
 	<h5 id="equipment-explosive-weapons">Explosive Weapons<a class="og-csrd-header-anchor" href="#equipment-explosive-weapons" title="Permalink" aria-hidden="true"></a></h5>
@@ -12657,78 +12670,78 @@
 			<tr>
 				<th class="text-center fw-normal" scope="row">0</th>
 				<td class="">Routine</td>
-				<td class="text-center">0</td>
+				<td class="text-center">(0)</td>
 				<td class="text-center">100%</td>
 				<td class="">Anyone can do this basically every time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">1</th>
 				<td class="">Simple</td>
-				<td class="text-center">3</td>
+				<td class="text-center">(3)</td>
 				<td class="text-center">90%</td>
 				<td class="">Most people can do this most of the time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">2</th>
 				<td class="">Standard</td>
-				<td class="text-center">6</td>
+				<td class="text-center">(6)</td>
 				<td class="text-center">75%</td>
 				<td class="">Typical task requiring focus, but most people can usually do this.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">3</th>
 				<td class="">Demanding</td>
-				<td class="text-center">9</td>
+				<td class="text-center">(9)</td>
 				<td class="text-center">60%</td>
 				<td class="">Requires full attention; most people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">4</th>
 				<td class="">Difficult</td>
-				<td class="text-center">12</td>
+				<td class="text-center">(12)</td>
 				<td class="text-center">45%</td>
 				<td class="">Trained people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">5</th>
 				<td class="">Challenging</td>
-				<td class="text-center">15</td>
+				<td class="text-center">(15)</td>
 				<td class="text-center">30%</td>
 				<td class="">Even trained people often fail.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">6</th>
 				<td class="">Intimidating</td>
-				<td class="text-center">18</td>
+				<td class="text-center">(18)</td>
 				<td class="text-center">15%</td>
 				<td class="">Normal people almost never succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">7</th>
 				<td class="">Formidable</td>
-				<td class="text-center">21</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(21)</td>
+				<td class="text-center">&minus;0%</td>
 				<td class="">Impossible without skills or great effort.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">8</th>
 				<td class="">Heroic</td>
-				<td class="text-center">24</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(24)</td>
+				<td class="text-center">&minus;15%</td>
 				<td class="">A task worthy of tales told for years afterward.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">9</th>
 				<td class="">Immortal</td>
-				<td class="text-center">27</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(27)</td>
+				<td class="text-center">&minus;30%</td>
 				<td class="">A task worthy of legends that last lifetimes.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">10</th>
 				<td class="">Impossible</td>
-				<td class="text-center">30</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(30)</td>
+				<td class="text-center">&minus;45%</td>
 				<td class="">A task that normal humans couldn't consider (but one that doesn't break the laws of physics).</td>
 			</tr>
 		</tbody>
@@ -31244,78 +31257,78 @@
 			<tr>
 				<th class="text-center fw-normal" scope="row">0</th>
 				<td class="">Routine</td>
-				<td class="text-center">0</td>
+				<td class="text-center">(0)</td>
 				<td class="text-center">100%</td>
 				<td class="">Anyone can do this basically every time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">1</th>
 				<td class="">Simple</td>
-				<td class="text-center">3</td>
+				<td class="text-center">(3)</td>
 				<td class="text-center">90%</td>
 				<td class="">Most people can do this most of the time.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">2</th>
 				<td class="">Standard</td>
-				<td class="text-center">6</td>
+				<td class="text-center">(6)</td>
 				<td class="text-center">75%</td>
 				<td class="">Typical task requiring focus, but most people can usually do this.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">3</th>
 				<td class="">Demanding</td>
-				<td class="text-center">9</td>
+				<td class="text-center">(9)</td>
 				<td class="text-center">60%</td>
 				<td class="">Requires full attention; most people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">4</th>
 				<td class="">Difficult</td>
-				<td class="text-center">12</td>
+				<td class="text-center">(12)</td>
 				<td class="text-center">45%</td>
 				<td class="">Trained people have a 50/50 chance to succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">5</th>
 				<td class="">Challenging</td>
-				<td class="text-center">15</td>
+				<td class="text-center">(15)</td>
 				<td class="text-center">30%</td>
 				<td class="">Even trained people often fail.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">6</th>
 				<td class="">Intimidating</td>
-				<td class="text-center">18</td>
+				<td class="text-center">(18)</td>
 				<td class="text-center">15%</td>
 				<td class="">Normal people almost never succeed.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">7</th>
 				<td class="">Formidable</td>
-				<td class="text-center">21</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(21)</td>
+				<td class="text-center">&minus;0%</td>
 				<td class="">Impossible without skills or great effort.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">8</th>
 				<td class="">Heroic</td>
-				<td class="text-center">24</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(24)</td>
+				<td class="text-center">&minus;15%</td>
 				<td class="">A task worthy of tales told for years afterward.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">9</th>
 				<td class="">Immortal</td>
-				<td class="text-center">27</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(27)</td>
+				<td class="text-center">&minus;30%</td>
 				<td class="">A task worthy of legends that last lifetimes.</td>
 			</tr>
 			<tr>
 				<th class="text-center fw-normal" scope="row">10</th>
 				<td class="">Impossible</td>
-				<td class="text-center">30</td>
-				<td class="text-center">&mdash;</td>
+				<td class="text-center">(30)</td>
+				<td class="text-center">&minus;45%</td>
 				<td class="">A task that normal humans couldn't consider (but one that doesn't break the laws of physics).</td>
 			</tr>
 		</tbody>
@@ -31777,24 +31790,18 @@
 			<li><a href="#encouraging-players-to-spend-xp">Encouraging Players to Spend XP</a></li>
 			<li><a href="#encouraging-players-to-use-cyphers">Encouraging Players to Use Cyphers</a></li>
 			<li><a href="#skill-categories">Skill Categories</a></li>
-			<li><a href="#vague-difficulty">Vague Difficulty</a></li>			
-		</ul>
-		<h5 class="og-csrd-header-small" id="choose-product-indices">Product Indices<a class="og-csrd-header-anchor" href="#choose-product-indices" title="Permalink" aria-hidden="true"></a></h5>
-		<ul class="list-unstyled og-csrd-quick-reference">
-			<li><a href="#additional-descriptors">Additional Descriptors</a></li>
-			<li><a href="#additional-types">Additional Types</a></li>
-			<li><a href="#additional-foci">Additional Foci</a></li>
-			<li><a href="#additional-flavors">Additional Flavors</a></li>
+			<li><a href="#vague-difficulty">Vague Difficulty</a></li>
 			<li><a href="#choose-products">What's In The Book?</a></li>
 		</ul>
 	</div>
 	<hr>
 	<div class="alert ps-4 og-csrd-edrule">
-		<h4 id="choose-products">What's In The Book? <a class="og-csrd-header-anchor" href="#choose-products" title="Permalink" aria-hidden="true"></a></h4>
 		<div class="row">
 			<div class="col col-12 col-lg-8">
-				<p>This editor has provided this index of the contents of Cypher System products available to supplement the CSRD. Contents are divided into two categories: <strong>Optional Rules</strong> (player-facing) and <strong>Running the Game</strong> (GM-facing).</p>
-				<p class="og-csrd-indent">Linked items in this section lead to an informing equivalent section of the CSRD, although there are frequently differences that tailor a rule or mechanic for the setting. Detailed lists of creatures and NPCs in official products are available in Monte Cook Games' <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/cypher-system-creature-search/">Cypher System Creature Index</a>.</p>
+				<h4 id="choose-products">What's In The Book? <a class="og-csrd-header-anchor" href="#choose-products" title="Permalink" aria-hidden="true"></a></h4>
+				<p class="small"><em>This section has been added by the editor.</em></p>
+				<hr>
+				<p>Each product's contents are divided into two categories: <strong>Optional Rules</strong> (player-facing) and <strong>Running the Game</strong> (GM-facing). Creatures and NPCs across products are available from Monte Cook Games' <a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/cypher-system-creature-search/">Cypher System Creature Index</a>.</p>
 			</div>
 			<div class="col col-12 col-lg-4 pb-3">
 				<div class="og-csrd-legend-edrule pt-2 pb-2 ps-3" aria-hidden="true">
@@ -31808,6 +31815,10 @@
 		</div>
 		<hr>
 		<ul class="list-unstyled og-csrd-quick-reference">
+			<li><a href="#additional-descriptors">Additional Descriptors</a></li>
+			<li><a href="#additional-types">Additional Types</a></li>
+			<li><a href="#additional-foci">Additional Foci</a></li>
+			<li><a href="#additional-flavors">Additional Flavors</a></li>
 			<li><a href="#cypher-system-rulebook-product">Cypher System Rulebook</a></li>
 			<li><a href="#claim-the-sky-product">Claim the Sky</a></li>
 			<li><a href="#cypher-foundation-product">Cypher Foundation</a></li>
