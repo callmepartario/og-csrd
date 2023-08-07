@@ -44,10 +44,13 @@
 					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
 					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-resources">
 						<li><a class="dropdown-item" href="#choose-equipment">Equipment</a></li>
+						<li><a class="dropdown-item" href="#equipment-currency-and-prices">Currency and Prices</a></li>
+						<li><a class="dropdown-item" href="#equipment-armor">Armor</a></li>
+						<li><a class="dropdown-item" href="#equipment-weapons">Weapons</a></li>
 						<li><a class="dropdown-item" href="#choose-cyphers">Cyphers</a></li>
 						<li><a class="dropdown-item" href="#choose-artifacts">Artifacts</a></li>
-						<li><a class="dropdown-item" href="#followers">Followers</a></li>
 						<li><a class="dropdown-item" href="#choose-science-fiction-vehicles">Vehicles</a></li>
+						<li><a class="dropdown-item" href="#followers">Followers</a></li>
 					</ul>
 				</li>
 				<li class="nav-item dropdown">
@@ -60,6 +63,7 @@
 						<li><a class="dropdown-item" href="#rules-rolling-the-die">Rolling the Die</a></li>
 						<li><a class="dropdown-item" href="#how-to-play-combat">Combat</a></li>
 						<li><a class="dropdown-item" href="#rules-damage">Damage</a></li>
+						<li><a class="dropdown-item" href="#recovery-rolls">Recovery Rolls</a></li>
 						<li><a class="dropdown-item" href="#choose-experience-points">Experience Points</a></li>
 					</ul>
 				</li>
@@ -102,7 +106,7 @@
 		OG-CSRD
 		<span class="og-csrd-chapter">Old Gus' Cypher System Reference Document</span>
 	</h1>
-	<p class="small text-center">version 1.32w (2023-08-06)</p>
+	<p class="small text-center">version 1.32x (2023-08-07)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Player's Guide: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSPG</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://drive.google.com/drive/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Cypher Decks: <abbr title="Old Gus' Cypher Decks">OG-CD</abbr></a></li>
@@ -12474,7 +12478,7 @@
 		<hr>
 		<p>Anyone can wear any armor, but it can be taxing. Wearing armor increases the cost of using a level of <a href="#effort">Effort</a> when attempting a <a href="#speed">Speed</a> task.</p>
 		<p class="og-csrd-indent">The following table displays types of armor, the bonuses they provide to a PC's <a href="#rules-armor">Armor</a> characteristic, and the additional cost (in points from their Speed <a href="#pool">Pool</a>) the PC must spend for each level of Effort used when attempting a Speed task. By default, PCs use the <em>Not Experienced with Armor</em> column. However, if a PC has one or more <a href="special-abilities">special abilities</a> that reduce Speed Effort cost for wearing armor&mdash;<a href="#ability-practiced-in-armor">Practiced in Armor</a>, <a href="#ability-experienced-in-armor">Experienced in Armor</a>, and <a href="#ability-mastery-in-armor">Mastery in Armor</a>)&mdash;they can use the corresponding column on the table instead.</p>
-		<h6 class="og-csrd-header-small" id="equipment-armor-speed-effort-additional-cost-per-level">Speed Effort Additional Cost per Level<a class="og-csrd-header-anchor" href="#equipment-armor-speed-effort-additional-cost-per-level" title="Permalink" aria-hidden="true"></a></h6>
+		<h6 class="og-csrd-header-small" id="equipment-armor-speed-effort-cost-per-level">Speed Effort Cost per Level<a class="og-csrd-header-anchor" href="#equipment-armor-speed-effort-cost-per-level" title="Permalink" aria-hidden="true"></a></h6>
 		<p class="small">In the game rules, "Speed Effort cost", "Speed cost", "encumbering" and "encumbers" are used interchangably to refer to the contents of this table.</p>
 		<table class="table table-dark table-striped table-sm">
 			<caption>Speed Effort Cost per Level</caption>
@@ -12530,7 +12534,7 @@
 	</div>
 	<hr>
 	<h4 id="equipment-miscellaneous-items-and-services">Miscellaneous Items and Services<a class="og-csrd-header-anchor" href="#equipment-miscellaneous-items-and-services" title="Permalink" aria-hidden="true"></a></h4>
-	<p>Although the types of items for sale vary greatly based on the setting, a few things are always present, like food, lodging, and clothing. However, these goods and services can span the price categories. For example, you can get an inexpensive meal, a moderately priced meal, an expensive meal, and so on. An inexpensive meal is light and probably not very nutritious. An expensive meal is available only in nice restaurants in certain locations. An exorbitant meal is probably a feast for a crowd, with the finest foods and drink available.</p>
+	<p>Although the types of items for sale vary greatly based on the setting, a few things are always present, like food, lodging, and clothing. However, these goods and services can span the <a href="#equipment-currency-and-prices">price categories</a>. For example, you can get an inexpensive meal, a moderately priced meal, an expensive meal, and so on. An inexpensive meal is light and probably not very nutritious. An expensive meal is available only in nice restaurants in certain locations. An exorbitant meal is probably a feast for a crowd, with the finest foods and drink available.</p>
 	<p class="og-csrd-indent">Nightly lodging is similar, although the bottom end starts out worse. An inexpensive night's lodging is probably a flea-ridden mat on the floor of a room filled with other lodgers. Typical lodging (a private room with a decent bed) is probably in the moderately priced range. Very expensive lodging might be a suite of rooms with delicious meals and personal services (such as massages and grooming) included.</p>
 	<p class="og-csrd-indent">Inexpensive clothing is just a step up from rags, but moderately priced clothing is decent enough. For a formal party, you'd want expensive clothing. The very rich likely wear very expensive clothing most of the time, and exorbitant clothing (and jewelry) when they go to their elite galas.</p>
 	<p class="og-csrd-indent">Other sorts of miscellaneous items can be found in <a href="#part-3-genres">Part 3: Genres</a>.</p>
@@ -15040,7 +15044,7 @@
 		</tbody>
 	</table>
 	<div class="og-csrd-ednote pt-3 pb-1 ps-3 pe-3 mt-3 mb-3 small">
-		<p><strong>Editor's Notes &mdash;</strong> Full Plate and Scale armors in the Fantasy Armor Descriptions table <span class="og-csrd-ref">(GF, 37)</span> have been amended by the editor to correct suspected misprints in the listed <a href="#equipment-using-armor">Speed Effort Additional Cost</a>.</p>
+		<p><strong>Editor's Notes &mdash;</strong> Full Plate and Scale armors in the Fantasy Armor Descriptions table <span class="og-csrd-ref">(GF, 37)</span> have been amended by the editor to correct suspected misprints in the listed <a href="#equipment-using-armor">Speed Effort cost</a>.</p>
 	</div>
 	<ul class="list-unstyled og-csrd-indent">
 		<li><p><strong>Beastskin:</strong> An improved form of hides and furs, usually crafted from a creature with especially tough skin such as a giant lizard or rhinoceros.</p></li>
@@ -18104,7 +18108,7 @@
 		<li><p><strong>Armaments:</strong> From contemporary bullet-firing pistols to fantastically advanced handheld disintegration guns, the weapons presented in this chapter are dedicated to those that a single character can carry and use.</p></li>
 	</ul>
 	<h5 id="science-fiction-equipment-variable-cost-by-tech-rating">Variable Cost by Tech Rating<a class="og-csrd-header-anchor" href="#science-fiction-equipment-variable-cost-by-tech-rating" title="Permalink" aria-hidden="true"></a></h5>
-	<p>Equipment costs assume the setting is predominantly of same tech rating as the object's tech rating. The price drops by one price category if the setting tech rating is, generally speaking, greater than the object's tech rating.</p>
+	<p>Equipment costs assume the setting is predominantly of same tech rating as the object's tech rating. The price drops by one <a href="#equipment-currency-and-prices">price category</a> if the setting tech rating is, generally speaking, greater than the object's tech rating.</p>
 	<p class="og-csrd-indent">Note, however, that inexpensive items do not become free; they remain inexpensive.</p>
 	<h5 id="science-fiction-weapon-options-granted-by-type-or-focus">Weapon Options Granted By Type or Focus<a class="og-csrd-header-anchor" href="#science-fiction-weapon-options-granted-by-type-or-focus" title="Permalink" aria-hidden="true"></a></h5>
 	<p>When a player makes up their character, their type likely indicates that they can choose one or more weapons of their choice. When choosing such weapons and equipment, the following restrictions apply to that choice:</p>
@@ -18137,7 +18141,7 @@
 		<ul class="small list-unstyled og-csrd-indent">
 			<li><p><strong>Contemporary equipment categories</strong> categories are presented with <a href="#choose-modern-equipment">modern equipment</a> in <a href="#chapter-14-modern">Chapter 14: Modern</a>. The individual items are listed here for context to their advanced and fantastic counterparts.</p></li>
 			<li><p><strong>Armor and apparel</strong> in these lists includes any item worn by a character (as opposed to held or carried)&mdash;even if the CSRD sorts them into a different category like "utility gear".</p></li>
-			<li><p><strong>Cost multipliers</strong> make a few items double or even triple their price category's usual costs.</p></li>
+			<li><p><strong>Cost multipliers</strong> make a few items double or even triple their <a href="#equipment-currency-and-prices">price category</a>'s usual costs.</p></li>
 		</ul>
 	</div>
 	<div class="row">
@@ -19189,7 +19193,7 @@
 		<h6 class="og-csrd-header-small" id="armament-ammunition-and-charge">Armament Ammunition and Charge<a class="og-csrd-header-anchor" href="#armament-ammunition-and-charge" title="Permalink" aria-hidden="true"></a></h6>
 		<p>Weapons require ammunition ("ammo"), whether that's rounds of a particular caliber, energy packs, or something even more exotic. You can handle ammo requirements for weapons in one of three ways: exact tracking, abstracted monthly upkeep cost, or not worrying about it.</p>
 		<p class="og-csrd-indent">Exact tracking means asking the character to track their available and used rounds/shots after (and possibly during) a fight.</p>
-		<p class="og-csrd-indent">Abstracted monthly upkeep cost assumes that the characters go through ammo at an average rate, and obtaining more ammo or energy packs is something they do in their "off-camera" time. The monthly upkeep cost for ammo should equal about two steps less in price category than the weapon in question.</p>
+		<p class="og-csrd-indent">Abstracted monthly upkeep cost assumes that the characters go through ammo at an average rate, and obtaining more ammo or energy packs is something they do in their "off-camera" time. The monthly upkeep cost for ammo should equal about two steps less in <a href="#equipment-currency-and-prices">price category</a> than the weapon in question.</p>
 		<p class="og-csrd-indent">Or you can just not worry about keeping track of ammunition, especially in games where gunplay isn't common.</p>
 	</div>
 	<h6 class="og-csrd-tabbed-item-sub text-white" id="advanced-armaments-energy-pack">Energy pack (50 shots) <span class="float-end">1 (3)</span><a class="og-csrd-header-anchor" href="#advanced-armaments-energy-pack" title="Permalink" aria-hidden="true"></a></h6>
@@ -19379,7 +19383,7 @@
 				<li><p><strong>Vehicle:</strong> Technically speaking, <a href="#science-fiction-spacecraft">spacecraft</a> are also vehicles. Unless it's important to make a distinction, assume all guidance here regarding "vehicles" also applies to spacecraft.</p></li>
 			</ul>
 			<h5 id="vehicles-variable-cost-by-tech-rating">Variable Cost by Tech Rating<a class="og-csrd-header-anchor" href="#vehicles-variable-cost-by-tech-rating" title="Permalink" aria-hidden="true"></a></h5>
-			<p>Vehicle costs assume the setting is predominantly of the same tech rating as the vehicle's tech rating. However, the price might drop by a price category if the setting tech rating is predominantly greater than the vehicle's rating.</p>
+			<p>Vehicle costs assume the setting is predominantly of the same tech rating as the vehicle's tech rating. However, the price might drop by a <a href="#equipment-currency-and-prices">price category</a> if the setting tech rating is predominantly greater than the vehicle's rating.</p>
 				</div>
 		<div class="col col-lg-4">
 			<div class="og-csrd-legend pt-2 pb-2 ps-3" aria-hidden="true">
@@ -19401,7 +19405,7 @@
 	<p class="og-csrd-indent">This driverless function is also available on many spacecraft, courtesy of a shipmind, which is a sim AI that can control the ship's functions as necessary. <a href="#robots-and-ai-shipmind">Shipminds</a> control spacecraft at the spacecraft's level, not their level, but are not subject to the task hindrance that more basic driverless vehicles suffer.</p>
 	<h5 id="looking-for-more-vehicle-options">Looking for More Vehicle Options<a class="og-csrd-header-anchor" href="#looking-for-more-vehicle-options" title="Permalink" aria-hidden="true"></a></h5>
 	<p>A representative cross section of vehicles is provided. If you're looking for something that isn't noted, use something close and adapt the listing.</p>
-	<p>Also note that unless a particular listing is already indicated as a luxury or sport version, most vehicles can be obtained in a luxury or sports package, either at the next price category up, or at double the indicated price.</p>
+	<p>Also note that unless a particular listing is already indicated as a luxury or sport version, most vehicles can be obtained in a luxury or sports package, either at the next <a href="#equipment-currency-and-prices">price category</a> up, or at double the indicated price.</p>
 	<h5 id="customizing-vehicles">Customizing Vehicles<a class="og-csrd-header-anchor" href="#customizing-vehicles" title="Permalink" aria-hidden="true"></a></h5>
 	<p>Assuming the facilities are available, characters can pay for the customization of their vehicle to add a weapon system, add even more weapon systems, add <a href="#extended-vehicular-combat-base-combat-task-modifiers">superior weapons</a> systems, or some other significant option. In most cases, the cost for such an upgrade is very expensive to exorbitant.</p>
 	<h5 class="og-csrd-technologies og-csrd-technologies-advanced" id="science-fiction-cycles-advanced">Advanced Cycles<a class="og-csrd-header-anchor" href="#science-fiction-cycles-advanced" title="Permalink" aria-hidden="true"></a></h5>
@@ -20094,7 +20098,7 @@
 	</ul>
 	<p>A PC defending from a spacecraft's attack is hindered by five steps. Except in this case, the spacecraft inflicts damage. Given that ship weapons compared to handheld weapons are an order of magnitude apart when it comes to power, a good rule of thumb is that a spacecraft's weapon inflicts 25 points of damage on a successful hit and knocks the character one step down <a href="#the-damage-track">the damage track</a>. Even if the character succeeds on their defense roll, they still take 5 points of damage.</p>
 	<h5 id="salvage-from-a-spacecraft">Salvage from a Spacecraft<a class="og-csrd-header-anchor" href="#salvage-from-a-spacecraft" title="Permalink" aria-hidden="true"></a></h5>
-	<p>If the derelict ship was subject to vacuum, partly destroyed in combat, or damaged by some other disaster or close encounter with a space hazard, salvaged items are usually degraded, and are valued at one price category less than noted. The GM may decide an object is completely unrecoverable (worthless) or works fine.</p>
+	<p>If the derelict ship was subject to vacuum, partly destroyed in combat, or damaged by some other disaster or close encounter with a space hazard, salvaged items are usually degraded, and are valued at one <a href="#equipment-currency-and-prices">price category</a> less than noted. The GM may decide an object is completely unrecoverable (worthless) or works fine.</p>
 	<p class="og-csrd-indent"><strong>Salvage GM Intrusion:</strong> Claim jumpers/pirates might try to salvage a ship that PCs are attempting to salvage.</p>
 	<table class="table table-dark table-striped table-sm">
 		<caption>Salvage from a Spacecraft</caption>
@@ -22527,7 +22531,7 @@
 	<h5 id="fairy-tale-currency">Currency<a class="og-csrd-header-anchor" href="#fairy-tale-currency" title="Permalink" aria-hidden="true"></a></h5>
 	<p>In most fairy tales, money isn't precise. Someone might be poor or rich. They might find a bag of gold or a chest full of jewels. They might be the richest man in the town or have nothing but a tired old cow to their name. But typically what they don't have is "one gold piece" or "thirty farthings" to their name. This means that whatever your fairy tale setting, you can think in general terms of money instead of keeping meticulous track of every penny, farthing, gold coin, or dollar.
 	To keep things easy, no matter what currency your characters use, think of money as being in simple amounts that scale up, such as a copper coin, a silver coin, and a gold coin. These could easily equate to the inexpensive, moderate, and expensive items on the equipment list. Items that are very expensive might be worth a bag of silver, while exorbitant items might be worth a bag of gold.</p>
-	<p class="og-csrd-indent">Additionally, if the PCs are completing a character arc, accomplishing a task, or doing some other type of action to receive a piece of equipment, you can use the price category to decide how complicated or difficult that task is. A moderately priced item likely requires completing a moderately difficult task, while an exorbitant item may require something that taxes the PCs and really puts their skills and dedication to the test.</p>
+	<p class="og-csrd-indent">Additionally, if the PCs are completing a character arc, accomplishing a task, or doing some other type of action to receive a piece of equipment, you can use the <a href="#equipment-currency-and-prices">price category</a> to decide how complicated or difficult that task is. A moderately priced item likely requires completing a moderately difficult task, while an exorbitant item may require something that taxes the PCs and really puts their skills and dedication to the test.</p>
 	<h5 id="fairy-tale-signature-items">Fairy Tale Signature Items<a class="og-csrd-header-anchor" href="#fairy-tale-signature-items" title="Permalink" aria-hidden="true"></a></h5>
 	<p>In fairy tales, clothing, weapons, and other items that a character carries for a long time tend to be very personal and very important. They're often unique and handcrafted, they may have names or stories that go with them, and because characters tend to keep them for a long time, they may have undergone repairs or have markings that tell something about the character's background.</p>
 	<h5 id="fairy-tale-apparel-and-armor">Apparel and Armor<a class="og-csrd-header-anchor" href="#fairy-tale-apparel-and-armor" title="Permalink" aria-hidden="true"></a></h5>
@@ -26377,7 +26381,7 @@
 		</li>
 		<li><p><strong>Interaction:</strong> A hungry haze does not speak or seem to have language. But it is not mindless; it can learn from its experiences and figure out creative solutions to problems.</p></li>
 		<li><p><strong>Use:</strong> After a research station on Mercury is abandoned for unspecified issues, salvagers show up looking for easy pickings. But a strange haze seems to hang over the station.</p></li>
-		<li><p><strong>Loot:</strong> People (or AI) interested in strange manifestations would probably pay for the remains of a hungry haze in an amount equal to the expensive price category.</p></li>
+		<li><p><strong>Loot:</strong> People (or AI) interested in strange manifestations would probably pay for the remains of a hungry haze in an amount equal to the expensive <a href="#equipment-currency-and-prices">price category</a>.</p></li>
 	</ul>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>GM Intrusion:</strong> The character's Armor rating is reduced by 1; the hungry haze apparently can eat more than just flesh.</p>
