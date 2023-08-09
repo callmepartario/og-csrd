@@ -57,7 +57,7 @@
 		<span class="og-csrd-chapter">Old Gus'</span>
 		Daft Drafts
 	</h1>
-	<p class="small text-center">version 0.92 (2023-08-08)</p>
+	<p class="small text-center">version 0.93 (2023-08-08)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="index.html"><abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://foundryvtt.com/packages/cyphersystem-community-module">Foundry <abbr title="Virtual Tabletop">VTT</abbr></a></li>
@@ -5722,53 +5722,106 @@
 	</h2>
 	<h3 id="chapter-12-injuries">
 		<span class="og-csrd-chapter">Chapter 12</span>
-		Injuries
+		Conditions
 	</h3>
-	<p>In the game rules, wounds generally heal over time as PCs make <a href="index.html#recovery-rolls">recovery rolls</a>. Injuries might alter a PC's function for an hour, a day, a week, a year&mdash;maybe even forever. Injuries are most likely to happen as a result of a creature, trap, or other effect that inflicted <a href="index.html#special-damage">special damage</a>, or a triggered <a href="index.html#gm-intrusion">GM intrusion</a> when a player rolls a 1 on a task roll.</p>
+	<p>Conditions can be used to help the GM <a href="index.html#create-a-new-creature-or-npc">create a new creature or NPC</a> capable of leaving characters with lasting injuries.  are most likely to happen as a result of a creature, trap, or other effect that inflicted <a href="index.html#special-damage">special damage</a>, or a triggered <a href="index.html#gm-intrusion">GM intrusion</a> when a player rolls a 1 on a task roll.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>Some players will retire a character who experiences a serious injury. If the GM wishes to include injuries, in the game, they should gain <a href="index.html#horror-rules-consent">consent</a> from players before using these optional rules or narrating any gory details.</p>
 	</div>
-	<h4 class="og-csrd-header-small" id="injurious-conditions-and-effects">Injurious Conditions and Effects<a class="og-csrd-header-anchor" href="#injurious-conditions-and-effects" title="Permalink" aria-hidden="true"></a></h4>
-	<p>When a PC is injured, the GM chooses one or more injurious conditions and determines the details of their effects, assigning which stats or tasks are affected, the severity of the injury, lengths of time, and the difficulty of any related tasks. Using this framework, one GM might articulate the effects of severe dehyration differently than someone else, and the same GM might articulate the same effect differently depending on the game's genre.</p>
+	<h4 class="og-csrd-header-small" id="condition-effects">Condition Effects<a class="og-csrd-header-anchor" href="#condition-effects" title="Permalink" aria-hidden="true"></a></h4>
+	<p>The GM chooses one or more conditions and determines the details of their effects, assigning which stats or tasks are affected, the number of steps, appropriate lengths of time, and the difficulty of any tasks related to the condition. The GM might allow a PC to temporarily ignore a condition by succeeding on task assigned by the GM, <a href="index.html#spending-experience-points">spending 1 XP</a>, or through <a href="index.html#special-abilities">special abilities</a> like <a href="index.html#ability-ignore-the-pain">Ignore the Pain</a> <span class="og-csrd-ref">(150)</span>.</p>
+
 	<table class="table table-dark table-striped table-sm">
-		<caption>Injurious Conditions and Effects</caption>
+		<caption>Conditions</caption>
 		<thead>
 			<tr>
-				<th scope="col" class="w-25">Condition</th>
+				<th scope="col" class="text-center">d10</th>
+				<th scope="col">Condition</th>
 				<th scope="col">Effects</th>
+				<th scope="col">Examples</th>
 			</tr>
 		</thead>
 		<tbody>
-			<tr><th scope="row" class="fw-normal">Atrophied</th><td>Ongoing damage is inflicted to <a href="index.html#might">Might</a>, <a href="index.html#speed">Speed</a>, or <a href="index.html#intellect">Intellect</a> <a href="index.html#pool">Pools</a> each turn&mdash;happening once per minute, every ten minutes, once each hours, or once each day. Each time, the GM might allow a <a href="index.html#action-defend-defense-tasks">defense task</a> to avoid the effects.</td></tr>
-			<tr><th scope="row" class="fw-normal">Disabled</th><td>Specific <a href="index.html#modifying-the-difficulty-skills">skill</a> tasks are hindered by one or more steps.</td></tr>
-			<tr><th scope="row" class="fw-normal">Disrupted</th><td>Specific <a href="index.html#special-abilities">special abilities</a> from the PC's <a href="index.html#choose-type">type</a> or <a href="index.html#choose-focus">focus</a> are hindered by one or more steps.</td></tr>
-			<tr><th scope="row" class="fw-normal">Exhausted</th><td><a href="index.html#effort">Effort</a> score is reduced by 1 or more.</td></tr>
-			<tr><th scope="row" class="fw-normal">Hindered</th><td>Might, Speed, or Intellect tasks are hindered by one or more steps.</td></tr>
-			<tr><th scope="row" class="fw-normal">Imperiled</th><td>The rate of <a href="index.html#gm-intrusion">GM intrusion</a> is increased by 1 or more.</td></tr>
-			<tr><th scope="row" class="fw-normal">Restricted</th><td>Movement speed or specific kinds of movement tasks are hindered by one or more steps.</td></tr>
-			<tr><th scope="row" class="fw-normal">Vulnerable</th><td>Might, Speed, or Intellect <a href="index.html#action-defend-defense-tasks">defense tasks</a> are hindered by one or more steps.</td></tr>
-			<tr><th scope="row" class="fw-normal">Weakened</th><td>Might, Speed, or Intellect <a href="index.html#edge">Edge</a> is reduced by 1 or more.</td></tr>
-			<tr><th scope="row" class="fw-normal">Withered</th><td>Might, Speed, or Intellect <a href="index.html#pool">Pool</a> maximums are reduced by one or more points.</td></tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">1</th>
+				<td>Atrophied</td><td>ongoing damage inflicted to Might, Speed, or Intellect <a href="index.html#pool">Pools</a></td>
+				<td>damage occurs repeatedly&mdash;once each turn, once every minute, once every ten minutes, once each hour, or once each day</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">2</th>
+				<td>Disabled</td>
+				<td>specific <a href="index.html#modifying-the-difficulty-skills">skill</a> tasks hindered by one or more steps</td>
+				<td>sprained ankle, light concussion, macular degeneration, hearing loss&mdash;blindness, deafness</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">3</th>
+				<td>Disrupted</td>
+				<td>specific <a href="index.html#choose-type">type</a> or <a href="index.html#choose-focus">focus</a> abilities are hindered by one or more steps</td>
+				<td>interventionist healing might be able to remove this condition immediately&mdash;the condition might be physical or spiritual in nature</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">4</th>
+				<td>Hindered</td>
+				<td>Might, Speed, or Intellect tasks hindered by one or more steps</td>
+				<td>one stat for disease, posion, or venom&mdash;two stats for severe burns or frostbite, tissue damage due, irradiation&mdash; three stats for toxic exposure</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">5</th>
+				<td>Imperiled</td>
+				<td>rate of <a href="index.html#gm-intrusion">GM intrusion</a> increased by 1 or more</td>
+				<td>allergies, seizures, curses&mdash;the PC's consciousness might leave their body, experience visions, or perform only certain tasks&mdash;another entity might gain control of the PC</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">6</th>
+				<td>Reduced</td>
+				<td><a href="index.html#effort">Effort</a> score reduced by 1 or more</td>
+				<td>addiction, depression, iron deficiency&mdash;rapid aging (or de-aging), dessication, loss of mojo, ethereality, shrinking</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">7</th>
+				<td>Restricted</td>
+				<td>movement speed, one or more movement or physical attack tasks hindered by one or more steps</td>
+				<td>broken bone, torn ligament, nerve damage&mdash;paralysis, petrification, slow</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">8</th>
+				<td>Vulnerable</td>
+				<td>Might, Speed, or Intellect <a href="index.html#action-defend-defense-tasks">defense tasks</a> hindered by one or more steps</td>
+				<td>drugs, sensory overload, stun&mdash;charms, hallucinations, psychic drain</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">9</th>
+				<td>Weakened</td>
+				<td>Might, Speed, or Intellect <a href="index.html#edge">Edge</a> reduced by 1 or more (can cause <a href="index.html#drawbacks-and-penalties">weakness</a>)</td>
+				<td>potent toxins, tuberculosis, radiation poisoning, &mdash;exposure to vacuum, wandering sickness</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">10</th>
+				<td>Withered</td>
+				<td>Might, Speed, or Intellect <a href="index.html#pool">Pool</a> maximums reduced by one or more points</td>
+				<td>dehydration, malnutrition&mdash;magical drain</td>
+			</tr>
 		</tbody>
 	</table>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p>The GM might allow a PC to temporarily ignore the injurious effects with a successful task assigned by the GM, by <a href="index.html#spending-experience-points">spending 1 XP</a>, or through <a href="index.html#special-abilities">special abilities</a> like <a href="index.html#ability-ignore-the-pain">Ignore the Pain</a> <span class="og-csrd-ref">(150)</span>.</p>
+		<p>The examples in the tables are just that&mdash;examples. Using this framework, GMs should focus on the implications of each effect. It's okay if two GMs choose different ways of implementing a condition with the same name. In fact, the same GM might articulate an effect with the same name differently depending on the setting and genre.</p>
 	</div>
-	<h4 class="og-csrd-header-small" id="recovering-from-injuries">Recovering from Injuries<a class="og-csrd-header-anchor" href="index.html#recovering-from-injuries" title="Permalink" aria-hidden="true"></a></h4>
-	<p>The GM determines any prerequisites for healing an injury, which might depend on genre. Here are a few possibilities:</p>
+	<h4 class="og-csrd-header-small" id="ending-conditions">Ending Conditions<a class="og-csrd-header-anchor" href="#ending-conditions" title="Permalink" aria-hidden="true"></a></h4>
+	<p>Some conditions end on their own. A PCs might be able to make a <a href="index.html#recovery-rolls">recovery roll</a>, ending a condition instead of regaining <a href="index.html#pool">Pool</a> points. Some conditions might persist for an hour, a day, a week, a year&mdash;maybe even indefinitely. Some may have a degerenative effect, gradually worsening over time. The GM determines any prerequisites for removing condditions&mdash;which might involve a successful <a href="index.html#action-healing">healing</a> task. Here are a few other options:</p>
 	<ul class="list-unstyled og-csrd-indent">
-		<li><p><strong>Natural Healing:</strong> The injury heals on its own after a number of <a href="index.html#recovery-rolls">recovery rolls</a> or days. For example, a sprained ankle might inder a PC's movement tasks by two steps until they complete a 1-hour recovery roll, and still hinder such tasks for one step until they complete a 10-hour recovery roll and succeed on a difficulty 3 Might <a href="index.html#action-defend-defense-tasks">defense task</a>.</p></li>
-		<li><p><strong>Interventionist Healing:</strong> The injury requires a successful <a href="index.html#action-healing">healing</a> task by the PC or an ally. For example, a PC might be able to pop their own dislocated shoulder back in with a successful difficulty 5 Might task. In another example, removing a piece of shrapnel embedded in the heart might require PC to perform a difficulty 10 healing task&mdash;likely requiring <a href="index.html#modifying-the-difficulty-skills">skill</a>, <a href="index.html#modifying-the-difficulty-assets">assets</a> like capable assistance and sterile facilities and surgical equipment, and uninterrupted <a href="index.html#modifying-the-difficulty-effort">Effort</a>.</p></li>
-		<li><p><strong>Supernatural Healing:</strong> The injury requires a healing task that is impossible without the aid of specific assets&mdash;<a href="index.html#superhero-modifying-high-tech-devices">high-tech devices</a>, otherworldly <a href="index.html#running-the-game-artifacts">artifacts</a>, <a href="index.html#ritual-magic">ritual magic</a>, or <a href="index.html#ability-divine-intervention">Divine Intervention</a> <span class="og-csrd-ref">(130)</span>.</p></li>
-		<li><p><strong>Lengthy Recovery:</strong> If the injury reduced multiple values from Pool points, Effort score, or hindered tasks by more than one step, the recovery might be incremental, slowly returning to normal function. The PC might pursue the <a href="index.html#arc-recover-from-a-wound-or-trauma">Recover from a Wound (or Trauma)</a> character arc.</p></li>
+		<li><p><strong>Natural:</strong> The condition ends on its own after a number of <a href="index.html#recovery-rolls">recovery rolls</a> or days. For example, a sprained ankle might inder a PC's movement tasks by two steps until they complete a 1-hour recovery roll, and still hinder such tasks for one step until they complete a 10-hour recovery roll and succeed on a difficulty 3 Might <a href="index.html#action-defend-defense-tasks">defense task</a>.</p></li>
+		<li><p><strong>Interventionist:</strong> The condition requires a successful <a href="index.html#action-healing">healing</a> task by the PC or an ally. For example, a PC might be able to pop their own dislocated shoulder back in with a successful difficulty 5 Might task. Removing a piece of shrapnel embedded in the heart might require someone else perform a difficulty 10 healing task&mdash;likely requiring <a href="index.html#modifying-the-difficulty-skills">skill</a>, <a href="index.html#modifying-the-difficulty-assets">assets</a> like capable assistance and sterile facilities and surgical equipment, and uninterrupted <a href="index.html#modifying-the-difficulty-effort">Effort</a>.</p></li>
+		<li><p><strong>Supernatural:</strong> The condition requires a healing task that is impossible without the aid of specific assets&mdash;<a href="index.html#superhero-modifying-high-tech-devices">high-tech devices</a>, otherworldly <a href="index.html#running-the-game-artifacts">artifacts</a>, <a href="index.html#ritual-magic">ritual magic</a>, or <a href="index.html#ability-divine-intervention">Divine Intervention</a> <span class="og-csrd-ref">(130)</span>.</p></li>
+		<li><p><strong>Lengthy:</strong> If the condition reduced multiple values from Pool points, Effort score, or hindered tasks by more than one step, the recovery might be incremental, eventually returning the PC normal function. The PC might pursue the <a href="index.html#arc-recover-from-a-wound-or-trauma">Recover from a Wound (or Trauma)</a> character arc.</p></li>
 	</ul>
 	<h4 class="og-csrd-header-small" id="disabilities">Disabilities<a class="og-csrd-header-anchor" href="index.html#disabilities" title="Permalink" aria-hidden="true"></a></h4>
-	<p>Natural circumstance or an injury might cause a PC or NPC to become disabled. As is outlined in the <a href="index.html#drawbacks-and-penalties">drawbacks and penalties</a> section of <a href="index.html#chapter-4-creating-your-character">Chapter 4: Creating Your Character</a>, consider pairing inabilities (in this case, disabilities) with strengths like <a href="index.html#skills">skills</a>. For example, a congenitally blind PC might have a well-developed sense of hearing they use to navigate the world&mdash;or even develop a special ability like <a href="index.html#ability-echolocation">Echolocation</a> <span class="og-csrd-ref">(133)</span>.</p>
-	<p class="og-csrd-indent">Some injuries and disabilities can be mitigated with specific equipment or <a href="running-the-game-artifacts">artifacts</a>&mdash;glasses, hearing aids, prosthetics, or wheelchairs&mdash;which allow an injured or disabled person to perform tasks with less hindrance, or none at all.</p>
-	<p class="og-csrd-indent">It's also important to remember that many disabilities don't affect a person all the time, making them ill-suited for any of the <a href="#injurious-conditions-and-effects">injurious conditions and effects</a> above. These disabilities&mdash;most disabilities, in fact&mdash; including angina, anxiety, athsma, diabetes, lupus, and so on&mdash;are probably best realized through the occasional <a href="index.html#gm-intrusion">GM intrusion</a> instead.</p>
+	<p>PCs or NPCs might have congenital conditions, or gain a conditions from their experiences. As is outlined in the <a href="index.html#drawbacks-and-penalties">drawbacks and penalties</a> section of <a href="index.html#chapter-4-creating-your-character">Chapter 4: Creating Your Character</a>, consider pairing inabilities&mdash;or disabilities&mdash;with strengths in new and different <a href="index.html#skills">skills</a>. For example, a congenitally blind PC might have a well-developed sense of hearing they use to navigate the world&mdash;develop a special ability like <a href="index.html#ability-echolocation">Echolocation</a> <span class="og-csrd-ref">(133)</span>.</p>
+	<p class="og-csrd-indent">Some conditions can be mitigated with specific equipment or <a href="running-the-game-artifacts">artifacts</a>&mdash;glasses, hearing aids, prosthetics, and wheelchairs are just a few modern examples.</p>
+	<p class="og-csrd-indent">It's also important to remember that many lasting and permanent conditions don't affect a person all the time or even every day, making them ill-suited for any of the <a href="#condition-effects">condition effects</a> above. These disabilities&mdash;most disabilities, in fact&mdash; including angina, anxiety, athsma, diabetes, lupus, and so on&mdash;are probably best realized through the occasional <a href="index.html#gm-intrusion">GM intrusion</a> instead.</p>
 	<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/we-are-all-mad-here/">We Are All Mad Here</a> contains a useful section on Mental Health in Games <span class="og-csrd-ref">(WAAMH, 159)</span>.</p>
 	</div>
+	<hr>
 <!--
 	<h3 id="chapter-13-decisive-vehicular-combat">
 		<span class="og-csrd-chapter">Chapter 13</span>
