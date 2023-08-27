@@ -28,8 +28,8 @@
 		<div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rules</a>
-					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-characters">
+					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-rules" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rules</a>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-rules">
 						<li><a class="dropdown-item og-csrd-nav" href="#rules">Rules Index</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#move">Moving</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#attack">Attacking</a></li>
@@ -43,6 +43,7 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">Characters</a>
 					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-characters">
+						<li><a class="dropdown-item og-csrd-nav" href="#pcs">PCs</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#stat">Stats</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#pool-edge">Pool and Edge</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#effort">Effort</a></li>
@@ -52,8 +53,8 @@
 					</ul>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">Options</a>
-					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-characters">
+					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-options" role="button" data-bs-toggle="dropdown" aria-expanded="false">Options</a>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-options">
 						<li><a class="dropdown-item og-csrd-nav" href="#descriptor">Descriptor</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#type">Type</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#focus">Focus</a></li>
@@ -62,8 +63,8 @@
 					</ul>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">Customization</a>
-					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-characters">
+					<a class="nav-link dropdown-toggle" href="#" id="og-csrd-navbar-customization" role="button" data-bs-toggle="dropdown" aria-expanded="false">Customization</a>
+					<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="og-csrd-navbar-customization">
 						<li><a class="dropdown-item og-csrd-nav" href="#customization">Further Cutsomization</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#spellcasting-psionics">Spellcasting and Psionics</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#posthuman">Posthuman Upgrades</a></li>
@@ -83,7 +84,7 @@
 		OG-CSPG
 		<span class="og-csrd-chapter">Old Gus' Unofficial Cypher System Player's Guide</span>
 	</h1>
-	<p class="small text-center">version 1.00a (2023-08-27)</p>
+	<p class="small text-center">version 1.00b (2023-08-27)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="index.html">Full Rules: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSRD</abbr></a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="og-dd.html">Homebrew: <abbr title="Old Gus' Daft Drafts">OG-DD</abbr></a></li>
@@ -164,7 +165,7 @@
 				<p class="text-center mt-3"><a href="https://drive.google.com/drive/u/1/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">Download the <abbr title="Old Gus' Cypher System Player's Guide">OG-CSPG</abbr> in PDF</a></p>
 			</div>
 			<div class="alert bg-dark pb-0">
-				<h5 class="og-csrd-header-small" id="these-are-not-the-rules">Referring to Official Material</a></h5>
+				<h5 class="og-csrd-header-small" id="referring-to-official-material">Referring to Official Material</h5>
 				<p>In the indices for player character options and special abilities, page number references to official material are provided as follows:</p>
 				<ul class="list-unstyled">
 					<li><a class="og-csrd-icon og-csrd-mcg" href="https://www.montecookgames.com/store/product/cypher-system-rulebook-2/">Cypher System Rulebook</a> (2019), page 100: <span class="og-csrd-ref">(100)</span></li>
@@ -181,7 +182,7 @@
 		<span class="og-csrd-chapter">Chapter 1</span>
 		Cypher System Rules
 	</h3>
-	<div class="alert bg-dark" id="choose-rules-of-the-game">
+	<div class="alert bg-dark">
 		<ul class="list-unstyled og-csrd-quick-reference">
 			<li><a href="#how-to-play">How to Play</a> <span class="og-csrd-ref">(206)</span></li>
 			<li><a href="#difficulty">Task Difficulty</a> <span class="og-csrd-ref">(208)</span></li>
@@ -220,7 +221,7 @@
 		</div>
 		<div class="col-lg-6">
 			<div class="alert bg-dark pb-0">
-				<h5 class="og-csrd-header-small" id="key-concepts">Key Concepts<a class="og-csrd-header-anchor" href="#key-concepts" title="Permalink" aria-hidden="true"></a></h4>
+				<h5 class="og-csrd-header-small" id="key-concepts">Key Concepts</h5>
 				<ul class="list-unstyled og-csrd-indent">
 					<li><p><strong>Character:</strong> Any creature in the game, whether it is a player character (PC) or a nonplayer character (NPC) run by the game master (GM).</p></li>
 					<li><p><strong>Session:</strong> A single play experience which usually lasts a few hours.</p></li>
@@ -445,7 +446,7 @@
 			<p class="og-csrd-indent">Waiting is a good way to deal with a ranged attacker who rises from behind cover, fires an attack, and ducks back down. You could say "I wait to see them pop up from behind cover and then I shoot them."</p>
 			<div class="alert bg-dark pb-0">
 				<h5 class="og-csrd-header-small" id="initial-cost">Initial Cost</h5>
-				<p>The GM can assign an additional <a href="#stat">stat</a> <a href="#pool-edge">Pool</a> point cost to a particularly taxing <a href="#how-to-play">task</a> just for trying it.</a></p>
+				<p>The GM can assign an additional <a href="#stat">stat</a> <a href="#pool-edge">Pool</a> point cost to a particularly taxing <a href="#how-to-play">task</a> just for trying it.</p>
 			</div>
 		</div>
 	</div>
@@ -753,7 +754,7 @@
 			</div>
 		</div>
 		<div class="col-lg-6">
-			<h5 class="og-csrd-header-small" id="wearing-armor">Wearing Armor</h4>
+			<h5 class="og-csrd-header-small" id="wearing-armor">Wearing Armor</h5>
 			<p>Anyone can wear armor, the cost of using a level of <a href="#effort">Effort</a> on <a href="#speed">Speed</a> tasks is increased. Certain <a href="#ability">special abilities</a> reduce Speed Effort cost for wearing armor&mdash;if you have them, use their column on the <a href="#speed-cost">Speed Effort Cost</a> table below. Otherwise, use the Not Experienced column.</p>
 			<p class="og-csrd-indent">You can also reduce Speed Effort cost through <a href="#advancement">character advancement</a>. Special abilities can also improve your defenses without armor.</p>
 			<div class="alert bg-dark pb-0">
@@ -889,10 +890,10 @@
 		<div class="col-lg-6">
 			<div class="alert bg-dark pb-0">
 				<ul class="og-csrd-abilities-catalog">
-					<li><strong>Expert Cypher Use:</strong> You can bear three cyphers at a time. Enabler. <span class="og-csrd-ref">(137)</span></p></li>
-					<li><strong>Adroit Cypher Use:</strong> You can bear four cyphers at a time. Enabler. <span class="og-csrd-ref">(108)</span></p></li>
-					<li><strong>Master Cypher Use:</strong> You can bear five cyphers at a time. Enabler. <span class="og-csrd-ref">(160)</span></p></li>
-					<li><strong>Usurp Cypher:</strong> Choose one cypher that you carry. The cypher must have an effect that is not instantaneous. You destroy the cypher and gain its power, which functions for you continuously. You can choose a cypher when you gain this ability, or you can wait and make the choice later. However, once you usurp a cypher's power, you cannot later switch to a different cypher&mdash;the usurping ability works only once. Action to initiate. <span class="og-csrd-ref">(195)</span></p></li>
+					<li><p><strong>Expert Cypher Use:</strong> You can bear three cyphers at a time. Enabler. <span class="og-csrd-ref">(137)</span></p></li>
+					<li><p><strong>Adroit Cypher Use:</strong> You can bear four cyphers at a time. Enabler. <span class="og-csrd-ref">(108)</span></p></li>
+					<li><p><strong>Master Cypher Use:</strong> You can bear five cyphers at a time. Enabler. <span class="og-csrd-ref">(160)</span></p></li>
+					<li><p><strong>Usurp Cypher:</strong> Choose one cypher that you carry. The cypher must have an effect that is not instantaneous. You destroy the cypher and gain its power, which functions for you continuously. You can choose a cypher when you gain this ability, or you can wait and make the choice later. However, once you usurp a cypher's power, you cannot later switch to a different cypher&mdash;the usurping ability works only once. Action to initiate. <span class="og-csrd-ref">(195)</span></p></li>
 				</ul>
 			</div>
 		</div>
@@ -1063,14 +1064,14 @@
 		Player Characters
 	</h3>
 	<p>This chapter explains the elements of player characters in the Cypher System that you will need understand and also keep track of on your character sheet while playing the game.</p>
-	<div class="alert bg-dark" id="choose-rules-of-the-game">
+	<div class="alert bg-dark">
 		<ul class="list-unstyled og-csrd-quick-reference">
 			<li><a href="#stat">Stats: Might, Speed, and Intellect</a> <span class="og-csrd-ref">(14)</span></li>
 			<li><a href="#pool-edge">Pool and Edge</a> <span class="og-csrd-ref">(15)</span></li>
 			<li><a href="#effort">Effort</a> <span class="og-csrd-ref">(15)</span></li>
 			<li><a href="#skill">Skills</a> <span class="og-csrd-ref">(19)</span></li>
 			<li><a href="#ability">Special Abilities</a> <span class="og-csrd-ref">(18)</span></li>
-			<li><a href="#sentence">Character Sentence: Descriptor: Type, and Focus</a> <span class="og-csrd-ref">(18)</span></li>
+			<li><a href="#sentence">Character Sentence</a> <span class="og-csrd-ref">(18)</span></li>
 		</ul>
 	</div>
 	<h4 id="stat">Stats: Might, Speed and Intellect<a class="og-csrd-header-anchor" href="#stat" title="Permalink" aria-hidden="true"></a></h4>
@@ -1080,25 +1081,25 @@
 			<h5 class="og-csrd-header-small" id="might">Might</h5>
 			<p>Might governs how strong you are, how much physical punishment you can take, and how well you weather extreme conditions, poisons, toxins, and venom. Physical characters, tough characters, and characters interested in fighting&mdash;especially up close in a melee&mdash;should focus on Might.</p>
 			<ul class="list-unstyled og-csrd-indent">
-				<li><strong>Might is:</strong> Durability, Endurance, Constitution, Hardiness, and Strength.</p></li>
-				<li><strong>Might defense:</strong> Resisting poisons and disease, or being crushed by heavy weights test your Might.</p></li>
-				<li><strong>Might damage:</strong> When you take physical damage, it is subtracted from your Might points first.</p></li>
+				<li><p><strong>Might is:</strong> Durability, Endurance, Constitution, Hardiness, and Strength.</p></li>
+				<li><p><strong>Might defense:</strong> Resisting poisons and disease, or being crushed by heavy weights test your Might.</p></li>
+				<li><p><strong>Might damage:</strong> When you take physical damage, it is subtracted from your Might points first.</p></li>
 			</ul>
 			<h5 class="og-csrd-header-small" id="speed">Speed</h5>
 			<p>Speed it governs how well-coordinated you are, how well you dodge, and your accuracy with ranged attacks. It also helps when you move farther on your turn. Nimble, fast, or stealthy characters should focus on Speed.</p>
 			<ul class="list-unstyled og-csrd-indent">
-				<li><strong>Speed is:</strong> Accuracy, Agility, Dexterity, Movement, Reflexes, and Quickness.</p></li>
-				<li><strong>Speed defense:</strong> Dodging attacks and escaping danger are Speed defense tasks, and are the most common defense task.</p></li>
-				<li><strong>Speed damage:</strong> When you take damage from snake venom, a strange force field, or sapping necrotic energies, it is subtracted from your Speed points first.</p></li>
+				<li><p><strong>Speed is:</strong> Accuracy, Agility, Dexterity, Movement, Reflexes, and Quickness.</p></li>
+				<li><p><strong>Speed defense:</strong> Dodging attacks and escaping danger are Speed defense tasks, and are the most common defense task.</p></li>
+				<li><p><strong>Speed damage:</strong> When you take damage from snake venom, a strange force field, or sapping necrotic energies, it is subtracted from your Speed points first.</p></li>
 			</ul>
 		</div>
 		<div class="col-lg-6">
 			<h5 class="og-csrd-header-small" id="Intellect">Intellect</h5>
 			<p>Intellect governs all mental domains&mdash;solving puzzles, remembering, using intuition, telling convincing lies, and using mental powers are all Intellect-based . Characters interested in communicating effectively, being learned scholars, or wielding supernatural powers should focus on Intellect.</p>
 			<ul class="list-unstyled og-csrd-indent">
-				<li><strong>Intellect is:</strong> Charisma, Charm, Education, Empathy, Insight, Knowledge, Personality, Resolve, Reasoning, Willpower, Wisdom, and Wit.</p></li>
-				<li><strong>Intellect defense:</strong> Fending off mental attacks, or anything that affects or influences are Intellect defense Tasks.</p></li>
-				<li><strong>Intellect damage:</strong> When you take damage from a mental attack, it is subtracted from your Intellect points first.</p></li>
+				<li><p><strong>Intellect is:</strong> Charisma, Charm, Education, Empathy, Insight, Knowledge, Personality, Resolve, Reasoning, Willpower, Wisdom, and Wit.</p></li>
+				<li><p><strong>Intellect defense:</strong> Fending off mental attacks, or anything that affects or influences are Intellect defense Tasks.</p></li>
+				<li><p><strong>Intellect damage:</strong> When you take damage from a mental attack, it is subtracted from your Intellect points first.</p></li>
 			</ul>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>Your <a href="#descriptor">descriptor</a> provides guidance on how you use your Intellect best. You might be very good at remembering things you've read, but not very good at making good first impressions. You might be good at making friends, but have trouble remembering what day of the week it is.</p>
@@ -1109,7 +1110,6 @@
 	<div class="row">
 		<div class="col-lg-6">
 			<p>Each of your three <a href="#stat">stats</a>&mdash;Might, Speed, and Intellect&mdash;has two values&mdash;Pool and Edge. Each tier, you can use <a href="#advancement">character advancement</a> to increase your stat Pools and Edge. Your <a href="descriptor">descriptor</a> and some <a href="#ability">special abilities</a> also increase your Pool or Edge.</p>
-		</p>
 			<h5 class="og-csrd-header-small" id="pool">Pool</h5>
 			<p>A stat Pool is a well of potential you can draw from for a stat, measured in "points". Pool points are temporarily reduced by <a href="#taking-damage">taking damage</a>, and by spending points from the Pool to activate special abilities or use <a href="#effort">Effort</a>. If a stat Pool's points reach 0, you shift down <a href="#damage-track">the damage track</a>. You recover lost pool points by making <a href="#taking-damage">recovery rolls</a>.</p>
 			<p class="og-csrd-indent">At tier 1, your type determines your starting Pools, granting you a 9&ndash;12 in each stat, and 6 additional points to divide among your stat Pools however you wish.</p>
@@ -1147,7 +1147,7 @@
 			</div>
 		</div>
 		<div class="col-lg-6">
-			<h5 class="og-csrd-header-small" id="effort-and-damage">Effort and Damage</h4>
+			<h5 class="og-csrd-header-small" id="effort-and-damage">Effort and Damage</h5>
 			<p>Instead of applying a level of Effort to ease an <a href="#attack">attack</a>, you can apply it to inflict 3 additional points of <a href="#inflicting-damage">damage</a>&mdash;if the attack roll succeeds. This works for any kind of attack&mdash;a sword, a crossbow, or a mental blast.</p>
 			<p class="og-csrd-indent">When you use Effort to increase the damage of an area attack, you inflict only 2 additional points of damage to creatures hit by the attack.</p>	
 			<div class="alert bg-dark pb-0">
@@ -1456,7 +1456,7 @@
 					<li><p><strong>Hurl Flame (2 Intellect points):</strong> While your <a href="#ability-shroud-of-flame">Shroud of Flame</a> is active, you can reach into your halo and hurl a handful of fire at a target. This is a ranged attack with short range that deals 4 points of fire damage. Action. <span class="og-csrd-ref">(149)</span></p></li>
 				</ul>
 			</div>
-			<h5 class="og-csrd-header-small" id="abilities-attacks">Ability Tier Categories</h5>
+			<h5 class="og-csrd-header-small" id="abilities-tier-categories">Ability Tier Categories</h5>
 			<table class="table table-dark table-striped table-sm">
 				<caption>Ability Tier Categories</caption>
 				<thead>
@@ -1494,12 +1494,12 @@
 			<p>The adjective is your <a href="descriptor">descriptor</a>. A descriptor defines what you are like, including some strengths and weaknesses. In some settings, it might also describe your species or other unique things about your personal history. The GM might limit which descriptors are appropriate for the game setting. There are many descriptors, so it's unlikely two PCs in a group will need use the same one.</p>
 			<p class="og-csrd-indent">Dozens of descriptors are detailed in <a href="#descriptor">Chapter 3</a>.</p>
 			
-			<h5 class="og-csrd-header-small" id="choosing-descriptor">Type</h5>
+			<h5 class="og-csrd-header-small" id="choosing-type">Type</h5>
 			<p>The noun is your character <a href="#type">type</a>&mdash;<a href="#adept">Adept</a>, <a href="#explorer">Explorer</a>, <a href="#speaker">Speaker</a>, or <a href="#warrior">Warrior</a>. Your character type defines your role in the world, and includes a broad choice of <a href="#ability">special abilities</a> you might want your character to have.</p>
 			<p class="og-csrd-indent">Types are very broad, so it's fine if two PCs have the same type&mdash;no two will be alike.</p>
 			<p class="og-csrd-indent">Types are detailed in <a href="#type">Chapter 4</a>.</p>
 			
-			<h5 class="og-csrd-header-small" id="choosing-descriptor">Focus</h5>
+			<h5 class="og-csrd-header-small" id="choosing-focus">Focus</h5>
 			<p>The verb is your <a href="#focus">focus</a>. Focus is what your character does best, granting you new special abilities each tier. Your focus also helps you understand how you relate with the other player characters in your group. The foci you choose from will probably depend on the setting and genre of your game.</p>
 			<p class="og-csrd-indent">Foci are unique. No two PCs in the group will have the same focus.</p>
 			<p class="og-csrd-indent">Over one hundred foci are detailed in <a href="#focus">Chapter 5</a>.</p>
@@ -1513,10 +1513,10 @@
 			<p class="og-csrd-indent">Character arcs are a significant source of <a href="#xp">XP</a>.</p>
 			<p class="og-csrd-indent">Dozens of arcs are detailed in <a href="#arc">Chapter 6</a>.</p>
 			<div class="alert bg-dark pb-0">
-				<h5 class="og-csrd-header-small" id="making-and-naming">Making and Naming Choices</h5>
+				<h5 class="og-csrd-header-small" id="choosing-making-and-naming">Making and Naming Choices</h5>
 				<p>Your descriptor and focus are less flexible than your type, so try narrowing those options down first. Then determine which type best fills in the gaps for your concept.</p>
 				<p class="og-csrd-indent">It can help to start flavoring your character after on your character sheet by renaming your choices. For example, in a fairy tale setting, your character concept might be especially outlandish&mdash;a cartoon chipmunk inventor with a penchant for bringing phonographs to life. You might end up choosing to be a "<a href="#descriptor-swift">Swift</a> <a href="#adept">Adept</a> who <a href="#focus-builds-robots">Builds Robots</a>", but present your character sentence as a "Chipmunk Horologist who Awakens Objects". Doing so anchors you in flavoring your actions and abilities, and helps make even a seemingly anachronistic focus feel natural to the setting.</p>
-				<h5 class="og-csrd-header-small" id="Further Customization">Further Customization</h5>
+				<h5 class="og-csrd-header-small" id="#choosing-further-customization">Further Customization</h5>
 				<p>Further customization and <a href="#flavor">flavor</a> are detailed in <a href="#customization">Chapter 7</a>. These optional rules all require the GM's involvement, so talk to the GM if you want to them.</p>
 			</div>
 		</div>
@@ -2651,7 +2651,7 @@
 		</div>
 		<div class="col-lg-6">
 			<h5 class="og-csrd-header-small og-csrd-border-line" id="fantasy-species-elf">Elf<a class="og-csrd-header-anchor" href="#fantasy-species-elf" title="Permalink" aria-hidden="true"></a></h5>
-			<p>You haunt the woodlands and deep, natural realms, as your people have for millennia. You are the arrow in the night, the shadow in the glade, and the laughter on the wind. As an elf, you are slender, quick, graceful, and long lived. You manage the sorrows of living well past many mortal lifetimes with song, wine, and an appreciation for the deep beauties of growing things, especially trees, which can live even longer than you do.</span></p>
+			<p>You haunt the woodlands and deep, natural realms, as your people have for millennia. You are the arrow in the night, the shadow in the glade, and the laughter on the wind. As an elf, you are slender, quick, graceful, and long lived. You manage the sorrows of living well past many mortal lifetimes with song, wine, and an appreciation for the deep beauties of growing things, especially trees, which can live even longer than you do.</p>
 			<p class="og-csrd-indent">You gain the following characteristics:</p>
 			<ul class="list-unstyled og-csrd-indent">
 				<li><p><strong>Agile:</strong> +2 to your Speed Pool.</p></li>
@@ -4872,7 +4872,7 @@
 			<h5 class="og-csrd-header-small">Tier 3: Ability Choice</h5>
 			<p>Choose either Better Living Through Chemistry or Incredible Health as your tier 3 ability.</p>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><p><strong>Better Living Through Chemistry (4 Intellect points):</strong> You've developed drug cocktails specifically designed to work with your own biochemistry. Depending on which one you inject, it makes you smarter, faster, or tougher, but when it wears off, the crash is a doozy, so you use it only in desperate situations. You gain 2 to your Might Edge, Speed Edge, or Intellect Edge for one minute, after which you can't gain the benefit again for one hour. During this follow-up hour, every time you spend points from a Pool, increase the cost by 1. Action. <span class="og-csrd-ref">(113)</span></p></p></li>
+				<li><p><strong>Better Living Through Chemistry (4 Intellect points):</strong> You've developed drug cocktails specifically designed to work with your own biochemistry. Depending on which one you inject, it makes you smarter, faster, or tougher, but when it wears off, the crash is a doozy, so you use it only in desperate situations. You gain 2 to your Might Edge, Speed Edge, or Intellect Edge for one minute, after which you can't gain the benefit again for one hour. During this follow-up hour, every time you spend points from a Pool, increase the cost by 1. Action. <span class="og-csrd-ref">(113)</span></p></li>
 				<li><p><strong>Incredible Health:</strong> Thanks to a dip in a magical pool, an injection of artificial antibodies and immune defense nanobots into your bloodstream, exposure to strange radiation, or something else, you are now immune to diseases, viruses, and mutations of any kind. Enabler. <span class="og-csrd-ref">(153)</span></p></li>
 			</ul>
 		</div>
@@ -5258,7 +5258,7 @@
 			<h5 class="og-csrd-header-small">Type Swap Option</h5>
 			<ul class="og-csrd-abilities-catalog">
 				<li><p><strong>Retinue:</strong> Four level 2 <a href="#follower">followers</a> join you (and your first follower, if you have one). One of their modifications must be for tasks related to serving as your personal assistants. In addition to other tasks they might individually take on your behalf, they can also work together to run interference if you're trying to avoid someone, help hide you from the attention of others, help you muscle through a crowd, and so on. If a situation becomes physically violent, they provide an asset to your Speed defense tasks and, if you command it, try to hold a foe's attention while you escape. Enabler. <span class="og-csrd-ref">(177)</span></p></li>
-			</li>
+			</ul>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
 				<li><p><strong>Privileged Nobility:</strong> You are adept at claiming the rewards that a noble background can generate. When recognized, you can be seated at any eating establishment no matter how full, get a room in an inn even if that means others are turned out, be let into any court or other structure where laws are decided or nobility rules, be invited to any gala, and get a seat at a private function of any sort. In addition, you are trained in persuasion. Enabler. <span class="og-csrd-ref">(172)</span></p></li>
@@ -5731,7 +5731,7 @@
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 2</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><p><strong>Telekinesis (2 Intellect points):</strong> You can exert force on objects within short range. Once activated, your power has an effective Might Pool of 10, a Might Edge of 1, and an Effort of 2 (approximately equal to the strength of a fit, capable adult human), and you can use it to move objects, push against objects, and so on. For example, you could lift and pull a light object anywhere within range to yourself or move a heavy object (like a piece of furniture) about 10 feet (3 m). This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations, it's not a means of attack. You can't use this ability on your own body. The power lasts for one hour or until its Might Pool is depleted, whichever comes first. Action. <span class="og-csrd-ref">(189)</span></p>
+				<li><p><strong>Telekinesis (2 Intellect points):</strong> You can exert force on objects within short range. Once activated, your power has an effective Might Pool of 10, a Might Edge of 1, and an Effort of 2 (approximately equal to the strength of a fit, capable adult human), and you can use it to move objects, push against objects, and so on. For example, you could lift and pull a light object anywhere within range to yourself or move a heavy object (like a piece of furniture) about 10 feet (3 m). This power lacks the fine control to wield a weapon or move objects with much speed, so in most situations, it's not a means of attack. You can't use this ability on your own body. The power lasts for one hour or until its Might Pool is depleted, whichever comes first. Action. <span class="og-csrd-ref">(189)</span></p>
 				</li>
 			</ul>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
@@ -5828,7 +5828,7 @@
 				<li><p><strong>Knowledge Skills:</strong> You are trained in two skills in which you are not already trained. Choose two areas of knowledge such as history, geography, archeology, and so on. You can select this ability multiple times. Each time you select it, you must choose two different skills. Enabler. <span class="og-csrd-ref">(157)</span></p></li>			</ul>
 			<h5 class="og-csrd-header-small">Tier 5</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><strong>See the Future (6 Intellect points):</strong> Based on all the variables you perceive, you can predict the next few minutes. This has the following effects:</p><ul class="og-csrd-list-disc"><li>For the next ten minutes, your defense rolls gain an asset.</li><li>You have a sort of danger sense. For the next ten minutes, you gain an asset in seeing through deceptions and attempts to betray you, as well as avoiding traps and ambushes.</li><li>You know what people are probably thinking and what they will say before they say it. For the next ten minutes, you gain an asset to tasks involving interaction and deception.</li></ul><p class="og-csrd-indent">Enabler. <span class="og-csrd-ref">(180)</span></p></p></li>
+				<li><p><strong>See the Future (6 Intellect points):</strong> Based on all the variables you perceive, you can predict the next few minutes. This has the following effects:</p><ul class="og-csrd-list-disc"><li>For the next ten minutes, your defense rolls gain an asset.</li><li>You have a sort of danger sense. For the next ten minutes, you gain an asset in seeing through deceptions and attempts to betray you, as well as avoiding traps and ambushes.</li><li>You know what people are probably thinking and what they will say before they say it. For the next ten minutes, you gain an asset to tasks involving interaction and deception.</li></ul><p class="og-csrd-indent">Enabler. <span class="og-csrd-ref">(180)</span></p></li>
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 6: Ability Choice</h5>
 			<p>Choose either Machine Enhancement or Mind Surge as your tier 6 ability.</p>
@@ -5984,7 +5984,6 @@
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>The text for Greater Beast Form has been amended by the editor to explicitly accommodate the addition of the <a href="#focus-takes-animal-shape">Takes Animal Shape</a> focus to the CSRD.</p>
 			</div>
-			</ul>
 		</div>
 		<div class="col-lg-6">
 			<h5 class="og-csrd-header-small">Tier 4</h5>
@@ -6081,7 +6080,7 @@
 				<li><p><strong>Teleportive Wound (7+ Intellect points):</strong> You touch a creature and, if your attack succeeds, you teleport away (up to your normal maximum teleportation distance) with a significant portion of their body. If the target is level 2 or lower, it dies. If the target is level 3 or higher, it takes 6 points of damage and is stunned on its next action. If the target is a PC of any tier, they move down one step on the damage track. In addition to the normal options for using Effort, you can choose to use Effort to affect a more powerful target (one level of Effort means a target of up to level 3 dies or a target of level 4 or higher takes damage and is stunned, and so on). Action. <span class="og-csrd-ref">(CTS, 56)</span></p></li>
 			</ul>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>If you already have Short Teleportation when you gain Medium Teleportation</a> or Teleportation, you can replace Short Teleportation with a tier 4 type ability.</p>
+				<p>If you already have Short Teleportation when you gain Medium Teleportation or Teleportation, you can replace Short Teleportation with a tier 4 type ability.</p>
 			</div>
 		</div>
 	</div>
@@ -6212,7 +6211,7 @@
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 2</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><p><strong>Careful Shot:</strong> You can spend points from either your Speed Pool or your Intellect Pool to apply levels of Effort to increase your gun damage. Each level of Effort adds 3 points of damage to a successful attack, and if you spend a turn lining up your shot, each level of Effort instead adds 5 points of damage to a successful attack. Enabler. <span class="og-csrd-ref">(118)</span></p></p></li>
+				<li><p><strong>Careful Shot:</strong> You can spend points from either your Speed Pool or your Intellect Pool to apply levels of Effort to increase your gun damage. Each level of Effort adds 3 points of damage to a successful attack, and if you spend a turn lining up your shot, each level of Effort instead adds 5 points of damage to a successful attack. Enabler. <span class="og-csrd-ref">(118)</span></p></li>
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 3: Ability Choice</h5>
 			<p>Choose either Trained Gunner or Damage Dealer as your tier 3 ability.</p>
@@ -6335,7 +6334,6 @@
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>When you use Basic Follower, the GM may require that you actually look for a suitable follower.</p>
 			</div>
-			</ul>
 			<h5 class="og-csrd-header-small">Tier 3: Ability Choice</h5>
 			<p>Choose either Advanced Command or Expert Follower as your tier 3 ability.</p>
 			<ul class="og-csrd-abilities-catalog">
@@ -6468,13 +6466,12 @@
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 5</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><p><strong>Mastery With Attacks:</strong> Choose one type of attack in which you are trained: light bashing, light bladed, light ranged, medium bashing, medium bladed, medium ranged, heavy bashing, heavy bladed, or heavy ranged. You are specialized in attacks using that type of weapon. Enabler. <span class="og-csrd-ref">(161)</span></p>
+				<li><p><strong>Mastery With Attacks:</strong> Choose one type of attack in which you are trained: light bashing, light bladed, light ranged, medium bashing, medium bladed, medium ranged, heavy bashing, heavy bladed, or heavy ranged. You are specialized in attacks using that type of weapon. Enabler. <span class="og-csrd-ref">(161)</span></p>
 				</li>
 			</ul>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>If you aren't trained in an attack, select Skill With Attacks to become trained in that attack.</p>
 			</div>
-			</ul>
 			<h5 class="og-csrd-header-small">Tier 6: Ability Choice</h5>
 			<p>Choose either Greater Enhanced Might or Lethal Damage as your tier 6 ability.</p>
 			<ul class="og-csrd-abilities-catalog">
@@ -6602,7 +6599,7 @@
 				<li><p><strong>Word of Death (5+ Intellect points):</strong> Your attack is the utterance of a magic word so terrible that it snuffs the life from a living target within short range. The target must be level 1. In addition to the normal options for using Effort, you can choose to use Effort to increase the maximum level of the target. Thus, to kill a level 5 target (four levels above the normal limit), you must apply four levels of Effort. Action. <span class="og-csrd-ref">(200)</span></p></li>
 			</ul>
 			<div class="alert bg-dark pb-0">
-				<h6 class="og-csrd-tabbed-item text-white" id="creature-giant-spider">Giant Spider <span class="float-end">3 (9)</span></h5>
+				<h5 class="og-csrd-tabbed-item text-white" id="focus-masters-spells-giant-spider">Giant Spider <span class="float-end">3 (9)</span></h5>
 				<p class="small">Giant spiders result most commonly from radioactive accidents, magic, or genetic manipulation. Whatever their origin, they're terrifying hunters large enough to predate people. The creatures range from the size of a large dog to the size of a large horse. <span class="og-csrd-ref">(335)</span></p>
 				<ul class="list-unstyled og-csrd-indent-hang small">
 					<li><p><strong>Motive:</strong> Hungers for blood</p></li>
@@ -6703,13 +6700,12 @@
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
 				<li><p><strong>Make Judgment:</strong> You are trained in discerning the truth of a situation, seeing through lies, or otherwise overcoming deception. Enabler. <span class="og-csrd-ref">(160)</span></p></li>
-				<li><p><p><strong>Designation:</strong> You assign an innocent or guilty label to one creature within immediate range, based on your assessment of a given situation or a predominant feeling. In other words, someone who is labeled innocent can be innocent in a certain circumstance, or they can be generally innocent of terrible crimes (such as murder, major theft, and so on). Likewise, you can declare that a creature is guilty of a particular crime or of terrible deeds in general. The accuracy of your assessment isn't important as long as you believe it to be the truth; the GM may require you to give a rationale. Henceforth, your tasks to socially interact with someone you designate as innocent gain an asset, and your attacks against those you designate as guilty gain an asset. You can change your assessment, but it requires another designation action. The benefits of the designation last until you change it or until you are shown proof that it is wrong. Action. <span class="og-csrd-ref">(127)</span></p>
+				<li><p><strong>Designation:</strong> You assign an innocent or guilty label to one creature within immediate range, based on your assessment of a given situation or a predominant feeling. In other words, someone who is labeled innocent can be innocent in a certain circumstance, or they can be generally innocent of terrible crimes (such as murder, major theft, and so on). Likewise, you can declare that a creature is guilty of a particular crime or of terrible deeds in general. The accuracy of your assessment isn't important as long as you believe it to be the truth; the GM may require you to give a rationale. Henceforth, your tasks to socially interact with someone you designate as innocent gain an asset, and your attacks against those you designate as guilty gain an asset. You can change your assessment, but it requires another designation action. The benefits of the designation last until you change it or until you are shown proof that it is wrong. Action. <span class="og-csrd-ref">(127)</span></p>
 				</li>
 			</ul>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>The benefits provided by Designation apply to the character using the ability, their allies, and anyone who hears or is told of their judgment and believes their assessment.</p>
 			</div>
-			</ul>
 			<h5 class="og-csrd-header-small">Tier 2</h5>
 			<ul class="og-csrd-abilities-catalog">
 				<li><p><strong>Defend the Innocent (2 Speed points):</strong> For the next ten minutes, if someone you have designated as innocent with the Designation ability stands next to you, that creature shares any defensive advantages that you might have, other than mundane armor. These advantages include the Speed defense from your shield, the Armor offered from a force field, and so on. In addition, Speed defense rolls made by the innocent creature gain an asset. You can protect only one innocent creature at a time. Action to initiate. <span class="og-csrd-ref">(126)</span></p></li>
@@ -6757,7 +6753,7 @@
 			<h5 class="og-csrd-header-small">Tier 3</h5>
 			<ul class="og-csrd-abilities-catalog">
 				<li><p><strong>Hard to Hit:</strong> You are trained in Speed defense tasks. Enabler. <span class="og-csrd-ref">(148)</span></p></li>
-				<li><p></p></li>
+			</ul>
 			<h5 class="og-csrd-header-small">Tier 3: Ability Choice</h5>
 			<p>Choose either Enhanced Speed Edge or Greater Enhanced Speed as your tier 3 ability.</p>
 			<ul class="og-csrd-abilities-catalog">
@@ -6888,7 +6884,7 @@
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 5</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><strong>Stun Attack (6 Speed points):</strong> You attempt a difficulty 5 Speed task to stun a creature as part of your melee or ranged attack. If you succeed, your attack inflicts its normal damage and stuns the creature for one round, causing it to lose its next turn. If you fail, you still make your normal attack roll, but you don't stun the opponent if you hit. If you also have this ability from another source (such as having it as a type ability and a focus ability), using this costs you only 3 points instead of 6 points. Action. <span class="og-csrd-ref">(187)</span></p></li>
+				<li><p><strong>Stun Attack (6 Speed points):</strong> You attempt a difficulty 5 Speed task to stun a creature as part of your melee or ranged attack. If you succeed, your attack inflicts its normal damage and stuns the creature for one round, causing it to lose its next turn. If you fail, you still make your normal attack roll, but you don't stun the opponent if you hit. If you also have this ability from another source (such as having it as a type ability and a focus ability), using this costs you only 3 points instead of 6 points. Action. <span class="og-csrd-ref">(187)</span></p></li>
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 6: Ability Choice</h5>
 			<p>Choose either Master of Unarmed Fighting Style or Lethal Damage as your tier 6 ability.</p>
@@ -6950,7 +6946,7 @@
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 2</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><strong>Disguise:</strong> You are trained in disguise. You can alter your posture, voice, mannerisms, and hair to look like someone else for as long as you keep up the disguise. However, it is extremely difficult to adopt the appearance of a specific individual without a disguise kit</a> at your disposal. Enabler. <span class="og-csrd-ref">(129)</span></p></li>
+				<li><p><strong>Disguise:</strong> You are trained in disguise. You can alter your posture, voice, mannerisms, and hair to look like someone else for as long as you keep up the disguise. However, it is extremely difficult to adopt the appearance of a specific individual without a disguise kit at your disposal. Enabler. <span class="og-csrd-ref">(129)</span></p></li>
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 3: Ability Choice</h5>
 			<p>Choose either Agent Provocateur or Run and Fight as your tier 3 ability.</p>
@@ -6996,8 +6992,8 @@
 				<li><p><strong>Throw (2 Might points):</strong> When you are using Enlarge and deal damage to a creature of your size or smaller with an unarmed attack, you can choose to throw that creature up to 1d20 feet away from you. The creature lands prone. Enabler. <span class="og-csrd-ref">(191)</span></p></li>
 			</ul>
 			<div class="alert bg-dark pb-0">
+				<p>The Throw ability's prerequisite for the Enlarge ability is likely a misprint&mdash;compare the ability text to the 2015 Cypher System Rulebook <span class="og-csrd-ref">(156)</span>:</p>
 				<ul class="og-csrd-abilities-catalog">
-					<p>The Throw ability's prerequisite for the Enlarge ability is likely a misprint&mdash;compare the ability text to the 2015 Cypher System Rulebook <span class="og-csrd-ref">(156)</span>:</p>
 					<li><p><strong>Throw (2 Might Points):</strong> When you deal damage to a creature of your size or smaller with an unarmed attack, you can choose to throw that creature up to 1d20 feet away from you. The creature lands prone. Enabler.</p></li>
 				</ul>
 			</div>
@@ -7406,7 +7402,7 @@
 		<div class="col-lg-6">
 			<h5 class="og-csrd-header-small">Tier 5</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><p><strong>Psychic Passenger (6 Intellect points):</strong> You place your mind into the body of a willing creature you choose within short range and remain in that body for up to one hour. Your own body falls down and becomes insensate until this ability ends.</p>
+				<li><p><strong>Psychic Passenger (6 Intellect points):</strong> You place your mind into the body of a willing creature you choose within short range and remain in that body for up to one hour. Your own body falls down and becomes insensate until this ability ends.</p>
 					<p class="og-csrd-indent">You see, hear, smell, touch, and taste using the senses of the creature whose body you inhabit. When you speak, the words come from your defenseless body, and the creature you inhabit hears those words in their mind.</p>
 					<p class="og-csrd-indent">The creature you inhabit can use your Intellect Edge in place of their own. In addition, you and the creature have an asset on any task that involves perception.</p>
 					<p class="og-csrd-indent">When you take an action, you use the creature's body to perform that action if they allow it. Action to initiate. <span class="og-csrd-ref">(172)</span></p>
@@ -7486,7 +7482,7 @@
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 5</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><strong>Call Dead Spirit (6 Intellect points):</strong> At your touch, the remains of a creature dead no longer than seven days appears as a manifest (and apparently physical) spirit, whose level is the same as it had in life. The raised spirit persists for up to a day (or less, if it accomplishes something important to it before then), after which it fades away and cannot return again.</p><p class="og-csrd-indent">The raised spirit remembers everything it knew in life and possesses most of its previous abilities (though not necessarily its equipment). In addition, it gains the ability to become insubstantial as an action for up to a minute at a time. The raised spirit is not beholden to you, and it does not need to stay near you to remain manifest. Action to initiate. <span class="og-csrd-ref">(117)</span></li>
+				<li><p><strong>Call Dead Spirit (6 Intellect points):</strong> At your touch, the remains of a creature dead no longer than seven days appears as a manifest (and apparently physical) spirit, whose level is the same as it had in life. The raised spirit persists for up to a day (or less, if it accomplishes something important to it before then), after which it fades away and cannot return again.</p><p class="og-csrd-indent">The raised spirit remembers everything it knew in life and possesses most of its previous abilities (though not necessarily its equipment). In addition, it gains the ability to become insubstantial as an action for up to a minute at a time. The raised spirit is not beholden to you, and it does not need to stay near you to remain manifest. Action to initiate. <span class="og-csrd-ref">(117)</span></p></li>
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 6: Ability Choice</h5>
 			<p>Choose either Call Otherworldly Spirit or Infuse Spirit as your tier 6 ability.</p>
@@ -7952,7 +7948,7 @@
 			<h5 class="og-csrd-header-small">Tier 3: Ability Choice</h5>
 			<p>Choose either Bigger Animal Shape or Greater Beast Form as your tier 3 ability.</p>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><p><strong>Bigger Animal Shape:</strong> When you use Animal Shape, your animal form grows to about twice its normal size.</p><p>Being so large, your beast form gains the following additional bonuses: +1 to Armor, +5 to your Might Pool, and you are trained in using your animal form's natural attacks as heavy weapons (if you weren't already). However, your Speed defense tasks are hindered. While bigger, you also gain an asset to tasks that are easier for a larger creature to perform, like climbing, intimidating, wading rivers, and so on. Enabler. <span class="og-csrd-ref">(GF, 29)</span></p></li>
+				<li><p><strong>Bigger Animal Shape:</strong> When you use Animal Shape, your animal form grows to about twice its normal size.</p><p>Being so large, your beast form gains the following additional bonuses: +1 to Armor, +5 to your Might Pool, and you are trained in using your animal form's natural attacks as heavy weapons (if you weren't already). However, your Speed defense tasks are hindered. While bigger, you also gain an asset to tasks that are easier for a larger creature to perform, like climbing, intimidating, wading rivers, and so on. Enabler. <span class="og-csrd-ref">(GF, 29)</span></p></li>
 				<li><p><strong>Greater Beast Form:</strong> When using Beast Form or Animal Shape, your beast form gains the following additional bonuses: +1 to your Might Edge, +2 to your Speed Pool, and +1 to your Speed Edge. Enabler. <span class="og-csrd-ref">(146)</span></p></li>
 			</ul>
 		</div>
@@ -7969,7 +7965,7 @@
 			<p>Choose either Blurring Speed or Lend Animal Shape as your tier 6 ability.</p>
 			<ul class="og-csrd-abilities-catalog">
 				<li><p><strong>Blurring Speed (7 Speed points):</strong> You move so quickly that until your next turn, you look like a blur. While you are blurred, if you apply Effort to a melee attack task or Speed defense task, you get a free level of Effort on that task; you can move a short distance as part of another action or a long distance as your entire action. Enabler. <span class="og-csrd-ref">(115)</span></p></li>
-				<li><p><strong>Lend Animal Shape (6+ Intellect points):</strong> You change into an animal, and one willing creature within immediate range also transforms into an animal of that type (bear, tiger, wolf, and so on) for ten minutes, as if they were using your Animal Shape ability. For each level of Effort applied, you can affect one additional creature. All creatures transforming with you must be your size or smaller. A creature can revert to its normal form as an action, but it cannot then change back into the animal form. One creature (whether you or someone else) changing form does not affect any other creature affected with this ability. Action.</p<p class="og-csrd-indent">A creature that takes animal form with Lend Animal Shape counts as an animal for the use of Animal Scrying.</p<p class="og-csrd-indent">A character might be able to take the shape of a creature that is similar to a common animal, such as a unicorn instead of a horse or a basilisk instead of a lizard, but doing so should require applying at least one level of Effort to the change, and the character wouldn't gain any of the creature's magical abilities. <span class="og-csrd-ref">(GF, 32)</span></p></li>
+				<li><p><strong>Lend Animal Shape (6+ Intellect points):</strong> You change into an animal, and one willing creature within immediate range also transforms into an animal of that type (bear, tiger, wolf, and so on) for ten minutes, as if they were using your Animal Shape ability. For each level of Effort applied, you can affect one additional creature. All creatures transforming with you must be your size or smaller. A creature can revert to its normal form as an action, but it cannot then change back into the animal form. One creature (whether you or someone else) changing form does not affect any other creature affected with this ability. Action.</p><p class="og-csrd-indent">A creature that takes animal form with Lend Animal Shape counts as an animal for the use of Animal Scrying.</p><p class="og-csrd-indent">A character might be able to take the shape of a creature that is similar to a common animal, such as a unicorn instead of a horse or a basilisk instead of a lizard, but doing so should require applying at least one level of Effort to the change, and the character wouldn't gain any of the creature's magical abilities. <span class="og-csrd-ref">(GF, 32)</span></p></li>
 			</ul>
 		</div>
 	</div>
@@ -8138,7 +8134,7 @@
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 2</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><p><strong>See History (4 Intellect points):</strong> You touch an object, read the subtle echoes of its existence through time, ask the GM a question about the object's past, and get a general answer. The answers are often in the form of brief images or sensations rather than specific answers in a language you know. The GM assigns a level to the question, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location is level 1, and obscure knowledge of the past is level 7. After you use this ability, you have an asset on identifying the object. Action. <span class="og-csrd-ref">(180)</span></p>
+				<li><p><strong>See History (4 Intellect points):</strong> You touch an object, read the subtle echoes of its existence through time, ask the GM a question about the object's past, and get a general answer. The answers are often in the form of brief images or sensations rather than specific answers in a language you know. The GM assigns a level to the question, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location is level 1, and obscure knowledge of the past is level 7. After you use this ability, you have an asset on identifying the object. Action. <span class="og-csrd-ref">(180)</span></p>
 				</li>
 			</ul>
 			<h5 class="og-csrd-header-small">Tier 3: Ability Choice</h5>
@@ -8364,7 +8360,7 @@
 			<p>One who channels magic through or from a weapon to create a unique fighting style.</p>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
-				<li><p><p><strong>Enchanted Weapon (1 Intellect point):</strong> You attune yourself to a physical weapon, such as a sword, hammer, or bow. You know exactly where it is if it is within a short distance of you, and you know its general direction and distance if farther away. All of your other focus abilities require you to be holding or wielding this weapon. You can be attuned to only one weapon at a time; attuning yourself to a second weapon loses the attunement to the first one. Action to initiate, ten minutes to complete. Enabler. <span class="og-csrd-ref">(GF, 31)</span></p>
+				<li><p><strong>Enchanted Weapon (1 Intellect point):</strong> You attune yourself to a physical weapon, such as a sword, hammer, or bow. You know exactly where it is if it is within a short distance of you, and you know its general direction and distance if farther away. All of your other focus abilities require you to be holding or wielding this weapon. You can be attuned to only one weapon at a time; attuning yourself to a second weapon loses the attunement to the first one. Action to initiate, ten minutes to complete. Enabler. <span class="og-csrd-ref">(GF, 31)</span></p>
 				</li>
 			</ul>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
@@ -8702,7 +8698,7 @@
 		</div>
 		<div class="col-lg-6">
 			<div class="alert bg-dark pb-0">
-				<h5 class="og-csrd-header-small" id="arc-choose">Character Arc Structure</h5>
+				<h5 class="og-csrd-header-small" id="arc-structure">Character Arc Structure</h5>
 				<ul class="list-unstyled og-csrd-indent">
 					<li><p><strong>Opening:</strong> This sets the stage for the rest of the arc. It involves some action, although that might just be you agreeing to do the task or undertake the mission. It usually has no reward.</p></li>
 					<li><p><strong>Step(s):</strong> An action required to move toward the climax. In story terms, this is the movement through the bulk of the arc. It's the journey. The rising tension. Although there might be just one step, there might also be many, depending on the story told. Each results in a reward of 2 XP.</p></li>
@@ -9227,7 +9223,7 @@
 			<p>A flavor allows you to choose <a href="#ability">special abilities</a> that are otherwise unavailable to you. At each tier, you can choose from the list abilities for your flavor and permanently exchange them for one of the abilities on the list for your <a href="#type">type</a>. Altering your type with a flavor might make it to be more to your liking, or more appropriate to the genre or setting.</p>
 			<p class="og-csrd-indent">The flavors available are <a href="#flavor-combat">combat</a>, <a href="#flavor-magic">magic</a>, and <a href="#flavor-skills">skills and knowledge</a>, <a href="#flavor-stealth">stealth</a>, and <a href="#flavor-technology">technology</a>.</p>
 			<div class="alert bg-dark pb-0">
-				<h5 class="og-csrd-header-small" id="flavor-example-stealth">Flavor Example</h5>
+				<h5 class="og-csrd-header-small" id="flavor-example">Flavor Example</h5>
 				<p>Let's say you are a "shinobi"&mdash;a <a href="#warrior">Warrior</a> with stealth flavor. If you permanently exchange Bash for Danger Sense, you can't choose Bash later.</p>
 				<h5 class="og-csrd-header-small" id="flavor-example-warrior">Tier 1 Warrior Abilities</h5>
 				<ul class="og-csrd-abilities-catalog">
@@ -9267,7 +9263,7 @@
 		</div>
 	</div>
 	<div class="alert bg-dark pb-0">
-		<h5 class="og-csrd-header-small" id="flavors-list-stealth">Combat Flavor</h5>
+		<h5 class="og-csrd-header-small" id="flavors-list-combat">Combat Flavor</h5>
 		<ul class="list-unstyled og-csrd-quick-reference">
 			<li><a href="#flavor-combat">Combat Flavor</a> <span class="og-csrd-ref">(36)</span></li>
 			<li><a href="#flavor-combat-t1">Tier 1 Combat Abilities</a></li>
@@ -9277,7 +9273,7 @@
 			<li><a href="#flavor-combat-t5">Tier 5 Combat Abilities</a></li>
 			<li><a href="#flavor-combat-t6">Tier 6 Combat Abilities</a></li>
 		</ul>
-		<h5 class="og-csrd-header-small" id="flavors-list-stealth">Magic Flavor</h5>
+		<h5 class="og-csrd-header-small" id="flavors-list-magic">Magic Flavor</h5>
 		<ul class="list-unstyled og-csrd-quick-reference">
 			<li><a href="#flavor-magic">Magic Flavor</a> <span class="og-csrd-ref">(36)</span></li>
 			<li><a href="#flavor-magic-t1">Tier 1 Magic Abilities</a></li>
@@ -9287,7 +9283,7 @@
 			<li><a href="#flavor-magic-t5">Tier 5 Magic Abilities</a></li>
 			<li><a href="#flavor-magic-t6">Tier 6 Magic Abilities</a></li>
 		</ul>
-		<h5 class="og-csrd-header-small" id="flavors-list-stealth">Skills and Knowledge Flavor</h5>
+		<h5 class="og-csrd-header-small" id="flavors-list-skills">Skills and Knowledge Flavor</h5>
 		<ul class="list-unstyled og-csrd-quick-reference">
 			<li><a href="#flavor-skills">Skills and Knowledge Flavor</a> <span class="og-csrd-ref">(34)</span></li>
 			<li><a href="#flavor-skills-t1">Tier 1 Skills and Knowledge Abilities</a></li>
@@ -9307,7 +9303,7 @@
 			<li><a href="#flavor-stealth-t5">Tier 5 Stealth Abilities</a></li>
 			<li><a href="#flavor-stealth-t6">Tier 6 Stealth Abilities</a></li>
 		</ul>
-		<h5 class="og-csrd-header-small" id="flavors-list-stealth">Technology Flavor</h5>
+		<h5 class="og-csrd-header-small" id="flavors-list-technology">Technology Flavor</h5>
 		<ul class="list-unstyled og-csrd-quick-reference">
 			<li><a href="#flavor-technology">Technology Flavor</a> <span class="og-csrd-ref">(35)</span></li>
 			<li><a href="#flavor-technology-t1">Tier 1 Technology Abilities</a></li>
@@ -9460,7 +9456,7 @@
 				<li><p><strong>Summon Giant Spider (4+ Intellect points):</strong> A giant spider appears within immediate range. If you applied a level of Effort as part of the summoning, the spider is amenable to your instructions; otherwise, it acts according to its nature. Regardless, the creature persists for up to one minute before it fades away. Action to initiate. <span class="og-csrd-ref">(188)</span></p></li>
 			</ul>
 			<div class="alert bg-dark pb-0">
-				<h6 class="og-csrd-tabbed-item text-white" id="creature-giant-spider">Giant Spider <span class="float-end">3 (9)</span></h5>
+				<h5 class="og-csrd-tabbed-item text-white" id="flavor-magic-giant-spider">Giant Spider <span class="float-end">3 (9)</span></h5>
 				<p class="small">Giant spiders result most commonly from radioactive accidents, magic, or genetic manipulation. Whatever their origin, they're terrifying hunters large enough to predate people. The creatures range from the size of a large dog to the size of a large horse. <span class="og-csrd-ref">(335)</span></p>
 				<ul class="list-unstyled og-csrd-indent-hang small">
 					<li><p><strong>Motive:</strong> Hungers for blood</p></li>
@@ -9855,6 +9851,7 @@
 				<li><p><strong>Spaceborn:</strong> You are not adversely affected by long-term microgravity or high-radiation conditions common in space. In addition, you can withstand high acceleration (up to 15 G) for about an hour without passing out, having a stroke, a heart attack, and so on (though longer periods of acceleration could still result in such outcomes). Add +1 to your Intellect Edge. Enabler.</p></li>
 				<li><p><strong>Jupiterborn:</strong> You can withstand high-gravity planets and high acceleration (up to 15 G) indefinitely. For periods of up to an hour, you can withstand double that. Add +1 to your Might Edge. Enabler.</p></li>
 				<li><p><strong>Seaborn:</strong> You can breathe underwater in pressures of up to 100 atmospheres indefinitely, up to triple that for about an hour. You have an asset to all tasks performed in water. Add +1 to your Speed Edge. Enabler.</p></li>
+			</ul>
 		</div>
 		<div class="col-lg-6">
 			<ul class="list-unstyled og-csrd-indent">
@@ -9888,7 +9885,7 @@
 		</div>
 		<div class="col-lg-6">
 			<div class="alert bg-dark pb-0">
-				<h5 id="power-shift-example">Common Power Shifts</h5>
+				<h5 id="power-shift-list">Common Power Shifts</h5>
 				<p>Here are some common power shifts the GM might make available:</p>
 				<ul class="list-unstyled og-csrd-indent">
 					<li><p><strong>Accuracy:</strong> All attack rolls</p></li>
@@ -10004,7 +10001,7 @@
 				<li><p><strong>Hard Choices:</strong> Sometimes, you believe that you've got to lie to those who trust you for their own good. You are specialized in deception tasks. Enabler. <span class="og-csrd-ref">(148)</span></p></li>
 				<li><p><strong>Hold Breath:</strong> You can hold your breath for up to five minutes. Enabler. <span class="og-csrd-ref">(149)</span></p></li>
 				<li><p><strong>How Others Think:</strong> You have a sense of how people think. You're trained in one of the following tasks: persuasion, deception, or detecting falsehoods. Enabler.</p></li>
-			<ul>
+			</ul>
 		</div>
 		<div class="col-lg-6">
 			<ul class="og-csrd-abilities-catalog">
@@ -10034,7 +10031,7 @@
 				<li><p><strong>Vanish (2 Intellect points):</strong> You become invisible for a short amount of time. While invisible, you have an asset on stealth and Speed defense tasks. The invisibility ends at the end of your next turn, or if you do something to reveal your presence or position&mdash;attacking, using an ability, moving a large object, and so on. Action. <span class="og-csrd-ref">(196)</span></p></li>
 				<li><p><strong>Versatile Mind:</strong> When you make a Speed defense roll, you can use your Intellect in place of your Speed. Enabler. <span class="og-csrd-ref">(196)</span></p></li>
 				<li><p><strong>Water Adaptation:</strong> You can breathe water as easily as you breathe air. Enabler. <span class="og-csrd-ref">(196)</span></p></li>
-			<ul>
+			</ul>
 		</div>
 	</div>
 	<h5 class="og-csrd-header-small og-csrd-border-line" id="abilities-mid">Mid-Tier Abilities<a class="og-csrd-header-anchor" href="#abilities-low" title="Permalink" aria-hidden="true"></a></h5>
@@ -10064,7 +10061,7 @@
 				<li><p><strong>Expert Crafter:</strong> Instead of rolling, you can choose to automatically succeed on a crafting task you're trained in. The task must be difficulty 4 or lower. If you are able to reduce the assessed difficulty of a crafting task to 4 or lower, this ability also applies to each subtask, assuming something doesn't interrupt you during the ensuing time to build. Enabler. <span class="og-csrd-ref">(137)</span></p></li>
 				<li><p><strong>Fellow Explorer:</strong> You gain a level 2 <a href="#follower">follower</a>. One of their modifications must be for tasks related to perception. Enabler. <span class="og-csrd-ref">(139)</span></p></li>
 				<li><p><strong>Flex Weapon Skill:</strong> At the beginning of each day, choose one type of attack: light bashing, light bladed, light ranged, medium bashing, medium bladed, medium ranged, heavy bashing, heavy bladed, or heavy ranged. For the rest of that day, you are trained in attacks using that type of weapon. You can't use this ability with an attack skill in which you're already trained to become specialized. Enabler. <span class="og-csrd-ref">(CTS, 53)</span></p></li>
-			<ul>
+			</ul>
 		</div>
 		<div class="col-lg-6">
 			<ul class="og-csrd-abilities-catalog">
@@ -10089,7 +10086,7 @@
 				<li><p><strong>Thinking Ahead (variable Intellect points):</strong> You produce a remedy that removes a negative condition because you've previously spent considerable time thinking ahead and preparing for your current situation. For instance, if another character is poisoned, you produce an antidote, or if they're blinded, you produce a salve that returns sight (assuming they weren't blinded because their eyes were destroyed). The Intellect cost for using this ability is equal to the level of effect or creature that caused the negative condition. Action. <span class="og-csrd-ref">(191)</span></p></li>
 				<li><p><strong>Verbal Misdirection (2+ Intellect points):</strong> With fast talk and bewildering words, you can confuse and distract anyone that you're speaking with, giving you an asset on social interactions with that person for ten minutes. In addition to the normal options for using Effort, you can choose to use Effort to affect additional creatures (one per level of Effort). Enabler. <span class="og-csrd-ref">(196)</span></p></li>
 				<li><p><strong>Wall With Teeth:</strong> You inflict 2 additional points of damage with all attacks when using your Living Wall ability. Enabler. <span class="og-csrd-ref">(196)</span></p></li>
-			<ul>
+			</ul>
 		</div>
 	</div>
 	<h5 class="og-csrd-header-small og-csrd-border-line" id="abilities-high">High-Tier Abilities<a class="og-csrd-header-anchor" href="#abilities-high" title="Permalink" aria-hidden="true"></a></h5>
@@ -10114,7 +10111,7 @@
 				<li><p><strong>Horde Tactics (7 Might points):</strong> For up to one hour a day, you and at least three other allies can act like a single creature. Use your stats, but add +8 to your Might Pool, +1 to your Might Edge, +2 to your Speed Pool, +1 to your Speed Edge, and +1 to your Armor. Enabler. <span class="og-csrd-ref">(149)</span></p></li>
 				<li><p><strong>Impossible Walk (5+ Speed points):</strong> You can walk (or crawl or run) on steep inclines and horizontal surfaces (such as walls and cliffs) for the next minute as if they were flat ground. When using this ability, "down" for you is either the surface you are walking on or the normal orientation of gravity (your choice). If you apply one level of Effort, you can also walk on the ceiling or on a liquid or semi-liquid surface such as water, mud, quicksand, or even lava (although touching a dangerous surface like lava still harms you). If you apply two levels of Effort, you can also walk on air as if it were solid ground. Enabler. <span class="og-csrd-ref">(151)</span></p></li>
 				<li><p><strong>Improved Command Spirit:</strong> When you use your Command Spirit ability, you can command a spirit or animate undead creature of up to level 7. Enabler. <span class="og-csrd-ref">(151)</span></p></li>
-			<ul>
+			</ul>
 		</div>
 		<div class="col-lg-6">
 			<ul class="og-csrd-abilities-catalog">
@@ -10139,7 +10136,7 @@
 				<li><p><strong>Teach Trick (5+ Intellect points):</strong> You spend an hour instructing someone on how to perform a type ability that you know. The ability must be no higher than fourth tier. For one hour after you teach them, the student can perform that ability as if it were natural for them. They must pay the Might, Speed, or Intellect cost (if any) to use that ability. The student must be able to understand your instructions. In addition to the normal options for using Effort, you can choose to use Effort to increase how long the student can use the ability or to teach additional students at the same time; each level of Effort used in this way increases the duration by one hour or the number of students by one. One hour to initiate. Action; hour to complete. <span class="og-csrd-ref">(189)</span></p></li>
 				<li><p><strong>Will of a Leader (9 Intellect points):</strong> You harden your allies' dedication and capabilities. Each ally within immediate range gains +1 Edge to one stat of their choice for one hour. You also gain this benefit to one stat of your choice. Action. <span class="og-csrd-ref">(199)</span></p></li>
 				<li><p><strong>Wind Chariot (7+ Intellect points):</strong> You summon winds that pick you up and allow you to fly for up to a long distance each round in combat or with an overland speed of up to 200 miles per hour (320 kph) for up to ten hours. For each level of Effort you apply, you can bring one ally of about your size with you through the air or increase the duration of the effect by one hour. Action to initiate. <span class="og-csrd-ref">(199)</span></p></li>
-			<ul>
+			</ul>
 		</div>
 	</div>
 	<hr>
