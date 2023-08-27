@@ -1,5 +1,7 @@
 
-# Old Gus' Cypher System Reference Document (OG-CSRD)
+# Old Gus' Cypher System Tools
+
+## Old Gus' Reference Document (OG-CSRD)
 
 https://callmepartario.github.io/og-csrd
 
@@ -13,24 +15,31 @@ https://callmepartario.github.io/og-csrd/og-cspg.html
 
 This should go without saying, but Old Gus' Unofficial Cypher System Player's Guide (OG-CSPG) does not contain the official Cypher System rules. These rules have been rearranged, rewritten, and condensed so that you can learn to play game quickly and easily. It also guides you through creating and customizing your player character (PC) before the game, or as you continue playing with the GM.
 
-It's also available as a PDF Download.
+It's also available as a PDF Download from [Old Gus' Errata](https://drive.google.com/drive/u/1/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW).
 
-# Old Gus' Daft Drafts (OG-DD)
+## Old Gus' Daft Drafts (OG-DD)
 
 https://callmepartario.github.io/og-csrd/og-dd.html
 
 A collection of free, online options for your best game ever—new character options, cyphers, artifacts and tools for GMs. Also available for [Cypher System Community Content module for Foundry VTT](https://foundryvtt.com/packages/cyphersystem-community-module) and the [Lost Company Press Cypher Character Generator](https://lostcompanypress.com/app/cypher_character_generator).
 
 
-## Acknowledgements
+## Other Tools
+[Old Gus' Errata](https://drive.google.com/drive/u/1/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW) contains a useful PDF documents, including:
 
-[Marko Wenzel](https://github.com/mrkwnzl/cyphersystem-foundryvtt/), [Qedhup](youtube.com/qedhup), [AlphaDean](https://www.drivethrurpg.com/product_reviews.php?products_id=342942), Farling, synth, Saki, Charlie, Gelsiah, Siv, Stormbringer, Sir James, David H., Stellar5, alasdesammael, Pseudolurker, Attilisk, Da_Brass_Monkey, carrollastrophe, Chris Tavares, Apocalypse Meow, Menagerie, fAbIaN, Myrilla, kagozaiku, everyone else I am neglecting to mention from [Cypher Unlimited Discord Server](https://discord.com/invite/WQYRWhn) for their help editing, reading, and guidance, and with utmost respect to everyone from [Monte Cook Games](https://www.montecookgames.com/) for an amazing resource that continue to help us scaffold the ever-expanding imaginarium for others.
+### Old Gus' Cypher Decks (OG-CD)
 
-Thanks for reading, and may this record bring you and yours many happy adventures!
+This document includes card-sized handouts for all the cyphers in the CSRD. You can print and cut them out to use as handouts at the game.
 
-—Old Gus
+### Old Gus' Cypher System Quick Reference (OG-CSQR)
+
+This 2-page handout contains everything a new player needs to understand the game or to reference commonly used rules.
 
 ## Contact the Editor
+
+Thanks for reading, and may these tools bring you and yours many happy adventures!
+
+—Old Gus
 
 - Email: partario.flynn@gmail.com
 - Mastodon: [@oldgus@dice.camp](https://dice.camp/@oldgus)
