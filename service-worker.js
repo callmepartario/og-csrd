@@ -1,7 +1,9 @@
 const cacheFiles = [
     'index.html',
+    'og-cspg.html',
     'og-dd.html',
     'css/og-csrd.css',
+    'css/og-cspg.css',
     'css/og-dd.css',
     'scripts/og-csrd-randomizer.js',
     'scripts/og-dd-randomizer.js',
