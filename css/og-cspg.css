@@ -1,0 +1,18 @@
+h4 { border-bottom: 0.25rem solid; }
+
+#part0 h2, ul.og-csrd-toc li.og-csrd-toc-part0 span a, #part0 .og-csrd-tabbed-item {
+	background-color: #175f81;
+}
+
+#part0 .og-csrd-tabbed-item-sub {
+	background-color: #0c4059;
+}
+
+#part0 h4, #part0, #part0 .alert, #part0 .og-csrd-sidebar, #part0 .og-csrd-legend {
+	border-color: #175f81;
+}
+
+#part0 h3, #part0 h4, #part0 h5, #part0 h6, #part0 .og-csrd-sidebar, ul.og-csrd-toc li.og-csrd-toc-part0 ul li a, #part0 .og-csrd-legend, #part0 .og-csrd-border-line {
+	color: #86b4ca;
+	border-color: #86b4ca;
+}
