@@ -84,10 +84,10 @@
 		OG-CSPG
 		<span class="og-csrd-chapter">Old Gus' Unofficial Cypher System Player's Guide</span>
 	</h1>
-	<p class="small text-center">version 1.00d (2023-08-27)</p>
+	<p class="small text-center">version 1.00e (2023-08-27)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="index.html">Full Rules: <abbr title="Old Gus' Cypher System Player's Guide">OG-CSRD</abbr></a></li>
-		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="file:///Users/octobre/Documents/Old%20Gus/og-csrd/images/og-cspg-cover.webp">PDF Downloads</a></li>
+		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://drive.google.com/drive/u/1/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW">PDF Downloads</a></li>
 		<li class="list-inline-item"><a class="btn btn-dark mb-2" href="https://ko-fi.com/oldgus">&#9749; Buy me a coffee</a></li>
 	</ul>
 	<h2 id="table-of-contents">
@@ -208,8 +208,8 @@
 		<div class="col-lg-6">
 			<h4 id="how-to-play">How to Play<a class="og-csrd-header-anchor" href="#how-to-play" title="Permalink" aria-hidden="true"></a></h4>
 			<ol>
-				<li class="mt-3">You tell the GM what <a href="action">action</a> you want to take, and how you plan to do it. Include any dialogue you'd like to deliver while you take your action.</li>
-				<li class="mt-3">Many times, your actions are routine&mdash;<a href="action-move">moving</a> a few steps away, talking another character, or turning a doorknob&mdash;you just perform the action and succeed automatically. If there's a chance of failure, the GM assigns you a task, and tells you which of your <a href="stat">stats</a> will be tested&mdash;your <a href="#might">Might</a>, <a href="#speed">Speed</a>, or <a href="#intellect">Intellect</a>&mdash;and determines the <a href="#difficulty">difficulty</a> on a scale from 1 (simple) to 10 (impossible).</li>
+				<li class="mt-3">You tell the GM what <a href="#action">action</a> you want to take, and how you plan to do it. Include any dialogue you'd like to deliver while you take your action.</li>
+				<li class="mt-3">Many times, your actions are routine&mdash;<a href="#action-move">moving</a> a few steps away, talking another character, or turning a doorknob&mdash;you just perform the action and succeed automatically. If there's a chance of failure, the GM assigns you a task, and tells you which of your <a href="#stat">stats</a> will be tested&mdash;your <a href="#might">Might</a>, <a href="#speed">Speed</a>, or <a href="#intellect">Intellect</a>&mdash;and determines the <a href="#difficulty">difficulty</a> on a scale from 1 (simple) to 10 (impossible).</li>
 				<li class="mt-3">You and the GM determine if anything about your PC should modify the difficulty by one or more steps. Being trained in relevant <a href="#skill">skills</a>, having helpful assets, and using <a href="#effort">Effort</a> all ease a task, lowering the difficulty. Having an inability or adverse external circumstances hinders a task, increasing the difficulty.</li>
 				<li class="mt-3">If you ease the difficulty to 0 (routine), you succeed automatically. If the task still isn't routine, the GM uses the modified difficulty to determine a target number. The GM doesn't have to tell you the target number, but might give you a hint.</li>
 				<li class="mt-3">You <a href="#roll">roll the die</a>&mdash;a d20. If the result meets or exceeds the target number, you succeed at the task.</li>
@@ -347,7 +347,7 @@
 				<li><strong>Trained:</strong> Eased by one step.</li>
 				<li><strong>Specialized:</strong> Eased by two steps.</li>
 			</ul>
-			<p class="og-csrd-indent"><strong>Assets can ease a task up to two steps.</strong> Anything that helps with a task is an asset. A crowbar is an asset when forcing open a door, and so is <a href="cooperative-actions">cooperation</a> from another PC or capable <a href="#follower">follower</a>.</p>
+			<p class="og-csrd-indent"><strong>Assets can ease a task up to two steps.</strong> Anything that helps with a task is an asset. A crowbar is an asset when forcing open a door, and so is <a href="#cooperate">cooperation</a> from another PC or capable <a href="#follower">follower</a>.</p>
 			<p class="og-csrd-indent"><strong>Effort can ease a task up to six steps.</strong> You ease a task one step for each level of <a href="#effort">Effort</a> you use, spending points from the <a href="#pool-edge">Pool</a> for the <a href="#stat">stat</a> the GM assigns to the task&mdash;3 points for the first level, plus 2 points for each additional level, up to a number of levels equal to your Effort score. Some <a href="#ability">special abilities</a> allow you to exceed your usual Effort limit.</p>
 		</div>
 		<div class="col-lg-6">
@@ -420,7 +420,34 @@
 					<li><p><strong>Priceless:</strong> Something only a rich corporation or nation-state might acquire or build.</p></li>
 				</ul>
 			</div>
+			<!--
+			<table class="table table-dark table-striped table-sm">
+				<caption>Weapon Prices</caption>
+				<thead>
+					<tr>
+						<th class="vertical-align-bottom" scope="col">Weapons</th><th class="vertical-align-bottom text-center" scope="col">Damage</th><th class="vertical-align-bottom" scope="col">Price Category</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th class="fw-normal" scope="row">Light weapon</th><td class="text-center">2</td><td>Moderately priced</td></tr>
+					<tr><th class="fw-normal" scope="row">Medium weapon</th><td class="text-center">4</td><td>Expensive</td></tr>
+					<tr><th class="fw-normal" scope="row">Heavy weapon</th><td class="text-center">6</td><td>Very expensive</td></tr>
+					<tr><th class="fw-normal" scope="row">Ammunition</th><td class="text-center">&mdash;</td><td>Inexpensive</td></tr>
+				</tbody>
+			</table>
+			<table class="table table-dark table-striped table-sm">
+				<caption>Armor Prices</caption>
+				<thead>
+					<tr><th class="vertical-align-bottom" scope="col">Armor</th><th class="vertical-align-bottom text-center" scope="col">Armor Bonus</th><th class="vertical-align-bottom" scope="col">Price Category</th></tr>
+				</thead>
+				<tbody>
+					<tr><th class="fw-normal" scope="row">Light armor</th><td class="text-center">+1</td><td>Moderately priced</td></tr>
+					<tr><th class="fw-normal" scope="row">Medium armor</th><td class="text-center">+2</td><td>Expensive</td></tr>
+					<tr><th class="fw-normal" scope="row">Heavy armor</th><td class="text-center">+3</td><td>Very expensive</td></tr>
+				</tbody>
+			</table>
 		</div>
+		-->
 	</div>
 	<h4 id="action">Taking Action<a class="og-csrd-header-anchor" href="#action" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="row">
@@ -813,7 +840,7 @@
 	<h4 id="cypher">Cyphers and Artifacts<a class="og-csrd-header-anchor" href="#cypher" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>Cyphers are one-use abilities you gain over the course of play. They have cool powers that can heal, make <a href="attack">attacks</a>, ease the <a href="#difficulty">difficuly</a> of tasks, or produce effects like nullifying gravity or turning something invisible. There are two main types of cyphers: subtle, and manifest.</p>
+			<p>Cyphers are one-use abilities you gain over the course of play. They have cool powers that can heal, make <a href="#attack">attacks</a>, ease the <a href="#difficulty">difficuly</a> of tasks, or produce effects like nullifying gravity or turning something invisible. There are two main types of cyphers: subtle, and manifest.</p>
 			<h5 class="og-csrd-header-small" id="subtle-cyphers">Subtle Cyphers<span data-toggle="tooltip" title="Subtle Cypher" class="og-csrd-icon og-csrd-cypher-subtle ms-1"></span></h5>
 			<p>Subtle cyphers don't have a physical form, so they might be represented as good fortune, alien concepts, blessings, mysterious transmissions, or spells.</p>
 			<div class="alert bg-dark pb-0">
@@ -992,7 +1019,7 @@
 	<h4 id="advancement">Character Advancement<a class="og-csrd-header-anchor" href="#advancement" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>You start the game at tier 1. By purchasing four character advancements, you reach the next tier, up to tier 6. Each advancement costs 4 <a href="xp">XP</a>. You can purchase them any order you wish, but you can only purchase a each advancement once per tier. The standard advancements are:</p>
+			<p>You start the game at tier 1. By purchasing four character advancements, you reach the next tier, up to tier 6. Each advancement costs 4 <a href="#xp">XP</a>. You can purchase them any order you wish, but you can only purchase a each advancement once per tier. The standard advancements are:</p>
 			<ul class="list-unstyled og-csrd-indent">
 				<li><p><strong>Increasing Capabilities:</strong> You gain 4 points to add to your <a href="#stat">stat</a> <a href="#pool-edge">Pools</a>. You can allocate the points among your Pools however you wish.</p></li>
 				<li><p><strong>Moving Toward Perfection:</strong> You add 1 to your <a href="#might">Might</a> <a href="#pool-edge">Edge</a>, <a href="#speed">Speed</a> Edge, or <a href="#intellect">Intellect</a> Edge (your choice).</p></li>
@@ -1106,10 +1133,10 @@
 			</div>
 		</div>
 	</div>
-	<h4 id="pool-edge">Pool and Edge<a class="og-csrd-header-anchor" href="#pool-edge" title="Permalink" aria-hidden="true"></a></h4>
+	<h4 id="#pool-edge">Pool and Edge<a class="og-csrd-header-anchor" href="#pool-edge" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>Each of your three <a href="#stat">stats</a>&mdash;Might, Speed, and Intellect&mdash;has two values&mdash;Pool and Edge. Each tier, you can use <a href="#advancement">character advancement</a> to increase your stat Pools and Edge. Your <a href="descriptor">descriptor</a> and some <a href="#ability">special abilities</a> also increase your Pool or Edge.</p>
+			<p>Each of your three <a href="#stat">stats</a>&mdash;Might, Speed, and Intellect&mdash;has two values&mdash;Pool and Edge. Each tier, you can use <a href="#advancement">character advancement</a> to increase your stat Pools and Edge. Your <a href="#descriptor">descriptor</a> and some <a href="#ability">special abilities</a> also increase your Pool or Edge.</p>
 			<h5 class="og-csrd-header-small" id="pool">Pool</h5>
 			<p>A stat Pool is a well of potential you can draw from for a stat, measured in "points". Pool points are temporarily reduced by <a href="#taking-damage">taking damage</a>, and by spending points from the Pool to activate special abilities or use <a href="#effort">Effort</a>. If a stat Pool's points reach 0, you shift down <a href="#damage-track">the damage track</a>. You recover lost pool points by making <a href="#taking-damage">recovery rolls</a>.</p>
 			<p class="og-csrd-indent">At tier 1, your type determines your starting Pools, granting you a 9&ndash;12 in each stat, and 6 additional points to divide among your stat Pools however you wish.</p>
@@ -1151,7 +1178,7 @@
 			<p>Instead of applying a level of Effort to ease an <a href="#attack">attack</a>, you can apply it to inflict 3 additional points of <a href="#inflicting-damage">damage</a>&mdash;if the attack roll succeeds. This works for any kind of attack&mdash;a sword, a crossbow, or a mental blast.</p>
 			<p class="og-csrd-indent">When you use Effort to increase the damage of an area attack, you inflict only 2 additional points of damage to creatures hit by the attack.</p>	
 			<div class="alert bg-dark pb-0">
-				<ul class="og-csrd-abilities-catalog">
+				<ul class="og-csrd-abilities-catalog">	
 					<li><p><strong>Concussion (7 Intellect points):</strong> You cause a pulse of concussive force to explode out from a point you choose within long range. The pulse extends up to short range in all directions, dealing 5 points of damage to everything in the area. Even if you fail the attack roll, targets in the area take 1 point of damage. Action. <span class="og-csrd-ref">(121)</span></p></li>
 				</ul>
 			</div>
@@ -1165,7 +1192,7 @@
 			<h5 class="og-csrd-header-small" id="costs">Paying Costs</h5>
 			<p>When resolving a task:</p>
 			<ol>
-				<li><p>Total all <a href="#pool-edge">Pool</a> point costs&mdash;including Effort used, <a href="#ability">special abilities activated</a>, Speed Effort cost for wearing <a href="#armor">armor</a>, and any <a href="#initial-cost">initial cost</a> determined by the GM. Most of the time, all costs are paid from the same Pool as the <a href="difficulty">task</a> <a href="#stat">stat</a>, and resolved with a single task <a href="#roll">roll</a>.</p></li>
+				<li><p>Total all <a href="#pool-edge">Pool</a> point costs&mdash;including Effort used, <a href="#ability">special abilities activated</a>, Speed Effort cost for wearing <a href="#armor">armor</a>, and any <a href="#initial-cost">initial cost</a> determined by the GM. Most of the time, all costs are paid from the same Pool as the <a href="#difficulty">task</a> <a href="#stat">stat</a>, and resolved with a single task <a href="#roll">roll</a>.</p></li>
 				<li><p>Subtract each stat's <a href="#pool-edge">Edge</a> from its total point cost. Pay any remaining costs from your stat Pools.</p></li>
 			</ol>
 			<p class="og-csrd-indent">The following table displays levels of effort, their modification to task difficulty, and the number of Pool points spent by using levels of Effort, adjusted for Edge. Most of the time, you can consult the table, then add any costs other than Effort and then subtract your Edge for an appropriate total cost.</p>
@@ -1306,7 +1333,7 @@
 	<h4 id="skill">Skill<a class="og-csrd-header-anchor" href="#skill" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>Training skills lowers the <a href="difficulty">difficulty</a> of related tasks. You gain training through your <a href="#descriptor">descriptor</a>, <a href="#type">type</a>, or <a href="#focus">focus</a>. You can also improve your training with skills or add new ones to your repertoire through <a href="#advancement">character advancement</a>.</p>
+			<p>Training skills lowers the <a href="#difficulty">difficulty</a> of related tasks. You gain training through your <a href="#descriptor">descriptor</a>, <a href="#type">type</a>, or <a href="#focus">focus</a>. You can also improve your training with skills or add new ones to your repertoire through <a href="#advancement">character advancement</a>.</p>
 			<p class="og-csrd-indent">There is no definitive list of skills, but here is a list of possible skills to get you started. In most campaigns, fluency in a language is a skill.</p>
 			<div class="alert bg-dark pb-0">
 				<ul class="list-unstyled og-csrd-quick-reference">
@@ -1375,7 +1402,7 @@
 				<p>If you're trained in lying and gain an ability that grants you training with all social interactions, you become specialized in lying and trained in all other types of social interactions.</p>
 			</div>
 			<ul class="list-unstyled og-csrd-indent">
-				<li><p><strong>Skill with Attacks and Defense:</strong> Your type determines your skill with weapon <a href="attack">attacks</a>, and some <a href="#descriptor">descriptors</a> provide training with <a href="#defend">defense</a> tasks. Further training for these skills is usually gained through <a href="#ability">special abilities</a>. You can also become trained with your special abilities&mdash;including attacks&mdash;through <a href="#advancement">character advancement</a>.</p></li>
+				<li><p><strong>Skill with Attacks and Defense:</strong> Your type determines your skill with weapon <a href="#attack">attacks</a>, and some <a href="#descriptor">descriptors</a> provide training with <a href="#defend">defense</a> tasks. Further training for these skills is usually gained through <a href="#ability">special abilities</a>. You can also become trained with your special abilities&mdash;including attacks&mdash;through <a href="#advancement">character advancement</a>.</p></li>
 			</ul>
 			<div class="alert bg-dark pb-0">
 				<ul class="og-csrd-abilities-catalog">
@@ -1442,7 +1469,7 @@
 				<p>You can't choose the same ability more than once unless its description says otherwise.</p>
 			</div>
 			<h5 class="og-csrd-header-small" id="abilities-attacks">Attacking with Abilities</h5>
-			<p>If a special ability affects another character in an unwanted manner, it's an <a href="attack">attack</a>&mdash;even an ability like Healing Touch is an attack if the target doesn't want to be touched or healed.</p>
+			<p>If a special ability affects another character in an unwanted manner, it's an <a href="#attack">attack</a>&mdash;even an ability like Healing Touch is an attack if the target doesn't want to be touched or healed.</p>
 			<p class="og-csrd-indent">If an ability requires touching the target, it is a melee attack. If you miss, the ability is not wasted. You can continue to attack with it until you hit, use another special ability, or take a different action that requires you to use your hands.</p>
 		</div>
 		<div class="col-lg-6">
@@ -1476,7 +1503,7 @@
 	<h4 id="sentence">Character Sentence: Descriptor, Type, and Focus<a class="og-csrd-header-anchor" href="#statement" title="Permalink" aria-hidden="true"></a></h4>
 	<p>To create your character, you make a simple statement that describes them. The character sentence takes this form:</p>
 		<p class="text-center small">"I am an [adjective] [noun] who [verbs]."</p>
-		<p class="text-center">"I am a [<a href="descriptor">descriptor</a>] [<a href="#type">type</a>] who [<a href="#focus">focus</a>]."</p>
+		<p class="text-center">"I am a [<a href="#descriptor">descriptor</a>] [<a href="#type">type</a>] who [<a href="#focus">focus</a>]."</p>
 		<p class="lead text-center">"I am <span id="character-random-descriptor">a [Descriptor]</span> <span id="character-random-type">[Type]</span> who <span id="character-random-focus">[Focus]</span><span id="character-random-flavor"> [Flavor]</span>."</p>
 		<p class="text-center">"My <a href="#arc">character arc</a> is <span id="character-random-arc">[Character Arc]</span>."</p>
 		<ul class="list-inline text-center">
@@ -1491,7 +1518,7 @@
 	<div class="row">
 		<div class="col-lg-6">
 			<h5 class="og-csrd-header-small" id="choosing-descriptor">Descriptor</h5>
-			<p>The adjective is your <a href="descriptor">descriptor</a>. A descriptor defines what you are like, including some strengths and weaknesses. In some settings, it might also describe your species or other unique things about your personal history. The GM might limit which descriptors are appropriate for the game setting. There are many descriptors, so it's unlikely two PCs in a group will need use the same one.</p>
+			<p>The adjective is your <a href="#descriptor">descriptor</a>. A descriptor defines what you are like, including some strengths and weaknesses. In some settings, it might also describe your species or other unique things about your personal history. The GM might limit which descriptors are appropriate for the game setting. There are many descriptors, so it's unlikely two PCs in a group will need use the same one.</p>
 			<p class="og-csrd-indent">Dozens of descriptors are detailed in <a href="#descriptor">Chapter 3</a>.</p>
 			
 			<h5 class="og-csrd-header-small" id="choosing-type">Type</h5>
@@ -1531,7 +1558,7 @@
 	<h4 id="descriptor-choose">Choosing a Descriptor<a class="og-csrd-header-anchor" href="#descriptor-choose" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>Your descriptor defines your character&mdash;it provides a sort of "roleplaying toolkit"&mdash;placing your character in the game alongside the other PCs, and providing your PC a mode and motivation. In terms of game mechanics, descriptors modify your <a href="#stat">stat</a> <a href="pool-edge">Pools</a>, provide training in <a href="#skill">skills</a>, and a few add <a href="abilities">special abilities</a>. Not all a descriptor's character modifications are positive&mdash;you are defined as much by what you're not good at as what you are.</p>
+			<p>Your descriptor defines your character&mdash;it provides a sort of "roleplaying toolkit"&mdash;placing your character in the game alongside the other PCs, and providing your PC a mode and motivation. In terms of game mechanics, descriptors modify your <a href="#stat">stat</a> <a href="#pool-edge">Pools</a>, provide training in <a href="#skill">skills</a>, and a few add <a href="#abilities">special abilities</a>. Not all a descriptor's character modifications are positive&mdash;you are defined as much by what you're not good at as what you are.</p>
 			<p class="og-csrd-indent">You can pick any descriptor you wish, or the GM might provide a list for you to choose from.</p>
 		</div>
 		<div class="col-lg-6">
@@ -2962,14 +2989,14 @@
 	<div class="row">
 		<div class="col-lg-6">
 			<p>Your type helps determine your character's place in the world and relationship with other people in the setting.</p>
-			<p class="og-csrd-indent">There are four character types: <a href="#adept">Adept</a>, <a href="#exploerer">Explorer</a>, <a href="#speaker">Speaker</a>, and <a href="#warrior">Warrior</a>.</p>
+			<p class="og-csrd-indent">There are four character types: <a href="#adept">Adept</a>, <a href="#explorer">Explorer</a>, <a href="#speaker">Speaker</a>, and <a href="#warrior">Warrior</a>.</p>
 			<p class="og-csrd-indent">Type names are intentionally broad. A "Warrior" can be a "knight" in shining armor, a "cop" on the streets, or a grizzled "veteran" of futuristic wars. Each type offers possible names that might be more accurate or evocative for different genres.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>It is tempting to think of your type as the equivalent of a "character class". In fact, your type is the most flexible part of your <a href="#sentence">character sentence</a> when it comes to choosing special abilities. If you choose your <a href="#descriptor">descriptor</a> and <a href="#focus">focus</a> first, you'll be in a better position to decide which type best completes your character concept.</p>
 			</div>
 			<h5 class="og-csrd-header-small" id="type-tier-1">Types at Tier 1</h5>
 			<ul class="list-unstyled og-csrd-indent">
-				<li><p><strong>Stats:</strong> Your type determines your starting <a href="#stat">stat</a> <a href="pool-edge">Pools</a>, with 6 additional points to divide among them however you wish. It also determines your starting <a href="pool-edge">Edge</a> for each stat. All types start with an <a href="#effort">Effort</a> score of 1.</p></li>
+				<li><p><strong>Stats:</strong> Your type determines your starting <a href="#stat">stat</a> <a href="#pool-edge">Pools</a>, with 6 additional points to divide among them however you wish. It also determines your starting <a href="#pool-edge">Edge</a> for each stat. All types start with an <a href="#effort">Effort</a> score of 1.</p></li>
 				<li><p><strong>Cypher Use:</strong> All types start the game with the ability to bear two <a href="#cypher">cyphers</a>, except the <a href="#adept">Adept</a>, which can bear three.</p></li>
 				<li><p><strong>Weapons:</strong> Your type determines your <a href="#skill">skill</a> with various kinds of <a href="#inflicting-damage">weapons</a>.</p></li>
 				<li><p><strong>Starting Equipment:</strong> Your type offers you a collection of <a href="#equipment">equipment</a> by price category. Talk to the GM about what kind of equipment is available in the setting.</p></li>
@@ -2978,12 +3005,12 @@
 		</div>
 		<div class="col-lg-6">			
 			<h5 class="og-csrd-header-small" id="type-background">Type Background Connection</h5>
-			<p>Your background suggests connections you have with the world and the people in it. Talk to the GM about any characters your background demands that might appear in the story. Your conection might also infrom your decision of what kind of <a href="arc">character arc</a> to pursue.</p>
+			<p>Your background suggests connections you have with the world and the people in it. Talk to the GM about any characters your background demands that might appear in the story. Your conection might also infrom your decision of what kind of <a href="#arc">character arc</a> to pursue.</p>
 			<h5 class="og-csrd-header-small" id="type-abilities">Type Abilities</h5>
 			<p>At tier 1, and each new tier you reach through <a href="#advancement">character advancement</a>, your type offers you a number of choices from a list of <a href="#ability">special abilities</a>. Each time you reach a new tier, gain a number of abilities to choose from your type, which can be from your current tier or any lower tier. Additionally, you can exchange one type ability you've chosen for another of equal or lower tier.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>If you complete your character statement and still feel like something is missing, talk to the GM and discuss the <a href="#customization">further customization</a> options in <a href="#customization">Chapter 7</a>, like adding a <a href="#flavor">flavor</a> to your type.</p>
-				<p class="og-csrd-indent">Choosing special abilities from lower tiers is a good way to ensure that you have exactly the character you want. This is particularly true with abilities that grant training with <a href="#skills">skills</a>&mdash;they can usually be taken multiple times.</p>
+				<p class="og-csrd-indent">Choosing special abilities from lower tiers is a good way to ensure that you have exactly the character you want. This is particularly true with abilities that grant training with <a href="#skill">skills</a>&mdash;they can usually be taken multiple times.</p>
 			</div>
 		</div>
 	</div>
@@ -3344,7 +3371,7 @@
 				<li><p><strong>Individual Role:</strong> Although Explorers can be academics or well studied, they are first and foremost interested in action. They face grave dangers and terrible obstacles as a routine part of life.</p></li>
 				<li><p><strong>Group Role:</strong> Explorers sometimes work alone, but far more often they operate in teams with other characters. The Explorer frequently leads the way, blazing the trail. However, they're also likely to stop and investigate anything intriguing they stumble upon.</p></li>
 				<li><p><strong>Societal Role:</strong> Not all Explorers are out traipsing through the wilderness or poking about an old ruin. Sometimes, an Explorer is a teacher, a scientist, a detective, or an investigative reporter. In any event, an Explorer bravely faces new challenges and gathers knowledge to share with others.</p></li>
-				<li><p><strong>Advanced Explorers:</strong> As they <a href="#advancement">advance</a>, Explorers gain more <a href="#skills">skills</a>, some combat <a href="#ability">abilities</a>, and a number of abilities that allow them to deal with danger. In short, they become more and more well-rounded, able to deal with any challenge.</p></li>
+				<li><p><strong>Advanced Explorers:</strong> As they <a href="#advancement">advance</a>, Explorers gain more <a href="#skill">skills</a>, some combat <a href="#ability">abilities</a>, and a number of abilities that allow them to deal with danger. In short, they become more and more well-rounded, able to deal with any challenge.</p></li>
 			</ul>
 			<div class="alert bg-dark pb-0">
 				<h5 class="og-csrd-header-small" id="explorer-names">Explorer Type Names</h5>
@@ -4239,8 +4266,8 @@
 	<div class="row">
 		<div class="col-lg-6">
 			<p>Focus is what makes you unique. No two PCs in a group should have the same focus.</p>
-			<p class="og-csrd-indent">Additionally, not all foci are appropriate for every genre. The GM might decide which foci are available&mdash;or not available&mdash;in the setting. Appropriate foci are important, because focus like <a href="#focus-commands-mental-powers">Commands Mental Powers</a> makes it clear that psychic abilities exist in the setting. <a href="focus-howls-at-the-moon">Howls at the Moon</a> implies the existence of bestial transformations, and <a href="#pilots-starcraft">Pilots Starcraft</a> requires available starships&mdash;or equivalent&mdash;to pilot.</p>
-			<p class="og-csrd-indent">At Tier 1, your focus gives a you at least one <a href="#ability">special ability</a>&mdash;which might be anything from a signature kind of <a href="#attack">attack</a>, improving your ability to <a href="move">move</a> or <a href="defend">defend</a> yourself, training in special <a href="#skills">skills</a>&mdash;whatever is foundational to the concept of the focus. A few provide <a href="#equipment">equipment</a> important to the focus.</p>
+			<p class="og-csrd-indent">Additionally, not all foci are appropriate for every genre. The GM might decide which foci are available&mdash;or not available&mdash;in the setting. Appropriate foci are important, because focus like <a href="#focus-commands-mental-powers">Commands Mental Powers</a> makes it clear that psychic abilities exist in the setting. <a href="#focus-howls-at-the-moon">Howls at the Moon</a> implies the existence of bestial transformations, and <a href="#pilots-starcraft">Pilots Starcraft</a> requires available starships&mdash;or equivalent&mdash;to pilot.</p>
+			<p class="og-csrd-indent">At Tier 1, your focus gives a you at least one <a href="#ability">special ability</a>&mdash;which might be anything from a signature kind of <a href="#attack">attack</a>, improving your ability to <a href="#move">move</a> or <a href="#defend">defend</a> yourself, training in special <a href="#skill">skills</a>&mdash;whatever is foundational to the concept of the focus. A few provide <a href="#equipment">equipment</a> important to the focus.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p><strong>Focus Origins:</strong> Think about your flavor in relationship to your descriptor, your type, and the setting. A focus like Rides the Lightning gives you awesome abilities. Does the power a feature of your unique biology, a cybernetic implant that keeps you alive, or a gift from the god of lightning? When you use your abilities, what does it look, sound, and feel like?</p>
 			</div>
@@ -4251,7 +4278,7 @@
 			<h5 class="og-csrd-header-small" id="type-swap-option">Type Swap Option</h5>
 			<p>A few foci provide a "type swap option". These options you to choose to exchange one of the special abilities you can choose from your <a href="#type">type</a> for the indicated ability instead.</p>
 			<h5 class="og-csrd-header-small" id="focus-abilities">Gaining New Focus Abilities</h5>
-			<p>Each time you reach a new tier through <a href="advancement">character advancement</a>, your focus grants you at least one new ability. Focus abilities are cumulative, and sometimes your new focus ability will improve or enhance an ability you have already gained from your focus.</p>
+			<p>Each time you reach a new tier through <a href="#advancement">character advancement</a>, your focus grants you at least one new ability. Focus abilities are cumulative, and sometimes your new focus ability will improve or enhance an ability you have already gained from your focus.</p>
 			<h5 class="og-csrd-header-small" id="ability-choice">Ability Choice</h5>
 			<p>At tier 3 and 6, you can choose one ability from two options provided. The GM might allow you to purchase focus abilities you didn't choose at tier 3 or 6 by spending 4 <a href="#xp">XP</a> as a character advancement.</p>
 		</div>
@@ -4783,7 +4810,7 @@
 			<p>A devout follower of a divine being, you channel some of your deity's power to achieve wonders.</p>
 
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">spellcasting</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">spellcasting</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -4822,7 +4849,7 @@
 		<div class="col-lg-6">
 			<p>You have honed the power of your mind to perform amazing psychic deeds.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -5723,7 +5750,7 @@
 		<div class="col-lg-6">
 			<p>You can telekinetically move objects with your mind without physically touching them.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -6566,7 +6593,7 @@
 		<div class="col-lg-6">
 			<p>By specializing in spellcasting and keeping a spellbook, you can quickly cast spells of arcing lightning, rolling fire, creeping shadow, and summoning.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">spellcasting</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">spellcasting</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -7335,7 +7362,7 @@
 		<div class="col-lg-6">
 			<p>You have a psychic sense that allows you to see what others cannot.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -7376,7 +7403,7 @@
 		<div class="col-lg-6">
 			<p>You can project your mind out of your body to see faraway places and learn secrets that would otherwise remain hidden.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 
 			<h5 class="og-csrd-header-small">Tier 1</h5>
@@ -7458,7 +7485,7 @@
 		<div class="col-lg-6">
 			<p>Wandering souls, nature spirits, and elemental beings aid and support you.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>In some settings, the Shepherds Spirits focus applies to only one kind of spirit, such as spirits of the deceased, nature spirits, and so on. This focus might be a good match for the optional <a href="spellcasting-psionics">spellcasting</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>In some settings, the Shepherds Spirits focus applies to only one kind of spirit, such as spirits of the deceased, nature spirits, and so on. This focus might be a good match for the optional <a href="#spellcasting-psionics">spellcasting</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -7760,7 +7787,7 @@
 		<div class="col-lg-6">
 			<p>Your spiritual connection to nature and the environment grants you mystical abilities.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -8169,7 +8196,7 @@
 		<div class="col-lg-6">
 			<p>A spellcaster who learns a variety of spells instead of focusing on just one kind of magic.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -8209,7 +8236,7 @@
 		<div class="col-lg-6">
 			<p>An adherent of nature magic who draws on the power and strength of trees.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">spellcasting</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">spellcasting</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -8403,7 +8430,7 @@
 		<div class="col-lg-6">
 			<p>You bend light and manipulate beams of force for offense and defense.</p>
 			<div class="og-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>This focus might be a good match for the optional <a href="spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
+				<p>This focus might be a good match for the optional <a href="#spellcasting-psionics">psionics</a> rule detailed in <a href="#customization">Chapter 7.</a></p>
 			</div>
 			<h5 class="og-csrd-header-small">Tier 1</h5>
 			<ul class="og-csrd-abilities-catalog">
@@ -9213,7 +9240,7 @@
 			</div>
 			<div class="alert bg-dark pb-0">
 				<h5 class="og-csrd-header-small" id="customize-xp">Starting Just Past Tier 1</h5>
-				<p>The GM might you 4 <a href="#xp">XP</a> (or more) at the start of the game to spend on character advancement, or allow you gain another <a href="ability">special ability</a>.</p>
+				<p>The GM might you 4 <a href="#xp">XP</a> (or more) at the start of the game to spend on character advancement, or allow you gain another <a href="#ability">special ability</a>.</p>
 			</div>
 		</div>
 	</div>
@@ -9241,9 +9268,9 @@
 				<h5 class="og-csrd-header-small" id="flavor-naming">Naming with Flavor</h5>
 				<p>Name your altered type to suit the game setting.</p>
 				<ul>
-					<li>In a science fiction campaign, an <a href="#explorer">Explorer</a> with <a href="#flavor-technology">technology flavor</a> might be the crew's <a href="#descriptor-tongue-tied">Tongue-Tied</a> (but trusty) "Engineer" who <a href="focus-crafts-unique-objects">Crafts Unique Objects</a>.</li>
-					<li>Sailing along shimmering astral shores, a psionic <a href="#speaker">Speaker</a> with <a href="#flavor-magic">magic flavor</a> might be an <a href="descriptor-empathic">Empathic</a> "Mesmer" who <a href="#focus-awakens-dreams">Awakens Dreams</a>.</li>
-					<li>On an alternate earth where magic dominates the battlefields of the American civil war, an <a href="#adept">Adept</a> with <a href="#flavor-combat">combat flavor</a> might be a <a href="#brash">Brash</a> "Gish-Yankee" who <a href="focus-wields-a-magic-weapon">Wields a Magic Weapon</a>.</li>
+					<li>In a science fiction campaign, an <a href="#explorer">Explorer</a> with <a href="#flavor-technology">technology flavor</a> might be the crew's <a href="#descriptor-tongue-tied">Tongue-Tied</a> (but trusty) "Engineer" who <a href="#focus-crafts-unique-objects">Crafts Unique Objects</a>.</li>
+					<li>Sailing along shimmering astral shores, a psionic <a href="#speaker">Speaker</a> with <a href="#flavor-magic">magic flavor</a> might be an <a href="#descriptor-empathic">Empathic</a> "Mesmer" who <a href="#focus-awakens-dreams">Awakens Dreams</a>.</li>
+					<li>On an alternate earth where magic dominates the battlefields of the American civil war, an <a href="#adept">Adept</a> with <a href="#flavor-combat">combat flavor</a> might be a <a href="#brash">Brash</a> "Gish-Yankee" who <a href="#focus-wields-a-magic-weapon">Wields a Magic Weapon</a>.</li>
 				</ul>
 			</div>
 		</div>
@@ -9806,7 +9833,7 @@
 	<h4 id="spellcasting-psionics">Spellcasting and Pisonics<a class="og-csrd-header-anchor" href="#spellcasting-psionics" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>You can gain a spell or psionic ability by spending 3 <a href="xp">XP</a> and working with the GM to come up with an in-game story that explains how you learned it. You can learn additional <a href="#ability">special abilities</a> by spending another 3 XP.</p>
+			<p>You can gain a spell or psionic ability by spending 3 <a href="#xp">XP</a> and working with the GM to come up with an in-game story that explains how you learned it. You can learn additional <a href="#ability">special abilities</a> by spending another 3 XP.</p>
 			<p class="og-csrd-indent">In order to learn mid- and high-tier abilities, you must meet a minimum tier and have learned at least one spell or psionic ability from the previous category:</p>
 			<table class="table table-dark table-striped table-sm">
 				<caption>Spellcasting and Psionic Prerequisites</caption>
@@ -9825,14 +9852,14 @@
 			<h5 class="og-csrd-header-small" id="spellcasting-psionics-activating">Activating Spells and Psionic Abilities</h5>
 			<p>You can use spells and psionic abilities you've learned in the following ways. When you do, you also pay any Pool point costs for activating the ability.</p>
 			<ul class="list-unstyled og-csrd-indent">
-				<li><p><strong>Recovery Roll:</strong> As an <a href="action">action</a>&mdash;or part of another action, if the ability is an Enabler&mdash; you can expend a one-action, ten-minute, or one-hour <a href="taking-damage">recovery roll</a> to activate a spell or psionic ability.</p></li>
+				<li><p><strong>Recovery Roll:</strong> As an <a href="#action">action</a>&mdash;or part of another action, if the ability is an Enabler&mdash; you can expend a one-action, ten-minute, or one-hour <a href="#taking-damage">recovery roll</a> to activate a spell or psionic ability.</p></li>
 				<li><p><strong>Time:</strong> You can spend time concentrating deeply&mdash;or otherwise using all your actions&mdash;to activate a spell or psionic ability. A low-tier ability requires ten minutes, a mid-tier ability takes an hour, and a high-tier ability takes ten hours.</p></li>
 			</ul>
 		</div>
 		<div class="col-lg-6">
 			<h5 class="og-csrd-header-small" id="spellcasting-psionics-preparing">Preparing Spells and Psionic Abilities</h5>
-			<p>If you have magical focus like <a href="focus-master-spells">Masters Spells</a>, or an explicitly psionic one like <a href="#focus-commands-mental-powers">Commands Mental Powers</a>, or some other aspect of your character&mdash;a <a href="#flavor-magic">magic flavor</a>&mdash;makes you specialized in magic or psionics, you can prepare abilities you've learned by spending at least one uninterrupted hour performing a suitable activity&mdash;studying a spellbook, praying to a god, meditating, or concentrating. Usually, this is something that requires a fresh mind, and must be done soon after a ten-hour recovery.</p>
-			<p class="og-csrd-indent">When you prepare your spells or psionic abilities, you can exchange up to three <a href="type">type</a> or <a href="#focus">focus</a> abilities with spells or psionic abilities you've learned. Both abilities must be of the same ability category&mdash;low, mid or high.</p>
+			<p>If you have magical focus like <a href="#focus-master-spells">Masters Spells</a>, or an explicitly psionic one like <a href="#focus-commands-mental-powers">Commands Mental Powers</a>, or some other aspect of your character&mdash;a <a href="#flavor-magic">magic flavor</a>&mdash;makes you specialized in magic or psionics, you can prepare abilities you've learned by spending at least one uninterrupted hour performing a suitable activity&mdash;studying a spellbook, praying to a god, meditating, or concentrating. Usually, this is something that requires a fresh mind, and must be done soon after a ten-hour recovery.</p>
+			<p class="og-csrd-indent">When you prepare your spells or psionic abilities, you can exchange up to three <a href="#type">type</a> or <a href="#focus">focus</a> abilities with spells or psionic abilities you've learned. Both abilities must be of the same ability category&mdash;low, mid or high.</p>
 			<p class="og-csrd-indent">For example, you can exchange Far Step (one of your Tier 1 <a href="#adept">Adept</a> abilities) to prepare Ribbons of Dark Matter (a low-tier spell you know). Once you do, you can use Ribbons of Dark Matter normally, but can only use Far Step by using a recovery roll or spending time.</p>
 			<div class="alert bg-dark pb-0">
 				<ul class="og-csrd-abilities-catalog">
@@ -9845,7 +9872,7 @@
 	<h4 id="posthuman">Posthuman Upgrades<a class="og-csrd-header-anchor" href="#posthuman" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>Posthuman upgrades might be available at character creation, or later in a campaign as a significant plot development. To obtain such an upgrade, the GM might require you to spend 4 <a href="#xp">XP</a>, which might a <a href="advancement">character advancement</a>.</p>
+			<p>Posthuman upgrades might be available at character creation, or later in a campaign as a significant plot development. To obtain such an upgrade, the GM might require you to spend 4 <a href="#xp">XP</a>, which might a <a href="#advancement">character advancement</a>.</p>
 			<p class="og-csrd-indent">The GM decides which of the following posthuman upgrades are available:</p>
 			<ul class="list-unstyled og-csrd-indent">
 				<li><p><strong>Spaceborn:</strong> You are not adversely affected by long-term microgravity or high-radiation conditions common in space. In addition, you can withstand high acceleration (up to 15 G) for about an hour without passing out, having a stroke, a heart attack, and so on (though longer periods of acceleration could still result in such outcomes). Add +1 to your Intellect Edge. Enabler.</p></li>
