@@ -9,7 +9,7 @@ This online reference for the Cypher System Reference Document (CSRD) provides a
 
 Readers are encouraged to support the creators. Consider buying products listed in the [Additional Descriptors](https://callmepartario.github.io/og-csrd/#additional-descriptors) or [Additional Foci](https://callmepartario.github.io/og-csrd/#additional-foci) sections to ensure the longevity of our collective imaginations.
 
-# Old Gus' Unofficial Cypher System Player's Guide (OG-CSPG)
+## Old Gus' Unofficial Cypher System Player's Guide (OG-CSPG)
 
 https://callmepartario.github.io/og-csrd/og-cspg.html
 
@@ -35,7 +35,9 @@ This document includes card-sized handouts for all the cyphers in the CSRD. You 
 
 This 2-page handout contains everything a new player needs to understand the game or to reference commonly used rules.
 
-## Contact the Editor
+---
+
+# Contact the Editor
 
 Thanks for reading, and may these tools bring you and yours many happy adventures!
 
@@ -44,6 +46,8 @@ Thanks for reading, and may these tools bring you and yours many happy adventure
 - Email: partario.flynn@gmail.com
 - Mastodon: [@oldgus@dice.camp](https://dice.camp/@oldgus)
 - [Buy Me a Coffee](https://ko-fi.com/oldgus)
+
+---
 
 # Cypher System Open Licence
 
