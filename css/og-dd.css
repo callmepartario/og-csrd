@@ -98,6 +98,9 @@ ul.og-csrd-toc {
 	color: #cb966c;
 	background-color: #1f2733;
 }
+.og-csrd-ednote p strong {
+	color: #b35c2f;
+}
 /* legends with iconography explanations */
 .og-csrd-legend ul.og-csrd-legend-list {
 	font-family: Lexend Zetta, Arial, sans-serif;
