@@ -7,7 +7,7 @@ https://callmepartario.github.io/og-csrd
 
 This online reference for the Cypher System Reference Document (CSRD) provides an in-depth look at the game with content aligned to the [Cypher System Rulebook (2019)](https://www.montecookgames.com/store/product/cypher-system-rulebook-2/).
 
-Readers are encouraged to support the creators. Consider buying products listed in the [Additional Descriptors](https://callmepartario.github.io/og-csrd/#additional-descriptors) or [Additional Foci](https://callmepartario.github.io/og-csrd/#additional-foci) sections to ensure the longevity of our collective imaginations.
+Readers are encouraged to support the creators. Consider buying products listed in the [Additional Descriptors](https://callmepartario.github.io/og-csrd/#additional-descriptors), [Additional Foci](https://callmepartario.github.io/og-csrd/#additional-foci), or [What's In The Book?](https://callmepartario.github.io/og-csrd/#choose-products) sections to ensure the longevity of our collective imaginations.
 
 ## Old Gus' Unofficial Cypher System Player's Guide (OG-CSPG)
 
