@@ -25,7 +25,7 @@
 /* scroll offset for fixed navbar */
 html { scroll-padding-top: 5rem; }
 #og-csrd-navbar.theme-light { 
-	background-color: #eee !important;
+	background-color: #e9ecef !important;
 }
 #og-csrd-navbar.theme-dark { 
 	background-color: #1c1f21 !important;
@@ -42,7 +42,7 @@ body {
 }
 body.theme-light { 
 	color: #000;
-	background-color: #eee !important;
+	background-color: #e9ecef !important;
 }
 body.theme-dark { 
 	color: #fff;
@@ -51,9 +51,9 @@ body.theme-dark {
 /* override link and body coloration */
 #og-csrd-content.theme-dark a { color: #facc8e; }
 #og-csrd-content.theme-dark a:hover { color: #fca832; }
-button.theme-light { border-color: #aaa !important; }
+button.theme-light { border-color: #e9ecef !important; }
 button.theme-dark { border-color: #1c1f21!important; }
-a.btn.theme-light { border-color: #aaa !important; }
+a.btn.theme-light { border-color: #e9ecef !important; }
 a.btn.theme-dark { border-color: #1c1f21!important; }
 /* main content window */
 #og-csrd-content.theme-light {
@@ -64,7 +64,7 @@ a.btn.theme-dark { border-color: #1c1f21!important; }
 }
 /* image variants */
 img.theme-light { display: block !important; }
-img.theme-dark { display: bloack !important; }
+img.theme-dark { display: block !important; }
 /* anchor link iconography */
 #part0.theme-light h4 a.og-csrd-header-anchor, 
 #part1.theme-light h4 a.og-csrd-header-anchor, 
@@ -485,7 +485,7 @@ ul.og-csrd-abilities-catalog li ul li {
 /* reference a book and page number */
 span.og-csrd-ref {
 	font-family: Teko, Arial, sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 0.9rem;
 	display: inline-block;
 	border-radius: 0.25rem;
@@ -494,11 +494,11 @@ span.og-csrd-ref {
 	font-style: normal !important;
 }
 span.og-csrd-ref.theme-light {
-	color: #777;
-	background-color: #eee !important;
+	color: #6c757d;
+	background-color: #e9ecef !important;
 }
 span.og-csrd-ref.theme-dark {
-	color: #aaa;
+	color: #e9ecef;
 	background-color: #1f2733 !important;
 }
 /* list abilities in compact columns */
