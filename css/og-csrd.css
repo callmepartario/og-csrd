@@ -25,7 +25,7 @@
 /* scroll offset for fixed navbar */
 html { scroll-padding-top: 5rem; }
 #og-csrd-navbar.theme-light { 
-	background-color: #e9ecef !important;
+	background-color: #f7fbff !important;
 }
 #og-csrd-navbar.theme-dark { 
 	background-color: #1c1f21 !important;
@@ -42,7 +42,7 @@ body {
 }
 body.theme-light { 
 	color: #000;
-	background-color: #e9ecef !important;
+	background-color: #f7fbff !important;
 }
 body.theme-dark { 
 	color: #fff;
@@ -51,9 +51,9 @@ body.theme-dark {
 /* override link and body coloration */
 #og-csrd-content.theme-dark a { color: #facc8e; }
 #og-csrd-content.theme-dark a:hover { color: #fca832; }
-button.theme-light { border-color: #e9ecef !important; }
+button.theme-light { border-color: #f7fbff !important; }
 button.theme-dark { border-color: #1c1f21!important; }
-a.btn.theme-light { border-color: #e9ecef !important; }
+a.btn.theme-light { border-color: #f7fbff !important; }
 a.btn.theme-dark { border-color: #1c1f21!important; }
 /* main content window */
 #og-csrd-content.theme-light {
@@ -495,10 +495,10 @@ span.og-csrd-ref {
 }
 span.og-csrd-ref.theme-light {
 	color: #6c757d;
-	background-color: #e9ecef !important;
+	background-color: #f7fbff !important;
 }
 span.og-csrd-ref.theme-dark {
-	color: #e9ecef;
+	color: #f7fbff;
 	background-color: #1f2733 !important;
 }
 /* list abilities in compact columns */
