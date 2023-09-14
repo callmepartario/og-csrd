@@ -893,6 +893,7 @@ h5.text-white,
 h6.text-white {
 	color: #fff !important;
 }
+.text-danger {color:#f26522!important; }
 a.og-csrd-link-white { color: #fff !important; }
 a.og-csrd-link-white:hover { color: #fff !important; }
 /* editor's notes, sidebars, and legends */
