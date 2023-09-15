@@ -256,8 +256,8 @@ h1.theme-dark {
 /* header 2 divides the document parts */
 h2 {
 	color: #fff !important;
-	font-size: 3.2rem; text-align: center; font-weight: 600;
-	font-weight: 600;
+	font-size: 3.2rem; text-align: center; 
+	font-weight: 500;
 	text-align: center;
 	padding: 0.5rem 0.25rem 0.1rem 0.25rem;
 	margin: 0.5rem -1rem 0.5rem 0;
@@ -266,7 +266,7 @@ h2 {
 /* header 3 divides the document chapters */
 h3 { 
 	font-size: 3.2rem; 
-	font-weight: 600;
+	font-weight: 500;
 	text-align: center; 
 }
 /* large section within a chapter */
