@@ -1004,3 +1004,5 @@ img.og-csrd-csol-logo {
 img.og-csrd-difficulty-dial { 
 	max-width: 35rem;
 }
+/* light and dark mode iconography */
+img.og-csrd-icon { height: 1.25em; width: 1.25em; }
