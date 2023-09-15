@@ -1,9 +1,3 @@
-/* Body: Open Sans */
-/* Headers: Teko substitutes for Refridgerator Deluxe. */
-/* Chapter Identifiers: Orbitron substitutes for Bank Gothic */
-/* 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,i,bi|Teko:300,400,500,600,700,i,bi|Orbitron:400,500,600,700,800,900,i,bi);	
-*/
 @font-face {
     font-family: 'Open Sans';
     src:url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format(truetype);
@@ -212,7 +206,6 @@ h6.og-csrd-tabbed-item a.og-csrd-header-anchor,
 h6.og-csrd-tabbed-item-sub a.og-csrd-header-anchor {
 	margin-left: -1.75rem;
 }
-
 #part0, 
 #part1, 
 #part2, 
@@ -295,13 +288,8 @@ h6 {
 	letter-spacing: 0.1rem;
 	font-weight: 400;
 }
-/* extra-small header for alerts, 
-quick-refernces, 
-or visual clarity */
-/* due to header structure, 
-this might be used for header 4, 
-5, 
-or 6 */
+/* extra-small header for alerts, quick-refernces, or visual clarity */
+/* due to header structure, this might be used for header 4, 5, or 6 */
 .og-csrd-header-small {
 	font-size: 2rem;
 	text-transform: uppercase;
@@ -313,11 +301,7 @@ or 6 */
 .og-csrd-border-line {
 	border-bottom: 0.25rem solid;
 }
-/* tabbed item for creatures, 
-detailed equipment, 
-vehicles, 
-and traps */
-
+/* tabbed item for creatures, detailed equipment, vehicles, and traps */
 .og-csrd-tabbed-item, 
 .og-csrd-tabbed-item-sub {
 	color: #fff !important;
@@ -325,7 +309,6 @@ and traps */
 	padding: 0.25rem 0.5rem 0rem 0.5rem;
 	border-radius: 0.25em;
 }
-
 /* headers with cypher and technology iconography */
 .og-csrd-icon::before {
 	content: "";
@@ -419,9 +402,7 @@ ul.og-csrd-toc li ul li {
 	text-indent: 0rem;
 }
 /* override definition list appearances  */
-/* used in glossary, 
-key terms, 
-creatures  */
+/* used in glossary, key terms, creatures  */
 dl { 
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -521,8 +502,7 @@ span.og-csrd-ref.theme-dark {
 		column-count: 4	;
 	}
 }
-/* nested lists with disc bullets, 
-used in creatures */
+/* nested lists with disc bullets, used in creatures */
 ul.og-csrd-list-disc {
 	text-indent: 0rem;
 	margin-left: 0rem;
@@ -533,15 +513,11 @@ ul.og-csrd-list-disc {
 ul.og-csrd-list-disc li {
 	margin-bottom: 0.25em;
 }
-/* alerts, 
-sidebars, 
-editor's notes, 
-legends and other styling inheritances */
+/* alerts, sidebars, editor's notes, legends and other styling inheritances */
 /* override bootstrap for a standard alert border size */
 .alert { 
 	border: 0.25rem solid;
 }
-
 /* lists quick reference column controls */
 ul.og-csrd-quick-reference {
 	column-count: 2;
@@ -873,7 +849,6 @@ ul.og-csrd-toc.theme-dark li.og-csrd-toc-part5 ul li a,
 	color: #89b;
 	border-color: #89b;
 }
-
 #part0 div.og-csrd-sidebar.theme-light { background-color: #fff2fc; }
 #part1 div.og-csrd-sidebar.theme-light { background-color: #f2f7ff; }
 #part2 div.og-csrd-sidebar.theme-light { background-color: #fff6f2; }
@@ -891,7 +866,13 @@ ul.og-csrd-toc.theme-dark li.og-csrd-toc-part5 ul li a,
 #part2 div.alert.theme-dark, 
 #part3 div.alert.theme-dark, 
 #part4 div.alert.theme-dark, 
-#part5 div.alert.theme-dark { background-color: #1c1f21 !important; }
+#part5 div.alert.theme-dark { background-image: linear-gradient(180deg, #222529, #1c1f21); }
+#part0 div.og-csrd-sidebar.theme-dark, 
+#part1 div.og-csrd-sidebar.theme-dark, 
+#part2 div.og-csrd-sidebar.theme-dark, 
+#part3 div.og-csrd-sidebar.theme-dark, 
+#part4 div.og-csrd-sidebar.theme-dark, 
+#part5 div.og-csrd-sidebar.theme-dark { background-color: #222529; }
 /* for tabbed headers that will always have dark backgrounds */
 h3.text-white, 
 h4.text-white, 
