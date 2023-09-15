@@ -736,7 +736,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part0 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part0 ul li a, 
 #part0.theme-dark .og-csrd-legend, 
 #part0.theme-dark .og-csrd-border-line {
-	color: #d9c;
+	color: #d9c !important;
 	border-color: #d9c;
 }
 #part1.theme-light h3, 
@@ -758,7 +758,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part1 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part1 ul li a, 
 #part1.theme-dark .og-csrd-legend, 
 #part1.theme-dark .og-csrd-border-line  {
-	color: #8ad;
+	color: #8ad !important;
 	border-color: #8ad;
 }
 #part2.theme-light h3, 
@@ -780,7 +780,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part2 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part2 ul li a, 
 #part2.theme-dark .og-csrd-legend, 
 #part2.theme-dark .og-csrd-border-line  {
-	color: #d97;
+	color: #d97 !important;
 	border-color: #d97;
 }
 #part3.theme-light h3, 
@@ -802,7 +802,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part3 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part3 ul li a, 
 #part3.theme-dark .og-csrd-legend, 
 #part3.theme-dark .og-csrd-border-line  {
-	color: #fe9;
+	color: #fe9 !important;
 	border-color: #fe9;
 }
 #part4.theme-light h3, 
@@ -824,7 +824,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part4 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part4 ul li a, 
 #part4.theme-dark .og-csrd-legend, 
 #part4.theme-dark .og-csrd-border-line  {
-	color: #9c9;
+	color: #9c9 !important;
 	border-color: #9c9;
 }
 #part5.theme-light h3, 
@@ -846,7 +846,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part5 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part5 ul li a, 
 #part5.theme-dark .og-csrd-legend, 
 #part5.theme-dark .og-csrd-border-line  {
-	color: #89b;
+	color: #89b !important;
 	border-color: #89b;
 }
 #part0 div.og-csrd-sidebar.theme-light { background-color: #fff2fc; }

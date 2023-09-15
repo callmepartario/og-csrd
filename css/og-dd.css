@@ -140,7 +140,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part0 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part0 ul li a, 
 #part0.theme-dark .og-csrd-legend, 
 #part0.theme-dark .og-csrd-border-line {
-	color: #b7d3ea;
+	color: #b7d3ea !important;
 	border-color: #b7d3ea;
 }
 #part0 h4, 
@@ -176,7 +176,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part1 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part1 ul li a, 
 #part1.theme-dark .og-csrd-legend, 
 #part1.theme-dark .og-csrd-border-line {
-	color: #b5eced;
+	color: #b5eced !important;
 	border-color: #b5eced;
 }
 #part1 h4, 
@@ -212,7 +212,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part2 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part2 ul li a, 
 #part2.theme-dark .og-csrd-legend, 
 #part2.theme-dark .og-csrd-border-line {
-	color: #c9baeb;
+	color: #c9baeb !important;
 	border-color: #c9baeb;
 }
 #part2 h4, 
@@ -248,7 +248,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part3 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part3 ul li a, 
 #part3.theme-dark .og-csrd-legend, 
 #part3.theme-dark .og-csrd-border-line {
-	color: #e8baba;
+	color: #e8baba !important;
 	border-color: #e8baba;
 }
 #part3 h4, 
@@ -260,7 +260,6 @@ ul.og-csrd-toc.theme-dark li.og-csrd-toc-part3 ul li a,
 }
 #part3 div.og-csrd-sidebar.theme-light { background-color: #fff6f2; }
 #part3 div.alert.theme-light { background-image: linear-gradient(180deg, #fff6f2, #ffffff); }
-
 div.og-csrd-species {
 	background-image: url('../images/species-alien-background.webp');
 	background-position: center center;
