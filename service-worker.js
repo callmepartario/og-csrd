@@ -22,6 +22,8 @@ const cacheFiles = [
     'images/cypher-system-compatible-white.svg',
     'images/og-csrd-difficulty-dial-light.svg',
     'images/og-csrd-difficulty-dial-dark.svg',
+    'images/mode-moon.svg',
+    'images/mode-sun.svg',
     'images/og-cspg-cover.webp',
     'db/og-csrd.json',
     'db/og-dd.json',
