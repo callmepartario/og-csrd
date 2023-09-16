@@ -8,12 +8,21 @@ ul.og-csrd-toc li.og-csrd-toc-part0 span a,
 #part0 .og-csrd-tabbed-item {
 	background-color: #175f81;
 }
+
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part0 ul li a {
+	color: #175f81 !important;
+	border-color: #175f81;
+}
+
+ul.og-csrd-toc.theme-dark li.og-csrd-toc-part0 ul li a {
+	color: #86b4ca !important;
+	border-color: #86b4ca;
+}
 #part0.theme-light h3, 
 #part0.theme-light h4, 
 #part0.theme-light h5, 
 #part0.theme-light h6, 
 #part0.theme-light .og-csrd-sidebar, 
-ul.og-csrd-toc.theme-light li.og-csrd-toc-part0 ul li a, 
 #part0.theme-light .og-csrd-legend, 
 #part0.theme-light .og-csrd-border-line {
 	color: #175f81;
@@ -24,10 +33,9 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part0 ul li a,
 #part0.theme-dark h5, 
 #part0.theme-dark h6, 
 #part0.theme-dark .og-csrd-sidebar, 
-ul.og-csrd-toc.theme-dark li.og-csrd-toc-part0 ul li a, 
 #part0.theme-dark .og-csrd-legend, 
 #part0.theme-dark .og-csrd-border-line {
-	color: #86b4ca !important;
+	color: #86b4ca;
 	border-color: #86b4ca;
 }
 #part0 h4, 

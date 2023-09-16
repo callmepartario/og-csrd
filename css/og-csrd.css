@@ -191,7 +191,7 @@ h6.og-csrd-header-smaller a.og-csrd-header-anchor {
 }
 h5.og-csrd-tabbed-item a.og-csrd-header-anchor, 
 h5.og-csrd-tabbed-item-sub a.og-csrd-header-anchor {
-	margin-left: -1.75rem;
+	margin-left: -1.75rem !important;
 }
 h5.og-csrd-technologies a.og-csrd-header-anchor {
 	margin-top: 1.25rem;
@@ -204,7 +204,7 @@ h5.og-csrd-header-small-icon a.og-csrd-header-anchor {
 }
 h6.og-csrd-tabbed-item a.og-csrd-header-anchor, 
 h6.og-csrd-tabbed-item-sub a.og-csrd-header-anchor {
-	margin-left: -1.75rem;
+	margin-left: -1.75rem !important;
 }
 #part0, 
 #part1, 
@@ -304,7 +304,6 @@ h6 {
 /* tabbed item for creatures, detailed equipment, vehicles, and traps */
 .og-csrd-tabbed-item, 
 .og-csrd-tabbed-item-sub {
-	color: #fff !important;
 	text-shadow: #000 1px 0 0.5rem;
 	padding: 0.25rem 0.5rem 0rem 0.5rem;
 	border-radius: 0.25em;
@@ -626,55 +625,67 @@ h5.og-csrd-technologies-fantastic::after {
 #part0 h2, 
 ul.og-csrd-toc li.og-csrd-toc-part0 span a, 
 #part0 .og-csrd-tabbed-item {
+	color: #fff !important;
 	background-color: #625;
 }
 #part1 h2, 
 ul.og-csrd-toc li.og-csrd-toc-part1 span a, 
 #part1 .og-csrd-tabbed-item {
+	color: #fff !important;
 	background-color: #249;
 }
 #part2 h2, 
 ul.og-csrd-toc li.og-csrd-toc-part2 span a, 
 #part2 .og-csrd-tabbed-item {
+	color: #fff !important;
 	background-color: #942;
 }
 #part3 h2, 
 ul.og-csrd-toc li.og-csrd-toc-part3 span a, 
 #part3 .og-csrd-tabbed-item {
+	color: #fff !important;
 	background-color: #762;
 }
 #part4 h2, 
 ul.og-csrd-toc li.og-csrd-toc-part4 span a, 
 #part4 .og-csrd-tabbed-item {
+	color: #fff !important;
 	background-color: #384;
 }
 #part5 h2, 
 ul.og-csrd-toc li.og-csrd-toc-part5 span a, 
 #part5 .og-csrd-tabbed-item {
+	color: #fff !important;
 	background-color: #449;
 }
 #part0.theme-light .og-csrd-tabbed-item-sub, 
 #part0.theme-dark .og-csrd-tabbed-item-sub {
+	color: #fff !important;
 	background-color: #303;
 }
 #part1.theme-light .og-csrd-tabbed-item-sub, 
 #part1.theme-dark .og-csrd-tabbed-item-sub {
+	color: #fff !important;
 	background-color: #036;
 }
 #part2.theme-light .og-csrd-tabbed-item-sub, 
 #part2.theme-dark .og-csrd-tabbed-item-sub {
+	color: #fff !important;
 	background-color: #630;
 }
 #part3.theme-light .og-csrd-tabbed-item-sub, 
 #part3.theme-dark .og-csrd-tabbed-item-sub {
+	color: #fff !important;
 	background-color: #541;
 }
 #part4.theme-light .og-csrd-tabbed-item-sub, 
 #part4.theme-dark .og-csrd-tabbed-item-sub {
+	color: #fff !important;
 	background-color: #142;
 }
 #part5.theme-light .og-csrd-tabbed-item-sub, 
 #part5.theme-dark .og-csrd-tabbed-item-sub {
+	color: #fff !important;
 	background-color: #224;
 }
 #part0 h4, 
@@ -717,6 +728,50 @@ ul.og-csrd-toc li.og-csrd-toc-part5 span a,
 ul.og-csrd-toc {
 	background-color: transparent !important;
 }
+ul.og-csrd-toc.theme-dark li.og-csrd-toc-part0 ul li a {
+	color: #d9c !important;
+	border-color: #d9c;
+}
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part1 ul li a {
+	color: #249 !important;
+	border-color: #249;
+}
+ul.og-csrd-toc.theme-dark li.og-csrd-toc-part1 ul li a {
+	color: #8ad !important;
+	border-color: #8ad;
+}
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part2 ul li a {
+	color: #942 !important;
+	border-color: #942;
+}
+ul.og-csrd-toc.theme-dark li.og-csrd-toc-part2 ul li a {
+	color: #d97 !important;
+	border-color: #d97;
+}
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part3 ul li a {
+	color: #762 !important;
+	border-color: #762;
+}
+ul.og-csrd-toc.theme-dark li.og-csrd-toc-part3 ul li a {
+	color: #fe9 !important;
+	border-color: #fe9;
+}
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part4 ul li a {
+	color: #384 !important;
+	border-color: #384;
+}
+ul.og-csrd-toc.theme-dark li.og-csrd-toc-part4 ul li a {
+	color: #9c9 !important;
+	border-color: #9c9;
+}
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part5 ul li a {
+	color: #449 !important;
+	border-color: #449;
+}
+ul.og-csrd-toc.theme-dark li.og-csrd-toc-part5 ul li a {
+	color: #89b !important;
+	border-color: #89b;
+}
 #part0.theme-light h3, 
 #part0.theme-light h4, 
 #part0.theme-light h5, 
@@ -736,7 +791,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part0 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part0 ul li a, 
 #part0.theme-dark .og-csrd-legend, 
 #part0.theme-dark .og-csrd-border-line {
-	color: #d9c !important;
+	color: #d9c;
 	border-color: #d9c;
 }
 #part1.theme-light h3, 
@@ -758,7 +813,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part1 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part1 ul li a, 
 #part1.theme-dark .og-csrd-legend, 
 #part1.theme-dark .og-csrd-border-line  {
-	color: #8ad !important;
+	color: #8ad;
 	border-color: #8ad;
 }
 #part2.theme-light h3, 
@@ -780,7 +835,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part2 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part2 ul li a, 
 #part2.theme-dark .og-csrd-legend, 
 #part2.theme-dark .og-csrd-border-line  {
-	color: #d97 !important;
+	color: #d97;
 	border-color: #d97;
 }
 #part3.theme-light h3, 
@@ -802,7 +857,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part3 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part3 ul li a, 
 #part3.theme-dark .og-csrd-legend, 
 #part3.theme-dark .og-csrd-border-line  {
-	color: #fe9 !important;
+	color: #fe9;
 	border-color: #fe9;
 }
 #part4.theme-light h3, 
@@ -824,7 +879,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part4 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part4 ul li a, 
 #part4.theme-dark .og-csrd-legend, 
 #part4.theme-dark .og-csrd-border-line  {
-	color: #9c9 !important;
+	color: #9c9;
 	border-color: #9c9;
 }
 #part5.theme-light h3, 
@@ -846,7 +901,7 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part5 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part5 ul li a, 
 #part5.theme-dark .og-csrd-legend, 
 #part5.theme-dark .og-csrd-border-line  {
-	color: #89b !important;
+	color: #89b;
 	border-color: #89b;
 }
 #part0 div.og-csrd-sidebar.theme-light { background-color: #fff2fc; }
