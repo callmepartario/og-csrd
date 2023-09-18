@@ -25,6 +25,7 @@ const cacheFiles = [
     'images/mode-moon.svg',
     'images/mode-sun.svg',
     'images/og-cspg-cover.webp',
+    'images/cypher-system-rulebook-cover.webp',
     'db/og-csrd.json',
     'db/og-dd.json',
     'icon/android-chrome-192x192.png',
