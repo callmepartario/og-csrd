@@ -45,7 +45,7 @@ Thanks for reading, and may these tools bring you and yours many happy adventure
 
 - Email: partario.flynn@gmail.com
 - Mastodon: [@oldgus@dice.camp](https://dice.camp/@oldgus)
-- [Buy Me a Coffee](https://ko-fi.com/oldgus)
+- Ko-fi: [Buy Me a Coffee](https://ko-fi.com/oldgus)
 
 ---
 
