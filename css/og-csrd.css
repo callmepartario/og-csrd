@@ -231,7 +231,7 @@ h3,
 h4, 
 h5, 
 h6 {
-	font-family: Teko, Arial, sans-serif;
+	font-family: Teko, 'Arial Narrow', Arial, sans-serif;
 	text-transform: uppercase;
 }
 /* page title */
@@ -333,7 +333,7 @@ h5.og-csrd-technologies::after {
 }
 /* table of contents */
 ul.og-csrd-toc {
-	font-family: Teko, Arial, sans-serif;
+	font-family: Teko, 'Arial Narrow', Arial, sans-serif;
 	font-size: 2.2rem;
 	font-weight: 300;
 	list-style-type: none;
@@ -470,7 +470,7 @@ ul.og-csrd-abilities-catalog li ul li {
 }
 /* reference a book and page number */
 span.og-csrd-ref {
-	font-family: Teko, Arial, sans-serif;
+	font-family: Teko, 'Arial Narrow', Arial, sans-serif;
 	font-weight: 300;
 	font-size: 0.9rem;
 	display: inline-block;
@@ -563,7 +563,7 @@ ul.og-csrd-quick-reference-compact li {
 /* legends with iconography explanations */
 .og-csrd-legend ul.og-csrd-legend-list, 
 .og-csrd-legend-edrule ul.og-csrd-legend-list {
-	font-family: Teko, Arial, sans-serif;
+	font-family: Teko, 'Arial Narrow', Arial, sans-serif;
 	font-size: 1.6rem;
 	text-transform: uppercase;
 }
