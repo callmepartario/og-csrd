@@ -72,18 +72,21 @@ img.theme-dark { display: block !important; }
 #part3.theme-light h4 a.og-csrd-header-anchor, 
 #part4.theme-light h4 a.og-csrd-header-anchor, 
 #part5.theme-light h4 a.og-csrd-header-anchor, 
+#part6.theme-light h4 a.og-csrd-header-anchor, 
 #part0.theme-light h5 a.og-csrd-header-anchor, 
 #part1.theme-light h5 a.og-csrd-header-anchor, 
 #part2.theme-light h5 a.og-csrd-header-anchor, 
 #part3.theme-light h5 a.og-csrd-header-anchor, 
 #part4.theme-light h5 a.og-csrd-header-anchor, 
 #part5.theme-light h4 a.og-csrd-header-anchor, 
+#part6.theme-light h4 a.og-csrd-header-anchor, 
 #part0.theme-light h6 a.og-csrd-header-anchor, 
 #part1.theme-light h6 a.og-csrd-header-anchor, 
 #part2.theme-light h6 a.og-csrd-header-anchor, 
 #part3.theme-light h6 a.og-csrd-header-anchor, 
 #part4.theme-light h6 a.og-csrd-header-anchor, 
-#part5.theme-light h6 a.og-csrd-header-anchor {
+#part5.theme-light h6 a.og-csrd-header-anchor,
+#part6.theme-light h6 a.og-csrd-header-anchor {
 	width: 1.25rem;
 	height: 1.25rem;
 	text-decoration: none;
@@ -102,18 +105,21 @@ img.theme-dark { display: block !important; }
 #part3.theme-light h4:hover a.og-csrd-header-anchor, 
 #part4.theme-light h4:hover a.og-csrd-header-anchor, 
 #part5.theme-light h4:hover a.og-csrd-header-anchor, 
+#part6.theme-light h4:hover a.og-csrd-header-anchor, 
 #part0.theme-light h5:hover a.og-csrd-header-anchor, 
 #part1.theme-light h5:hover a.og-csrd-header-anchor, 
 #part2.theme-light h5:hover a.og-csrd-header-anchor, 
 #part3.theme-light h5:hover a.og-csrd-header-anchor, 
 #part4.theme-light h5:hover a.og-csrd-header-anchor, 
 #part5.theme-light h5:hover a.og-csrd-header-anchor, 
+#part6.theme-light h5:hover a.og-csrd-header-anchor, 
 #part0.theme-light h6:hover a.og-csrd-header-anchor, 
 #part1.theme-light h6:hover a.og-csrd-header-anchor, 
 #part2.theme-light h6:hover a.og-csrd-header-anchor, 
 #part3.theme-light h6:hover a.og-csrd-header-anchor, 
 #part4.theme-light h6:hover a.og-csrd-header-anchor, 
-#part5.theme-light h6:hover a.og-csrd-header-anchor {
+#part5.theme-light h6:hover a.og-csrd-header-anchor,
+#part6.theme-light h6:hover a.og-csrd-header-anchor {
 	color: #facc8e;
 	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 400 400' style='enable-background:new 0 0 400 400%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%232b71f4%3B%7D%3C/style%3E%3Crect x='-0.4' y='-0.9' class='st0' width='399.7' height='399.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer1_0_FILL'%3E%3Cpath class='st1' d='M234.4 166.4l-25.8 25.7l14.2 14.2c3.9 3.9 5.8 8.6 5.8 14.1v0c0 5.5-1.9 10.2-5.8 14.1l-73.3 73.3c-3.9 3.9-8.6 5.8-14.1 5.8v0.1c-5.5 0-10.1-2-14-5.9l-28.4-28.5c-3.9-3.9-5.9-8.5-5.9-13.9v-0.1c0-5.5 2-10.1 5.9-14l27.8-27.8c3.3-3.5 5-7.7 5-12.6c0-5-1.8-9.3-5.3-12.8c-3.5-3.5-7.8-5.2-12.8-5.2c-4.9 0-9.1 1.6-12.6 5l-27.8 27.8c-11 11-16.5 24.2-16.5 39.7c0 15.5 5.5 28.8 16.5 39.8l28.5 28.5c11 11 24.2 16.5 39.7 16.5c15.6 0 28.8-5.5 39.8-16.5l73.3-73.4c11-10.9 16.4-24.2 16.4-39.7s-5.5-28.8-16.4-39.8L234.4 166.4 M332.6 174.4c11-11 16.5-24.2 16.5-39.8c0-15.5-5.5-28.8-16.5-39.8l-28.4-28.4c-11-11-24.2-16.5-39.8-16.5c-15.5 0-28.7 5.5-39.7 16.5l-73.4 73.3c-11 11-16.5 24.2-16.5 39.8c0 15.5 5.5 28.8 16.5 39.8l14.2 14.2l25.6-25.7l-14.1-14.2c-3.9-3.9-5.9-8.6-5.8-14v-0.1c-0.1-5.5 1.9-10.1 5.8-14l73.3-73.3c3.9-3.9 8.6-5.8 14.1-5.8l0-0.1c5.5 0 10.2 1.9 14.1 5.8l28.4 28.4c3.9 3.9 5.8 8.6 5.8 14l0 0.1c0 5.4-2 10.1-5.8 14l-27.9 27.8c-3.3 3.5-5 7.7-5.1 12.6c0.1 5 1.9 9.3 5.5 12.9c3.6 3.5 7.8 5.3 12.8 5.3c4.9 0 9.1-1.7 12.6-5.1L332.6 174.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
@@ -123,19 +129,22 @@ img.theme-dark { display: block !important; }
 #part3.theme-dark h4 a.og-csrd-header-anchor, 
 #part4.theme-dark h4 a.og-csrd-header-anchor, 
 #part5.theme-dark h4 a.og-csrd-header-anchor, 
+#part6.theme-dark h4 a.og-csrd-header-anchor, 
 #part0.theme-dark h5 a.og-csrd-header-anchor, 
 #part1.theme-dark h5 a.og-csrd-header-anchor, 
 #part2.theme-dark h5 a.og-csrd-header-anchor, 
 #part3.theme-dark h5 a.og-csrd-header-anchor, 
 #part4.theme-dark h5 a.og-csrd-header-anchor, 
 #part5.theme-dark h4 a.og-csrd-header-anchor, 
+#part6.theme-dark h4 a.og-csrd-header-anchor, 
 #part0.theme-dark h6 a.og-csrd-header-anchor, 
 #part1.theme-dark h6 a.og-csrd-header-anchor, 
 #part2.theme-dark h6 a.og-csrd-header-anchor, 
 #part3.theme-dark h6 a.og-csrd-header-anchor, 
 #part4.theme-dark h6 a.og-csrd-header-anchor, 
-#part5.theme-dark h6 a.og-csrd-header-anchor {
-	width: 1.25rem;
+#part5.theme-dark h6 a.og-csrd-header-anchor,
+#part6.theme-dark h6 a.og-csrd-header-anchor {
+		width: 1.25rem;
 	height: 1.25rem;
 	text-decoration: none;
 	float: left;
@@ -153,18 +162,21 @@ img.theme-dark { display: block !important; }
 #part3.theme-dark h4:hover a.og-csrd-header-anchor, 
 #part4.theme-dark h4:hover a.og-csrd-header-anchor, 
 #part5.theme-dark h4:hover a.og-csrd-header-anchor, 
+#part6.theme-dark h4:hover a.og-csrd-header-anchor, 
 #part0.theme-dark h5:hover a.og-csrd-header-anchor, 
 #part1.theme-dark h5:hover a.og-csrd-header-anchor, 
 #part2.theme-dark h5:hover a.og-csrd-header-anchor, 
 #part3.theme-dark h5:hover a.og-csrd-header-anchor, 
 #part4.theme-dark h5:hover a.og-csrd-header-anchor, 
 #part5.theme-dark h5:hover a.og-csrd-header-anchor, 
+#part6.theme-dark h5:hover a.og-csrd-header-anchor, 
 #part0.theme-dark h6:hover a.og-csrd-header-anchor, 
 #part1.theme-dark h6:hover a.og-csrd-header-anchor, 
 #part2.theme-dark h6:hover a.og-csrd-header-anchor, 
 #part3.theme-dark h6:hover a.og-csrd-header-anchor, 
 #part4.theme-dark h6:hover a.og-csrd-header-anchor, 
-#part5.theme-dark h6:hover a.og-csrd-header-anchor {
+#part5.theme-dark h6:hover a.og-csrd-header-anchor,
+#part6.theme-dark h6:hover a.og-csrd-header-anchor {
 	color: #facc8e;
 	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 400 400' style='enable-background:new 0 0 400 400%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%23facc8e%3B%7D%3C/style%3E%3Crect x='-0.4' y='-0.9' class='st0' width='399.7' height='399.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer1_0_FILL'%3E%3Cpath class='st1' d='M234.4 166.4l-25.8 25.7l14.2 14.2c3.9 3.9 5.8 8.6 5.8 14.1v0c0 5.5-1.9 10.2-5.8 14.1l-73.3 73.3c-3.9 3.9-8.6 5.8-14.1 5.8v0.1c-5.5 0-10.1-2-14-5.9l-28.4-28.5c-3.9-3.9-5.9-8.5-5.9-13.9v-0.1c0-5.5 2-10.1 5.9-14l27.8-27.8c3.3-3.5 5-7.7 5-12.6c0-5-1.8-9.3-5.3-12.8c-3.5-3.5-7.8-5.2-12.8-5.2c-4.9 0-9.1 1.6-12.6 5l-27.8 27.8c-11 11-16.5 24.2-16.5 39.7c0 15.5 5.5 28.8 16.5 39.8l28.5 28.5c11 11 24.2 16.5 39.7 16.5c15.6 0 28.8-5.5 39.8-16.5l73.3-73.4c11-10.9 16.4-24.2 16.4-39.7s-5.5-28.8-16.4-39.8L234.4 166.4 M332.6 174.4c11-11 16.5-24.2 16.5-39.8c0-15.5-5.5-28.8-16.5-39.8l-28.4-28.4c-11-11-24.2-16.5-39.8-16.5c-15.5 0-28.7 5.5-39.7 16.5l-73.4 73.3c-11 11-16.5 24.2-16.5 39.8c0 15.5 5.5 28.8 16.5 39.8l14.2 14.2l25.6-25.7l-14.1-14.2c-3.9-3.9-5.9-8.6-5.8-14v-0.1c-0.1-5.5 1.9-10.1 5.8-14l73.3-73.3c3.9-3.9 8.6-5.8 14.1-5.8l0-0.1c5.5 0 10.2 1.9 14.1 5.8l28.4 28.4c3.9 3.9 5.8 8.6 5.8 14l0 0.1c0 5.4-2 10.1-5.8 14l-27.9 27.8c-3.3 3.5-5 7.7-5.1 12.6c0.1 5 1.9 9.3 5.5 12.9c3.6 3.5 7.8 5.3 12.8 5.3c4.9 0 9.1-1.7 12.6-5.1L332.6 174.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
@@ -211,7 +223,8 @@ h6.og-csrd-tabbed-item-sub a.og-csrd-header-anchor {
 #part2, 
 #part3, 
 #part4, 
-#part5 { 
+#part5,
+#part6 { 
 	padding-right: 1rem;
 	margin-right: -0.75rem;
 	background-color: transparent !important;
@@ -221,7 +234,8 @@ h6.og-csrd-tabbed-item-sub a.og-csrd-header-anchor {
 #part2, 
 #part3, 
 #part4, 
-#part5 { 
+#part5,
+#part6 { 
 	border-right: 1rem solid;
 }
 /* header overrides */
@@ -659,6 +673,12 @@ ul.og-csrd-toc li.og-csrd-toc-part5 span a,
 	color: #fff !important;
 	background-color: #449;
 }
+#part6 h2, 
+ul.og-csrd-toc li.og-csrd-toc-part6 span a, 
+#part6 .og-csrd-tabbed-item {
+	color: #fff !important;
+	background-color: #17a0a9;
+}
 #part0.theme-light .og-csrd-tabbed-item-sub, 
 #part0.theme-dark .og-csrd-tabbed-item-sub {
 	color: #fff !important;
@@ -688,6 +708,11 @@ ul.og-csrd-toc li.og-csrd-toc-part5 span a,
 #part5.theme-dark .og-csrd-tabbed-item-sub {
 	color: #fff !important;
 	background-color: #224;
+}
+#part6.theme-light .og-csrd-tabbed-item-sub, 
+#part6.theme-dark .og-csrd-tabbed-item-sub {
+	color: #fff !important;
+	background-color: #17a0a9;
 }
 #part0 h4, 
 #part0, 
@@ -725,6 +750,12 @@ ul.og-csrd-toc li.og-csrd-toc-part5 span a,
 #part5 .og-csrd-sidebar, 
 #part5 .og-csrd-legend {
 	border-color: #449;
+}
+#part6, 
+#part6 .alert, 
+#part6 .og-csrd-sidebar, 
+#part6 .og-csrd-legend {
+	border-color: #17a0a9;
 }
 ul.og-csrd-toc {
 	background-color: transparent !important;
@@ -772,6 +803,14 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part5 ul li a {
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part5 ul li a {
 	color: #89b !important;
 	border-color: #89b;
+}
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part6 ul li a {
+	color: #17a0a9 !important;
+	border-color: #17a0a9;
+}
+ul.og-csrd-toc.theme-dark li.og-csrd-toc-part6 ul li a {
+	color: #17a0a9 !important;
+	border-color: #17a0a9;
 }
 #part0.theme-light h3, 
 #part0.theme-light h4, 
@@ -883,6 +922,7 @@ ul.og-csrd-toc.theme-dark li.og-csrd-toc-part4 ul li a,
 	color: #9c9;
 	border-color: #9c9;
 }
+
 #part5.theme-light h3, 
 #part5.theme-light h4, 
 #part5.theme-light h5, 
@@ -905,30 +945,56 @@ ul.og-csrd-toc.theme-dark li.og-csrd-toc-part5 ul li a,
 	color: #89b;
 	border-color: #89b;
 }
+#part6.theme-light h3, 
+#part6.theme-light h4, 
+#part6.theme-light h5, 
+#part6.theme-light h6, 
+#part6.theme-light .og-csrd-sidebar, 
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part6 ul li a, 
+#part6.theme-light .og-csrd-legend, 
+#part6.theme-light .og-csrd-border-line  {
+	color: #17a0a9;
+	border-color: #17a0a9;
+}
+#part6.theme-dark h3, 
+#part6.theme-dark h4, 
+#part6.theme-dark h5, 
+#part6.theme-dark h6, 
+#part6.theme-dark .og-csrd-sidebar, 
+ul.og-csrd-toc.theme-dark li.og-csrd-toc-part6 ul li a, 
+#part6.theme-dark .og-csrd-legend, 
+#part6.theme-dark .og-csrd-border-line  {
+	color: #17a0a9;
+	border-color: #17a0a9;
+}
 #part0 div.og-csrd-sidebar.theme-light { background-color: #fff2fc; }
 #part1 div.og-csrd-sidebar.theme-light { background-color: #f2f7ff; }
 #part2 div.og-csrd-sidebar.theme-light { background-color: #fff6f2; }
 #part3 div.og-csrd-sidebar.theme-light { background-color: #fffdf2; }
 #part4 div.og-csrd-sidebar.theme-light { background-color: #f2fff2; }
 #part5 div.og-csrd-sidebar.theme-light { background-color: #f2f6ff; }
+#part6 div.og-csrd-sidebar.theme-light { background-color: #f2fdff; }
 #part0 div.alert.theme-light { background-image: linear-gradient(180deg, #fff2fc, #ffffff); }
 #part1 div.alert.theme-light { background-image: linear-gradient(180deg, #f2f7ff, #ffffff); }
 #part2 div.alert.theme-light { background-image: linear-gradient(180deg, #fff6f2, #ffffff); }
 #part3 div.alert.theme-light { background-image: linear-gradient(180deg, #fffdf2, #ffffff); }
 #part4 div.alert.theme-light { background-image: linear-gradient(180deg, #f2fff2, #ffffff); }
 #part5 div.alert.theme-light { background-image: linear-gradient(180deg, #f2f6ff, #ffffff); }
+#part6 div.alert.theme-light { background-image: linear-gradient(180deg, #f2fdff, #ffffff); }
 #part0 div.alert.theme-dark, 
 #part1 div.alert.theme-dark, 
 #part2 div.alert.theme-dark, 
 #part3 div.alert.theme-dark, 
 #part4 div.alert.theme-dark, 
 #part5 div.alert.theme-dark { background-image: linear-gradient(180deg, #222529, #1c1f21); }
+#part6 div.alert.theme-dark { background-image: linear-gradient(180deg, #222829, #1c1f21); }
 #part0 div.og-csrd-sidebar.theme-dark, 
 #part1 div.og-csrd-sidebar.theme-dark, 
 #part2 div.og-csrd-sidebar.theme-dark, 
 #part3 div.og-csrd-sidebar.theme-dark, 
 #part4 div.og-csrd-sidebar.theme-dark, 
 #part5 div.og-csrd-sidebar.theme-dark { background-color: #222529; }
+#part6 div.og-csrd-sidebar.theme-dark { background-color: #222829; }
 /* for tabbed headers that will always have dark backgrounds */
 h3.text-white, 
 h4.text-white, 
@@ -972,7 +1038,8 @@ div.og-csrd-edrule {
 #part2 div.og-csrd-edrule.theme-light, 
 #part3 div.og-csrd-edrule.theme-light, 
 #part4 div.og-csrd-edrule.theme-light, 
-#part5 div.og-csrd-edrule.theme-light {
+#part5 div.og-csrd-edrule.theme-light,
+#part6 div.og-csrd-edrule.theme-light {
 	border-color: #17a0a9 !important;
 	background-image: linear-gradient(180deg, #fffbf2, #ffffff) !important;
 }
@@ -981,7 +1048,8 @@ div.og-csrd-edrule {
 #part2 div.og-csrd-edrule.theme-dark, 
 #part3 div.og-csrd-edrule.theme-dark, 
 #part4 div.og-csrd-edrule.theme-dark, 
-#part5 div.og-csrd-edrule.theme-dark {
+#part5 div.og-csrd-edrule.theme-dark, 
+#part6 div.og-csrd-edrule.theme-dark {
 	border-color: #17a0a9 !important;
 	background-color: #1f2733 !important;
 }
@@ -1000,9 +1068,12 @@ div.og-csrd-edrule {
 #part4 div.og-csrd-edrule.theme-light h4, 
 #part4 div.og-csrd-edrule.theme-light h5, 
 #part4 div.og-csrd-edrule.theme-light h6, 
-#part4 div.og-csrd-edrule.theme-light h4, 
-#part4 div.og-csrd-edrule.theme-light h5, 
-#part4 div.og-csrd-edrule.theme-light h6 {
+#part5 div.og-csrd-edrule.theme-light h4, 
+#part5 div.og-csrd-edrule.theme-light h5, 
+#part5 div.og-csrd-edrule.theme-light h6,
+#part6 div.og-csrd-edrule.theme-light h4, 
+#part6 div.og-csrd-edrule.theme-light h5, 
+#part6 div.og-csrd-edrule.theme-light h6 {
 	color: #018b94 !important;
 }
 #part0 div.og-csrd-edrule.theme-dark h4, 
@@ -1020,9 +1091,12 @@ div.og-csrd-edrule {
 #part4 div.og-csrd-edrule.theme-dark h4, 
 #part4 div.og-csrd-edrule.theme-dark h5, 
 #part4 div.og-csrd-edrule.theme-dark h6, 
-#part4 div.og-csrd-edrule.theme-dark h4, 
-#part4 div.og-csrd-edrule.theme-dark h5, 
-#part4 div.og-csrd-edrule.theme-dark h6 {
+#part5 div.og-csrd-edrule.theme-dark h4, 
+#part5 div.og-csrd-edrule.theme-dark h5, 
+#part5 div.og-csrd-edrule.theme-dark h6,
+#part6 div.og-csrd-edrule.theme-dark h4, 
+#part6 div.og-csrd-edrule.theme-dark h5, 
+#part6 div.og-csrd-edrule.theme-dark h6 {
 	color: #17a0a9 !important;
 }
 div.og-csrd-sidebar { 
