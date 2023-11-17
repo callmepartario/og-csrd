@@ -144,7 +144,7 @@ img.theme-dark { display: block !important; }
 #part4.theme-dark h6 a.og-csrd-header-anchor, 
 #part5.theme-dark h6 a.og-csrd-header-anchor,
 #part6.theme-dark h6 a.og-csrd-header-anchor {
-		width: 1.25rem;
+	width: 1.25rem;
 	height: 1.25rem;
 	text-decoration: none;
 	float: left;
@@ -677,7 +677,7 @@ ul.og-csrd-toc li.og-csrd-toc-part5 span a,
 ul.og-csrd-toc li.og-csrd-toc-part6 span a, 
 #part6 .og-csrd-tabbed-item {
 	color: #fff !important;
-	background-color: #17a0a9;
+	background-color: #408b93;
 }
 #part0.theme-light .og-csrd-tabbed-item-sub, 
 #part0.theme-dark .og-csrd-tabbed-item-sub {
@@ -712,7 +712,7 @@ ul.og-csrd-toc li.og-csrd-toc-part6 span a,
 #part6.theme-light .og-csrd-tabbed-item-sub, 
 #part6.theme-dark .og-csrd-tabbed-item-sub {
 	color: #fff !important;
-	background-color: #17a0a9;
+	background-color: #408b93;
 }
 #part0 h4, 
 #part0, 
@@ -755,7 +755,7 @@ ul.og-csrd-toc li.og-csrd-toc-part6 span a,
 #part6 .alert, 
 #part6 .og-csrd-sidebar, 
 #part6 .og-csrd-legend {
-	border-color: #17a0a9;
+	border-color: #408b93;
 }
 ul.og-csrd-toc {
 	background-color: transparent !important;
@@ -805,12 +805,12 @@ ul.og-csrd-toc.theme-dark li.og-csrd-toc-part5 ul li a {
 	border-color: #89b;
 }
 ul.og-csrd-toc.theme-light li.og-csrd-toc-part6 ul li a {
-	color: #17a0a9 !important;
-	border-color: #17a0a9;
+	color: #408b93 !important;
+	border-color: #408b93;
 }
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part6 ul li a {
-	color: #17a0a9 !important;
-	border-color: #17a0a9;
+	color: #408b93 !important;
+	border-color: #408b93;
 }
 #part0.theme-light h3, 
 #part0.theme-light h4, 
@@ -953,8 +953,8 @@ ul.og-csrd-toc.theme-dark li.og-csrd-toc-part5 ul li a,
 ul.og-csrd-toc.theme-light li.og-csrd-toc-part6 ul li a, 
 #part6.theme-light .og-csrd-legend, 
 #part6.theme-light .og-csrd-border-line  {
-	color: #17a0a9;
-	border-color: #17a0a9;
+	color: #408b93;
+	border-color: #408b93;
 }
 #part6.theme-dark h3, 
 #part6.theme-dark h4, 
@@ -964,8 +964,8 @@ ul.og-csrd-toc.theme-light li.og-csrd-toc-part6 ul li a,
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part6 ul li a, 
 #part6.theme-dark .og-csrd-legend, 
 #part6.theme-dark .og-csrd-border-line  {
-	color: #17a0a9;
-	border-color: #17a0a9;
+	color: #408b93;
+	border-color: #408b93;
 }
 #part0 div.og-csrd-sidebar.theme-light { background-color: #fff2fc; }
 #part1 div.og-csrd-sidebar.theme-light { background-color: #f2f7ff; }
@@ -1013,18 +1013,18 @@ a.og-csrd-link-white:hover { color: #fff !important; }
 	border-left: 0.25rem solid;
 }
 .og-csrd-ednote.theme-light {
-	border-color: #018b94;
+	border-color: #408b93;
 	background-color: #fffbf2 !important;
 }
 .og-csrd-ednote.theme-dark {
-	border-color: #17a0a9;
+	border-color: #408b93;
 	background-color: #1f2733 !important;
 }
 .og-csrd-ednote.theme-light p strong {
-	color: #018b94;
+	color: #408b93;
 }
 .og-csrd-ednote.theme-dark p strong {
-	color: #17a0a9;
+	color: #408b93;
 }
 div.og-csrd-edrule {
 	position:relative;
@@ -1040,7 +1040,7 @@ div.og-csrd-edrule {
 #part4 div.og-csrd-edrule.theme-light, 
 #part5 div.og-csrd-edrule.theme-light,
 #part6 div.og-csrd-edrule.theme-light {
-	border-color: #17a0a9 !important;
+	border-color: #408b93 !important;
 	background-image: linear-gradient(180deg, #fffbf2, #ffffff) !important;
 }
 #part0 div.og-csrd-edrule.theme-dark, 
@@ -1050,7 +1050,7 @@ div.og-csrd-edrule {
 #part4 div.og-csrd-edrule.theme-dark, 
 #part5 div.og-csrd-edrule.theme-dark, 
 #part6 div.og-csrd-edrule.theme-dark {
-	border-color: #17a0a9 !important;
+	border-color: #408b93 !important;
 	background-color: #1f2733 !important;
 }
 #part0 div.og-csrd-edrule.theme-light h4, 
@@ -1074,7 +1074,7 @@ div.og-csrd-edrule {
 #part6 div.og-csrd-edrule.theme-light h4, 
 #part6 div.og-csrd-edrule.theme-light h5, 
 #part6 div.og-csrd-edrule.theme-light h6 {
-	color: #018b94 !important;
+	color: #408b93 !important;
 }
 #part0 div.og-csrd-edrule.theme-dark h4, 
 #part0 div.og-csrd-edrule.theme-dark h5, 
@@ -1097,20 +1097,20 @@ div.og-csrd-edrule {
 #part6 div.og-csrd-edrule.theme-dark h4, 
 #part6 div.og-csrd-edrule.theme-dark h5, 
 #part6 div.og-csrd-edrule.theme-dark h6 {
-	color: #17a0a9 !important;
+	color: #408b93 !important;
 }
 div.og-csrd-sidebar { 
 	font-style: italic;
 }
 div.og-csrd-legend-edrule.theme-light {
-	color: #018b94 !important;
-	border-color: #018b94 !important;
+	color: #408b93 !important;
+	border-color: #408b93 !important;
 	background-color: transparent !important;
 	
 }
 div.og-csrd-legend-edrule.theme-dark {
-	color: #17a0a9 !important;
-	border-color: #17a0a9 !important;
+	color: #408b93 !important;
+	border-color: #408b93 !important;
 	background-color: transparent !important;
 }
 /* CSOL logo */
