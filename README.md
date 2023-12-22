@@ -27,13 +27,17 @@ A collection of free, online options for your best game ever—new character opt
 ## PDFs
 [Old Gus' Errata](https://drive.google.com/drive/u/1/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW) contains a useful PDF documents, including:
 
-### Old Gus' Cypher Decks (OG-CD)
+### Old Gus' Cypher System Character Sheet (OG-CSCS)
 
-This document includes card-sized handouts for all the cyphers in the CSRD. You can print and cut them out to use as handouts at the game.
+This high contrast, form-fillable PDF character sheet allows for additional customization for your character or campaign.
 
 ### Old Gus' Cypher System Quick Reference (OG-CSQR)
 
 This 2-page handout contains everything a new player needs to understand the game or to reference commonly used rules.
+
+### Old Gus' Cypher Decks (OG-CD)
+
+This document includes card-sized handouts for all the cyphers in the CSRD. You can print and cut them out to use as handouts at the game.
 
 ---
 
