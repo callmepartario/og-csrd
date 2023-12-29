@@ -714,6 +714,7 @@ ul.og-csrd-toc li.og-csrd-toc-part6 span a,
 	color: #fff !important;
 	background-color: #408b93;
 }
+
 #part0 h4, 
 #part0, 
 #part0 .alert, 
@@ -1113,6 +1114,39 @@ div.og-csrd-legend-edrule.theme-dark {
 	border-color: #408b93 !important;
 	background-color: transparent !important;
 }
+
+#part0.theme-light div.og-csrd-edrule .og-csrd-tabbed-item, 
+#part0.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item,
+#part0.theme-light div.og-csrd-edrule .og-csrd-tabbed-item-sub, 
+#part0.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item-sub,
+#part1.theme-light div.og-csrd-edrule .og-csrd-tabbed-item, 
+#part1.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item,
+#part1.theme-light div.og-csrd-edrule .og-csrd-tabbed-item-sub, 
+#part1.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item-sub,
+#part2.theme-light div.og-csrd-edrule .og-csrd-tabbed-item, 
+#part2.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item,
+#part2.theme-light div.og-csrd-edrule .og-csrd-tabbed-item-sub, 
+#part2.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item-sub,
+#part3.theme-light div.og-csrd-edrule .og-csrd-tabbed-item, 
+#part3.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item,
+#part3.theme-light div.og-csrd-edrule .og-csrd-tabbed-item-sub, 
+#part3.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item-sub,
+#part4.theme-light div.og-csrd-edrule .og-csrd-tabbed-item, 
+#part4.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item,
+#part4.theme-light div.og-csrd-edrule .og-csrd-tabbed-item-sub, 
+#part4.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item-sub,
+#part5.theme-light div.og-csrd-edrule .og-csrd-tabbed-item, 
+#part5.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item,
+#part5.theme-light div.og-csrd-edrule .og-csrd-tabbed-item-sub, 
+#part5.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item-sub,
+#part6.theme-light div.og-csrd-edrule .og-csrd-tabbed-item, 
+#part6.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item,
+#part6.theme-light div.og-csrd-edrule .og-csrd-tabbed-item-sub, 
+#part6.theme-dark div.og-csrd-edrule .og-csrd-tabbed-item-sub {
+	color: #fff !important;
+	background-color: #408b93 !important;
+}
+
 /* CSOL logo */
 img.og-csrd-csol-logo { 
 	max-width: 15rem;
