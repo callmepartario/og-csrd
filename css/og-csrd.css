@@ -1123,3 +1123,37 @@ img.og-csrd-difficulty-dial {
 }
 /* light and dark mode iconography */
 img.og-csrd-icon { height: 1.25em; width: 1.25em; }
+
+/* an example of play */
+#part4.theme-light .og-csrd-gamemaster {
+	color: #625;
+	text-transform: uppercase;
+}
+#part4.theme-dark .og-csrd-gamemaster {
+	color: #d9c;
+	text-transform: uppercase;
+}
+#part4.theme-light .og-csrd-player1 {
+	color: #762;
+	text-transform: uppercase;
+}
+#part4.theme-dark .og-csrd-player1 {
+	color: #fe9;
+	text-transform: uppercase;
+}
+#part4.theme-light .og-csrd-player2 {
+	color: #249;
+	text-transform: uppercase;
+}
+#part4.theme-dark .og-csrd-player2 {
+	color: #8ad;
+	text-transform: uppercase;
+}
+#part4.theme-light .og-csrd-player3 {
+	color: #384;
+	text-transform: uppercase;
+}
+#part4.theme-dark .og-csrd-player3 {
+	color: #9c9;
+	text-transform: uppercase;
+}
