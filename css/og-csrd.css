@@ -78,8 +78,8 @@ img.theme-dark { display: block !important; }
 #part2.theme-light h5 a.og-csrd-header-anchor, 
 #part3.theme-light h5 a.og-csrd-header-anchor, 
 #part4.theme-light h5 a.og-csrd-header-anchor, 
-#part5.theme-light h4 a.og-csrd-header-anchor, 
-#part6.theme-light h4 a.og-csrd-header-anchor, 
+#part5.theme-light h5 a.og-csrd-header-anchor, 
+#part6.theme-light h5 a.og-csrd-header-anchor, 
 #part0.theme-light h6 a.og-csrd-header-anchor, 
 #part1.theme-light h6 a.og-csrd-header-anchor, 
 #part2.theme-light h6 a.og-csrd-header-anchor, 
@@ -135,8 +135,8 @@ img.theme-dark { display: block !important; }
 #part2.theme-dark h5 a.og-csrd-header-anchor, 
 #part3.theme-dark h5 a.og-csrd-header-anchor, 
 #part4.theme-dark h5 a.og-csrd-header-anchor, 
-#part5.theme-dark h4 a.og-csrd-header-anchor, 
-#part6.theme-dark h4 a.og-csrd-header-anchor, 
+#part5.theme-dark h5 a.og-csrd-header-anchor, 
+#part6.theme-dark h5 a.og-csrd-header-anchor, 
 #part0.theme-dark h6 a.og-csrd-header-anchor, 
 #part1.theme-dark h6 a.og-csrd-header-anchor, 
 #part2.theme-dark h6 a.og-csrd-header-anchor, 
@@ -493,6 +493,7 @@ span.og-csrd-ref {
 	padding: 0.1rem 0.25rem 0.1rem 0.25rem;
 	text-indent: 0;
 	font-style: normal !important;
+	text-transform: uppercase;
 }
 span.og-csrd-ref.theme-light {
 	color: #6c757d;
@@ -501,6 +502,11 @@ span.og-csrd-ref.theme-light {
 span.og-csrd-ref.theme-dark {
 	color: #aaaeb3;
 	background-color: #1f2733 !important;
+}
+/* reference a book and page number */
+p.og-csrd-cite {
+	padding: 0 0 0 0;
+	margin: -0.5rem 0 0.5rem 0;
 }
 /* list abilities in compact columns */
 	ul.og-csrd-abilities-compact {
