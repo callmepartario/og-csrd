@@ -7,7 +7,7 @@ https://callmepartario.github.io/og-csrd
 
 This online reference for the Cypher System Reference Document (CSRD) provides an in-depth look at the game with content aligned to the [Cypher System Rulebook (2019)](https://www.montecookgames.com/store/product/cypher-system-rulebook-2/).
 
-Readers are encouraged to support the creators. Consider buying products listed in the [Additional Descriptors](https://callmepartario.github.io/og-csrd/#additional-descriptors), [Additional Foci](https://callmepartario.github.io/og-csrd/#additional-foci), or [What's In The Book?](https://callmepartario.github.io/og-csrd/#choose-products) sections to ensure the longevity of our collective imaginations.
+Readers are encouraged to support Monte Cook Games, who have so generously made this information available. Consider buying products listed in the [Additional Descriptors](https://callmepartario.github.io/og-csrd/#additional-descriptors), [Additional Foci](https://callmepartario.github.io/og-csrd/#additional-foci), or [What's In The Book?](https://callmepartario.github.io/og-csrd/#choose-products) sections to ensure the longevity of our collective imaginations.
 
 ## Old Gus' Unofficial Cypher System Player's Guide (OG-CSPG)
 
@@ -15,7 +15,7 @@ https://callmepartario.github.io/og-csrd/og-cspg.html
 
 This should go without saying, but Old Gus' Unofficial Cypher System Player's Guide (OG-CSPG) does not contain the official Cypher System rules. These rules have been rearranged, rewritten, and condensed so that you can learn to play game quickly and easily. It also guides you through creating and customizing your player character (PC) before the game, or as you continue playing with the GM.
 
-It's also available as a PDF Download from [Old Gus' Errata](https://drive.google.com/drive/u/1/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW).
+It's also available as a [PDF Download](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cspg-old-gus-cypher-system-players-guide.pdf).
 
 ## Old Gus' Daft Drafts (OG-DD)
 
@@ -25,17 +25,22 @@ A collection of free, online options for your best game ever—new character opt
 
 
 ## PDFs
-[Old Gus' Errata](https://drive.google.com/drive/u/1/folders/1Qv-U43kH066mbaeu9dLNeqmDpsdQW6CW) contains a useful PDF documents, including:
 
 ### Old Gus' Cypher System Character Sheet (OG-CSCS)
+
+https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf
 
 This high contrast, form-fillable PDF character sheet allows for additional customization for your character or campaign.
 
 ### Old Gus' Cypher System Quick Reference (OG-CSQR)
 
+https://callmepartario.github.io/og-csrd/pdfs/cypher-og-csqr-old-gus-cypher-system-quick-reference.pdf
+
 This 2-page handout contains everything a new player needs to understand the game or to reference commonly used rules.
 
 ### Old Gus' Cypher Decks (OG-CD)
+
+https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cd-old-gus-cypher-decks.pdf
 
 This document includes card-sized handouts for all the cyphers in the CSRD. You can print and cut them out to use as handouts at the game.
 
