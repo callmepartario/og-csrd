@@ -15,7 +15,9 @@ https://callmepartario.github.io/og-csrd/og-cspg.html
 
 This should go without saying, but Old Gus' Unofficial Cypher System Player's Guide (OG-CSPG) does not contain the official Cypher System rules. These rules have been rearranged, rewritten, and condensed so that you can learn to play game quickly and easily. It also guides you through creating and customizing your player character (PC) before the game, or as you continue playing with the GM.
 
-It's also available as a [PDF Download](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cspg-old-gus-cypher-system-players-guide.pdf).
+It's also available as a PDF download:
+
+https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cspg-old-gus-cypher-system-players-guide.pdf).
 
 ## Old Gus' Daft Drafts (OG-DD)
 
