@@ -17,7 +17,7 @@ This should go without saying, but Old Gus' Unofficial Cypher System Player's Gu
 
 It's also available as a PDF download:
 
-https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cspg-old-gus-cypher-system-players-guide.pdf).
+https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cspg-old-gus-cypher-system-players-guide.pdf
 
 ## Old Gus' Daft Drafts (OG-DD)
 
