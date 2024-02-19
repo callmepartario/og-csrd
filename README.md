@@ -23,22 +23,19 @@ https://callmepartario.github.io/og-csrd/og-dd.html
 
 A collection of free, online options for your best game ever—new character options, cyphers, artifacts and tools for GMs. Also available for [Cypher System Community Content module for Foundry VTT](https://foundryvtt.com/packages/cyphersystem-community-module) and the [Lost Company Press Cypher Character Generator](https://lostcompanypress.com/app/cypher_character_generator).
 
-
-## PDFs
-
-### Old Gus' Cypher System Character Sheet (OG-CSCS)
+## Old Gus' Cypher System Character Sheet (OG-CSCS)
 
 https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf
 
 This high contrast, form-fillable PDF character sheet allows for additional customization for your character or campaign.
 
-### Old Gus' Cypher System Quick Reference (OG-CSQR)
+## Old Gus' Cypher System Quick Reference (OG-CSQR)
 
 https://callmepartario.github.io/og-csrd/pdfs/cypher-og-csqr-old-gus-cypher-system-quick-reference.pdf
 
 This 2-page handout contains everything a new player needs to understand the game or to reference commonly used rules.
 
-### Old Gus' Cypher Decks (OG-CD)
+## Old Gus' Cypher Decks (OG-CD)
 
 https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cd-old-gus-cypher-decks.pdf
 
