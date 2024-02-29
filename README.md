@@ -59,7 +59,7 @@ Thanks for reading, and may these tools bring you and yours many happy adventure
 
 # Cypher System Open Licence
 
-These documents are based on the April 18, 2023 edition of the [Cypher System Reference Document (CSRD)](http://csol.montecookgames.com/). They are intended to help Game Masters (GMs), players, and others interested in the Cypher System to learn more about it, create characters, worlds, and share stories together.
+These documents are based on the February 26, 2024 edition of the [Cypher System Reference Document (CSRD)](http://csol.montecookgames.com/). They are intended to help Game Masters (GMs), players, and others interested in the Cypher System to learn more about it, create characters, worlds, and share stories together.
 
 This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the Cypher System Open License, found at http://csol.montecookgames.com
 
