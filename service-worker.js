@@ -10,6 +10,7 @@ const cacheFiles = [
     'scripts/og-csrd-randomizer.js',
     'scripts/og-dd-randomizer.js',
     'scripts/modeswitch.js',
+    'scripts/waitload.js',
     'fonts/OpenSans-VariableFont_wdth,wght.ttf',
     'fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf',
     'fonts/Teko-VariableFont_wght.ttf',
