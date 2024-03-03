@@ -3,11 +3,13 @@ const sectionID = window.location.hash.substring(1);
 if (sectionID) {
   // Function to animate scrolling to the section with the specified ID
   function scrollToSection() {
+
     const section = document.getElementById(sectionID);
     if (section) {
       const sectionOffset = section.getBoundingClientRect().top;
+      const navbarOffset = document.getElementById("navbar").getBoundingClientRect();
       const currentScroll = window.pageYOffset;
-      const targetScroll = currentScroll + sectionOffset;
+      const targetScroll = currentScroll + sectionOffset + navbarOffset;
       const duration = 1000; // Animation duration in milliseconds
       const startTime = performance.now();
 
