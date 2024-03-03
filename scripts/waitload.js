@@ -6,9 +6,8 @@ if (sectionID) {
 
     const section = document.getElementById(sectionID);
     if (section) {
-      const sectionOffset = section.getBoundingClientRect().top;
       const currentScroll = window.pageYOffset;
-      const targetScroll = currentScroll + sectionOffset;
+      const targetScroll = currentScroll;
       const duration = 500; // Animation duration in milliseconds
       const startTime = performance.now();
 
