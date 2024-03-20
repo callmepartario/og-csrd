@@ -29,13 +29,13 @@ https://callmepartario.github.io/og-csrd/#character-sheets-and-player-handouts
 
 This high contrast, form-fillable PDF character sheet allows for additional customization for your character or campaign. Several translations are available:
 
-- [OG-CSCS in English](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
-- [OG-CSCS auf Deutsch](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet-de.pdf)
-- [OG-CSCS en Español](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet-es.pdf)
-- [OG-CSCS en Français](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet-fr.pdf)
-- [OG-CSCS in Italiano](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
-- [OG-CSCS in het Nederlands](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
-- [OG-CSCS Blank (for translation)](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
+- [English](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
+- [Deutsch](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet-de.pdf)
+- [Español](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet-es.pdf)
+- [Français](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet-fr.pdf)
+- [Italiano](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
+- [Nederlands](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
+- [Blank (for translation)](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
 
 ## Old Gus' Cypher System Quick Reference (OG-CSQR)
 
