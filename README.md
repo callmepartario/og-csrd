@@ -15,9 +15,7 @@ https://callmepartario.github.io/og-csrd/og-cspg.html
 
 This should go without saying, but Old Gus' Unofficial Cypher System Player's Guide (OG-CSPG) does not contain the official Cypher System rules. These rules have been rearranged, rewritten, and condensed so that you can learn to play game quickly and easily. It also guides you through creating and customizing your player character (PC) before the game, or as you continue playing with the GM.
 
-It's also available as a PDF download:
-
-https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cspg-old-gus-cypher-system-players-guide.pdf
+- [OG-CSPG in PDF](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cspg-old-gus-cypher-system-players-guide.pdf)
 
 ## Old Gus' Daft Drafts (OG-DD)
 
@@ -27,21 +25,34 @@ A collection of free, online options for your best game ever—new character opt
 
 ## Old Gus' Cypher System Character Sheet (OG-CSCS)
 
-https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf
+https://callmepartario.github.io/og-csrd/#character-sheets-and-player-handouts
 
-This high contrast, form-fillable PDF character sheet allows for additional customization for your character or campaign.
+This high contrast, form-fillable PDF character sheet allows for additional customization for your character or campaign. Several translations are available:
+
+- [OG-CSCS in English](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
+- [OG-CSCS auf Deutsch](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet-de.pdf)
+- [OG-CSCS en Español](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet-es.pdf)
+- [OG-CSCS en Français](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet-fr.pdf)
+- [OG-CSCS in Italiano](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
+- [OG-CSCS in het Nederlands](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
+- [OG-CSCS Blank (for translation)](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cscs-old-gus-character-sheet.pdf)
 
 ## Old Gus' Cypher System Quick Reference (OG-CSQR)
 
-https://callmepartario.github.io/og-csrd/pdfs/cypher-og-csqr-old-gus-cypher-system-quick-reference.pdf
+https://callmepartario.github.io/og-csrd/#about-tools
 
 This 2-page handout contains everything a new player needs to understand the game or to reference commonly used rules.
 
+- [OG-CSQR in PDF](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-csqr-old-gus-cypher-system-quick-reference.pdf)
+
+
 ## Old Gus' Cypher Decks (OG-CD)
 
-https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cd-old-gus-cypher-decks.pdf
+https://callmepartario.github.io/og-csrd/#cypher-decks
 
 This document includes card-sized handouts for all the cyphers in the CSRD. You can print and cut them out to use as handouts at the game.
+
+- [OG-CD in PDF](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cd-old-gus-cypher-decks.pdf)
 
 ---
 
