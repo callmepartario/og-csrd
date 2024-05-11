@@ -11,6 +11,8 @@ const cacheFiles = [
     'scripts/og-dd-randomizer.js',
     'scripts/modeswitch.js',
     'scripts/waitload.js',
+    'scripts/jquery-3.7.1.min.js',
+    'scripts/setup-tooltips.js',
     'fonts/OpenSans-VariableFont_wdth,wght.ttf',
     'fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf',
     'fonts/Teko-VariableFont_wght.ttf',

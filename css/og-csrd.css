@@ -468,7 +468,7 @@ ul.og-csrd-technologies li,
 .og-csrd-legend ul li {
 	margin-bottom: 0.25rem; 
 }
-ul.og-csrd-abilities-catalog li {
+ul.og-csrd-abilities-catalog:not(.og-csrd-ability-tooltip) li {
 	margin-bottom: 1rem; 
 }
 ul.og-csrd-abilities-catalog li ul {
@@ -1196,4 +1196,11 @@ img.og-csrd-icon { height: 1.25em; width: 1.25em; }
 #part4.theme-dark .og-csrd-player3 {
 	color: #9c9;
 	text-transform: uppercase;
+}
+.tooltip-inner {
+	max-width: 500px;
+	border: 2px solid white;
+}
+ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p {
+	margin-bottom: 0;
 }
