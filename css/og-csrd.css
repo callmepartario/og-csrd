@@ -501,7 +501,7 @@ ul.og-csrd-abilities-catalog:not(.og-csrd-ability-tooltip) li {
 	max-width: 500px;
 	text-align: left;
 	font-family: 'Open Sans', Arial, sans-serif;
-	border: 2px solid #408b93;
+	border: 0.25rem solid #408b93;
 	background-color: #1f2733;
 }
 ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p {

@@ -109,6 +109,10 @@ ul.og-csrd-toc {
 	color: #b35c2f;
 }
 /* table of contents */
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part0 ul li a {
+	color: #103f65 !important;
+	border-color: #103f65;
+}
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part0 ul li a {
 	color: #b7d3ea !important;
 	border-color: #b7d3ea;
