@@ -493,30 +493,22 @@ ul.og-csrd-technologies li,
 ul.og-csrd-abilities-catalog:not(.og-csrd-ability-tooltip) li {
 	margin-bottom: 1rem; 
 }
-.tooltip {
-	font-family: 'Open Sans', Arial, sans-serif !important;
-	text-align: left !important;
+.tooltip.show {
+	opacity: 1.0;
 }
-.tooltip.theme-light {
-	color: #000 !important;
-	background-color: #fffbf2 !important;
-	border: 2px solid #408b93 !important;
-}
-.tooltip.theme-dark {
-	color: #fff !important;
-	background-color: #1f2733 !important;
-	border: 2px solid #408b93 !important;
-}
+.tooltip-arrow::before { display: none; }
 .tooltip-inner {
 	max-width: 500px;
+	text-align: left;
+	font-family: 'Open Sans', Arial, sans-serif;
+	border: 2px solid #408b93;
+	background-color: #1f2733;
 }
 ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p {
 	margin-bottom: 0;
 }
-.tooltip a { color: #2b71f4 !important; }
-.tooltip a:hover { color: #225ac3 !important; }
-.tooltip a { color: #facc8e !important; }
-.tooltip a:hover { color: #fca832 !important; }
+.tooltip-inner a { color: #fff !important; text-decoration: none !important; }
+.tooltip-inner span.og-csrd-ref { display: none; }
 ul.og-csrd-abilities-catalog li ul {
 	margin-left: 2rem;
 	padding-left: 0;
@@ -812,6 +804,10 @@ ul.og-csrd-toc li.og-csrd-toc-part6 span a,
 }
 ul.og-csrd-toc {
 	background-color: transparent !important;
+}
+ul.og-csrd-toc.theme-light li.og-csrd-toc-part0 ul li a {
+	color: #625 !important;
+	border-color: #625;
 }
 ul.og-csrd-toc.theme-dark li.og-csrd-toc-part0 ul li a {
 	color: #d9c !important;
