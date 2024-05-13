@@ -63,6 +63,8 @@ body.theme-dark {
 	background-color: #1c1f21 !important;
 }
 /* override link and body coloration */
+#og-csrd-content.theme-light a { color: #2b71f4; }
+#og-csrd-content.theme-light a:hover { color: #225ac3; }
 #og-csrd-content.theme-dark a { color: #facc8e; }
 #og-csrd-content.theme-dark a:hover { color: #fca832; }
 button.theme-light, a.btn.theme-light { 
@@ -493,11 +495,23 @@ ul.og-csrd-abilities-catalog:not(.og-csrd-ability-tooltip) li {
 }
 .tooltip-inner {
 	max-width: 500px;
-	border: 2px solid white;
+}
+.tooltip-inner.theme-light {
+	border: 2px solid #225ac3;
+}
+.tooltip-inner.theme-dark {
+	border: 2px solid #fca832;
 }
 ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p {
 	margin-bottom: 0;
+	text-align: left;
 }
+
+ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p  a.theme-light { color: #2b71f4; }
+ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p  a.theme-light:hover { color: #225ac3; }
+ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p a.theme-dark { color: #facc8e; }
+ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p a.theme-dark:hover { color: #fca832; }
+
 ul.og-csrd-abilities-catalog li ul {
 	margin-left: 2rem;
 	padding-left: 0;
