@@ -493,30 +493,30 @@ ul.og-csrd-technologies li,
 ul.og-csrd-abilities-catalog:not(.og-csrd-ability-tooltip) li {
 	margin-bottom: 1rem; 
 }
+.tooltip {
+	font-family: 'Open Sans', Arial, sans-serif !important;
+	text-align: left !important;
+}
+.tooltip.theme-light {
+	color: #000 !important;
+	background-color: #fffbf2 !important;
+	border: 2px solid #408b93 !important;
+}
+.tooltip.theme-dark {
+	color: #fff !important;
+	background-color: #1f2733 !important;
+	border: 2px solid #408b93 !important;
+}
 .tooltip-inner {
 	max-width: 500px;
 }
-.tooltip-inner.theme-light {
-	color: #000;
-	background-color: #fffbf2 !important;
-	border: 2px solid #408b93;
-}
-.tooltip-inner.theme-dark {
-	color: #fff;
-	background-color: #1f2733 !important;
-	border: 2px solid #408b93;
-}
 ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p {
-	font-family: 'Open Sans', Arial, sans-serif;
 	margin-bottom: 0;
-	text-align: left;
 }
-ul.og-csrd-ability-tooltip li p.theme-light { } 
-ul.og-csrd-ability-tooltip li p.theme-dark { }
-ul.og-csrd-ability-tooltip li p a.theme-light { color: #2b71f4; }
-ul.og-csrd-ability-tooltip li p a.theme-light:hover { color: #225ac3; }
-ul.og-csrd-ability-tooltip li p a.theme-dark { color: #facc8e; }
-ul.og-csrd-ability-tooltip li p a.theme-dark:hover { color: #fca832; }
+.tooltip a { color: #2b71f4 !important; }
+.tooltip a:hover { color: #225ac3 !important; }
+.tooltip a { color: #facc8e !important; }
+.tooltip a:hover { color: #fca832 !important; }
 ul.og-csrd-abilities-catalog li ul {
 	margin-left: 2rem;
 	padding-left: 0;
