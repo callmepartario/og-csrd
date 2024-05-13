@@ -16,6 +16,26 @@
     font-family: Orbitron;
     src:url('../fonts/Orbitron-VariableFont_wght.ttf') format(truetype);
 }
+/* width, by percent */
+.w-95 { width: 95% !important; }
+.w-90 { width: 90% !important; }
+.w-85 { width: 85% !important; }
+.w-80 { width: 80% !important; }
+/* bootstrap has w-75 */
+.w-70 { width: 70% !important; }
+.w-65 { width: 65% !important; }
+.w-60 { width: 60% !important; }
+.w-55 { width: 55% !important; }
+/* bootstrap has w-50 */
+.w-45 { width: 45% !important; }
+.w-40 { width: 40% !important; }
+.w-35 { width: 35% !important; }
+.w-30 { width: 30% !important; }
+/* bootstrap has w-25 */
+.w-20 { width: 20% !important; }
+.w-15 { width: 15% !important; }
+.w-10 { width: 10% !important; }
+.w-5 { width: 5% !important; }
 /* scroll offset for fixed navbar */
 html { scroll-padding-top: 5rem; }
 #og-csrd-navbar.theme-light { 
@@ -468,8 +488,15 @@ ul.og-csrd-technologies li,
 .og-csrd-legend ul li {
 	margin-bottom: 0.25rem; 
 }
-ul.og-csrd-abilities-catalog li {
+ul.og-csrd-abilities-catalog:not(.og-csrd-ability-tooltip) li {
 	margin-bottom: 1rem; 
+}
+.tooltip-inner {
+	max-width: 500px;
+	border: 2px solid white;
+}
+ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p {
+	margin-bottom: 0;
 }
 ul.og-csrd-abilities-catalog li ul {
 	margin-left: 2rem;
