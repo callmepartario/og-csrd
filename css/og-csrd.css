@@ -498,22 +498,25 @@ ul.og-csrd-abilities-catalog:not(.og-csrd-ability-tooltip) li {
 }
 .tooltip-inner.theme-light {
 	color: #000;
-	background-color: #f7fbff !important;
-	border: 2px solid #225ac3;
+	background-color: #fffbf2 !important;
+	border: 2px solid #408b93;
 }
 .tooltip-inner.theme-dark {
 	color: #fff;
-	background-color: #1c1f21 !important;
-	border: 2px solid #fca832;
+	background-color: #1f2733 !important;
+	border: 2px solid #408b93;
 }
 ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p {
+	font-family: 'Open Sans', Arial, sans-serif;
 	margin-bottom: 0;
 	text-align: left;
 }
-ul.og-csrd-ability-tooltip, a.theme-light { color: #2b71f4; }
-ul.og-csrd-ability-tooltip, a.theme-light:hover { color: #225ac3; }
-ul.og-csrd-ability-tooltip, a.theme-dark { color: #facc8e; }
-ul.og-csrd-ability-tooltip, a.theme-dark:hover { color: #fca832; }
+ul.og-csrd-ability-tooltip li p.theme-light { } 
+ul.og-csrd-ability-tooltip li p.theme-dark { }
+ul.og-csrd-ability-tooltip li p a.theme-light { color: #2b71f4; }
+ul.og-csrd-ability-tooltip li p a.theme-light:hover { color: #225ac3; }
+ul.og-csrd-ability-tooltip li p a.theme-dark { color: #facc8e; }
+ul.og-csrd-ability-tooltip li p a.theme-dark:hover { color: #fca832; }
 ul.og-csrd-abilities-catalog li ul {
 	margin-left: 2rem;
 	padding-left: 0;
