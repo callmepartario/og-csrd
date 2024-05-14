@@ -501,13 +501,23 @@ ul.og-csrd-abilities-catalog:not(.og-csrd-ability-tooltip) li {
 	max-width: 500px;
 	text-align: left;
 	font-family: 'Open Sans', Arial, sans-serif;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+body.theme-light .tooltip-inner {
+	color: #000 !important;
+	border: 0.25rem solid #408b93;
+	background-color: #fffbf2;
+}
+body.theme-dark .tooltip-inner {
+	color: #fff !important;
 	border: 0.25rem solid #408b93;
 	background-color: #1f2733;
 }
+body.theme-light .tooltip-inner a { color: #000 !important; text-decoration: none !important; }
+body.theme-dark .tooltip-inner a { color: #fff !important; text-decoration: none !important; }
 ul.og-csrd-ability-tooltip, .og-csrd-ability-tooltip p {
 	margin-bottom: 0;
 }
-.tooltip-inner a { color: #fff !important; text-decoration: none !important; }
 .tooltip-inner span.og-csrd-ref { display: none; }
 ul.og-csrd-abilities-catalog li ul {
 	margin-left: 2rem;
