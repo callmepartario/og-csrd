@@ -3,7 +3,7 @@ window.addEventListener("load", function () {
         .tooltip({
             html: true,
             title: function () {
-                return $(this.href.substring(this.href.lastIndexOf("#"))).clone().wrap('<ul class="og-csrd-abilities-catalog og-csrd-ability-tooltip"></ul>').parent()
+                return $(this.href.substring(this.href.lastIndexOf("#"))).clone().wrap('<ul class="og-ability-details og-ability-tooltip"></ul>').parent()
             }
         })
 })
