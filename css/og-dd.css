@@ -289,8 +289,8 @@ ul.og-toc li.og-toc-part3 span a,
 }
 .theme-light #part3 div.og-sidebar { background-color: #fff6f2; }
 .theme-light #part3 div.alert { background-image: linear-gradient(180deg, #fff6f2, #ffffff); }
-div.og-csrd-species {
-	background-image: url('../images/species-alien-background.webp');
+.og-alien {
+	background-image: url('../images/species-alien-background.webp') !important;
 	background-position: center center;
 	border-bottom: 0.25em solid #1b6c6e !important;
 }
