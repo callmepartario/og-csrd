@@ -37,6 +37,10 @@
 .w-15 { width: 15% !important; }
 .w-10 { width: 10% !important; }
 .w-5 { width: 5% !important; }
+
+/* force nowrap for row headers in dice tables */
+table.og-dt tbody tr th { white-space: nowrap !important;}
+
 /* scroll offset for fixed navbar */
 html { scroll-padding-top: 5rem; }
 #og-navbar.theme-light { 
