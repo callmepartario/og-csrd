@@ -105,12 +105,12 @@ document.getElementById("new-random-oddity").addEventListener("click", function 
   randomOddityForm();  
 });
 
-document.getElementById("new-random-location-disposition1").addEventListener("click", function (event) {
-  randomNPCDisposition1();
+document.getElementById("new-random-location-quality1").addEventListener("click", function (event) {
+  randomLocationQuality1();
 });
 
-document.getElementById("new-random-location-disposition2").addEventListener("click", function (event) {
-  randomNPCDisposition2();
+document.getElementById("new-random-location-quality2").addEventListener("click", function (event) {
+  randomLocationQuality2();
 });
 
 document.getElementById("new-random-location-type").addEventListener("click", function (event) {
