@@ -75,9 +75,14 @@ function randomNPCDisposition2() {
   document.getElementById("npc-random-disposition2").innerHTML = descriptor;
 }
 
-function randomNPCType() {
-  let descriptor = data.npctype[Math.floor(Math.random() * data.npctype.length)];
-  document.getElementById("npc-random-type").innerHTML = descriptor;
+function randomNPCType1() {
+  let descriptor = data.npctype1[Math.floor(Math.random() * data.npctype1.length)];
+  document.getElementById("npc-random-type1").innerHTML = descriptor;
+}
+
+function randomNPCType2() {
+  let descriptor = data.npctype2[Math.floor(Math.random() * data.npctype2.length)];
+  document.getElementById("npc-random-type2").innerHTML = descriptor;
 }
 
 function randomNPCPhobia() {
@@ -152,7 +157,8 @@ document.getElementById("new-random-npc-phobia").addEventListener("click", funct
 document.getElementById("new-random-npc").addEventListener("click", function (event) {
   randomNPCDisposition1();
   randomNPCDisposition2();
-  randomNPCType();
+  randomNPCType1();
+  randomNPCType2();
   randomNPCPhobia();
 });
 
