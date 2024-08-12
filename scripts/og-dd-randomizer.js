@@ -105,12 +105,12 @@ document.getElementById("new-random-oddity").addEventListener("click", function 
   randomOddityForm();  
 });
 
-document.getElementById("new-random-location-quality1").addEventListener("click", function (event) {
-  randomLocationQuality1();
+document.getElementById("new-random-location-disposition1").addEventListener("click", function (event) {
+  randomNPCDisposition1();
 });
 
-document.getElementById("new-random-location-quality2").addEventListener("click", function (event) {
-  randomLocationQuality2();
+document.getElementById("new-random-location-disposition2").addEventListener("click", function (event) {
+  randomNPCDisposition2();
 });
 
 document.getElementById("new-random-location-type").addEventListener("click", function (event) {
@@ -133,12 +133,12 @@ document.getElementById("new-random-location").addEventListener("click", functio
   randomLocationEncounter();
 });
 
-document.getElementById("new-random-npc-quality1").addEventListener("click", function (event) {
-  randomNPCDescriptor1();
+document.getElementById("new-random-npc-disposition1").addEventListener("click", function (event) {
+  randomNPCDisposition1();
 });
 
-document.getElementById("new-random-npc-quality2").addEventListener("click", function (event) {
-  randomNPCDescriptor2();
+document.getElementById("new-random-npc-disposition2").addEventListener("click", function (event) {
+  randomNPCDisposition2();
 });
 
 document.getElementById("new-random-npc-type").addEventListener("click", function (event) {
@@ -150,8 +150,8 @@ document.getElementById("new-random-npc-phobia").addEventListener("click", funct
 });
 
 document.getElementById("new-random-npc").addEventListener("click", function (event) {
-  randomNPCDescriptor1();
-  randomNPCDescriptor2();
+  randomNPCDisposition1();
+  randomNPCDisposition2();
   randomNPCType();
   randomNPCPhobia();
 });
