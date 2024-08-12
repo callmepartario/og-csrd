@@ -41,47 +41,47 @@ function randomOddityForm() {
 }
 
 function randomLocationQuality1() {
-  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let descriptor = data.locationquality1[Math.floor(Math.random() * data.locationquality1.length)];
   document.getElementById("location-random-quality1").innerHTML = descriptor;
 }
 
 function randomLocationQuality2() {
-  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let descriptor = data.locationquality2[Math.floor(Math.random() * data.locationquality2.length)];
   document.getElementById("location-random-quality2").innerHTML = descriptor;
 }
 
 function randomLocationType() {
-  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let descriptor = data.locationtype[Math.floor(Math.random() * data.locationtype.length)];
   document.getElementById("location-random-type").innerHTML = descriptor;
 }
 
 function randomLocationContents() {
-  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let descriptor = data.locationcontents[Math.floor(Math.random() * data.locationcontents.length)];
   document.getElementById("location-random-contents").innerHTML = descriptor;
 }
 
 function randomLocationEncounter() {
-  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let descriptor = data.locationencounter[Math.floor(Math.random() * data.locationencounter.length)];
   document.getElementById("location-random-encounter").innerHTML = descriptor;
 }
 
 function randomNPCDisposition1() {
-  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let descriptor = data.npcdisposition1[Math.floor(Math.random() * data.npcdisposition1.length)];
   document.getElementById("npc-random-disposition1").innerHTML = descriptor;
 }
 
 function randomNPCDisposition2() {
-  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let descriptor = data.npcdisposition2[Math.floor(Math.random() * data.npcdisposition2.length)];
   document.getElementById("npc-random-disposition2").innerHTML = descriptor;
 }
 
 function randomNPCType() {
-  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let descriptor = data.npctype[Math.floor(Math.random() * data.npctype.length)];
   document.getElementById("npc-random-type").innerHTML = descriptor;
 }
 
 function randomNPCPhobia() {
-  let descriptor = data.oddityquality[Math.floor(Math.random() * data.oddityquality.length)];
+  let descriptor = data.npcphobia[Math.floor(Math.random() * data.npcphobia.length)];
   document.getElementById("npc-random-phobia").innerHTML = descriptor;
 }
 
