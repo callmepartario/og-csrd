@@ -20,7 +20,8 @@ randomLocationEncounter();
 
 randomNPCDisposition1();
 randomNPCDisposition2();
-randomNPCType();
+randomNPCType1();
+randomNPCType2();
 randomNPCPhobia();
 
 // Random Oddity
@@ -146,8 +147,12 @@ document.getElementById("new-random-npc-disposition2").addEventListener("click",
   randomNPCDisposition2();
 });
 
-document.getElementById("new-random-npc-type").addEventListener("click", function (event) {
-  randomNPCType();
+document.getElementById("new-random-npc-type1").addEventListener("click", function (event) {
+  randomNPCType1();
+});
+
+document.getElementById("new-random-npc-type2").addEventListener("click", function (event) {
+  randomNPCType2();
 });
 
 document.getElementById("new-random-npc-phobia").addEventListener("click", function (event) {
