@@ -970,6 +970,7 @@ ul.og-toc {
 	color: #408b93;
 	border-color: #408b93;
 }
+
 .theme-light #part0 div.og-sidebar { background-color: #fff2fc; }
 .theme-light #part1 div.og-sidebar { background-color: #f2f7ff; }
 .theme-light #part2 div.og-sidebar { background-color: #fff6f2; }
@@ -998,6 +999,7 @@ ul.og-toc {
 .theme-dark #part4 div.og-sidebar, 
 .theme-dark #part5 div.og-sidebar { background-color: #222529; }
 .theme-dark #part6 div.og-sidebar { background-color: #222829; }
+
 
 /* for tabbed headers that will always have dark backgrounds */
 h3.text-white, 
@@ -1054,6 +1056,9 @@ div.og-alert {
 .theme-dark div.og-alert h5, 
 .theme-dark div.og-alert h6 {
 	color: #408b93 !important;
+}
+div.og-alert .og-border { 
+	border-color: #408b93 !important;
 }
 div.og-sidebar { 
 	font-style: italic;
