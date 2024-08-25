@@ -35,7 +35,7 @@ h1 {
 	font-weight: 600;
 	text-align: center;
 }
-h1.theme-light {
+.theme-light h1 {
 	color: #103f65;
 }
 /* header 2 divides the document parts */
