@@ -37,8 +37,7 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="og-navbar-characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">Characters</a>
 					<ul class="dropdown-menu dropdown-menu-light theme-light" aria-labelledby="og-navbar-characters">
-						<li><a class="dropdown-item og-csrd-nav" href="#descriptors-fantasy-and-fairy-tale">Descriptors (Fantasy and Fairy Tale)</a></li>
-						<li><a class="dropdown-item og-csrd-nav" href="#descriptors-science-fiction">Descriptors (Science Fiction)</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#choose-descriptors">Descriptors</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-flavors">Flavors</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-foci">Foci</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#chapter-7-abilities">Abilities</a></li>
@@ -54,6 +53,7 @@
 						<li><a class="dropdown-item" href="#chapter-12-exploration-tables">Exploration Tables</a></li>
 						<li><a class="dropdown-item" href="#chapter-13-npc-tables">NPC Tables</a></li>
 						<li><a class="dropdown-item" href="#chapter-14-conditions">Conditions</a></li>
+						<li><a class="dropdown-item" href="#chapter-15-mechs">Mechs</a></li>
 					</ul>
 				</li>
 				<li class="nav-item dropdown">
@@ -82,7 +82,7 @@
 		<span class="og-chap">Old Gus'</span>
 		Daft Drafts
 	</h1>
-	<p class="small text-center">version 1.14f (2024-08-28)</p>
+	<p class="small text-center">version 1.16a (2024-09-03)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn mt-1 mb-1 border" href="index.html">Full Rules: <abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
 		<li class="list-inline-item"><a class="btn mt-1 mb-1 border" href="og-cspg.html">Player's Guide: <abbr title="Old Gus' Unofficial Cypher System Player's Guide">OG-CSPG</abbr></a></li>
@@ -125,6 +125,7 @@
 				<li><a href="#chapter-12-exploration-tables">Chapter 12: <span class="text-uppercase">Exploration Tables</span></a></li>
 				<li><a href="#chapter-13-npc-tables">Chapter 13: <span class="text-uppercase">NPC Tables</span></a></li>
 				<li><a href="#chapter-14-conditions">Chapter 14: <span class="text-uppercase">Conditions</span></a></li>
+				<li><a href="#chapter-15-mechs">Chapter 15: <span class="text-uppercase">Mechs</span></a></li>
 			</ul>
 		</li>
 	</ul>
@@ -153,7 +154,7 @@
 		Foreword
 	</h3>
 	<p>This is a living document, and all mechanics listed in are in the early drafting stages. These draft set of rules and character options will frequently link to <a href="index.html">Old Gus' Cypher System Reference Document (OG-CSRD)</a>.</p>
-	<p><strong>Contributors:</strong> Old Gus (throughout, editing), <a href="https://actualizedadept.itch.io/">Saki</a> (cyphers)</p>
+	<p><strong>Contributors:</strong> Old Gus (throughout, editing), Synth (descriptors), <a href="https://actualizedadept.itch.io/">Saki</a> (cyphers), AlphaDean (mech rules)</p>
 	<p class="og-ind">Thanks for reading! I hope this document helps you play a great game.</p>
 	<p class="lead">&mdash;Old Gus</p>
 	<p><strong>Contact the Author:</strong>
@@ -188,23 +189,73 @@
 		<span class="og-chap">Chapter 4</span>
 		Descriptors
 	</h3>
-	<p>This chapter presents <a href="#descriptors-fantasy-and-fairy-tale">Fantasy and Fairy Tale Species Descriptors</a>, and <a href="#descriptors-science-fiction">Science Fiction Species Descriptors</a>.</p>
-	<hr>
-	<h4 id="descriptors-fantasy-and-fairy-tale">Fantasy and Fairy Tale Species Descriptors<a class="og-h-anchor" href="#descriptors-fantasy-and-fairy-tale" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="alert ps-4 pb-0">
-		<h5 class="og-h-small" id="choose-descriptors-fantasy-and-fairy-tale">Quick Reference: Fantasy and Fairy Tale Species Descriptors<a class="og-h-anchor" href="#choose-descriptors-fantasy-and-fairy-tale" title="Permalink" aria-hidden="true"></a></h5>
+		<h4 class="og-h-small" id="choose-descriptors">Quick Reference: Descriptors<a class="og-h-anchor" href="#choose-descriptors" title="Permalink" aria-hidden="true"></a></h4>
+		<p>This collection includes several types of decriptors: <a href="#descriptors-standard">Standard Descriptors</a>, <a href="#descriptors-fantasy-and-fairy-tale">Fantasy and Fairy Tale Species Descriptors</a>, and <a href="#descriptors-science-fiction">Science Fiction Species Descriptors</a>.</p>
+		<p><strong>Standard Descriptors</strong></p>
+		<ul class="list-unstyled og-qr">
+			<li><a href="#descriptor-hopeless">Hopeless</a></li>
+		</ul>
+		<p><strong>Fantasy Species Descriptors</strong></p>
 		<ul class="list-unstyled og-qr">
 			<li><a href="#descriptor-boggle">Boggle</a></li>
+			<li><a href="#descriptor-centaur">Centaur</a></li>
 			<li><a href="#descriptor-gwaloth">Gwaloth</a></li>
 			<li><a href="#descriptor-ikwiikwii">Ikwiikwii</a></li>
 			<li><a href="#descriptor-pixie">Pixie</a></li>
 			<li><a href="#descriptor-siren">Siren</a></li>
 		</ul>
-	</div>
-	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p>These fairy tale descriptors are available on for Foundry <abbr title="Virtual Tabletop">VTT</abbr> as part of the <a href="https://foundryvtt.com/packages/cyphersystem-community-module">Cypher System Community Content</a> add-on module.</p>
+		<p><strong>Science Fiction Species Descriptors</strong></p>
+		<ul class="list-unstyled og-qr">
+			<li><a href="#descriptor-asgardian">Asgardian</a></li>
+			<li><a href="#descriptor-dweenle">Dweenle</a></li>
+			<li><a href="#descriptor-elowarin">Elowarin</a></li>
+			<li><a href="#descriptor-gazurtoid">Gazurtoid</a></li>
+			<li><a href="#descriptor-gnunk">G'nunk</a></li>
+			<li><a href="#descriptor-humna-humna">Humna-humna</a></li>
+			<li><a href="#descriptor-kaillerian">Kaillerian</a></li>
+			<li><a href="#descriptor-mechan">Mechan</a></li>
+			<li><a href="#descriptor-nekros">Nekros</a></li>
+			<li><a href="#descriptor-nirrex">Nirrex</a></li>
+			<li><a href="#descriptor-olnosi">Olnosi</a></li>
+			<li><a href="#descriptor-queeg">Queeg</a></li>
+			<li><a href="#descriptor-qhil">Qhil</a></li>
+			<li><a href="#descriptor-scro">Scro</a></li>
+			<li><a href="#descriptor-spemin">Spemin</a></li>
+			<li><a href="#descriptor-tabriz">Tabriz</a></li>
+			<li><a href="#descriptor-thrynn">Thrynn</a></li>
+			<li><a href="#descriptor-veloxi">Veloxi</a></li>
+			<li><a href="#descriptor-yloi">Yloi</a></li>
+			<li>or <a href="#descriptor-near-human">Near-Human</a></li>
+			<li>or <a href="#descriptor-create-a-new-species">Create A New Species</a></li>
+		</ul>
 	</div>
 	<hr>
+	<h4 id="descriptors-standard">Standard Descriptors<a class="og-h-anchor" href="#descriptors-standard" title="Permalink" aria-hidden="true"></a></h4>
+	<p>Your descriptor defines your character&mdash;it provides a sort of "roleplaying toolkit"&mdash;placing your character in the game alongside the other PCs, and providing your PC a mode and motivation.</p>
+	<h5 class="og-border" id="descriptor-hopeless">Hopeless<a class="og-h-anchor" href="#descriptor-hopeless" title="Permalink" aria-hidden="true"></a></h5>
+	<p>You say you're a good-for-nothing. It's not neccesarily true, of course&mdash;you just don't believe in yourself. Even when you do manage to scrounge up some determination, it never seems to last long. You probably have only a few close friends who are always there when you need them, but you avoid burdening them.</p>
+	<p class="og-ind">You gain the following characteristics:</p>
+	<ul class="list-unstyled og-ind">
+		<li><p><strong>Support System:</strong> When another helps character helps you, the task is eased two steps (in addition to any assets the help provides).</p></li>
+		<li><p><strong>Skill:</strong> You are trained in one area of knowledge (probably related to an unusual interest or hobby of yours).</p></li>
+		<li><p><strong>Better You Than Me:</strong> When you accept a proposed GM intrusion, you must give both XP away to other PCs.</p></li>
+		<li><p><strong>Inability:</strong> All tasks related to pleasant social interaction are hindered.<p></li>
+		<li><p><strong>Inability:</strong> All tasks related to concentration, willpower, or discipline are hindered.<p></li>
+		<li><p><strong>Initial Link to the Starting Adventure:</strong> From the following list of options, choose how you became involved in the first adventure.<p></li>
+	</ul>
+	<ol>
+		<li>Another PC&mdash;one of your precious few friends&mdash;dragged you along in the hope it would be good for you.</li>
+		<li>One of the other PCs conscripted you, against your will. Apparently they see something in you that you don't.</li>
+		<li>This is just the kind of thing that happens when you leave the house. Every. Single. Time.</li>
+		<li>You indulged an infrequent desire to get out there and do something with yourself.</li>
+	</ol>
+	<hr>
+	<h4 id="descriptors-fantasy-and-fairy-tale">Fantasy and Fairy Tale Species Descriptors<a class="og-h-anchor" href="#descriptors-fantasy-and-fairy-tale" title="Permalink" aria-hidden="true"></a></h4>
+	<p></p>
+	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>The fantasy and tale descriptors are available on for Foundry <abbr title="Virtual Tabletop">VTT</abbr> as part of the <a href="https://foundryvtt.com/packages/cyphersystem-community-module">Cypher System Community Content</a> add-on module.</p>
+	</div>
 	<h5 class="og-border" id="descriptor-boggle">Boggle<a class="og-h-anchor" href="#descriptor-boggle" title="Permalink" aria-hidden="true"></a></h5>
 	<p>Most boggles resemble monstrous, gnarled gnomes with at least one prominent wart on their face, but they can display a staggering variety: some boggles are hirsute, some are completely bald. Some boggles have monstrous features&mdash;wild pigmentation, horns, teeth, or claws&mdash;which make them look quite fearsome&mdash;at least to a child. Naturally jealous creatures, boggles that lack these ornamentations adopt a monstrous persona through trickery, and even those that do have them are not above a little enhancement to their appearance.</p>
 	<p class="og-ind">Petty mischief delights and even nourishes boggles, who frighten and bedevil folk&mdash;such pranks are always annoying, but usually harmless. The most unseelie of boggles frighten mortal children, hiding under their beds or in their closets, feeding on their victims' fear. As with all boggle mischief, their behavior is usually an expression of deep self-loathing. A defeated boggle might offer its services in recompense if cornered, although precious few are strong-willed enough to truly get the best out of a boggle's mischievous compulsions in the long-term.</p>
@@ -250,6 +301,38 @@
 	</ol>
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>A boggle's monstrous appearance (or mundane disguise) might occasionally provide an asset to their mischief.</p>
+	</div>
+	<h5 class="og-border" id="descriptor-centaur">Centaur<a class="og-h-anchor" href="#descriptor-centaur" title="Permalink" aria-hidden="true"></a></h5>
+	<p>Centaurs are hardy folk with a human-like torso attached to four horse-like legs. Most of their kind are nomadic folk who prefer to roam rolling hills and open plains. Urban centaur are less frequent, since accomodations for their comfort are not frequently met.</p>
+	<p class="og-ind">You gain the following characteristics:</p>
+	<ul class="list-unstyled og-ind">
+		<li><p><strong>Strongback: </strong> +1 to your Might and Speed Pools.</p></li>
+		<li><p><strong>Quadrupedal:</strong> Your horse-like legs are an asset in any task involving running, carrying, and avoiding being knocked down or moved against your will. You can comfortably carry one adult human as a passenger. Your passenger gains an asset to any tasks made to stay mounted on your back.</p></li>
+		<li><p><strong>Hooves:</strong> You can make unarmed strikes using your hooves as a light or medium weapon. You are practiced with this attack, even if you have an inability with other medium weapons.</p></li>
+		<li><p><strong>Poison Resistance:</strong> Your Might defense tasks to resist the effects of nonmagical poisons, venoms, and particulate toxins are eased (but not viruses, bacteria, or radiation).</p></li>
+		<li><p><strong>Bulky Frame:</strong> Tasks involving climbing, hiding, and squeezing through tight spaces are hindered.</p></li>
+		<li><p><strong>Treacherous Injuries:</strong> When performing movement tasks over difficult terrain, your GM intrusion rate is increased by 1.</p></li>
+		<li><p><strong>Centaur Advancement:</strong> You can choose the following abilities in place of a type ability:</p></li>
+	</ul>
+	<ul class="og-abilities-list">
+		<li><a href="#ability-athlete">Athlete</a> <span class="og-ref">(111)</span></li>
+		<li><a href="#ability-bash">Bash</a> <span class="og-ref">(112)</span></li>
+		<li><a href="#ability-enhanced-speed">Enhanced Speed</a> <span class="og-ref">(135)</span></li>
+		<li><a href="#ability-fleet-of-foot">Fleet of Foot</a> <span class="og-ref">(141)</span></li>
+		<li><a href="#ability-surging-confidence">Surging Confidence</a> <span class="og-ref">(188)</span></li>
+		<li><a href="#ability-wilderness-life">Wilderness Life</a> <span class="og-ref">(199)</span></li>
+	</ul>
+	<ul class="list-unstyled og-ind">
+		<li><p><strong>Initial Link to the Starting Adventure:</strong> From the following list of options, choose how you became involved in the first adventure.<p></li>
+	</ul>
+	<ol>
+		<li>You and another PC have been friends since childhood, and they've spend more time on your back than anyone.</li>
+		<li>Your clan has sent you to find help. You're hoping to ingratiate yourself to the PCs.</li>
+		<li>You were hired as a guide.</li>
+		<li>You've gotten yourself in debt, and are the pay seemed worth the risk.</li>
+	</ol>
+	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p><strong>GM Intrusion:</strong> Some spaces might be impossible for a centaur to move through.</p>
 	</div>
 	<h5 class="og-border" id="descriptor-gwaloth">Gwaloth<a class="og-h-anchor" href="#descriptor-gwaloth" title="Permalink" aria-hidden="true"></a></h5>
 	<p>Most gwaloth have the appearance of wiry dwarves made of wood, although adults can stand up to 12 feet (4 m) tall. They travel unshod, with a thick coating of raw earth around their root-like feet. Most live in areas dense with other plant life&mdash;sun-dappled forests, whispering pines, buzzing jungles, and teeming swamps. A precious few live in mountainous scrublands, and fewer still in deserts&mdash;hermits in places with limited sunlight, water, and fertile soil.</p>
@@ -385,30 +468,6 @@
 		<p><strong>Languages:</strong> Each species and their component cultures might involve a number of languages, religions, and at least one dominant culture. Some species use nonverbal forms of communication that others have difficulty deciphering or even sensing at all. Some use translator devices, but the ubiquity of such devices is not a guarantee.</p>
 	</div>
 	<div class="alert ps-4 pb-0">
-		<h5 class="og-h-small" id="choose-descriptors-science-fiction">Quick Reference: Science Fiction Species Descriptors<a class="og-h-anchor" href="#choose-descriptors-science-fiction" title="Permalink" aria-hidden="true"></a></h5>
-		<ul class="list-unstyled og-qr">
-			<li><a href="#descriptor-asgardian">Asgardian</a></li>
-			<li><a href="#descriptor-dweenle">Dweenle</a></li>
-			<li><a href="#descriptor-elowarin">Elowarin</a></li>
-			<li><a href="#descriptor-gazurtoid">Gazurtoid</a></li>
-			<li><a href="#descriptor-gnunk">G'nunk</a></li>
-			<li><a href="#descriptor-humna-humna">Humna-humna</a></li>
-			<li><a href="#descriptor-kaillerian">Kaillerian</a></li>
-			<li><a href="#descriptor-mechan">Mechan</a></li>
-			<li><a href="#descriptor-nekros">Nekros</a></li>
-			<li><a href="#descriptor-nirrex">Nirrex</a></li>
-			<li><a href="#descriptor-olnosi">Olnosi</a></li>
-			<li><a href="#descriptor-queeg">Queeg</a></li>
-			<li><a href="#descriptor-qhil">Qhil</a></li>
-			<li><a href="#descriptor-scro">Scro</a></li>
-			<li><a href="#descriptor-spemin">Spemin</a></li>
-			<li><a href="#descriptor-tabriz">Tabriz</a></li>
-			<li><a href="#descriptor-thrynn">Thrynn</a></li>
-			<li><a href="#descriptor-veloxi">Veloxi</a></li>
-			<li><a href="#descriptor-yloi">Yloi</a></li>
-			<li>or <a href="#descriptor-near-human">Near-Human</a></li>
-			<li>or <a href="#descriptor-create-a-new-species">Create A New Species</a></li>
-		</ul>
 		<h5 class="og-h-small" id="descriptors-science-fiction-glossary">Science Fiction Species Glossary<a class="og-h-anchor" href="#descriptors-science-fiction-glossary" title="Permalink" aria-hidden="true"></a></h5>
 		<ul class="list-unstyled og-ind-hang">
 			<li><p><strong>Morphology:</strong> These words suggest a basic body shape, but species frequently display different complex biological processes than these labels suggest.</p></li>
@@ -599,7 +658,7 @@
 		<div class="col-12 col-sm-6">
 			<h5 class="og-h-small" id="third-tier-dweenle-abilities">Third-Tier Dweenle Abilities<a class="og-h-anchor" href="#third-tier-dweenle-abilities" title="Permalink" aria-hidden="true"></a></h5>
 			<ul class="og-abilities-list">
-				<li><a href="#ability-enhanced-intellect-edge">Enhanced Intellect edge</a> <span class="og-ref">(136)</span></li>
+				<li><a href="#ability-enhanced-intellect-edge">Enhanced Intellect Edge</a> <span class="og-ref">(136)</span></li>
 				<li><a href="#ability-insight">Insight</a> <span class="og-ref">(154)</span></li>
 				<li><a href="#ability-reading-the-room">Reading the Room</a> <span class="og-ref">(175)</span></li>
 			</ul>
@@ -663,7 +722,7 @@
 			<h5 class="og-h-small" id="first-tier-elowarin-characteristics">Elowarin Characteristics<a class="og-h-anchor" href="#first-tier-elowarin-characteristics" title="Permalink" aria-hidden="true"></a></h5>
 			<p>You gain the following characteristics:</p>
 			<ul class="list-unstyled og-ind">
-				<li><p><strong>Elowarin:</strong> +4 to your Intellect Pool. &minus;2 to your Might Pool. +1 to your Intellect edge.</p></li>
+				<li><p><strong>Elowarin:</strong> +4 to your Intellect Pool. &minus;2 to your Might Pool. +1 to your Intellect Edge.</p></li>
 				<li><p><strong>Skill (Linguist):</strong> You are trained with all the subtleties of two other species' language and body language. Alternately, you can become specialized in one language.</p></li>
 				<li><p><strong>Photosynthesis:</strong> When you have access to sufficient sunlight, you don't need to eat or breathe. Enabler.</p></li>
 				<li><p><strong>Song-Speech:</strong> You can use the ancient power of your Elowarin vocal apparatus as an asset on tasks that involve pleasant social interaction, oration, singing, or storytelling. Enabler.</p></li>
@@ -713,7 +772,7 @@
 		<div class="col-12 col-sm-6">
 			<h5 class="og-h-small" id="fourth-tier-elowarin-abilities">Fourth-Tier Elowarin Abilities<a class="og-h-anchor" href="#fourth-tier-elowarin-abilities" title="Permalink" aria-hidden="true"></a></h5>
 			<ul class="og-abilities-list">
-				<li><a href="#ability-enhanced-intellect-edge">Enhanced Intellect edge</a> <span class="og-ref">(136)</span></li>
+				<li><a href="#ability-enhanced-intellect-edge">Enhanced Intellect Edge</a> <span class="og-ref">(136)</span></li>
 				<li><a href="#ability-healing-pulse">Healing Pulse</a> <span class="og-ref">(148)</span></li>
 				<li><a href="#ability-show-them-the-way">Show Them the Way</a> <span class="og-ref">(183)</span></li>
 			</ul>
@@ -1147,7 +1206,7 @@
 			<h5 class="og-h-small" id="fourth-tier-kaillerian-abilities">Fourth-Tier Kaillerian Abilities<a class="og-h-anchor" href="#fourth-tier-kaillerian-abilities" title="Permalink" aria-hidden="true"></a></h5>
 			<ul class="og-abilities-list">
 				<li><a href="#ability-draw-conclusion">Draw Conclusion</a> <span class="og-ref">(131)</span></li>
-				<li><a href="#ability-enhanced-intellect-edge">Enhanced Intellect edge</a> <span class="og-ref">(136)</span></li>
+				<li><a href="#ability-enhanced-intellect-edge">Enhanced Intellect Edge</a> <span class="og-ref">(136)</span></li>
 				<li><a href="#ability-using-whats-available">Using What's Available</a> <span class="og-ref">(195)</span></li>
 			</ul>
 		</div>
@@ -2628,7 +2687,7 @@
 			<ul class="og-abilities-list">
 				<li><a href="#ability-artifact-tinkerer">Artifact Tinkerer</a> <span class="og-ref">(110)</span></li>
 				<li><a href="#ability-boost-manifest-cypher">Boost Manifest Cypher</a> <span class="og-ref">(CTS, 51)</span></li>
-				<li><a href="#ability-enhanced-intellect">Enhanced Intellect edge</a> <span class="og-ref">(135)</span></li>
+				<li><a href="#ability-enhanced-intellect">Enhanced Intellect Edge</a> <span class="og-ref">(135)</span></li>
 				<li><a href="#ability-fixer">Fixer</a> <span class="og-ref">(RR, 123)</span></li>
 				<li><a href="#ability-quick-work">Quick Work</a> <span class="og-ref">(174)</span></li>
 				<li><a href="#ability-robot-assistant">Robot Assistant</a> <span class="og-ref">(178)</span></li>
@@ -3322,7 +3381,7 @@
 	</h3>
 	<div class="alert ps-4 pb-0">
 		<h4 id="choose-abilities">Quick Reference: Abilities by Relative Power <a class="og-h-anchor" href="#choose-abilities" title="Permalink" aria-hidden="true"></a></h4>
-		<p>These lists sort abilities into three power grades: low-, medium-, and high-tier.</p>
+		<p>These lists sort abilities original to this document into three power grades: low-, medium-, and high-tier.</p>
 		<h5 class="og-h-small" id="choose-abilities-low-tier">Low Tier: <a class="og-h-anchor" href="#choose-abilities-low-tier" title="Permalink" aria-hidden="true"></a></h5>
 		<ul class="og-abilities-list og-abilities-list-compact">
 			<li><a href="#ability-amaneusis">Amaneusis</a></li>
@@ -3427,7 +3486,7 @@
 		<caption>Curse of Stone Provisions</caption>
 		<thead>
 			<tr>
-				<th scope="col" class="text-center">d6</th><th scope="col">Curse of Stone Provisions</th>
+				<th scope="col" class="text-center w-15">d6</th><th scope="col">Curse of Stone Provisions</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -3500,14 +3559,14 @@
 		</li>
 	</ul>
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p>Flash Petrification turns your edge into Armor&mdash;provided you're willing to take the remainder of the damage to the Pool you use to pay the ability's cost. For example, if you are hit by a demon's flaming greatsword attack that inflicts 6 damage, you can pay 6 Intellect points to prevent it. If you have an Intellect Edge of 2, the cost of the ability&mdash;and thus your total damage taken&mdash;becomes 4 Intellect points.</p>
+		<p>Flash Petrification turns your Edge into Armor&mdash;provided you're willing to take the remainder of the damage to the Pool you use to pay the ability's cost. For example, if you are hit by a demon's flaming greatsword attack that inflicts 6 damage, you can pay 6 Intellect points to prevent it. If you have an Intellect Edge of 2, the cost of the ability&mdash;and thus your total damage taken&mdash;becomes 4 Intellect points.</p>
 	</div>
 	<ul class="og-ability-details">
 		<li id="ability-gargoyle-physique">
 			<p><strong>Gargoyle Physique:</strong> Your transformed body brings advantages and challenges:</p>
 			<ul class="og-list-disc">
 				<li><em>Gargoyle Weaponry.</em> You bear claws, hooves, horns, wings, talons, and a long, forked tail&mdash;all of which you can use as light or medium weapons (your choice). You are practiced in attacks you make with your gargoyle weaponry.</li>
-				<li><em>Great Strength.</em> You gain +1 to Armor, +1 to your Might Edge , and 3 additional points to your Might Pool.</li>
+				<li><em>Great Strength.</em> You gain +1 to Armor, +1 to your Might Edge, and 3 additional points to your Might Pool.</li>
 				<li><em>Special Climbing.</em> You are trained in climbing, and your unique physiology is an asset when climbing up structures made of concrete, brick, plaster, or stone.</li>
 				<li><em>Heavy.</em> You are twice as heavy as a human of your size and shape. While petrified by your <a class="og-ability" href="#ability-curse-of-stone">Curse of Stone</a>, your weight doubles again.</li>
 			</ul>
@@ -3834,7 +3893,7 @@
 			<p><strong>Betrayal:</strong> Any time you convince a foe that you are not a threat and then suddenly attack it (without provocation), the attack deals 4 additional points of damage. Enabler. <span class="og-ref">(113)</span></p>
 		</li>
 		<li id="ability-better-living-through-chemistry">
-			<p><strong>Better Living Through Chemistry (4 Intellect points):</strong> You've developed drug cocktails specifically designed to work with your own biochemistry. Depending on which one you inject, it makes you smarter, faster, or tougher, but when it wears off, the crash is a doozy, so you use it only in desperate situations. You gain 2 to your Might Edge , Speed Edge , or Intellect Edge for one minute, after which you can't gain the benefit again for one hour. During this follow-up hour, every time you spend points from a Pool, increase the cost by 1. Action. <span class="og-ref">(113)</span></p>
+			<p><strong>Better Living Through Chemistry (4 Intellect points):</strong> You've developed drug cocktails specifically designed to work with your own biochemistry. Depending on which one you inject, it makes you smarter, faster, or tougher, but when it wears off, the crash is a doozy, so you use it only in desperate situations. You gain 2 to your Might Edge, Speed Edge, or Intellect Edge for one minute, after which you can't gain the benefit again for one hour. During this follow-up hour, every time you spend points from a Pool, increase the cost by 1. Action. <span class="og-ref">(113)</span></p>
 		</li>
 		<li id="ability-biomorphic-detonation">
 			<p><strong>Biomorphic Detonation (7+ Might points):</strong> You radiate a pulse of biomorphic energy up to a short distance away, but you tune it to disrupt life in an area an immediate distance across. All within the detonation take 5 points of damage that ignores Armor (unless it is Armor provided by a force field effect). If you apply additional Effort to increase the damage, you deal 2 additional points of damage per level of Effort (instead of 3 points); targets in the area take 1 point of damage even if you fail the attack roll. Action. <span class="og-ref">(113)</span></p>
@@ -4173,7 +4232,7 @@
 			<p><strong>Drawing on Life's Experiences (6 Intellect points):</strong> You've seen a lot and done a lot, and that experience comes in handy. Ask the GM one question, and you'll receive a general answer. The GM assigns a level to the question, so the more obscure the answer, the more difficult the task. Generally, knowledge that you could find by looking somewhere other than your current location is level 1, and obscure knowledge of the past is level 7. Action. <span class="og-ref">(131)</span></p>
 		</li>
 		<li id="ability-driving-on-the-edge">
-			<p><strong>Driving on the edge:</strong> You can make an attack with a light or medium ranged weapon and attempt a driving task as a single action. Enabler. <span class="og-ref">(132)</span></p>
+			<p><strong>Driving on the Edge:</strong> You can make an attack with a light or medium ranged weapon and attempt a driving task as a single action. Enabler. <span class="og-ref">(132)</span></p>
 		</li>
 		<li id="ability-dual-light-wield">
 			<p><strong>Dual Light Wield:</strong> You can use two light weapons at the same time, making two separate attacks on your turn as a single action. You remain limited by the amount of Effort you can apply on one action, but because you make separate attacks, your opponent's Armor applies to both. Anything that modifies your attack or damage applies to both attacks, unless it's specifically tied to one of the weapons. Enabler. <span class="og-ref">(132)</span></p>
@@ -4235,7 +4294,7 @@
 			<p><strong>Enhanced Intellect:</strong> You gain 3 points to your Intellect Pool. Enabler. <span class="og-ref">(135)</span></p>
 		</li>
 		<li id="ability-enhanced-intellect-edge">
-			<p><strong>Enhanced Intellect edge:</strong> You gain +1 to your Intellect edge. Enabler. <span class="og-ref">(135)</span></p>
+			<p><strong>Enhanced Intellect Edge:</strong> You gain +1 to your Intellect Edge. Enabler. <span class="og-ref">(135)</span></p>
 		</li>
 		<li id="ability-enhanced-might">
 			<p><strong>Enhanced Might:</strong> You gain 3 points to your Might Pool. Enabler. <span class="og-ref">(135)</span></p>
@@ -4704,7 +4763,7 @@
 			<p><strong>Mental Link (1+ Intellect point):</strong> You open a pathway to another creature's mind via a light touch, which allows you to transmit thoughts and images to each other. The mental link remains regardless of distance and lasts for one hour. In addition to the normal options for using Effort, you can choose to use Effort to extend the duration by one hour for each level of Effort applied. Action to initiate. <span class="og-ref">(161)</span></p>
 		</li>
 		<li id="ability-mental-magic">
-			<p><strong>Mental Magic:</strong> When attempting a magic-based Might or Speed task, you can instead roll as if it were an Intellect action. This means that if you apply Effort, you spend points from your Intellect Pool and use your Intellect edge. Enabler. <span class="og-ref">(IOM, 54)</span></p>
+			<p><strong>Mental Magic:</strong> When attempting a magic-based Might or Speed task, you can instead roll as if it were an Intellect action. This means that if you apply Effort, you spend points from your Intellect Pool and use your Intellect Edge. Enabler. <span class="og-ref">(IOM, 54)</span></p>
 		</li>
 		<li id="ability-mental-projection">
 			<p><strong>Mental Projection (6+ Intellect points):</strong> Your mind fully leaves your body and manifests anywhere you choose within immediate range. Your projected mind can remain apart from your body for up to 24 hours. This effect ends early if your Intellect Pool is reduced to 0 or if your projection touches your resting body.</p>
@@ -4806,7 +4865,7 @@
 			<p><strong>Obstacle Running (3 Speed points):</strong> For the next minute, you can ignore obstacles that slow your movement, allowing you to travel at normal speed through areas with rubble, fences, tables, and similar objects that you would have to climb over or move around. This movement might include sliding on a railing, briefly running along a wall, or even stepping on a creature to boost yourself over something. If an obstacle would normally require a Might or Speed task to overcome, such as swinging on a rope, balancing on a rope, or jumping over a hole, you are trained in that task. Enabler. <span class="og-ref">(167)</span></p>
 		</li>
 		<li id="ability-one-with-the-wild">
-			<p><strong>One With the Wild (6 Intellect points):</strong> For the next hour, natural animals and plants within long range will not knowingly harm you or those you designate. In addition, your Might Edge , Speed Edge , and Intellect Edge increase by 1, and if you make any <a href="index.html#recovery-rolls">recovery rolls</a> during this period, you recover twice as many points. Action to initiate. <span class="og-ref">(167)</span></p>
+			<p><strong>One With the Wild (6 Intellect points):</strong> For the next hour, natural animals and plants within long range will not knowingly harm you or those you designate. In addition, your Might Edge, Speed Edge, and Intellect Edge increase by 1, and if you make any <a href="index.html#recovery-rolls">recovery rolls</a> during this period, you recover twice as many points. Action to initiate. <span class="og-ref">(167)</span></p>
 		</li>
 		<li id="ability-onslaught">
 			<p><strong>Onslaught (1 Intellect point):</strong> You attack a foe using energies that assail either their physical form or their mind. In either case, you must be able to see your target. If the attack is physical, you emit a short-range ray of force that inflicts 4 points of damage. If the attack is mental, you focus your mental energy to blast the thought processes of another creature within short range. This mindslice inflicts 2 points of Intellect damage (ignores Armor). Some creatures without minds (such as robots) might be immune to your mindslice. Action. <span class="og-ref">(167)</span></p>
@@ -5454,7 +5513,7 @@
 			</table></div>
 			<p class="og-ind">You get 6 additional points to divide among your stat Pools however you wish. Next, roll a d6 for your <a href="index.html#edge">Edge</a> modification:</p>
 			<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
-				<caption>Gritty edge Modification</caption>
+				<caption>Gritty Edge Modification</caption>
 				<thead>
 					<tr>
 						<th class="vertical-align-bottom text-center" scope="col">d6</th>
@@ -5474,7 +5533,7 @@
 		<div class="col-lg-6">
 			<div class="alert ps-4 pb-0">
 				<h5 class="og-h-small" id="gritty-optional-add-a-weakness">Optional: Add a Weakness<a class="og-h-anchor" href="#gritty-optional-add-a-weakness" title="Permalink" aria-hidden="true"></a></h5>
-				<p>Essentially, weakness is negative edge. If you have a weakness of 1 in Speed, all Speed actions that require you to spend points cost 1 additional point from your Pool. When using this optional rule, PCs roll a d6 on a weakness table, which corresponds to their edge modification: Strong, Swift, or Cunning.</p>
+				<p>Essentially, weakness is negative Edge. If you have a weakness of 1 in Speed, all Speed actions that require you to spend points cost 1 additional point from your Pool. When using this optional rule, PCs roll a d6 on a weakness table, which corresponds to their Edge modification: Strong, Swift, or Cunning.</p>
 				<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
 					<caption>Gritty Weaknesses &mdash; Strong</caption>
 					<thead>
@@ -5516,7 +5575,7 @@
 				</table></div>
 			</div>
 			<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-				<p>The combination of Pool modifications, edge modifications, and Weakness might begin to suggest something about the PC's species, personality, or other relationship to the setting. However, it might be wise to wait until a PC's skills and abilities are determined.</p>
+				<p>The combination of Pool modifications, Edge modifications, and Weakness might begin to suggest something about the PC's species, personality, or other relationship to the setting. However, it might be wise to wait until a PC's skills and abilities are determined.</p>
 			</div>
 		</div>
 	</div>
@@ -5740,7 +5799,7 @@
 					<tr><th scope="row" class="fw-normal text-center">1</th><td><a class="og-ability" href="#ability-bash">Bash</a> <span class="og-ref">(112)</span></td></tr>
 					<tr><th scope="row" class="fw-normal text-center">2</th><td><a class="og-ability" href="#ability-combat-prowess">Combat Prowess</a> <span class="og-ref">(120)</span></td></tr>
 					<tr><th scope="row" class="fw-normal text-center">3</th><td><a class="og-ability" href="#ability-double-strike">Double Strike</a> <span class="og-ref">(131)</span></td></tr>
-					<tr><th scope="row" class="fw-normal text-center">4</th><td><a class="og-ability" href="#ability-driving-on-the-edge">Driving on the edge</a> <span class="og-ref">(132)</span></td></tr>
+					<tr><th scope="row" class="fw-normal text-center">4</th><td><a class="og-ability" href="#ability-driving-on-the-edge">Driving on the Edge</a> <span class="og-ref">(132)</span></td></tr>
 					<tr><th scope="row" class="fw-normal text-center">5</th><td><a class="og-ability" href="#ability-fists-of-fury">Fists of Fury</a> <span class="og-ref">(140)</span></td></tr>
 					<tr><th scope="row" class="fw-normal text-center">6</th><td><a class="og-ability" href="#ability-flash">Flash</a> <span class="og-ref">(140)</span></td></tr>
 					<tr><th scope="row" class="fw-normal text-center">7</th><td><a class="og-ability" href="#ability-gunner">Gunner</a> <span class="og-ref">(147)</span></td></tr>
@@ -5954,7 +6013,7 @@
 			<ul class="list-unstyled og-ind">
 				<li><p><strong>Abilities:</strong> Gain a new ability, as described in the <a href="#gritty-abilities">Gritty Abilities</a> section.</p></li>
 				<li><p><strong>Increase Pools:</strong> Roll a d6 and add the results as points to your stat Pools. You can allocate the points among the Pools however you wish.</p></li>
-				<li><p><strong>Increase edge:</strong> Choose your Might Edge , Speed Edge , or Intellect Edge and roll a d6. If the result is greater than the edge you chose, increase that edge by 1 (to a maximum of 6).</p></li>
+				<li><p><strong>Increase Edge:</strong> Choose your Might Edge, Speed Edge, or Intellect Edge and roll a d6. If the result is greater than the Edge you chose, increase that Edge by 1 (to a maximum of 6).</p></li>
 				<li><p><strong>Increase Effort:</strong> Roll a d6. If the result is greater than your Effort score, your Effort score increases by 1 (to a maximum of 6).</p></li>
 				<li><p><strong>Increase Recovery Rolls:</strong> Roll a d6. If the result is greater than the number you add to your recovery rolls, that number increases by 1 (to a maximum of 6).</p></li>
 				<li><p><strong>Skills Training:</strong> Roll a d20 on the Gritty Skill Advancement table. The GM determines if you can choose a skill or must roll from a table, as described in <a href="#gritty-skills">Gritty Skills</a>.</p></li>
@@ -6328,12 +6387,12 @@
 	<h5 class="og-h-h5-icon" id="cypher-brainstorm">Brainstorm<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><a class="og-h-anchor" href="#cypher-brainstorm" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d10</p></li>
-		<li><p><strong>Effect:</strong> For one hour, you gain +1 to your Intellect edge, and you are trained in all tasks related to reasoning, understanding, or learning. If the cypher level is 7 or higher, the bonus is increased to +2. If the cypher level is 10, the bonus is increased to +3.</p></li>
+		<li><p><strong>Effect:</strong> For one hour, you gain +1 to your Intellect Edge, and you are trained in all tasks related to reasoning, understanding, or learning. If the cypher level is 7 or higher, the bonus is increased to +2. If the cypher level is 10, the bonus is increased to +3.</p></li>
 	</ul>
 	<h5 class="og-h-h5-icon" id="cypher-brute-force">Brute Force<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><a class="og-h-anchor" href="#cypher-brute-force" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d10</p></li>
-		<li><p><strong>Effect:</strong> For one hour, you gain +1 to your Might Edge , and you are trained in all tasks related to breaking, jumping, or climbing. If the cypher level is 7 or higher, the bonus is increased to +2. If the cypher level is 10, the bonus is increased to +3.</p></li>
+		<li><p><strong>Effect:</strong> For one hour, you gain +1 to your Might Edge, and you are trained in all tasks related to breaking, jumping, or climbing. If the cypher level is 7 or higher, the bonus is increased to +2. If the cypher level is 10, the bonus is increased to +3.</p></li>
 	</ul>
 	<h5 class="og-h-h5-icon" id="cypher-contingency">Contingency<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><span data-toggle="tooltip" title="Manifest Cypher" class="og-icon og-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-icon og-cypher-fantastic ms-1"></span><a class="og-h-anchor" href="#cypher-contingency" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
@@ -6646,7 +6705,7 @@
 	<h5 class="og-h-h5-icon" id="cypher-full-fury">Full Fury<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><a class="og-h-anchor" href="#cypher-full-fury" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
-		<li><p><strong>Effect:</strong> You gain +1 Might Edge , +1 Speed Edge , and +2 Armor for one minute. If the cypher level is 5 or higher, these bonuses increase to +2 Might Edge , +2 Speed Edge , and +3 Armor. Either way, your Speed defense rolls are Hindered for the same duration. You can end the effect early (no action required).</p></li>
+		<li><p><strong>Effect:</strong> You gain +1 Might Edge, +1 Speed Edge, and +2 Armor for one minute. If the cypher level is 5 or higher, these bonuses increase to +2 Might Edge, +2 Speed Edge, and +3 Armor. Either way, your Speed defense rolls are Hindered for the same duration. You can end the effect early (no action required).</p></li>
 	</ul>
 	<h5 class="og-h-h5-icon" id="cypher-good-impression">Good Impression<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><a class="og-h-anchor" href="#cypher-good-impression" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
@@ -6657,7 +6716,7 @@
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d10</p></li>
 		<li><p><strong>Form:</strong> Cog, hourglass, sundial, or watch&mdash;or for a subtle cypher, a magic spell</p></li>
-		<li><p><strong>Effect:</strong> For the next minute, you can take an additional hasted action on each of your turns (including the turn you use this cypher). When you take this additional action, you can't apply Effort or edge. If the cypher level is 8 or higher, you can apply either your Effort or edge to the hasted action, but not both. If the cypher level is 10, you can apply both Effort and edge to the hasted action.</p></li>
+		<li><p><strong>Effect:</strong> For the next minute, you can take an additional hasted action on each of your turns (including the turn you use this cypher). When you take this additional action, you can't apply Effort or Edge. If the cypher level is 8 or higher, you can apply either your Effort or Edge to the hasted action, but not both. If the cypher level is 10, you can apply both Effort and Edge to the hasted action.</p></li>
 	</ul>
 	<h5 class="og-h-h5-icon" id="cypher-healing-factor">Healing Factor<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><span data-toggle="tooltip" title="Manifest Cypher" class="og-icon og-cypher-manifest ms-1"></span><span data-toggle="tooltip" title="Fantastic Cypher" class="og-icon og-cypher-fantastic ms-1"></span><a class="og-h-anchor" href="#cypher-healing-factor" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
@@ -6799,7 +6858,7 @@
 	<h5 class="og-h-h5-icon" id="cypher-mental-fortress">Mental Fortress<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><a class="og-h-anchor" href="#cypher-mental-fortress" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
-		<li><p><strong>Effect:</strong> For one hour, you gain +1 to your Intellect edge, and you gain +2 Armor against mental attacks.</p></li>
+		<li><p><strong>Effect:</strong> For one hour, you gain +1 to your Intellect Edge, and you gain +2 Armor against mental attacks.</p></li>
 	</ul>
 	<h5 class="og-h-h5-icon" id="cypher-moment-of-truth">Moment of Truth<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><a class="og-h-anchor" href="#cypher-moment-of-truth" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
@@ -7201,7 +7260,7 @@
 	<h5 class="og-h-h5-icon" id="cypher-tireless">Tireless<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><a class="og-h-anchor" href="#cypher-tireless" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
-		<li><p><strong>Effect:</strong> For 1 hour, you gain +2 to your Speed Edge , and +2 Armor against Speed damage.</p></li>
+		<li><p><strong>Effect:</strong> For 1 hour, you gain +2 to your Speed Edge, and +2 Armor against Speed damage.</p></li>
 	</ul>
 	<h5 class="og-h-h5-icon" id="cypher-tomfoolery">Tomfoolery<span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"></span><a class="og-h-anchor" href="#cypher-tomfoolery" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
@@ -8574,6 +8633,443 @@
 		</tbody>
 	</table></div>
 	<hr>
+	<h3 id="chapter-15-mechs">
+		<span class="og-chap">Chapter 15</span>
+		Mechs
+	</h3>
+	<div class="alert ps-4 pb-0">
+		<h4 class="og-h-small" id="choose-mecha">Quick Reference: Mechs<a class="og-h-anchor" href="#choose-mecha" title="Permalink" aria-hidden="true"></a></h4>
+		<ul class="list-unstyled og-qr">
+			<li><a href="#mech-pilot-pcs">Mech Pilot PCs</a></li>
+			<li><a href="#mech-properties">Mech Properties</a></li>
+			<li><a href="#mech-tech-shifts">Tech Shifts</a></li>
+			<li><a href="#mech-magnitude">Magnitude</a></li>
+			<li><a href="#mech-optional-rule-damage-threshold">Optional Rule: Damage Threshold</a></li>
+			<li><a href="#mech-death">Mechs and Death</a></li>
+		</ul>			
+	</div>
+	<p>The following rules modules expand on <a href="index.html#extended-vehicular-combat">extended vehicular combat</a> <span class="og-ref">(SF, 39)</span>. Use of these rules assumes the game will involve no small amount of combat between fantastic vehicles&mdash;mechs&mdash;and appropriate high-<a href="#mech-magnitude">magnitude</a> threats like <a href="index.html#creature-kaiju">kaiju</a> <span class="og-ref">(338)</span>. GMs and players should be prepared to do a little extra maths when calculating task difficulty or damage.</p>
+	<hr>
+	<h4 class="og-border" id="mech-pilot-pcs">Mech Pilot PCs<a class="og-h-anchor" href="#mech-pilot-pcs" title="Permalink" aria-hidden="true"></a></h4>
+	<p>It's important for the GM to decide how much of the game will take place piloting mechs, and how much will involve experiences outside of the cockpit. Like any setting, the GM should be thoughtful about how PCs are constructed, for example:</p>
+	<div class="alert ps-4 pb-0">
+		<dl>
+			<dt>Gritty</dt>
+			<dd>Compared to mechs, pilots are fragile and limited. Use the PC generation method outlined in <a href="#chapter-8-gritty-rules-modules">Chapter 8: Gritty Rules Modules</a>.</dd>
+			<dt>Mundane Pilots</dt>
+			<dd>Use the standard Cypher System <a href="#character-sentence-generator">character creation</a>, but PCs can only choose from <a href="index.html#mundane-foci">mundane foci</a>. Some abilities and skills will not be applicable when piloting mechs (determined by the GM).</dd>
+			<dt>Heroes Throughout</dt>
+			<dd>Use the standard Cypher System <a href="#character-sentence-generator">character creation</a>. PCs might pick powerful combinations of PC and mech foci that allow them to pilot their mechs in unique ways.</dd>
+			<dt>Sentient Mechs</dt>
+			<dd>If the GM allows, a player can play a sentient mech that operates as their own pilot.</dd>
+		</dl>
+	</div>
+	<hr>
+	<h4 class="og-border" id="mech-properties">Mech Properties<a class="og-h-anchor" href="#mech-properties" title="Permalink" aria-hidden="true"></a></h4>
+	<p>In many ways, operating a mechs is just like having a much larger and stronger PC, but there are a few differences:</p>
+	<div class="alert ps-4 pb-0">
+		<dl>
+			<dt>Entering and Exiting</dt>
+			<dd>Entering or exiting a mech requires an action.</dd>
+			<dt>Movement</dt>
+			<dd>Mechs can move a long distance each round as an action. If the pilot suceeds on a difficulty 4 Speed task, their mech can move a long distance and take another relatively simple action (for example, moving again or making an attack).</dd>
+			<dt>Mech Focus</dt>
+			<dd>Like PCs, mechs have a <a href="index.html#choose-focus">focus</a>. While operating a mech, a pilot can use their own abilities, or activate any of the mech's focus abilities available to the pilot's tier. The GM might decide certain PC abilities can't be used by while piloting.</dd>
+			<dt>Tech Points</dt>
+			<dd>Mechs have a single Pool of Tech points, whose total equals the pilot's total Pool points + 8.
+				<ul>
+					<li>When the pilot's activate special abilities or uses Effort, the points are spent from the mech's Tech Pool intead of the pilot's Pools. The pilot's Edge stills reduces the total Tech point cost for the action. For example, if your mech performs a <a class="og-ability" href="#ability-bash">Bash</a> attack, it costs the mech 1 Tech point (instead of costing your PC 1 Might point). If you have 1 Might Edge, you can still the <a class="og-ability" href="#ability-bash">Bash</a> ability at no cost.</li>
+					<li>When a mech takes damage, the amount inflicted is subtracted from their Tech Pool's points. If a mech is reduced to 0 Tech points, the GM determines what happens to the mech and pilot, as described in <a href="#mech-death">Mechs and Death</a>.</li>
+					<li>When a PC makes a recovery roll in combat, they can use the result to restore missing Tech points to their mech instead of their stat Pools. Mechs can also be repaired in between missions, restoring their Tech Pool to its maximum number of points.</li>
+				</ul>
+			</dd>
+			<dt>Mech Level and Tech Shifts</dt>
+			<dd>Mechs can be customized and improved after their construction. By paying 10 XP, a pilot can increase their mech's level. When they do, the mech gains two additional <a href="#mech-tech-shifts">tech shifts</a>.</dd>
+			<dt>Magnitude</dt>
+			<dd><a href="#mech-magnitude">Magnitude</a> determine's a mech's overall threat level independent of pilot skill. Depending on the setting, it might represent size, technology level, or a combination of the two.</dd>
+		</dl>
+	</div>
+	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<ul class="list-unstyled og-ind">
+			<li><p><strong>Piloting Skill:</strong> The default assumption is that mech pilots PCs are skilled with the basic operation of a mech. It's probably not a good idea to allow a skill like "piloting" to be broadly applicable to a wide variety of tasks. Additionally, the GM might hinder all tasks when piloting an unfamiliar mech.</p></li>
+			<li><p><strong>Choosing Mech Foci:</strong> The GM determines what foci are avaliable to PCs and their mechs as appropriate for the setting&mdash;mechs might be mundane creations of science and steel, while others might be made of enchanted ironwood and fueled by magic crystals.</p></li>
+			<li><p><strong>Cyphers and Mechs:</strong> The GM determines if a given cypher or artifact can be activated by PCs, mechs, or both.</p></li>
+			<li><p><strong>Increasing Mech Level:</strong> Upgrading mechs to a new level might require some amount of time (determined by the GM). While in an unfinished state, all the mech's tasks are hindered by two steps.</p></li>
+			<li><p><strong>Redline Maneuvers:</strong> The GM might allow mech pilots to perform <a href="index.html#extended-vehicular-combat-redline-maneuver">redline maneuvers</a> <span class="og-ref">(SF, 41)</span> or use the optional <a href="index.html#house-rule-ultimate-damage">Ultimate Damage</a> <span class="og-ref">(OG-CSRD)</span> rule.</p></li>
+		</ul>
+	</div>
+	<h5 class="og-h-small" id="mech-tech-shifts">Tech Shifts<a class="og-h-anchor" href="#mech-tech-shifts" title="Permalink" aria-hidden="true"></a></h5>
+	<p>A mech has 2 tech shifts for each mech level. Depending on the setting, the GM might require certain tech shifts, or disallow the use of others.</p>
+	<div class="alert ps-4 pb-0">
+		<dl>
+			<dt>Ablative Armor Module</dt>
+			<dd>Eases Might defense rolls, and the mech gains +1 Armor. You can choose this shift up to three times.</dd>
+			<dt>Accuracy Module</dt>
+			<dd>Ease attack rolls for one weapon or special ability. You can's apply this shift to an attack or special ability more than three times.</dd>
+			<dt>Action Enhancer Module</dt>
+			<dd>The mech can take one additional action as part of the same action on your turn. Choose one action from the following: move, attack, activate a special ability, activate a cypher, and activate an artifact. If you choose attack, specify the weapon or special ability this option executes. You can choose this tech shift multiple times, selecting a different option each time. You are still limited by the amount of Effort you can apply on one action.</dd>
+			<dt>Combiner Module</dt>
+			<dd>The mech can combine with one or more compatible mechs with a combiner module tech shift. A combined mech's magnitude is equal to the highest magnitude of the component mech, plus one for each additional component mech. Once combined, A combined mech usually has multiple stations, and is operated using the rules for <a href="index.html">Bridge Combat</a> <span class="og-ref">(SF, 43)</span>.</dd>
+			<dt>Flight Module</dt>
+			<dd>The mech can fly a long distance as an action. If you choose this shift a second time, the flight distance increases to very long.</dd>
+			<dt>Impact Module</dt>
+			<dd>Choose one weapon attack or ability. Increase its damage inflicted by 3. You can choose this shift multiple times, but it can't increase the damage of any single attack by more than 6.</dd>
+			<dt>Mass Detruction Module</dt>
+			<dd>Eases tasks to grapple others, break or destroy objects and structures, or throw heavy objects.</dd>
+			<dt>Range Increase Module</dt>
+			<dd>Increases the range of one ability or attack. A touch-range ability increases to short range, a short-range ability increases to long range, and a long-range ability increases to very long range. You can choose this shift multiple times.</dd>
+			<dt>Repair Module</dt>
+			<dd>As an action, the mech can regain 1d6 + mech level missing Tech points. You can choose this shift up to four times.</dd>
+			<dt>Response Enhancer Module</dt>
+			<dd>The mech eases initiative and Speed defense tasks. You can choose this shift twice.</dd>
+			<dt>Tech Boost Module</dt>
+			<dd>Gain a mech focus ability from up to one tier above the pilot's tier.</dd>
+		</dl>
+	</div>
+	<h5 class="og-h-small"  id="mech-magnitude">Magnitude<a class="og-h-anchor" href="#mech-magnitude" title="Permalink" aria-hidden="true"></a></h5>
+	<p>Magnitude measures a threat differential between two targets. In some games, magnitude by correspond to size (as indicated on the following table), but it also represent technology level.</p>
+	<p class="og-ind">Magnitude modifies the difficulty of successfully attacking a target or defending against them. Attack and defense tasks are eased if your magnitude is higher, and hindered if your magnitude is lower. The number of steps eased or hindered is equal to the magnitude difference between the attacker and defender.</p>
+	<p class="og-ind">For example, if you are piloting an M5 mobile frame, and you attack level 3 NPC piloting an M6 mech, the magnitude difference is 1. Thus, the difficulty of successfully attacking the target is raised to 4.</p>
+	<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+		<caption>Magnitude Difference and Task Difficulty</caption>
+		<thead>
+			<tr>
+				<th scope="col" class="text-center">Magnitude</th>
+				<th scope="col">Example</th>
+				<th scope="col" class="text-center">M0</th>
+				<th scope="col" class="text-center">M1</th>
+				<th scope="col" class="text-center">M2</th>
+				<th scope="col" class="text-center">M3</th>
+				<th scope="col" class="text-center">M4</th>
+				<th scope="col" class="text-center">M5</th>
+				<th scope="col" class="text-center">M6</th>
+				<th scope="col" class="text-center">M7</th>
+				<th scope="col" class="text-center">M8</th>
+				<th scope="col" class="text-center">M9</th>
+				<th scope="col" class="text-center">M10</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row" class="text-center fw-normal">0</th>
+				<td>Human</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+				<td class="text-center">+2</td>
+				<td class="text-center">+3</td>
+				<td class="text-center">+4</td>
+				<td class="text-center">+5</td>
+				<td class="text-center">+6</td>
+				<td class="text-center">+7</td>
+				<td class="text-center">+8</td>
+				<td class="text-center">+9</td>
+				<td class="text-center">+10</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">1</th>
+				<td>Power Suit</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+				<td class="text-center">+2</td>
+				<td class="text-center">+3</td>
+				<td class="text-center">+4</td>
+				<td class="text-center">+5</td>
+				<td class="text-center">+6</td>
+				<td class="text-center">+7</td>
+				<td class="text-center">+8</td>
+				<td class="text-center">+9</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">2</th>
+				<td>Power Armor</td>
+				<td class="text-center">&minus;2</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+				<td class="text-center">+2</td>
+				<td class="text-center">+3</td>
+				<td class="text-center">+4</td>
+				<td class="text-center">+5</td>
+				<td class="text-center">+6</td>
+				<td class="text-center">+7</td>
+				<td class="text-center">+8</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">3</th>
+				<td>Power Walker</td>
+				<td class="text-center">&minus;3</td>
+				<td class="text-center">&minus;2</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+				<td class="text-center">+2</td>
+				<td class="text-center">+3</td>
+				<td class="text-center">+4</td>
+				<td class="text-center">+5</td>
+				<td class="text-center">+6</td>
+				<td class="text-center">+7</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">4</th>
+				<td>Armored Personnel Unit</td>
+				<td class="text-center">&minus;4</td>
+				<td class="text-center">&minus;3</td>
+				<td class="text-center">&minus;2</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+				<td class="text-center">+2</td>
+				<td class="text-center">+3</td>
+				<td class="text-center">+4</td>
+				<td class="text-center">+5</td>
+				<td class="text-center">+6</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">5</th>
+				<td>Mobile Frame</td>
+				<td class="text-center">&minus;5</td>
+				<td class="text-center">&minus;4</td>
+				<td class="text-center">&minus;3</td>
+				<td class="text-center">&minus;2</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+				<td class="text-center">+2</td>
+				<td class="text-center">+3</td>
+				<td class="text-center">+4</td>
+				<td class="text-center">+5</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">6</th>
+				<td>Mech</td>
+				<td class="text-center">&minus;6</td>
+				<td class="text-center">&minus;5</td>
+				<td class="text-center">&minus;4</td>
+				<td class="text-center">&minus;3</td>
+				<td class="text-center">&minus;2</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+				<td class="text-center">+2</td>
+				<td class="text-center">+3</td>
+				<td class="text-center">+4</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">7</th>
+				<td>Juggernaut</td>
+				<td class="text-center">&minus;7</td>
+				<td class="text-center">&minus;6</td>
+				<td class="text-center">&minus;5</td>
+				<td class="text-center">&minus;4</td>
+				<td class="text-center">&minus;3</td>
+				<td class="text-center">&minus;2</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+				<td class="text-center">+2</td>
+				<td class="text-center">+3</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">8</th>
+				<td>Kaiju Killer</td>
+				<td class="text-center">&minus;8</td>
+				<td class="text-center">&minus;7</td>
+				<td class="text-center">&minus;6</td>
+				<td class="text-center">&minus;5</td>
+				<td class="text-center">&minus;4</td>
+				<td class="text-center">&minus;3</td>
+				<td class="text-center">&minus;2</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+				<td class="text-center">+2</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">9</th>
+				<td>Titan</td>
+				<td class="text-center">&minus;9</td>
+				<td class="text-center">&minus;8</td>
+				<td class="text-center">&minus;7</td>
+				<td class="text-center">&minus;6</td>
+				<td class="text-center">&minus;5</td>
+				<td class="text-center">&minus;4</td>
+				<td class="text-center">&minus;3</td>
+				<td class="text-center">&minus;2</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+				<td class="text-center">+1</td>
+			</tr>
+			<tr>
+				<th scope="row" class="text-center fw-normal">10</th>
+				<td>Articulated Fortress</td>
+				<td class="text-center">&minus;10</td>
+				<td class="text-center">&minus;9</td>
+				<td class="text-center">&minus;8</td>
+				<td class="text-center">&minus;7</td>
+				<td class="text-center">&minus;6</td>
+				<td class="text-center">&minus;5</td>
+				<td class="text-center">&minus;4</td>
+				<td class="text-center">&minus;3</td>
+				<td class="text-center">&minus;2</td>
+				<td class="text-center">&minus;1</td>
+				<td class="text-center">&mdash;</td>
+			</tr>
+		</tbody>
+	</table></div>
+	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Magnitude sets a baseline disparity between PCs with and without mechs. Some settings might not bother including lower magnitudes, or establish that most all mechs are of a single magnitude.</p>
+	</div>
+	<div class="alert ps-4 pb-0">
+		<h6 id="mech-optional-rule-damage-threshold">Optional Rule: Damage Threshold<a class="og-h-anchor" href="#mech-optional-rule-damage-threshold" title="Permalink" aria-hidden="true"></a></h6>
+		<p>Using this optonal rule, <a href="#mech-magnitude">magnitude</a> differences produces even deadlier interactions. The GM selects a damage threshold muliplier appropriate to the setting, from DT1&ndash;DT4. When there is a magnitude difference between an attacker and defender, the damage threshold is applied to damage inflicted as follows:</p>
+		<dl>
+			<dt>Attacking Targets of Higher Magnitude</dt>
+			<dd>Reduce damage inflicted (doesn't count as Armor).</dd>
+			<dt>Attacking Targets of Lower Magnitude</dt>
+			<dd>Increase damage inflicted.</dd>
+		</dl>
+		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+			<caption>Damage Threshold</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="text-center">Magnitude Difference</th>
+					<th scope="col" class="text-center">DT1</th>
+					<th scope="col" class="text-center">DT2</th>
+					<th scope="col" class="text-center">DT3</th>
+					<th scope="col" class="text-center">DT4</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row" class="text-center fw-normal">1</th>
+					<td class="text-center">&pm;1</td>
+					<td class="text-center">&pm;2</td>
+					<td class="text-center">&pm;3</td>
+					<td class="text-center">&pm;4</td>
+				</tr>
+				<tr>
+					<th scope="row" class="text-center fw-normal">2</th>
+					<td class="text-center">&pm;2</td>
+					<td class="text-center">&pm;4</td>
+					<td class="text-center">&pm;6</td>
+					<td class="text-center">&pm;8</td>
+				</tr>
+				<tr>
+					<th scope="row" class="text-center fw-normal">3</th>
+					<td class="text-center">&pm;3</td>
+					<td class="text-center">&pm;6</td>
+					<td class="text-center">&pm;9</td>
+					<td class="text-center">&pm;12</td>
+				</tr>
+				<tr>
+					<th scope="row" class="text-center fw-normal">4</th>
+					<td class="text-center">&pm;4</td>
+					<td class="text-center">&pm;8</td>
+					<td class="text-center">&pm;12</td>
+					<td class="text-center">&pm;16</td>
+				</tr>
+				<tr>
+					<th scope="row" class="text-center fw-normal">5</th>
+					<td class="text-center">&pm;5</td>
+					<td class="text-center">&pm;10</td>
+					<td class="text-center">&pm;15</td>
+					<td class="text-center">&pm;20</td>
+				</tr>
+				<tr>
+					<th scope="row" class="text-center fw-normal">6</th>
+					<td class="text-center">&pm;6</td>
+					<td class="text-center">&pm;12</td>
+					<td class="text-center">&pm;18</td>
+					<td class="text-center">&pm;24</td>
+				</tr>
+				<tr>
+					<th scope="row" class="text-center fw-normal">7</th>
+					<td class="text-center">&pm;7</td>
+					<td class="text-center">&pm;14</td>
+					<td class="text-center">&pm;21</td>
+					<td class="text-center">&pm;28</td>
+				</tr>
+				<tr>
+					<th scope="row" class="text-center fw-normal">8</th>
+					<td class="text-center">&pm;8</td>
+					<td class="text-center">&pm;16</td>
+					<td class="text-center">&pm;24</td>
+					<td class="text-center">&pm;32</td>
+				</tr>
+				<tr>
+					<th scope="row" class="text-center fw-normal">9</th>
+					<td class="text-center">&pm;9</td>
+					<td class="text-center">&pm;18</td>
+					<td class="text-center">&pm;27</td>
+					<td class="text-center">&pm;36</td>
+				</tr>
+				<tr>
+					<th scope="row" class="text-center fw-normal">10</th>
+					<td class="text-center">&pm;10</td>
+					<td class="text-center">&pm;20</td>
+					<td class="text-center">&pm;30</td>
+					<td class="text-center">&pm;40</td>
+				</tr>
+			</tbody>
+		</table></div>
+	</div>
+	<hr>
+	<h4 class="og-border" id="mech-death">Mechs and Death<a class="og-h-anchor" href="#mech-death" title="Permalink" aria-hidden="true"></a></h4>
+	<p>The GM should select a general method of what happens to a mech when their Tech points are reduced to 0:</p>
+	<div class="alert ps-4 pb-0">
+		<dl>
+			<dt>Always Destroyed</dt>
+			<dd>Mechs reduced to 0 Tech points are always destroyed. If the pilot survives, they will require a new mech.</dd>
+			<dt>Always Damaged</dt>
+			<dd>If the damaged mech can be retrieved from the battlefield, it can be repaired by qualified characters.</dd>
+			<dt>Roll for Damage</dt>
+			<dd>Roll 1d6:</dd>
+		</dl>
+		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+			<caption>Mech Damage Track</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="text-center w-15">d6</th><th scope="col">Injury</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><th scope="row" class="text-center fw-normal">1</th><td>Intact, but inoperable until repaired.</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">2</th><td>Inoperable with minor damage. Until fully repaired, the mech loses one level (and thus two random <a href="#mech-tech-shifts">tech shifts</a>).</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">3&ndash;5</th><td>Inoperable with major damage. Until fully repaired, the mech loses two levels (and thus four random <a href="#mech-tech-shifts">tech shifts</a>), and mech focus abilities are limited to those half the pilot's tier (rounded up), and all tasks the mech performs are hindered.</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">6</th><td>Destroyed or damaged beyond repair.</td></tr>
+			</tbody>
+		</table></div>
+	</div>
+	<p class="og-ind">The GM also selects a general method to determine what happens to pilots when their a mech they are piloting is reduced to 0 Tech points:</p>
+	<div class="alert ps-4 pb-0">
+		<dl>
+			<dt>Pilots Always Eject</dt>
+			<dd>Pilots land on their feet on a nearby surface.</dd>
+			<dt>Pilot Damage Overrun</dt>
+			<dd>Whem a mech is reduced to 0 tech points, any damage remainder is inflicted on the pilot instead.</dd>
+			<dt>Instant Pilot Mortality</dt>
+			<dd>The pilot dies.</dd>
+			<dt>Roll for Pilot Injury</dt>
+			<dd>Roll 1d6:</dd>
+		</dl>
+		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+			<caption>Mech Pilot Injuries</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="text-center w-15">d6</th><th scope="col">Injury</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><th scope="row" class="text-center fw-normal">1&ndash;2</th><td>The pilot descends one step on the damage track.</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">3&ndash;4</th><td>The pilot descends two steps on the damage track.</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">5</th><td>The damage remainder after the mech is reduced to 0 Tech points taken by the pilot. If the damage causes the pilot to descend on the damage track, the pilot also gains a random <a href="#condition-effects">condition</a>.</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">6</th><td>The pilot dies.</td></tr>
+			</tbody>
+		</table></div>
+	</div>
+	<hr>
+
 <!--
 	<h3 id="chapter-13-decisive-vehicular-combat">
 		<span class="og-chap">Chapter 13</span>
