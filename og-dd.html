@@ -40,7 +40,7 @@
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-descriptors">Descriptors</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-flavors">Flavors</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#choose-foci">Foci</a></li>
-						<li><a class="dropdown-item og-csrd-nav" href="#chapter-7-abilities">Abilities</a></li>
+						<li><a class="dropdown-item og-csrd-nav" href="#chapter-7-abilities">Cantrips and Abilities</a></li>
 						<li><a class="dropdown-item og-csrd-nav" href="#chapter-8-gritty-rules-modules">Gritty Rules Modules</a></li>
 					</ul>
 				</li>
@@ -82,7 +82,7 @@
 		<span class="og-chap">Old Gus'</span>
 		Daft Drafts
 	</h1>
-	<p class="small text-center">version 1.16a (2024-09-03)</p>
+	<p class="small text-center">version 1.17b (2024-09-07)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn mt-1 mb-1 border" href="index.html">Full Rules: <abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
 		<li class="list-inline-item"><a class="btn mt-1 mb-1 border" href="og-cspg.html">Player's Guide: <abbr title="Old Gus' Unofficial Cypher System Player's Guide">OG-CSPG</abbr></a></li>
@@ -107,7 +107,7 @@
 				<li><a href="#chapter-4-descriptors">Chapter 4: <span class="text-uppercase">Descriptors</span></a></li>
 				<li><a href="#chapter-5-flavors">Chapter 5: <span class="text-uppercase">Flavors</span></a></li>
 				<li><a href="#chapter-6-foci">Chapter 6: <span class="text-uppercase">Foci</span></a></li>
-				<li><a href="#chapter-7-abilities">Chapter 7: <span class="text-uppercase">Abilities</span></a></li>
+				<li><a href="#chapter-7-abilities">Chapter 7: <span class="text-uppercase">Cantrips and Abilities</span></a></li>
 				<li><a href="#chapter-8-gritty-rules-modules">Chapter 8: <span class="text-uppercase">Gritty Rules Modules</span></a></li>
 			</ul>
 		</li>
@@ -154,7 +154,7 @@
 		Foreword
 	</h3>
 	<p>This is a living document, and all mechanics listed in are in the early drafting stages. These draft set of rules and character options will frequently link to <a href="index.html">Old Gus' Cypher System Reference Document (OG-CSRD)</a>.</p>
-	<p><strong>Contributors:</strong> Old Gus (throughout, editing), Synth (descriptors), <a href="https://actualizedadept.itch.io/">Saki</a> (cyphers), AlphaDean (mech rules)</p>
+	<p><strong>Contributors:</strong> Old Gus (throughout, editing), Synth (descriptors), <a href="https://actualizedadept.itch.io/">Saki</a> (cyphers), AlphaDean (mech rules), Da_Gut (cantrips)</p>
 	<p class="og-ind">Thanks for reading! I hope this document helps you play a great game.</p>
 	<p class="lead">&mdash;Old Gus</p>
 	<p><strong>Contact the Author:</strong>
@@ -168,13 +168,20 @@
 		On Fey
 	</h3>
 	<p>Before you read further, consider the nature of your setting, how you want magic&mdash;especially interplanar magic&mdash;to function, and how much bleed there is between fey realms and the mortal realm&mdash;this material is intended to be used as readily in a modern fantasy as it is a traditional high-fantasy setting. Either way, consider the two following aspects when developing your setting. These ideas are not mutually exclusive: indeed, one might lead directly into the other. A game might be set squarely in a <a href="index.html#chapter-20-fairy-tale">fairy tale</a> setting, or fairy tale elements might intrude upon a more mundane <a href="index.html#chapter-13-fantary">fantasy</a>, <a href="index.html#chapter-14-modern">modern</a>, or <a href="index.html#chapter-21-historical">historical</a> setting.</p>
-	<ul class="list-unstyled og-ind">
-		<li><p><strong>There and Back Again:</strong> The border between realms is not frequently crossed, and one (or two) crossings might be enough to drive the entire story. A number of creatures from one realm are transported to another. They must find a way home again. The PCs might be from either realm. A ticking clock is likely involved.</p></li>
-		<li><p><strong>Do Not Linger:</strong> A rift between two worlds has opened, and must be closed before tragedy befalls both realms. The PCs might be from either side of the rift.</p></li>
-		<li><p><strong>Dual Existence:</strong> Two realms share a kind of intimate cosmic connection. Events in one realm affect the other. The PCs are exceptional people with a secret that connects them to the other world, and must maintain a second life in a hidden realm only they can enter. The realm might be in their dreams, or through secret portals only they can enter. It's possible the PCs have entirely different character sheets depending on which realm they are in.</p></li>
-		<li><p><strong>Secret World:</strong> A seemingly mundane world is secretly connected to another realm. The PCs might be members of a secret society, explorers, or refugees from the secret world. In any case, the connection between the two is tenuous&mdash;and on the verge of a dangerous escalation.</p></li>
-		<li><p><strong>Planar Kaleidoscope:</strong> One door opens into a network of connected realities. This game is unafraid to tell high-weird stories that use <a href="index.html#choose-optional-rules">Optional Rules</a> or strange effects, altered physics, time dilation, and walking through a windy hallway of infinite skies&mdash;where, for no reason at all&mdash;creatures becomes a kite&mdash;unless they have an earthen affinity. Dwarves become rocks.</p></li>
-	</ul>
+	<div class="alert ps-4 pb-0">
+		<dl>
+			<dt>There and Back Again</dt>
+			<dd>The border between realms is not frequently crossed, and one (or two) crossings might be enough to drive the entire story. A number of creatures from one realm are transported to another. They must find a way home again. The PCs might be from either realm. A ticking clock is likely involved.</dd>
+			<dt>Do Not Linger</dt>
+			<dd>A rift between two worlds has opened, and must be closed before tragedy befalls both realms. The PCs might be from either side of the rift.</dd>
+			<dt>Dual Existence</dt>
+			<dd>Two realms share a kind of intimate cosmic connection. Events in one realm affect the other. The PCs are exceptional people with a secret that connects them to the other world, and must maintain a second life in a hidden realm only they can enter. The realm might be in their dreams, or through secret portals only they can enter. It's possible the PCs have entirely different character sheets depending on which realm they are in.</dd>
+			<dt>Secret World</dt>
+			<dd>A seemingly mundane world is secretly connected to another realm. The PCs might be members of a secret society, explorers, or refugees from the secret world. In any case, the connection between the two is tenuous&mdash;and on the verge of a dangerous escalation.</dd>
+			<dt>Planar Kaleidoscope</dt>
+			<dd>One door opens into a network of connected realities. This game is unafraid to tell high-weird stories that use <a href="index.html#choose-optional-rules">optional rules</a> or strange effects, altered physics, time dilation, and walking through a windy hallway of infinite skies&mdash;where, for no reason at all&mdash;creatures become a kite&mdash;unless they have an earthen affinity. Dwarves become rocks.</dd>
+		</dl>
+	</div>
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>For the remainder of this document, "plane of existence" is used to meaningfully distinguish one realm from another&mdash;The GM decides what exactly this means in settings that span multiple planes, realms, recursions, or worlds.</p>
 	</div>
@@ -343,7 +350,7 @@
 		<li><p><strong>Skill:</strong> You are trained in healing and herbalism.</p></li>
 		<li><p><strong>Long-Lived:</strong> Your natural lifespan (unless tragically cut short) is thousands of years. Enabler.</p></li>
 		<li><p><strong>Photosynthetic:</strong> You gain nutrients from sunlight and fertile soil. You don't need to eat or breathe if you have daily exposure to sufficient sunlight. Enabler.</p></li>
-		<li><p><strong>Put Down Roots:</strong> You gain the <a class="og-ability" href="#ability-summerbloom">Summerbloom</a> <span class="og-ref">(OG-DD)</span> ability, and you can pay its point cost with your Might Pool instead. When you reach tier 3, you gain the <a class="og-ability" href="#ability-tap-currents">Tap Currents</a> <span class="og-ref">(IOM, 59)</span> ability. Enabler.</p></li>
+		<li><p><strong>Put Down Roots:</strong> You gain the <a class="og-ability" href="#ability-cantrip-summerbloom">Summerbloom Cantrip</a> <span class="og-ref">(OG-DD)</span>, and you can pay its point cost with your Might Pool instead. When you reach tier 3, you gain the <a class="og-ability" href="#ability-tap-currents">Tap Currents</a> <span class="og-ref">(IOM, 59)</span> ability. Enabler.</p></li>
 		<li><p><strong>Timberskin:</strong> Your skin produces a pattern of exterior enchanted wood-like bark that grants you +1 to Armor if you do not wear physical armor&mdash;this armor also shields your mind against mental attacks that would inflict damage to your Intellect Pool (even if you are wearing physical armor). Your timberskin provides no protection from fire, however, and your stiff limbs are ill suited for agility&mdash;you have an inability in running, jumping, swimming, and Speed defense tasks. Enabler.</p></li>
 		<li><p><strong>Put Down Roots:</strong> When you make a defense roll and you are standing on fertile ground, you can plunge your roots into it. Until the end of your next turn, you cannot move, but gain an asset on all defense rolls you make. At that time, you can make a free <a href="index.html#recovery-rolls">recovery roll</a>. Enabler.</p></li>
 		<li><p><strong>Give Fruit:</strong> When you make a <a href="index.html#recovery-rolls">recovery roll</a>, you can divide points into a fruiting instead of your stat Pools. The fruiting sprouts from your body in the manner of your choosing. A creature&mdash;other than you&mdash;that uses an action to eat a fruiting can divide its points among their stat Pools however they wish. Any fruiting you produce spoils at the end of your next ten-hour recovery roll. Enabler.</li>
@@ -2735,15 +2742,13 @@
 		<div class="col-md-6">
 			<h5 class="og-h-small" id="first-tier-fey-abilities">First-Tier Fey Abilities<a class="og-h-anchor" href="#first-tier-fey-abilities" title="Permalink" aria-hidden="true"></a></h5>
 			<ul class="og-abilities-list">
-				<li><a href="index.html#choose-cantrips">Cantrips</a> <span class="og-ref">(IOM, 82)</span> (choose any four)</li>
+				<li><a href="#choose-abilities">Cantrips</a> <span class="og-ref">(IOM, 82)</span> (choose any four)</li>
 				<li><a href="#ability-calm-stranger">Calm Stranger</a> <span class="og-ref">(118)</span></li>
 				<li><a href="#ability-face-morph">Face Morph</a> <span class="og-ref">(138)</span></li>
 				<li><a href="#ability-fast-talk">Fast Talk</a> <span class="og-ref">(138)</span></li>
 				<li><a href="#ability-fleet-of-foot">Fleet of Foot</a> <span class="og-ref">(141)</span></li>
 				<li><a href="#ability-legerdemain">Legerdemain</a> <span class="og-ref">(157)</span></li>
 				<li><a href="#ability-soul-familiar">Soul Familiar</a> <span class="og-ref">(IOM, 68)</span></li>
-				<li><a href="#ability-summerbloom">Summerbloom</a> <span class="og-ref">(OG-DD)</span></li>
-				<li><a href="#ability-winterchill">Winterchill</a> <span class="og-ref">(OG-DD)</span></li>
 			</ul>
 		</div>
 		<div class="col-md-6">
@@ -3033,7 +3038,7 @@
 		<div class="col-md-6">
 			<h5 class="og-h-small" id="first-tier-ritualist-abilities">First-Tier Ritualist Abilities<a class="og-h-anchor" href="#first-tier-ritualist-abilities" title="Permalink" aria-hidden="true"></a></h5>
 			<ul class="og-abilities-list">
-				<li><a href="index.html#choose-cantrips">Cantrips</a> <span class="og-ref">(IOM, 82)</span> (choose any four)</li>
+				<li><a href="#choose-abilities">Cantrips</a> <span class="og-ref">(IOM, 82)</span> (choose any four)</li>
 				<li><a href="#ability-alleviate">Alleviate</a> <span class="og-ref">(109)</span></li>
 				<li><a href="#ability-craft-arcana">Craft Arcana</a> <span class="og-ref">(OG-DD)</span></li>
 				<li><a href="#ability-critter-companion">Create Water</a> <span class="og-ref">(123)</span></li>
@@ -3043,13 +3048,11 @@
 				<li><a href="#ability-lend-a-hand">Lend a Hand</a> <span class="og-ref">(IOM, 59)</span></li>
 				<li><a href="#ability-library-life">Library Life</a> <span class="og-ref">(IOM, 54)</span></li>
 				<li><a href="#ability-magic-training">Magic Training</a> <span class="og-ref">(159)</span></li>
-				<li><a href="#ability-spook">Spook</a> <span class="og-ref">(OG-DD)</span></li>
 			</ul>
 		</div>
 		<div class="col-md-6">
 			<h5 class="og-h-small" id="second-tier-ritualist-abilities">Second-Tier Ritualist Abilities<a class="og-h-anchor" href="#second-tier-ritualist-abilities" title="Permalink" aria-hidden="true"></a></h5>
 			<ul class="og-abilities-list">
-				<li><a href="#ability-amaneusis">Amaneusis</a> <span class="og-ref">(OG-DD)</span></li>
 				<li><a href="#ability-blessing-of-the-gods">Blessing of the Gods</a> <span class="og-ref">(114)</span></li>
 				<li><a href="#ability-blood-magician">Blood Magician</a> <span class="og-ref">(IOM, 65)</span></li>
 				<li><a href="#ability-command-spirit">Command Spirit</a> <span class="og-ref">(121)</span></li>
@@ -3295,8 +3298,8 @@
 				<li><p><strong>Major Effect Suggestions:</strong> You frighten a creature, sending it fleeing in terror.</p></li>
 			</ul>
 			<ul class="og-abilities-list">
-				<li>Type Swap Option: <a href="#ability-spook">Spook</a> <span class="og-ref">(OG-DD)</span></li>
 				<li>Type Swap Option: <a href="#ability-push">Push</a> <span class="og-ref">(173)</span></li>
+				<li>Tier 1: <a href="#ability-cantrip-spook">Spook Cantrip</a> <span class="og-ref">(OG-DD)</span></li>
 				<li>Tier 1: <a href="#ability-ghostly-nature">Ghostly Nature</a> <span class="og-ref">(OG-DD)</span></li>
 				<li>Tier 1: <a href="#ability-ethereal-jaunt">Ethereal Jaunt</a> <span class="og-ref">(OG-DD)</span></li>
 				<li>Tier 2: <a href="#ability-terrifying-presence">Terrifying Presence</a> <span class="og-ref">(190)</span></li>
@@ -3377,14 +3380,22 @@
 	<hr>
 	<h3 id="chapter-7-abilities">
 		<span class="og-chap">Chapter 7</span>
-		Abilities
+		Cantrips and Abilities
 	</h3>
 	<div class="alert ps-4 pb-0">
 		<h4 id="choose-abilities">Quick Reference: Abilities by Relative Power <a class="og-h-anchor" href="#choose-abilities" title="Permalink" aria-hidden="true"></a></h4>
-		<p>These lists sort abilities original to this document into three power grades: low-, medium-, and high-tier.</p>
+		<p>These lists cantrips and abilities original to this document. Abilities are sorted into three power grades: low-, medium-, and high-tier.</p>
+		<h5 class="og-h-small" id="choose-abilities-cantrips">Cantrips: <a class="og-h-anchor" href="#choose-abilities-cantrips" title="Permalink" aria-hidden="true"></a></h5>
+		<p class="small"><em>Additional <a href="index.html#modern-magic-cantrips">cantrips</a> <span class="og-ref">(IOM, 82)</span> are available in the CSRD.</em></p>
+		<ul class="og-abilities-list og-abilities-list-compact">
+			<li><a href="#ability-cantrip-amaneusis">Amaneusis</a></li>
+			<li><a href="#ability-cantrip-messenger-bird">Messenger Bird</a></li>
+			<li><a href="#ability-cantrip-spook">Spook</a></li>
+			<li><a href="#ability-cantrip-summerbloom">Summerbloom</a></li>
+			<li><a href="#ability-cantrip-winterchill">Winterchill</a></li>
+		</ul>
 		<h5 class="og-h-small" id="choose-abilities-low-tier">Low Tier: <a class="og-h-anchor" href="#choose-abilities-low-tier" title="Permalink" aria-hidden="true"></a></h5>
 		<ul class="og-abilities-list og-abilities-list-compact">
-			<li><a href="#ability-amaneusis">Amaneusis</a></li>
 			<li><a href="#ability-bad-attitude">Bad Attitude</a></li>
 			<li><a href="#ability-chefs-temper">Chef's Temper</a></li>
 			<li><a href="#ability-curse-of-stone">Curse of Stone</a></li>
@@ -3402,11 +3413,8 @@
 			<li><a href="#ability-psychometric-bond">Psychometric Bond</a></li>
 			<li><a href="#ability-read-blood">Read Blood</a></li>
 			<li><a href="#ability-spirited">Spirited</a></li>
-			<li><a href="#ability-spook">Spook</a></li>
-			<li><a href="#ability-summerbloom">Summerbloom</a></li>
 			<li><a href="#ability-true-omnivore">True Omnivore</a></li>
 			<li><a href="#ability-vittles">Vittles</a></li>
-			<li><a href="#ability-winterchill">Winterchill</a></li>
 			<li><a href="#ability-worldly-wiles">Worldly Wiles</a></li>
 		</ul>
 		<h5 class="og-h-small" id="choose-abilities-mid-tier">Mid Tier: <a class="og-h-anchor" href="#choose-abilities-mid-tier" title="Permalink" aria-hidden="true"></a></h5>
@@ -3445,13 +3453,68 @@
 		<p>These abilities are available for Foundry <abbr title="Virtual Tabletop">VTT</abbr> as part of the <a href="https://foundryvtt.com/packages/cyphersystem-community-module">Cypher System Community Content</a> add-on module.</p>
 	</div>
 	<hr>
+	<h4 id="abilities">Daft Drafts Cantrips <a class="og-h-anchor" href="#cantrips" title="Permalink" aria-hidden="true"></a></h4>
+	<ul class="og-ability-details">
+		<li id="ability-cantrip-amaneusis">
+			<p><strong>Amaneusis Cantrip (1 Intellect points):</strong> You cause writing from one source (such as a book) to be copied onto parchment (or into some other appropriate object) you provide. This ability copies approximately 250 words per minute for up to an hour, creating a perfect transcription of the original. The ability only copies mundane text, ignoring illustrations, diagrams or supernatural inscriptions, leaving empty spaces where excluded items appeared in the original. Alternatively, you can also use this ability to dictate verbally, and have your dictation transcribed as if written in your own hand.</p>
+			<p class="og-ind">The ability automatically turns to the next blank page and continues its transcription until it completes the transcription, or it runs out of available pages. Action to initiate. <span class="og-ref">(OG-DD)</span></p>
+		</li>
+		<li id="ability-cantrip-messenger-bird">
+			<p><strong>Messenger Bird Cantrip (1 Intellect point):</strong> When you learn this cantrip, choose a type of bird as your messenger, for example, ravens, owls, or pigeons. You can use this cantrip in multiple ways:</p>
+			<ul class="og-list-disc">
+				<li><p><em>Establish Rookery.</em> You establish a rookery in a safe, unobstructed location. Action to initiate, 1 hour to complete.</p></li>
+				<li><p><em>Record Destination.</em> You conjure a bird, which records the location to memory and flies home to a rookery. Action.</p></li>
+				<li><p><em>Deliver.</em> While at a rookery, you send a bird to its recorded destination. You can instruct it to remain there for up to an hour before returning home. While there, anyone can retrieve any items the bird carries, and if given anything by anyone, the bird returns to the rookery with it. Alternatively, you send a bird to home at different rookery (but maintain its recorded destination). Action. <span class="og-ref">(OG-DD)</span></p></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<dl>
+			<dt>Messenger Bird</dt>
+			<dd>Level 1; Cunning and Speed defense as level 3; flies a long distance each round, or 60 miles (100 km) per hour during uninterrupted travel; carries up to 2.5 ounces (75 g)</dd>
+		</dl>
+	</div>
+	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>The GM might put reasonable restrictions on <a class="og-ability" href="#ability-cantrip-messenger-bird">Messenger Bird Cantrip</a>, for example:</p>
+		<ul class="og-list-disc">
+			<li>Feeding and care&mdash;A rookery must provide a livable space and lifestyle for birds homed there.</li>
+			<li>Rookeries&mdash;PCs can create a number of rookeries equal to their tier + 1. If exceeded, the PC chooses a rookery to expire, freeing all its birds.</li>
+			<li>Flock size&mdash;A rookery can home five birds per PC tier.</li>
+			<li>Travel&mdash;Some locations are too difficult or dangerous for a bird to reach&mdash;in a storm, within an enclosed space, or upon a different plane of existence from a rookery. Birds can't travel more than 1,000 miles (1,600 km).</li>
+		</ul>
+		<ul class="list-unstyled og-ind">
+			<li><p><strong>Messenger Bird GM Intrusions:</strong> A rookery's location arouses unwanted suspicion. A message is accidentally delivered to an unintended recipient. A bird is killed en route. An ill-attended rookery flock revolts against their master.</p></li>
+		</ul>
+	</div>
+	<ul class="og-ability-details">
+		<li id="ability-cantrip-spook">
+			<p><strong>Spook Cantrip (1 Intellect point):</strong> You cause the border between the spirit world to tremble, causing your to voice to boom, flames to flicker, harmless tremors to move through the environment, or nearby unlocked windows and doors to fly open or slam shut. This effect lasts for up to 1 minute. Action to initiate. <span class="og-ref">(OG-DD)</span></p>
+		</li>
+		<li id="ability-cantrip-summerbloom">
+			<p><strong>Summerbloom Cantrip (1 Intellect point):</strong> You create one of the following effects:</p>
+			<ul class="og-list-disc">
+				<li>You create a trinket in your hand that predicts what the weather for the next 24 hours. The trinket does not account for supernatural interference with the weather.</li>
+				<li>You touch a plant of your size or smaller, providing it with enough nourishment for one day. If you wish, it flowers, blooms, fruits, or opens its foliage.</li>
+				<li>You create a harmless display of life's great tapestry within a short distance and in an immediate area&mdash;a shower of cherry blossoms, a warm breeze, the sounds of birdsong or similar effect.</li>
+			</ul>
+			<p class="og-ind">Action. <span class="og-ref">(OG-DD)</span></p>
+		</li>
+		<li id="ability-cantrip-winterchill">
+			<p><strong>Winterchill Cantrip (1 Intellect point):</strong> A plethora of icy formations weave together at your command. Choose one of the following effects:</p>
+			<ul class="og-list-disc">
+				<li>You snuff out a candle, a torch, or a small campfire within long range.</li>
+				<li>You a flurry of snowflakes, a shower of sleet, or a harmless spray of icy mist in an immediate radius within short range.</li>
+				<li>You chill or freeze up to 3 cubic feet (1 cubic m) of nonliving material you can touch for 1 hour.</li>
+				<li>You cause frost to appear on up to 10 feet (3m) diameter of the surface of an object or a surface you touch for 1 minute.</li>
+				<li>You create a flickering image made of ice or snow that fits in your hands and lasts for 1 minute.</li>
+			</ul>
+			<p class="og-ind">Action. <span class="og-ref">(OG-DD)</span></p>
+		</li>
+	</ul>
+	<hr>
 	<h4 id="abilities">Daft Drafts Abilities <a class="og-h-anchor" href="#abilities" title="Permalink" aria-hidden="true"></a></h4>
 	<p>Abilities are presented in alphabetical order.</p>
 	<ul class="og-ability-details">
-		<li id="ability-amaneusis">
-			<p><strong>Amaneusis (2 Intellect points):</strong> You cause writing from one source (such as a book) to be copied onto parchment (or into some other appropriate object) you provide. This ability copies approximately 250 words per minute for up to an hour, creating a perfect transcription of the original. The ability only copies mundane text, ignoring illustrations, diagrams or supernatural inscriptions, leaving empty spaces where excluded items appeared in the original. Alternatively, you can also use this ability to dictate verbally, and have your dictation transcribed as if written in your own hand.</p>
-			<p class="og-ind">The ability automatically turns to the next blank page and continues its transcription until it completes the transcription, or it runs out of available pages. Action to initiate. <span class="og-ref">(OG-DD)</span></p>
-		</li>
 		<li id="ability-animate-flying-servantor">
 			<p><strong>Animate Flying Servantor:</strong> You give life an object, which becomes a level 3 follower of your size or smaller. It accompanies you and follows your instructions. You and the GM must work out the details of your servantor. You'll probably make rolls for it when it takes actions. In combat, the servantor usually doesn't make separate attacks, but helps with yours. On your action, if the servantor is next to you, it serves as an asset for one attack you make on your turn. If the servantor is destroyed, you can repair the original with a few days' worth of tinkering, or build a new one with a week's worth of half-time labor. The servantor can fly a long distance each round. It can carry you, but only for up to an hour between each of your ten-hour <a href="index.html#recovery-rolls">recovery rolls</a>. Enabler. <span class="og-ref">(OG-DD)</span></p>
 		</li>
@@ -3749,18 +3812,6 @@
 		<li id="ability-spirited">
 			<p><strong>Spirited:</strong> You can apply a free level of Effort to a task. You can't use this ability again until after you complete a one-hour or ten-hour recovery roll. Enabler. <span class="og-ref">(OG-DD)</span></p>
 		</li>
-		<li id="ability-spook">
-			<p><strong>Spook (1 Intellect point):</strong> You cause the border between the spirit world to tremble, causing your to voice to boom, flames to flicker, harmless tremors in the ground, walls or furniture, or nearby doors unlocked windows and doors to fly open or slam shut. This effect lasts for up to 1 minute. Action to initiate. <span class="og-ref">(OG-DD)</span></p>
-		</li>
-		<li id="ability-summerbloom">
-			<p><strong>Summerbloom (1 Intellect point):</strong> You create one of the following effects:</p>
-			<ul class="og-list-disc">
-				<li>You create a trinket in your hand that predicts what the weather for the next 24 hours. The trinket does not account for supernatural interference with the weather.</li>
-				<li>You touch a plant of your size or smaller, providing it with enough nourishment for one day. If you wish, it flowers, blooms, fruits, or opens its foliage.</li>
-				<li>You create a harmless display of life's great tapestry within a short distance and in an immediate area&mdash;a shower of cherry blossoms, a warm breeze, the sounds of birdsong or similar effect.</li>
-			</ul>
-			<p class="og-ind">Action. <span class="og-ref">(OG-DD)</span></p>
-		</li>
 		<li id="ability-true-omnivore">
 			<p><strong>True Omnivore:</strong> You can use your bite as a light or a medium weapon, and are practiced in attacks you make with it. You can fit objects up to 1 foot (30 cm) inches in diameter into your mouth and swallow them without difficulty. If you have the time, you can eat almost anything. Your teeth are brutally flat and as hard as steel, and your digestive system (thankfully) remains a mystery. So long as you can put your mouth around something, for the most part, you can eat and subsist on it.</p>
 			<p class="og-ind">If you swallow something, you can use an action to retrieve it later, up to a number of hours equal to the level of the object or creature. Enabler. <span class="og-ref">(OG-DD)</span></p>
@@ -3776,17 +3827,6 @@
 		</li>
 		<li id="ability-vittles">
 			<p><strong>Vittles:</strong> For 24 hours after eating a meal you have prepared, your friends can add a +3 bonus to one recovery roll they make. You choose the Pool the bonus restores points to when you prepare the meal. Enabler. <span class="og-ref">(OG-DD)</span></p>
-		</li>
-		<li id="ability-winterchill">
-			<p><strong>Winterchill (1 Intellect point):</strong> A plethora of icy formations weave together at your command. Choose one of the following effects:</p>
-			<ul class="og-list-disc">
-				<li>You snuff out a candle, a torch, or a small campfire within long range.</li>
-				<li>You a flurry of snowflakes, a shower of sleet, or a harmless spray of icy mist in an immediate radius within short range.</li>
-				<li>You chill or freeze up to 3 cubic feet (1 cubic m) of nonliving material you can touch for 1 hour.</li>
-				<li>You cause frost to appear on up to 10 feet (3m) diameter of the surface of an object or a surface you touch for 1 minute.</li>
-				<li>You create a flickering image made of ice or snow that fits in your hands and lasts for 1 minute.</li>
-			</ul>
-			<p class="og-ind">Action. <span class="og-ref">(OG-DD)</span></p>
 		</li>
 		<li id="ability-worldly-wiles">
 			<p><strong>Worldly Wiles:</strong> You're trained in repairing broken objects, determining the value of objects, and negotiating better prices for goods. Enabler. <span class="og-ref">(OG-DD)</span></p>
@@ -7374,21 +7414,23 @@
 			<tr><th scope="col" class="text-center">d100</th><th scope="col">Artifact</th></tr>
 		</thead>
 		<tbody>
-			<tr><th scope="row" class="fw-normal text-center">01&ndash;09</th><td><a href="#artifact-batpack">Batpack</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">10&ndash;18</th><td><a href="#artifact-dapper-duds">Dapper Duds</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">19&ndash;27</th><td><a href="#artifact-eavesdrops">Eavesdrops</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">28&ndash;36</th><td><a href="#artifact-love-magnet">Love Magnet</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">37&ndash;45</th><td><a href="#artifact-magnetic-weapon">Magnetic Weapon</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">46&ndash;54</th><td><a href="#artifact-ozalid-folio">Ozalid Folio</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">55&ndash;63</th><td><a href="#artifact-petrified-acorns">Petrified Acorns</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">64&ndash;72</th><td><a href="#artifact-retro-causality-weapon">Retro-Causality Weapon</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">73&ndash;81</th><td><a href="#artifact-rivals-gaming-sets">Rival's Gaming Sets</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">92&ndash;90</th><td><a href="#artifact-seatbelt">Seatbelt</a></td></tr>
-			<tr><th scope="row" class="fw-normal text-center">91&ndash;00</th><td><a href="#artifact-talking-ammunition">Talking Ammunition</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">01&ndash;05</th><td><a href="#artifact-batpack">Batpack</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">06&ndash;15</th><td><a href="#artifact-dapper-duds">Dapper duds</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">16&ndash;25</th><td><a href="#artifact-eavesdrops">Eavesdrops</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">26&ndash;35</th><td><a href="#artifact-love-magnet">Love magnet</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">36&ndash;40</th><td><a href="#artifact-magnetic-weapon">Magnetic weapon</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">41&ndash;45</th><td><a href="#artifact-mutagen">Mutagen</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">46&ndash;55</th><td><a href="#artifact-ozalid-folio">Ozalid folio</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">56&ndash;60</th><td><a href="#artifact-petrified-acorns">Petrified acorns</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">61&ndash;80</th><td><a href="#artifact-retro-causality-weapon">Retro-causality weapon</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">71&ndash;80</th><td><a href="#artifact-rivals-gaming-sets">Rival's gaming sets</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">81&ndash;90</th><td><a href="#artifact-seatbelt">Seatbelt</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">91&ndash;95</th><td><a href="#artifact-skimpy-armor">Skimpy armor</a></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">96&ndash;00</th><td><a href="#artifact-talking-ammunition">Talking ammunition</a></td></tr>
 		</tbody>
 	</table></div>
 	<hr>
-	<h5 id="artifact-batpack">Batpack<a class="og-h-anchor" href="#artifact-batpack" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-batpack">Batpack<a class="og-h-anchor" href="#artifact-batpack" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
 		<li><p><strong>Form:</strong> Stylish leather backpack with tooled glyphed designs and two small protruding bat-like wings from the sides</p></li>
@@ -7405,7 +7447,7 @@
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p><strong>Bat:</strong> Level 1</p>
 	</div>
-	<h5 id="artifact-dapper-duds">Dapper Duds<a class="og-h-anchor" href="#artifact-dapper-duds" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-dapper-duds">Dapper Duds<a class="og-h-anchor" href="#artifact-dapper-duds" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
 		<li><p><strong>Form:</strong> Slacks, a jacket, a shirt, and an array of optional accessories: a vest, a tie, a tie clip, a pocket square, a pair of cufflinks, a pair of socks, and a pair of shoes</p></li>
@@ -7417,21 +7459,21 @@
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>Being dressed for the occasion might provide an asset on certain social interactions.</p>
 	</div>
-	<h5 id="artifact-eavesdrops">Eavesdrops<a class="og-h-anchor" href="#artifact-eavesdrops" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-eavesdrops">Eavesdrops<a class="og-h-anchor" href="#artifact-eavesdrops" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
 		<li><p><strong>Form:</strong> Medicine dropper</p></li>
 		<li><p><strong>Effect:</strong> By placing one droplet in each ear, you heighten your ability to hear over great distances through cluttered environments. For the next 10 minutes, you can use your action to create an invisible sensor within long range anywhere you can see. While doing so, you are deafened to your own surroundings, and hear as if you were in the sensor's space out to a 3-foot (1 m) radius. On your turn, you can move the sensor, or abandon the sensor and create a new one.</p></li>
 		<li><p><strong>Depletion:</strong> 1 in 1d6</p></li>
 	</ul>
-	<h5 id="artifact-love-magnet">Love Magnet<a class="og-h-anchor" href="#artifact-love-magnet" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-love-magnet">Love Magnet<a class="og-h-anchor" href="#artifact-love-magnet" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6 + 4</p></li>
 		<li><p><strong>Form:</strong> Horseshoe-shaped lump of brown iron</p></li>
 		<li><p><strong>Effect:</strong> Activate this trinket as part of any pleasant social interaction to gain two assets to the task.</p></li>
 		<li><p><strong>Depletion:</strong> 1 in 1d10</p></li>
 	</ul>
-	<h5 id="artifact-magnetic-weapon">Magnetic Weapon<a class="og-h-anchor" href="#artifact-magnetic-weapon" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-magnetic-weapon">Magnetic Weapon<a class="og-h-anchor" href="#artifact-magnetic-weapon" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
 		<li><p><strong>Form:</strong> Any metal melee weapon</p></li>
@@ -7441,7 +7483,32 @@
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>Common ferrous metals include alloy steel, carbon steel, cast iron and wrought iron.</p>
 	</div>
-	<h5 id="artifact-ozalid-folio">Ozalid Folio<a class="og-h-anchor" href="#artifact-ozalid-folio" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-mutagen">Mutagen<a class="og-h-anchor" href="#artifact-mutagen" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-ind-hang">
+		<li><p><strong>Level:</strong> 1d10</p></li>
+		<li><p><strong>Form:</strong> Injection, topical ooze, or potion</p></li>
+		<li><p><strong>Effect:</strong> The user gains a random mutation. Each time you use this artifact, roll a d20 to determine which table to roll from for your mutation. When rolling from the mutation tables, you can modify your roll's results by adding or subtracting any amount up to the artifact level.</p></li>
+	</ul>
+	<div class="table-responsive"><table class="table table-light table-striped table-sm">
+		<caption>Mutagen Effects</caption>
+		<thead>
+			<tr><th scope="col" class="text-center w-15">d20</th><th scope="col">Mutation Effects</th></tr>
+		</thead>
+		<tbody>
+			<tr><th scope="row" class="fw-normal text-center">1</th><td>Permanently gain one <a href="index.html#harmful-mutations">Harmful Mutation</a> <span class="og-ref">(RR, 79)</span> and one <a href="#cosmetic-mutations">Cosmetic Mutation</a> <span class="og-ref">(RR, 84)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">2</th><td>For 24 hours, gain one <a href="index.html#harmful-mutations">Harmful Mutation</a> <span class="og-ref">(RR, 79)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">3&ndash;9</th><td>For 24 hours, gain one <a href="index.html#beneficial-mutations">Beneficial Mutation</a> <span class="og-ref">(RR, 78)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">10&ndash;13</th><td>For 24 hours, gain one <a href="index.html#distinctive-mutations">Distinctive Mutation</a> <span class="og-ref">(RR, 82)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">14&ndash;17</th><td>For 24 hours, gain one <a href="index.html#powerful-mutations">Powerful Mutation</a> <span class="og-ref">(RR, 80)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">18</th><td>Permanently gain one <a href="index.html#beneficial-mutations">Beneficial Mutation</a> <span class="og-ref">(RR, 78)</span> and one <a href="#cosmetic-mutations">Cosmetic Mutation</a> <span class="og-ref">(RR, 84)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">19</th><td>Permanently gain one <a href="index.html#distinctive-mutations">Distinctive Mutation</a> <span class="og-ref">(RR, 82)</span> and one <a href="#cosmetic-mutations">Cosmetic Mutation</a> <span class="og-ref">(RR, 84)</span></td></tr>
+			<tr><th scope="row" class="fw-normal text-center">20</th><td>Permanently gain one <a href="index.html#powerful-mutations">Powerful Mutation</a> <span class="og-ref">(RR, 80)</span> and one <a href="#cosmetic-mutations">Cosmetic Mutation</a> <span class="og-ref">(RR, 84)</span></td></tr>
+		</tbody>
+	</table></div>
+	<ul class="list-unstyled og-ind-hang">
+		<li><p><strong>Depletion:</strong> 1 in 1d10</p></li>
+	</ul>
+	<h5 class="og-h-small og-tab" id="artifact-ozalid-folio">Ozalid Folio<a class="og-h-anchor" href="#artifact-ozalid-folio" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6 + 4</p></li>
 		<li><p><strong>Form:</strong> Tome of translucent pages</p></li>
@@ -7493,7 +7560,7 @@
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>When the ozalid folio is depleted, all items held within its pages are lost.</p>
 	</div>
-	<h5 id="artifact-petrified-acorns">Petrified Acorns<a class="og-h-anchor" href="#artifact-petrified-acorns" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-petrified-acorns">Petrified Acorns<a class="og-h-anchor" href="#artifact-petrified-acorns" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6 + 1</p></li>
 		<li><p><strong>Form:</strong> Linen pouch containing a few more chalky stone acorns</p></li>
@@ -7519,7 +7586,7 @@
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>When you find a pouch of petrified acorns, roll until you deplete the artifact: The number of rolls you make is the number of acorns in the pouch. Next, roll a d6 on the Acorn Level table for each individual acorn. You can use the acorns in any order you wish.</p>
 	</div>
-	<h5 id="artifact-retro-causality-weapon">Retro-Causality Weapon<a class="og-h-anchor" href="#artifact-retro-causality-weapon" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-retro-causality-weapon">Retro-Causality Weapon<a class="og-h-anchor" href="#artifact-retro-causality-weapon" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
 		<li><p><strong>Form:</strong> Any weapon</p></li>
@@ -7545,7 +7612,7 @@
 	<div class="og-ed pt-3 pb-1 ps-3 pe-3 mt-3 mb-3 small">
 		<p>"I don't think I was even married before I shot them. I probably shouldn't tell my kids that they're just a metacausal byproduct of finding an excuse to shoot someone; that's a hell of an existential crisis to inflict on a child. Nobody wants to have that conversation."</p>
 	</div>
-	<h5 id="artifact-rivals-gaming-sets">Rival's Gaming Sets<a class="og-h-anchor" href="#artifact-rivals-gaming-sets" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-rivals-gaming-sets">Rival's Gaming Sets<a class="og-h-anchor" href="#artifact-rivals-gaming-sets" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
 		<li><p><strong>Form:</strong> Gaming set</p></li>
@@ -7555,16 +7622,26 @@
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 		<p>When discovered, a PC might only find one of the rival's gaming sets, and there may already be a game in progress waiting to be resumed.</p>
 	</div>
-	<h5 id="artifact-seatbelt">Seatbelt<a class="og-h-anchor" href="#artifact-seatbelt" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-seatbelt">Seatbelt<a class="og-h-anchor" href="#artifact-seatbelt" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6</p></li>
 		<li><p><strong>Form:</strong> Belt</p></li>
 		<li><p><strong>Effect:</strong> The user can sit down at any time, and a comfortable chair made of shimmering force appears to catch and conform to the body.</p></li>
 		<li><p><strong>Depletion:</strong> &mdash;</p></li>
 	</ul>
-	<h5 id="artifact-talking-ammunition">Talking Ammunition<a class="og-h-anchor" href="#artifact-talking-ammunition" title="Permalink" aria-hidden="true"></a></h5>
+	<h5 class="og-h-small og-tab" id="artifact-skimpy-armor">Skimpy Armor<a class="og-h-anchor" href="#artifact-skimpy-armor" title="Permalink" aria-hidden="true"></a></h5>
 	<ul class="list-unstyled og-ind-hang">
 		<li><p><strong>Level:</strong> 1d6 + 2</p></li>
+		<li><p><strong>Form:</strong> Little more than a loincloth, fine gold chain, and one fully armored accoutrement&mdash;for example, a pauldron, kneeguard, gauntlet, or nipple shield.</p></li>
+		<li><p><strong>Effect:</strong> If you wear this skimpy armor and nothing else, you gain a bonus to Armor equal to the artifact level.</p></li>
+		<li><p><strong>Depletion:</strong> 1 in 1d10 (Check each time you fail a defense roll. Upon depletion, you have an embarrassing&mdash;or empowering&mdash;wardrobe mishap.)</p></li>
+	</ul>
+	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>Skimpy armor doesn't encumber a PC, imposing no <a href="index.html#equipment-using-armor">Speed Effort cost</a> for wearing armor.</p>
+	</div>
+	<h5 class="og-h-small og-tab" id="artifact-talking-ammunition">Talking Ammunition<a class="og-h-anchor" href="#artifact-talking-ammunition" title="Permalink" aria-hidden="true"></a></h5>
+	<ul class="list-unstyled og-ind-hang">
+		<li><p><strong>Level:</strong> 1d6 + 1</p></li>
 		<li><p><strong>Form:</strong> Quiver, case, sack, or crate</p></li>
 		<li><p><strong>Effect:</strong> When found, the artifact contains a number of pieces of ammunition equal to the artifact level. You can use an action to set the talking ammunition at the ready to stow them away. While active, the talking ammunition carry on with you and each other in a boisterous manner, hindering your stealth rolls. Each piece of ammunition provides an asset to the attack roll, inflicts 2 additional points of damage. The final piece of ammunition provides two assets to the attack roll, and inflicts 4 additional points of damage.</p></li>
 		<li><p><strong>Depletion:</strong> Automatic (when the final piece of ammunition is fired)</p></li>
@@ -8648,7 +8725,7 @@
 			<li><a href="#mech-death">Mechs and Death</a></li>
 		</ul>			
 	</div>
-	<p>The following rules modules expand on <a href="index.html#extended-vehicular-combat">extended vehicular combat</a> <span class="og-ref">(SF, 39)</span>. Use of these rules assumes the game will involve no small amount of combat between fantastic vehicles&mdash;mechs&mdash;and appropriate high-<a href="#mech-magnitude">magnitude</a> threats like <a href="index.html#creature-kaiju">kaiju</a> <span class="og-ref">(338)</span>. GMs and players should be prepared to do a little extra maths when calculating task difficulty or damage.</p>
+	<p>The following rules modules expand on <a href="index.html#extended-vehicular-combat">extended vehicular combat</a> <span class="og-ref">(SF, 39)</span>. Use of these rules assumes the game will involve no small amount of combat between fantastic vehicles&mdash;mechs&mdash;and appropriate high-<a href="#mech-magnitude">magnitude</a> threats like <a href="index.html#creature-kaiju">kaiju</a> <span class="og-ref">(338)</span>. GMs and players should be prepared to do a little extra maths when calculating task difficulty or damage. Turn-taking will also become a little more complex as players can perform different combinations of actions on their turn while piloting a mech.</p>
 	<hr>
 	<h4 class="og-border" id="mech-pilot-pcs">Mech Pilot PCs<a class="og-h-anchor" href="#mech-pilot-pcs" title="Permalink" aria-hidden="true"></a></h4>
 	<p>It's important for the GM to decide how much of the game will take place piloting mechs, and how much will involve experiences outside of the cockpit. Like any setting, the GM should be thoughtful about how PCs are constructed, for example:</p>
@@ -8678,7 +8755,7 @@
 			<dt>Tech Points</dt>
 			<dd>Mechs have a single Pool of Tech points, whose total equals the pilot's total Pool points + 8.
 				<ul>
-					<li>When the pilot's activate special abilities or uses Effort, the points are spent from the mech's Tech Pool intead of the pilot's Pools. The pilot's Edge stills reduces the total Tech point cost for the action. For example, if your mech performs a <a class="og-ability" href="#ability-bash">Bash</a> attack, it costs the mech 1 Tech point (instead of costing your PC 1 Might point). If you have 1 Might Edge, you can still the <a class="og-ability" href="#ability-bash">Bash</a> ability at no cost.</li>
+					<li>When the pilot's activate special abilities or uses Effort, the points are spent from the mech's Tech Pool intead of the pilot's Pools. The pilot's Edge stills reduces the total Tech point cost for the action. For example, if your mech performs a <a class="og-ability" href="#ability-bash">Bash</a> attack, it costs the mech 1 Tech point (instead of costing your PC 1 Might point). If you have 1 Might Edge, you can still use the <a class="og-ability" href="#ability-bash">Bash</a> ability at no cost.</li>
 					<li>When a mech takes damage, the amount inflicted is subtracted from their Tech Pool's points. If a mech is reduced to 0 Tech points, the GM determines what happens to the mech and pilot, as described in <a href="#mech-death">Mechs and Death</a>.</li>
 					<li>When a PC makes a recovery roll in combat, they can use the result to restore missing Tech points to their mech instead of their stat Pools. Mechs can also be repaired in between missions, restoring their Tech Pool to its maximum number of points.</li>
 				</ul>
@@ -8709,22 +8786,29 @@
 			<dt>Action Enhancer Module</dt>
 			<dd>The mech can take one additional action as part of the same action on your turn. Choose one action from the following: move, attack, activate a special ability, activate a cypher, and activate an artifact. If you choose attack, specify the weapon or special ability this option executes. You can choose this tech shift multiple times, selecting a different option each time. You are still limited by the amount of Effort you can apply on one action.</dd>
 			<dt>Combiner Module</dt>
-			<dd>The mech can combine with one or more compatible mechs with a combiner module tech shift. A combined mech's magnitude is equal to the highest magnitude of the component mech, plus one for each additional component mech. Once combined, A combined mech usually has multiple stations, and is operated using the rules for <a href="index.html">Bridge Combat</a> <span class="og-ref">(SF, 43)</span>.</dd>
+			<dd>The mech can combine with one or more compatible mechs with a combiner module tech shift. A combined mech's <a href="#mech-magnitude">magnitude</a> is equal to the highest magnitude of the component mech, plus one for each additional component mech. Once combined, A combined mech usually has multiple stations, and is operated using the rules for <a href="index.html">Bridge Combat</a> <span class="og-ref">(SF, 43)</span>.</dd>
 			<dt>Flight Module</dt>
 			<dd>The mech can fly a long distance as an action. If you choose this shift a second time, the flight distance increases to very long.</dd>
 			<dt>Impact Module</dt>
-			<dd>Choose one weapon attack or ability. Increase its damage inflicted by 3. You can choose this shift multiple times, but it can't increase the damage of any single attack by more than 6.</dd>
+			<dd>Choose one weapon attack or ability. Increase its damage inflicted by 3. You can choose this shift multiple times, but it can't increase the damage of any single attack more than three times.</dd>
 			<dt>Mass Detruction Module</dt>
 			<dd>Eases tasks to grapple others, break or destroy objects and structures, or throw heavy objects.</dd>
 			<dt>Range Increase Module</dt>
 			<dd>Increases the range of one ability or attack. A touch-range ability increases to short range, a short-range ability increases to long range, and a long-range ability increases to very long range. You can choose this shift multiple times.</dd>
 			<dt>Repair Module</dt>
-			<dd>As an action, the mech can regain 1d6 + mech level missing Tech points. You can choose this shift up to four times.</dd>
+			<dd>As part of another action, the mech can regain 1d6 + mech level missing Tech points. You can choose this shift up to four times.</dd>
 			<dt>Response Enhancer Module</dt>
 			<dd>The mech eases initiative and Speed defense tasks. You can choose this shift twice.</dd>
 			<dt>Tech Boost Module</dt>
-			<dd>Gain a mech focus ability from up to one tier above the pilot's tier.</dd>
+			<dd>Gain a mech ability available to your pilot's tier. The ability you choose is subject to GM approval, so it's best to start by reviewing abilities from other approved mech foci.</dd>
 		</dl>
+	</div>
+	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<ul class="list-unstyled og-ind">
+			<li><p><strong>Combined Mech Abilities:</strong> The GM decides if combined mechs retain any of the the component mechs' focus abilities, and if the combined mech has its own focus abilities and tech shifts. The GM decides which stations activate the combined mech's abilities, and might require a station have a minimum number of pilots. Each missing pilot at a station hinders that tasks performed at that station one step.</p></li>
+			<li><p><strong>Combining Tech Pools:</strong> Depending on the setting, the GM might prefer to keep a combined mech's Tech points in a single number. Start with the mech with the highest number of tech points, and add +8 for each component mech. This is an easier solution, especially if there are four or more component mechs to combine.</p></li>
+			<li><p><strong>Separate Components:</strong> Alternatively, the GM might decide component mechs retain their own Tech points, and each component mech can be targeted independently. When using this solution, it's probably best if there are only two or three component mechs.</p></li>
+		</ul>
 	</div>
 	<h5 class="og-h-small"  id="mech-magnitude">Magnitude<a class="og-h-anchor" href="#mech-magnitude" title="Permalink" aria-hidden="true"></a></h5>
 	<p>Magnitude measures a threat differential between two targets. In some games, magnitude by correspond to size (as indicated on the following table), but it also represent technology level.</p>
