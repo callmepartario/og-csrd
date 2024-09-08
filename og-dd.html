@@ -3834,7 +3834,7 @@
 	</ul>
 	<hr>
 	<h4 id="abilities-csrd"><abbr title="Cypher System Reference Document">CSRD</abbr> Abilities <a class="og-h-anchor" href="#abilities-csrd" title="Permalink" aria-hidden="true"></a></h4>
-	<p>Abilities are presented in alphabetical order. For more information about these abilities, see <a href="index.html#chapter-9-abilities">Chapter 9: Abilities</a> of <a href="index.html">Old Gus' Cypher System Reference Document</a>.</p>
+	<p>Abilities are presented in alphabetical order. For more information about these abilities, see <a href="index.html#chapter-9-abilities">Chapter 9: Abilities</a> of <a href="index.html">Old Gus' Cypher System Reference Document (OG-CSRD)</a>.</p>
 	<ul class="og-ability-details">
 		<li id="ability-able-assistance">
 			<p><strong>Able Assistance:</strong> When you <a href="index.html#cooperative-actions">help</a> someone with a task and they apply a level of Effort, they get a <a href="index.html#modifying-the-difficulty-effort">free level of Effort</a> on that task. Enabler. <span class="og-ref">(108)</span></p>
@@ -8717,104 +8717,183 @@
 	<div class="alert ps-4 pb-0">
 		<h4 class="og-h-small" id="choose-mecha">Quick Reference: Mechs<a class="og-h-anchor" href="#choose-mecha" title="Permalink" aria-hidden="true"></a></h4>
 		<ul class="list-unstyled og-qr">
-			<li><a href="#mech-pilot-pcs">Mech Pilot PCs</a></li>
+			<li><a href="#mech-pilot-pcs">PCs as Mech Pilots</a></li>
 			<li><a href="#mech-properties">Mech Properties</a></li>
-			<li><a href="#mech-tech-shifts">Tech Shifts</a></li>
+			<li><a href="#mech-defining-the-setting">Defining the Setting</a></li>
+			<li><a href="#mech-tech-points">Tech Points</a></li>
+			<li><a href="#mech-pilot-injury">Pilot Injury and Death</a></li>
+			<li><a href="#mech-damage">Mech Damage and Destruction</a></li>
+			<li><a href="#mech-tech-modules">Tech Modules</a></li>
 			<li><a href="#mech-magnitude">Magnitude</a></li>
-			<li><a href="#mech-optional-rule-damage-threshold">Optional Rule: Damage Threshold</a></li>
-			<li><a href="#mech-death">Mechs and Death</a></li>
-		</ul>			
+		</ul>
+		<p><strong>Optional Rules</strong></p>
+		<ul class="list-unstyled og-qr">
+			<li><a href="#mech-optional-rule-sentient">Sentient Mechs</a></li>
+			<li><a href="#mech-combined">Combined Mechs</a></li>
+			<li><a href="#mech-optional-rule-damage-threshold">Damage Threshold</a></li>
+		</ul>
 	</div>
-	<p>The following rules modules expand on <a href="index.html#extended-vehicular-combat">extended vehicular combat</a> <span class="og-ref">(SF, 39)</span>. Use of these rules assumes the game will involve no small amount of combat between fantastic vehicles&mdash;mechs&mdash;and appropriate high-<a href="#mech-magnitude">magnitude</a> threats like <a href="index.html#creature-kaiju">kaiju</a> <span class="og-ref">(338)</span>.</p>
+	<p>The following rules modules expand on <a href="index.html#extended-vehicular-combat">extended vehicular combat</a> <span class="og-ref">(SF, 39)</span>. Use of these rules assumes the game will involve no small amount of combat between fantastic vehicles&mdash;mechs&mdash;and appropriate high-<a href="#mech-magnitude">magnitude</a> threats like other mechs, alien invasions, or <a href="index.html#creature-kaiju">kaiju</a> <span class="og-ref">(338)</span>.</p>
 	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p><strong>Crunch Warning:</strong> When using these rules, GMs and players should be prepared to do a little extra maths when calculating task difficulty or damage. Turn-taking will also become a little more complex as players can perform different combinations of actions on their turn while piloting a mech.</p>
+		<p><strong>Crunch Warning:</strong> When using these rules, GMs and players should be prepared to do a little extra maths when calculating task difficulty or damage. Turn-taking will also become a little more complex, as players can perform new combinations of actions on their turn while piloting their mech.</p>
+	</div>
+	<div class="alert ps-4 pb-0">
+		<h5 class="og-h-small" id="mass-destruction">Mass Destruction<a class="og-h-anchor" href="#mass-destruction" title="Permalink" aria-hidden="true"></a></h5>
+		<p>Giant robots, alien invasions, and kaiju are certain to cause no small amount of environmental destruction. <a class="og-icon og-mcg" href="https://www.montecookgames.com/store/product/first-responders/">First Respondders</a> includes excellent guide to creating different kinds of compelling disasters. If you want to explore mech stories from outside the cockpit and at the stree level, it's a must-buy!</p>
 	</div>
 	<hr>
-	<h4 class="og-border" id="mech-pilot-pcs">Mech Pilot PCs<a class="og-h-anchor" href="#mech-pilot-pcs" title="Permalink" aria-hidden="true"></a></h4>
-	<p>It's important for the GM to decide how much of the game will take place piloting mechs, and how much will involve experiences outside of the cockpit. Like any setting, the GM should be thoughtful about how PCs are constructed, for example:</p>
-	<div class="alert ps-4 pb-0">
-		<dl>
-			<dt>Gritty</dt>
-			<dd>Compared to mechs, pilots are fragile and limited. Use the PC generation method outlined in <a href="#chapter-8-gritty-rules-modules">Chapter 8: Gritty Rules Modules</a>.</dd>
-			<dt>Mundane Pilots</dt>
-			<dd>Use the standard Cypher System <a href="#character-sentence-generator">character creation</a>, but PCs can only choose from <a href="index.html#mundane-foci">mundane foci</a>. Some abilities and skills will not be applicable when piloting mechs (determined by the GM).</dd>
-			<dt>Heroes Throughout</dt>
-			<dd>Use the standard Cypher System <a href="#character-sentence-generator">character creation</a>. Players might pick powerful combinations of PC and <a href="#mech-properties">mech foci</a> that allow them to pilot their mechs in unique ways.</dd>
-			<dt>Sentient Mechs</dt>
-			<dd>If the GM allows, a player can play a sentient mech that operates as their own pilot.</dd>
-		</dl>
+	<h4 class="og-border" id="mech-pilot-pcs">PCs as Mech Pilots<a class="og-h-anchor" href="#mech-pilot-pcs" title="Permalink" aria-hidden="true"></a></h4>
+	<div class="row">
+		<div class="col-lg-6">
+			<p>It's important for the GM to decide how much of the game will take place piloting mechs, and how much will involve experiences outside of the cockpit. Like any setting, the GM should be thoughtful about how PCs are constructed, for example:</p>
+			<ul class="list-unstyled og-ind">
+				<li><p><strong>Gritty:</strong> Compared to mechs, pilots are fragile and limited. Use the PC generation method outlined in <a href="#chapter-8-gritty-rules-modules">Chapter 8: Gritty Rules Modules</a>.</p></li>
+				<li><p><strong>Mundane Pilots:</strong> Use the standard Cypher System <a href="#character-sentence-generator">character creation</a>, but PCs can only choose from <a href="index.html#mundane-foci">mundane foci</a>. Some abilities and skills will not be applicable when piloting mechs (determined by the GM).</p></li>
+				<li><p><strong>Heroes Throughout:</strong> Use the standard Cypher System <a href="#character-sentence-generator">character creation</a>. Players might combine their <a href="index.html#choose-descriptor">descriptor</a>, <a href="index.html#choose-type">type</a>, <a href="index.html#choose-focus">focus</a> with their <a href="#mech-properties">mech focus</a>.</p></li>
+			</ul>
+		</div>
+		<div class="col-lg-6">
+			<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<ul class="list-unstyled og-inde">
+					<li><p><strong>Piloting Skill:</strong> The default assumption is that mech pilots PCs are skilled with the basic operation of a mech. The GM could reat "piloting" skill to be broadly applicable to a wide variety of movement tasks. Additionally, the GM might hinder tasks when piloting an unfamiliar mech.</p></li>
+					<li><p><strong>Co-Piloting:</strong>In some settings, mechs might require more than one pilot, and use the <a href="index.html">Bridge Combat</a> <span class="og-ref">(SF, 43)</span> or <a href="#mech-combined">Drift Piloting</a> rules for their operation.</p></li>
+				</ul>
+			</div>
+			<div class="alert ps-4 pb-0">
+				<h5 class="og-h-small" id="mech-optional-rule-sentient">Optional Rule: Sentient Mechs<a class="og-h-anchor" href="#mech-optional-rule-sentient" title="Permalink" aria-hidden="true"></a></h5>
+				<p>With the GM's approval, a player can play a sentient mech that operates as their own pilot.</a></p>
+			</div>
+		</div>
 	</div>
 	<hr>
 	<h4 class="og-border" id="mech-properties">Mech Properties<a class="og-h-anchor" href="#mech-properties" title="Permalink" aria-hidden="true"></a></h4>
-	<p>In many ways, operating a mechs is like having a bigger and stronger PC, but there are a few differences:</p>
-	<div class="alert ps-4 pb-0">
-		<dl>
-			<dt>Entering and Exiting</dt>
-			<dd>Entering or exiting a mech and becoming ready to pilot it requires an action, at minimum&mdash;The GM decides on the exact start-up times of mechs.</dd>
-			<dt>Movement</dt>
-			<dd>Mechs can move a long distance each round as an action. If the pilot suceeds on a difficulty 4 Speed task, the mech can move a long distance and take another relatively simple action (for example, moving again or making an attack).</dd>
-			<dt>Mech Focus</dt>
-			<dd>Like PCs, mechs have a <a href="index.html#choose-focus">focus</a>. While operating a mech, a pilot can use their own abilities, or activate any of the mech's focus abilities available to the pilot's tier. The GM might decide certain PC abilities can't be used by while piloting.</dd>
-			<dt>Tech Points</dt>
-			<dd>Mechs have a single Pool of Tech points, whose total equals the pilot's total Pool points + 8.
-				<ul>
-					<li>When the pilot's activate special abilities or uses Effort, the points are spent from the mech's Tech Pool intead of the pilot's Pools. The pilot's Edge stills reduces the total Tech point cost for the action. For example, if your mech performs a <a class="og-ability" href="#ability-bash">Bash</a> attack, it costs the mech 1 Tech point (instead of costing your PC 1 Might point). If you have 1 Might Edge, you can still use the <a class="og-ability" href="#ability-bash">Bash</a> ability at no cost.</li>
-					<li>When a mech takes damage, the amount inflicted is subtracted from their Tech Pool's points. If a mech is reduced to 0 Tech points, the GM determines what happens to the mech and pilot, as described in <a href="#mech-death">Mechs and Death</a>.</li>
-					<li>When a pilot makes a recovery roll, they can use the result to restore missing Tech points to their mech instead of their stat Pools. Mechs can also be repaired in between missions, restoring their Tech Pool to its maximum number of points.</li>
+	<div class="row">
+		<div class="col-lg-6">
+			<p>In many ways, operating a mechs is like having a bigger and stronger PC, but there are a few differences:</p>
+			<ul class="list-unstyled og-ind">
+				<li><p><strong>Entering and Exiting:</strong> Entering or exiting a mech and becoming ready to pilot it requires an action, at minimum&mdash;The GM might decide start-up for mechs requires a longer procedure.</p></li>
+				<li><p><strong>Movement:</strong> Mechs can move a long distance each round as an action. If the pilot suceeds on a difficulty 4 Speed task, the mech can move a long distance and take another relatively simple action (for example, moving again or making an attack). What is considered difficult terrain for a mech might depend on its <a href="#mech-magnitude">magnitude</a>.</p></li>
+				<li><p><strong>Mech Abilities:</strong> Like PCs, mechs have a <a href="index.html#choose-focus">focus</a>. While operating a mech, a pilot can use their own abilities, or activate any of the mech's focus abilities available to the pilot's tier. The GM might decide certain PC abilities can't be used by while piloting.</p></li>
+				<li><p><strong>Tech Points:</strong> Mechs have a single Pool of <a href="mech-tech-points">Tech points</a>, whose maximum equals the pilot's total Pool points + 8. Like a PC's stat Pools, a mech's Tech points measure their remaining offensive output, defensive capacity, and structural condition.</p></li>
+				<li><p><strong>Tech Modules:</strong> Mechs with <a href="#mech-tech-modules">tech modules</a> have been upgraded or customized.</p></li>
+				<li><p><strong>Magnitude:</strong> <a href="#mech-magnitude">Magnitude</a> determine's a mech's overall threat level independent of pilot skill. Depending on the setting, it might represent size, technology level, or a combination of the two.</p></li>
+			</ul>
+		</div>
+		<div class="col-lg-6">
+			<div class="alert ps-4 pb-0">
+				<h5 class="og-h-small" id="mech-defining-the-setting">Defining the Setting<a class="og-h-anchor" href="#mech-defining-the-setting" title="Permalink" aria-hidden="true"></a></h5>
+				<p>The GM should consider the following questions about how they want mechs to work in the setting and feel in gameplay:</p>
+				<ul class="list-unstyled og-ind">
+					<li><p><strong>Cosmetics and Thematics:</strong> Cosmetic limitations or thematic requirements for mechs might be in order. For example, it might be important to the setting that each mech is modeled after an animal shape, or has a more or less humanoid frame.</p>
+					<li><p><strong>Mission Profile:</strong> What are the mechs for? Do they defend one particular location, or are they regularly deployed to different locations? Is mech warefare conducted by engaging in an all-out assault, or do they involve long-term missions behind enemy lines?</p></li>
+					<li><p><strong>Choosing Mech Foci:</strong> The GM determines what <a href="index.html#choose-focus">foci</a> are avaliable to PCs and their mechs as appropriate for the setting&mdash;mechs might be mundane creations of science and steel, while others might be made of enchanted ironwood and fueled by magic crystals.</p></li>
+					<li><p><strong>Customizing Pilots and Mechs:</strong> Make use of the <a href="index.html#choose-flavor">flavor</a> options, and exchange abilities from a type or focus for something more interesting from <a href="index.html#chapter-9-abilities">Chapter 9: Abilities</a>. In some settings, pilots might maintain more than one mech, and choose which one to use on a mission.</p></li>
+					<li><p><strong>Cyphers and Artifacts:</strong> The GM determines if <a href="index.html#choose-cyphers">cyphers</a> and <a href="index.html#choose-artifacts">artifacts</a> apply to pilots, mechs, or both.</p></li>
+					<li><p><strong>Crafting, Building and Repairing Mechs:</strong> Depending on the setting, PCs might want to <a href="index.html#crafting-building-and-repairing">craft, build, or repair</a> mechs&mdash;at least to an operable status. Full repairs might require the a workshop or other appropriate facility.</p></li>
+					<li><p><strong>Optional Rules:</strong> The GM might allow mech pilots to perform <a href="index.html#extended-vehicular-combat-redline-maneuver">redline maneuvers</a> <span class="og-ref">(SF, 41)</span> or use the optional <a href="index.html#house-rule-ultimate-damage">Ultimate Damage</a> <span class="og-ref">(OG-CSRD)</span> rule.</p></li>
 				</ul>
-			</dd>
-			<dt>Mech Level and Tech Shifts</dt>
-			<dd>Mechs can be customized and improved after their construction. By paying 10 XP, a pilot can increase their mech's level. When they do, the mech gains two additional <a href="#mech-tech-shifts">tech shifts</a>.</dd>
-			<dt>Magnitude</dt>
-			<dd><a href="#mech-magnitude">Magnitude</a> determine's a mech's overall threat level independent of pilot skill. Depending on the setting, it might represent size, technology level, or a combination of the two.</dd>
-		</dl>
+			</div>
+		</div>
 	</div>
-	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<ul class="list-unstyled og-ind">
-			<li><p><strong>Piloting Skill:</strong> The default assumption is that mech pilots PCs are skilled with the basic operation of a mech. The GM could reat "piloting" skill to be broadly applicable to a wide variety of movement tasks. Additionally, the GM might hinder tasks when piloting an unfamiliar mech.</p></li>
-			<li><p><strong>Choosing Mech Foci:</strong> The GM determines what foci are avaliable to PCs and their mechs as appropriate for the setting&mdash;mechs might be mundane creations of science and steel, while others might be made of enchanted ironwood and fueled by magic crystals.</p></li>
-			<li><p><strong>Cyphers and Mechs:</strong> The GM determines if a given cypher or artifact applies to pilots, mechs, or both.</p></li>
-			<li><p><strong>Increasing Mech Level:</strong> Upgrading mechs to a new level might require some amount of time (determined by the GM). While in an unfinished state, all the mech's tasks are hindered by two steps.</p></li>
-			<li><p><strong>Redline Maneuvers:</strong> The GM might allow mech pilots to perform <a href="index.html#extended-vehicular-combat-redline-maneuver">redline maneuvers</a> <span class="og-ref">(SF, 41)</span> or use the optional <a href="index.html#house-rule-ultimate-damage">Ultimate Damage</a> <span class="og-ref">(OG-CSRD)</span> rule.</p></li>
-		</ul>
-	</div>
-	<h5 class="og-h-small" id="mech-tech-shifts">Tech Shifts<a class="og-h-anchor" href="#mech-tech-shifts" title="Permalink" aria-hidden="true"></a></h5>
-	<p>A mech has 2 tech shifts for each mech level. Depending on the setting, the GM might require certain tech shifts, or disallow the use of others.</p>
+	<h4 class="og-border" id="mech-tech-points">Tech Points<a class="og-h-anchor" href="#mech-tech-points" title="Permalink" aria-hidden="true"></a></h4>
+	<p>When piloting, a mech's Tech points are used instead of the pilot's Pools.</p>
+	<ul class="list-unstyled og-ind">
+		<li><p><strong>Using Abilities and Effort:</strong> When a pilot activates a special abilities or uses Effort, the points are spent from the mech's Tech Pool intead of the pilot's stat Pools. The pilot's Edge stills reduces the total Tech point cost for the action. For example, if your mech performs a <a class="og-ability" href="#ability-bash">Bash</a> attack, it costs the mech 1 Tech point (instead of costing your PC 1 Might point). If you have 1 Might Edge, you can still use the <a class="og-ability" href="#ability-bash">Bash</a> ability at no cost.</p></li>
+		<li><p><strong>Taking Damage:</strong> When a mech takes damage, the amount inflicted is subtracted from their Tech Pool's points. If a mech is reduced to 0 Tech points, the GM determines what happens to the mech and pilot.</p></li>
+		<li><p><strong>Recovering Tech Points:</strong> When a pilot makes a <a href="index.html#recovery-roll">recovery roll</a>, they can use the result to restore missing Tech points to their mech instead of their stat Pools. Mechs can also be repaired in between missions, restoring their Tech Pool to its maximum number of points.</p></li>
+	</ul>
 	<div class="alert ps-4 pb-0">
-		<dl>
-			<dt>Ablative Armor Module</dt>
-			<dd>Eases Might defense rolls, and the mech gains +1 Armor. You can choose this shift up to three times.</dd>
-			<dt>Accuracy Module</dt>
-			<dd>Ease attack rolls for one weapon or special ability. You can's apply this shift to an attack or special ability more than three times.</dd>
-			<dt>Action Enhancer Module</dt>
-			<dd>The mech can take one additional action as part of the same action on your turn. Choose one action from the following: move, attack, activate a special ability, activate a cypher, and activate an artifact. If you choose attack, specify the weapon or special ability this option executes. You can choose this tech shift multiple times, selecting a different option each time. You are still limited by the amount of Effort you can apply on one action.</dd>
-			<dt>Combiner Module</dt>
-			<dd>The mech can combine with one or more compatible mechs with a combiner module tech shift. A combined mech's <a href="#mech-magnitude">magnitude</a> is equal to the highest magnitude of the component mech, plus one for each additional component mech. Once combined, A combined mech usually has multiple stations, and is operated using the rules for <a href="index.html">Bridge Combat</a> <span class="og-ref">(SF, 43)</span>.</dd>
-			<dt>Flight Module</dt>
-			<dd>The mech can fly a long distance as an action. If you choose this shift a second time, the flight distance increases to very long.</dd>
-			<dt>Impact Module</dt>
-			<dd>Choose one weapon attack or ability. Increase its damage inflicted by 3. You can choose this shift multiple times, but it can't increase the damage of any single attack more than three times.</dd>
-			<dt>Mass Detruction Module</dt>
-			<dd>Eases tasks to grapple others, break or destroy objects and structures, or throw heavy objects.</dd>
-			<dt>Range Increase Module</dt>
-			<dd>Increases the range of one ability or attack. A touch-range ability increases to short range, a short-range ability increases to long range, and a long-range ability increases to very long range. You can choose this shift multiple times.</dd>
-			<dt>Repair Module</dt>
-			<dd>As part of another action, the mech can regain 1d6 + mech level missing Tech points. You can choose this shift up to four times.</dd>
-			<dt>Response Enhancer Module</dt>
-			<dd>The mech eases initiative and Speed defense tasks. You can choose this shift twice.</dd>
-			<dt>Tech Boost Module</dt>
-			<dd>Gain a mech ability available to your pilot's tier. The ability you choose is subject to GM approval, so it's best to start by reviewing abilities from other approved mech foci.</dd>
-		</dl>
-	</div>
-	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<h5 class="og-h-small" id="mech-pilot-injury">Pilot Injury and Death<a class="og-h-anchor" href="#mech-pilot-injury" title="Permalink" aria-hidden="true"></a></h5>
+		<p>The GM selects a general method to determine what happens to pilots when their a mech they are piloting is reduced to 0 <a href="#mech-properties">Tech points</a>. The GM also decides if the pilots of <a href="#mech-combined">combined mechs</a> are affected individually, or as a group.</p>
 		<ul class="list-unstyled og-ind">
-			<li><strong>Upgrade Facilities:</strong> In some settings, PCs might be able to add levels to their mech at any time&mdash;even in the middle of combat. In other settings, <a href="index.html#crafting-building-and-repairing">crafting, building, and repairing</a> a mech might require at minimum a feasible workshop, and some upgrades might require an advanced facility with dozens of qualified technicians.</p></li>
-			<li><p><strong>Combined Mech Abilities:</strong> The GM decides if combined mechs retain any of the the component mechs' focus abilities, and if the combined mech has its own focus abilities and tech shifts. The GM decides which stations activate the combined mech's abilities, and might require a station have a minimum number of pilots. Each missing pilot at a station hinders that tasks performed at that station one step.</p></li>
-			<li><p><strong>Combining Tech Pools:</strong> Depending on the setting, the GM might prefer to keep a combined mech's Tech points in a single number. Start with the mech with the highest number of tech points, and add +8 for each component mech. This is an easier solution, especially if there are four or more component mechs to combine.</p></li>
-			<li><p><strong>Separate Components:</strong> Alternatively, the GM might decide component mechs retain their own Tech points, and each component mech can be targeted independently. When using this solution, it's probably best if there are only two or three component mechs.</p></li>
+			<li><p><strong>Safe Landing:</strong> Pilots land on their feet on a nearby surface.</p></li>
+			<li><p><strong>Damage Overrun:</strong> Whem a mech is reduced to 0 tech points, any damage remainder is inflicted on the pilot instead.</p></li>
+			<li><p><strong>Instant Death:</strong> The pilot dies.</p></li>
+			<li><p><strong>Roll for Injury:</strong> Roll 1d6:</p></li>
 		</ul>
+		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+			<caption>Mech Pilot Injuries</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="text-center w-15">d6</th><th scope="col">Injury</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><th scope="row" class="text-center fw-normal">1</th><td>The pilot dies.</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">2&ndash;3</th><td>The pilot descends two steps on the damage track.</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">4&ndash;5</th><td>The pilot descends one step on the damage track.</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">6</th><td>The damage remainder after the mech is reduced to 0 Tech points is inflicted upon the pilot. If the damage causes the pilot to descend on the damage track, the pilot also gains a random <a href="#condition-effects">condition</a>.</td></tr>
+			</tbody>
+		</table></div>
+		<h5 class="og-h-small" id="mech-damage">Mech Damage and Destruction<a class="og-h-anchor" href="#mech-damage" title="Permalink" aria-hidden="true"></a></h5>
+		<p>The GM should also select a general method of what happens to a mech when their <a href="#mech-properties">Tech points</a> are reduced to 0:</p>
+		<ul class="list-unstyled og-ind">
+			<li><p><strong>Always Destroyed:</strong> Mechs reduced to 0 Tech points are always destroyed. If the pilot survives, they will require a new mech.</p></li>
+			<li><p><strong>Always Damaged:</strong> If the damaged mech can be retrieved from the battlefield, it can be repaired by qualified characters.</p></li>
+			<li><p><strong>Roll for Mech Damage Track:</strong> Roll 1d6:</p></li>
+		</ul>
+		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+			<caption>Mech Damage Track</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="text-center w-15">d6</th><th scope="col">Damage</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><th scope="row" class="text-center fw-normal">1</th><td><p><strong>Destroyed:</strong> Destroyed or damaged beyond repair. Some parts might be salvaged.</p></td></tr>
+				<tr><th scope="row" class="text-center fw-normal">2&ndash;3</th><td><p><strong>Major Damage:</strong> Inoperable, and lose two <a href="#mech-tech-modules">tech modules</a> until fully repaired. If repaired to operability, in addition to the effects of minor damage, all tasks when piloting the mech are hindered. Alternatively, the GM might inflict a random <a href="#condition-effects">condition</a> on the mech, which persists until fully repaired.</p></td></tr>
+				<tr><th scope="row" class="text-center fw-normal">4&ndash;5</th><td><p><strong>Minor Damage:</strong> Inoperable, and lose one random <a href="#mech-tech-modules">tech modules</a> until fully repaired. If restored to operability:</p>
+					<ul>
+						<li>Using <a href="index.html#Effort">Effort</a> costs 1 additional point per level used.</li>
+						<li>The effects of <a href="index.html#rules-special-rolls">Special rolls</a> are ignored, unless they trigger a <a href="index.html#choose-gm-intrusion">GM intrusions</a>.</li>
+					</ul>
+				</td></tr>
+				<tr><th scope="row" class="text-center fw-normal">6</th><td><p><strong>Intact:</strong> Intact, but inoperable until repaired.</p></td></tr>
+			</tbody>
+		</table></div>
 	</div>
-	<h5 class="og-h-small"  id="mech-magnitude">Magnitude<a class="og-h-anchor" href="#mech-magnitude" title="Permalink" aria-hidden="true"></a></h5>
+	<hr>
+	<h4 class="og-border" id="mech-tech-modules">Tech Modules<a class="og-h-anchor" href="#mech-tech-modules" title="Permalink" aria-hidden="true"></a></h4>
+	<div class="row">
+		<div class="col-lg-6">
+			<p>The GM determines how many tech modules a pilot's mech begins with. Depending on the setting, the GM might require mechs obtain certain tech modules, and disallow the use of others.</p>
+			<div class="alert ps-4 pb-0">
+				<h5 class="og-h-small" id="mech-tech-module-examples">Example Tech Modules<a class="og-h-anchor" href="#mech-tech-module-examples" title="Permalink" aria-hidden="true"></a></h5>
+				<ul class="list-unstyled og-ind">
+					<li><p><strong>Ablative Armor:</strong> Eases Might defense rolls, and the mech gains +1 Armor. You can choose this shift up to three times.</p></li>
+					<li><p><strong>Action Enhancer:</strong> The mech can take one additional action as part of the same action on your turn. Choose one action from the following: move, attack, activate a special ability, activate a cypher, and activate an artifact. If you choose attack, specify the weapon or special ability this option executes. You can choose this module multiple times, selecting a different option each time. You are still limited by the amount of Effort you can apply on one action.</p></li>
+					<li><p><strong>Combiner:</strong> The mech can combine with one or more compatible mechs with a combiner module module. A <a href="#mech-combined">combined mech</a>'s <a href="#mech-magnitude">magnitude</a> is equal to the highest magnitude of the component mech, plus one for each additional component mech.</p></li>
+					<li><p><strong>Flight:</strong> The mech can fly a long distance as an action. If you choose this shift a second time, the flight distance increases to very long.</p></li>
+					<li><p><strong>Gestalt:</strong> The mech can use an action to become a vehicle, for example, a fire truck, fighter jet, boat, or submarine. You gain appropriate modifications to your movement speed when transformed. The GM might approve the use of this module to take other forms, eases related tasks&mdash;for example, becoming a microscope might ease tasks related to scientific knowledge. Your transformed form might hinder certain tasks, or even make them impossible. You can choose this module twice, selecting a different form each time.</p></li>
+					<li><p><strong>Impact:</strong> Choose one weapon attack or ability. Increase its damage inflicted by 3. You can choose this shift multiple times, but it can't increase the damage of any single attack more than three times.</p></li>
+					<li><p><strong>Mass Detruction:</strong> Eases tasks to grapple others, break or destroy objects and structures, or throw heavy objects.</p></li>
+					<li><p><strong>Range Increase:</strong> Increases the range of one ability or attack. A touch-range ability increases to short range, a short-range ability increases to long range, and a long-range ability increases to very long range. You can choose this shift multiple times.</p></li>
+					<li><p><strong>Repair:</strong> As part of another action, the mech can regain 1d6 + mech level missing Tech points. You can choose this shift up to four times.</p></li>
+					<li><p><strong>Response Enhancer:</strong> The mech eases initiative and Speed defense tasks. You can choose this shift twice.</p></li>
+					<li><p><strong>Targeting:</strong> Ease attack rolls for one weapon or special ability. You can's apply this shift to an attack or special ability more than three times.</p></li>
+					<li><p><strong>Tech Capacity:</strong> The mech adds +4 Tech points to its Pool. You can choose this shift three times.</p></li>
+					<li><p><strong>Tech Boost:</strong> Gain a mech ability from <a href="index.html#chapter-9-abilities">Abilities</a> with a power grade available to your pilot's tier. The ability you choose is subject to GM approval, so it might be best to start by reviewing abilities from other approved mech foci.</p></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<h5 class="og-h-small" id="mech-upgrades">Upgrading Tech Modules<a class="og-h-anchor" href="#mech-upgrades" title="Permalink" aria-hidden="true"></a></h5>
+			<p>PCs can either gain additional tech modules for their mech by paying 6 XP, or some appropriate method determined by the GM. In some settings, PCs might be able to add tech modules to their mech at any time&mdash;even in the middle of combat. In other settings,  a mech might require at minimum a feasible workshop, and some upgrades might require an advanced facility with dozens of qualified technicians.</p>
+			<div class="alert ps-4 pb-0">
+				<h5 class="og-h-small" id="mech-combined">Optional Rule: Combined Mechs<a class="og-h-anchor" href="#mech-combined" title="Permalink" aria-hidden="true"></a></h5>
+				<p>Resolving the effects of the <a href="#mech-tech-module-examples">Combiner tech module</a> requires the GM to make a few additional decisions about how piloting combined mechs work. These options are also good to think about in any co-piloting situation.</p>
+				<ul class="list-unstyled og-ind">
+					<li><p><strong>Bridge Combat:</strong> The combined mech has multiple stations, and is operated using the rules for <a href="index.html">Bridge Combat</a> <span class="og-ref">(SF, 43)</span></p></li>
+					<li><p><strong>Drift Piloting:</strong> Alternatively, combined mechs require coordinated piloting. If co-pilots work together on an action, the action is eased by two steps. If each pilot takes their own action, their tasks are hindered.</p></li>
+					<li><p><strong>Combine Abilities:</strong> The GM decides if combined mechs retain any of the the component mechs' focus abilities, and if the combined mech gains its own focus or additional abilities and tech modules. The GM also decides which stations activate the combined mech's abilities, and might require a station have a minimum number of pilots. Each missing pilot at a station hinders that tasks performed at that station one step.</p></li>
+					<li><p><strong>Combine Tech Pools:</strong> Depending on the setting, the GM might prefer to keep a combined mech's Tech points in a single number. Start with the mech with the highest number of tech points, and add +8 for each component mech. This is an easier solution, especially if there are four or more component mechs to combine.</p></li>
+					<li><p><strong>Component Mechs:</strong> Alternatively, the GM might decide component mechs retain their own Tech points, and each component mech can be targeted independently. When using this solution, it's probably best if there are only two or three component mechs.</p></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<h4 class="og-border"  id="mech-magnitude">Magnitude<a class="og-h-anchor" href="#mech-magnitude" title="Permalink" aria-hidden="true"></a></h4>
 	<p>Magnitude measures a threat differential between two targets. In some games, magnitude by correspond to size (as indicated on the following table), but it also represent technology level.</p>
 	<p class="og-ind">Magnitude modifies the difficulty of successfully attacking a target or defending against them. Attack and defense tasks are eased if your magnitude is higher, and hindered if your magnitude is lower. The number of steps eased or hindered is equal to the magnitude difference between the attacker and defender.</p>
 	<p class="og-ind">For example, if you are piloting an M5 mobile frame, and you attack level 3 NPC piloting an M6 mech, the magnitude difference is 1. Thus, the difficulty of successfully attacking the target is raised to 4.</p>
@@ -9103,63 +9182,94 @@
 		</table></div>
 	</div>
 	<hr>
-	<h4 class="og-border" id="mech-death">Mechs and Death<a class="og-h-anchor" href="#mech-death" title="Permalink" aria-hidden="true"></a></h4>
-	<p>The GM should select a general method of what happens to a mech when their <a href="#mech-properties">Tech points</a> are reduced to 0:</p>
-	<div class="alert ps-4 pb-0">
-		<dl>
-			<dt>Always Destroyed</dt>
-			<dd>Mechs reduced to 0 Tech points are always destroyed. If the pilot survives, they will require a new mech.</dd>
-			<dt>Always Damaged</dt>
-			<dd>If the damaged mech can be retrieved from the battlefield, it can be repaired by qualified characters.</dd>
-			<dt>Roll for Mech Damage Track</dt>
-			<dd>Roll 1d6:</dd>
-		</dl>
-		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
-			<caption>Mech Damage Track</caption>
-			<thead>
-				<tr>
-					<th scope="col" class="text-center w-15">d6</th><th scope="col">Damage</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr><th scope="row" class="text-center fw-normal">1</th><td><strong>Intact:</strong> Intact, but inoperable until repaired.</td></tr>
-				<tr><th scope="row" class="text-center fw-normal">2</th><td><strong>Minor Damage:</strong> Inoperable. Until fully repaired, the mech loses one level (and thus two random <a href="#mech-tech-shifts">tech shifts</a>).</td></tr>
-				<tr><th scope="row" class="text-center fw-normal">3&ndash;5</th><td><strong>Major Damage:</strong> Inoperable. Until fully repaired, the mech loses two levels (and thus four random <a href="#mech-tech-shifts">tech shifts</a>), and mech focus abilities are limited to those half the pilot's tier (rounded up), and all tasks the mech performs are hindered.</td></tr>
-				<tr><th scope="row" class="text-center fw-normal">6</th><td><strong>Destroyed:</strong> Destroyed or damaged beyond repair. Some parts might be salvaged.</td></tr>
-			</tbody>
-		</table></div>
-	</div>
-	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-		<p>The GM decides the best circumstances under which mechs can be <a href="index.html#crafting-building-and-repairing">crafted, built, or repaired</a>. Depending on the setting, pilots might be able to repair their own mechs in the field&mdash;at least to an operable status&mdash;given tools and time. Full repairs might require the a workshop or other appropriate facility.</p>
-	</div>
-	<p class="og-ind">The GM also selects a general method to determine what happens to pilots when their a mech they are piloting is reduced to 0 Tech points. The GM also decides if the pilots of combined mechs are affected individually, or as a group.</p>
-	<div class="alert ps-4 pb-0">
-		<dl>
-			<dt>Pilots Always Eject</dt>
-			<dd>Pilots land on their feet on a nearby surface.</dd>
-			<dt>Pilot Damage Overrun</dt>
-			<dd>Whem a mech is reduced to 0 tech points, any damage remainder is inflicted on the pilot instead.</dd>
-			<dt>Instant Pilot Mortality</dt>
-			<dd>The pilot dies.</dd>
-			<dt>Roll for Pilot Injury</dt>
-			<dd>Roll 1d6:</dd>
-		</dl>
-		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
-			<caption>Mech Pilot Injuries</caption>
-			<thead>
-				<tr>
-					<th scope="col" class="text-center w-15">d6</th><th scope="col">Injury</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr><th scope="row" class="text-center fw-normal">1&ndash;2</th><td>The pilot descends one step on the damage track.</td></tr>
-				<tr><th scope="row" class="text-center fw-normal">3&ndash;4</th><td>The pilot descends two steps on the damage track.</td></tr>
-				<tr><th scope="row" class="text-center fw-normal">5</th><td>The damage remainder after the mech is reduced to 0 Tech points is inflicted upon the pilot. If the damage causes the pilot to descend on the damage track, the pilot also gains a random <a href="#condition-effects">condition</a>.</td></tr>
-				<tr><th scope="row" class="text-center fw-normal">6</th><td>The pilot dies.</td></tr>
-			</tbody>
-		</table></div>
+	<!--
+	<h4 class="og-border" id="mech-examples">Example Pilots and Mechs<a class="og-h-anchor" href="#mech-examples" title="Permalink" aria-hidden="true"></a></h4>
+	<h5 class="" id="mech-example-1">Example 1<a class="og-h-anchor" href="#mech-example-1" title="Permalink" aria-hidden="true"></a></h5>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="alert ps-4 pb-0">
+				<h6 id="mech-example-1-pilot">Pilot: <a class="og-h-anchor" href="#mech-example-1-pilot" title="Permalink" aria-hidden="true"></a></h6>
+				<p><em>Pilot is <a href="index.html#descriptor-">Descriptor</a> <a href="index.html#type-">Type</a> with <a href="index.html#flavor-">Flavor</a> who <a href="index.html#focus-">Focus</a></em></p>
+				<hr>
+				<p>Pilot info</p>
+				<ul class="list-unstyled og-ind-hang">
+					<li><p><strong>Abilities:</strong> </p></li>
+				</ul>
+			</div>
+			<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Sidebar</p>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="alert ps-4 pb-0">
+				<h6 class="og-tab" id="mech-example-1-pilot">Mech: Example Mech 1<a class="og-h-anchor" href="#mech-example-1-pilot" title="Permalink" aria-hidden="true"></a></h6>
+				<ul class="list-unstyled og-ind-hang">
+					<li><p><strong>Tech Points:</strong> 34 (+ descriptor bonus)</p></li>
+					<li><p><strong>Magnitude:</strong> 4</p></li>
+					<li><p><strong>Focus:</strong> <a href="index.html#focus-">Focus</a></p></li>
+					<li><p><strong>Abilities:</strong> </p></li>
+					<li><p><strong>Tech Modules:</strong></p></li>
+				</ul>
+				<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+					<caption>Example Mech 1 &mdash; Tech Modules</caption>
+					<thead>
+						<tr>
+							<th scope="col">Tech Modules</th>
+							<th scope="col" class="text-center w-15">Number</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row" class="fw-normal">Shift</th>
+							<td class="text-center">1</td>
+						</tr>
+						<tr>
+							<th scope="row" class="fw-normal">Shift [<a class="og-ability" href=""></a>]</th>
+							<td class="text-center">1</td>
+						</tr>
+					</tbody>
+				</table></div>
+			</div>
+			<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Sidebar</p>
+			</div>
+		</div>
 	</div>
 	<hr>
+	<h4 class="og-border" id="mech-cyphers">Mech Cyphers and Artifacts<a class="og-h-anchor" href="#mech-cyphers" title="Permalink" aria-hidden="true"></a></h4>
+	<hr>
+	<h4 class="og-border" id="mech-threats">Mech Threats<a class="og-h-anchor" href="#mech-threats" title="Permalink" aria-hidden="true"></a></h4>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Sidebar</p>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="alert ps-4 pb-0">
+				<h5 class="og-h-small og-tab" id="mech-threat-" >Mech Threat <span class="float-end">4 (12)</span><a class="og-h-anchor" href="#mech-threat-" title="Permalink" aria-hidden="true"></a></h5>
+				<ul class="list-unstyled og-ind-hang">
+					<li><p><strong>Magnitude:</strong> 4</p></li>
+					<li><p><strong>Health:</strong> 40</p></li>
+					<li><p><strong>Armor:</strong> 2</p></li>
+					<li><p><strong>Movement:</strong> Long</p></li>
+					<li><p><strong>Modificiations:</strong> </p></li>
+					<li><p><strong>Combat:</strong> </p>
+						<ul class="og-list-disc">
+							<li><p><em>Action.</em> Description.</p></li>
+							<li><p><em>Action.</em> Description.</p></li>
+							<li><p><em>Action.</em> Description.</p></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+				<p>Sidebar</p>
+			</div>
+		</div>
+	</div>
+	<hr>
+	-->
 <!--
 	Creatures
 	Aboreal Octopus
