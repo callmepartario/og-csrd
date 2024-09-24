@@ -1039,12 +1039,14 @@ div.og-alert {
 }
 .theme-light div.og-alert h4, 
 .theme-light div.og-alert h5, 
-.theme-light div.og-alert h6 {
+.theme-light div.og-alert h6,
+.theme-light div.og-alert .h7 {
 	color: #408b93 !important;
 }
 .theme-dark div.og-alert h4, 
 .theme-dark div.og-alert h5, 
-.theme-dark div.og-alert h6 {
+.theme-dark div.og-alert h6,
+.theme-dark div.og-alert .h7 {
 	color: #408b93 !important;
 }
 div.og-alert .og-border { 
