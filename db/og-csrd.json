@@ -82,7 +82,13 @@
     "an <a href='#superhero-descriptor-incredible'>Incredible</a>",
     "a <a href='#superhero-descriptor-mighty'>Mighty</a>",
     "a <a href='#superhero-descriptor-sensational'>Sensational</a>",
-    "an <a href='#superhero-descriptor-uncanny'>Uncanny</a>"
+    "an <a href='#superhero-descriptor-uncanny'>Uncanny</a>",
+    "a <a href='#fairy-tale-descriptor-bewitched'>Bewitched</a>",
+    "a <a href='#fairy-tale-descriptor-changeling'>Changeling</a>",
+    "a <a href='#fairy-tale-descriptor-fragmented'>Fragmented</a>",
+    "a <a href='#fairy-tale-descriptor-frumious'>Frumious</a>",
+    "a <a href='#fairy-tale-descriptor-haunted'>Haunted</a>",
+    "a <a href='#fairy-tale-descriptor-lost'>Lost</a>"
   ],
   "charactertype": [ 
     "<a href='#type-warrior'>Warrior</a>",
@@ -96,6 +102,7 @@
     "<a href='#focus-awakens-dreams'>Awakens Dreams</a>",
     "<a href='#focus-battles-robots'>Battles Robots</a>",
     "<a href='#focus-bears-a-halo-of-fire'>Bears a Halo of Fire</a>",
+    "<a href='#focus-befriends-the-black-dog'>Befriends the Black Dog</a>",
     "<a href='#focus-blazes-with-radiance'>Blazes With Radiance</a>",
     "<a href='#focus-brandishes-an-exotic-shield'>Brandishes an Exotic Shield</a>",
     "<a href='#focus-builds-robots'>Builds Robots</a>",
@@ -111,6 +118,7 @@
     "<a href='#focus-copies-superpowers'>Copies Superpowers</a>",
     "<a href='#focus-crafts-illusions'>Crafts Illusions</a>",
     "<a href='#focus-crafts-unique-objects'>Crafts Unique Objects</a>",
+    "<a href='#focus-curses-the-world'>Curses the World</a>",
     "<a href='#focus-dances-with-dark-matter'>Dances With Dark Matter</a>",
     "<a href='#focus-defends-the-gate'>Defends the Gate</a>",
     "<a href='#focus-defends-the-weak'>Defends the Weak</a>",
@@ -123,6 +131,7 @@
     "<a href='#focus-exists-in-two-places-at-once'>Exists in Two Places at Once</a>",
     "<a href='#focus-exists-partially-out-of-phase'>Exists Partially Out of Phase</a>",
     "<a href='#focus-explores-dark-places'>Explores Dark Places</a>",
+    "<a href='#focus-feigns-no-fear'>Feigns No Fear</a>",
     "<a href='#focus-fights-dirty'>Fights Dirty</a>",
     "<a href='#focus-fights-with-panache'>Fights With Panache</a>",
     "<a href='#focus-flies-faster-than-a-bullet'>Flies Faster Than a Bullet</a>",
@@ -147,9 +156,11 @@
     "<a href='#focus-leads'>Leads</a>",
     "<a href='#focus-learned-from-the-classics'>Learned from the Classics</a>",
     "<a href='#focus-learns-quickly'>Learns Quickly</a>",
+    "<a href='#focus-lived-among-the-fey'>Lived Among the Fey</a>",
     "<a href='#focus-lives-in-the-wilderness'>Lives in the Wilderness</a>",
     "<a href='#focus-looks-for-trouble'>Looks for Trouble</a>",
     "<a href='#focus-loves-the-void'>Loves the Void</a>",
+    "<a href='#focus-made-a-deal-with-death'>Made a Deal With Death</a>",
     "<a href='#focus-masters-defense'>Masters Defense</a>",
     "<a href='#focus-masters-spells'>Masters Spells</a>",
     "<a href='#focus-masters-the-swarm'>Masters the Swarm</a>",
@@ -177,6 +188,7 @@
     "<a href='#focus-sculpts-hard-light'>Sculpts Hard Light</a>",
     "<a href='#focus-sees-beyond'>Sees Beyond</a>",
     "<a href='#focus-separates-mind-from-body'>Separates Mind From Body</a>",
+    "<a href='#focus-sheds-their-skin'>Sheds Their Skin</a>",
     "<a href='#focus-shepherds-the-community'>Shepherds the Community</a>",
     "<a href='#focus-shepherds-spirits'>Shepherds Spirits</a>",
     "<a href='#focus-shreds-the-walls-of-the-world'>Shreds the Walls of the World</a>",
@@ -211,7 +223,7 @@
     "<a href='#focus-works-the-back-alleys'>Works the Back Alleys</a>",
     "<a href='#focus-works-the-system'>Works the System</a>",
     "<a href='#focus-would-rather-be-reading'>Would Rather Be Reading</a>"
-   ],
+  ],
    "characterflavor": [ 
     " with <a href='#flavor-charms-and-figments'>Charms and Figments Flavor</a>",
     " with <a href='#flavor-combat'>Combat Flavor</a>",
@@ -261,6 +273,10 @@
 		"must <a href='#arc-train-a-creature'>Train a Creature</a>",
 		"must undergo a dramatic <a href='#arc-transformation'>Transformation</a>",
 		"am tired of lies, and want to <a href='#arc-uncover-a-secret'>Uncover a Secret</a>",
-		"must <a href='#arc-undo-a-wrong'>Undo a Wrong</a> of the past"
-   ]
+		"must <a href='#arc-undo-a-wrong'>Undo a Wrong</a> of the past",
+		"will <a href='#arc-become-an-advocate'>Become an Advocate</a> for those in need",
+		"must <a href='#arc-develop-coping-strategies'>Develop Coping Strategies</a> for what I've been through",
+		"am finally ready to settle down and <a href='#arc-put-down-roots'>Put Down Roots</a>",
+		"am about to <a href='#arc-take-the-wrong-path'>Take the Wrong Path</a>"
+  ]
 }
