@@ -128,7 +128,14 @@
   }
 
   function setup() {
-    var settings = localStorage.getItem('lightSwitch');
+    var settings = null;
+    
+    try {
+      settings = localStorage.getItem('lightSwitch');
+    }catch(e){
+      console.error(e);
+    }
+    
     if (settings == null) {
       settings = getSystemDefaultTheme();
     }
