@@ -130,10 +130,10 @@
   function setup() {
     var settings = null;
     
-	  try {
-		  settings = localStorage.getItem('lightSwitch');
-	  }catch(e){
-		  console.error(e);
+    try {
+      settings = localStorage.getItem('lightSwitch');
+    }catch(e){
+      console.error(e);
     }
     
     if (settings == null) {
