@@ -16,6 +16,16 @@
     font-family: Orbitron;
     src:url('../fonts/Orbitron-VariableFont_wght.ttf') format(truetype);
 }
+@font-face {
+    font-family: 'Shantell Sans';
+    src:url('../fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf') format(truetype);
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Shantell Sans';
+    src:url('../fonts/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf') format(truetype);
+	font-style: italic;
+}
 
 /* width, by percent */
 .w-95 { width: 95% !important; }
@@ -1008,11 +1018,17 @@ a.og-csrd-link-white:hover { color: #fff !important; }
 	border-left: 0.25rem solid;
 }
 
+.og-ed {
+	font-family: 'Shantell Sans';
+}
+
 .theme-light .og-ed {
+	color: #204649;
 	border-color: #408b93;
 	background-color: #fffbf2 !important;
 }
 .theme-dark .og-ed {
+	color: #78adb3;
 	border-color: #408b93;
 	background-color: #1f2733 !important;
 }
