@@ -21,7 +21,7 @@ This should go without saying, but Old Gus' Unofficial Cypher System Player's Gu
 
 https://callmepartario.github.io/og-csrd/og-dd.html
 
-A collection of free, online options for your best game ever—new character options, cyphers, artifacts and tools for GMs. Also available for [Cypher System Community Content module for Foundry VTT](https://foundryvtt.com/packages/cyphersystem-community-module) and the [Lost Company Press Cypher Character Generator](https://lostcompanypress.com/app/cypher_character_generator).
+A collection of free, online options for your best game ever—new character options, cyphers, artifacts and tools for GMs. Also available for [Cypher System Community Content module for Foundry VTT](https://foundryvtt.com/packages/cyphersystem-community-module).
 
 ## Old Gus' Cypher System Character Sheet (OG-CSCS)
 
