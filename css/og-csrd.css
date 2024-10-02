@@ -1019,16 +1019,17 @@ a.og-csrd-link-white:hover { color: #fff !important; }
 }
 
 .og-ed {
-	font-family: 'Shantell Sans';
+	font-family: 'Shantell Sans', Arial, sans-serif;
+	font-size: 85%;
 }
 
 .theme-light .og-ed {
-	color: #204649;
+	color: #2d2a83;
 	border-color: #408b93;
 	background-color: #fffbf2 !important;
 }
 .theme-dark .og-ed {
-	color: #78adb3;
+	color: #9adee5;
 	border-color: #408b93;
 	background-color: #1f2733 !important;
 }
