@@ -511,7 +511,6 @@ ul.og-list-disc {
 ul.og-list-disc li {
 	margin-bottom: 0.25em;
 }
-
 ul.og-list-disc-compact li { break-inside: avoid-column; }
 
 @media (min-width: 576px) {
@@ -600,6 +599,7 @@ a.og-ability {
 	background-repeat: no-repeat;
 	background-size: 1.25rem;
 }
+
 /* SVG iconography for Cyphers */
 .og-cypher-subtle::before, 
 .og-legend ul.og-legend-list li.og-cypher-subtle { 
@@ -613,6 +613,7 @@ a.og-ability {
 .og-legend ul.og-legend-list li.og-cypher-fantastic { 
 	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='og-cypher-fantastic' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 72 72' style='enable-background:new 0 0 72 72%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bclip-path:url(%23SVGID_2_)%3Bfill:%23c92732%3B%7D.st1%7Bclip-path:url(%23SVGID_2_)%3Bfill:%23FFFFFF%3B%7D.st2%7Bfill:none%3B%7D%3C/style%3E%3Cg%3E%3Cdefs%3E%3Crect id='SVGID_1_' x='3.6' y='3.6' width='64.8' height='64.8'/%3E%3C/defs%3E%3CclipPath id='SVGID_2_'%3E%3Cuse xlink:href='%23SVGID_1_' style='overflow:visible%3B'/%3E%3C/clipPath%3E%3Cpath class='st0' d='M68.4 36c0 17.9-14.5 32.4-32.4 32.4C18.1 68.4 3.6 53.9 3.6 36C3.6 18.1 18.1 3.6 36 3.6C53.9 3.6 68.4 18.1 68.4 36'/%3E%3Cpath class='st1' d='M39.8 40.6c0.7-0.2 1.5-0.3 2.2-0.6c2.1-0.7 3.5-2.2 4.4-4.1c0.8-1.7 1.1-3.5 1.1-5.4c0-2.1-0.3-4.1-0.3-6.1c-0.1-1.6 0-3.2 0.4-4.8c0.7-2.8 3.6-5.1 6.2-5.1c0.1 0 0.2 0 0.2-0.1c-0.1-0.1-0.3-0.1-0.4-0.1c-3.1-0.5-6.1-0.1-8.9 1.4c-2 1.1-3.5 2.7-4.2 4.9c-0.3 1-0.3 2-0.3 3.1c0.1 1.5 0.4 2.9 0.4 4.4c0 1.8-0.6 3.4-2 4.5c-0.1 0-0.1 0.1-0.2 0.2c2.1-2.8 2.2-5.8 0.5-8.7c-0.7-1.2-1.8-2.1-3.2-2.5c0 0.2 0.2 0.2 0.2 0.3c1.4 0.9 1.8 2.2 1.6 3.8c-0.2 1.9-1.2 3.5-2.6 4.7c-0.8 0.7-1.8 0.9-2.8 1.2c-1.2 0.3-2.4 0.4-3.6 0.7c-1.2 0.3-2.3 1-3 2c-1 1.3-1.4 2.8-0.9 4.5c0.1 0.3 0.1 0.6 0.2 0.8c0 0 0 0 0 0.1c-0.3-0.5-0.5-0.9-0.6-1.4c-0.4-1.4 0-2.7 0.7-4c0.8-1.4 2-2.2 3.4-2.7c1-0.4 2-0.7 2.8-1.3c1.1-0.7 1.9-1.6 2.1-2.9c0.1-0.4 0.1-0.6 0-0.8c-0.1 0-0.1 0.1-0.1 0.2c-0.2 1.1-1 1.8-1.9 2.3c-1.1 0.6-2.4 0.9-3.6 1.2c-1.3 0.3-2.5 0.6-3.8 1c-2.4 0.9-4.1 2.5-5.2 4.8c-0.9 2-1.2 4.1-1.1 6.3c0.2 2.9 1.5 5.4 3.2 7.7c1.1 1.5 2.5 2.8 4 3.9c1.8 1.3 3.7 2 5.8 2.4c1.8 0.3 3.6 0.4 5.4 0.2c1.1-0.1 2.1-0.6 3.2-1c1.7-0.8 3.2-1.8 4.5-3.2c1.8-1.9 2.8-4.1 2.7-6.7c0-0.4-0.1-0.9-0.2-1.3c-0.1 0-0.1 0-0.1 0.1c-0.3 1.5-1.3 2.3-2.6 2.7c-1 0.3-2 0.4-3.1 0.3c-1.1-0.1-2.2-0.1-3.2 0.2c-1.4 0.4-2.2 1.2-2.5 2.6c0 0 0 0.1-0.1 0.1c-0.1-0.9 0.2-1.7 0.8-2.3c0.8-0.8 1.8-1.1 2.9-1.5c1.5-0.5 3-0.8 4.4-1.5c3.5-1.7 5.4-4.5 5.7-8.4c0.1-0.7 0-1.5-0.1-2.2c0-0.1 0-0.3-0.1-0.4C47.2 38.6 44 40.2 39.8 40.6'/%3E%3Cpath class='st1' d='M38.3 54.5c-4.3 5.8-12.5 7-18.3 2.6c-5.8-4.3-7-12.5-2.6-18.3c4.3-5.8 12.5-7 18.3-2.6S42.6 48.7 38.3 54.5'/%3E%3Cpath class='st1' d='M53.7 23c3.9-2.6 3.2-3.3 3.6-4.2c0.5-0.9 1.1 5.8-1.6 7.6c-2.7 1.8-3.5 1.1-3.5 4.2c-0.1 3.1-2.1-2-1.5-3.7C51.1 25.2 53.7 23 53.7 23'/%3E%3C/g%3E%3Crect class='st2' width='72' height='72'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
 }
+
 /* SVG iconography for Tech Levels */
 ul.og-tech-contemporary li, 
 .og-legend ul.og-legend-list li.og-tech-contemporary, 
@@ -629,6 +630,7 @@ ul.og-tech-fantastic li,
 h5.og-tech-fantastic::after {
 	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1080 1080' style='enable-background:new 0 0 1080 1080%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%238dd2de%3B%7D.st2%7Bfont-family:'MyriadPro-Regular'%3B%7D.st3%7Bfont-size:12px%3B%7D%3C/style%3E%3Crect x='-0.7' y='-1.5' class='st0' width='1080.7' height='1080.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='technology-fantastic-fill'%3E%3Cpath class='st1' d='M241.6 63.2c-0.5 43.7-16.3 81-47.4 111.9c-30.8 30.9-67.9 46.7-111.2 47.4c0.4 0 0.9 0 1.3 0.1c42.8 1 79.4 16.7 109.9 47.1c30.6 30.6 46.4 67.2 47.4 110v0.6c0.9-43 16.6-79.9 47.2-110.6c31.1-31 68.5-46.7 112.2-47.2c-43.7-0.5-81.1-16.3-112.2-47.4C257.8 144.2 242.1 106.9 241.6 63.2 M486.8 352.9c21.4-32.2 48.1-40.4 80-24.6c30.8 15.2 46.4 48.4 46.9 99.6c35-27.6 43.6-74.3 26-139.9c-17.7-65.7-61-85.2-129.9-58.6c-80.6 31.2-138 82-172 152.5c-50.5 104.7-32 171.2 55.4 199.6c-47.9 39.8-86.8 17.8-116.8-66c-25.7 36.9-28.4 78.3-8 124.2c29 65.3 75 80.7 137.9 46.2c90.1-49.6 141.7-118.6 154.7-206.9C570.9 412.9 546.1 370.9 486.8 352.9 M770.8 766c83-100.1 139.5-268.7 169.5-505.8c65.5 52.2 65.8 196.8 0.9 433.8c89.2-35.5 133.8-158.1 133.6-367.9c0-209.8-93.1-310.1-279.1-300.7c-170.1 9-290.2 72-360.2 189.1C568.1 141 649.3 129.4 679 179.8c54.3 91.9 43.8 203.8-31.5 335.7c-75.4 131.9-149.3 210.5-221.8 236c-107.4 53.4-173.3 26.4-197.6-81c-35.2 6.7-50.6 54.5-46.1 143.5c-58.3-73.8-55.9-230.2 7.2-469.2C32.6 482.9-24.2 646.9 18.8 836.8c42.9 189.9 165.2 256.4 367 199.4C527.9 994.5 656.3 904.4 770.8 766z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Ctext transform='matrix(1 0 0 1 517.9302 542.522)' class='st2 st3'%3E394b68%3C/text%3E%3C/svg%3E");
 }
+
 /* shop iconography for additional descriptors and foci */
 .og-legend ul.og-legend-list li.og-mcg, 
 .og-mcg::before, 
@@ -713,7 +715,6 @@ h5.og-tech-fantastic::after {
 	color: #fff !important;
 	background-color: #408b93;
 }
-
 #part0 h4, 
 #part0, 
 #part0 .alert, 
@@ -970,7 +971,6 @@ ul.og-toc {
 	color: #408b93;
 	border-color: #408b93;
 }
-
 .theme-light #part0 div.og-sidebar { background-color: #fff2fc; }
 .theme-light #part1 div.og-sidebar { background-color: #f2f7ff; }
 .theme-light #part2 div.og-sidebar { background-color: #fff6f2; }
@@ -1000,7 +1000,6 @@ ul.og-toc {
 .theme-dark #part5 div.og-sidebar { background-color: #222529; }
 .theme-dark #part6 div.og-sidebar { background-color: #222829; }
 
-
 /* for tabbed headers that will always have dark backgrounds */
 h3.text-white, 
 h4.text-white, 
@@ -1017,12 +1016,10 @@ a.og-csrd-link-white:hover { color: #fff !important; }
 .og-legend-edrule {
 	border-left: 0.25rem solid;
 }
-
 .og-ed {
 	font-family: 'Shantell Sans', Arial, sans-serif;
 	font-size: 85%;
 }
-
 .theme-light .og-ed {
 	color: #2d2a83;
 	border-color: #408b93;
@@ -1066,9 +1063,11 @@ div.og-alert {
 .theme-dark div.og-alert .h7 {
 	color: #408b93 !important;
 }
-div.og-alert .og-border { 
+div.og-alert .og-border, 
+.og-ed p.og-border { 
 	border-color: #408b93 !important;
 }
+
 div.og-sidebar { 
 	font-style: italic;
 }
@@ -1130,7 +1129,6 @@ img.og-icon { height: 1.25em; width: 1.25em; }
 .theme-dark #part4 .og-play-p3 {
 	color: #9c9;
 }
-
 .og-h-faq {
 	font-family: 'Open Sans';
 	text-transform: none;
