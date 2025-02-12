@@ -68,7 +68,7 @@ function randomLocationEncounter() {
 
 function randomObliqueStrategy() {
   let descriptor = data.obliquestrategies[Math.floor(Math.random() * data.obliquestrategies.length)];
-  document.getElementById("oblique-strategies").innerHTML = descriptor;
+  document.getElementById("oblique-strategy").innerHTML = descriptor;
 }
 
 function randomNPCDisposition1() {
