@@ -66,6 +66,11 @@ function randomLocationEncounter() {
   document.getElementById("location-random-encounter").innerHTML = descriptor;
 }
 
+function randomObliqueStrategy() {
+  let descriptor = data.obliquestrategies[Math.floor(Math.random() * data.obliquestrategies.length)];
+  document.getElementById("oblique-strategies").innerHTML = descriptor;
+}
+
 function randomNPCDisposition1() {
   let descriptor = data.npcdisposition1[Math.floor(Math.random() * data.npcdisposition1.length)];
   document.getElementById("npc-random-disposition1").innerHTML = descriptor;
@@ -131,12 +136,17 @@ document.getElementById("new-random-location-encounter").addEventListener("click
   randomLocationEncounter();
 });
 
+document.getElementById("new-random-oblique-strategy").addEventListener("click", function (event) {
+  randomObliqueStrategy();
+});
+
 document.getElementById("new-random-location").addEventListener("click", function (event) {
   randomLocationQuality1();
   randomLocationQuality2();
   randomLocationType();
   randomLocationContents();
   randomLocationEncounter();
+  randomObliqueStrategy();
 });
 
 document.getElementById("new-random-npc-disposition1").addEventListener("click", function (event) {
