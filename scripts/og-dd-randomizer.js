@@ -17,6 +17,7 @@ randomLocationQuality2();
 randomLocationType();
 randomLocationContents();
 randomLocationEncounter();
+randomObliqueStrategy();
 
 randomNPCDisposition1();
 randomNPCDisposition2();
