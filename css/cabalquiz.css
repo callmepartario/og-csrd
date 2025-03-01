@@ -1,0 +1,198 @@
+body,
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  background-color: #111;
+  color: #fff;
+  align-items: top;
+  height: 100vh;
+  margin: 0;
+  line-height: 1.5;
+}
+
+a { color: #facc8e; }
+a:hover { color: #fca832; }
+a { text-decoration: none; }
+
+.cabal-logo { margin-right: 1rem; }
+
+.d-table {
+  display: table;
+  width: 100%;
+}
+
+.d-table-row { display: table-row; }
+.d-table-cell { display: table-cell; }
+.d-table-cell { display: table-cell; }
+
+.valign-top { vertical-align: top; }
+.valign-middle { vertical-align: middle; }
+
+h1, h2, h3, h4, h5, h6 { 
+}
+
+h1 {
+  text-align: left;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1 span.cabal { font-size: 1.25rem; display: block; font-weight: normal; }
+
+h2 { 
+  text-align: left;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+p { text-align: left; }
+
+p.small { font-size: 0.8rem; }
+
+.container {
+  margin-top: 1rem;
+  background: #000;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 500px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#quizContainer { }
+
+.dialogue { width: 2rem; margin: 1rem 0.5rem; }
+
+#questionContainer {
+  background-color: #282828;
+  border-radius: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+#answers {
+  background-color: #101010;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+button {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  border: 0;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  border-radius: 0.5rem;
+  margin: 0.25rem 0.25rem;
+  cursor: pointer;
+  background-color: #101010;
+  transition: background-color 0.3s;
+}
+
+button:hover { 
+	color: #f7eb5a;
+  background: rgb(53,64,64);
+  background: linear-gradient(90deg, rgba(53,64,64,1) 0%, rgba(53,64,64,1) 20%, rgba(16,16,16,1) 100%);
+}
+
+button:active {
+  background-color: #a94600;
+}
+
+#refreshButton {
+  margin-top: 20px;
+}
+
+#refreshButton {
+  display: block;
+  text-align: center;
+}
+
+#result {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.75rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Results styling */
+.show { display: block !important; }
+table { width: 100%; font-size: 0.8rem; }
+th, td { padding: 0.25rem; vertical-align: top; overflow: hidden; }
+.table-stripe { background-color: #101010; }
+.graph { display: inline-block; }
+.emblem { display: block; text-align: center; margin-bottom: 1rem; }
+
+/* Ancient Order of Chaos */
+#icon-ao { display: none; max-width: 200px; margin-left: auto; margin-right: auto; }
+#icon-ao.AO { display: block; }
+p.AO { 
+  color: #8eb34b;
+  border-top: 3px solid #50814b;
+  border-bottom: 3px solid #50814b;
+  background-color: #315633;
+}
+#graphAO {  background-color: #50814b; }
+
+/* The Ashen Creed */
+#icon-ac { display: none; max-width: 200px; margin-left: auto; margin-right: auto; }
+#icon-ac.AC { display: block; }
+p.AC { 
+  color: #c03834;
+  border-top: 3px solid #972d2f;
+  border-bottom: 3px solid #972d2f;
+  background-color: #411817;
+}
+#graphAC {  background-color: #972d2f; }
+
+/* Kinship of the Wilds */
+#icon-kw { display: none; max-width: 200px; margin-left: auto; margin-right: auto; }
+#icon-kw.KW { display: block; }
+p.KW { 
+  color: #d9b3db;
+  border-top: 3px solid #9f5f91;
+  border-bottom: 3px solid #9f5f91;
+  background-color: #4a2756;
+}
+#graphKW {  background-color: #9f5f91; }
+
+/* Norsemen of the Shores */
+#icon-ns { display: none; max-width: 200px; margin-left: auto; margin-right: auto; }
+#icon-ns.NS { display: block; }
+p.NS { 
+  color: #82ced7;
+  border-top: 3px solid #59aabe;
+  border-bottom: 3px solid #59aabe;
+  background-color: #234a6c;
+}
+#graphNS {  background-color: #59aabe; }
+
+/* Marauders of the Shores of Gold */
+#icon-mg { display: none; max-width: 200px; margin-left: auto; margin-right: auto; }
+#icon-mg.MG { display: block; }
+p.MG { 
+  color: #98c7b2;
+  border-top: 3px solid #69a188;
+  border-bottom: 3px solid #69a188;
+  background-color: #2b513f;
+}
+#graphMG {  background-color: #69a188; }
