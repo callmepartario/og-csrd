@@ -422,7 +422,8 @@ span.og-ref {
 	background-color: #fffbf2 !important;
 }
 .theme-dark span.og-ref-og {
-	color: #408b93;
+	color: #78c3cb;
+	background-color: #132c37 !important;
 }
 
 /* list abilities for foci display or abilities catalog */
