@@ -52,7 +52,10 @@
 table.og-dt tbody tr th { white-space: nowrap !important;}
 
 /* scroll offset for fixed navbar */
-html { scroll-padding-top: 5rem; }
+html { 
+	scroll-padding-top: 5rem;
+	scroll-behavior: auto !important;
+}
 #og-navbar.theme-light { 
 	background-color: #f7fbff !important;
 }
