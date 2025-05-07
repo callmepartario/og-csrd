@@ -470,6 +470,18 @@ ul.og-ability-details li ul li {
 	padding-left: 0;
 	background: none;
 }
+/* */
+ul.og-ability-details li span.og-ability-notes {
+	display: none;
+}
+
+ul.og-ability-tooltip li span.og-ability-notes {
+	display: block !important;
+	font-style: italic;
+	color: #408b93;
+	margin-top: 0.5rem;
+}
+
 /* list abilities in compact columns */
 	ul.og-abilities-list-compact {
 		column-count: 2;
