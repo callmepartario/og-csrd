@@ -25,7 +25,7 @@ A collection of free, online options for your best game ever—new character opt
 
 ## Old Gus' Cypher System Character Sheet (OG-CSCS)
 
-https://callmepartario.github.io/og-csrd/#character-sheets-and-player-handouts
+https://callmepartario.github.io/og-csrd/#og-cscs
 
 This high contrast, form-fillable PDF character sheet allows for additional customization for your character or campaign. Several translations are available:
 
@@ -39,7 +39,7 @@ This high contrast, form-fillable PDF character sheet allows for additional cust
 
 ## Old Gus' Cypher System Quick Reference (OG-CSQR)
 
-https://callmepartario.github.io/og-csrd/#about-tools
+https://callmepartario.github.io/og-csrd/#og-csqr
 
 This 2-page handout contains everything a new player needs to understand the game or to reference commonly used rules.
 
@@ -48,7 +48,7 @@ This 2-page handout contains everything a new player needs to understand the gam
 
 ## Old Gus' Cypher Decks (OG-CD)
 
-https://callmepartario.github.io/og-csrd/#cypher-decks
+https://callmepartario.github.io/og-csrd/#og-cd
 
 This document includes card-sized handouts for all the cyphers in the CSRD. You can print and cut them out to use as handouts at the game.
 
