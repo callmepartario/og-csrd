@@ -9,8 +9,6 @@ Readers are encouraged to support Monte Cook Games, who have so generously made 
 
 ## Cypher System Open Licence
 
-These documents are based on the May 5, 2025 edition of the [Cypher System Reference Document (CSRD)](http://csol.montecookgames.com/). They are intended to help Game Masters (GMs), players, and others interested in the Cypher System to learn more about it, create characters, worlds, and share stories together.
-
 This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the Cypher System Open License, found at http://csol.montecookgames.com
 
 CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A. and other countries. All Monte Cook Games characters and character names, and the distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
