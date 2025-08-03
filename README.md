@@ -9,6 +9,14 @@ This online reference for the Cypher System Reference Document (CSRD) provides a
 
 Readers are encouraged to support Monte Cook Games, who have so generously made this information available. Consider buying products listed in [What's In The Book?](https://callmepartario.github.io/og-csrd/#choose-products) to ensure ongoing support and developmnt for the CSRD's informing material.
 
+# Cypher System Open Licence
+
+These documents are based on the May 5, 2025 edition of the [Cypher System Reference Document (CSRD)](http://csol.montecookgames.com/). They are intended to help Game Masters (GMs), players, and others interested in the Cypher System to learn more about it, create characters, worlds, and share stories together.
+
+This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the Cypher System Open License, found at http://csol.montecookgames.com
+
+CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A. and other countries. All Monte Cook Games characters and character names, and the distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
+
 ## Old Gus' Unofficial Cypher System Player's Guide (OG-CSPG)
 
 https://callmepartario.github.io/og-csrd/og-cspg.html
@@ -54,8 +62,6 @@ This document includes card-sized handouts for all the cyphers in the CSRD. You 
 
 - [OG-CD in PDF](https://callmepartario.github.io/og-csrd/pdfs/cypher-og-cd-old-gus-cypher-decks.pdf)
 
----
-
 # Contact the Editor
 
 Thanks for reading, and may these tools bring you and yours many happy adventures!
@@ -66,12 +72,10 @@ Thanks for reading, and may these tools bring you and yours many happy adventure
 - Mastodon: [@oldgus@dice.camp](https://dice.camp/@oldgus)
 - Ko-fi: [Buy Me a Coffee](https://ko-fi.com/oldgus)
 
----
+## More from Old Gus
 
-# Cypher System Open Licence
-
-These documents are based on the May 5, 2025 edition of the [Cypher System Reference Document (CSRD)](http://csol.montecookgames.com/). They are intended to help Game Masters (GMs), players, and others interested in the Cypher System to learn more about it, create characters, worlds, and share stories together.
-
-This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the Cypher System Open License, found at http://csol.montecookgames.com
-
-CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A. and other countries. All Monte Cook Games characters and character names, and the distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
+- [Old Gus' Daggerheart System Reference Document (OG-DHSRD)](https://callmepartario.github.io/og-dhsrd/)
+- [Old Gus' Errata for Dungeons & Dragons 5th Edition](https://callmepartario.github.io/old-gus-errata/)
+- [Old Gus' Roadmug Recipes](https://callmepartario.github.io/og-rr/)
+- [Old Gus' Starflight Codex](https://callmepartario.github.io/starflight-codex/)
+- [Wolves Upon the Coast: The Unofficial Player's Guide](https://callmepartario.github.io/wutc/)
