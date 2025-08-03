@@ -3,7 +3,7 @@
 
 https://callmepartario.github.io/og-csrd
 
-This online reference for the Cypher System Reference Document (CSRD) provides an in-depth look at the game with content aligned to the [Cypher System Rulebook (2019)](https://www.montecookgames.com/store/product/cypher-system-rulebook-2/).
+This online reference for the Cypher System Reference Document (CSRD) provides an in-depth look at the game with content aligned to the chapter structure of the [Cypher System Rulebook (2019)](https://www.montecookgames.com/store/product/cypher-system-rulebook-2/).
 
 Readers are encouraged to support Monte Cook Games, who have so generously made this information available. Consider buying products listed in [What's In The Book?](https://callmepartario.github.io/og-csrd/#choose-products) to ensure ongoing support and developmnt for the CSRD's informing material.
 
