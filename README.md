@@ -7,11 +7,7 @@ This online reference for the Cypher System Reference Document (CSRD) provides a
 
 Readers are encouraged to support Monte Cook Games, who have so generously made this information available. Consider buying products listed in [What's In The Book?](https://callmepartario.github.io/og-csrd/#choose-products) to ensure ongoing support and developmnt for the CSRD's informing material.
 
-## Cypher System Open Licence
-
-This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the Cypher System Open License, found at http://csol.montecookgames.com
-
-CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A. and other countries. All Monte Cook Games characters and character names, and the distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
+This product is an independent production and is not affiliated with Monte Cook Games, LLC. It is published under the [Cypher System Open License](http://csol.montecookgames.com).
 
 ## Contact the Editor
 
