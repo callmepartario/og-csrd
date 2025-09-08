@@ -128,7 +128,37 @@
     "An <a href='#random-npc'>NPC</a> making a diplomatic overture", 
     "An <a href='#random-npc'>NPC</a> making threats", 
     "An old acquaintance with a request or offer"
-    ],
+  ],
+  "informationgeneral": [ 
+    "Misleading background informtion",
+    "Misleading specific background information",
+    "Broad background information",
+    "Specific background information",
+    "Vague location information",
+    "Reference to information found elsewhere"
+  ],
+  "informationspecific": [ 
+    "Information that leads to a trap",
+    "Blatantly false information",
+    "Misleading information",
+    "Common knowledge",
+    "Specific background information",
+    "Specific location information",
+    "Obscured information",
+    "Incomplete information",
+    "Relevant numbers",
+    "Obvious information",
+    "Unique terminology",
+    "Local knowledge",
+    "Trivial fact",
+    "Minor fact",
+    "Historical account",
+    "Helpful information",
+    "Useful information",
+    "Interesting strategy",
+    "Clear connection",
+    "Conclusive fact"
+  ],
   "npcstory": [ 
     "<strong>Abduction:</strong> A guardian fails to protect their charge from an abductor.",
 		"<strong>Accident:</strong> Someone accidentally hurts or kills someone important.",

@@ -7779,7 +7779,7 @@
 		<hr>
 		<h5 class="og-h-small" id="random-location">Random Location and Encounter<a class="og-h-anchor" href="#random-location" title="Permalink" aria-hidden="true"></a></h5>
 		<p>You can use these tables to generate a short prompt for solo play, including an <a href="https://obliquestrategies.ca/">Oblique Strategy</a> to consider employing in your approach.</p>
-		<ul class="list-inline text-center">
+		<ul class="list-inline">
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-location-quality1" aria-label="New Location Quality 1">New Quality 1</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-location-quality2" aria-label="New Location Quality 2">New Quality 2</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-location-type" aria-label="New Location Type">New Type</button></p></li>
@@ -7788,7 +7788,6 @@
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-oblique-strategy" aria-label="New Oblique Strategy">New Oblique Strategy</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-location" aria-label="Randomize Location">Randomize</button></p></li>
 		</ul>
-
 		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
 			<caption>Random Location</caption>
 			<thead>
@@ -7803,7 +7802,23 @@
 				<tr><th scope="row">Oblique Strategy</th><td><em><span id="oblique-strategy">[Oblique Strategy]</span></em></td></tr>
 			</tbody>
 		</table></div>
-
+		<hr>
+		<h5 class="og-h-small" id="random-information">Random Information<a class="og-h-anchor" href="#random-information" title="Permalink" aria-hidden="true"></a></h5>
+		<p>You can use these tables to determine the quality or type of information gained by PCs.</p>
+		<ul class="list-inline">
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-information-general" aria-label="New General Information">New General Information</button></p></li>
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-information-specific" aria-label="New Specific Information">New Specific Information</button></p></li>
+		</ul>
+		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+			<caption>Random Information</caption>
+			<thead>
+				<tr><th class="w-30" scope="col">Information Type</th><th scope="col">Detail</th></tr>
+			</thead>
+			<tbody>
+				<tr><th class="og-nowrap" scope="row">General</th><td><span id="information-random-general">[General Information]</span></td></tr>
+				<tr><th class="og-nowrap" scope="row">Specific</th><td><span id="information-random-specific">[Specific Information]</span></td></tr>
+			</tbody>
+		</table></div>
 	</div>
 	<p>You can use the following tables to help drive solo play, or to generate adventure prompts before or during a session. Deciding when to consult a table is as important as interpreting its results, so be sure to take time to adapt each location to feel congruous with the setting and game.</p>
 	<div class="og-sidebar theme-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
@@ -8128,12 +8143,13 @@
 		</ul>
 		<hr>
 		<h5 class="og-h-small" id="random-story">Random Story<a class="og-h-anchor" href="#random-story" title="Permalink" aria-hidden="true"></a></h5>
-		<ul class="list-inline text-center">
+		<ul class="list-inline">
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-story" aria-label="New NPC Story">New Story</button></p></li>
 		</ul>
 		<p class="lead" id="npc-random-story">[NPC Story]</p>
+		<hr>
 		<h5 class="og-h-small" id="random-npc">Random NPC<a class="og-h-anchor" href="#random-npc" title="Permalink" aria-hidden="true"></a></h5>
-		<ul class="list-inline text-center">
+		<ul class="list-inline">
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-disposition1" aria-label="New NPC Disposition 1">New Disposition 1</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-disposition2" aria-label="New NPC Disposition 2">New Disposition 2</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-type1" aria-label="New NPC Type">New Archetype 1</button></p></li>

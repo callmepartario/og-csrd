@@ -73,6 +73,16 @@ function randomObliqueStrategy() {
   document.getElementById("oblique-strategy").innerHTML = descriptor;
 }
 
+function randomInformationGeneral() {
+  let descriptor = data.informationgeneral[Math.floor(Math.random() * data.informationgeneral.length)];
+  document.getElementById("information-random-general").innerHTML = descriptor;
+}
+
+function randomInformationSpecific() {
+  let descriptor = data.informationspecific[Math.floor(Math.random() * data.informationspecific.length)];
+  document.getElementById("information-random-specific").innerHTML = descriptor;
+}
+
 function randomNPCStory() {
   let descriptor = data.npcstory[Math.floor(Math.random() * data.npcstory.length)];
   document.getElementById("npc-random-story").innerHTML = descriptor;
@@ -140,6 +150,14 @@ document.getElementById("new-random-location-contents").addEventListener("click"
 
 document.getElementById("new-random-location-encounter").addEventListener("click", function (event) {
   randomLocationEncounter();
+});
+
+document.getElementById("new-random-information-general").addEventListener("click", function (event) {
+  randomInformationGeneral();
+});
+
+document.getElementById("new-random-information-specific").addEventListener("click", function (event) {
+  randomInformationSpecific();
 });
 
 document.getElementById("new-random-oblique-strategy").addEventListener("click", function (event) {
