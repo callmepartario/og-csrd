@@ -180,7 +180,6 @@ document.getElementById("new-random-npc-phobia").addEventListener("click", funct
 });
 
 document.getElementById("new-random-npc").addEventListener("click", function (event) {
-  randomNPCStory();
   randomNPCDisposition1();
   randomNPCDisposition2();
   randomNPCType1();
