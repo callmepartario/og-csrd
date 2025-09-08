@@ -76,7 +76,7 @@
 		<span class="og-chap">Old Gus'</span>
 		Daft Drafts
 	</h1>
-	<p class="small text-center">version 1.20g (2025-09-07)</p>
+	<p class="small text-center">version 1.20h (2025-09-08)</p>
 	<ul class="list-inline text-center">
 		<li class="list-inline-item"><a class="btn mt-1 mb-1 border" href="index.html">Full Rules: <abbr title="Old Gus' Cypher System Reference Document">OG-CSRD</abbr></a></li>
 		<li class="list-inline-item"><a class="btn mt-1 mb-1 border" href="og-cspg.html">Player's Guide: <abbr title="Old Gus' Unofficial Cypher System Player's Guide">OG-CSPG</abbr></a></li>
@@ -7788,12 +7788,22 @@
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-oblique-strategy" aria-label="New Oblique Strategy">New Oblique Strategy</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-location" aria-label="Randomize Location">Randomize</button></p></li>
 		</ul>
-		<ul class="list-unstyled lead text-center">
-			<li><p><strong>Location:</strong> <span id="location-random-quality1">[Location Quality 1]</span>, <span id="location-random-quality2">[Location Quality 2]</span> <span id="location-random-type">[Location Type]</span></p></li>
-			<li><p><strong>Contents:</strong> <span id="location-random-contents">[Location Contents]</span></p></li>
-			<li><p><strong>Encounter:</strong> <span id="location-random-encounter">[Location Encounter]</span></p></li>
-			<li><p><em><strong>Maybe:</strong> <span id="oblique-strategy">[Oblique Strategy]</span></em></p></li>
-		</ul>
+
+		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+			<caption>Random Location</caption>
+			<thead>
+				<tr><th scope="col">Aspect</th><th scope="col">Detail</th></tr>
+			</thead>
+			<tbody>
+				<tr><th class="og-nowrap" scope="row">Quality 1</th><td><span id="location-random-quality1">[Location Quality 1]</span></td></tr>
+				<tr><th class="og-nowrap" scope="row">Quality 2</th><td><span id="location-random-quality2">[Location Quality 2]</span></td></tr>
+				<tr><th class="og-nowrap" scope="row">Type</th><td><span id="location-random-type">[Location Type]</span></td></tr>
+				<tr><th class="og-nowrap" scope="row">Contents</th><td><span id="location-random-contents">[Location Contents]</span></td></tr>
+				<tr><th class="og-nowrap" scope="row">Encounter</th><td><span id="location-random-encounter">[Location Encounter]</span></td></tr>
+				<tr><th scope="row">Oblique Strategy</th><td><em><span id="oblique-strategy">[Oblique Strategy]</span></em></td></tr>
+			</tbody>
+		</table></div>
+
 	</div>
 	<p>You can use the following tables to help drive solo play, or to generate adventure prompts before or during a session. Deciding when to consult a table is as important as interpreting its results, so be sure to take time to adapt each location to feel congruous with the setting and game.</p>
 	<div class="og-sidebar theme-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
@@ -8116,22 +8126,30 @@
 			<li><a href="#npc-archetypes-and-motives">NPC Archetypes and Motives</a></li>
 		</ul>
 		<hr>
-		<h5 class="og-h-small" id="random-npc">Random NPC<a class="og-h-anchor" href="#random-npc" title="Permalink" aria-hidden="true"></a></h5>
+		<h5 class="og-h-small" id="random-npc">Random Story and NPC<a class="og-h-anchor" href="#random-npc" title="Permalink" aria-hidden="true"></a></h5>
 		<ul class="list-inline text-center">
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-story" aria-label="New NPC Story">New Story</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-disposition1" aria-label="New NPC Disposition 1">New Disposition 1</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-disposition2" aria-label="New NPC Disposition 2">New Disposition 2</button></p></li>
-			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-type1" aria-label="New NPC Type">New Type 1</button></p></li>
-			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-type2" aria-label="New NPC Type">New Type 2</button></p></li>
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-type1" aria-label="New NPC Type">New Archetype 1</button></p></li>
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-type2" aria-label="New NPC Type">New Archetype 2</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-phobia" aria-label="New NPC Phobia">New Phobia</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc" aria-label="Randomize NPC">Randomize</button></p></li>
 		</ul>
-		<ul class="list-unstyled lead d-table">
-			<li class="d-table-row"><span class="d-table-cell pe-3"><strong>Disposition:</strong> </span><span class="d-table-cell"><span id="npc-random-disposition1">[NPC Disposition 1]</span></span></li>
-			<li class="d-table-row"><span class="d-table-cell pe-3"><strong>Disposition 2:</strong> </span><span class="d-table-cell"><span id="npc-random-disposition2">[NPC Disposition 2]</span></span></li>
-			<li class="d-table-row"><span class="d-table-cell pe-3"><strong>Type (Motive):</strong> </span><span class="d-table-cell"><span id="npc-random-type1">[NPC Type 1]</span></span></li>
-			<li class="d-table-row"><span class="d-table-cell pe-3"><strong>Type (Motive) 2:</strong> </span><span class="d-table-cell"><span id="npc-random-type2">[NPC Type 2]</span></span></li>
-			<li class="d-table-row"><span class="d-table-cell pe-3"><strong>Phobia:</strong> </span><span class="d-table-cell"><span id="npc-random-phobia">[NPC Phobia]</span></span></li>
-		</ul>
+		<p class="lead" id="npc-random-story">[NPC Story]</p>
+		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+			<caption>Random NPC</caption>
+			<thead>
+				<tr><th scope="col">Aspect</th><th scope="col">Detail</th><th scope="col">Motive</th></tr>
+			</thead>
+			<tbody>
+				<tr><th class="og-nowrap" scope="row">Disposition 1</th><td><span id="npc-random-disposition1">[NPC Disposition 1]</span></td><td>&mdash;</td></tr>
+				<tr><th class="og-nowrap" scope="row">Disposition 2</th><td><span id="npc-random-disposition2">[NPC Disposition 2]</span></td><td>&mdash;</td></tr>
+				<tr id="npc-random-type1"><th class="og-nowrap" scope="row">Archetype 1</th><td>[NPC Type 1]</td><td>[NPC Motive 1]</td></tr>
+				<tr id="npc-random-type2"><th class="og-nowrap" scope="row">Archetype 2</th><td>[NPC Type 2]</td><td>[NPC Motive 2]</td></tr>
+				<tr><th class="og-nowrap" scope="row">Phobia</th><td><span id="npc-random-phobia">[NPC Phobia]</span></td><td>&mdash;</td></tr>
+			</tbody>
+		</table></div>
 	</div>
 	<p>One of the fun things about being a GM is getting to play all kinds of NPCs. Doing this well means understanding who an NPC is in the world, how they regard the party, what they want out of life, and how they plan to get it.</p>
 	<hr>

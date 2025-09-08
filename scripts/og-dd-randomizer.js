@@ -19,6 +19,7 @@ randomLocationContents();
 randomLocationEncounter();
 randomObliqueStrategy();
 
+randomNPCStory();
 randomNPCDisposition1();
 randomNPCDisposition2();
 randomNPCType1();
@@ -72,6 +73,10 @@ function randomObliqueStrategy() {
   document.getElementById("oblique-strategy").innerHTML = descriptor;
 }
 
+function randomNPCStory() {
+  let descriptor = data.npcstory[Math.floor(Math.random() * data.npcstory.length)];
+  document.getElementById("npc-random-story").innerHTML = descriptor;
+}
 function randomNPCDisposition1() {
   let descriptor = data.npcdisposition1[Math.floor(Math.random() * data.npcdisposition1.length)];
   document.getElementById("npc-random-disposition1").innerHTML = descriptor;
@@ -148,6 +153,10 @@ document.getElementById("new-random-location").addEventListener("click", functio
   randomLocationContents();
   randomLocationEncounter();
   randomObliqueStrategy();
+});
+
+document.getElementById("new-random-npc-story").addEventListener("click", function (event) {
+  randomNPCStory();
 });
 
 document.getElementById("new-random-npc-disposition1").addEventListener("click", function (event) {
