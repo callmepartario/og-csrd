@@ -19,7 +19,11 @@ randomLocationContents();
 randomLocationEncounter();
 randomObliqueStrategy();
 
+randomInformationGeneral();
+randomInformationSpecific();
+
 randomNPCStory();
+
 randomNPCDisposition1();
 randomNPCDisposition2();
 randomNPCType1();
@@ -152,6 +156,15 @@ document.getElementById("new-random-location-encounter").addEventListener("click
   randomLocationEncounter();
 });
 
+document.getElementById("new-random-oblique-strategy").addEventListener("click", function (event) {
+  randomObliqueStrategy();
+});
+
+document.getElementById("new-random-information").addEventListener("click", function (event) {
+  randomInformationGeneral();
+  randomInformationSpecific();
+});
+
 document.getElementById("new-random-information-general").addEventListener("click", function (event) {
   randomInformationGeneral();
 });
@@ -160,9 +173,6 @@ document.getElementById("new-random-information-specific").addEventListener("cli
   randomInformationSpecific();
 });
 
-document.getElementById("new-random-oblique-strategy").addEventListener("click", function (event) {
-  randomObliqueStrategy();
-});
 
 document.getElementById("new-random-location").addEventListener("click", function (event) {
   randomLocationQuality1();
