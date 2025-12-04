@@ -8140,6 +8140,8 @@
 			<li><a href="#story-tables">Story Tables</a></li>
 			<li><a href="#npc-dispositions">NPC Dispositions</a></li>
 			<li><a href="#npc-archetypes-and-motives">NPC Archetypes and Motives</a></li>
+			<li><a href="#npc-insecurities">NPC Insecurities</a></li>
+			<li><a href="#npc-means">NPC Means</a></li>
 			<li><a href="#fear">Phobias</a></li>
 		</ul>
 		<hr>
@@ -8155,6 +8157,8 @@
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-disposition2" aria-label="New NPC Disposition 2">New Disposition 2</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-type1" aria-label="New NPC Type">New Archetype 1</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-type2" aria-label="New NPC Type">New Archetype 2</button></p></li>
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-insecurity" aria-label="New NPC Type">New Insecurity</button></p></li>
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-means" aria-label="New NPC Type">New Means</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-phobia" aria-label="New NPC Phobia">New Phobia or Hyperfixation</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc" aria-label="Randomize NPC">Randomize</button></p></li>
 		</ul>
@@ -8168,7 +8172,9 @@
 				<tr><th class="og-nowrap" scope="row">Disposition 2</th><td><span id="npc-random-disposition2">[NPC Disposition 2]</span></td><td>&mdash;</td></tr>
 				<tr id="npc-random-type1"><th class="og-nowrap" scope="row">Archetype 1</th><td>[NPC Type 1]</td><td>[NPC Motive 1]</td></tr>
 				<tr id="npc-random-type2"><th class="og-nowrap" scope="row">Archetype 2</th><td>[NPC Type 2]</td><td>[NPC Motive 2]</td></tr>
-				<tr><th class="og-nowrap" scope="row">Phobia or Hyperfixation</th><td><span id="npc-random-phobia">[NPC Phobia]</span></td><td>&mdash;</td></tr>
+				<tr><th class="og-nowrap" scope="row">Insecurity</th><td><span id="npc-random-insecurity">[NPC Insecurity]</span></td><td>&mdash;</td></tr>
+				<tr><th class="og-nowrap" scope="row">Means</th><td><span id="npc-random-means">[NPC Means]</span></td><td>&mdash;</td></tr>
+				<tr><th class="og-nowrap" scope="row">Phobia or Hyperfixation</th><td><span id="npc-random-phobia">[NPC Phobia or Hyperfixation]</span></td><td>&mdash;</td></tr>
 			</tbody>
 		</table></div>
 	</div>
@@ -8716,6 +8722,110 @@
 		</div>
 	</div>
 	<hr>
+	<h4 class="og-border" id="npc-insecurities-and-means">NPC Insecurities and Means<a class="og-h-anchor" href="#npc-insecurities-and-means" title="Permalink" aria-hidden="true"></a></h4>
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<h5 id="npc-insecurities">NPC Insecurities<a class="og-h-anchor" href="#npc-insecurities" title="Permalink" aria-hidden="true"></a></h5>
+			<p>Insecurities are something an NPC feels a sense of personal shame about themselves or their situation.</p>
+			<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+				<caption>NPC Insecurities</caption>
+				<thead>
+					<tr>
+						<th scope="col" class="text-center w-15">d6.d6</th><th scope="col">Insecurity</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th class="text-center fw-normal">1.1</th><td>Height</td>
+					<tr><th class="text-center fw-normal">1.2</th><td>Weight</td>
+					<tr><th class="text-center fw-normal">1.3</th><td>Hair</td>
+					<tr><th class="text-center fw-normal">1.4</th><td>Age</td>
+					<tr><th class="text-center fw-normal">1.5</th><td>Looks</td>
+					<tr><th class="text-center fw-normal">1.6</th><td>Hygiene</td>
+					<tr><th class="text-center fw-normal">2.1</th><td>Femininity</td>
+					<tr><th class="text-center fw-normal">2.2</th><td>Masculinity</td>
+					<tr><th class="text-center fw-normal">2.3</th><td>Clothing</td>
+					<tr><th class="text-center fw-normal">2.4</th><td>Wealth</td>
+					<tr><th class="text-center fw-normal">2.5</th><td>Lineage</td>
+					<tr><th class="text-center fw-normal">2.6</th><td>Occupation</td>
+					<tr><th class="text-center fw-normal">3.1</th><td>Deformity</td>
+					<tr><th class="text-center fw-normal">3.2</th><td>Sophistication</td>
+					<tr><th class="text-center fw-normal">3.3</th><td>Social status</td>
+					<tr><th class="text-center fw-normal">3.4</th><td>Aesthetic taste</td>
+					<tr><th class="text-center fw-normal">3.5</th><td>Living situation</td>
+					<tr><th class="text-center fw-normal">3.6</th><td>Intuition</td>
+					<tr><th class="text-center fw-normal">4.1</th><td>Loneliness</td>
+					<tr><th class="text-center fw-normal">4.2</th><td>Friendships</td>
+					<tr><th class="text-center fw-normal">4.3</th><td>Parenting</td>
+					<tr><th class="text-center fw-normal">4.4</th><td>Love life</td>
+					<tr><th class="text-center fw-normal">4.5</th><td>Popularity</td>
+					<tr><th class="text-center fw-normal">4.6</th><td>Reputation</td>
+					<tr><th class="text-center fw-normal">5.1</th><td>Morality</td>
+					<tr><th class="text-center fw-normal">5.2</th><td>Worldliness</td>
+					<tr><th class="text-center fw-normal">5.3</th><td>Faith</td>
+					<tr><th class="text-center fw-normal">5.4</th><td>Self-worth</td>
+					<tr><th class="text-center fw-normal">5.5</th><td>Vocabulary</td>
+					<tr><th class="text-center fw-normal">5.6</th><td>Memory</td>
+					<tr><th class="text-center fw-normal">6.1</th><td>Fitness</td>
+					<tr><th class="text-center fw-normal">6.2</th><td>Grace</td>
+					<tr><th class="text-center fw-normal">6.3</th><td>Frailty</td>
+					<tr><th class="text-center fw-normal">6.4</th><td>Intelligence</td>
+					<tr><th class="text-center fw-normal">6.5</th><td>Willpower</td>
+					<tr><th class="text-center fw-normal">6.6</th><td>Charisma</td>
+				</tbody>
+			</table></div>
+		</div>
+		<div class="col-12 col-md-6">
+			<h5 id="npc-means">NPC Means<a class="og-h-anchor" href="#npc-means" title="Permalink" aria-hidden="true"></a></h5>
+			<p>Means are a personal quality or worldly asset an NPC uses to get what they want.</p>
+			<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+				<caption>NPC Means</caption>
+				<thead>
+					<tr>
+						<th scope="col" class="text-center w-15">d6.d6</th><th scope="col">Means</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th class="text-center fw-normal">1.1</th><td>Inborn talent</td>
+					<tr><th class="text-center fw-normal">1.2</th><td>Developed skill</td>
+					<tr><th class="text-center fw-normal">1.3</th><td>Unique technology</td>
+					<tr><th class="text-center fw-normal">1.4</th><td>Wealth</td>
+					<tr><th class="text-center fw-normal">1.5</th><td>Education</td>
+					<tr><th class="text-center fw-normal">1.6</th><td>Supernatural ability</td>
+					<tr><th class="text-center fw-normal">2.1</th><td>Celebrity</td>
+					<tr><th class="text-center fw-normal">2.2</th><td>Influence</td>
+					<tr><th class="text-center fw-normal">2.3</th><td>Cosmic blessing</td>
+					<tr><th class="text-center fw-normal">2.4</th><td>Confidence</td>
+					<tr><th class="text-center fw-normal">2.5</th><td>Hired help</td>
+					<tr><th class="text-center fw-normal">2.6</th><td>Attention of others</td>
+					<tr><th class="text-center fw-normal">3.1</th><td>Wealthy benefactor</td>
+					<tr><th class="text-center fw-normal">3.2</th><td>Sex appeal</td>
+					<tr><th class="text-center fw-normal">3.3</th><td>Street smarts</td>
+					<tr><th class="text-center fw-normal">3.4</th><td>Secret knowledge</td>
+					<tr><th class="text-center fw-normal">3.5</th><td>Combat prowess</td>
+					<tr><th class="text-center fw-normal">3.6</th><td>Criminal underworld contacts</td>
+					<tr><th class="text-center fw-normal">4.1</th><td>Disciples</td>
+					<tr><th class="text-center fw-normal">4.2</th><td>Factional support</td>
+					<tr><th class="text-center fw-normal">4.3</th><td>Animal companion</td>
+					<tr><th class="text-center fw-normal">4.4</th><td>Eidetic memory</td>
+					<tr><th class="text-center fw-normal">4.5</th><td>Silver tongue</td>
+					<tr><th class="text-center fw-normal">4.6</th><td>Moral clarity</td>
+					<tr><th class="text-center fw-normal">5.1</th><td>Ruthlessness</td>
+					<tr><th class="text-center fw-normal">5.2</th><td>Notoriety</td>
+					<tr><th class="text-center fw-normal">5.3</th><td>Impressive title</td>
+					<tr><th class="text-center fw-normal">5.4</th><td>Official sanction</td>
+					<tr><th class="text-center fw-normal">5.5</th><td>Courteous manner</td>
+					<tr><th class="text-center fw-normal">5.6</th><td>Luck</td>
+					<tr><th class="text-center fw-normal">6.1</th><td>Brute strength</td>
+					<tr><th class="text-center fw-normal">6.2</th><td>Grace</td>
+					<tr><th class="text-center fw-normal">6.3</th><td>Hardiness</td>
+					<tr><th class="text-center fw-normal">6.4</th><td>Calculating</td>
+					<tr><th class="text-center fw-normal">6.5</th><td>Clarity of vision</td>
+					<tr><th class="text-center fw-normal">6.6</th><td>Magnetic personality</td>
+				</tbody>
+			</table></div>
+		</div>
+	</div>
+	<hr>
 	<h3 id="chapter-14-conditions">
 		<span class="og-chap">Chapter 14</span>
 		Conditions
@@ -8734,9 +8844,10 @@
 		<div class="col-md-6">
 			<h4 class="og-border" id="fear">Fear<a class="og-h-anchor" href="#fear" title="Permalink" aria-hidden="true"></a></h4>
 			<p>A phobia is an overwhelming fear with an exaggerated and often unrealistic sense of danger about an object, situation, or activity. If a PC's phobia is present, the GM might hinder their tasks by one or even two steps, or enable <a href="index.html#horror-rules-horror-mode">Horror Mode</a>&mdash;especially the <a href="index.html#horror-rules-instant-panic">Instant Panic</a> module, raising the chance of a <a href="index.html#gm-intrusion">GM intrusion</a> for the PC. Phobias are quite common, and a PC's descriptor is no barrier to having one.</p>
-			<p class="og-ind">The Phobias table contains a list of phobias useful for a modern setting. In other settings, there might be entirely new and more applicable fears a PC might reasonably have, for example, the fear of elves or a particular alien species.</p>
+			<p class="og-ind">This table contains a list of phobias useful for a modern setting. In other settings, there might be entirely new and more applicable fears a PC might reasonably have, for example, the fear of elves or a particular alien species.</p>
 			<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
 				<p>Phobias make a good addition to any adventure, but especially horror, mysteries, and romances. The GM can also use the Phobias table to inform creating NPCs.</p>
+				<p class="og-ind">You can also invert a phobia to create a hyperfixation instead.</p>
 			</div>
 		</div>
 		<div class="col-md-6">

@@ -28,6 +28,8 @@ randomNPCDisposition1();
 randomNPCDisposition2();
 randomNPCType1();
 randomNPCType2();
+randomNPCInsecurity();
+randomNPCMeans();
 randomNPCPhobia();
 
 // Random Oddity
@@ -109,6 +111,16 @@ function randomNPCType1() {
 function randomNPCType2() {
   let descriptor = data.npctype2[Math.floor(Math.random() * data.npctype2.length)];
   document.getElementById("npc-random-type2").innerHTML = descriptor;
+}
+
+function randomNPCInsecurity() {
+  let descriptor = data.npcinsecurity[Math.floor(Math.random() * data.npcinsecurity.length)];
+  document.getElementById("npc-random-insecurity").innerHTML = descriptor;
+}
+
+function randomNPCMeans() {
+  let descriptor = data.npcmeans[Math.floor(Math.random() * data.npcmeans.length)];
+  document.getElementById("npc-random-means").innerHTML = descriptor;
 }
 
 function randomNPCPhobia() {
@@ -203,6 +215,14 @@ document.getElementById("new-random-npc-type2").addEventListener("click", functi
   randomNPCType2();
 });
 
+document.getElementById("new-random-npc-insecurity").addEventListener("click", function (event) {
+  randomNPCInsecurity();
+});
+
+document.getElementById("new-random-npc-means").addEventListener("click", function (event) {
+  randomNPCMeans();
+});
+
 document.getElementById("new-random-npc-phobia").addEventListener("click", function (event) {
   randomNPCPhobia();
 });
@@ -212,6 +232,7 @@ document.getElementById("new-random-npc").addEventListener("click", function (ev
   randomNPCDisposition2();
   randomNPCType1();
   randomNPCType2();
+  randomNPCMeans();
   randomNPCPhobia();
 });
 
