@@ -232,6 +232,7 @@ document.getElementById("new-random-npc").addEventListener("click", function (ev
   randomNPCDisposition2();
   randomNPCType1();
   randomNPCType2();
+  randomNPCInsecurity();
   randomNPCMeans();
   randomNPCPhobia();
 });
