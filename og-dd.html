@@ -8137,21 +8137,33 @@
 	<div class="alert ps-4 pb-0">
 		<h4 class="og-h-small" id="choose-npc-tables">Quick Reference: NPC Tables<a class="og-h-anchor" href="#choose-npc-tables" title="Permalink" aria-hidden="true"></a></h4>
 		<ul class="list-unstyled og-qr">
-			<li><a href="#story-tables">Story Tables</a></li>
+			<li><a href="#inciting-incidents-and-stories">Inciting Incidents and Stories</a></li>
 			<li><a href="#npc-dispositions">NPC Dispositions</a></li>
 			<li><a href="#npc-archetypes-and-motives">NPC Archetypes and Motives</a></li>
-			<li><a href="#npc-insecurities">NPC Insecurities</a></li>
-			<li><a href="#npc-means">NPC Means</a></li>
-			<li><a href="#fear">Phobias</a></li>
+			<li><a href="#npc-insecurities-and-means">NPC Insecurities and Means</a></li>
+			<li><a href="#fear">Phobias and Hyperfixations</a></li>
 		</ul>
 		<hr>
 		<h5 class="og-h-small" id="random-story">Random Story<a class="og-h-anchor" href="#random-story" title="Permalink" aria-hidden="true"></a></h5>
+		<p>You can use these results to begin crafting a scenario for the PCs to navigate. Inciting incidents and story archetypes might involve the PCs, or precede their involvement.</p>
 		<ul class="list-inline">
-			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-story" aria-label="New NPC Story">New Story</button></p></li>
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-inciting-incident" aria-label="New Inciding Incident">New Inciding Incident</button></p></li>
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-story-archetype" aria-label="New Story Archetype">New Story Archetype</button></p></li>
+			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-story" aria-label="Randomize Story">Randomize</button></p></li>
 		</ul>
-		<p class="lead" id="npc-random-story">[NPC Story]</p>
+		<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+			<caption>Random Story</caption>
+			<thead>
+				<tr><th class="w-30" scope="col">Aspect</th><th scope="col" class="w-70">Detail</th></tr>
+			</thead>
+			<tbody>
+				<tr><th class="og-nowrap" scope="row">Inciting Incident</th><td><span id="random-inciding-indicent">[Inciting Incident]</span></td></tr>
+				<tr><th class="og-nowrap" scope="row">Story</th><td><span id="random-story">[NPC Story]</span></td></tr>
+			</tbody>
+		</table></div>
 		<hr>
 		<h5 class="og-h-small" id="random-npc">Random NPC<a class="og-h-anchor" href="#random-npc" title="Permalink" aria-hidden="true"></a></h5>
+		<p>One of the fun things about being a GM is getting to play all kinds of NPCs. Doing this well means understanding who an NPC is in the world, how they regard the party, what they want out of life, and how they plan to get it.</p>
 		<ul class="list-inline">
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-disposition1" aria-label="New NPC Disposition 1">New Disposition 1</button></p></li>
 			<li class="list-inline-item"><p><button class="btn mt-1 mb-1 border" type="button" id="new-random-npc-disposition2" aria-label="New NPC Disposition 2">New Disposition 2</button></p></li>
@@ -8178,56 +8190,108 @@
 			</tbody>
 		</table></div>
 	</div>
-	<p>One of the fun things about being a GM is getting to play all kinds of NPCs. Doing this well means understanding who an NPC is in the world, how they regard the party, what they want out of life, and how they plan to get it.</p>
 	<hr>
-	<h4 class="og-border" id="story-tables">Story Tables<a class="og-h-anchor" href="#story-tables" title="Permalink" aria-hidden="true"></a></h4>
-	<p>Characters mentioned in the following story archetypes might be better served by being the PCs, or important NPCs. You can use these tables to determine some precipitating events of a situation before the PCs get involved.</p>
-	<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
-		<caption>Story Archetypes</caption>
-		<thead>
-			<tr>
-				<th scope="col" class="text-center w-15">d6.d6</th><th scope="col">Story Archetype</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr><th class="text-center fw-normal">1.1</th><td><strong>Abduction:</strong> A guardian fails to protect their charge from an abductor.</td></tr>
-			<tr><th class="text-center fw-normal">1.2</th><td><strong>Accident:</strong> Someone accidentally hurts or kills someone important.</td></tr>
-			<tr><th class="text-center fw-normal">1.3</th><td><strong>Adultery:</strong> Two adulterers conspire to discredit, injure, or kill the betrayed lover.</td></tr>
-			<tr><th class="text-center fw-normal">1.4</th><td><strong>Alliance:</strong> An alliance of unlikely individuals is assembled for a common purpose.</td></tr>
-			<tr><th class="text-center fw-normal">1.5</th><td><strong>Apotheosis:</strong> Someone's power approaches godlike proportions.</td></tr>
-			<tr><th class="text-center fw-normal">1.6</th><td><strong>Avarice:</strong> A lover sacrifices a something or someone important to gain their heart's desire. They may or may not be able to keep it.</td></tr>
-			<tr><th class="text-center fw-normal">2.1</th><td><strong>Bondage:</strong> One or more prisoners or slaves suffer at the hands of a jealous master.</td></tr>
-			<tr><th class="text-center fw-normal">2.2</th><td><strong>Conspiracy:</strong> Irrefutable evidence of a great crime (or coverup) is discovered.</td></tr>
-			<tr><th class="text-center fw-normal">2.3</th><td><strong>Coup:</strong> One or more conspirators plot to overthrow a leader. The leader might be a tyrant.</td></tr>
-			<tr><th class="text-center fw-normal">2.4</th><td><strong>Defense:</strong> A community is beset by great power, and may be conquered.</td></tr>
-			<tr><th class="text-center fw-normal">2.5</th><td><strong>Deliverance:</strong> An innocent is caught up in a conflict, and a powerful agent is dispatched to hunt them. A rescuer intervenes.</td></tr>
-			<tr><th class="text-center fw-normal">2.6</th><td><strong>Dispute:</strong> Two (or more) enemies argue over the possession something important. An arbiter might decide whose claim is just.</td></tr>
-			<tr><th class="text-center fw-normal">3.1</th><td><strong>Enigma:</strong> A seeker begs for help, but is answered only by another question. The answer further's the seeker's goals.</td></tr>
-			<tr><th class="text-center fw-normal">3.2</th><td><strong>Exile:</strong> After leaving their homeland, or more people struggle to adapt to their new surroundings.</td></tr>
-			<tr><th class="text-center fw-normal">3.3</th><td><strong>Folly:</strong> A foolish person's rash decisions causes them to gets in over their head.</td></tr>
-			<tr><th class="text-center fw-normal">3.4</th><td><strong>Fortune:</strong> A great fortune is gained, lost, or both.</td></tr>
-			<tr><th class="text-center fw-normal">3.5</th><td><strong>Fracture:</strong> The mysterious death of a beloved member of a family or organization divides loyalties.</td></tr>
-			<tr><th class="text-center fw-normal">3.6</th><td><strong>Grief:</strong> Those witness to a death are changed forever. Each struggles with grief in their own way.</td></tr>
-			<tr><th class="text-center fw-normal">4.1</th><td><strong>Judgment:</strong> A lapse in judgement causes the wrong person to be punished for a crime. The actual criminal might continue their wicked ways.</td></tr>
-			<tr><th class="text-center fw-normal">4.2</th><td><strong>Lost:</strong> Someone is lost far from home and must find their way back to what is known or loved.</td></tr>
-			<tr><th class="text-center fw-normal">4.3</th><td><strong>Madness:</strong> A person struck by madness betrays what they love most.</td></tr>
-			<tr><th class="text-center fw-normal">4.4</th><td><strong>Mischief:</strong> One or more people stir up mischief or drama. They might get more than they bargained for.</td></tr>
-			<tr><th class="text-center fw-normal">4.5</th><td><strong>Paradigm:</strong> Information is disocovered that would rewrite history and the future. A disagreement breaks out over wether to share the information, and with whom.</td></tr>
-			<tr><th class="text-center fw-normal">4.6</th><td><strong>Power:</strong> Two people with a huge power disparity (for example, a monarch and a pauper, or a mortal and a demigod) enter a dialogue or conflict.</td></tr>
-			<tr><th class="text-center fw-normal">5.1</th><td><strong>Prudence:</strong> By neglect or ignorance, something or someone important is lost, injured, or killed.</td></tr>
-			<tr><th class="text-center fw-normal">5.2</th><td><strong>Pursuit:</strong> A fugitive flees punishment for a crime they didn't commit. A dutiful agent of the law pursues them.</td></tr>
-			<tr><th class="text-center fw-normal">5.3</th><td><strong>Recovery:</strong> A seeker tries to recover someone or something they've lost.</td></tr>
-			<tr><th class="text-center fw-normal">5.4</th><td><strong>Rivalry:</strong> Two or more rivals enter a contest to win fortune, love, or respect.</td></tr>
-			<tr><th class="text-center fw-normal">5.5</th><td><strong>Sacrifice (Heroic):</strong> A hero sacrifices something or someone important&mdash;possibly themselves. A villain might take the credit.</td></tr>
-			<tr><th class="text-center fw-normal">5.6</th><td><strong>Sacrifice (Neccesary):</strong> In the course of serving a just cause, a friend, ally, or lover is wronged, injured, or killed.</td></tr>
-			<tr><th class="text-center fw-normal">6.1</th><td><strong>Secrecy:</strong> One or more people gain entry to a secret world or society.</td></tr>
-			<tr><th class="text-center fw-normal">6.2</th><td><strong>Supplication:</strong> One or more people beseech an authority for aid.</td></tr>
-			<tr><th class="text-center fw-normal">6.3</th><td><strong>Survival:</strong> One or more people are subject to trials of nature.</td></tr>
-			<tr><th class="text-center fw-normal">6.4</th><td><strong>Taboo:</strong> Two or more people from opposing factions put aside old hatreds and become friends or lovers. Someone might expose the truth.</td></tr>
-			<tr><th class="text-center fw-normal">6.5</th><td><strong>Theft:</strong> Someone steals an object of power or importance.</td></tr>
-			<tr><th class="text-center fw-normal">6.6</th><td><strong>Vigilantism:</strong> An avenger takes the law into their own hands.</td></tr>
-		</tbody>
-	</table></div>
+	<h4 class="og-border" id="inciting-incidents-and-stories">Inciting Incidents and Stories<a class="og-h-anchor" href="#inciting-incidents-and-stories" title="Permalink" aria-hidden="true"></a></h4>
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<h5 id="inciting-incidents">Inciting Incident<a class="og-h-anchor" href="#inciting-incidents" title="Permalink" aria-hidden="true"></a></h5>
+			<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+				<caption>Inciting Incidents</caption>
+				<thead>
+					<tr>
+						<th scope="col" class="text-center w-15">d6.d6</th><th scope="col">Inciting Incident</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th class="text-center fw-normal">1.1</th><td><strong>Mysterious Message:</strong> A message arrives. Parts of it are difficult to decipher.</td></tr>
+					<tr><th class="text-center fw-normal">1.2</th><td><strong>Recruited:</strong> Someone is conscripted into service or otherwise scouted for their talents.</td></tr>
+					<tr><th class="text-center fw-normal">1.3</th><td><strong>The Teacher:</strong> A group of pupils are brought togther under the tutelage of a master.</td></tr>
+					<tr><th class="text-center fw-normal">1.4</th><td><strong>Prove Your Worth:</strong> An opportunity arises that could establish someone in the eyes of others.</td></tr>
+					<tr><th class="text-center fw-normal">1.5</th><td><strong>Twist of Fate:</strong> The hand of fate binds the fate of strangers together.</td></tr>
+					<tr><th class="text-center fw-normal">1.6</th><td><strong>Wrong Place at the Wrong Time:</strong> An unusual occurrace changes someone's life forever.</td></tr>
+					<tr><th class="text-center fw-normal">2.1</th><td><strong>Unexplained Absence:</strong> Someone has gone missing.</td></tr>
+					<tr><th class="text-center fw-normal">2.2</th><td><strong>Rejection:</strong> Someone loses their profession, station, or standing.</td></tr>
+					<tr><th class="text-center fw-normal">2.3</th><td><strong>The Last Straw:</strong> Someone reaches their limit and takes matters into their own hands.</td></tr>
+					<tr><th class="text-center fw-normal">2.4</th><td><strong>One Last Job:</strong> Someone sets out to accomplish one mission before they retire.</td></tr>
+					<tr><th class="text-center fw-normal">2.5</th><td><strong>Visiting Stranger:</strong> A visiting stranger's presence disrupts life as usual.</td></tr>
+					<tr><th class="text-center fw-normal">2.6</th><td><strong>Mistaken Identity:</strong> Someone is mistaken for someone else&mdash;usually someone far more important.</td></tr>
+					<tr><th class="text-center fw-normal">3.1</th><td><strong>Abduction:</strong> Someone is taken against their will for the purposes of another.</td></tr>
+					<tr><th class="text-center fw-normal">3.2</th><td><strong>Taken:</strong> Someone experiences a great loss or grievous injury at the hands of another.</td></tr>
+					<tr><th class="text-center fw-normal">3.3</th><td><strong>Unexpected Responsibility:</strong> Someone is saddled with responsiblity&mdash;for example, escorting someone to an event or caring for a child.</td></tr>
+					<tr><th class="text-center fw-normal">3.4</th><td><strong>String of Deaths:</strong> A series of sudden deaths puts a community on edge.</td></tr>
+					<tr><th class="text-center fw-normal">3.5</th><td><strong>Unknown Illness:</strong> A terrible sickness spreads through a community.</td></tr>
+					<tr><th class="text-center fw-normal">3.6</th><td><strong>Irresistible Invitation:</strong> Someone recieves an offer too tempting to possibly refuse.</td></tr>
+					<tr><th class="text-center fw-normal">4.1</th><td><strong>Prison Break:</strong> A group of prisoners conspire to escape their captivity.</td></tr>
+					<tr><th class="text-center fw-normal">4.2</th><td><strong>Strangers in a Life Boat:</strong> Circumstances force a group of strangers to work together to survive.</td></tr>
+					<tr><th class="text-center fw-normal">4.3</th><td><strong>Live Together, Die Alone:</strong> Someone decides an alliance with an enemy or rival is the only way to overcome an obstacle.</td></tr>
+					<tr><th class="text-center fw-normal">4.4</th><td><strong>Great Injury:</strong> Someone important suffers a terrible injury at the worst possible moment.</td></tr>
+					<tr><th class="text-center fw-normal">4.5</th><td><strong>Inheritance:</strong> A hefty sum or notable item is passed on to someone new.</td></tr>
+					<tr><th class="text-center fw-normal">4.6</th><td><strong>Ascencion:</strong> Someone is preparing to ascend their position&mdash;for example, to lead a business, organization, or monarchy.</td></tr>
+					<tr><th class="text-center fw-normal">5.1</th><td><strong>Witness:</strong> Someone witnesses something important they weren't meant to.</td></tr>
+					<tr><th class="text-center fw-normal">5.2</th><td><strong>Reversal of Fortune:</strong> Someone's fortune rises. Another's fortune falls in turn.</td></tr>
+					<tr><th class="text-center fw-normal">5.3</th><td><strong>Do or Die:</strong> Someone is threatened into compliance on pain of death.</td></tr>
+					<tr><th class="text-center fw-normal">5.4</th><td><strong>Utilitarian Utilmatum:</strong> A terrible situation is resolvable if someone is sacrified.</td></tr>
+					<tr><th class="text-center fw-normal">5.5</th><td><strong>Disturbing Social Congruence:</strong> A community hides a terrible secret.</td></tr>
+					<tr><th class="text-center fw-normal">5.6</th><td><strong>Live the Legend:</strong> The seemingly impossible stories of old turn out to be true.</td></tr>
+					<tr><th class="text-center fw-normal">6.1</th><td><strong>Unexpected Development:</strong> Someone develops a new ability or technology that will change the world.</td></tr>
+					<tr><th class="text-center fw-normal">6.2</th><td><strong>Down the Rabbithole:</strong> Someone enters another, very different world.</td></tr>
+					<tr><th class="text-center fw-normal">6.3</th><td><strong>Arrivant:</strong> The unforseeable phenomenon takes hold&mdash;for example, AI gains sentience or aliens arrive.</td></tr>
+					<tr><th class="text-center fw-normal">6.4</th><td><strong>Clash of Worlds:</strong> Two normally separate worlds or cultures collide.</td></tr>
+					<tr><th class="text-center fw-normal">6.5</th><td><strong>Cataclysm:</strong> A natural or unnatural disaster wreaks havoc.</td></tr>
+					<tr><th class="text-center fw-normal">6.6</th><td><strong>Time Travel:</strong> Someone from another time is altering the course of events.</td></tr>
+				</tbody>
+			</table></div>
+		</div>
+		<div class="col-12 col-md-6">
+			<h5 id="story-archetypes">Story Archetypes<a class="og-h-anchor" href="#story-archetypes" title="Permalink" aria-hidden="true"></a></h5>
+			<div class="table-responsive"><table class="table table-light table-striped table-sm og-dt">
+				<caption>Story Archetypes</caption>
+				<thead>
+					<tr>
+						<th scope="col" class="text-center w-15">d6.d6</th><th scope="col">Story Archetype</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><th class="text-center fw-normal">1.1</th><td><strong>Abduction:</strong> A guardian fails to protect their charge from an abductor.</td></tr>
+					<tr><th class="text-center fw-normal">1.2</th><td><strong>Accident:</strong> Someone accidentally hurts or kills someone important.</td></tr>
+					<tr><th class="text-center fw-normal">1.3</th><td><strong>Adultery:</strong> Two adulterers conspire to discredit, injure, or kill the betrayed lover.</td></tr>
+					<tr><th class="text-center fw-normal">1.4</th><td><strong>Alliance:</strong> An alliance of unlikely individuals is assembled for a common purpose.</td></tr>
+					<tr><th class="text-center fw-normal">1.5</th><td><strong>Apotheosis:</strong> Someone's power approaches godlike proportions.</td></tr>
+					<tr><th class="text-center fw-normal">1.6</th><td><strong>Avarice:</strong> A lover sacrifices a something or someone important to gain their heart's desire. They may or may not be able to keep it.</td></tr>
+					<tr><th class="text-center fw-normal">2.1</th><td><strong>Bondage:</strong> One or more prisoners or slaves suffer at the hands of a jealous master.</td></tr>
+					<tr><th class="text-center fw-normal">2.2</th><td><strong>Conspiracy:</strong> Irrefutable evidence of a great crime (or coverup) is discovered.</td></tr>
+					<tr><th class="text-center fw-normal">2.3</th><td><strong>Coup:</strong> One or more conspirators plot to overthrow a leader. The leader might be a tyrant.</td></tr>
+					<tr><th class="text-center fw-normal">2.4</th><td><strong>Defense:</strong> A community is beset by great power, and may be conquered.</td></tr>
+					<tr><th class="text-center fw-normal">2.5</th><td><strong>Deliverance:</strong> An innocent is caught up in a conflict, and a powerful agent is dispatched to hunt them. A rescuer intervenes.</td></tr>
+					<tr><th class="text-center fw-normal">2.6</th><td><strong>Dispute:</strong> Two (or more) enemies argue over the possession something important. An arbiter might decide whose claim is just.</td></tr>
+					<tr><th class="text-center fw-normal">3.1</th><td><strong>Enigma:</strong> A seeker begs for help, but is answered only by another question. The answer further's the seeker's goals.</td></tr>
+					<tr><th class="text-center fw-normal">3.2</th><td><strong>Exile:</strong> After leaving their homeland, or more people struggle to adapt to their new surroundings.</td></tr>
+					<tr><th class="text-center fw-normal">3.3</th><td><strong>Folly:</strong> A foolish person's rash decisions causes them to gets in over their head.</td></tr>
+					<tr><th class="text-center fw-normal">3.4</th><td><strong>Fortune:</strong> A great fortune is gained, lost, or both.</td></tr>
+					<tr><th class="text-center fw-normal">3.5</th><td><strong>Fracture:</strong> The mysterious death of a beloved member of a family or organization divides loyalties.</td></tr>
+					<tr><th class="text-center fw-normal">3.6</th><td><strong>Grief:</strong> Those witness to a death are changed forever. Each struggles with grief in their own way.</td></tr>
+					<tr><th class="text-center fw-normal">4.1</th><td><strong>Judgment:</strong> A lapse in judgement causes the wrong person to be punished for a crime. The actual criminal might continue their wicked ways.</td></tr>
+					<tr><th class="text-center fw-normal">4.2</th><td><strong>Lost:</strong> Someone is lost far from home and must find their way back to what is known or loved.</td></tr>
+					<tr><th class="text-center fw-normal">4.3</th><td><strong>Madness:</strong> A person struck by madness betrays what they love most.</td></tr>
+					<tr><th class="text-center fw-normal">4.4</th><td><strong>Mischief:</strong> One or more people stir up mischief or drama. They might get more than they bargained for.</td></tr>
+					<tr><th class="text-center fw-normal">4.5</th><td><strong>Paradigm:</strong> Information is disocovered that would rewrite history and the future. A disagreement breaks out over wether to share the information, and with whom.</td></tr>
+					<tr><th class="text-center fw-normal">4.6</th><td><strong>Power:</strong> Two people with a huge power disparity (for example, a monarch and a pauper, or a mortal and a demigod) enter a dialogue or conflict.</td></tr>
+					<tr><th class="text-center fw-normal">5.1</th><td><strong>Prudence:</strong> By neglect or ignorance, something or someone important is lost, injured, or killed.</td></tr>
+					<tr><th class="text-center fw-normal">5.2</th><td><strong>Pursuit:</strong> A fugitive flees punishment for a crime they didn't commit. A dutiful agent of the law pursues them.</td></tr>
+					<tr><th class="text-center fw-normal">5.3</th><td><strong>Recovery:</strong> A seeker tries to recover someone or something they've lost.</td></tr>
+					<tr><th class="text-center fw-normal">5.4</th><td><strong>Rivalry:</strong> Two or more rivals enter a contest to win fortune, love, or respect.</td></tr>
+					<tr><th class="text-center fw-normal">5.5</th><td><strong>Sacrifice (Heroic):</strong> A hero sacrifices something or someone important&mdash;possibly themselves. A villain might take the credit.</td></tr>
+					<tr><th class="text-center fw-normal">5.6</th><td><strong>Sacrifice (Neccesary):</strong> In the course of serving a just cause, a friend, ally, or lover is wronged, injured, or killed.</td></tr>
+					<tr><th class="text-center fw-normal">6.1</th><td><strong>Secrecy:</strong> One or more people gain entry to a secret world or society.</td></tr>
+					<tr><th class="text-center fw-normal">6.2</th><td><strong>Supplication:</strong> One or more people beseech an authority for aid.</td></tr>
+					<tr><th class="text-center fw-normal">6.3</th><td><strong>Survival:</strong> One or more people are subject to trials of nature.</td></tr>
+					<tr><th class="text-center fw-normal">6.4</th><td><strong>Taboo:</strong> Two or more people from opposing factions put aside old hatreds and become friends or lovers. Someone might expose the truth.</td></tr>
+					<tr><th class="text-center fw-normal">6.5</th><td><strong>Theft:</strong> Someone steals an object of power or importance.</td></tr>
+					<tr><th class="text-center fw-normal">6.6</th><td><strong>Vigilantism:</strong> An avenger takes the law into their own hands.</td></tr>
+				</tbody>
+			</table></div>
+		</div>
+	</div>
 	<hr>
 	<h4 class="og-border" id="npc-dispositions">NPC Dispositions<a class="og-h-anchor" href="#npc-dispositions" title="Permalink" aria-hidden="true"></a></h4>
 	<div class="row">

@@ -22,7 +22,8 @@ randomObliqueStrategy();
 randomInformationGeneral();
 randomInformationSpecific();
 
-randomNPCStory();
+randomIncitingIncident();
+randomStoryArchetype();
 
 randomNPCDisposition1();
 randomNPCDisposition2();
@@ -89,10 +90,16 @@ function randomInformationSpecific() {
   document.getElementById("information-random-specific").innerHTML = descriptor;
 }
 
-function randomNPCStory() {
-  let descriptor = data.npcstory[Math.floor(Math.random() * data.npcstory.length)];
-  document.getElementById("npc-random-story").innerHTML = descriptor;
+function randomIncitingIncident() {
+  let descriptor = data.incitingincident[Math.floor(Math.random() * data.incitingincident.length)];
+  document.getElementById("random-inciting-incident").innerHTML = descriptor;
 }
+
+function randomStoryArchetype() {
+  let descriptor = data.storyarchetype[Math.floor(Math.random() * data.storyarchetype.length)];
+  document.getElementById("random-story-archetype").innerHTML = descriptor;
+}
+
 function randomNPCDisposition1() {
   let descriptor = data.npcdisposition1[Math.floor(Math.random() * data.npcdisposition1.length)];
   document.getElementById("npc-random-disposition1").innerHTML = descriptor;
@@ -195,9 +202,21 @@ document.getElementById("new-random-location").addEventListener("click", functio
   randomObliqueStrategy();
 });
 
-document.getElementById("new-random-npc-story").addEventListener("click", function (event) {
-  randomNPCStory();
+
+document.getElementById("new-random-inciting-incident").addEventListener("click", function (event) {
+  randomIncitingIncident();
 });
+
+document.getElementById("new-random-story-archetype").addEventListener("click", function (event) {
+  randomStoryArchetype();
+});
+
+document.getElementById("new-random-story").addEventListener("click", function (event) {
+  randomStoryArchetype();
+  randomIncitingIncident();
+});
+
+
 
 document.getElementById("new-random-npc-disposition1").addEventListener("click", function (event) {
   randomNPCDisposition1();
