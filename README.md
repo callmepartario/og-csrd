@@ -21,6 +21,7 @@ Thanks for reading, and may these tools bring you and yours many happy adventure
 
 ## More from Old Gus
 
+- [Old Gus' Cypher Reference Document (OG-CRD)](https://callmepartario.github.io/og-crd/)
 - [Old Gus' Cypher System Reference Document (OG-CSRD)](https://callmepartario.github.io/og-csrd/)
 - [Old Gus' Daggerheart System Reference Document (OG-DHSRD)](https://callmepartario.github.io/og-dhsrd/)
 - [Old Gus' Errata for Dungeons & Dragons 5th Edition](https://callmepartario.github.io/old-gus-errata/)
